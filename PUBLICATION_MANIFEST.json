@@ -9,8 +9,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 685,
-      "sha256": "cf5da9200bb68880e3c12a0a14bec166583ae7b4cbafb46c5b0524b3d4f388f3"
+      "bytes": 785,
+      "sha256": "58abfd9cde91785e9b1e7ff64e80f1cca72f172c537c3ec12f316432bc2f2f8b"
     },
     {
       "path": "DATA_MANIFEST.json",
@@ -21,41 +21,6 @@
       "path": "FEASIBILITY_AUDIT.md",
       "bytes": 9580,
       "sha256": "10c9c02b8f59fd46d20c4c3a3cdc5f78f3f67bf4ad72c50a271722ab60cd2aa0"
-    },
-    {
-      "path": "LUNA_PROMPT_CALIBRATION_COMPLETION_20261020.md",
-      "bytes": 11571,
-      "sha256": "f1098e0fae905d699dbed8d116bd55da9aa88d3f539fe601a272578fc093be06"
-    },
-    {
-      "path": "LUNA_PROMPT_CALIBRATION_CONTROL_20261019.md",
-      "bytes": 16097,
-      "sha256": "ab970b79e04e2a30d9f691547cced2d1036376e5cfde658ad6f3080232c47025"
-    },
-    {
-      "path": "LUNA_PROMPT_CALIBRATION_PREFLIGHT_20261019.md",
-      "bytes": 13867,
-      "sha256": "fb740e2de06e9aacf947bbacbe7958c5a324355494500e1fddd5f20d60863d9e"
-    },
-    {
-      "path": "LUNA_PROMPT_IDENTITY_SENSITIVITY_20261019.md",
-      "bytes": 9914,
-      "sha256": "3bcd7cb8cb325a3b847c8650b6e2871798e40e4493d33c8a1bc04c3259eaca44"
-    },
-    {
-      "path": "LUNA_PROMPT_NOVELTY_POSITIONING_20261020.md",
-      "bytes": 12456,
-      "sha256": "5db88b4e0af8d46633e87a55fac0e771bd710a71958ac48130960a907a31c2c2"
-    },
-    {
-      "path": "LUNA_PROMPT_THREE_SWAP_MIXTURE_20261019.md",
-      "bytes": 14274,
-      "sha256": "5e1cb9bd0cd080ee7e27d25799d054373e7bedcc485c272876e4bc066e15a4b6"
-    },
-    {
-      "path": "LUNA_PROMPT_THREE_SWAP_RECOVERY_20261019.md",
-      "bytes": 12428,
-      "sha256": "b563070ecb5bf336fc950d187ac5f8d0a78c067d7d82abbc8d4767b6fac12c13"
     },
     {
       "path": "NEXT_RESEARCH_DECISIONS_20261019.md",

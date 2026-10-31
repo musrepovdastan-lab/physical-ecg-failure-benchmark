@@ -9,6 +9,9 @@ __pycache__/
 .pytest_cache/
 .publication/
 
+# Internal agent instructions are local working notes, not project deliverables.
+/LUNA_PROMPT_*.md
+
 # Credentials and local configuration.
 .env
 .env.*
