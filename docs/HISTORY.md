@@ -34,7 +34,7 @@ See `outputs/phase1_chapman_seed1_v3/DATA_INGESTION_AUDIT.md` and
 
 **Research question.** Do evaluations based on random whole-lead masking systematically overestimate the robustness of 12-lead ECG classifiers to physically realizable electrode failures?
 
-This is a self-contained Phase-0 feasibility, novelty, and design audit. It does not train a model, download waveforms, or access sealed confirmation outcomes. The decisive blocker is in [outputs/FINAL_PHASE0_DECISION.md](outputs/FINAL_PHASE0_DECISION.md): the proposed non-PTB replication sources in the official PhysioNet/Computing in Cardiology Challenge 2020 release do not provide authoritative patient identifiers, and the official documentation states that patient overlap cannot be ruled out. They are therefore ineligible for the required confirmatory patient-cluster inference.
+This is a self-contained Phase-0 feasibility, novelty, and design audit. It does not train a model, download waveforms, or access sealed confirmation outcomes. The decisive blocker is in [outputs/FINAL_PHASE0_DECISION.md](../outputs/FINAL_PHASE0_DECISION.md): the proposed non-PTB replication sources in the official PhysioNet/Computing in Cardiology Challenge 2020 release do not provide authoritative patient identifiers, and the official documentation states that patient overlap cannot be ruled out. They are therefore ineligible for the required confirmatory patient-cluster inference.
 
 The project records a rigorously specified, electrically constrained fault representation and tests the exact transformations that can be derived from a conventional 12-lead recording. It deliberately does **not** pretend that a disconnected electrode or spatial precordial misplacement can be reconstructed from a clean 12-lead ECG alone.
 
@@ -99,14 +99,14 @@ remained at `BOOTSTRAP` after finalization; its completed count is 1,000 and it
 is documented as stale telemetry rather than contradictory evidence.
 
 The publication package is in
-[`outputs/paper_readiness_v1/`](outputs/paper_readiness_v1/):
-[`REPRODUCIBILITY_AUDIT.md`](outputs/paper_readiness_v1/REPRODUCIBILITY_AUDIT.md),
-[`CROSS_DATASET_RESULTS.csv`](outputs/paper_readiness_v1/CROSS_DATASET_RESULTS.csv),
-[`MECHANISM_AUDIT.md`](outputs/paper_readiness_v1/MECHANISM_AUDIT.md),
-[`CLAIMS_AND_LIMITATIONS.md`](outputs/paper_readiness_v1/CLAIMS_AND_LIMITATIONS.md),
-[`WORKSHOP_READINESS_DECISION.md`](outputs/paper_readiness_v1/WORKSHOP_READINESS_DECISION.md),
+[`outputs/paper_readiness_v1/`](../outputs/paper_readiness_v1/):
+[`REPRODUCIBILITY_AUDIT.md`](../outputs/paper_readiness_v1/REPRODUCIBILITY_AUDIT.md),
+[`CROSS_DATASET_RESULTS.csv`](../outputs/paper_readiness_v1/CROSS_DATASET_RESULTS.csv),
+[`MECHANISM_AUDIT.md`](../outputs/paper_readiness_v1/MECHANISM_AUDIT.md),
+[`CLAIMS_AND_LIMITATIONS.md`](../outputs/paper_readiness_v1/CLAIMS_AND_LIMITATIONS.md),
+[`WORKSHOP_READINESS_DECISION.md`](../outputs/paper_readiness_v1/WORKSHOP_READINESS_DECISION.md),
 and the not-yet-executed
-[`NEXT_EXPERIMENT_PROTOCOL_DRAFT.md`](outputs/paper_readiness_v1/NEXT_EXPERIMENT_PROTOCOL_DRAFT.md).
+[`NEXT_EXPERIMENT_PROTOCOL_DRAFT.md`](../outputs/paper_readiness_v1/NEXT_EXPERIMENT_PROTOCOL_DRAFT.md).
 
 
 <!-- M1_STATUS_START -->

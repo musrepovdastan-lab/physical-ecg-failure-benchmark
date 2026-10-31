@@ -189,8 +189,8 @@
     },
     {
       "path": "docs/HISTORY.md",
-      "bytes": 7246,
-      "sha256": "25bae726f65659250de3aa0ec54d69d97fbbef4e4815e2e9dbed538f2f7c7720"
+      "bytes": 7270,
+      "sha256": "de1410e2e3c191a5f2f0823f7eaf6747ab00d79a85fed1331d005caf4a122960"
     },
     {
       "path": "docs/PUBLICATION.md",
@@ -206,6 +206,11 @@
       "path": "docs/RESULTS.md",
       "bytes": 2533,
       "sha256": "9bbb803f00a5d47e9b261e084121930eab6b4098ba39414f5ff9f23154501c41"
+    },
+    {
+      "path": "outputs/FINAL_PHASE0_DECISION.md",
+      "bytes": 4133,
+      "sha256": "87a9f4f3bd74a1ef4e02b42b18aa364f6fe420382ae977920099d912c8cce7b7"
     },
     {
       "path": "outputs/README.md",
