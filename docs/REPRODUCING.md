@@ -28,6 +28,11 @@ There is no single command that reproduces the complete research history.
 Archived authorization/status statements do not authorize new experiments or
 replace dataset-access permission. Some orchestration/latency tools require Windows.
 
+The [fault model](methods.md) documents the electrical transformations and their
+limits. The [Ningbo protocol notes](ningbo_protocol_notes.md) explain the duplicate
+handling amendment. Root `DATA_MANIFEST.json` is the historical Phase-0 data audit;
+it remains at that path because the chest-only runner verifies its checksum there.
+
 ## External models
 
 **ECGFounder:** obtain [the authors' code](https://github.com/PKUDigitalHealth/ECGFounder),
@@ -64,6 +69,6 @@ ignored by default; selected aggregate reports can be added explicitly with
 restricted data, individual-level exports, credentials, dependencies or weights.
 
 `.gitattributes` preserves original file bytes for historical SHA-256 checks.
-`PUBLICATION_MANIFEST.json` lists this release's files. Historical manifests can
-reference omitted local artifacts; editing documentation/tests does not re-freeze
-the original experiments.
+Historical manifests can reference omitted local artifacts; editing documentation
+does not re-freeze the original experiments. Internal planning notes and the
+one-off publication inventory are kept locally and excluded from Git.

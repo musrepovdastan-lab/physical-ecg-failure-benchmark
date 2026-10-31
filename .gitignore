@@ -9,8 +9,13 @@ __pycache__/
 .pytest_cache/
 .publication/
 
-# Internal agent instructions are local working notes, not project deliverables.
+# Internal instructions, planning notes and publication staging stay local.
 /LUNA_PROMPT_*.md
+/RESEARCH_PLAN_*.md
+/REMAINING_WORK_PLAN_*.md
+/NEXT_RESEARCH_DECISIONS_*.md
+/VENUE_ANALYSIS_*.md
+/PUBLICATION_MANIFEST.json
 
 # Credentials and local configuration.
 .env

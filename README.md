@@ -5,9 +5,9 @@ channels and physically valid limb-electrode cable reversals. The project covers
 Chapman-Shaoxing, Ningbo and restricted HEEDB evaluations, mitigation experiments,
 chest-only and ECGFounder baselines, and a published detection/correction pipeline.
 
-**Для ментора:** начните с [последнего отчёта](outputs/mentor_update_20261020/REPORT_TEXT_FOR_REVIEW.txt)
-и [карты результатов](docs/RESULTS.md). Здесь собраны собственный исследовательский
-код, тесты, зафиксированные протоколы и отобранные сводные результаты.
+Start with the [latest mentor report](outputs/mentor_update_20261020/REPORT_TEXT_FOR_REVIEW.txt)
+and [results guide](docs/RESULTS.md). This repository contains project-owned code,
+tests, frozen protocols and selected aggregate results.
 
 ## Structure
 
@@ -16,16 +16,21 @@ src/                 Core transformations, training, evaluation and audits
 tests/               Mathematical and workflow regression tests
 configs/             Frozen study protocols; original versions retained
 outputs/<study>/     Study scripts, reports and selected aggregate tables
-docs/                Reproduction guide, results map and historical README
+docs/                Methods, reproduction, results and next steps
+docs/archive/        Historical Phase-0 assessments
 data/README.md       Data sources, access and expected local layout
 requirements.txt     Minimal dependencies for the physics tests
 requirements-research.txt  Research dependencies
-PUBLICATION_MANIFEST.json  Published file sizes and SHA-256 checksums
+DATA_MANIFEST.json   Historical Phase-0 data audit; required by a legacy runner
 ```
 
 Study-specific scripts remain at their original `outputs/<study>/` paths because
 other scripts and frozen protocols refer to them. Historical versions and failed
 analyses are retained; use the corrected results linked in [docs/RESULTS.md](docs/RESULTS.md).
+
+Documentation: [methods](docs/methods.md),
+[Ningbo protocol notes](docs/ningbo_protocol_notes.md),
+[reproduction](docs/REPRODUCING.md) and [open decisions](docs/next_steps.md).
 
 ## Quick start: no datasets or GPU needed
 
@@ -80,6 +85,6 @@ See [data/README.md](data/README.md).
 
 Historical hashes describe the original studies, including artifacts omitted from
 this public snapshot. Full historical runs cannot be reproduced from a fresh
-clone alone. The publication manifest lists the actual distributed files.
+clone alone. The historical Phase-0 assessments are kept in [docs/archive/](docs/archive/).
 External resources retain their own access/license terms. A project-wide
 open-source license has not yet been selected.

@@ -2,7 +2,7 @@
 
 Read the [20 October mentor update](../outputs/mentor_update_20261020/REPORT_TEXT_FOR_REVIEW.txt),
 [research positioning](../outputs/novelty_positioning_after_controls_v1/RESEARCH_POSITIONING_RU.md)
-and [remaining decisions](../outputs/novelty_positioning_after_controls_v1/REMAINING_DECISIONS_RU.md).
+and the consolidated [next steps](next_steps.md).
 
 | Question | Study directory |
 | --- | --- |

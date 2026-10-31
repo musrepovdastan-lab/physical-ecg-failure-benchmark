@@ -8,4 +8,5 @@ large generated files that are not published. Start with
 Historical and corrected versions are retained. Follow final reports and amendments
 when choosing a result. Individual-level exports, raw ECGs, checkpoints, third-party
 source, downloaded papers, environments and caches are omitted. Historical manifests
-may reference omitted files; `PUBLICATION_MANIFEST.json` lists published files.
+may reference omitted files. See [the publication notes](../docs/PUBLICATION.md)
+for the snapshot scope and verification details.

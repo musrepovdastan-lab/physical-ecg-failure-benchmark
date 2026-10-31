@@ -40,10 +40,10 @@ The project records a rigorously specified, electrically constrained fault repre
 
 ## Contents
 
-- `FEASIBILITY_AUDIT.md` — gate-by-gate audit, legacy evidence, compute, and blocker.
-- `RELATED_WORK_GAP.md` — 2022–2026 search and narrow novelty position.
-- `DATA_MANIFEST.json` — official-source metadata-only audit; no waveforms downloaded.
-- `PHYSICAL_FAULT_LIBRARY_SPEC.md` — equations, eligible transformations, and forbidden heuristics.
+- [Phase-0 feasibility audit](archive/phase0_feasibility.md) — gate-by-gate audit, legacy evidence, compute, and blocker.
+- [Phase-0 related work](archive/phase0_related_work.md) — initial literature search and novelty position.
+- [DATA_MANIFEST.json](../DATA_MANIFEST.json) — official-source metadata-only audit; no waveforms downloaded.
+- [Fault model](methods.md) — equations, eligible transformations, and forbidden heuristics.
 - `configs/FROZEN_PHASE1_PROTOCOL.json` — a contingent protocol, explicitly not authorised to run while NO-GO holds.
 - `src/ecg_physics.py`, `tests/test_ecg_physics.py` — reference equations and unit tests.
 
@@ -85,7 +85,7 @@ V1 is permanently recorded as `STOP_DUPLICATE_CONFLICT` before any split,
 training, or test evaluation. The separately frozen v2 protocol applies the
 prespecified amendment: it excludes every member of the three audited
 metadata-conflicting duplicate waveform groups (six records) before splitting,
-independent of endpoint labels. See `PROTOCOL_V2_AMENDMENT.md` and
+independent of endpoint labels. See [Ningbo protocol notes](ningbo_protocol_notes.md) and
 `outputs/ningbo_confirmation_v2/`.
 <!-- NINGBO_V2_STATUS_END -->
 
