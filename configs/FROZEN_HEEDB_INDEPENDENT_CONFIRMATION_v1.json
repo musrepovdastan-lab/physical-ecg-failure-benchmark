@@ -1,0 +1,59 @@
+{
+  "protocol": "HEEDB I0006 independent corrected-pipeline confirmation v1",
+  "status": "preregistered and frozen before confirmation outcome access or inference",
+  "frozen_date": "2026-09-25",
+  "study_type": "one independent disjoint patient-sample confirmation; no training or method search",
+  "cohort_freeze_sha256": "310f08121d74b3f91a907a25e7380390bb03621025606d8f8ed5f20b2e35a36f",
+  "selected_manifest_sha256": "7af9986691871d57df5699e270b3cf4442bf5a733536356155a87094bac09de4",
+  "candidate_reserve_order_sha256": "9fd43031d7b09721b96c147294c625d5ed735e3043a654fe582216a999189cde",
+  "evaluator_sha256": "c4902b65b8417d6f62c67b3d4286ab9ad09f8eff6097b5cb25e9d5535c67d5b5",
+  "engineering_tests_sha256": "a9cd375f956bdfc1c0ddd935d17588bad10729b2f3d199421a7cc086f3f4ab77",
+  "bound_artifacts_sha256": {
+    "tests/test_heedb_independent_confirmation_v1.py": "a9cd375f956bdfc1c0ddd935d17588bad10729b2f3d199421a7cc086f3f4ab77",
+    "configs/FROZEN_HEEDB_EXTERNAL_CORRECTED_V2_PROTOCOL.json": "c339031084061dddf683f263319fd80c9d87bcec47df781eeeef0a3ed3399838",
+    "configs/FROZEN_HEEDB_EXTERNAL_PROTOCOL_v1.json": "a1409359fe89e6e93f1cfdc734d82b212807e8ebe6e8aa7adb181c55b527d2c1",
+    "src/heedb_external_corrected_v2.py": "fca478a2fd0c5ac5def5cdb3e3a3a05cae14546d0e3a82b67c76281cf7812e3d",
+    "src/heedb_external_v1.py": "6c7186779578a91240a6137fb563f6b37a0aab1aa46b5684bf7672af76ea3450",
+    "src/ecg_physics.py": "51218806eec81765df6247307e70ccce56f76cfa54e54782f1b47d468014eb9c",
+    "data/heedb_restricted/I0006/external_v1/candidate_patient_order.csv": "2748459744a58d96bdf58e07130e88790e6130c450d05f8206e0a7830a5af43c",
+    "data/heedb_restricted/I0006/external_v1/selection_final.csv": "e382156a3765622e23159b6eaf7c0834de519717e1f1d5e430d17740bb8230a6",
+    "data/heedb_restricted/I0006/audit_manifests/waveform_sample_candidates.csv": "e6ae973b4ae59b65f2fc4419759d132df22df5ac048c2630693c00cb2bf4fab2",
+    "data/heedb_restricted/I0006/12SL_diagnoses/diagnoses_acquisition.csv": "32eddfbd813c69138850344ff0f141a1b07c3716ef11bb113cf10c254f66a296"
+  },
+  "population": "HEEDB I0006 Emory; 10000 new patients, one ECG each, no patient in v1/corrected-v2 evaluation or the 23 readiness records",
+  "selection": "Use the prior frozen candidate order, which already chose one ECG per patient by a label-blind record hash after filtering missing patient IDs and empty physician-code fields. Read only patient ID, FileName and remote stem. Exclude all v1/v2 and readiness patient IDs. Sort remaining patients by SHA256('heedb_independent_confirmation_v1|2026-09-24|patient_hash'|'|'|BDSPPatientID), then patient ID; take first 10000. No rate, quality, label or prediction stratification. If any frozen selected waveform is unreadable, stop rather than substitute a new record.",
+  "outcome_access": "No confirmation diagnosis code values read until selected manifest and this full protocol were hashed. After freeze, join selected FileName one-to-one to diagnoses_acquisition.csv and use codes_physician only; no software or v24 label merge.",
+  "label_mappings": {
+    "core": {"TWA": [1140, 1145, 1150, 1151, 1160, 1161, 1170, 1171, 1172, 1180, 1181], "SB": [21, 24], "STach": [23]},
+    "strict": {"TWA": [1140], "SB": [21], "STach": [23]}
+  },
+  "primary_endpoint": "three matched-seed mean of physics-aware minus baseline core-TWA AUPRC under exact simulated RA_LL_reversal; paired patient-level percentile 95% interval",
+  "prespecified_secondary": "Core-TWA clean AUPRC, AUROC, frozen-threshold sensitivity and specificity, predicted-positive fraction, mean score, Brier score and 15-bin ECE; same clean and RA-LL diagnostics for core SB, core STach, strict TWA and strict SB. Three seed-level results and means; arm and condition contrasts for AUPRC, sensitivity and specificity, with paired intervals. No 24-mask panel in this bounded confirmation.",
+  "arms": ["baseline", "physics_aware"],
+  "seeds": [104729, 130363, 155921],
+  "labels": ["TWA", "SB", "STach"],
+  "conditions": ["clean", "RA_LL_reversal"],
+  "sampling_and_units": "Read the selected HEEDB .hea/.dat with frozen v1 WFDB reader; require mV and canonical 12-lead order; convert mV x1000 to microvolts; resample original 250Hz 2500 samples up 2 to 500Hz 5000 samples, leave original 500Hz 5000 samples, then v2 ::5 to exact (12,1000) effective 100Hz input.",
+  "reversal": "Call the existing src.ecg_physics.named_reversal(independent I,II,V1-V6,'RA_LL_reversal') and derive_display through v2.normalized_conditions; apply before frozen per-lead Ningbo normalization. This is a simulated electrical cable swap, not an observed wiring error.",
+  "normalization": "Use each frozen checkpoint's unchanged Ningbo preprocessing.npz mean/std; no HEEDB re-estimation.",
+  "thresholds": {
+    "baseline": {
+      "104729": [0.650341808795929, 0.010204315185546875, 0.04400634765625],
+      "130363": [0.733203113079071, 0.0027326582930982113, 0.10052490234375],
+      "155921": [0.586132824420929, 0.04575805738568306, 0.039886474609375]
+    },
+    "physics_aware": {
+      "104729": [0.6971679925918579, 0.008510589599609375, 0.009073639288544655],
+      "130363": [0.562451183795929, 0.0056854248978197575, 0.011165618896484375],
+      "155921": [0.711865246295929, 0.01172027550637722, 0.011447906494140625]
+    }
+  },
+  "model_artifacts": "The 18 six-checkpoint/preprocessing/validation hashes bound inside the above immutable corrected-v2 protocol must all revalidate on every stage; source ECGResNet architecture is verified by the v1 frozen model loader.",
+  "bootstrap": "1000 synchronized with-replacement patient-index samples using numpy default_rng seed 20260924; same resampled patient indices for both arms, all three seeds and both conditions; report percentile 2.5 and 97.5 intervals, with seed-level contrasts averaged after each resample.",
+  "transfer_gate": "Use only exact large-repository S3 alias and non-root bdsp-reader IAM identity. HEAD only the 20000 selected .hea/.dat objects; verify STANDARD storage, no RequestCharged response, exact sizes, local reuse, <=2 GiB needed. Estimate ordinary S3 owner-side cost at $0.09/decimal GB internet egress plus $0.0004/1000 Standard GET and HEAD requests, ignoring free tier/discounts; stop before transfer if estimate >$0.25 or billing/size cannot be determined safely. Never use RequestPayer or broader S3 permissions. Downloads are size-verified and resumable; no duplicate job.",
+  "engineering_gate": "Three automated tests of exact (12,1000) sampling, all 12 RA-LL leads including aVR/aVF, and normalization order. Smoke on the 23 excluded readiness ECGs across all six models and clean/exact-RA-LL, finite three-channel probabilities, before confirmation inference.",
+  "no_adaptation": "No new training, model or threshold tuning, mapping changes, calibration, sample substitution, interim-outcome response, or wider method search.",
+  "restricted_location": "data/heedb_restricted/I0006/independent_confirmation_v1/; patient/record-level files are git-ignored",
+  "aggregate_location": "outputs/heedb_independent_confirmation_v1/; public results and progress contain aggregates only",
+  "interpretation": "Independent confirmation of simulated electrical reversal under physician-overread HEEDB proxy labels, not verified real-world lead misplacement or exact Chapman/Ningbo SNOMED-label replication. Report unfavorable sensitivity/specificity tradeoffs plainly."
+}

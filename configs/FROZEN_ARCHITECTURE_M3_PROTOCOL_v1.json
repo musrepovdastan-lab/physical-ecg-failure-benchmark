@@ -1,0 +1,25 @@
+{
+  "version": "architecture_m3_v1",
+  "status": "FROZEN_BEFORE_TRAINING",
+  "purpose": "staged architecture-generalization test of the frozen physics-aware mitigation",
+  "immutable_bindings": {
+    "m1_protocol": {"path": "configs/FROZEN_MITIGATION_M1_PROTOCOL_v1.json", "sha256": "248976F691003DAA45C5F188C53F7CF75891F19F8723223477FC41E1D65667CE"},
+    "m2_protocol": {"path": "configs/FROZEN_MITIGATION_M2_NINGBO_PROTOCOL_v1.json", "sha256": "2D7B605AF175EF6D5B59B223A9EA37BB3F7D675C2C1AC3E27FFF23FCD43E96B8"},
+    "chapman_split": {"path": "outputs/phase1_chapman_seed1_v4/SPLIT_MEMBERSHIP_v4.json"},
+    "ningbo_records": {"path": "outputs/ningbo_confirmation_v2/CANONICAL_RECORDS.json", "sha256": "2A217B4E01F8570FCB5E6F25FEEAD6F04D4D490C558084C7B9DDF02389495DA5"},
+    "ningbo_split": {"path": "outputs/ningbo_confirmation_v2/SPLIT_MEMBERSHIP.json", "sha256": "C6D15238EDB4334E7565BE1049557C3CE4410AB784F2519B1C7F620B51396388"},
+    "ningbo_bootstrap_indices": {"path": "outputs/ningbo_confirmation_v2/bootstrap_indices.npy", "sha256": "6D186026B73C6A0AD31DF3C20F16C6F18AD9970176E9C78B0235E6A64E1861D1"}
+  },
+  "datasets": ["Chapman", "Ningbo"],
+  "stage_a": "Chapman only; Ningbo prohibited until the frozen Stage-M3A gate passes",
+  "seeds": [104729,130363,155921],
+  "arms": {"clean": {"clean_probability": 1.0}, "physics_aware": {"clean_probability": 0.5, "terminal_reversal_probability": 0.5, "terminal_reversals": ["RA_LA_reversal","RA_LL_reversal","LA_LL_reversal"], "uniform": true}},
+  "architecture": {"name": "TimePatchTransformer", "input": "12 x 1000 canonical displayed waveform", "patch_samples": 10, "patch_duration_ms": 100, "joint_lead_tokens": true, "d_model": 192, "heads": 6, "blocks": 4, "mlp_dim": 768, "dropout": 0.1, "pre_layer_norm": true, "learned_positions": true, "pooling": "mean", "outputs": 3, "pretrained": false},
+  "training": {"optimizer": "AdamW", "learning_rate": 0.0003, "weight_decay": 0.0001, "positive_weight_cap": 20, "batch_size": 64, "max_epochs": 30, "mixed_precision": true, "early_stop": "validation TWA AUPRC; patience 5", "transform_before_normalization": true, "determinism": "arm, seed, epoch, canonical training-record index"},
+  "validation_gate": {"twa_auroc_min": 0.75, "twa_auprc_min": 0.45, "finite": true, "checkpoint_integrity": true, "zero_leakage": true, "test_accessed_before_evaluation_freeze": false},
+  "evaluation": {"conditions": ["clean","RA_LL_reversal","all C(12,5)=792 masks"], "mask_sentinel": "train mean", "primary_contrast": "mean mask AUPRC minus RA_LL AUPRC", "metrics": ["AUPRC","AUROC","validation-frozen sensitivity","validation-frozen specificity","ECE_15"]},
+  "bootstrap": {"replicates": 1000, "unit": "canonical record", "synchronized": true, "persist_every": 10, "direct_condition_level_auprc": true},
+  "stage_a_gate": {"each_seed_ra_ll_twa_improvement_min": 0.15, "aggregate_contrast_reduction_min": 0.15, "physics_contrast_upper95_max": 0.15, "mean_clean_decline_max": 0.02, "any_clean_decline_max": 0.04, "mean_mask_decline_max": 0.02, "any_mask_decline_max": 0.04, "all_integrity_gates": true},
+  "decisions": ["PASS_M3_ARCHITECTURE_REPLICATION","FAIL_M3_ARCHITECTURE_SPECIFIC","STOP_M3A_VALIDATION_GATE","STOP_M3A_SCIENTIFIC_GATE","STOP_M3B_VALIDATION_GATE","STOP_M3_TECHNICAL_BLOCKER"],
+  "output_schema": ["ENVIRONMENT_AUDIT.json","ENVIRONMENT_AUDIT.md","FROZEN_PROTOCOL_HASH.json","TRAINING_STATUS_BY_DATASET_ARM_SEED.csv","VALIDATION_GATES.json","PRIMARY_RESULTS.csv","BOOTSTRAP_SUMMARY.csv","conclusions_m3.json","FINAL_M3_DECISION.md","figures"]
+}

@@ -1,0 +1,28 @@
+{
+  "bootstrap": {
+    "level": "scenario",
+    "replicates": 1000,
+    "synchronized": true
+  },
+  "comparator": "all C(12,5)=792 five-displayed-lead masks",
+  "endpoints": [
+    "164934002",
+    "426177001",
+    "427084000"
+  ],
+  "estimate": {
+    "compute": "three CUDA seed trainings plus 3 x 794 inference conditions and 1,000 bootstrap replicates",
+    "storage": "approximately 3-6 GB prediction/checkpoint/log workspace"
+  },
+  "model_family": "ECGResNet-small",
+  "no_tuning_after_access": true,
+  "primary_fault": "RA_LL_reversal",
+  "replication": "same-direction result on untouched Ningbo",
+  "scope": "untouched Ningbo confirmation; no access performed by Chapman v7",
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "status": "DRAFT_ONLY_NOT_EXECUTED"
+}

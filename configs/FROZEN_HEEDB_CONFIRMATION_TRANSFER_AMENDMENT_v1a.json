@@ -1,0 +1,24 @@
+{
+  "amendment": "HEEDB independent confirmation v1a transfer-only engineering recovery",
+  "frozen_date": "2026-09-26",
+  "scope": "Path containment and visible, one-object resume only; original scientific cohort, outcomes, models, thresholds, transforms, metrics and bootstrap remain frozen and unchanged",
+  "scientific_protocol_sha256": "199344e9f7cbb0eb55564f52ce320bca4c85478ceb68174a3d11568611a58760",
+  "source_sha256": "12b67be1a356d19fe2ac9b1260cfbe5ec6726d29a4113167e3aa86e449595083",
+  "tests_sha256": "e65ef632d2298610e00fae9ade5b85ee82579238e68b8a0448c1948146c6ada3",
+  "bound_sha256": {
+    "configs/FROZEN_HEEDB_INDEPENDENT_CONFIRMATION_v1.json": "199344e9f7cbb0eb55564f52ce320bca4c85478ceb68174a3d11568611a58760",
+    "src/heedb_independent_confirmation_v1.py": "c4902b65b8417d6f62c67b3d4286ab9ad09f8eff6097b5cb25e9d5535c67d5b5",
+    "tests/test_heedb_confirmation_transfer_amendment_v1a.py": "e65ef632d2298610e00fae9ade5b85ee82579238e68b8a0448c1948146c6ada3",
+    "outputs/heedb_independent_confirmation_v1/COHORT_FREEZE.json": "310f08121d74b3f91a907a25e7380390bb03621025606d8f8ed5f20b2e35a36f",
+    "outputs/heedb_independent_confirmation_v1/TRANSFER_PREFLIGHT.json": "546c1f955a1f8445113e2c9002c48c3cec6f95b98927d6b57b1e144909e3d0cc",
+    "data/heedb_restricted/I0006/independent_confirmation_v1/selection_initial.csv": "7af9986691871d57df5699e270b3cf4442bf5a733536356155a87094bac09de4",
+    "data/heedb_restricted/I0006/independent_confirmation_v1/waveform_object_manifest.csv": "19ed0e4755ff85c2aef9e1d52bf83e3b87847cef0288c87e735ecb9ef400740f"
+  },
+  "diagnosis": "The original Path.resolve containment check raised once for a manifest path that is now relative, non-traversing and contained. Rechecking all 20000 rows finds no unsafe path. The precise transient trigger was not reproduced; do not claim a proven Windows race.",
+  "path_guard": "Reject absolute, drive, UNC, traversal, empty/dot, backslash, colon, reserved Windows device, trailing-space/dot, NUL, non-.hea/.dat, symlink and junction components. Check lexical commonpath independently of filesystem directory-creation state, then repeat link checks after parent creation before opening.",
+  "required_prior_state": "Exactly 19999 frozen selected objects present at their remote size, 1176892861 retained bytes, exactly one missing 120000-byte .dat; no active downloader or evaluation artifact",
+  "transfer_cap_bytes": 2147483648,
+  "frozen_charge_estimate_ceiling_usd": 0.25,
+  "resume_rule": "Use only non-root bdsp-reader IAM identity, HEAD the sole missing object, transfer only missing/invalid selected objects, log each completion, then verify exact sizes of all 20000. Write DOWNLOAD_COMPLETE.json only after that final gate.",
+  "prohibitions": "No patient replacement, outcome inspection to change design, scientific evaluator edits, threshold/label/model changes, new training, broad S3 listing, or additional downloads beyond frozen selected objects"
+}

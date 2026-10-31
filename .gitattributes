@@ -1,0 +1,2 @@
+# Preserve original bytes: frozen protocols bind files by SHA-256.
+* -text

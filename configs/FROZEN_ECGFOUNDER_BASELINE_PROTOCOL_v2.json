@@ -1,0 +1,179 @@
+{
+  "amendment_scope": "input adapter only; all scientific choices copied byte-for-byte as JSON values from v1",
+  "analysis_sha256": "cd2547a8b8337dcfde289efcaf6326e2eedf3b43debd6463b904a9648c48c20a",
+  "data": {
+    "datasets": [
+      "Chapman",
+      "Ningbo"
+    ],
+    "labels_in_order": [
+      "TWA",
+      "SB",
+      "STach"
+    ],
+    "patient_unit": "existing canonical one-record-per-patient split/cluster assumption; no new split or exclusion",
+    "same_record_ids_and_existing_train_validation_test_splits": true,
+    "snomed_codes_in_order": [
+      "164934002",
+      "426177001",
+      "427084000"
+    ],
+    "test_sizes": {
+      "Chapman": 2050,
+      "Ningbo": 6981
+    },
+    "training_sizes": {
+      "Chapman": 7163,
+      "Ningbo": 24430
+    },
+    "validation_sizes": {
+      "Chapman": 1021,
+      "Ningbo": 3488
+    }
+  },
+  "evaluation": {
+    "bootstrap": "1000 synchronized resamples of canonical patient/record units with replacement, seed 20260921, paired across conditions and model predictions; percentile 95% intervals for metrics, drops, and model drop differences",
+    "comparison": "paired with each of the three existing clean-trained ECGResNet-small seeds on identical sorted held-out record IDs; report per-seed and mean ResNet metrics, and clean-to-reversal drops",
+    "conditions": [
+      "clean",
+      "RA_LL_reversal"
+    ],
+    "interpretation": "exploratory; not fresh blinded confirmation, architecture or SOTA superiority claim",
+    "metrics": [
+      "AUPRC",
+      "AUROC",
+      "sensitivity_at_validation_fixed_threshold"
+    ],
+    "primary": "TWA clean minus RA-LL AUPRC within each dataset",
+    "secondary": [
+      "SB",
+      "STach"
+    ],
+    "zero_shot": "published 150-class logits for name-matched SB and STach separately; no TWA zero-shot score"
+  },
+  "excluded": [
+    "HEEDB download",
+    "ECGFounder backbone retraining",
+    "all 792 masks",
+    "M3 resume or overwrite",
+    "new robustness method"
+  ],
+  "file_bindings": {
+    "outputs/ecgfounder_baseline_v1/official/12_lead_ECGFounder.pth": "ee199f3781f4ae1f732973267f003da0a759ea12bddb0dd28a77faa60aca7997",
+    "outputs/ecgfounder_baseline_v1/official/ECGFounder-04edac702b61c91face519774ddcc0cd712fef23/dataset.py": "b113a9c35fdbb94923e2a88ccbaff4b4e04a5ca1fc8c732ee9fa6de5d49b4a31",
+    "outputs/ecgfounder_baseline_v1/official/ECGFounder-04edac702b61c91face519774ddcc0cd712fef23/net1d.py": "832bf90e05e20e62db6f9c7007acf7f0b1f739938ab80fa9b2c1ad438e8da7f7",
+    "outputs/ecgfounder_baseline_v1/official/ECGFounder-04edac702b61c91face519774ddcc0cd712fef23/tasks.txt": "7c087a0d383c7ea9ae9b818ad00a551b029334edfa5f1fbb5036bfbaa0df0c39",
+    "outputs/ecgfounder_baseline_v1/official/ECGFounder-04edac702b61c91face519774ddcc0cd712fef23/util.py": "79972b6c8e769f75e1fa766879ce7de50125e621fb0b0dcce1af45e3bfac4184",
+    "outputs/ecgfounder_baseline_v2/MISSING_PATH_AUDIT.json": "8b8a73dd7830190177c8345f2a1f8dcf385e754eaa01f54651cb26387bead99f",
+    "outputs/ecgfounder_baseline_v2/PREFREEZE_SMOKE.json": "eaa1abf517489f2574e69746cedf4dc867e68446299a195e4e387b796be99d0f",
+    "outputs/ningbo_confirmation_v2/CANONICAL_RECORDS.json": "2a217b4e01f8570fcb5e6f25feead6f04d4d490c558084c7b9ddf02389495da5",
+    "outputs/ningbo_confirmation_v2/SPLIT_MEMBERSHIP.json": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388",
+    "outputs/ningbo_confirmation_v2/seed_104729/test_predictions/RA_LL_reversal.npz": "dd1664666a8383f9f92a867e70949f5930250c454135df0352352e965006228a",
+    "outputs/ningbo_confirmation_v2/seed_104729/test_predictions/clean.npz": "b36338ed1129116e1d6c034010f5fa9e43e1460c4393d5b822a03e2cb6c813d1",
+    "outputs/ningbo_confirmation_v2/seed_130363/test_predictions/RA_LL_reversal.npz": "0d2e7c901db2a506d7c38400f7806b76d9c1ad24d352fd1ed36a563714a6b88c",
+    "outputs/ningbo_confirmation_v2/seed_130363/test_predictions/clean.npz": "e03f1a3cd094f8c3d86699d5e4b5a4179c900e39b0cf8a0bc05d30dde66972ba",
+    "outputs/ningbo_confirmation_v2/seed_155921/test_predictions/RA_LL_reversal.npz": "769feca273d07580ca08e0fe0c0661676f1a96a6a4cb767e48d0a68dd4e100d1",
+    "outputs/ningbo_confirmation_v2/seed_155921/test_predictions/clean.npz": "9e756fe810a237bac6d296fa1e5fce9cb45c7508216321ea01edc9ced94007f2",
+    "outputs/phase1_chapman_seed1_v4/SPLIT_MEMBERSHIP_v4.json": "f3dafa0fc892a3d821ac0b386205e185134f1653990815c55deaa699cb66253d",
+    "outputs/phase1_chapman_seed1_v4/test_predictions_v4/RA_LL_reversal.npz": "a9fe2b7bd1aff07944e67107c7297059b377a66b5cb6b2bb18d20d44d59daaea",
+    "outputs/phase1_chapman_seed1_v4/test_predictions_v4/clean.npz": "b86de4b19d5e43f27b8b3592f4518261ea6a477da417291e80e0a0cec8c3d24b",
+    "outputs/phase2_chapman_multiseed_v7/seed_130363/test_predictions/RA_LL_reversal.npz": "18ad5bd56b747fe50732128b1e60f455467fb065d54e3049f06151d30cf46733",
+    "outputs/phase2_chapman_multiseed_v7/seed_130363/test_predictions/clean.npz": "da5f23c22bdd68ab4fd348e81d520c1c87caae7fbf69df21433f2a1a5a188fac",
+    "outputs/phase2_chapman_multiseed_v7/seed_155921/test_predictions/RA_LL_reversal.npz": "f481fa0137e4be2f87f26b568e0841cb01af4d50b2e79935aa333b787f98fd43",
+    "outputs/phase2_chapman_multiseed_v7/seed_155921/test_predictions/clean.npz": "68ba5071b30e4c253ed7276370b7a60eebf7959aa702b8c8947e1148953d0e6b",
+    "src/ecg_physics.py": "51218806eec81765df6247307e70ccce56f76cfa54e54782f1b47d468014eb9c",
+    "src/ecgfounder_analyze_v2.py": "cd2547a8b8337dcfde289efcaf6326e2eedf3b43debd6463b904a9648c48c20a",
+    "src/ecgfounder_preflight_v2.py": "63c5a33d06ca2ecc7d5139b89d9275fd4fa5e85e2095bef8f74a8789505d89c4",
+    "src/ecgfounder_prefreeze_smoke_v2.py": "9c0e816985c2213467e05ecb8a61b755d9940b009bde06fad903992ee3df801e"
+  },
+  "freeze_access_status": {
+    "test_input_audit_scope": "paths, headers, raw waveform hashes and missing-value counts only",
+    "test_inputs_audited_before_freeze": true,
+    "test_labels_or_predictions_used_to_select_v2_head_before_freeze": false,
+    "test_model_outcomes_evaluated_before_freeze": false
+  },
+  "frozen_head": {
+    "C_grid": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "family": "three independent L2-regularized linear logistic heads on the 1024-D frozen features, trained clean only",
+    "feature_standardization": "per-dimension mean and population std from each dataset's existing training split, floor std at 1e-6",
+    "no_backbone_updates": true,
+    "selection": "highest clean validation AUPRC for each label; tie selects smaller C",
+    "solver": "sklearn LogisticRegression liblinear, max_iter=300, tol=1e-4, class_weight=None, random_state=20260920",
+    "threshold": "90th percentile of clean validation negative probabilities per label, fixed for both test conditions"
+  },
+  "frozen_utc": "2026-09-21T02:12:19.473301+00:00",
+  "input_adapter_v2": {
+    "chapman_v1_reuse": "none; recompute all Chapman features and validation-selected head in v2",
+    "ningbo_hash": "verify every actual waveform SHA-256 against canonical record and frozen split before full run; check ID/hash binding again during loading",
+    "ningbo_path": "resolve every ID through canonical header_path and waveform_path; header filename may differ from waveform basename if its 12 signal lines reference the canonical waveform; reject missing files or ID mismatch",
+    "physical_nan": "replace WFDB NaN physical samples with zero before RA-LL permutation or any filter, as in pinned dataset.py",
+    "unexpected": "reject infinities, unrecognized dimensions/rate/leads and hash mismatches; exclude no records"
+  },
+  "label_mapping": {
+    "SB": "official tasks.txt SINUS BRADYCARDIA, index 4 (name-level match)",
+    "STach": "official tasks.txt SINUS TACHYCARDIA, index 6 (name-level match)",
+    "TWA": "no exact published output; NONSPECIFIC T WAVE ABNORMALITY is excluded from exact-label and zero-shot comparison",
+    "zero_shot_scope": "SB and STach only, reported separately with validation-fixed thresholds"
+  },
+  "missing_path_audit_sha256": "8b8a73dd7830190177c8345f2a1f8dcf385e754eaa01f54651cb26387bead99f",
+  "parent_protocol_sha256": "17214328ef9e0443692da4248df7683cff906689d270b3e08efe3311710c1bee",
+  "pre_run_audit_sha256": "8896450bae1bf326fc948c4d194067af2d6d137da7be4b8c53cbd86d5f20eb23",
+  "prefreeze_smoke_sha256": "eaa1abf517489f2574e69746cedf4dc867e68446299a195e4e387b796be99d0f",
+  "preprocessing": {
+    "input": "WFDB physical values in mV, 12 x 5000, 500 Hz, 10 seconds",
+    "lead_order": [
+      "I",
+      "II",
+      "III",
+      "aVR",
+      "aVL",
+      "aVF",
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5",
+      "V6"
+    ],
+    "nonfinite_or_schema_mismatch": "WFDB NaN -> 0 before fault/filter; reject infinity and other schema errors",
+    "order": [
+      "replace WFDB NaN physical samples with zero",
+      "50 Hz iirnotch Q=30 with filtfilt per lead",
+      "4th-order Butterworth 0.67-40 Hz bandpass with filtfilt per lead",
+      "subtract 201-sample median-filter baseline per lead",
+      "global z-score over all 12 x 5000 values using population std and epsilon 1e-8",
+      "cast float32"
+    ],
+    "pre_fault": "RA-LL terminal permutation on raw physical I, II, V1..V6; derive 12 displayed leads; chest leads invariant",
+    "provenance": "official util.py::filter_bandpass and dataset.py::z_score_normalization; 500 Hz data need no resampling"
+  },
+  "runner_sha256": "5c4516439d8d56e60f6b8036f7dd6fa76c3c91374ccb67346a7635aee1cccf9b",
+  "runtime": {
+    "batch_size": 16,
+    "cache": "v2-only resumable feature and logit arrays bound to v2 protocol/checkpoint/ordered IDs; completed hashes required before reuse",
+    "inference": "CUDA float16 autocast, frozen eval model",
+    "progress": "WORKFLOW_STATUS.json plus append-only run logs",
+    "single_job_lock": true,
+    "smoke_first": true
+  },
+  "scientific_question": "Does exact RA-LL cable reversal lower ECGFounder diagnostic performance on the same Chapman and Ningbo held-out records as the saved ECGResNet-small predictions?",
+  "scope": "exploratory published-pretrained-model baseline; previously examined held-out sets",
+  "source": {
+    "backbone_frozen": true,
+    "checkpoint_file": "12_lead_ECGFounder.pth",
+    "checkpoint_repo": "https://huggingface.co/PKUDigitalHealth/ECGFounder",
+    "checkpoint_revision": "47a965e",
+    "checkpoint_sha256": "ee199f3781f4ae1f732973267f003da0a759ea12bddb0dd28a77faa60aca7997",
+    "code_commit": "04edac702b61c91face519774ddcc0cd712fef23",
+    "code_repo": "https://github.com/PKUDigitalHealth/ECGFounder",
+    "feature": "1024-dimensional global temporal average before official dense layer",
+    "model": "official Net1D, 12 channels, 150 classes, use_bn=False, use_do=False, return_features=True, strict state-dict load"
+  },
+  "status": "FROZEN_AFTER_INPUT_ADAPTER_PREFLIGHT_BEFORE_NEW_OUTCOMES",
+  "tests_sha256": "1aaa039167484f5887f1a9e73ac1da52eddea6060ac12292e7525c1fb0e9afdb",
+  "version": "ecgfounder_baseline_v2"
+}

@@ -1,0 +1,52 @@
+{
+  "status": "CONTINGENT_NO_GO_DO_NOT_RUN",
+  "amendment_required_before_execution": "Identify and audit two public non-PTB sources with authoritative patient IDs (or authoritative one-record-per-patient guarantee), then re-freeze this protocol before labels or confirmation outcomes are read.",
+  "research_question": "Do evaluations based on random whole-lead masking systematically overestimate the robustness of 12-lead ECG classifiers to physically realizable electrode failures?",
+  "claim_boundary": "Evaluation and failure analysis only; no successful augmentation or clinical deployment claim is required.",
+  "sources": {
+    "development": "one eligible non-PTB source, patient-disjoint train/validation/test",
+    "confirmation": "a different eligible non-PTB source, sealed until all design choices are frozen",
+    "excluded": ["PTB", "PTB-XL", "Challenge 2020 CPSC/CPSC-Extra/Georgia unless authoritative patient linkage is added"]
+  },
+  "labels": {
+    "families": ["atrial arrhythmia: AF", "conduction abnormality: RBBB or LBBB"],
+    "eligibility": "at least 200 positive patients per selected endpoint in development test and confirmation test after source-specific split; no endpoint substitution after confirmation labels are read"
+  },
+  "inputs": {
+    "independent_order": ["I", "II", "V1", "V2", "V3", "V4", "V5", "V6"],
+    "display_order": ["I", "II", "III", "aVR", "aVL", "aVF", "V1", "V2", "V3", "V4", "V5", "V6"],
+    "sampling": "resample source waveforms to 100 Hz and crop/pad a prespecified 10-second window; fit normalization on development-train patients only"
+  },
+  "models": {
+    "architectures": ["ECGResNet-small: widths 32,64,128,256", "ECGResNet-tiny: widths 24,48,96,192"],
+    "seeds": [104729, 130363, 155921],
+    "optimizer": "AdamW; weighted BCE; mixed precision; no foundation model or unavailable checkpoint",
+    "maximum_epochs": 30
+  },
+  "physical_faults": {
+    "exact_transformations": ["RA_LA_reversal", "RA_LL_reversal", "LA_LL_reversal"],
+    "unavailability_conditions": ["each single precordial electrode V1-V6", "coherent_precordial_failure"],
+    "quality_only_not_primary_classifier_estimands": ["RA/LA/LL disconnection", "shared_WCT_failure"],
+    "excluded_without_new_acquisition_data": ["precordial spatial misplacement", "open-circuit impedance waveform synthesis", "isolated derived-lead polarity flip"]
+  },
+  "matched_controls": {
+    "reversals": "for every deterministic two-limb-terminal swap, sample fixed random two-terminal swaps from the same three-permutation universe; preserve prevalence, population, model invocation count, and bootstrap draws",
+    "single_chest_unavailability": "six random chest-lead choices, one independent measurement unavailable; evaluate each separately inside each bootstrap replicate before metric averaging",
+    "coherent_chest_unavailability": "random 6-of-8 independent-measurement unavailability. This is an information-budget control, not a common clinical event; report its different mechanism explicitly.",
+    "legacy_display_mask": "whole displayed-lead zeroing retained only as a conventional secondary benchmark, matched by stored input count but never equated with electrode count",
+    "prohibited": "never average random-mask probabilities before calculating metrics"
+  },
+  "analysis": {
+    "primary_endpoint": "For each class and fault: AUPRC degradation under physical fault minus matched-random degradation, with degradation = clean AUPRC - fault AUPRC.",
+    "secondary_endpoints": ["macro-AUPRC", "expected calibration error using clean-validation calibration only", "sensitivity at frozen clean-validation specificity", "worst-fault tail", "rank stability across architectures and sources"],
+    "bootstrap": "patient-cluster percentile bootstrap, 1000 replicates minimum, synchronized condition resampling within replicate; calculate each random mask metric separately then average within replicate",
+    "multiplicity": "two predeclared label families are primary; all other class/fault tables are descriptive with false-discovery-rate annotation",
+    "decision": "Report source-specific estimates; pooled claim requires both sources to have directionally concordant class-specific effects and no population/split/protocol deviation. No augmentation result is part of this decision."
+  },
+  "compute_guardrails": {
+    "one_seed_pilot_gpu_hours_max": 12,
+    "all_sources_architectures_seeds_gpu_hours_max": 48,
+    "gpu": "RTX 5070 Laptop GPU, 8 GB VRAM",
+    "storage_reserve_gb": 15
+  }
+}

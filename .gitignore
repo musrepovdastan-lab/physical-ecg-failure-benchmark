@@ -1,0 +1,47 @@
+# Local environments and caches.
+.venv/
+venv/
+*_env/
+.uv_cache/
+.uv_python/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.publication/
+
+# Credentials and local configuration.
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+
+# Datasets: documentation only.
+/data/*
+!/data/README.md
+
+# Generated outputs stay local. Selected aggregate reports are added explicitly;
+# already tracked reports receive normal Git updates. Keep study scripts visible.
+/outputs/**
+!/outputs/*/
+!/outputs/*/*.py
+!/outputs/*/*.ps1
+!/outputs/*/*.sh
+!/outputs/*/frozen_source/
+!/outputs/*/frozen_source/*.py
+
+# Large generated artifacts.
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.mat
+*.hea
+*.dat
+*.part
+*.log

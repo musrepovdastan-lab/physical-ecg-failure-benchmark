@@ -1,0 +1,68 @@
+{
+  "phase": "0_metadata_only",
+  "status": "NO_GO",
+  "downloaded_bytes": 0,
+  "official_release": {
+    "name": "PhysioNet/Computing in Cardiology Challenge 2020",
+    "version": "1.0.2",
+    "url": "https://physionet.org/content/challenge-2020/1.0.2/",
+    "doi": "https://doi.org/10.13026/dvyd-kd57",
+    "access": "public; users must conform to license terms",
+    "license": "CC BY 4.0",
+    "whole_release_size": {"compressed_gb": 4.5, "uncompressed_gb": 7.5},
+    "header_fields_documented": ["recording_id", "lead_count", "sampling_frequency", "samples_per_lead", "age", "sex", "Dx", "Rx", "Hx", "Sx"],
+    "header_patient_id_documented": false,
+    "overlap_statement": "Official documentation says a small number of patients may be in both training and test data; no per-source patient linkage is supplied."
+  },
+  "sources": [
+    {
+      "folder": "cpsc_2018",
+      "records": 6877,
+      "sampling_hz": 500,
+      "duration_seconds": "6-60",
+      "public": true,
+      "patient_identifier": null,
+      "multiple_recordings_per_patient": "cannot be ruled out",
+      "ptb_xl_overlap_risk": "none by source provenance; no person-level linkage available",
+      "record_level_candidate_positive_counts": {"IAVB": 722, "AF": 1221, "RBBB": 1857, "NSR": 918},
+      "confirmatory_eligibility": "ineligible: no authoritative patient ID"
+    },
+    {
+      "folder": "cpsc_2018_extra",
+      "records": 3453,
+      "sampling_hz": 500,
+      "duration_seconds": "6-60",
+      "public": true,
+      "patient_identifier": null,
+      "multiple_recordings_per_patient": "cannot be ruled out",
+      "ptb_xl_overlap_risk": "none by source provenance; no person-level linkage available",
+      "record_level_candidate_positive_counts": {"IAVB": 106, "AF": 153, "RBBB": 1, "NSR": 4},
+      "confirmatory_eligibility": "ineligible: no authoritative patient ID and sparse shared endpoints"
+    },
+    {
+      "folder": "georgia",
+      "records": 10344,
+      "sampling_hz": 500,
+      "duration_seconds": 10,
+      "public": true,
+      "patient_identifier": null,
+      "multiple_recordings_per_patient": "cannot be ruled out",
+      "ptb_xl_overlap_risk": "none by source provenance; no person-level linkage available",
+      "record_level_candidate_positive_counts": {"IAVB": 769, "AF": 570, "RBBB": 542, "NSR": 1752},
+      "confirmatory_eligibility": "ineligible: no authoritative patient ID"
+    },
+    {
+      "folder": "st_petersburg_incart",
+      "records": 74,
+      "underlying_holter_records": 32,
+      "sampling_hz": 257,
+      "duration_seconds": 1800,
+      "public": true,
+      "confirmatory_eligibility": "ineligible: too small and repeated source records"
+    },
+    {"folder": "ptb", "records": 516, "excluded_reason": "PTB forbidden for external replication"},
+    {"folder": "ptb-xl", "records": 21837, "excluded_reason": "direct PTB-XL overlap; forbidden for external replication"}
+  ],
+  "count_provenance": "Challenge paper Figure 1 gives public training+validation record counts by scored label; headers/waveforms were not downloaded or parsed. Counts must not be treated as patient counts.",
+  "go_gate_result": "FAIL: zero non-PTB sources meet the project requirement for confirmatory patient-level inference."
+}

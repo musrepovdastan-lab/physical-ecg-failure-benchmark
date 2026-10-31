@@ -1,0 +1,23 @@
+{
+  "version": "mitigation_m1_v1",
+  "status": "FROZEN_BEFORE_M1_TRAINING",
+  "scope": "Chapman-only prespecified follow-up development; Ningbo access and training prohibited",
+  "historical_clean_baselines": "outputs/phase2_chapman_multiseed_v7 plus immutable v4/v6 seed_104729 cache",
+  "split_membership": "outputs/phase1_chapman_seed1_v4/SPLIT_MEMBERSHIP_v4.json",
+  "preprocessing": "train-derived per-displayed-lead mean/std from outputs/phase1_chapman_seed1_v4/preprocessing_v4.npz",
+  "endpoints": {"primary": "164934002", "controls": ["426177001", "427084000"]},
+  "seeds": [104729, 130363, 155921],
+  "model": {"architecture": "ECGResNet-small", "optimizer": "AdamW lr=0.001 weight_decay=0.0001", "loss": "weighted multilabel BCE positive-weight cap 20", "batch_size": 64, "max_epochs": 30, "mixed_precision": true, "early_stop": "validation TWA AUPRC only; patience 5"},
+  "arms": {
+    "physics_aware": {"role": "primary", "clean_probability": 0.5, "terminal_reversal_probability": 0.5, "terminal_reversals": ["RA_LA_reversal", "RA_LL_reversal", "LA_LL_reversal"], "terminal_reversal_sampling": "uniform"},
+    "masking": {"role": "secondary", "clean_probability": 0.5, "five_display_mask_probability": 0.5, "five_display_mask_sampling": "uniform over all C(12,5)=792", "sentinel": "frozen train mean"},
+    "combined": {"role": "secondary", "clean_probability": 0.5, "five_display_mask_probability": 0.25, "terminal_reversal_probability": 0.25, "terminal_reversal_sampling": "uniform", "five_display_mask_sampling": "uniform over all C(12,5)=792", "never_combine_mask_and_reversal": true}
+  },
+  "augmentation_determinism": "seeded solely by arm, seed, epoch and canonical training-record index",
+  "validation_gate": {"twa_auroc_min": 0.75, "twa_auprc_min": 0.45, "finite_losses_predictions": true, "checkpoint_hash_required": true, "zero_split_leakage": true, "failure": "STOP_VALIDATION_GATE before that unit's test inference"},
+  "evaluation": {"conditions": ["clean", "RA_LL_reversal", "all C(12,5)=792 five-displayed-lead masks"], "metrics": ["AUPRC", "AUROC", "validation-frozen sensitivity", "validation-frozen specificity", "ECE_15"], "primary_contrast": "mean mask AUPRC minus RA-LL AUPRC", "consequence_matching_only": true},
+  "bootstrap": {"replicates": 1000, "unit": "canonical record", "synchronized_across_seeds_labels_conditions": true, "paired_against_cached_clean_baseline": true, "aggregation": "mean of seed-level metrics; never average prediction vectors"},
+  "primary_decision": {"arm": "physics_aware only", "ra_ll_twa_improvement_each_seed_min": 0.15, "matched_contrast_decrease_aggregate_min": 0.15, "matched_contrast_upper95_max": 0.15, "clean_twa_mean_decline_max": 0.02, "clean_twa_any_seed_decline_max": 0.04, "mean_mask_twa_mean_decline_max": 0.02, "mean_mask_twa_any_seed_decline_max": 0.04, "all_physics_seeds_must_pass_validation_and_integrity": true},
+  "decisions": ["PASS_M1_FREEZE_NINGBO_M2", "FAIL_M1_NO_M2", "STOP_ENVIRONMENT", "STOP_VALIDATION_GATE", "STOP_TECHNICAL_BLOCKER"],
+  "prohibited": ["Ningbo access", "Ningbo training", "clean-arm retraining", "post-test tuning", "augmentation probability changes", "learning-rate changes", "architecture changes", "threshold changes", "mask-plus-reversal on same example"]
+}

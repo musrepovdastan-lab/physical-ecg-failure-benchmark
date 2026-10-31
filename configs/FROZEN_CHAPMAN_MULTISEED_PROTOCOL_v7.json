@@ -1,0 +1,14 @@
+{
+  "version":"chapman_multiseed_v7","status":"frozen_before_new_seed_training",
+  "scope":"Chapman canonical v4 split only; exploratory/development evidence; Ningbo prohibited",
+  "split_membership":"outputs/phase1_chapman_seed1_v4/SPLIT_MEMBERSHIP_v4.json",
+  "endpoints":{"primary":"164934002","controls":["426177001","427084000"]},
+  "primary_fault":"RA_LL_reversal","comparator":"all C(12,5)=792 conventional displayed-lead masks",
+  "primary_contrast":"mean AUPRC over all 792 masks minus RA_LL reversal AUPRC; positive means reversal more damaging",
+  "model":{"architecture":"ECGResNet-small","optimizer":"AdamW lr=0.001 weight_decay=0.0001","loss":"weighted multilabel BCE positive weight cap 20","max_epochs":30,"mixed_precision":true,"early_stop":"validation TWA AUPRC only"},
+  "seeds":[104729,130363,155921],"reuse_seed_104729":{"checkpoint":"existing validated v4","predictions":"existing v6 clean/reversal/five-mask cache"},
+  "baseline_gate":{"twa_auroc_min":0.75,"twa_auprc_min":0.45,"finite_required":true,"no_leakage":true,"failure":"do not access that seed test predictions"},
+  "bootstrap":{"replicates":1000,"unit":"canonical record/patient","synchronized_across_seeds_labels_conditions":true,"aggregate":"mean of three seed-level contrasts; never average predictions"},
+  "decision":{"morphology":"all baseline pass; all seed TWA contrasts positive; mean TWA >=0.05; lower95>0; mean TWA >= both mean controls +0.05","general":"first four pass but morphology margin fails","otherwise":"STOP_SEED_UNSTABLE"},
+  "prohibited":["Ningbo access","retraining seed 104729","method development","augmentation","fault/threshold/label/split changes"]
+}

@@ -1,2 +1,85 @@
-# physical-ecg-failure-benchmark
-Research code, frozen protocols and aggregate results for physical ECG cable-reversal robustness and mitigation benchmarks.
+# Physical ECG Failure Benchmark
+
+Research code and results for comparing 12-lead ECG classifiers under missing
+channels and physically valid limb-electrode cable reversals. The project covers
+Chapman-Shaoxing, Ningbo and restricted HEEDB evaluations, mitigation experiments,
+chest-only and ECGFounder baselines, and a published detection/correction pipeline.
+
+**Для ментора:** начните с [последнего отчёта](outputs/mentor_update_20261020/REPORT_TEXT_FOR_REVIEW.txt)
+и [карты результатов](docs/RESULTS.md). Здесь собраны собственный исследовательский
+код, тесты, зафиксированные протоколы и отобранные сводные результаты.
+
+## Structure
+
+```text
+src/                 Core transformations, training, evaluation and audits
+tests/               Mathematical and workflow regression tests
+configs/             Frozen study protocols; original versions retained
+outputs/<study>/     Study scripts, reports and selected aggregate tables
+docs/                Reproduction guide, results map and historical README
+data/README.md       Data sources, access and expected local layout
+requirements.txt     Minimal dependencies for the physics tests
+requirements-research.txt  Research dependencies
+PUBLICATION_MANIFEST.json  Published file sizes and SHA-256 checksums
+```
+
+Study-specific scripts remain at their original `outputs/<study>/` paths because
+other scripts and frozen protocols refer to them. Historical versions and failed
+analyses are retained; use the corrected results linked in [docs/RESULTS.md](docs/RESULTS.md).
+
+## Quick start: no datasets or GPU needed
+
+Use Python 3.12 and run commands from the repository root:
+
+```bash
+python -m venv .venv
+```
+
+Activate with `.venv\Scripts\Activate.ps1` in Windows PowerShell, or
+`source .venv/bin/activate` on Linux/macOS, then:
+
+```bash
+python -m pip install -r requirements.txt
+python -m pytest tests/test_ecg_physics.py -q
+```
+
+These synthetic tests check Einthoven/Goldberger identities, terminal permutations
+and unavailable-measurement masks. For the broader regression suite:
+
+```bash
+python -m pip install -r requirements-research.txt
+python -m pytest -q
+```
+
+Tests requiring the authors' ECGFounder source are skipped until that source is
+installed at the documented path. Training, inference and restricted-data studies
+have additional prerequisites; see [docs/REPRODUCING.md](docs/REPRODUCING.md).
+Some orchestration and latency utilities were written for Windows/CUDA.
+
+## Research status
+
+The latest synthesis is dated 20 October 2026. The evidence supports a bounded
+comparative evaluation: missing-channel robustness does not automatically predict
+robustness to simulated cable reversals. Mitigation trade-offs depend on cohort,
+endpoint, fault composition and operating point. Universal superiority and
+clinical effectiveness have not been established.
+
+Earlier masking analyses were corrected in separate recovery studies. The
+Transformer M3 branch failed its full prespecified criterion. Clinical review of
+endpoint/proxy mappings and final contribution wording remain open. See
+[current positioning](outputs/novelty_positioning_after_controls_v1/RESEARCH_POSITIONING_RU.md)
+and [remaining decisions](outputs/novelty_positioning_after_controls_v1/REMAINING_DECISIONS_RU.md).
+
+## Publication scope
+
+Included: project-owned code, frozen protocols, reports, selected aggregate metrics
+and figures. Excluded: raw ECGs, individual-level labels/predictions, record
+membership tables, model weights, environments, third-party source copies,
+downloaded papers, large generated tables and intermediate caches.
+See [data/README.md](data/README.md).
+
+Historical hashes describe the original studies, including artifacts omitted from
+this public snapshot. Full historical runs cannot be reproduced from a fresh
+clone alone. The publication manifest lists the actual distributed files.
+External resources retain their own access/license terms. A project-wide
+open-source license has not yet been selected.

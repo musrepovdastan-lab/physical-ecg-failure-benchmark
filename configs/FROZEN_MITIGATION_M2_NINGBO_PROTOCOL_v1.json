@@ -1,0 +1,32 @@
+{
+  "version": "mitigation_m2_ningbo_v1",
+  "status": "FROZEN_BEFORE_M2_TRAINING",
+  "interpretation": "locked external follow-up replication of the Chapman-frozen primary method; historical Ningbo baseline outcomes were observed, but M2 test access is gated by new-model validation",
+  "scope": "Ningbo only; physics-aware arm only; masking and combined arms prohibited",
+  "immutable_bindings": {
+    "m1_final_decision": {"path": "outputs/mitigation_m1_v1/FINAL_M1_DECISION.md", "sha256": "3E63FDD31645EF056E4D554EBB3AF108FAD4AE1FABE53EB81A2AEE4B4F5F29BF"},
+    "m1_conclusion": {"path": "outputs/mitigation_m1_v1/conclusions_m1.json", "sha256": "50C171A274D4B75B8619B33DE6D113C97917C3DFBCB4443F0136B8DBF06C3E3B"},
+    "m1_protocol": {"path": "configs/FROZEN_MITIGATION_M1_PROTOCOL_v1.json", "sha256": "248976F691003DAA45C5F188C53F7CF75891F19F8723223477FC41E1D65667CE"},
+    "ningbo_v2_protocol": {"path": "configs/FROZEN_NINGBO_CONFIRMATION_PROTOCOL_v2.json", "sha256": "1FE829E4357B4EFDE0E5F227BAF5BF94E8D22D12AF0959A38CEE12CCE1F40D71"},
+    "canonical_records": {"path": "outputs/ningbo_confirmation_v2/CANONICAL_RECORDS.json", "sha256": "2A217B4E01F8570FCB5E6F25FEEAD6F04D4D490C558084C7B9DDF02389495DA5"},
+    "split_membership": {"path": "outputs/ningbo_confirmation_v2/SPLIT_MEMBERSHIP.json", "sha256": "C6D15238EDB4334E7565BE1049557C3CE4410AB784F2519B1C7F620B51396388"},
+    "split_leakage_proof": {"path": "outputs/ningbo_confirmation_v2/SPLIT_LEAKAGE_PROOF.json", "sha256": "07D2D7745BEEF3334338D62BDDBC594B638D02DCE8DE8CDB9C07287DF93E7783"},
+    "excluded_conflict_groups": {"path": "outputs/ningbo_confirmation_v2/EXCLUDED_CONFLICT_GROUPS.json", "sha256": "63C79F46C27FAE3861E5FF4B719F6B6CEBD66D4F3BCF5AEFAD2ECCE469770A0F"},
+    "bootstrap_indices": {"path": "outputs/ningbo_confirmation_v2/bootstrap_indices.npy", "sha256": "6D186026B73C6A0AD31DF3C20F16C6F18AD9970176E9C78B0235E6A64E1861D1"}
+  },
+  "population": {"canonical_records": 34899, "excluded_conflict_records": 6, "train": 24430, "validation": 3488, "test": 6981, "zero_record_id_and_waveform_hash_leakage": true},
+  "baseline_artifacts": {
+    "104729": {"checkpoint": "4CCBEF0F71197F4156AC34CD742D6AB9210E4E7A6829867A137BD7FCEB5CCF40", "validation": "63A2627320B1D7BFECD11F7CB7E264F8DDD6E7B41406D80F69D37BCC3B4F3FB9", "baseline": "D22E7757BD804DAF180576F36526BA510C3DDDBAB4F56FD22C061913B5CC07D8", "evaluation": "A7721EB369CDBF34A00B335A502A750789C403A5B9A3B62A4A9D2B5B511A7CD9"},
+    "130363": {"checkpoint": "1BAF5865B01456704980878A6E9ED72BB23E587636303B6A419B63C58EE0C600", "validation": "DD408F673574AB4A0BD925C88A4A08134A206799397FC80B25757E667160458C", "baseline": "291C0FED34B1E29E76F264A0362CF0DA23E419A9CCA1FF308C0FE5908DE1615D", "evaluation": "427E06BFCB36D536BD79D512D08AADF73094863C6F38C4D2A38778A3A75C9C29"},
+    "155921": {"checkpoint": "9A71453FE35D94CCDC9BB05925ABB6B1BEDB1496C1D8105F0EDE606904B35949", "validation": "2E7C6C805633E99460E98AA9CE8C92A75E3441691FDC4A63FFE85431C2E3B680", "baseline": "6638A03A17569977ECE9B55B9419D8C01823E012BCFF9910220C4A7553CC8D37", "evaluation": "CE70A8049B5C36B60D552C18BE7C2547BD3BE2720074199C66C64B29ECC3C5B0"}
+  },
+  "seeds": [104729, 130363, 155921],
+  "method": {"name": "physics_aware", "clean_probability": 0.5, "terminal_reversal_probability": 0.5, "terminal_reversals": ["RA_LA_reversal", "RA_LL_reversal", "LA_LL_reversal"], "terminal_reversal_sampling": "uniform", "determinism": "arm, seed, epoch, canonical training-record index", "apply_before_normalization": true},
+  "model": {"architecture": "ECGResNet-small", "optimizer": "AdamW lr=0.001 weight_decay=0.0001", "loss": "weighted multilabel BCE positive-weight cap 20", "batch_size": 64, "max_epochs": 30, "mixed_precision": true, "early_stop": "validation TWA AUPRC only; patience 5", "preprocessing": "train-derived per-displayed-lead mean/std"},
+  "validation_gate": {"twa_auroc_min": 0.75, "twa_auprc_min": 0.45, "finite_losses_predictions": true, "checkpoint_integrity": true, "split_and_protocol_binding": true, "zero_leakage": true, "test_accessed_before_evaluation_freeze": false, "failure": "STOP_M2_VALIDATION_GATE"},
+  "evaluation": {"conditions": ["clean", "RA_LL_reversal", "all C(12,5)=792 five-displayed-lead masks"], "mask_sentinel": "train mean", "metrics": ["AUPRC", "AUROC", "validation-frozen sensitivity", "validation-frozen specificity", "ECE_15"], "primary_contrast": "mean mask AUPRC minus RA_LL AUPRC", "no_prediction_vector_averaging": true},
+  "bootstrap": {"indices": "reuse immutable Ningbo v2 bootstrap_indices.npy", "replicates": 1000, "unit": "canonical record", "synchronized_across_baseline_m2_seeds_labels_conditions": true, "persist_every": 10, "baseline_contrast_computed_once_per_replicate_seed_endpoint": true},
+  "primary_decision": {"ra_ll_twa_improvement_each_seed_min": 0.15, "matched_contrast_decrease_aggregate_min": 0.15, "matched_contrast_upper95_max": 0.15, "clean_twa_mean_decline_max": 0.02, "clean_twa_any_seed_decline_max": 0.04, "mean_mask_twa_mean_decline_max": 0.02, "mean_mask_twa_any_seed_decline_max": 0.04, "all_seeds_validation_and_integrity": true},
+  "decisions": ["PASS_M2_EXTERNAL_REPLICATION", "FAIL_M2_NOT_REPLICATED", "STOP_M2_ENVIRONMENT", "STOP_M2_VALIDATION_GATE", "STOP_M2_TECHNICAL_BLOCKER"],
+  "prohibited": ["Ningbo clean-arm retraining", "masking arm", "combined arm", "new split", "data download or re-extraction", "method tuning", "M3 or other post-M2 experiment"]
+}

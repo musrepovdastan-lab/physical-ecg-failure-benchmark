@@ -1,0 +1,644 @@
+{
+  "data": {
+    "aws_profile": "bdsp-reader",
+    "dataset": "ECG/I0006 (Emory)",
+    "download_only_selected_pairs": true,
+    "repository_alias": "bdsp-credentialed-ac-psbrsg8wcmky4w5tbtn3b31yh4otause1b-s3alias",
+    "required_identity": {
+      "account": "552883519608",
+      "arn": "arn:aws:iam::552883519608:user/bdsp-heedb-reader",
+      "root_forbidden": true
+    },
+    "resumable_partial_suffix": ".partial",
+    "reused_tables": [
+      "ECG/I0006/12SL_diagnoses/diagnoses_dictionary.csv",
+      "ECG/I0006/12SL_diagnoses/diagnoses_acquisition.csv",
+      "ECG/I0006/12SL_diagnoses/diagnoses_v24.csv",
+      "ECG/I0006/metadata/metadata.csv"
+    ],
+    "verify_remote_and_local_exact_bytes": true,
+    "waveform_transfer_cap_bytes": 2147483648
+  },
+  "frozen_date": "2026-09-24",
+  "gates": {
+    "engineering_smoke": "all six frozen models; all frozen conditions; the 23 already-downloaded and final-evaluation-excluded readiness ECGs; require readable/resampled signals and finite 3-output probabilities",
+    "evaluation_lock": "exclusive lock prevents duplicate jobs",
+    "no_interim_adaptation": "after EVALUATION_FREEZE.json is written, do not inspect outcomes to alter sample, mappings, models, thresholds, preprocessing, reversal, or masks"
+  },
+  "labels": {
+    "ambiguity": {
+      "SB_excluded": {
+        "codes": [
+          265
+        ],
+        "reason": "probable sinus bradycardia with verification language"
+      },
+      "TWA_excluded": {
+        "codes": [
+          1141,
+          1142,
+          1182,
+          1200,
+          1201,
+          1203,
+          1207,
+          1208,
+          1210,
+          1211,
+          1212,
+          1213,
+          1214,
+          1215,
+          1216,
+          1217,
+          1218,
+          1219,
+          1220,
+          1221,
+          1222,
+          1223,
+          1224
+        ],
+        "reason": "mixed ST-T, suggestive/lead-fragment, or serial-change language rather than the frozen core construct"
+      },
+      "cross_dataset_caveat": "These 12SL physician-overread constructs are clinically related proxies, not SNOMED-equivalent Chapman/Ningbo labels."
+    },
+    "primary_core": {
+      "SB": [
+        21,
+        24
+      ],
+      "STach": [
+        23
+      ],
+      "TWA": [
+        1140,
+        1145,
+        1150,
+        1151,
+        1160,
+        1161,
+        1170,
+        1171,
+        1172,
+        1180,
+        1181
+      ]
+    },
+    "sensitivity_strict": {
+      "SB": [
+        21
+      ],
+      "TWA": [
+        1140
+      ]
+    },
+    "software_codes_role": "audit-only; never merged with physician labels",
+    "source": "diagnoses_acquisition.csv codes_physician only",
+    "v24_codes_role": "audit-only; never merged with physician labels"
+  },
+  "mask_panel": {
+    "all_possible_five_displayed_lead_masks": 792,
+    "balance": "each of the 12 displayed leads appears in exactly 10 of the 24 masks",
+    "bootstrap_scope": "paired patient bootstrap interval for the core-TWA physics-aware-minus-baseline subset-mean contrast; other mask outcomes are point estimates",
+    "compute_estimate": {
+      "all_792_masks_two_arms_10000_patients_minutes": 109.3,
+      "all_792_masks_two_arms_10000_patients_seconds": 6560,
+      "frozen_24_mask_subset_two_arms_10000_patients_minutes": 3.6,
+      "frozen_24_mask_subset_two_arms_10000_patients_seconds": 215,
+      "historical_evidence": "M2 all-mask evaluation: 2382 evaluations (3 seeds x 794 conditions) on 6981 records in about 2290 seconds",
+      "scope": "forward-pass scaling estimate before HEEDB inference; excludes waveform preparation and bootstrap"
+    },
+    "lead_order": [
+      "I",
+      "II",
+      "III",
+      "aVR",
+      "aVL",
+      "aVF",
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5",
+      "V6"
+    ],
+    "masks_named": [
+      [
+        "aVR",
+        "aVF",
+        "V1",
+        "V4",
+        "V6"
+      ],
+      [
+        "III",
+        "aVL",
+        "V2",
+        "V3",
+        "V5"
+      ],
+      [
+        "I",
+        "II",
+        "III",
+        "aVR",
+        "aVL"
+      ],
+      [
+        "II",
+        "aVF",
+        "V1",
+        "V2",
+        "V4"
+      ],
+      [
+        "I",
+        "II",
+        "V3",
+        "V5",
+        "V6"
+      ],
+      [
+        "III",
+        "aVR",
+        "V1",
+        "V3",
+        "V4"
+      ],
+      [
+        "aVL",
+        "aVF",
+        "V2",
+        "V5",
+        "V6"
+      ],
+      [
+        "I",
+        "II",
+        "III",
+        "V2",
+        "V3"
+      ],
+      [
+        "aVR",
+        "aVL",
+        "aVF",
+        "V1",
+        "V4"
+      ],
+      [
+        "I",
+        "V3",
+        "V4",
+        "V5",
+        "V6"
+      ],
+      [
+        "II",
+        "V1",
+        "V2",
+        "V5",
+        "V6"
+      ],
+      [
+        "I",
+        "III",
+        "aVR",
+        "aVL",
+        "aVF"
+      ],
+      [
+        "II",
+        "III",
+        "aVL",
+        "aVF",
+        "V1"
+      ],
+      [
+        "I",
+        "V2",
+        "V4",
+        "V5",
+        "V6"
+      ],
+      [
+        "II",
+        "aVR",
+        "V2",
+        "V3",
+        "V4"
+      ],
+      [
+        "aVL",
+        "V1",
+        "V3",
+        "V5",
+        "V6"
+      ],
+      [
+        "I",
+        "III",
+        "aVR",
+        "aVF",
+        "V6"
+      ],
+      [
+        "II",
+        "aVR",
+        "aVL",
+        "aVF",
+        "V4"
+      ],
+      [
+        "I",
+        "III",
+        "V1",
+        "V2",
+        "V5"
+      ],
+      [
+        "III",
+        "aVF",
+        "V3",
+        "V5",
+        "V6"
+      ],
+      [
+        "I",
+        "aVR",
+        "V1",
+        "V2",
+        "V3"
+      ],
+      [
+        "II",
+        "aVL",
+        "V3",
+        "V4",
+        "V6"
+      ],
+      [
+        "aVR",
+        "aVF",
+        "V1",
+        "V2",
+        "V4"
+      ],
+      [
+        "I",
+        "II",
+        "III",
+        "aVL",
+        "V5"
+      ]
+    ],
+    "masks_zero_based": [
+      [
+        3,
+        5,
+        6,
+        9,
+        11
+      ],
+      [
+        2,
+        4,
+        7,
+        8,
+        10
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        1,
+        5,
+        6,
+        7,
+        9
+      ],
+      [
+        0,
+        1,
+        8,
+        10,
+        11
+      ],
+      [
+        2,
+        3,
+        6,
+        8,
+        9
+      ],
+      [
+        4,
+        5,
+        7,
+        10,
+        11
+      ],
+      [
+        0,
+        1,
+        2,
+        7,
+        8
+      ],
+      [
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      [
+        0,
+        8,
+        9,
+        10,
+        11
+      ],
+      [
+        1,
+        6,
+        7,
+        10,
+        11
+      ],
+      [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      [
+        0,
+        7,
+        9,
+        10,
+        11
+      ],
+      [
+        1,
+        3,
+        7,
+        8,
+        9
+      ],
+      [
+        4,
+        6,
+        8,
+        10,
+        11
+      ],
+      [
+        0,
+        2,
+        3,
+        5,
+        11
+      ],
+      [
+        1,
+        3,
+        4,
+        5,
+        9
+      ],
+      [
+        0,
+        2,
+        6,
+        7,
+        10
+      ],
+      [
+        2,
+        5,
+        8,
+        10,
+        11
+      ],
+      [
+        0,
+        3,
+        6,
+        7,
+        8
+      ],
+      [
+        1,
+        4,
+        8,
+        9,
+        11
+      ],
+      [
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        10
+      ]
+    ],
+    "panel_name": "deterministic 24-mask subset (not the all-mask mean)",
+    "selection": "24-step deterministic greedy balance: at each step choose the remaining mask minimizing squared deviation from uniform cumulative lead counts; break ties by SHA256(heedb_external_v1|mask-panel-v1|comma-separated zero-based indices)",
+    "summary": "mean of per-mask AUPRC values within seed, then mean across seeds"
+  },
+  "metrics": {
+    "AUPRC": "sklearn.metrics.average_precision_score",
+    "aggregation": "compute each metric per matched seed, then arithmetic mean of the three seed-level metrics or contrasts; never average prediction vectors across seeds",
+    "clean_performance_change": "physics-aware minus baseline under clean ECG",
+    "sensitivity": "fraction of positives with probability >= the arm/seed's frozen Ningbo validation threshold",
+    "uncertainty": "1000 synchronized patient-level resamples with replacement, seed 20260924, percentile 95% intervals",
+    "within_arm_fault_change": "clean minus RA-LL metric"
+  },
+  "models": {
+    "architecture": "src.chapman_phase1.ECGResNetSmall",
+    "baseline": {
+      "104729": {
+        "checkpoint": "outputs/ningbo_confirmation_v2/seed_104729/checkpoint.pt",
+        "checkpoint_sha256": "4ccbef0f71197f4156ac34cd742d6ab9210e4e7a6829867a137bd7fceb5ccf40",
+        "preprocessing": "outputs/ningbo_confirmation_v2/seed_104729/preprocessing.npz",
+        "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+        "thresholds": [
+          0.650341808795929,
+          0.010204315185546875,
+          0.04400634765625
+        ],
+        "validation_threshold_source": "outputs/ningbo_confirmation_v2/seed_104729/validation.npz",
+        "validation_threshold_source_sha256": "63a2627320b1d7bfecd11f7cb7e264f8ddd6e7b41406d80f69d37bcc3b4f3fb9"
+      },
+      "130363": {
+        "checkpoint": "outputs/ningbo_confirmation_v2/seed_130363/checkpoint.pt",
+        "checkpoint_sha256": "1baf5865b01456704980878a6e9ed72bb23e587636303b6a419b63c58ee0c600",
+        "preprocessing": "outputs/ningbo_confirmation_v2/seed_130363/preprocessing.npz",
+        "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+        "thresholds": [
+          0.733203113079071,
+          0.0027326582930982113,
+          0.10052490234375
+        ],
+        "validation_threshold_source": "outputs/ningbo_confirmation_v2/seed_130363/validation.npz",
+        "validation_threshold_source_sha256": "dd408f673574ab4a0bd925c88a4a08134a206799397fc80b25757e667160458c"
+      },
+      "155921": {
+        "checkpoint": "outputs/ningbo_confirmation_v2/seed_155921/checkpoint.pt",
+        "checkpoint_sha256": "9a71453fe35d94ccdc9bb05925abb6b1bedb1496c1d8105f0ede606904b35949",
+        "preprocessing": "outputs/ningbo_confirmation_v2/seed_155921/preprocessing.npz",
+        "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+        "thresholds": [
+          0.586132824420929,
+          0.04575805738568306,
+          0.039886474609375
+        ],
+        "validation_threshold_source": "outputs/ningbo_confirmation_v2/seed_155921/validation.npz",
+        "validation_threshold_source_sha256": "2e7c6c805633e99460e98aa9ce8c92a75e3441691fdc4a63ffe85431c2e3b680"
+      }
+    },
+    "label_order": [
+      "TWA",
+      "SB",
+      "STach"
+    ],
+    "physics_aware": {
+      "104729": {
+        "checkpoint": "outputs/mitigation_m2_ningbo_v1/seed_104729/checkpoint.pt",
+        "checkpoint_sha256": "5e164b3496077b49a063c75c0d712c66531c907f3ef45db62d087f4877fe8d09",
+        "preprocessing": "outputs/mitigation_m2_ningbo_v1/seed_104729/preprocessing.npz",
+        "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+        "thresholds": [
+          0.6971679925918579,
+          0.008510589599609375,
+          0.009073639288544655
+        ],
+        "validation_threshold_source": "outputs/mitigation_m2_ningbo_v1/seed_104729/validation.npz",
+        "validation_threshold_source_sha256": "36e25a4796279dbf379525a721200536db3488cd4bc258ea1d715056371ca03c"
+      },
+      "130363": {
+        "checkpoint": "outputs/mitigation_m2_ningbo_v1/seed_130363/checkpoint.pt",
+        "checkpoint_sha256": "ef347b6bd2d1cc6e4fd649d299543e78ed23efa044976ac3cf66436c0d695c8f",
+        "preprocessing": "outputs/mitigation_m2_ningbo_v1/seed_130363/preprocessing.npz",
+        "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+        "thresholds": [
+          0.562451183795929,
+          0.0056854248978197575,
+          0.011165618896484375
+        ],
+        "validation_threshold_source": "outputs/mitigation_m2_ningbo_v1/seed_130363/validation.npz",
+        "validation_threshold_source_sha256": "ca0c2f953bb260ff4a4d25b75b281db1ac0756d15d884274f364ecd871d02d74"
+      },
+      "155921": {
+        "checkpoint": "outputs/mitigation_m2_ningbo_v1/seed_155921/checkpoint.pt",
+        "checkpoint_sha256": "fd16f1df621764fd1229ed84e615f016226c00800943c064c021c9136de26eb8",
+        "preprocessing": "outputs/mitigation_m2_ningbo_v1/seed_155921/preprocessing.npz",
+        "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+        "thresholds": [
+          0.711865246295929,
+          0.01172027550637722,
+          0.011447906494140625
+        ],
+        "validation_threshold_source": "outputs/mitigation_m2_ningbo_v1/seed_155921/validation.npz",
+        "validation_threshold_source_sha256": "ee0aea6549b86fceb6504a63e0b2709a64e729c1326aebaf79f6f83134cc417e"
+      }
+    }
+  },
+  "preprocessing": {
+    "HEEDB_read": "WFDB physical samples; require all 12 units mV and canonical lead order",
+    "amplitude_conversion": "multiply mV by 1000 to match the Ningbo Challenge val/gain representation in microvolts",
+    "fault_order": "apply electrical reversal in raw microvolts before normalization",
+    "input_lead_order": [
+      "I",
+      "II",
+      "III",
+      "aVR",
+      "aVL",
+      "aVF",
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5",
+      "V6"
+    ],
+    "mask_order": "replace each selected displayed lead by its frozen Ningbo training mean before normalization (equivalently normalized zero)",
+    "normalization": "per-lead (x - frozen Ningbo training mean) / frozen Ningbo training std",
+    "sampling": "500 Hz and 5000 samples unchanged; 250 Hz and 2500 samples resampled to 500 Hz/5000 with scipy.signal.resample_poly(up=2, down=1, default Kaiser window)"
+  },
+  "primary_comparisons": [
+    "Core TWA RA-LL AUPRC: physics-aware minus baseline",
+    "Core TWA RA-LL sensitivity at frozen thresholds: physics-aware minus baseline",
+    "Core TWA clean AUPRC and sensitivity: physics-aware minus baseline",
+    "Within-arm core TWA clean-minus-RA-LL changes"
+  ],
+  "prohibitions": [
+    "No HEEDB training, fine-tuning, threshold selection, or calibration",
+    "No mixing physician-overread, software-generated, or diagnoses_v24 label fields",
+    "No outcome-driven changes after evaluation begins",
+    "No root AWS profile and no S3 permission broadening"
+  ],
+  "protocol": "HEEDB external transportability v1",
+  "reversal": {
+    "equations": {
+      "III_prime": "-I",
+      "II_prime": "-II",
+      "I_prime": "I-II",
+      "V1_to_V6_prime": "unchanged",
+      "aVF_prime": "I/2-II",
+      "aVL_prime": "I-II/2",
+      "aVR_prime": "(II-I)/2"
+    },
+    "independent_gauge": "RA=0, LA=I, LL=II; swap RA and LL; Wilson central terminal is invariant",
+    "name": "RA_LL_reversal"
+  },
+  "sampling": {
+    "eligibility": [
+      "nonempty BDSPPatientID",
+      "nonempty codes_physician",
+      "not one of the 23 patients used by heedb_readiness_v1 waveform smoke"
+    ],
+    "label_blind": true,
+    "patient_manifest_location": "data/heedb_restricted/I0006/external_v1/ (git-ignored)",
+    "patient_rank": "ascending SHA256(seed|patient|BDSPPatientID), then BDSPPatientID",
+    "record_within_patient_rank": "ascending SHA256(seed|record|BDSPPatientID|FileName), then FileName",
+    "sample": "first 10,000 eligible patients after selecting one record per patient",
+    "selection_seed": "heedb_external_v1|2026-09-24|label-blind|one-ecg-per-patient",
+    "unreadable_replacement": "For each failed evaluation slot, take the next unused patient in the frozen patient-rank order; use that patient's already frozen one-record choice. Repeat without consulting labels or predictions."
+  },
+  "scope": "Previously frozen external test on HEEDB I0006 (Emory); not an exact SNOMED-label replication",
+  "separate_results": [
+    "Core SB and STach clean and RA-LL results",
+    "Strict TWA and strict SB clean and RA-LL sensitivity analyses"
+  ],
+  "source_hashes": {
+    "baseline_protocol": "1fe829e4357b4efde0e5f227baf5bf94e8d22d12af0959a38cee12cce1f40d71",
+    "evaluation_code": "6c7186779578a91240a6137fb563f6b37a0aab1aa46b5684bf7672af76ea3450",
+    "freeze_code": "e9dddaaa19e33f46e7a3d8ef0ee862e694aba5838ad60159a2b4badf9a42c723",
+    "m2_protocol": "2d7b605af175ef6d5b59b223a9ea37bb3f7d675c2c1ac3e27fff23fcd43e96b8",
+    "model_architecture_source": "8a9d4926cbd623892391af1298e03d7a5e7e23c60c1d3393b71e36ee45a16e82",
+    "physics_source": "51218806eec81765df6247307e70ccce56f76cfa54e54782f1b47d468014eb9c",
+    "readiness_report": "db9b928003c937ef6202024fe0842745bc7fbe8a17070f00045026c34abf8aae"
+  }
+}

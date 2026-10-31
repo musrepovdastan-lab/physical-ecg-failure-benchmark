@@ -1,0 +1,49 @@
+{
+  "version": "phase1_v2_frozen_before_chapman_internal_test_and_ningbo_outcomes",
+  "research_question": "Do conventional random lead-dropout evaluations predict the diagnostic robustness of 12-lead ECG classifiers under a preregistered library of physically realizable acquisition faults?",
+  "directionality": "No directional advantage for random dropout or physical faults is presumed.",
+  "sources": {
+    "development": {"name": "Chapman-Shaoxing", "records_patients": 10247, "role": "train_validation_internal_test only"},
+    "confirmation": {"name": "Ningbo", "records_patients": 34905, "role": "sealed external confirmation", "prohibited_until_freeze": ["training", "threshold fitting", "fault selection", "model inference", "prediction inspection"]},
+    "excluded": ["PTB", "PTB-XL", "all Challenge 2020 sources for confirmation"]
+  },
+  "ingestion_gate_before_data_or_model_work": {
+    "headers_only": ["verify 10247 Chapman and 34905 Ningbo valid headers", "verify 12 leads in canonical order", "record exact age/sex missingness", "record diagnosis multiplicity", "verify official SHA256 manifest for acquired objects", "write sorted record-ID manifest"],
+    "waveforms_only_after_headers_pass": ["read Chapman waveforms for nonfinite/malformed count", "never access Ningbo waveforms before external confirmation stage"],
+    "test_environment": "install requirements in an isolated project environment and require pytest to pass before training"
+  },
+  "labels": {
+    "primary": [
+      {"name": "sinus_bradycardia", "snomed": "426177001", "chapman_positive": 3889, "chapman_internal_test_target": 778, "ningbo_positive": 12670},
+      {"name": "sinus_tachycardia", "snomed": "427084000", "chapman_positive": 1568, "chapman_internal_test_target": 313, "ningbo_positive": 5687}
+    ],
+    "secondary": [{"name": "T_wave_abnormality", "snomed": "164934002", "chapman_positive": 1876, "ningbo_positive": 5167}],
+    "no_substitution_rule": "No label, grouping, threshold, or endpoint changes after Chapman internal-test predictions or any Ningbo model outcome are inspected."
+  },
+  "chapman_split": {
+    "unit": "record_id, justified as patient-disjoint by authoritative one-record-per-patient table",
+    "seed": 20260828,
+    "proportions": {"train": 0.7, "validation": 0.1, "internal_test": 0.2},
+    "algorithm": "Deterministic primary-label strata: sort records within the four sinus-bradycardia/sinus-tachycardia bit strata by SHA256(seed + record_id); allocate fixed 70/10/20 counts per stratum, then assign remaining labels by the same hash order. Write membership CSV and SHA256 before model prediction.",
+    "sealed": "Internal-test labels may be used only after model/training/fault/threshold selection is frozen."
+  },
+  "preprocessing": {"source_sampling_hz": 500, "target_sampling_hz": 100, "duration_seconds": 10, "independent_inputs": ["I", "II", "V1", "V2", "V3", "V4", "V5", "V6"], "display_reconstruction": "derive III, aVR, aVL, aVF from I and II using unit-tested standard equations", "normalization": "train subset only"},
+  "models": {"pilot_architecture": "ECGResNet-small widths 32,64,128,256", "pilot_seed": 104729, "confirmation_architectures": ["ECGResNet-small", "ECGResNet-tiny widths 24,48,96,192"], "confirmation_seeds": [104729, 130363, 155921], "no_foundation_model": true, "max_epochs": 30, "mixed_precision": true},
+  "fault_families": {
+    "availability": {
+      "physical": ["each one-precordial-measurement unavailable", "coherent V1-V4 precordial block unavailable"],
+      "random_control": "same number k of unavailable independent signals, evaluated separately per random draw; reconstruct complete display representation from retained independent signals only where algebraically identifiable",
+      "random_draws": 20,
+      "primary_endpoint": "class-specific AUPRC degradation physical minus matched-random degradation"
+    },
+    "connection_errors": {
+      "physical": ["RA_LA_reversal", "RA_LL_reversal", "LA_LL_reversal"],
+      "control": "clean performance; no dropout or other reversal is called a random control",
+      "primary_endpoints": ["class-specific clean-to-reversal AUPRC degradation", "Spearman correlation of model/class robustness ranks under random dropout versus each reversal", "rank discordance table"]
+    },
+    "excluded": ["open-circuit waveform synthesis", "electrode impedance", "motion artefact", "spatial precordial misplacement", "isolated derived-lead polarity inversion"]
+  },
+  "statistics": {"metrics": ["class_AUPRC", "macro_AUPRC", "ECE", "sensitivity_at_frozen_validation_specificity", "worst_fault_tail", "model_rank"], "bootstrap": {"unit": "patient/record", "replicates": 1000, "random_rule": "within each resample, compute every random-mask metric separately then average metrics; never average predictions"}, "reporting": "source-specific first; no pooling Chapman and Ningbo"},
+  "compute": {"pilot_gpu_hours_max": 8, "pilot_wall_clock_hours_max": 12, "pilot_estimate_gpu_hours": "4-6", "later_program_estimate_gpu_hours": "27-39", "gpu": "RTX 5070 Laptop GPU 8 GB VRAM"},
+  "go_scope": "GO authorizes only the stated Chapman one-architecture/one-seed failure-analysis pilot after ingestion gates pass. It does not authorize training now, changes to historical v1 evidence, new augmentation experiments, or Ningbo inference."
+}

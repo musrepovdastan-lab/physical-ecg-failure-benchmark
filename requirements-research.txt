@@ -1,0 +1,16 @@
+-r requirements.txt
+
+# Research modules and regression tests (Python 3.12).
+scipy>=1.13,<2
+pandas>=2.2,<4
+scikit-learn>=1.5,<2
+torch>=2.4,<3
+wfdb>=4.1,<5
+matplotlib>=3.9,<4
+
+# Restricted HEEDB acquisition; separately authorized access is required.
+awscli>=1.32,<2
+
+# Optional Word/PDF report builders under outputs/mentor_*.
+python-docx>=1.1,<2
+reportlab>=4,<5
