@@ -28,3 +28,17 @@ in [HISTORY.md](HISTORY.md); its phase-specific status statements are historical
 Historical directories document amendments, stopped runs and superseded analyses.
 Follow each study's final report, status and amendment notes. Some historical
 links point to intermediates or individual-level files intentionally absent here.
+
+## Interpretation limits
+
+- Faults are simulated; the study does not evaluate real adjudicated miswirings.
+- HEEDB outcomes use coded proxy targets. Later extensions reuse previously
+  examined data and do not constitute new independent external confirmation.
+- Ningbo splits and inference are record-level; patient independence is not established.
+- The original calibration-role fits did not seed model initialization. Their
+  intervals are conditional on saved models/calibrators; see the [seed correction](next_steps.md).
+- Rankings depend on cohort, fault mixture and operating point. Clinical utility
+  and a universal decision threshold have not been established.
+
+These statements describe the evidence available in this repository. They do
+not add tasks to contact a clinician, acquire new cohorts or collect real faults.

@@ -70,10 +70,10 @@ endpoint, fault composition and operating point. Universal superiority and
 clinical effectiveness have not been established.
 
 Earlier masking analyses were corrected in separate recovery studies. The
-Transformer M3 branch failed its full prespecified criterion. Clinical review of
-endpoint/proxy mappings and final contribution wording remain open. See
-[current positioning](outputs/novelty_positioning_after_controls_v1/RESEARCH_POSITIONING_RU.md)
-and [remaining decisions](outputs/novelty_positioning_after_controls_v1/REMAINING_DECISIONS_RU.md).
+Transformer M3 branch failed its full prespecified criterion. HEEDB evaluations
+use coded proxy targets. The calibration-role control has an initialization-seed
+caveat; its correction is the [planned technical follow-up](docs/next_steps.md).
+See the [results guide](docs/RESULTS.md) for the evidence and its limits.
 
 ## Publication scope
 
