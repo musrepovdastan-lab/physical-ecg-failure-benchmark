@@ -1,0 +1,10 @@
+{
+  "brier_mixture_identity": "PASS",
+  "decision": "PASS",
+  "monotone_ranking_and_clipping_ties": "PASS",
+  "paired_bootstrap": "record multiplicity reused for both copies",
+  "q_endpoints": "exact raw clean/reversal metric equivalence",
+  "raw_calibrated_threshold_equivalence": "PASS",
+  "ties_zero_weights": "finite; zero-mass rows ignored",
+  "weighted_AP_AUROC": "matched sklearn sample_weight reference"
+}

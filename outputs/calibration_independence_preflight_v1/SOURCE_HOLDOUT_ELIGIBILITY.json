@@ -1,0 +1,11 @@
+{
+  "decision": "NO_TRULY_UNUSED_SUITABLE_SOURCE_HOLDOUT_IDENTIFIED",
+  "reason": {
+    "Ningbo_train": "used for training/normalization/pos_weight",
+    "Ningbo_validation": "all used in checkpoint selection and A/B calibration",
+    "Ningbo_test": "outcomes previously analyzed",
+    "HEEDB": "prior outcome access and evaluation of transferred Ningbo calibration/thresholds; not direct calibration/threshold fitting in verified packages",
+    "Chapman": "historically used and different source domain"
+  },
+  "recommendation": "path B only as record-disjoint control for future new checkpoints; it cannot make prior data history untouched"
+}

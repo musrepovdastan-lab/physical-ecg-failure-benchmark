@@ -1,0 +1,104 @@
+{
+  "false_correction_clean_included": true,
+  "oracle_condition_used": false,
+  "protocol_sha256": "8038dae11ce13eab81440ebd4e13fda7f05ab9c030af707a04728bac7185af24",
+  "rows": [
+    {
+      "condition": "clean",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/three_swap_population_mixture_v1/predictions/HEEDB/Huang_full_pipeline/seed_104729/clean.npz",
+      "seed": 104729,
+      "sha256": "dc1c11fe43b13e25b3a9912f55fa63266e7d6274c3c09dff90b12a9a12291707",
+      "status": "REUSED_FROM_FROZEN_HUANG_PIPELINE"
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/three_swap_population_mixture_v1/predictions/HEEDB/Huang_full_pipeline/seed_104729/RA_LL_reversal.npz",
+      "seed": 104729,
+      "sha256": "17e29364a3e66c30c7de063e9b77b751ffde87294a7656d8b51e59ca58f8a87d",
+      "status": "REUSED_FROM_FROZEN_HUANG_PIPELINE"
+    },
+    {
+      "condition": "RA_LA_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/three_swap_population_mixture_v1/predictions/HEEDB/Huang_full_pipeline/seed_104729/RA_LA_reversal.npz",
+      "seed": 104729,
+      "sha256": "cc28afa4e08447121a88636346afe10b290696da8a52d2e09c73cc042773b38c",
+      "status": "NEW_FULL_PIPELINE_INFERENCE"
+    },
+    {
+      "condition": "LA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/three_swap_population_mixture_v1/predictions/HEEDB/Huang_full_pipeline/seed_104729/LA_LL_reversal.npz",
+      "seed": 104729,
+      "sha256": "6cc6b58eb17c93a4ca26296d90d25fec1bf590eb9994d7f174ea004bc00cdcef",
+      "status": "NEW_FULL_PIPELINE_INFERENCE"
+    },
+    {
+      "condition": "clean",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/three_swap_population_mixture_v1/predictions/HEEDB/Huang_full_pipeline/seed_130363/clean.npz",
+      "seed": 130363,
+      "sha256": "c1a644296f91babc9fe54dc843f4db00f60eadf5170a3d1ecaa3cb4eea185931",
+      "status": "REUSED_FROM_FROZEN_HUANG_PIPELINE"
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/three_swap_population_mixture_v1/predictions/HEEDB/Huang_full_pipeline/seed_130363/RA_LL_reversal.npz",
+      "seed": 130363,
+      "sha256": "321b65a71fb799bebe9cf32f6d109cc9ccee5e9b6de4ee8b4d73036f1a5f31e6",
+      "status": "REUSED_FROM_FROZEN_HUANG_PIPELINE"
+    },
+    {
+      "condition": "RA_LA_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/three_swap_population_mixture_v1/predictions/HEEDB/Huang_full_pipeline/seed_130363/RA_LA_reversal.npz",
+      "seed": 130363,
+      "sha256": "d3b70d3b9f9a13680e6d72405d36c0a8264984f146a14dead4810900b4304003",
+      "status": "NEW_FULL_PIPELINE_INFERENCE"
+    },
+    {
+      "condition": "LA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/three_swap_population_mixture_v1/predictions/HEEDB/Huang_full_pipeline/seed_130363/LA_LL_reversal.npz",
+      "seed": 130363,
+      "sha256": "4d03bec4df8276404a64e44f0f7fa47069193ad60749c8f025f5065f42a58748",
+      "status": "NEW_FULL_PIPELINE_INFERENCE"
+    },
+    {
+      "condition": "clean",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/three_swap_population_mixture_v1/predictions/HEEDB/Huang_full_pipeline/seed_155921/clean.npz",
+      "seed": 155921,
+      "sha256": "a93644572d544ef4da7d47703dd8331dcb844703452475733eda6caea0f5ee7b",
+      "status": "REUSED_FROM_FROZEN_HUANG_PIPELINE"
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/three_swap_population_mixture_v1/predictions/HEEDB/Huang_full_pipeline/seed_155921/RA_LL_reversal.npz",
+      "seed": 155921,
+      "sha256": "044b4af3da1391046d03a7cc5b7625643df6d647709cb2279e7ca1d3f2cc7842",
+      "status": "REUSED_FROM_FROZEN_HUANG_PIPELINE"
+    },
+    {
+      "condition": "RA_LA_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/three_swap_population_mixture_v1/predictions/HEEDB/Huang_full_pipeline/seed_155921/RA_LA_reversal.npz",
+      "seed": 155921,
+      "sha256": "631ef3f56b40178213df5cfc6c22166d6eb418c3a572c788e5a7a65e490d3af8",
+      "status": "NEW_FULL_PIPELINE_INFERENCE"
+    },
+    {
+      "condition": "LA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/three_swap_population_mixture_v1/predictions/HEEDB/Huang_full_pipeline/seed_155921/LA_LL_reversal.npz",
+      "seed": 155921,
+      "sha256": "f273fd73fd334110b6d3c6b3c13c935dbf83ee64024b80e6198ff0cc2a1db6e2",
+      "status": "NEW_FULL_PIPELINE_INFERENCE"
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,235 @@
+{
+  "completed_utc": "2026-10-17T06:36:19.267944+00:00",
+  "reused_training": false,
+  "source_models_reinferred_on_bound_test_order": true,
+  "units": [
+    {
+      "checkpoint": "outputs\\phase1_chapman_seed1_v4\\ecgresnet_small_seed104729_v4.pt",
+      "checkpoint_sha256": "53320d5a11b7eb8103f37d9fb3e25a2ab9a4185dc0ecbcfe59f58024c0b94a51",
+      "dataset": "Chapman",
+      "decision": "PASS",
+      "model": "clean_12lead",
+      "preprocessing": "outputs\\phase1_chapman_seed1_v4\\preprocessing_v4.npz",
+      "preprocessing_sha256": "4161491196bf41b07dcc6379a54fa5ab5d7eebf28620a0ff25ef51e0d71f4676",
+      "seed": 104729,
+      "split_sha256": "f3dafa0fc892a3d821ac0b386205e185134f1653990815c55deaa699cb66253d",
+      "validation": "outputs\\phase1_chapman_seed1_v4\\validation_predictions_v4.npz",
+      "validation_sha256": "e67f1fe8c4fdb76f8dfb1c93c5fe06f340049b8a90fb5b0bcadf3c4c99c77ae1",
+      "validation_thresholds": [
+        0.7041015625,
+        0.0030965805053710938,
+        0.03013305738568306
+      ],
+      "validation_twa_auprc": 0.7537691758590006
+    },
+    {
+      "checkpoint": "outputs\\mitigation_m1_v1\\physics_aware\\seed_104729\\checkpoint.pt",
+      "checkpoint_sha256": "d67655d13826cfc04f66458d9393f2dc05635302ef7f08528d0feb5d51da058e",
+      "dataset": "Chapman",
+      "decision": "PASS",
+      "model": "physics_aware_12lead",
+      "preprocessing": "outputs\\phase1_chapman_seed1_v4\\preprocessing_v4.npz",
+      "preprocessing_sha256": "4161491196bf41b07dcc6379a54fa5ab5d7eebf28620a0ff25ef51e0d71f4676",
+      "seed": 104729,
+      "split_sha256": "f3dafa0fc892a3d821ac0b386205e185134f1653990815c55deaa699cb66253d",
+      "validation": "outputs\\mitigation_m1_v1\\physics_aware\\seed_104729\\validation.npz",
+      "validation_sha256": "70a1ce1b801c5deb931a86ffa7426fb2f33e2ea0f055ec49c8d03e2bb3393c37",
+      "validation_thresholds": [
+        0.683300793170929,
+        0.01240387000143528,
+        0.03432006761431694
+      ],
+      "validation_twa_auprc": 0.7552000810450056
+    },
+    {
+      "checkpoint": "outputs\\phase2_chapman_multiseed_v7\\seed_130363\\checkpoint.pt",
+      "checkpoint_sha256": "3c9e597a1496c0c27ecc174ee8894336930da6f3c84ae64f98c4e7872fb4286e",
+      "dataset": "Chapman",
+      "decision": "PASS",
+      "model": "clean_12lead",
+      "preprocessing": "outputs\\phase1_chapman_seed1_v4\\preprocessing_v4.npz",
+      "preprocessing_sha256": "4161491196bf41b07dcc6379a54fa5ab5d7eebf28620a0ff25ef51e0d71f4676",
+      "seed": 130363,
+      "split_sha256": "f3dafa0fc892a3d821ac0b386205e185134f1653990815c55deaa699cb66253d",
+      "validation": "outputs\\phase2_chapman_multiseed_v7\\seed_130363\\validation.npz",
+      "validation_sha256": "a3e6ef3b4368b898727ff7ab7c6cffe48ba9d5c55c3b96aff2ce8cf536db7a1e",
+      "validation_thresholds": [
+        0.754589855670929,
+        0.01602477952837944,
+        0.00867462158203125
+      ],
+      "validation_twa_auprc": 0.7350723487386481
+    },
+    {
+      "checkpoint": "outputs\\mitigation_m1_v1\\physics_aware\\seed_130363\\checkpoint.pt",
+      "checkpoint_sha256": "3e5b7ef33a466cdf6b8a99bf7fc9a70ebd903b333caaa1b90cc98265d35f2099",
+      "dataset": "Chapman",
+      "decision": "PASS",
+      "model": "physics_aware_12lead",
+      "preprocessing": "outputs\\phase1_chapman_seed1_v4\\preprocessing_v4.npz",
+      "preprocessing_sha256": "4161491196bf41b07dcc6379a54fa5ab5d7eebf28620a0ff25ef51e0d71f4676",
+      "seed": 130363,
+      "split_sha256": "f3dafa0fc892a3d821ac0b386205e185134f1653990815c55deaa699cb66253d",
+      "validation": "outputs\\mitigation_m1_v1\\physics_aware\\seed_130363\\validation.npz",
+      "validation_sha256": "c19c0ccfe99872123dd9d3fbdc27194c37457d7eb4f19f4c1d4a03ceaa962cb4",
+      "validation_thresholds": [
+        0.8480468988418579,
+        0.01063461322337389,
+        0.025299072265625
+      ],
+      "validation_twa_auprc": 0.7512074192949426
+    },
+    {
+      "checkpoint": "outputs\\phase2_chapman_multiseed_v7\\seed_155921\\checkpoint.pt",
+      "checkpoint_sha256": "c5703ad3eee0c8b7ef954bd4f7ce70d63ddc192468b5ede5d94110689ef4d982",
+      "dataset": "Chapman",
+      "decision": "PASS",
+      "model": "clean_12lead",
+      "preprocessing": "outputs\\phase1_chapman_seed1_v4\\preprocessing_v4.npz",
+      "preprocessing_sha256": "4161491196bf41b07dcc6379a54fa5ab5d7eebf28620a0ff25ef51e0d71f4676",
+      "seed": 155921,
+      "split_sha256": "f3dafa0fc892a3d821ac0b386205e185134f1653990815c55deaa699cb66253d",
+      "validation": "outputs\\phase2_chapman_multiseed_v7\\seed_155921\\validation.npz",
+      "validation_sha256": "24e32abeb2231ce860adec7938c1179a992222c6696bbf248757d04f98da588e",
+      "validation_thresholds": [
+        0.579394519329071,
+        0.004150390625,
+        0.02881774865090847
+      ],
+      "validation_twa_auprc": 0.7510559832125038
+    },
+    {
+      "checkpoint": "outputs\\mitigation_m1_v1\\physics_aware\\seed_155921\\checkpoint.pt",
+      "checkpoint_sha256": "8b6ded3c576283c32aa25b0984ce8c5d12e9e56fb78cbd2ee0feff4342f4d828",
+      "dataset": "Chapman",
+      "decision": "PASS",
+      "model": "physics_aware_12lead",
+      "preprocessing": "outputs\\phase1_chapman_seed1_v4\\preprocessing_v4.npz",
+      "preprocessing_sha256": "4161491196bf41b07dcc6379a54fa5ab5d7eebf28620a0ff25ef51e0d71f4676",
+      "seed": 155921,
+      "split_sha256": "f3dafa0fc892a3d821ac0b386205e185134f1653990815c55deaa699cb66253d",
+      "validation": "outputs\\mitigation_m1_v1\\physics_aware\\seed_155921\\validation.npz",
+      "validation_sha256": "03d21b1645c888754419252c2b1f6dc77fa4c3f77a5f0050c7dfcd4f4fbc20ab",
+      "validation_thresholds": [
+        0.63134765625,
+        0.007770538330078125,
+        0.0280609130859375
+      ],
+      "validation_twa_auprc": 0.7490496219744532
+    },
+    {
+      "checkpoint": "outputs\\ningbo_confirmation_v2\\seed_104729\\checkpoint.pt",
+      "checkpoint_sha256": "4ccbef0f71197f4156ac34cd742d6ab9210e4e7a6829867a137bd7fceb5ccf40",
+      "dataset": "Ningbo",
+      "decision": "PASS",
+      "model": "clean_12lead",
+      "preprocessing": "outputs\\ningbo_confirmation_v2\\seed_104729\\preprocessing.npz",
+      "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 104729,
+      "split_sha256": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388",
+      "validation": "outputs\\ningbo_confirmation_v2\\seed_104729\\validation.npz",
+      "validation_sha256": "63a2627320b1d7bfecd11f7cb7e264f8ddd6e7b41406d80f69d37bcc3b4f3fb9",
+      "validation_thresholds": [
+        0.650341808795929,
+        0.010204315185546875,
+        0.04400634765625
+      ],
+      "validation_twa_auprc": 0.6605456867165609
+    },
+    {
+      "checkpoint": "outputs\\mitigation_m2_ningbo_v1\\seed_104729\\checkpoint.pt",
+      "checkpoint_sha256": "5e164b3496077b49a063c75c0d712c66531c907f3ef45db62d087f4877fe8d09",
+      "dataset": "Ningbo",
+      "decision": "PASS",
+      "model": "physics_aware_12lead",
+      "preprocessing": "outputs\\mitigation_m2_ningbo_v1\\seed_104729\\preprocessing.npz",
+      "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 104729,
+      "split_sha256": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388",
+      "validation": "outputs\\mitigation_m2_ningbo_v1\\seed_104729\\validation.npz",
+      "validation_sha256": "36e25a4796279dbf379525a721200536db3488cd4bc258ea1d715056371ca03c",
+      "validation_thresholds": [
+        0.6971679925918579,
+        0.008510589599609375,
+        0.009073639288544655
+      ],
+      "validation_twa_auprc": 0.6714528340701156
+    },
+    {
+      "checkpoint": "outputs\\ningbo_confirmation_v2\\seed_130363\\checkpoint.pt",
+      "checkpoint_sha256": "1baf5865b01456704980878a6e9ed72bb23e587636303b6a419b63c58ee0c600",
+      "dataset": "Ningbo",
+      "decision": "PASS",
+      "model": "clean_12lead",
+      "preprocessing": "outputs\\ningbo_confirmation_v2\\seed_130363\\preprocessing.npz",
+      "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 130363,
+      "split_sha256": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388",
+      "validation": "outputs\\ningbo_confirmation_v2\\seed_130363\\validation.npz",
+      "validation_sha256": "dd408f673574ab4a0bd925c88a4a08134a206799397fc80b25757e667160458c",
+      "validation_thresholds": [
+        0.733203113079071,
+        0.0027326582930982113,
+        0.10052490234375
+      ],
+      "validation_twa_auprc": 0.6531869229460079
+    },
+    {
+      "checkpoint": "outputs\\mitigation_m2_ningbo_v1\\seed_130363\\checkpoint.pt",
+      "checkpoint_sha256": "ef347b6bd2d1cc6e4fd649d299543e78ed23efa044976ac3cf66436c0d695c8f",
+      "dataset": "Ningbo",
+      "decision": "PASS",
+      "model": "physics_aware_12lead",
+      "preprocessing": "outputs\\mitigation_m2_ningbo_v1\\seed_130363\\preprocessing.npz",
+      "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 130363,
+      "split_sha256": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388",
+      "validation": "outputs\\mitigation_m2_ningbo_v1\\seed_130363\\validation.npz",
+      "validation_sha256": "ca0c2f953bb260ff4a4d25b75b281db1ac0756d15d884274f364ecd871d02d74",
+      "validation_thresholds": [
+        0.562451183795929,
+        0.0056854248978197575,
+        0.011165618896484375
+      ],
+      "validation_twa_auprc": 0.6703578246212103
+    },
+    {
+      "checkpoint": "outputs\\ningbo_confirmation_v2\\seed_155921\\checkpoint.pt",
+      "checkpoint_sha256": "9a71453fe35d94ccdc9bb05925abb6b1bedb1496c1d8105f0ede606904b35949",
+      "dataset": "Ningbo",
+      "decision": "PASS",
+      "model": "clean_12lead",
+      "preprocessing": "outputs\\ningbo_confirmation_v2\\seed_155921\\preprocessing.npz",
+      "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 155921,
+      "split_sha256": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388",
+      "validation": "outputs\\ningbo_confirmation_v2\\seed_155921\\validation.npz",
+      "validation_sha256": "2e7c6c805633e99460e98aa9ce8c92a75e3441691fdc4a63ffe85431c2e3b680",
+      "validation_thresholds": [
+        0.586132824420929,
+        0.04575805738568306,
+        0.039886474609375
+      ],
+      "validation_twa_auprc": 0.6541104731502971
+    },
+    {
+      "checkpoint": "outputs\\mitigation_m2_ningbo_v1\\seed_155921\\checkpoint.pt",
+      "checkpoint_sha256": "fd16f1df621764fd1229ed84e615f016226c00800943c064c021c9136de26eb8",
+      "dataset": "Ningbo",
+      "decision": "PASS",
+      "model": "physics_aware_12lead",
+      "preprocessing": "outputs\\mitigation_m2_ningbo_v1\\seed_155921\\preprocessing.npz",
+      "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 155921,
+      "split_sha256": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388",
+      "validation": "outputs\\mitigation_m2_ningbo_v1\\seed_155921\\validation.npz",
+      "validation_sha256": "ee0aea6549b86fceb6504a63e0b2709a64e729c1326aebaf79f6f83134cc417e",
+      "validation_thresholds": [
+        0.711865246295929,
+        0.01172027550637722,
+        0.011447906494140625
+      ],
+      "validation_twa_auprc": 0.6633839939127028
+    }
+  ]
+}

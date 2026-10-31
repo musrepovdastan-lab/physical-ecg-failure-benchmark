@@ -1,0 +1,68 @@
+{
+  "false_correction_clean": [
+    {
+      "anonymous_record_id": "NGB-02D482A5CC33",
+      "condition": "clean"
+    },
+    {
+      "anonymous_record_id": "NGB-08899A665217",
+      "condition": "clean"
+    },
+    {
+      "anonymous_record_id": "NGB-09B7762149AB",
+      "condition": "clean"
+    },
+    {
+      "anonymous_record_id": "NGB-10D81FCC67C3",
+      "condition": "clean"
+    },
+    {
+      "anonymous_record_id": "NGB-12A38750C3D2",
+      "condition": "clean"
+    }
+  ],
+  "missed_reversal": [
+    {
+      "anonymous_record_id": "NGB-01B0F4A469AF",
+      "condition": "LA_LL_reversal"
+    },
+    {
+      "anonymous_record_id": "NGB-01BC4A6B0918",
+      "condition": "LA_LL_reversal"
+    },
+    {
+      "anonymous_record_id": "NGB-02595F39AB9D",
+      "condition": "LA_LL_reversal"
+    },
+    {
+      "anonymous_record_id": "NGB-031514F27F87",
+      "condition": "LA_LL_reversal"
+    },
+    {
+      "anonymous_record_id": "NGB-034D72893497",
+      "condition": "LA_LL_reversal"
+    }
+  ],
+  "wrong_reversal_type": [
+    {
+      "anonymous_record_id": "NGB-00A3BE8F5969",
+      "condition": "RA_LL_reversal"
+    },
+    {
+      "anonymous_record_id": "NGB-00D943357402",
+      "condition": "RA_LL_reversal"
+    },
+    {
+      "anonymous_record_id": "NGB-043CA1C4BE5F",
+      "condition": "RA_LL_reversal"
+    },
+    {
+      "anonymous_record_id": "NGB-05DD499A60D9",
+      "condition": "RA_LL_reversal"
+    },
+    {
+      "anonymous_record_id": "NGB-0690F3914A1B",
+      "condition": "LA_LL_reversal"
+    }
+  ]
+}

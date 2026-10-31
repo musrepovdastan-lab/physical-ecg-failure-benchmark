@@ -1,0 +1,14 @@
+{
+  "cache_sha256": "c961d7ed720f60ed92522285bf6145fda2d461bc620bc86f7af718b8e356e3c5",
+  "conditions": [
+    "clean",
+    "RA_LL_reversal"
+  ],
+  "evaluator_sha256": "c4902b65b8417d6f62c67b3d4286ab9ad09f8eff6097b5cb25e9d5535c67d5b5",
+  "models": 6,
+  "outcome_blind": true,
+  "patients": 10000,
+  "protocol_sha256": "199344e9f7cbb0eb55564f52ce320bca4c85478ceb68174a3d11568611a58760",
+  "selection_sha256": "7af9986691871d57df5699e270b3cf4442bf5a733536356155a87094bac09de4",
+  "started_utc": "2026-09-26T03:57:45.195598+00:00"
+}

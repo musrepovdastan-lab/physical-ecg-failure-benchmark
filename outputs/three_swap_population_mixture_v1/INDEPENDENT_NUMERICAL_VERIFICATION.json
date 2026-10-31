@@ -1,0 +1,178 @@
+{
+  "bootstrap_indices_sha256": {
+    "HEEDB": "cd4c8f9d8254a0e120e97cc02056cf8f3421a23feb47d401129139fa2286a4c7",
+    "Ningbo": "6d186026b73c6a0ad31df3c20f16c6f18ad9970176e9c78b0235e6a64e1861d1"
+  },
+  "condition_metric_rows_recomputed": 576,
+  "historical_RA_LL_anchor_all_pass": true,
+  "historical_RA_LL_anchor_rows": 1008,
+  "max_weight_sum_error": 1.1102230246251565e-16,
+  "metric_comparisons": [
+    {
+      "max_abs_error": 1.1102230246251565e-16,
+      "metric": "AP",
+      "rows": 576,
+      "table": "condition"
+    },
+    {
+      "max_abs_error": 1.1102230246251565e-16,
+      "metric": "AUROC",
+      "rows": 576,
+      "table": "condition"
+    },
+    {
+      "max_abs_error": 9.8879238130678e-17,
+      "metric": "Brier",
+      "rows": 576,
+      "table": "condition"
+    },
+    {
+      "max_abs_error": 9.8879238130678e-17,
+      "metric": "ECE15",
+      "rows": 576,
+      "table": "condition"
+    },
+    {
+      "max_abs_error": 1.1102230246251565e-16,
+      "metric": "sensitivity",
+      "rows": 576,
+      "table": "condition"
+    },
+    {
+      "max_abs_error": 1.1102230246251565e-16,
+      "metric": "specificity",
+      "rows": 576,
+      "table": "condition"
+    },
+    {
+      "max_abs_error": 8.326672684688674e-17,
+      "metric": "predicted_positive_fraction",
+      "rows": 576,
+      "table": "condition"
+    },
+    {
+      "max_abs_error": 5.684341886080802e-14,
+      "metric": "FP_per_1000",
+      "rows": 576,
+      "table": "condition"
+    },
+    {
+      "max_abs_error": 7.105427357601002e-15,
+      "metric": "FN_per_1000",
+      "rows": 576,
+      "table": "condition"
+    },
+    {
+      "max_abs_error": 0.0,
+      "metric": "TP",
+      "rows": 576,
+      "table": "condition"
+    },
+    {
+      "max_abs_error": 0.0,
+      "metric": "FP",
+      "rows": 576,
+      "table": "condition"
+    },
+    {
+      "max_abs_error": 0.0,
+      "metric": "TN",
+      "rows": 576,
+      "table": "condition"
+    },
+    {
+      "max_abs_error": 0.0,
+      "metric": "FN",
+      "rows": 576,
+      "table": "condition"
+    },
+    {
+      "max_abs_error": 1.1102230246251565e-16,
+      "metric": "AP",
+      "rows": 2016,
+      "table": "mixture"
+    },
+    {
+      "max_abs_error": 1.1102230246251565e-16,
+      "metric": "AUROC",
+      "rows": 2016,
+      "table": "mixture"
+    },
+    {
+      "max_abs_error": 1.6653345369377348e-16,
+      "metric": "Brier",
+      "rows": 2016,
+      "table": "mixture"
+    },
+    {
+      "max_abs_error": 1.1102230246251565e-16,
+      "metric": "ECE15",
+      "rows": 2016,
+      "table": "mixture"
+    },
+    {
+      "max_abs_error": 2.220446049250313e-16,
+      "metric": "sensitivity",
+      "rows": 2016,
+      "table": "mixture"
+    },
+    {
+      "max_abs_error": 3.3306690738754696e-16,
+      "metric": "specificity",
+      "rows": 2016,
+      "table": "mixture"
+    },
+    {
+      "max_abs_error": 2.220446049250313e-16,
+      "metric": "predicted_positive_fraction",
+      "rows": 2016,
+      "table": "mixture"
+    },
+    {
+      "max_abs_error": 1.1368683772161603e-13,
+      "metric": "FP_per_1000",
+      "rows": 2016,
+      "table": "mixture"
+    },
+    {
+      "max_abs_error": 2.1316282072803006e-14,
+      "metric": "FN_per_1000",
+      "rows": 2016,
+      "table": "mixture"
+    },
+    {
+      "max_abs_error": 9.094947017729282e-13,
+      "metric": "TP",
+      "rows": 2016,
+      "table": "mixture"
+    },
+    {
+      "max_abs_error": 6.821210263296962e-13,
+      "metric": "FP",
+      "rows": 2016,
+      "table": "mixture"
+    },
+    {
+      "max_abs_error": 3.637978807091713e-12,
+      "metric": "TN",
+      "rows": 2016,
+      "table": "mixture"
+    },
+    {
+      "max_abs_error": 1.1368683772161603e-13,
+      "metric": "FN",
+      "rows": 2016,
+      "table": "mixture"
+    }
+  ],
+  "mixture_metric_rows_recomputed": 2016,
+  "paired_bootstrap_draws": 700000,
+  "paired_bootstrap_summary_max_abs_error": 5.684341886080802e-14,
+  "real_draws_max_abs_error": 3.9968028886505635e-15,
+  "real_draws_sklearn_repeated_vs_weighted": 48,
+  "reserved_test_evaluated": false,
+  "status": "PASS",
+  "training_or_fitting": false,
+  "type": "internal independent numerical verification; not external review",
+  "weight_sum_checks": 2016
+}

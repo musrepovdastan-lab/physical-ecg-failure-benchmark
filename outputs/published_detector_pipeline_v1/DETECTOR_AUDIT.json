@@ -1,0 +1,21 @@
+{
+  "checkpoint_note": "Published checkpoint prefix '.' was byte-copied to prefix 'LDenseNet' for Windows TensorFlow loading; .data/.index hashes are preserved by content.",
+  "class_mapping_from_code": {
+    "0": "clean",
+    "1": "RA_LA",
+    "2": "RA_LL",
+    "3": "LA_LL"
+  },
+  "decision": "PASS",
+  "hashes": {
+    "outputs\\published_detector_pipeline_v1\\official_source\\ECG_lead_check-main\\limb\\LDenseNet.py": "B23F5CE3451C8B8BA28B5831D13D3375F2E01F868F4EEE2AE40AC85DC56C855E",
+    "outputs\\published_detector_pipeline_v1\\official_source\\ECG_lead_check-main\\limb\\data_preprocess.py": "25222DA903DE85936360972C761EC31F5A2C5AB42EED613228267BD408E639A0",
+    "outputs\\published_detector_pipeline_v1\\official_source\\ECG_lead_check-main\\limb\\train_model_limb.py": "C764E49771B1932D43D15EFC71A51D5B5E02FF32ED2C315B1DC7D31FC013FBD3",
+    "outputs\\published_detector_pipeline_v1\\official_source\\ECG_lead_check_main.zip": "9DBF5FB08987423971AFFD4BED960442335CFBFEB33E1E4441BBC7496E2A4496",
+    "outputs\\published_detector_pipeline_v1\\official_source\\LDenseNet_loadable\\LDenseNet.data-00000-of-00001": "D40D7B9166567AA5332DE96A573E792D42F87A6D79B9030F461E9D4D60430EF6",
+    "outputs\\published_detector_pipeline_v1\\official_source\\LDenseNet_loadable\\LDenseNet.index": "45286E770EF023A5E9D568F8B44024237954AFE5AB6B772F09659447A6D8B4A1"
+  },
+  "published_weights_loaded": true,
+  "tensorflow_env": "outputs\\published_detector_pipeline_v1\\detector_env\\Scripts\\python.exe",
+  "training_data_overlap_assessment": "Repository limb training code names Chapman-Shaoxing for training and PTB/PTB-XL for external tests; no Ningbo training use is indicated in code."
+}

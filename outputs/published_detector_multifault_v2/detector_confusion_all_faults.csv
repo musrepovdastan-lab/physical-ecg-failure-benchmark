@@ -1,0 +1,5 @@
+true_class,predicted_clean,predicted_RA_LA,predicted_RA_LL,predicted_LA_LL
+clean,6877,34,3,67
+RA_LA,50,6853,13,65
+RA_LL,22,88,6849,22
+LA_LL,167,7,22,6785

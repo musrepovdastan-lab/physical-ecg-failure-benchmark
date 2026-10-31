@@ -1,0 +1,12 @@
+{
+  "completed_tasks": 18,
+  "last": {
+    "endpoint": "STach",
+    "mode": "physics_aware_m2",
+    "path": "outputs\\mask_semantics_recovery_v2\\bootstrap_tasks\\physics_aware_m2_seed_155921_STach.npz",
+    "seed": 155921,
+    "status": "REUSED_VERIFIED"
+  },
+  "total_tasks": 18,
+  "updated_utc": "2026-10-16T20:35:33.160296+00:00"
+}

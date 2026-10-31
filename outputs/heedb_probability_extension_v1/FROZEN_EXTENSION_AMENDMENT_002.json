@@ -1,0 +1,7 @@
+{
+  "amended_protocol_sha256": "6cc3534e6c7e3f01f535578f995308b29f2425cae0ae2aa8ead093ccbfa6df87",
+  "amendment": "002",
+  "prior_protocol_sha256": "83356fe94f61ba77076488c8a0aa6d0d9ba660d03cb32405e2459be280ef4730",
+  "reason": "First runner invocation stopped before any replay comparison because the Ningbo test waveform path was incorrectly inferred from the training directory. Corrected to the existing six-method extension frozen waveform file. No inference comparison or HEEDB outcome was produced before the amendment; scope and analysis unchanged.",
+  "status": "AMENDED_BEFORE_REPLAY"
+}

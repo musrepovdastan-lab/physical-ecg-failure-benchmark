@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-18",
+  "scope": "Targeted novelty verification, not a systematic review or proof of priority",
+  "queries": [
+    "Reversal No Longer Matters training test",
+    "ECG lead reversal augmentation robust diagnosis missing leads chest only calibration",
+    "ECG lead misplacement diagnostic classification reversal robustness augmentation 2024 2025 2026",
+    "Reversal No Longer Matters 3.2",
+    "Reversal No Longer Matters 73.17 73.68",
+    "lead reversal masking augmentation ECG",
+    "ECG lead reversal missing leads diagnosis benchmark",
+    "ECG lead reversal calibration diagnostic",
+    "ECG lead reversal fault proportion",
+    "ECG lead reversal missingness"
+  ],
+  "downloaded_primary_files": [
+    {
+      "path": "Rafiei2026_Self_Validating_ECG.pdf",
+      "bytes": 2035761,
+      "sha256": "d455513f48485c8ee04a02dec49c9bd0a9b5b373b0152c8f9d2a278e9a92fbcc",
+      "download_url": "https://drive.google.com/uc?export=download&id=1gnvlqPz3hd_CKI9u1yDVCYSui1pRyuQN",
+      "primary_origin": "https://gdclifford.info/publications",
+      "review": "PDF methods/results examined; conclusions paraphrased in NOVELTY_REVIEW_RU.md"
+    },
+    {
+      "path": "Alves2025_Real_World_Electrode_Interchange.pdf",
+      "bytes": 479386,
+      "sha256": "10689cc646408f77624ff8148875754d59aa8d53017cf76734db5169fe000d1e",
+      "download_url": "https://sbia.org.br/wp-content/uploads/2025/12/pdf/CBIC_2025_paper1191460.pdf",
+      "primary_origin": "https://sbia.org.br/eventos/cbic_2025/cbic2025-1191460/",
+      "review": "PDF methods/results examined; conclusions paraphrased in NOVELTY_REVIEW_RU.md"
+    }
+  ],
+  "cao_access": {
+    "pdf_saved": false,
+    "url": "https://dihana.cps.unizar.es/proceedings/ICASSP/2020/pdfs/0000951.pdf",
+    "web_reader": "timeout",
+    "direct_download": "hostname mismatch, then HTTP 401; no credentials or authentication bypass used",
+    "ieee_reader": "unavailable",
+    "verified_primary_index_sections": [
+      "3.2 and 3.3, printed page 953",
+      "Table 2 and Table 3, printed page 954"
+    ],
+    "unverified": "complete binary PDF, every figure and remaining page content"
+  },
+  "additional_primary_sources": [
+    "https://proceedings.mlr.press/v158/gopal21a.html",
+    "https://proceedings.mlr.press/v174/oh22a.html",
+    "https://www.nature.com/articles/s41467-023-39472-8",
+    "https://doi.org/10.1088/1361-6579/ad43ae",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11871216/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12346549/",
+    "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2026.1856211/full",
+    "https://www.mdpi.com/2306-5354/13/10/1174"
+  ],
+  "limitations": "Access levels and limits differ by source and are stated in the review; failed exact-site queries returned irrelevant papers, which were excluded."
+}

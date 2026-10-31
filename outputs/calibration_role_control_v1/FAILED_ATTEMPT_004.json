@@ -1,0 +1,9 @@
+{
+  "status": "HUANG_ROLE_SCORE_PATH_REJECTED",
+  "reason": "The first postprocessor passed Ningbo's 100-Hz classifier cache (12x1000) to the published Huang correction adapter, which correctly requires the original 500-Hz (12x5000) waveform.",
+  "core_A_B_scores": "written with locked checkpoints and correct 100-Hz cache; will be deterministically overwritten after revalidation",
+  "test_or_HEEDB_accessed": false,
+  "calibration_or_threshold_fit": false,
+  "resolution": "Load the canonical 500-Hz source waveform for Huang handoff, then apply the adapter's frozen stride-5/normalization path to the classifier.",
+  "historical_warning": "Do not bypass adapter geometry or silently upsample 100-Hz data."
+}

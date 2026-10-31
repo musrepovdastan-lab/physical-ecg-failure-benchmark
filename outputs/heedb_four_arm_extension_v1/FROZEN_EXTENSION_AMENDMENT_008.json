@@ -1,0 +1,15 @@
+{
+  "amendment": "008",
+  "amendment_007_sha256": "8df42d66ea16313d310a6825916f21e15f43b2acb0c47f3ff0a627b177cf78d4",
+  "bootstrap_status": "all 280 groups completed; source-ordered patient draw stream matched exactly",
+  "finalizer_sha256": "17bdc43b8f1158698bb460e3456eb263557e510260197041c600b9da5b4d190e",
+  "metric_tables_sha256": {
+    "contrasts": "f922f4b2bcfb4d2ec5e54dbd2e277f000af4a6744d070b34863ccdefba2ac82f",
+    "draws": "25ebd30bcccc78608754ac24cd5c8cbd40f5d4e061eaf26c2287900652a6510b",
+    "seed": "a5c40df2ff8d14ffe4d8e320fc16fc75f29253ce5fcef65d74e8caa831c7b9b9",
+    "summary": "04db1a59dc299d42881190ff9405eb664abbcacb01dd94c3224a761fcecacebe"
+  },
+  "protocol_sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa",
+  "reason": "Bind final output generation: recompute only calibration ordering/threshold diagnostics from the frozen fits and saved scores, make publication plots with Agg, write report/provenance/status and artifact hashes. Do not change or recompute metrics or bootstrap draws.",
+  "status": "FROZEN_BEFORE_FINALIZATION"
+}\n

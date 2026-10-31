@@ -1,0 +1,12 @@
+{
+    "reason":  "The first fast bootstrap implementation included zero-frequency score tie groups in an AP sum, yielding 0/0 for groups absent from a draw. These groups have zero sample weight and must be omitted to match sklearn weighted/repeated-row calculation. Unverified output attempt is preserved in analysis_attempt_zero_weight_bins/.",
+    "prior_protocol_sha256":  "c7652e1604ef445c89453cd84b2022ddf687c8e409c31ce2911828a4dcb8fc81",
+    "amendment":  "002",
+    "correction":  "Drop tie groups with zero total resampling weight before AP and AUROC accumulation; validate on repeated-record draws 0,417,999.",
+    "created_utc":  "2026-10-19T14:54:27.8323591Z",
+    "preserved_attempt":  {
+                              "script_sha256":  "15478e1dc402d1ebfe30526b6085e743c6e334938abc7f34871a7541164641b7",
+                              "script_path":  "outputs/identity_rederivation_sensitivity_v1/run_identity_sensitivity_attempt_zero_weight_bins.py",
+                              "outputs_path":  "outputs/identity_rederivation_sensitivity_v1/analysis_attempt_zero_weight_bins/"
+                          }
+}

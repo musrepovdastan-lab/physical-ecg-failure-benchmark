@@ -1,0 +1,8 @@
+﻿{
+    "scope":  "cached predictions and labels only; no model loading, training, inference, or Ningbo access",
+    "stderr":  "outputs/mitigation_m1_v1/finalizer_stderr.log",
+    "pid":  46216,
+    "started_utc":  "2026-08-30T13:51:58.7187662Z",
+    "stdout":  "outputs/mitigation_m1_v1/finalizer_stdout.log",
+    "task":  "mitigation_m1_cached_prediction_finalizer_v1"
+}

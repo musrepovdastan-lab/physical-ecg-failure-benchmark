@@ -1,0 +1,16 @@
+{
+  "bootstrap_indices_sha256": "6D186026B73C6A0AD31DF3C20F16C6F18AD9970176E9C78B0235E6A64E1861D1",
+  "checkpoint_bindings_verified": 3,
+  "decision": "PASS",
+  "evaluation_freeze_provenance_verified": 3,
+  "prediction_shape_and_finite_verified": 2382,
+  "protocol_sha256": "2D7B605AF175EF6D5B59B223A9EA37BB3F7D675C2C1AC3E27FFF23FCD43E96B8",
+  "saved_m2_prediction_hashes_verified": 2382,
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "test_waveforms_or_inference_used": false,
+  "validation_gates_verified": 3
+}

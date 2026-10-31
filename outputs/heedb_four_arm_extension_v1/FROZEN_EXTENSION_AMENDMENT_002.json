@@ -1,0 +1,12 @@
+{
+  "amendment": "002",
+  "amendment_001_sha256": "d6ff1cb09e1de6c2b9802dcbb95a9953fa49d3a5a9233ca2d79c973ca4674cde",
+  "data_change": false,
+  "extension_source_sha256": "718c22ed7ddbce9f3920daaa7c87ae4c1b069975e93b830266f3e4623af7ea22",
+  "method_change": false,
+  "protocol_sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa",
+  "reason": "Corrected the Ningbo replay adapter to use the already-frozen batched physical RA_LL transform after the first attempt exposed a single-record versus batch shape mismatch. The first attempt ended before any HEEDB outcome metrics were computed.",
+  "replay_retry": "Restart all control and Ningbo replay comparisons from the first batch using original 128-record inference batches and unchanged 1e-4 tolerances.",
+  "status": "FROZEN_BEFORE_REPLAY_RETRY",
+  "tolerance_change": false
+}\n

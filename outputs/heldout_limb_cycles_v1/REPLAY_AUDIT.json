@@ -1,0 +1,756 @@
+{
+  "status": "PASS",
+  "tolerance": 0.0001,
+  "units": [
+    {
+      "arm": "ordinary",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/phase1_chapman_seed1_v4/test_predictions_v4/RA_LL_reversal.npz",
+          "source_sha256": "a9fe2b7bd1aff07944e67107c7297059b377a66b5cb6b2bb18d20d44d59daaea"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/phase1_chapman_seed1_v4/test_predictions_v4/clean.npz",
+          "source_sha256": "b86de4b19d5e43f27b8b3592f4518261ea6a477da417291e80e0a0cec8c3d24b"
+        }
+      },
+      "dataset": "Chapman",
+      "n_replayed": 258,
+      "pass": true,
+      "replay_indices_sha256": "78d9966561bc076fa62594ca8e8dd0185b87dc1e730238375ecc1228b7e794b5",
+      "seed": 104729,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "ordinary",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/phase2_chapman_multiseed_v7/seed_130363/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "18ad5bd56b747fe50732128b1e60f455467fb065d54e3049f06151d30cf46733"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/phase2_chapman_multiseed_v7/seed_130363/test_predictions/clean.npz",
+          "source_sha256": "da5f23c22bdd68ab4fd348e81d520c1c87caae7fbf69df21433f2a1a5a188fac"
+        }
+      },
+      "dataset": "Chapman",
+      "n_replayed": 258,
+      "pass": true,
+      "replay_indices_sha256": "78d9966561bc076fa62594ca8e8dd0185b87dc1e730238375ecc1228b7e794b5",
+      "seed": 130363,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "ordinary",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/phase2_chapman_multiseed_v7/seed_155921/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "f481fa0137e4be2f87f26b568e0841cb01af4d50b2e79935aa333b787f98fd43"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/phase2_chapman_multiseed_v7/seed_155921/test_predictions/clean.npz",
+          "source_sha256": "68ba5071b30e4c253ed7276370b7a60eebf7959aa702b8c8947e1148953d0e6b"
+        }
+      },
+      "dataset": "Chapman",
+      "n_replayed": 258,
+      "pass": true,
+      "replay_indices_sha256": "78d9966561bc076fa62594ca8e8dd0185b87dc1e730238375ecc1228b7e794b5",
+      "seed": 155921,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "masking",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/masking/seed_104729/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "ce2adba3bc4d0423b11e1701ee733c8989447f408c2a0b20176fa03087bcb63c"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/masking/seed_104729/test_predictions/clean.npz",
+          "source_sha256": "06c9e4f33ed4d93fd274b0be1336a440c261eb3e4e0cf67a43a9d568184b0598"
+        }
+      },
+      "dataset": "Chapman",
+      "n_replayed": 258,
+      "pass": true,
+      "replay_indices_sha256": "78d9966561bc076fa62594ca8e8dd0185b87dc1e730238375ecc1228b7e794b5",
+      "seed": 104729,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "masking",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/masking/seed_130363/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "4591a7f4014de9a53798c9d1ca920bc333a281240b55e8a9f931ec1b1b2181ce"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/masking/seed_130363/test_predictions/clean.npz",
+          "source_sha256": "61d0d2b7388aa96de01e069317f16d249a8325e0f2de05fc1c2597f62a6f7b53"
+        }
+      },
+      "dataset": "Chapman",
+      "n_replayed": 258,
+      "pass": true,
+      "replay_indices_sha256": "78d9966561bc076fa62594ca8e8dd0185b87dc1e730238375ecc1228b7e794b5",
+      "seed": 130363,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "masking",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/masking/seed_155921/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "97c0ccd28cb8e958750c93898030996935831225d936a66056696486e8e52762"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/masking/seed_155921/test_predictions/clean.npz",
+          "source_sha256": "0850efcbb702a000aad7fb68dfc25c5677a44fb25c60ca73defd52442a69700e"
+        }
+      },
+      "dataset": "Chapman",
+      "n_replayed": 258,
+      "pass": true,
+      "replay_indices_sha256": "78d9966561bc076fa62594ca8e8dd0185b87dc1e730238375ecc1228b7e794b5",
+      "seed": 155921,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_aware",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/physics_aware/seed_104729/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "ce3272e2a76a13dd95b42d065ef84f3339ce2d3384f320f655d834c4d4af2b0b"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/physics_aware/seed_104729/test_predictions/clean.npz",
+          "source_sha256": "9ecbdb01591fb559ce0c969e7bea82338ecacc5ebb8716c28206421f210b9bd2"
+        }
+      },
+      "dataset": "Chapman",
+      "n_replayed": 258,
+      "pass": true,
+      "replay_indices_sha256": "78d9966561bc076fa62594ca8e8dd0185b87dc1e730238375ecc1228b7e794b5",
+      "seed": 104729,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_aware",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/physics_aware/seed_130363/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "9fb9a88f381aa24d6636ceea53f6b6395355e72b39be002c94f3882de54cffc3"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/physics_aware/seed_130363/test_predictions/clean.npz",
+          "source_sha256": "4eb9081caa6a29c06bbc5e8ec2830ce6f46c772b8ca9fb656569289658d9d8c9"
+        }
+      },
+      "dataset": "Chapman",
+      "n_replayed": 258,
+      "pass": true,
+      "replay_indices_sha256": "78d9966561bc076fa62594ca8e8dd0185b87dc1e730238375ecc1228b7e794b5",
+      "seed": 130363,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_aware",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/physics_aware/seed_155921/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "67f259bdacb5f407ea82af4f9af9dbe9735dde7274642fbe369ff5a50340ecdd"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/physics_aware/seed_155921/test_predictions/clean.npz",
+          "source_sha256": "9609affaf10c071964ce30091a00519f27cec8aa8f2e650539f717d1a7362b72"
+        }
+      },
+      "dataset": "Chapman",
+      "n_replayed": 258,
+      "pass": true,
+      "replay_indices_sha256": "78d9966561bc076fa62594ca8e8dd0185b87dc1e730238375ecc1228b7e794b5",
+      "seed": 155921,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "combined",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/combined/seed_104729/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "f2b6682710c97db178978e2448ec615f0de1d52ac2120dac4d03de7eeaa5b6cc"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/combined/seed_104729/test_predictions/clean.npz",
+          "source_sha256": "52c2e825b42647f2df0d272138756d7fdc88580c3539c512769cff4f45c1565f"
+        }
+      },
+      "dataset": "Chapman",
+      "n_replayed": 258,
+      "pass": true,
+      "replay_indices_sha256": "78d9966561bc076fa62594ca8e8dd0185b87dc1e730238375ecc1228b7e794b5",
+      "seed": 104729,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "combined",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/combined/seed_130363/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "d167320a76cc66ec212812142a1168fc1704d70f43aa8e6a990ef323569b4705"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/combined/seed_130363/test_predictions/clean.npz",
+          "source_sha256": "61238f05acc4bbdcfb1153979172bf5a5146a828b3d471865691abe188ecc214"
+        }
+      },
+      "dataset": "Chapman",
+      "n_replayed": 258,
+      "pass": true,
+      "replay_indices_sha256": "78d9966561bc076fa62594ca8e8dd0185b87dc1e730238375ecc1228b7e794b5",
+      "seed": 130363,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "combined",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/combined/seed_155921/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "c743796a938b9822ed2d2af9e3f230715d2df7f468c1ee443afb2e78aaeca132"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m1_v1/combined/seed_155921/test_predictions/clean.npz",
+          "source_sha256": "4c436c983dd909fc53a9529a6822d4312d6c040d4b3072cac20856e6c897c857"
+        }
+      },
+      "dataset": "Chapman",
+      "n_replayed": 258,
+      "pass": true,
+      "replay_indices_sha256": "78d9966561bc076fa62594ca8e8dd0185b87dc1e730238375ecc1228b7e794b5",
+      "seed": 155921,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "chest_only",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/chest_only_baseline_v1/models/Chapman/seed_104729/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "63f1c5bc8a0d65c39bf0a462fdc89b644091a441db229982bf23d8ef9c2ff18a"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/chest_only_baseline_v1/models/Chapman/seed_104729/test_predictions/clean.npz",
+          "source_sha256": "24ec2fdcfbed3d82dc0669c18ded1c3b23bbff8dd8e9e5fc511b080903c9907e"
+        }
+      },
+      "dataset": "Chapman",
+      "n_replayed": 258,
+      "pass": true,
+      "replay_indices_sha256": "78d9966561bc076fa62594ca8e8dd0185b87dc1e730238375ecc1228b7e794b5",
+      "seed": 104729,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "chest_only",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/chest_only_baseline_v1/models/Chapman/seed_130363/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "dc2a44ae92cfd04feaa4e0412a2fe881cbd5dac7a7cfa4fa4fbb2f6ff03e419c"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/chest_only_baseline_v1/models/Chapman/seed_130363/test_predictions/clean.npz",
+          "source_sha256": "0dd3e71e4afc5968c28f0eed45327454084b864c3fb75e184f4167692d67955d"
+        }
+      },
+      "dataset": "Chapman",
+      "n_replayed": 258,
+      "pass": true,
+      "replay_indices_sha256": "78d9966561bc076fa62594ca8e8dd0185b87dc1e730238375ecc1228b7e794b5",
+      "seed": 130363,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "chest_only",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/chest_only_baseline_v1/models/Chapman/seed_155921/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "984ae6f2dfd82d4c7126d884c87e7ee3497083341174eee88ffed073eb9f7256"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/chest_only_baseline_v1/models/Chapman/seed_155921/test_predictions/clean.npz",
+          "source_sha256": "285e8a3b7f03effa8ede6152a6ad5bb7d47e218ee31a1835f9327b7d877c5bd5"
+        }
+      },
+      "dataset": "Chapman",
+      "n_replayed": 258,
+      "pass": true,
+      "replay_indices_sha256": "78d9966561bc076fa62594ca8e8dd0185b87dc1e730238375ecc1228b7e794b5",
+      "seed": 155921,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "ordinary",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_confirmation_v2/seed_104729/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "dd1664666a8383f9f92a867e70949f5930250c454135df0352352e965006228a"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_confirmation_v2/seed_104729/test_predictions/clean.npz",
+          "source_sha256": "b36338ed1129116e1d6c034010f5fa9e43e1460c4393d5b822a03e2cb6c813d1"
+        }
+      },
+      "dataset": "Ningbo",
+      "n_replayed": 325,
+      "pass": true,
+      "replay_indices_sha256": "00bee83740e60e5bbd12b9acbf3cfee5043c86c54ef9058d033177a6e9eb6323",
+      "seed": 104729,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "ordinary",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_confirmation_v2/seed_130363/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "0d2e7c901db2a506d7c38400f7806b76d9c1ad24d352fd1ed36a563714a6b88c"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_confirmation_v2/seed_130363/test_predictions/clean.npz",
+          "source_sha256": "e03f1a3cd094f8c3d86699d5e4b5a4179c900e39b0cf8a0bc05d30dde66972ba"
+        }
+      },
+      "dataset": "Ningbo",
+      "n_replayed": 325,
+      "pass": true,
+      "replay_indices_sha256": "00bee83740e60e5bbd12b9acbf3cfee5043c86c54ef9058d033177a6e9eb6323",
+      "seed": 130363,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "ordinary",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_confirmation_v2/seed_155921/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "769feca273d07580ca08e0fe0c0661676f1a96a6a4cb767e48d0a68dd4e100d1"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_confirmation_v2/seed_155921/test_predictions/clean.npz",
+          "source_sha256": "9e756fe810a237bac6d296fa1e5fce9cb45c7508216321ea01edc9ced94007f2"
+        }
+      },
+      "dataset": "Ningbo",
+      "n_replayed": 325,
+      "pass": true,
+      "replay_indices_sha256": "00bee83740e60e5bbd12b9acbf3cfee5043c86c54ef9058d033177a6e9eb6323",
+      "seed": 155921,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "masking",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_four_arm_replication_v1/masking/seed_104729/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "c86ca2db93dcafd761663b5e8ebb12e695f1f44b480e03d4ea4255e412104032"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_four_arm_replication_v1/masking/seed_104729/test_predictions/clean.npz",
+          "source_sha256": "8c72178f76114bca943d361e96656f346055902758060ff4f61b3338041e459e"
+        }
+      },
+      "dataset": "Ningbo",
+      "n_replayed": 325,
+      "pass": true,
+      "replay_indices_sha256": "00bee83740e60e5bbd12b9acbf3cfee5043c86c54ef9058d033177a6e9eb6323",
+      "seed": 104729,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "masking",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_four_arm_replication_v1/masking/seed_130363/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "763f959ca95df78653a75679bf79d1a8c5e80cb4aba2100b0cba4d80e8ed56b1"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_four_arm_replication_v1/masking/seed_130363/test_predictions/clean.npz",
+          "source_sha256": "42945ccba9f0421442805492cb27868a5ab695bf838b9c70459fef7a1d4db0a8"
+        }
+      },
+      "dataset": "Ningbo",
+      "n_replayed": 325,
+      "pass": true,
+      "replay_indices_sha256": "00bee83740e60e5bbd12b9acbf3cfee5043c86c54ef9058d033177a6e9eb6323",
+      "seed": 130363,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "masking",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_four_arm_replication_v1/masking/seed_155921/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "f49b0c2115cbe6c185571ad260b3094f33db38e6f9e87e36451a5af9ba30cb4d"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_four_arm_replication_v1/masking/seed_155921/test_predictions/clean.npz",
+          "source_sha256": "aebc4441a84a4cf7a51d0c899cf72ec145398feca024b1052060f63b38d85c02"
+        }
+      },
+      "dataset": "Ningbo",
+      "n_replayed": 325,
+      "pass": true,
+      "replay_indices_sha256": "00bee83740e60e5bbd12b9acbf3cfee5043c86c54ef9058d033177a6e9eb6323",
+      "seed": 155921,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_aware",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m2_ningbo_v1/seed_104729/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "c6d077334cce740b50e57df0783a67e48c474d899f47fb50f4186df030762e41"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m2_ningbo_v1/seed_104729/test_predictions/clean.npz",
+          "source_sha256": "25c960f6d318c812b05e837e2d54c1ef554f490927e53b450227e656b68ede46"
+        }
+      },
+      "dataset": "Ningbo",
+      "n_replayed": 325,
+      "pass": true,
+      "replay_indices_sha256": "00bee83740e60e5bbd12b9acbf3cfee5043c86c54ef9058d033177a6e9eb6323",
+      "seed": 104729,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_aware",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m2_ningbo_v1/seed_130363/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "15f00d753601ab73f8c8a78dcb605526ea9039dbf8d988d670d78926b0277e95"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m2_ningbo_v1/seed_130363/test_predictions/clean.npz",
+          "source_sha256": "4d535b59ea9c740f57c75da18c062e4c34e61e98b0fff115357f61996b51c2a0"
+        }
+      },
+      "dataset": "Ningbo",
+      "n_replayed": 325,
+      "pass": true,
+      "replay_indices_sha256": "00bee83740e60e5bbd12b9acbf3cfee5043c86c54ef9058d033177a6e9eb6323",
+      "seed": 130363,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_aware",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m2_ningbo_v1/seed_155921/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "13317efe52fa9c9e3cdbf6ec858162e10188bd5ef04b3d347bf7ff5a3a7e1960"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/mitigation_m2_ningbo_v1/seed_155921/test_predictions/clean.npz",
+          "source_sha256": "69e7cec208eefbc22e9c1ddb9ea131e023195c110af4ae55e8ff9bfdf3269c1e"
+        }
+      },
+      "dataset": "Ningbo",
+      "n_replayed": 325,
+      "pass": true,
+      "replay_indices_sha256": "00bee83740e60e5bbd12b9acbf3cfee5043c86c54ef9058d033177a6e9eb6323",
+      "seed": 155921,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "combined",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_four_arm_replication_v1/combined/seed_104729/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "b56b852686912d0000db8abf5ecf153730a0866c65af3c1fc448aa419a106212"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_four_arm_replication_v1/combined/seed_104729/test_predictions/clean.npz",
+          "source_sha256": "b8f8518f3432921b23c8a37be4cfc1324d1b9bae5fbc922f6b86f2342df712e2"
+        }
+      },
+      "dataset": "Ningbo",
+      "n_replayed": 325,
+      "pass": true,
+      "replay_indices_sha256": "00bee83740e60e5bbd12b9acbf3cfee5043c86c54ef9058d033177a6e9eb6323",
+      "seed": 104729,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "combined",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_four_arm_replication_v1/combined/seed_130363/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "43419cef0725adaa170963934e465d60d695b78953a17bcf98a42a6db35dabb2"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_four_arm_replication_v1/combined/seed_130363/test_predictions/clean.npz",
+          "source_sha256": "afc5544ff59bcb35f95f2c82e0e11f290bf834d5630aaa80817793e24c35400b"
+        }
+      },
+      "dataset": "Ningbo",
+      "n_replayed": 325,
+      "pass": true,
+      "replay_indices_sha256": "00bee83740e60e5bbd12b9acbf3cfee5043c86c54ef9058d033177a6e9eb6323",
+      "seed": 130363,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "combined",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_four_arm_replication_v1/combined/seed_155921/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "e18dd828f06a851b5e367727031096a03a441a461c644c06660e7b93263ba5cd"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/ningbo_four_arm_replication_v1/combined/seed_155921/test_predictions/clean.npz",
+          "source_sha256": "b7116222db12f4e9b6aed67a68f3373f10b116e55c1a627f2f7fc92165d2702e"
+        }
+      },
+      "dataset": "Ningbo",
+      "n_replayed": 325,
+      "pass": true,
+      "replay_indices_sha256": "00bee83740e60e5bbd12b9acbf3cfee5043c86c54ef9058d033177a6e9eb6323",
+      "seed": 155921,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "chest_only",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_104729/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "dd6264355997737148c36095b967bf68ef9d852d06322cbb1a8fc4517a894570"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_104729/test_predictions/clean.npz",
+          "source_sha256": "95df82c28fa1de06ebda0b73af84d1d734737d78125d354266f84ec3dbefbb60"
+        }
+      },
+      "dataset": "Ningbo",
+      "n_replayed": 325,
+      "pass": true,
+      "replay_indices_sha256": "00bee83740e60e5bbd12b9acbf3cfee5043c86c54ef9058d033177a6e9eb6323",
+      "seed": 104729,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "chest_only",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_130363/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "d0e892d417589ad3120d98f47b50572a65d7125274c1ab67e982cde040fc5fa3"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_130363/test_predictions/clean.npz",
+          "source_sha256": "2a0d6b297097d5b8d430f1d4e6e61e7b4e3b4537e0d81fa0bc0db435da83121b"
+        }
+      },
+      "dataset": "Ningbo",
+      "n_replayed": 325,
+      "pass": true,
+      "replay_indices_sha256": "00bee83740e60e5bbd12b9acbf3cfee5043c86c54ef9058d033177a6e9eb6323",
+      "seed": 130363,
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "chest_only",
+      "conditions": {
+        "RA_LL_reversal": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_155921/test_predictions/RA_LL_reversal.npz",
+          "source_sha256": "a54daa8f8f7dc9896b0486af6a629486582843e5c61af5b1ff4d42cce911eeec"
+        },
+        "clean": {
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "source_path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_155921/test_predictions/clean.npz",
+          "source_sha256": "96504a016fc89edb521f88ec2789f9735c6ae3116198c9c8995cc90da76c76fd"
+        }
+      },
+      "dataset": "Ningbo",
+      "n_replayed": 325,
+      "pass": true,
+      "replay_indices_sha256": "00bee83740e60e5bbd12b9acbf3cfee5043c86c54ef9058d033177a6e9eb6323",
+      "seed": 155921,
+      "tolerance": 0.0001
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+contrast,seed,endpoint,condition_estimand,combined_auprc,masking_auprc,difference,uncertainty
+combined_minus_masking,104729,TWA,clean,0.6678352392324837,0.6791344997414469,-0.011299260508963238,secondary descriptive point estimate; no interval claim
+combined_minus_masking,104729,TWA,RA_LA_reversal,0.6373406228482821,0.3108546616113318,0.3264859612369503,secondary descriptive point estimate; no interval claim
+combined_minus_masking,104729,TWA,RA_LL_reversal,0.6507728786086057,0.15757245352737217,0.4932004250812335,secondary descriptive point estimate; no interval claim
+combined_minus_masking,104729,TWA,LA_LL_reversal,0.656159053877254,0.6206714851718494,0.03548756870540459,secondary descriptive point estimate; no interval claim
+combined_minus_masking,104729,TWA,mask5_0_1_2_3_5,0.6487165892908846,0.5991819314206229,0.04953465787026168,secondary descriptive point estimate; no interval claim
+combined_minus_masking,104729,TWA,mean_mask,0.6369033306819105,0.6470033864709407,-0.010100055789030171,secondary descriptive point estimate; no interval claim
+combined_minus_masking,130363,TWA,clean,0.689750327201613,0.6651050191400123,0.0246453080616007,secondary descriptive point estimate; no interval claim
+combined_minus_masking,130363,TWA,RA_LA_reversal,0.6564319584126991,0.4029339042827847,0.2534980541299144,secondary descriptive point estimate; no interval claim
+combined_minus_masking,130363,TWA,RA_LL_reversal,0.65572667233402,0.1379866706053874,0.5177400017286327,secondary descriptive point estimate; no interval claim
+combined_minus_masking,130363,TWA,LA_LL_reversal,0.6648503729607915,0.6299750917880287,0.03487528117276284,secondary descriptive point estimate; no interval claim
+combined_minus_masking,130363,TWA,mask5_0_1_2_3_5,0.6403641751285503,0.623322196248763,0.017041978879787312,secondary descriptive point estimate; no interval claim
+combined_minus_masking,130363,TWA,mean_mask,0.6508125648199947,0.6402101297222931,0.010602435097701646,secondary descriptive point estimate; no interval claim
+combined_minus_masking,155921,TWA,clean,0.6726858813316388,0.6778255423550006,-0.00513966102336183,secondary descriptive point estimate; no interval claim
+combined_minus_masking,155921,TWA,RA_LA_reversal,0.6481612967164325,0.34707909083355953,0.301082205882873,secondary descriptive point estimate; no interval claim
+combined_minus_masking,155921,TWA,RA_LL_reversal,0.6276997485948308,0.21191004698169305,0.4157897016131378,secondary descriptive point estimate; no interval claim
+combined_minus_masking,155921,TWA,LA_LL_reversal,0.6579148082502454,0.6357245910674907,0.022190217182754712,secondary descriptive point estimate; no interval claim
+combined_minus_masking,155921,TWA,mask5_0_1_2_3_5,0.648702141639852,0.6310335637247729,0.01766857791507903,secondary descriptive point estimate; no interval claim
+combined_minus_masking,155921,TWA,mean_mask,0.6383023198928531,0.6510644623631218,-0.012762142470268634,secondary descriptive point estimate; no interval claim

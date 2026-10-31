@@ -1,0 +1,15 @@
+{
+  "decision": "PASS",
+  "incidents": [
+    "M2 validation writer: path parameter `p` collided with prediction keyword `p`; helper parameter renamed and NPZ self-test added.",
+    "M2 finalizer lock: finalizer was initially invoked before trainer lock release; hand-off now releases lock first and is regression tested.",
+    "M2 finalizer ECE: generator-scoping implementation failed before bootstrap; imperative 15-bin calculation and regression test fixed it."
+  ],
+  "test_or_inference_rerun": false,
+  "verified_unchanged_scientific_inputs": [
+    "prediction manifests and 2,382 hashes",
+    "frozen M2 protocol",
+    "frozen Ningbo bootstrap indices",
+    "thresholds/endpoints/bootstrap definition"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "amended_utc": "2026-10-16T19:27:59.143851+00:00",
+  "amendment_binding_sha256": "0c5b75c8bbd9cd1501f7f93f32d587f1cb58ea6dea30c8501b5058519b1cdbd8",
+  "amendment_version": "004",
+  "bootstrap_task_path_fix_preserved": true,
+  "change": "Apply the same exact source-digest compatibility check from Amendment 003 to verified clean and RA-LL recovery caches, while keeping protocol, model, preprocessing, ordered test membership, labels, schema, dimensions, and finite-value checks mandatory.",
+  "mask_prediction_compatibility_preserved": true,
+  "prior_amendment_binding_sha256": "7de5f5fa3fa5762b2f85e3d6ff830c9061e9f9f3b6e23cfd18788380ac2fcf8b",
+  "prior_protocol_binding_sha256": "b3c050887f99b2979ef20122374552298185e5a8f8004a769650783c1b77b28a",
+  "prior_runner_source_sha256": "3b5734cf3164c8f2f3a9aaee744422ca6af60d3f0a1747d4add2823ba8fc4b1b",
+  "reason": "Resume validation confirmed all mask-panel caches under the frozen inference evaluator. The two clean/RA-LL arrays regenerated after the probe use the same frozen inference evaluator digest and need that digest accepted for provenance checks.",
+  "runner_source_sha256": "12ed4e4b0c3da2595acfcf1274cfca39a948eab8d8e9443a5614e0efc78b6209",
+  "scope": "Verified clean/RA-LL cache validation only; no predictions, metrics, mask semantics, estimands, thresholds, bootstrap indices, split, model, training, or tolerance changed."
+}

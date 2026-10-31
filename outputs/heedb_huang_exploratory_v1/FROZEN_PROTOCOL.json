@@ -1,0 +1,126 @@
+{
+  "adapter_sha256": "9ed599dff95b77e9f17814c90bd0b6c414e97ef5ffe5f25152a296503ae8f516",
+  "adapter_tests_sha256": "1c62c2f6165b05d4295c39e4d5c09e4477770aa78d48aa5facad616e73eaf0c1",
+  "cache_sha256": "c961d7ed720f60ed92522285bf6145fda2d461bc620bc86f7af718b8e356e3c5",
+  "cache_shape": [
+    10000,
+    12,
+    5000
+  ],
+  "calibration": "mean score, Brier, 15 equal-width bin ECE",
+  "comparison": "reuse completed independent baseline and physics-aware predictions without rerunning; Huang corrected ECG to clean-trained baseline ResNet; same 3 matched seeds",
+  "conditions": [
+    "clean",
+    "RA_LL_reversal"
+  ],
+  "core_twa_codes": [
+    1140,
+    1145,
+    1150,
+    1151,
+    1160,
+    1161,
+    1170,
+    1171,
+    1172,
+    1180,
+    1181
+  ],
+  "correction": "apply predicted inverse to raw displayed 500Hz-equivalent waveform before Ningbo diagnostic preprocessing; clean false alarms are corrected too",
+  "created_utc": "2026-09-26T05:29:19.439785+00:00",
+  "detector_classes": [
+    "clean",
+    "RA_LA",
+    "RA_LL",
+    "LA_LL"
+  ],
+  "detector_error_audit": "post-hoc aggregate confusion against clean/simulated RA-LL; compare TWA diagnostic scores/operating points conditional on detector correctness, suppress small subsets; true condition never enters deployed correction",
+  "detector_policy": "unmodified published four-class softmax argmax; predicted class alone determines inverse correction, never the known simulated condition",
+  "detector_weights_sha256": {
+    "outputs/published_detector_pipeline_v1/official_source/LDenseNet_loadable/LDenseNet.data-00000-of-00001": "d40d7b9166567aa5332de96a573e792d42f87a6d79b9030f461e9d4d60430ef6",
+    "outputs/published_detector_pipeline_v1/official_source/LDenseNet_loadable/LDenseNet.index": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1"
+  },
+  "diagnostic_adapter": "raw corrected displayed waveform ::5 -> exact (12,1000) at effective 100Hz; frozen baseline checkpoint's per-lead Ningbo mean/std; use all three original baseline checkpoints and unchanged Ningbo validation thresholds",
+  "evaluator_sha256": "a63daad139ef8e1a1d928b5a683c1b5bf1114ff9433106f9348a010f5e76bab1",
+  "huang_adapter": "Existing Huang detector preprocessing: 500Hz SOS Butterworth 0.5-35Hz order 5, scipy Fourier resample 5000->1200, per-lead within-record z-score, select III/aVR/V6 in that order, transpose to (1200,3). No HEEDB-derived scaling, adaptation or weight change.",
+  "huang_preprocessing_source_sha256": "4844a5f77d6815d877b662f20988463fb9480430523fef3baed300a5be47c05a",
+  "independent_predictions_sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b",
+  "independent_protocol_sha256": "199344e9f7cbb0eb55564f52ce320bca4c85478ceb68174a3d11568611a58760",
+  "interpretation": "exploratory comparison planned after seeing HEEDB independent results; no SOTA, no clinical real-error claim",
+  "metrics": [
+    "auprc",
+    "auroc",
+    "sensitivity",
+    "specificity",
+    "predicted_positive_fraction",
+    "mean_score",
+    "brier",
+    "ece15"
+  ],
+  "no_adaptation": "no download, training, fine-tuning, threshold choice, patient selection, outcome remapping or modification of independent results",
+  "outcome": "HEEDB diagnoses_acquisition.csv codes_physician core TWA only; no software or v24 merge; proxy construct not exact Chapman/Ningbo SNOMED label",
+  "physics_source_sha256": "51218806eec81765df6247307e70ccce56f76cfa54e54782f1b47d468014eb9c",
+  "population": "exact completed HEEDB I0006 independent-confirmation 10000 patients, one ECG each; no reselection",
+  "reversal": "src.ecg_physics.named_reversal plus derive_display at raw 500Hz-equivalent resolution; exact cable algebra, not observed clinical wiring error",
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "selected_manifest_sha256": "7af9986691871d57df5699e270b3cf4442bf5a733536356155a87094bac09de4",
+  "source_leads": [
+    "I",
+    "II",
+    "III",
+    "aVR",
+    "aVL",
+    "aVF",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "source_units": "physical mV x1000 -> microvolts; 250Hz upsampled to 500Hz, or native 500Hz, in frozen independent cache",
+  "status": "POST_HOC_EXPLORATORY_FROZEN_BEFORE_NEW_COMPARATOR_OUTCOMES",
+  "thresholds": {
+    "baseline": {
+      "104729": [
+        0.650341808795929,
+        0.010204315185546875,
+        0.04400634765625
+      ],
+      "130363": [
+        0.733203113079071,
+        0.0027326582930982113,
+        0.10052490234375
+      ],
+      "155921": [
+        0.586132824420929,
+        0.04575805738568306,
+        0.039886474609375
+      ]
+    },
+    "physics_aware": {
+      "104729": [
+        0.6971679925918579,
+        0.008510589599609375,
+        0.009073639288544655
+      ],
+      "130363": [
+        0.562451183795929,
+        0.0056854248978197575,
+        0.011165618896484375
+      ],
+      "155921": [
+        0.711865246295929,
+        0.01172027550637722,
+        0.011447906494140625
+      ]
+    }
+  },
+  "uncertainty": "1000 synchronized with-replacement patient-index bootstrap replicates, numpy default_rng seed 20260926; mean seed-level metric then paired arm contrasts; percentile 2.5/97.5 intervals; no equivalence inference from zero-crossing interval",
+  "version": "heedb_huang_exploratory_v1",
+  "worker_sha256": "d356a761db516f211e41ad03b7522ef8feff25169eb556523df6af14feb3d964"
+}

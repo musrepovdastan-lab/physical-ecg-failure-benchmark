@@ -1,0 +1,355 @@
+{
+  "study": "augmentation_probability_study_v1",
+  "generated_utc": "2026-10-18T11:14:52.951861+00:00",
+  "study_root": "outputs/augmentation_probability_study_v1",
+  "method_sha256": "49c3fdef06868f951aaf96803b42c31146e67362b0eb71290848501d6ec7e382",
+  "runner_sha256": "c6052fe7e0b4f27e93b24a509736b2231574392a3e06944bfe1e1646690befb2",
+  "conditions_per_unit": 796,
+  "mask_count_per_unit": 792,
+  "bootstrap": {
+    "file": "PAIRED_BOOTSTRAP_TWA_AUPRC.csv",
+    "rows": 48,
+    "replicates_per_row": 1000,
+    "all_numeric_finite": true
+  },
+  "units": [
+    {
+      "cohort": "Chapman",
+      "arm": "physics_p010",
+      "seed": 104729,
+      "status": "PASS",
+      "best_epoch": 9,
+      "stop_reason": "patience_5",
+      "elapsed_hours": 0.11402333333333242,
+      "gpu_peak_bytes": 282212864,
+      "validation_gate": "training/Chapman/physics_p010/seed_104729/validation_gate.json",
+      "validation_gate_sha256": "25b0611412e6c95b6612a38f76a35a46bcf8bbc8fd7fe074c62c039c04df94c9",
+      "checkpoint": "training/Chapman/physics_p010/seed_104729/best.pt",
+      "checkpoint_sha256": "bf5a7985ac79d9a2dab6f32799818e2716eeaba4b6730bb7ad618e79a585cc14",
+      "evaluation_complete": "training/Chapman/physics_p010/seed_104729/evaluation_complete.json",
+      "evaluation_complete_sha256": "28a77022a69de19b2bc85981d54d1a31ea8888bff86b8d1cc162480075f5c1db",
+      "condition_count": 796
+    },
+    {
+      "cohort": "Chapman",
+      "arm": "physics_p010",
+      "seed": 130363,
+      "status": "PASS",
+      "best_epoch": 7,
+      "stop_reason": "patience_5",
+      "elapsed_hours": 0.09440972222222223,
+      "gpu_peak_bytes": 283986432,
+      "validation_gate": "training/Chapman/physics_p010/seed_130363/validation_gate.json",
+      "validation_gate_sha256": "fc738e0fa0026a4791a0c4c2e71f650147ec41748cf9f84bf12b1a5e43b64b7e",
+      "checkpoint": "training/Chapman/physics_p010/seed_130363/best.pt",
+      "checkpoint_sha256": "2df7089b4ff52b032751af796d6ff5cfe2ac01cd06dcce8e7b5ae221cf57324c",
+      "evaluation_complete": "training/Chapman/physics_p010/seed_130363/evaluation_complete.json",
+      "evaluation_complete_sha256": "d7f00a8b2e1f5b9aeb9472c2005705a27a9bf570b54aca0b5b307269dc0604e6",
+      "condition_count": 796
+    },
+    {
+      "cohort": "Chapman",
+      "arm": "physics_p010",
+      "seed": 155921,
+      "status": "PASS",
+      "best_epoch": 13,
+      "stop_reason": "patience_5",
+      "elapsed_hours": 0.139891388888888,
+      "gpu_peak_bytes": 283986432,
+      "validation_gate": "training/Chapman/physics_p010/seed_155921/validation_gate.json",
+      "validation_gate_sha256": "8229697960fff1e03229b8712d696e40851f6f691d4b2d5766d97f3501c89811",
+      "checkpoint": "training/Chapman/physics_p010/seed_155921/best.pt",
+      "checkpoint_sha256": "71c5e8bd4ca7e8f252adcf1177b31ad905b2a08231983aa7e8e9126171986b29",
+      "evaluation_complete": "training/Chapman/physics_p010/seed_155921/evaluation_complete.json",
+      "evaluation_complete_sha256": "b4d3a43d8218142a4fd903d2322bc1a465ef580d67d7cc78c062e64f65d07e7d",
+      "condition_count": 796
+    },
+    {
+      "cohort": "Chapman",
+      "arm": "physics_p025",
+      "seed": 104729,
+      "status": "PASS",
+      "best_epoch": 13,
+      "stop_reason": "patience_5",
+      "elapsed_hours": 0.15012166666666518,
+      "gpu_peak_bytes": 283986432,
+      "validation_gate": "training/Chapman/physics_p025/seed_104729/validation_gate.json",
+      "validation_gate_sha256": "20b73bf8f72fbf0685eba89623f7ddc50bda0e1309d54df96d4d5331a8158469",
+      "checkpoint": "training/Chapman/physics_p025/seed_104729/best.pt",
+      "checkpoint_sha256": "10b7fe6e8f00eb4c33a275e207b309d8b35193ddf5ca1be0d521ac4e0e69aa58",
+      "evaluation_complete": "training/Chapman/physics_p025/seed_104729/evaluation_complete.json",
+      "evaluation_complete_sha256": "9e104c6a13bd65b6390b7822df53196180aedac2cc9c8fce95207fe819959bc0",
+      "condition_count": 796
+    },
+    {
+      "cohort": "Chapman",
+      "arm": "physics_p025",
+      "seed": 130363,
+      "status": "PASS",
+      "best_epoch": 15,
+      "stop_reason": "patience_5",
+      "elapsed_hours": 0.16615444444444114,
+      "gpu_peak_bytes": 283986432,
+      "validation_gate": "training/Chapman/physics_p025/seed_130363/validation_gate.json",
+      "validation_gate_sha256": "6465c74d51430375aaab671976e630b079516a89795bc27bc26b676329b4cb4c",
+      "checkpoint": "training/Chapman/physics_p025/seed_130363/best.pt",
+      "checkpoint_sha256": "724dce63d3f90ccafb885917178b68611ce7bbcacb9c565b564d34eff1392a96",
+      "evaluation_complete": "training/Chapman/physics_p025/seed_130363/evaluation_complete.json",
+      "evaluation_complete_sha256": "6efc7bc3ab506fe08d0b1df13021e5d08c60cc18fb1e04b11acee8a3c73a0515",
+      "condition_count": 796
+    },
+    {
+      "cohort": "Chapman",
+      "arm": "physics_p025",
+      "seed": 155921,
+      "status": "PASS",
+      "best_epoch": 16,
+      "stop_reason": "patience_5",
+      "elapsed_hours": 0.1634938888888832,
+      "gpu_peak_bytes": 283986432,
+      "validation_gate": "training/Chapman/physics_p025/seed_155921/validation_gate.json",
+      "validation_gate_sha256": "1427753396046af8e13eea34419cfee377195961b891f4174068b3c8fe71d6db",
+      "checkpoint": "training/Chapman/physics_p025/seed_155921/best.pt",
+      "checkpoint_sha256": "31503e1060b7ff2521556a56e9c85668ae54df512cba5a6e70e71d1a962fbe00",
+      "evaluation_complete": "training/Chapman/physics_p025/seed_155921/evaluation_complete.json",
+      "evaluation_complete_sha256": "c9d4770b799f5c946be8c2c042e5cc5598c6ffbf1aa7cb5910964fc4a4d70afa",
+      "condition_count": 796
+    },
+    {
+      "cohort": "Ningbo",
+      "arm": "physics_p010",
+      "seed": 104729,
+      "status": "PASS",
+      "best_epoch": 7,
+      "stop_reason": "patience_5",
+      "elapsed_hours": 0.1849825000000015,
+      "gpu_peak_bytes": 283986432,
+      "validation_gate": "training/Ningbo/physics_p010/seed_104729/validation_gate.json",
+      "validation_gate_sha256": "c9b51c9a3f344ba56cf6e1555d25da0a4d4180fff334996659021ff9d9b8f5e0",
+      "checkpoint": "training/Ningbo/physics_p010/seed_104729/best.pt",
+      "checkpoint_sha256": "4cb608ecd0e72e33f772c0663a3122f28f1aa89ea9feb3e691d96c9c89b20545",
+      "evaluation_complete": "training/Ningbo/physics_p010/seed_104729/evaluation_complete.json",
+      "evaluation_complete_sha256": "79a018d59bb64487d4b645a30a1c5701d8541091a6b9097ca755282ae04c347a",
+      "condition_count": 796
+    },
+    {
+      "cohort": "Ningbo",
+      "arm": "physics_p010",
+      "seed": 130363,
+      "status": "PASS",
+      "best_epoch": 16,
+      "stop_reason": "patience_5",
+      "elapsed_hours": 0.22898444444443966,
+      "gpu_peak_bytes": 283986432,
+      "validation_gate": "training/Ningbo/physics_p010/seed_130363/validation_gate.json",
+      "validation_gate_sha256": "b351857942d8fab0da1b76b6930b7d95c2108a6ee052c23085e1b539652bb0a6",
+      "checkpoint": "training/Ningbo/physics_p010/seed_130363/best.pt",
+      "checkpoint_sha256": "258d662674833bcbf7585f35fc01bb1bcdd81a4db025f3f0aaf8a1b10c5d82b1",
+      "evaluation_complete": "training/Ningbo/physics_p010/seed_130363/evaluation_complete.json",
+      "evaluation_complete_sha256": "0b21af44a3e8613e345cf897cb8ff4d181f8490a15acefd79f68f78664fe8f05",
+      "condition_count": 796
+    },
+    {
+      "cohort": "Ningbo",
+      "arm": "physics_p010",
+      "seed": 155921,
+      "status": "PASS",
+      "best_epoch": 8,
+      "stop_reason": "patience_5",
+      "elapsed_hours": 0.1424827777777763,
+      "gpu_peak_bytes": 283986432,
+      "validation_gate": "training/Ningbo/physics_p010/seed_155921/validation_gate.json",
+      "validation_gate_sha256": "af3bd5976f1ca686784456fe0c6b98273ce5c90db62ef9c7b98a26172e89cbf1",
+      "checkpoint": "training/Ningbo/physics_p010/seed_155921/best.pt",
+      "checkpoint_sha256": "d2b6ed03cdec193532063df3bb80354c8dcdaf6e5a8d770b758d45e1d7c964c1",
+      "evaluation_complete": "training/Ningbo/physics_p010/seed_155921/evaluation_complete.json",
+      "evaluation_complete_sha256": "73cf8b8bcb8b6803a7849e318feeeaea03e9c05591ff86e6181d58defb13deed",
+      "condition_count": 796
+    },
+    {
+      "cohort": "Ningbo",
+      "arm": "physics_p025",
+      "seed": 104729,
+      "status": "PASS",
+      "best_epoch": 8,
+      "stop_reason": "patience_5",
+      "elapsed_hours": 0.1542100000000048,
+      "gpu_peak_bytes": 283986432,
+      "validation_gate": "training/Ningbo/physics_p025/seed_104729/validation_gate.json",
+      "validation_gate_sha256": "937edb2598fec7cc62d6c072e4745860fb8bd9171cf80b7001bad396cedfed8e",
+      "checkpoint": "training/Ningbo/physics_p025/seed_104729/best.pt",
+      "checkpoint_sha256": "f616db560c0d49333c8bb1e744f6e672fb0465bf6e252af50dd54ef1715130b8",
+      "evaluation_complete": "training/Ningbo/physics_p025/seed_104729/evaluation_complete.json",
+      "evaluation_complete_sha256": "4561a1150df18fa7ed7b502b43878ae87fd47dd3a507aa515a265cdc32207183",
+      "condition_count": 796
+    },
+    {
+      "cohort": "Ningbo",
+      "arm": "physics_p025",
+      "seed": 130363,
+      "status": "PASS",
+      "best_epoch": 8,
+      "stop_reason": "patience_5",
+      "elapsed_hours": 0.15375,
+      "gpu_peak_bytes": 283986432,
+      "validation_gate": "training/Ningbo/physics_p025/seed_130363/validation_gate.json",
+      "validation_gate_sha256": "012b32f2121d1769d3b95565ba705cf060b37056777fb451e57fe9369b12b4c3",
+      "checkpoint": "training/Ningbo/physics_p025/seed_130363/best.pt",
+      "checkpoint_sha256": "204e9b419138e80007a30e74267db6f5897f8f4eb15b63b886ba328a366627e3",
+      "evaluation_complete": "training/Ningbo/physics_p025/seed_130363/evaluation_complete.json",
+      "evaluation_complete_sha256": "b29c0386179376d4e74e69e0d461d8cd3c0ab4186934201819398940af7cc227",
+      "condition_count": 796
+    },
+    {
+      "cohort": "Ningbo",
+      "arm": "physics_p025",
+      "seed": 155921,
+      "status": "PASS",
+      "best_epoch": 21,
+      "stop_reason": "patience_5",
+      "elapsed_hours": 0.30318999999999907,
+      "gpu_peak_bytes": 283986432,
+      "validation_gate": "training/Ningbo/physics_p025/seed_155921/validation_gate.json",
+      "validation_gate_sha256": "52c25aad43925e226a5335016312981bb68a04b4fbb723b2e5d6523234ef2c49",
+      "checkpoint": "training/Ningbo/physics_p025/seed_155921/best.pt",
+      "checkpoint_sha256": "37c3ae65d4bf0c7a7316129de71c74f33a03a1c9131764df3d3d70454dc01af1",
+      "evaluation_complete": "training/Ningbo/physics_p025/seed_155921/evaluation_complete.json",
+      "evaluation_complete_sha256": "be4b870d60d705254458b9499000c2625cb0062e2359ccd721b03654ebdb4847",
+      "condition_count": 796
+    }
+  ],
+  "tracked_artifacts": {
+    "FROZEN_PROTOCOL.json": {
+      "sha256": "55debbeab312ce0e7c82bc3eee808641f5836f0f7f6a64eded53092afa7de342",
+      "bytes": 6237
+    },
+    "PROTOCOL.md": {
+      "sha256": "424b5d01da8009db41a9d2ba452a63bb23bbe4a9d494d75f9512ac1d2cc4d238",
+      "bytes": 391
+    },
+    "PROTOCOL_AMENDMENT_001.json": {
+      "sha256": "e2c8b847ec6140c2e190e6433df3070d5feb95ac14d942c894dc57d976960bf1",
+      "bytes": 618
+    },
+    "PROTOCOL_AMENDMENT_002.json": {
+      "sha256": "c96989734e002ed155c1c49a7b9b662a90dc47c33125d5f16dd3ac1e096967dd",
+      "bytes": 748
+    },
+    "PROTOCOL_AMENDMENT_003.json": {
+      "sha256": "66cb0b739c4b73aebe33e77a541127513b319fec2cb368e8443eb316e2cda43b",
+      "bytes": 489
+    },
+    "PROTOCOL_AMENDMENT_004.json": {
+      "sha256": "4efa62c39d449d00d75a2c064222e2d9ca26ba86122ff7d662b7e62ee1a3481c",
+      "bytes": 880
+    },
+    "ENGINEERING_CHECKS.json": {
+      "sha256": "546151085387a5d0624d0962058caf7424ba68871e1a88d50dcf92e9db248d37",
+      "bytes": 2655
+    },
+    "INTERRUPTED_ATTEMPTS.json": {
+      "sha256": "0ebde61fbe541189872757618208d580e5b287ba325dcf80bea7f8e92d131b42",
+      "bytes": 284
+    },
+    "run_probability_study.py": {
+      "sha256": "c6052fe7e0b4f27e93b24a509736b2231574392a3e06944bfe1e1646690befb2",
+      "bytes": 20382
+    },
+    "engineering_checks.py": {
+      "sha256": "bf38c8b09ccd5db0e8b107918a03a6878d535fd3e1e37446bbc6e0c878db5d34",
+      "bytes": 4567
+    },
+    "build_final_report.py": {
+      "sha256": "6fff006589acae970b13b604ed10b22a169049e283269e22ade47acc49ebd94c",
+      "bytes": 7709
+    },
+    "analyze_ningbo_mixtures.py": {
+      "sha256": "b44766a2a725685fc18fdcab8cdf9fa5ce3d09872d6f893561dbc6eba7f967a1",
+      "bytes": 6210
+    },
+    "paired_bootstrap.py": {
+      "sha256": "531df9150d9c7b8897a87e6ac363e0baa552f70b8f2110fff945a7c2e681a34e",
+      "bytes": 10259
+    },
+    "finalize_probability_study.py": {
+      "sha256": "032b557e18a789e5330c31f994592e863678451a41aaafd7634645fda5e7b2d1",
+      "bytes": 21993
+    },
+    "METRICS_CHAPMAN_NEW_BY_SEED.csv": {
+      "sha256": "de7ff154edb31b66fb0504e4f43190a9ddc00255e1b043c9ed545b73f29adacb",
+      "bytes": 3912024
+    },
+    "METRICS_NINGBO_NEW_BY_SEED.csv": {
+      "sha256": "8bb85c229c7307205dcf3e25a37566ff6c7c24635de38aaa47344cfc91847af7",
+      "bytes": 3989002
+    },
+    "METRICS_ALL_ARMS_BY_SEED.csv": {
+      "sha256": "1bd57c2602ddb05d5802d5490fb589cb9eeb2493504d40ac71f9e1b06d673be7",
+      "bytes": 21387885
+    },
+    "METRICS_CHAPMAN_SUMMARY.csv": {
+      "sha256": "cf1c0bb024d56568abcce62741143aea5d557f25068a70f6be077d15fe7f8612",
+      "bytes": 10827
+    },
+    "METRICS_NINGBO_SUMMARY.csv": {
+      "sha256": "7f52a81b16c7760ae70057f91bfe15ae35767581fe1b8e68ea06cc4e1ff385b6",
+      "bytes": 11189
+    },
+    "METRICS_MEAN_SD_BY_ARM.csv": {
+      "sha256": "68ea1bb0f4a4f9d0396dd11b4630c986b2ed89d470548dccdfbb2da5a5c0cd20",
+      "bytes": 15741
+    },
+    "PAIRED_CONTRASTS_POINT_BY_SEED.csv": {
+      "sha256": "24b365dfd2fb817bbc3999cda4438a15189d7c215e95a7bdf3da0aa63a1168b3",
+      "bytes": 643107
+    },
+    "PAIRED_BOOTSTRAP_TWA_AUPRC.csv": {
+      "sha256": "a9ce152def9a7c43e61d34b2167fa12fb2884fe5a6873cc5abfd27145d09c1f2",
+      "bytes": 8398
+    },
+    "MIXTURE_RESULTS_ALL_ARMS_BY_SEED.csv": {
+      "sha256": "7a6f51b31d904988b1c2b68d9227f76ed4676119b6ebbaae347129587638a678",
+      "bytes": 210726
+    },
+    "MIXTURE_RESULTS_NEW_BY_SEED.csv": {
+      "sha256": "da28ba602e7d702b04a3ab58008494a54f9e82f95863030d49d2a30a1f14befa",
+      "bytes": 82702
+    },
+    "CALIBRATION_PROVENANCE_NEW.json": {
+      "sha256": "87f7e7f49fa3960c261978cf3a0026beb583fd1ed2ed1acf2bcf4cd935a8bd14",
+      "bytes": 9511
+    },
+    "MASK_DISTRIBUTION_CHAPMAN.csv": {
+      "sha256": "b5723c768de0f56b5ad589d592c43d2f3b5bec80ef5a611ce9103957e861be3a",
+      "bytes": 1099
+    },
+    "MASK_DISTRIBUTION_NINGBO.csv": {
+      "sha256": "fbdc8e134de6c8a0623233721fc85512097318ac6a665bfe78ed1313b4be0ec8",
+      "bytes": 1098
+    },
+    "FINAL_PROBABILITY_STUDY_REPORT_RU.md": {
+      "sha256": "8dc9c5a6313c160676dcae3f20f30b71faebedabc045500b9b335b189b7e0e8c",
+      "bytes": 23333
+    }
+  },
+  "inventory": {
+    "file_count": 9855,
+    "algorithm": "sha256 of sorted UTF-8 lines: relative_path<TAB>file_sha256<TAB>bytes<LF>",
+    "inventory_sha256": "8b737a2361abb789713c8fa4a356d0cf791a8ab82902ab7ea3ea1266be45d81c"
+  },
+  "scope": {
+    "training_runs_completed": 12,
+    "validation_gates_passed": 12,
+    "cohorts_order": [
+      "Chapman",
+      "Ningbo"
+    ],
+    "seeds": [
+      104729,
+      130363,
+      155921
+    ],
+    "HEEDB_evaluated": false,
+    "reserved_test_evaluated": false
+  }
+}

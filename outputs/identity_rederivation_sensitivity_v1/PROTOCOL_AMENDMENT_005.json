@@ -1,0 +1,7 @@
+{
+    "scope":  "manifest finalization only",
+    "reason":  "Final reproducibility hash manifest must be written after final STATUS.json so that its recorded output hash matches the completed state. Packaging order only; scientific outputs and analyses are unchanged.",
+    "prior_protocol_sha256":  "c7652e1604ef445c89453cd84b2022ddf687c8e409c31ce2911828a4dcb8fc81",
+    "amendment":  "005",
+    "created_utc":  "2026-10-19T14:59:41.4049368Z"
+}

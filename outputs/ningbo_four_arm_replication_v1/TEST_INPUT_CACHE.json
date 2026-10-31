@@ -1,0 +1,12 @@
+{
+  "cache_sha256": "f353daf890956e7887dfa4cdb1067fa5d9965f37fa815c417d87e90df134b1b8",
+  "dtype": "float32",
+  "shape": [
+    6981,
+    12,
+    1000
+  ],
+  "source": "frozen canonical Ningbo test records; 100Hz downsample path src.ningbo_confirmation_v1.raw",
+  "test_label_order_sha256": "86cbb64aebc00abeb74c2cb728b01ded16a366f3a8127ff5edde55050aefb9db",
+  "test_order_sha256": "3dbaa4e067346997c74ed81ea33be89a2404c5caddeedb43d86502b38023a5ba"
+}

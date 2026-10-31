@@ -1,0 +1,58 @@
+{
+  "amendment": "EVALUATION_CORRECTION_001",
+  "comparator_artifact_audit_units": 12,
+  "corrected_evaluator_source_sha256": "9651d7bb2e2fef5d02a8f694de8dfa9c14f198f97c879cb29eb1716db482bcdf",
+  "corrected_order": "evaluation_freeze.json is atomically written before test labels or waveforms are loaded",
+  "created_utc": "2026-10-17T06:25:41.677118+00:00",
+  "error": "Initial evaluator passed a condition argument to the clean-only predict function; TypeError occurred before any prediction cache was written.",
+  "first_attempt_test_label_access": "test labels were loaded before evaluation_freeze.json was written; no test predictions were generated in that attempt",
+  "method_changes": false,
+  "scope": "evaluation plumbing only, after all six training units completed",
+  "training_protocol_sha256_unchanged": "dd5d0a6b3747699c5308b798741c6486eb31dad84422750fd498e5b5efc6bcc2",
+  "training_repeated": false,
+  "training_source_sha256": "4716322bc817867f4862626172a59dc65b17a18811679e66fc1378de836e0760",
+  "training_units": [
+    {
+      "best_epoch": 11,
+      "checkpoint_sha256": "1a6c6f95f1d72673af083bd05211bc2bc4b785ae811a295233609c834aa49d63",
+      "dataset": "Chapman",
+      "seed": 104729,
+      "status": "TRAINED_AND_FROZEN"
+    },
+    {
+      "best_epoch": 5,
+      "checkpoint_sha256": "e2a71544fe8516a09d244aa3ecf05f3e05299c47d9cab5b0b6784d2b708e92af",
+      "dataset": "Chapman",
+      "seed": 130363,
+      "status": "TRAINED_AND_FROZEN"
+    },
+    {
+      "best_epoch": 8,
+      "checkpoint_sha256": "90d902fd4b4e85e56b29b35e5197fe0b15ea5a4b57da3581ae9a3013f4b73642",
+      "dataset": "Chapman",
+      "seed": 155921,
+      "status": "TRAINED_AND_FROZEN"
+    },
+    {
+      "best_epoch": 23,
+      "checkpoint_sha256": "c30ca743fbd65ff455b54a9bb5602e28ad20865249b59fb2bb4cfd7d11e4a70f",
+      "dataset": "Ningbo",
+      "seed": 104729,
+      "status": "TRAINED_AND_FROZEN"
+    },
+    {
+      "best_epoch": 12,
+      "checkpoint_sha256": "bde73b60e3eab003dc08da8b39c135c71104245aa642ed4a07b8b98ccd57e6d8",
+      "dataset": "Ningbo",
+      "seed": 130363,
+      "status": "TRAINED_AND_FROZEN"
+    },
+    {
+      "best_epoch": 22,
+      "checkpoint_sha256": "fb550cb9ccd4b4c22699910f2a4f859c1169886165b9f1c7400c4e5b3e62b7e6",
+      "dataset": "Ningbo",
+      "seed": 155921,
+      "status": "TRAINED_AND_FROZEN"
+    }
+  ]
+}

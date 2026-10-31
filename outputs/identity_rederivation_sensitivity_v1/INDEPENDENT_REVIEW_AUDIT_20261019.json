@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "counts": {
+    "output_hash": 55,
+    "output_bytes": 55,
+    "protocol_hash": 1,
+    "input_hash": 4228,
+    "prediction_finite": 72,
+    "prediction_range": 72,
+    "prediction_protocol": 18,
+    "prediction_checkpoint": 18,
+    "prediction_preprocessing": 18,
+    "labels_match": 52,
+    "ids_match": 52,
+    "canonical_labels": 2,
+    "canonical_ids": 2,
+    "metric_value": 1080,
+    "threshold": 216,
+    "mean_sd": 720,
+    "score_change": 1620,
+    "contrast_point": 114,
+    "replicate_count": 114,
+    "replicate_index_set": 114,
+    "bootstrap_summary": 342,
+    "bootstrap_actual_spot": 342
+  },
+  "max_abs_errors": {
+    "output_bytes": 0,
+    "metric_value": 0,
+    "threshold": 0,
+    "mean_sd": 0,
+    "score_change": 0,
+    "contrast_point": 3.2331248789319034e-11,
+    "replicate_count": 0,
+    "bootstrap_summary": 0,
+    "bootstrap_actual_spot": 2.220446049250313e-16
+  },
+  "failure_count": 0,
+  "failures": [],
+  "identity_twa_ap_points": [
+    {
+      "cohort": "Chapman",
+      "contrast": "identity_rederived_clean_minus_original_clean_for_ordinary",
+      "point": -9.376030014126199e-06
+    },
+    {
+      "cohort": "Chapman",
+      "contrast": "identity_rederived_clean_minus_original_clean_for_physics_aware",
+      "point": 3.680198547773017e-05
+    },
+    {
+      "cohort": "Chapman",
+      "contrast": "identity_rederived_clean_minus_original_clean_for_combined",
+      "point": -2.9525993017938865e-06
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "identity_rederived_clean_minus_original_clean_for_ordinary",
+      "point": 0.0001446119829152289
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "identity_rederived_clean_minus_original_clean_for_physics_aware",
+      "point": -1.0133735582673609e-05
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "identity_rederived_clean_minus_original_clean_for_combined",
+      "point": 4.610587925646392e-05
+    }
+  ],
+  "precision_note": "Brier full-cohort contrast points use float32 squaring in submission versus float64 in condition table/audit; explicit comparison tolerance 1e-9, observed maximum below 3.24e-11. Other point tolerance 1e-12; bootstrap spots 5e-12. Strict first attempt preserved separately.",
+  "scope": "Independent saved-file hash and numerical review. No new GPU replay, full signal reconstruction, or new inference performed."
+}

@@ -1,0 +1,370 @@
+{
+  "calibration_split_sha256": "6dd8733b6ac0102ce66600ea1dff9a205db4a73d11af1af4c521656a72a471ec",
+  "fit_rows": [
+    {
+      "A_n": 1744,
+      "A_positives": 258,
+      "B_n": 1744,
+      "B_negatives": 1486,
+      "a": 0.7102800283195098,
+      "b": -1.1211091183392703,
+      "endpoint": "TWA",
+      "false_correction_clean_validation_count": 48,
+      "optimizer": {
+        "iterations": 8,
+        "loss": 0.24486616829554395,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "success": true
+      },
+      "seed": 104729,
+      "threshold_calibrated_validation_B_90pct": 0.3523059279773725,
+      "threshold_historical": null,
+      "threshold_raw_validation_B_90pct": 0.6728515625
+    },
+    {
+      "A_n": 1744,
+      "A_positives": 633,
+      "B_n": 1744,
+      "B_negatives": 1111,
+      "a": 1.0471516750124452,
+      "b": -1.3448736807795618,
+      "endpoint": "SB",
+      "false_correction_clean_validation_count": 48,
+      "optimizer": {
+        "iterations": 9,
+        "loss": 0.042010942787302455,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "success": true
+      },
+      "seed": 104729,
+      "threshold_calibrated_validation_B_90pct": 0.001584863835990595,
+      "threshold_historical": null,
+      "threshold_raw_validation_B_90pct": 0.00760650634765625
+    },
+    {
+      "A_n": 1744,
+      "A_positives": 284,
+      "B_n": 1744,
+      "B_negatives": 1460,
+      "a": 0.8067413774312905,
+      "b": -2.174633322877415,
+      "endpoint": "STach",
+      "false_correction_clean_validation_count": 48,
+      "optimizer": {
+        "iterations": 10,
+        "loss": 0.045453680738244545,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "success": true
+      },
+      "seed": 104729,
+      "threshold_calibrated_validation_B_90pct": 0.009401160552913167,
+      "threshold_historical": null,
+      "threshold_raw_validation_B_90pct": 0.044039916992187546
+    },
+    {
+      "A_n": 1744,
+      "A_positives": 258,
+      "B_n": 1744,
+      "B_negatives": 1486,
+      "a": 0.7521707251140408,
+      "b": -1.416824026972385,
+      "endpoint": "TWA",
+      "false_correction_clean_validation_count": 48,
+      "optimizer": {
+        "iterations": 8,
+        "loss": 0.2464986850752531,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "success": true
+      },
+      "seed": 130363,
+      "threshold_calibrated_validation_B_90pct": 0.35406575928646844,
+      "threshold_historical": null,
+      "threshold_raw_validation_B_90pct": 0.747314453125
+    },
+    {
+      "A_n": 1744,
+      "A_positives": 633,
+      "B_n": 1744,
+      "B_negatives": 1111,
+      "a": 1.12718650931784,
+      "b": 0.6108378114022103,
+      "endpoint": "SB",
+      "false_correction_clean_validation_count": 48,
+      "optimizer": {
+        "iterations": 8,
+        "loss": 0.03992715516705321,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "success": true
+      },
+      "seed": 130363,
+      "threshold_calibrated_validation_B_90pct": 0.0023183868276757127,
+      "threshold_historical": null,
+      "threshold_raw_validation_B_90pct": 0.0026721954345703125
+    },
+    {
+      "A_n": 1744,
+      "A_positives": 284,
+      "B_n": 1744,
+      "B_negatives": 1460,
+      "a": 1.0751793769381117,
+      "b": -2.306750134640986,
+      "endpoint": "STach",
+      "false_correction_clean_validation_count": 48,
+      "optimizer": {
+        "iterations": 10,
+        "loss": 0.04554159401543684,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "success": true
+      },
+      "seed": 130363,
+      "threshold_calibrated_validation_B_90pct": 0.009978288426903018,
+      "threshold_historical": null,
+      "threshold_raw_validation_B_90pct": 0.10617675781250005
+    },
+    {
+      "A_n": 1744,
+      "A_positives": 258,
+      "B_n": 1744,
+      "B_negatives": 1486,
+      "a": 0.8885567773382632,
+      "b": -1.0910837686039767,
+      "endpoint": "TWA",
+      "false_correction_clean_validation_count": 48,
+      "optimizer": {
+        "iterations": 8,
+        "loss": 0.24977150563615716,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "success": true
+      },
+      "seed": 155921,
+      "threshold_calibrated_validation_B_90pct": 0.34047649072518305,
+      "threshold_historical": null,
+      "threshold_raw_validation_B_90pct": 0.61865234375
+    },
+    {
+      "A_n": 1744,
+      "A_positives": 633,
+      "B_n": 1744,
+      "B_negatives": 1111,
+      "a": 1.2867274026842899,
+      "b": -1.749807387391113,
+      "endpoint": "SB",
+      "false_correction_clean_validation_count": 48,
+      "optimizer": {
+        "iterations": 9,
+        "loss": 0.04622149655895312,
+        "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+        "success": true
+      },
+      "seed": 155921,
+      "threshold_calibrated_validation_B_90pct": 0.0032988028495208044,
+      "threshold_historical": null,
+      "threshold_raw_validation_B_90pct": 0.04400634765625
+    },
+    {
+      "A_n": 1744,
+      "A_positives": 284,
+      "B_n": 1744,
+      "B_negatives": 1460,
+      "a": 1.2265814982250252,
+      "b": -0.6294276001617154,
+      "endpoint": "STach",
+      "false_correction_clean_validation_count": 48,
+      "optimizer": {
+        "iterations": 9,
+        "loss": 0.04336670839829922,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+        "success": true
+      },
+      "seed": 155921,
+      "threshold_calibrated_validation_B_90pct": 0.010776818063070705,
+      "threshold_historical": null,
+      "threshold_raw_validation_B_90pct": 0.040252685546875
+    }
+  ],
+  "fits_by_seed": {
+    "104729": [
+      {
+        "A_n": 1744,
+        "A_positives": 258,
+        "B_n": 1744,
+        "B_negatives": 1486,
+        "a": 0.7102800283195098,
+        "b": -1.1211091183392703,
+        "endpoint": "TWA",
+        "optimizer": {
+          "iterations": 8,
+          "loss": 0.24486616829554395,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "success": true
+        },
+        "seed": 104729,
+        "threshold_calibrated_validation_B_90pct": 0.3523059279773725,
+        "threshold_historical": null,
+        "threshold_raw_validation_B_90pct": 0.6728515625
+      },
+      {
+        "A_n": 1744,
+        "A_positives": 633,
+        "B_n": 1744,
+        "B_negatives": 1111,
+        "a": 1.0471516750124452,
+        "b": -1.3448736807795618,
+        "endpoint": "SB",
+        "optimizer": {
+          "iterations": 9,
+          "loss": 0.042010942787302455,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "success": true
+        },
+        "seed": 104729,
+        "threshold_calibrated_validation_B_90pct": 0.001584863835990595,
+        "threshold_historical": null,
+        "threshold_raw_validation_B_90pct": 0.00760650634765625
+      },
+      {
+        "A_n": 1744,
+        "A_positives": 284,
+        "B_n": 1744,
+        "B_negatives": 1460,
+        "a": 0.8067413774312905,
+        "b": -2.174633322877415,
+        "endpoint": "STach",
+        "optimizer": {
+          "iterations": 10,
+          "loss": 0.045453680738244545,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "success": true
+        },
+        "seed": 104729,
+        "threshold_calibrated_validation_B_90pct": 0.009401160552913167,
+        "threshold_historical": null,
+        "threshold_raw_validation_B_90pct": 0.044039916992187546
+      }
+    ],
+    "130363": [
+      {
+        "A_n": 1744,
+        "A_positives": 258,
+        "B_n": 1744,
+        "B_negatives": 1486,
+        "a": 0.7521707251140408,
+        "b": -1.416824026972385,
+        "endpoint": "TWA",
+        "optimizer": {
+          "iterations": 8,
+          "loss": 0.2464986850752531,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "success": true
+        },
+        "seed": 130363,
+        "threshold_calibrated_validation_B_90pct": 0.35406575928646844,
+        "threshold_historical": null,
+        "threshold_raw_validation_B_90pct": 0.747314453125
+      },
+      {
+        "A_n": 1744,
+        "A_positives": 633,
+        "B_n": 1744,
+        "B_negatives": 1111,
+        "a": 1.12718650931784,
+        "b": 0.6108378114022103,
+        "endpoint": "SB",
+        "optimizer": {
+          "iterations": 8,
+          "loss": 0.03992715516705321,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "success": true
+        },
+        "seed": 130363,
+        "threshold_calibrated_validation_B_90pct": 0.0023183868276757127,
+        "threshold_historical": null,
+        "threshold_raw_validation_B_90pct": 0.0026721954345703125
+      },
+      {
+        "A_n": 1744,
+        "A_positives": 284,
+        "B_n": 1744,
+        "B_negatives": 1460,
+        "a": 1.0751793769381117,
+        "b": -2.306750134640986,
+        "endpoint": "STach",
+        "optimizer": {
+          "iterations": 10,
+          "loss": 0.04554159401543684,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "success": true
+        },
+        "seed": 130363,
+        "threshold_calibrated_validation_B_90pct": 0.009978288426903018,
+        "threshold_historical": null,
+        "threshold_raw_validation_B_90pct": 0.10617675781250005
+      }
+    ],
+    "155921": [
+      {
+        "A_n": 1744,
+        "A_positives": 258,
+        "B_n": 1744,
+        "B_negatives": 1486,
+        "a": 0.8885567773382632,
+        "b": -1.0910837686039767,
+        "endpoint": "TWA",
+        "optimizer": {
+          "iterations": 8,
+          "loss": 0.24977150563615716,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "success": true
+        },
+        "seed": 155921,
+        "threshold_calibrated_validation_B_90pct": 0.34047649072518305,
+        "threshold_historical": null,
+        "threshold_raw_validation_B_90pct": 0.61865234375
+      },
+      {
+        "A_n": 1744,
+        "A_positives": 633,
+        "B_n": 1744,
+        "B_negatives": 1111,
+        "a": 1.2867274026842899,
+        "b": -1.749807387391113,
+        "endpoint": "SB",
+        "optimizer": {
+          "iterations": 9,
+          "loss": 0.04622149655895312,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "success": true
+        },
+        "seed": 155921,
+        "threshold_calibrated_validation_B_90pct": 0.0032988028495208044,
+        "threshold_historical": null,
+        "threshold_raw_validation_B_90pct": 0.04400634765625
+      },
+      {
+        "A_n": 1744,
+        "A_positives": 284,
+        "B_n": 1744,
+        "B_negatives": 1460,
+        "a": 1.2265814982250252,
+        "b": -0.6294276001617154,
+        "endpoint": "STach",
+        "optimizer": {
+          "iterations": 9,
+          "loss": 0.04336670839829922,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "success": true
+        },
+        "seed": 155921,
+        "threshold_calibrated_validation_B_90pct": 0.010776818063070705,
+        "threshold_historical": null,
+        "threshold_raw_validation_B_90pct": 0.040252685546875
+      }
+    ]
+  },
+  "labels_sha256": "c522e7e668ac1969b610c95a5797c747cdc8489e727372ddc25f23429c0bf518",
+  "loss": "ordinary unweighted mean binary log loss on clean validation A",
+  "method": "Platt scaling sigmoid(a*logit(p)+b), a>0",
+  "test_HEEDB_labels_not_used": true,
+  "thresholds": "90th percentile of negative clean full-pipeline Huang probabilities on validation B; calibrated threshold is that raw threshold transformed by the fit",
+  "validation_record_ids_sha256": "1358f4a91d8fd08c47aa35ebf9f2ac8b52cbf64121844848e0f33aab2930fd7c"
+}

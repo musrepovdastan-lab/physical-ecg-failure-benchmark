@@ -1,0 +1,30 @@
+{
+  "all_baseline_gates_pass": true,
+  "all_seed_twa_contrasts_positive": true,
+  "bootstrap": {
+    "SB": {
+      "label": "SB",
+      "lower95": 0.031915370374917984,
+      "mean_contrast": 0.037901777774095535,
+      "replicates": 1000,
+      "upper95": 0.04489455744624138
+    },
+    "STach": {
+      "label": "STach",
+      "lower95": 0.24994982779026031,
+      "mean_contrast": 0.27143383026123047,
+      "replicates": 1000,
+      "upper95": 0.29382193088531494
+    },
+    "TWA": {
+      "label": "TWA",
+      "lower95": 0.3113339841365814,
+      "mean_contrast": 0.3311039209365845,
+      "replicates": 1000,
+      "upper95": 0.35031962394714355
+    }
+  },
+  "completed_utc": "2026-08-30T09:38:50.528327+00:00",
+  "decision": "CONFIRMED_GENERAL_FAILURE",
+  "protocol_sha256": "1FE829E4357B4EFDE0E5F227BAF5BF94E8D22D12AF0959A38CEE12CCE1F40D71"
+}

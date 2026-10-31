@@ -1,0 +1,140 @@
+{
+  "frozen_input_binding_count": 143,
+  "frozen_input_binding_errors": [],
+  "input_path_verification": {
+    "all_three_swaps_and_predicted_classes_0_to_3_tested": true,
+    "class_zero_preserves_faulty_signal": true,
+    "corrected_classifier_replay_rows": 18,
+    "corrected_replay_max_delta": 0.0,
+    "detector_block_replay_status": "PASS",
+    "detector_blocks": 6,
+    "detector_probability_max_delta": 0.0,
+    "engineering_handoff_status": "PASS",
+    "source_buffer_mutation": false,
+    "status": "PASS",
+    "wrong_legacy_path_control_rows": 18
+  },
+  "protocol_canonical_json_fingerprint_sha256": "e9ebad8c66b5327e38c8070917733a1e8e594bf35423064d205e639fcd886c3f",
+  "protocol_file_sha256": "0013abb0aea4c95123aeaa66eaf66b44cab37a41ab77833970be42b0b0f3b2cd",
+  "review_type": "internal verification; no external acceptance claimed",
+  "scientific_metrics_verification": {
+    "affected_draw_check_max_error": 4.263256414560601e-14,
+    "affected_draw_sklearn_checks": 270,
+    "all_RA_LL_anchors_pass": true,
+    "bootstrap_draws": 700000,
+    "condition_metric_rows": 576,
+    "historical_RA_LL_anchor_rows": 1008,
+    "max_metric_error": 3.637978807091713e-12,
+    "mixture_metric_rows": 2016,
+    "status": "PASS",
+    "summary_recalculation_max_error": 5.684341886080802e-14
+  },
+  "status": "PASS",
+  "training_calibration_threshold_fitting_reserved_test": false,
+  "unaffected_results_audit": {
+    "old_v1_package_unchanged": true,
+    "protocol_file_sha256": "0013abb0aea4c95123aeaa66eaf66b44cab37a41ab77833970be42b0b0f3b2cd",
+    "required_regions": {
+      "HEEDB_all_RA_LL_only": "PASS",
+      "HEEDB_physics_and_combined_vs_ordinary_all_equal_mixture_q": "PASS",
+      "HEEDB_q0_both_views": "PASS",
+      "Ningbo_all_views_methods_seeds_draws": "PASS",
+      "affected_Huang_equal_three_HEEDB_q_positive": "RECOMPUTED",
+      "historical_RA_LL_anchor_rows": 1008,
+      "required_contrast_rows": 610
+    },
+    "status": "PASS",
+    "unchanged_results": {
+      "CONDITION_METRICS_BY_SEED.csv": {
+        "compared_unchanged_rows": 540,
+        "max_abs_delta_by_field": {
+          "AP": 0.0,
+          "AUROC": 0.0,
+          "Brier": 0.0,
+          "ECE15": 0.0,
+          "FN": 0.0,
+          "FN_per_1000": 0.0,
+          "FP": 0.0,
+          "FP_per_1000": 0.0,
+          "TN": 0.0,
+          "TP": 0.0,
+          "predicted_positive_fraction": 0.0,
+          "sensitivity": 0.0,
+          "specificity": 0.0,
+          "threshold": 0.0
+        },
+        "status": "PASS"
+      },
+      "MIXTURE_METRICS_BY_SEED.csv": {
+        "compared_unchanged_rows": 1908,
+        "max_abs_delta_by_field": {
+          "AP": 0.0,
+          "AUROC": 0.0,
+          "Brier": 0.0,
+          "ECE15": 0.0,
+          "FN": 0.0,
+          "FN_per_1000": 0.0,
+          "FP": 0.0,
+          "FP_per_1000": 0.0,
+          "TN": 0.0,
+          "TP": 0.0,
+          "predicted_positive_fraction": 0.0,
+          "sensitivity": 0.0,
+          "specificity": 0.0,
+          "threshold": 0.0
+        },
+        "status": "PASS"
+      },
+      "MIXTURE_METRICS_MEAN_SD.csv": {
+        "compared_unchanged_rows": 636,
+        "max_abs_delta_by_field": {
+          "AP_mean": 0.0,
+          "AP_std": 0.0,
+          "AUROC_mean": 0.0,
+          "AUROC_std": 0.0,
+          "Brier_mean": 0.0,
+          "Brier_std": 0.0,
+          "ECE15_mean": 0.0,
+          "ECE15_std": 0.0,
+          "FN_per_1000_mean": 0.0,
+          "FN_per_1000_std": 0.0,
+          "FP_per_1000_mean": 0.0,
+          "FP_per_1000_std": 0.0,
+          "predicted_positive_fraction_mean": 0.0,
+          "predicted_positive_fraction_std": 0.0,
+          "sensitivity_mean": 0.0,
+          "sensitivity_std": 0.0,
+          "specificity_mean": 0.0,
+          "specificity_std": 0.0
+        },
+        "status": "PASS"
+      },
+      "PAIRED_BOOTSTRAP_DRAWS.npz": {
+        "draws_per_key": 1000,
+        "max_abs_delta": 3.3306690738754696e-16,
+        "status": "PASS",
+        "unchanged_draw_keys": 610
+      },
+      "PAIRED_CONTRASTS_POINT_AND_CI.csv": {
+        "compared_unchanged_rows": 610,
+        "max_abs_delta_by_field": {
+          "bootstrap_mean_difference": 1.0061396160665481e-16,
+          "ci_2_5": 2.0036056147532122e-16,
+          "ci_97_5": 1.97758476261356e-16,
+          "full_sample_difference": 0.0,
+          "replicates": 0.0
+        },
+        "status": "PASS"
+      },
+      "required_invariants": {
+        "HEEDB_all_RA_LL_only": "PASS",
+        "HEEDB_physics_and_combined_vs_ordinary_all_equal_mixture_q": "PASS",
+        "HEEDB_q0_both_views": "PASS",
+        "Ningbo_all_views_methods_seeds_draws": "PASS",
+        "affected_Huang_equal_three_HEEDB_q_positive": "RECOMPUTED",
+        "historical_RA_LL_anchor_rows": 1008,
+        "required_contrast_rows": 610
+      }
+    }
+  }
+}

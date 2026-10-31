@@ -1,0 +1,6 @@
+{
+  "protocol_path": "configs/FROZEN_ECGFOUNDER_BASELINE_PROTOCOL_v1.json",
+  "protocol_sha256": "17214328ef9e0443692da4248df7683cff906689d270b3e08efe3311710c1bee",
+  "frozen_utc": "2026-09-20T19:11:17.557622+00:00",
+  "test_evaluation_started": false
+}

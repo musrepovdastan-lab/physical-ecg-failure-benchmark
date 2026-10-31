@@ -1,0 +1,24 @@
+{
+  "dataset": "Ningbo",
+  "protocol_sha256": "2f1e7600c26a6466c29e9bbc5ddbe6b826486cc05c84edaa3350433b3981ad81",
+  "test_ids_sha256": "2d877aba3a3f04544bb619923ca87d7a965f691b54adb0dd4e04aab04bdafa0c",
+  "indices_sha256": "d77d61a1b6556f52b11a60a472ecf13efe5ae759134a6739883268476e6ce35f",
+  "replicates": 1000,
+  "model_order": [
+    "ECGFounder_head",
+    "ResNet_104729",
+    "ResNet_130363",
+    "ResNet_155921"
+  ],
+  "condition_order": [
+    "clean",
+    "RA_LL_reversal"
+  ],
+  "metric_order": [
+    "auprc",
+    "auroc",
+    "sensitivity"
+  ],
+  "completed_replicates": 1000,
+  "metrics_sha256": "2b433f702dbad4ba3cf3d0ac10d63fda5375c4c102cc20aa200184bd1ae2dbe9"
+}

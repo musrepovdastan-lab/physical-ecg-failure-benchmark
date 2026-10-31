@@ -1,0 +1,7 @@
+{
+  "gate": "Ningbo engineering/replay preflight",
+  "status": "FAILED_BEFORE_INFERENCE",
+  "reason": "Integrity checker compared canonical JSON fingerprint to raw-file SHA file; values differ by construction because JSON includes a canonical fingerprint field. No inference was started and no scientific output was produced.",
+  "original_canonical_fingerprint": "8038dae11ce13eab81440ebd4e13fda7f05ab9c030af707a04728bac7185af24",
+  "correct_raw_file_sha256": "321151e5906e0e570cda1f611c18c821119973485871973b06b7bd17031f5612"
+}

@@ -1,0 +1,955 @@
+{
+  "files": {
+    "acquisition": {
+      "bytes": 101266857,
+      "sha256": "32eddfbd813c69138850344ff0f141a1b07c3716ef11bb113cf10c254f66a296"
+    },
+    "dictionary": {
+      "bytes": 18958,
+      "sha256": "903c02c4304c95049647f324817f552c2ffafe41c7dfda419b67e8f639dd4b34"
+    },
+    "metadata": {
+      "bytes": 169535260,
+      "sha256": "a52601522471d2a881271749cf7698817d395cb8ecc9d01e0eac36950dabe2c0"
+    },
+    "v24": {
+      "bytes": 60927709,
+      "sha256": "f2ee79dfc7be0b22ae172cb36807f20da0ccf7d7800e2647f95ea08d4ce0eb66"
+    }
+  },
+  "joins": {
+    "acquisition_to_metadata_matched": 998844,
+    "acquisition_without_metadata": 0,
+    "acquisition_without_v24": 24672,
+    "metadata_without_acquisition": 0,
+    "metadata_without_v24": 24672,
+    "v24_to_acquisition_matched": 974172,
+    "v24_to_metadata_matched": 974172,
+    "v24_without_acquisition": 0,
+    "v24_without_metadata": 0
+  },
+  "keys": {
+    "acquisition_FileName_duplicate_rows": 0,
+    "metadata_BDSPPatientID_missing_rows": 27328,
+    "metadata_BDSPPatientID_unique_nonempty": 349547,
+    "metadata_FileID_duplicate_rows": 0,
+    "metadata_FileName_duplicate_rows": 0,
+    "v24_FileName_duplicate_rows": 0
+  },
+  "labels": {
+    "physician_overread_at_acquisition": {
+      "core_patient_label_patterns_TWA_SB_STach": {
+        "000": 183158,
+        "001": 21746,
+        "010": 60840,
+        "011": 2158,
+        "100": 44700,
+        "101": 13728,
+        "110": 20303,
+        "111": 2914
+      },
+      "core_recording_label_patterns_TWA_SB_STach": {
+        "000": 633928,
+        "001": 59578,
+        "010": 129753,
+        "011": 7,
+        "100": 135972,
+        "101": 16485,
+        "110": 23119,
+        "111": 2
+      },
+      "empty_rows": 676,
+      "malformed_token_occurrences": 0,
+      "nonempty_rows": 998168,
+      "outcomes": {
+        "SB": {
+          "ambiguous_codes": [
+            265
+          ],
+          "ambiguous_patient_linked_recordings": 86,
+          "ambiguous_patients": 84,
+          "ambiguous_recordings": 87,
+          "core_codes": [
+            21,
+            24
+          ],
+          "core_patient_linked_recordings": 148773,
+          "core_patients": 86215,
+          "core_recordings": 152881,
+          "excluded_comparison_or_fragment_codes": [],
+          "excluded_comparison_or_fragment_recordings": 0,
+          "per_code_occurrences": {
+            "21": 135308,
+            "24": 17695,
+            "265": 87
+          },
+          "snomed_reference_only": "426177001",
+          "strict_codes": [
+            21
+          ],
+          "strict_patient_linked_recordings": 131730,
+          "strict_patients": 80881,
+          "strict_recordings": 135277
+        },
+        "STach": {
+          "ambiguous_codes": [],
+          "ambiguous_patient_linked_recordings": 0,
+          "ambiguous_patients": 0,
+          "ambiguous_recordings": 0,
+          "core_codes": [
+            23
+          ],
+          "core_patient_linked_recordings": 74390,
+          "core_patients": 40546,
+          "core_recordings": 76072,
+          "excluded_comparison_or_fragment_codes": [],
+          "excluded_comparison_or_fragment_recordings": 0,
+          "per_code_occurrences": {
+            "23": 76132
+          },
+          "snomed_reference_only": "427084000",
+          "strict_codes": [
+            23
+          ],
+          "strict_patient_linked_recordings": 74390,
+          "strict_patients": 40546,
+          "strict_recordings": 76072
+        },
+        "TWA": {
+          "ambiguous_codes": [
+            1141,
+            1142,
+            1182,
+            1215,
+            1217,
+            1218,
+            1219,
+            1220,
+            1221,
+            1222,
+            1223
+          ],
+          "ambiguous_patient_linked_recordings": 91352,
+          "ambiguous_patients": 54792,
+          "ambiguous_recordings": 93384,
+          "core_codes": [
+            1140,
+            1145,
+            1150,
+            1151,
+            1160,
+            1161,
+            1170,
+            1171,
+            1172,
+            1180,
+            1181
+          ],
+          "core_patient_linked_recordings": 170173,
+          "core_patients": 81645,
+          "core_recordings": 175578,
+          "excluded_comparison_or_fragment_codes": [
+            1200,
+            1201,
+            1203,
+            1207,
+            1208,
+            1210,
+            1211,
+            1212,
+            1213,
+            1214,
+            1216,
+            1224
+          ],
+          "excluded_comparison_or_fragment_recordings": 45689,
+          "per_code_occurrences": {
+            "1140": 75478,
+            "1141": 32614,
+            "1142": 3784,
+            "1145": 13758,
+            "1150": 13078,
+            "1151": 774,
+            "1160": 39974,
+            "1161": 1764,
+            "1170": 22605,
+            "1171": 1000,
+            "1172": 1157,
+            "1180": 18791,
+            "1181": 3055,
+            "1182": 675,
+            "1200": 5498,
+            "1201": 2514,
+            "1203": 3005,
+            "1207": 4,
+            "1208": 32,
+            "1210": 11,
+            "1211": 3,
+            "1212": 16,
+            "1213": 3,
+            "1214": 17871,
+            "1215": 20227,
+            "1216": 7074,
+            "1217": 7786,
+            "1218": 7690,
+            "1219": 7709,
+            "1220": 18196,
+            "1221": 6830,
+            "1222": 6,
+            "1223": 6891,
+            "1224": 16967
+          },
+          "snomed_reference_only": "164934002",
+          "strict_codes": [
+            1140
+          ],
+          "strict_patient_linked_recordings": 73128,
+          "strict_patients": 46959,
+          "strict_recordings": 75251
+        }
+      },
+      "rows_with_duplicate_code_tokens": 130465,
+      "unknown_code_occurrences": {}
+    },
+    "software_at_acquisition": {
+      "core_patient_label_patterns_TWA_SB_STach": {
+        "000": 182929,
+        "001": 22131,
+        "010": 60786,
+        "011": 2374,
+        "100": 43962,
+        "101": 14220,
+        "110": 19791,
+        "111": 3354
+      },
+      "core_recording_label_patterns_TWA_SB_STach": {
+        "000": 631370,
+        "001": 61104,
+        "010": 129724,
+        "011": 1,
+        "100": 136405,
+        "101": 17214,
+        "110": 23026
+      },
+      "empty_rows": 77,
+      "malformed_token_occurrences": 0,
+      "nonempty_rows": 998767,
+      "outcomes": {
+        "SB": {
+          "ambiguous_codes": [
+            265
+          ],
+          "ambiguous_patient_linked_recordings": 0,
+          "ambiguous_patients": 0,
+          "ambiguous_recordings": 0,
+          "core_codes": [
+            21,
+            24
+          ],
+          "core_patient_linked_recordings": 148646,
+          "core_patients": 86305,
+          "core_recordings": 152751,
+          "excluded_comparison_or_fragment_codes": [],
+          "excluded_comparison_or_fragment_recordings": 0,
+          "per_code_occurrences": {
+            "21": 134810,
+            "24": 17945,
+            "265": 0
+          },
+          "snomed_reference_only": "426177001",
+          "strict_codes": [
+            21
+          ],
+          "strict_patient_linked_recordings": 131263,
+          "strict_patients": 80748,
+          "strict_recordings": 134809
+        },
+        "STach": {
+          "ambiguous_codes": [],
+          "ambiguous_patient_linked_recordings": 0,
+          "ambiguous_patients": 0,
+          "ambiguous_recordings": 0,
+          "core_codes": [
+            23
+          ],
+          "core_patient_linked_recordings": 76620,
+          "core_patients": 42079,
+          "core_recordings": 78319,
+          "excluded_comparison_or_fragment_codes": [],
+          "excluded_comparison_or_fragment_recordings": 0,
+          "per_code_occurrences": {
+            "23": 78319
+          },
+          "snomed_reference_only": "427084000",
+          "strict_codes": [
+            23
+          ],
+          "strict_patient_linked_recordings": 76620,
+          "strict_patients": 42079,
+          "strict_recordings": 78319
+        },
+        "TWA": {
+          "ambiguous_codes": [
+            1141,
+            1142,
+            1182,
+            1215,
+            1217,
+            1218,
+            1219,
+            1220,
+            1221,
+            1222,
+            1223
+          ],
+          "ambiguous_patient_linked_recordings": 85256,
+          "ambiguous_patients": 51661,
+          "ambiguous_recordings": 87271,
+          "core_codes": [
+            1140,
+            1145,
+            1150,
+            1151,
+            1160,
+            1161,
+            1170,
+            1171,
+            1172,
+            1180,
+            1181
+          ],
+          "core_patient_linked_recordings": 171249,
+          "core_patients": 81327,
+          "core_recordings": 176645,
+          "excluded_comparison_or_fragment_codes": [
+            1200,
+            1201,
+            1203,
+            1207,
+            1208,
+            1210,
+            1211,
+            1212,
+            1213,
+            1214,
+            1216,
+            1224
+          ],
+          "excluded_comparison_or_fragment_recordings": 39273,
+          "per_code_occurrences": {
+            "1140": 71396,
+            "1141": 28308,
+            "1142": 4301,
+            "1145": 13734,
+            "1150": 13088,
+            "1151": 150,
+            "1160": 41396,
+            "1161": 888,
+            "1170": 24037,
+            "1171": 372,
+            "1172": 615,
+            "1180": 18833,
+            "1181": 2562,
+            "1182": 40,
+            "1200": 711,
+            "1201": 2372,
+            "1203": 2815,
+            "1207": 0,
+            "1208": 0,
+            "1210": 0,
+            "1211": 0,
+            "1212": 0,
+            "1213": 0,
+            "1214": 16274,
+            "1215": 18426,
+            "1216": 5863,
+            "1217": 6679,
+            "1218": 6734,
+            "1219": 6906,
+            "1220": 17727,
+            "1221": 6435,
+            "1222": 0,
+            "1223": 6588,
+            "1224": 16503
+          },
+          "snomed_reference_only": "164934002",
+          "strict_codes": [
+            1140
+          ],
+          "strict_patient_linked_recordings": 69289,
+          "strict_patients": 44675,
+          "strict_recordings": 71396
+        }
+      },
+      "rows_with_duplicate_code_tokens": 136437,
+      "unknown_code_occurrences": {}
+    },
+    "v24_provenance_unspecified_by_schema": {
+      "core_patient_label_patterns_TWA_SB_STach": {
+        "000": 178527,
+        "001": 21077,
+        "010": 58780,
+        "011": 2102,
+        "100": 45956,
+        "101": 14786,
+        "110": 19940,
+        "111": 3211
+      },
+      "core_recording_label_patterns_TWA_SB_STach": {
+        "000": 612686,
+        "001": 58582,
+        "010": 124526,
+        "100": 137909,
+        "101": 17691,
+        "110": 22778
+      },
+      "empty_rows": 0,
+      "malformed_token_occurrences": 5492,
+      "nonempty_rows": 974172,
+      "outcomes": {
+        "SB": {
+          "ambiguous_codes": [
+            265
+          ],
+          "ambiguous_patient_linked_recordings": 0,
+          "ambiguous_patients": 0,
+          "ambiguous_recordings": 0,
+          "core_codes": [
+            21,
+            24
+          ],
+          "core_patient_linked_recordings": 143273,
+          "core_patients": 84033,
+          "core_recordings": 147304,
+          "excluded_comparison_or_fragment_codes": [],
+          "excluded_comparison_or_fragment_recordings": 0,
+          "per_code_occurrences": {
+            "21": 141581,
+            "24": 5723,
+            "265": 0
+          },
+          "snomed_reference_only": "426177001",
+          "strict_codes": [
+            21
+          ],
+          "strict_patient_linked_recordings": 137695,
+          "strict_patients": 82188,
+          "strict_recordings": 141581
+        },
+        "STach": {
+          "ambiguous_codes": [],
+          "ambiguous_patient_linked_recordings": 0,
+          "ambiguous_patients": 0,
+          "ambiguous_recordings": 0,
+          "core_codes": [
+            23
+          ],
+          "core_patient_linked_recordings": 74609,
+          "core_patients": 41176,
+          "core_recordings": 76273,
+          "excluded_comparison_or_fragment_codes": [],
+          "excluded_comparison_or_fragment_recordings": 0,
+          "per_code_occurrences": {
+            "23": 76273
+          },
+          "snomed_reference_only": "427084000",
+          "strict_codes": [
+            23
+          ],
+          "strict_patient_linked_recordings": 74609,
+          "strict_patients": 41176,
+          "strict_recordings": 76273
+        },
+        "TWA": {
+          "ambiguous_codes": [
+            1141,
+            1142,
+            1182,
+            1215,
+            1217,
+            1218,
+            1219,
+            1220,
+            1221,
+            1222,
+            1223
+          ],
+          "ambiguous_patient_linked_recordings": 34592,
+          "ambiguous_patients": 24678,
+          "ambiguous_recordings": 35512,
+          "core_codes": [
+            1140,
+            1145,
+            1150,
+            1151,
+            1160,
+            1161,
+            1170,
+            1171,
+            1172,
+            1180,
+            1181
+          ],
+          "core_patient_linked_recordings": 172979,
+          "core_patients": 83893,
+          "core_recordings": 178378,
+          "excluded_comparison_or_fragment_codes": [
+            1200,
+            1201,
+            1203,
+            1207,
+            1208,
+            1210,
+            1211,
+            1212,
+            1213,
+            1214,
+            1216,
+            1224
+          ],
+          "excluded_comparison_or_fragment_recordings": 0,
+          "per_code_occurrences": {
+            "1140": 76124,
+            "1141": 30928,
+            "1142": 4584,
+            "1145": 12235,
+            "1150": 12889,
+            "1151": 158,
+            "1160": 39251,
+            "1161": 415,
+            "1170": 22929,
+            "1171": 434,
+            "1172": 851,
+            "1180": 18134,
+            "1181": 3325,
+            "1182": 0,
+            "1200": 0,
+            "1201": 0,
+            "1203": 0,
+            "1207": 0,
+            "1208": 0,
+            "1210": 0,
+            "1211": 0,
+            "1212": 0,
+            "1213": 0,
+            "1214": 0,
+            "1215": 0,
+            "1216": 0,
+            "1217": 0,
+            "1218": 0,
+            "1219": 0,
+            "1220": 0,
+            "1221": 0,
+            "1222": 0,
+            "1223": 0,
+            "1224": 0
+          },
+          "snomed_reference_only": "164934002",
+          "strict_codes": [
+            1140
+          ],
+          "strict_patient_linked_recordings": 73871,
+          "strict_patients": 47636,
+          "strict_recordings": 76124
+        }
+      },
+      "rows_with_duplicate_code_tokens": 53677,
+      "unknown_code_occurrences": {}
+    }
+  },
+  "mapping_dictionary_rows": [
+    {
+      "acronym": "PR-SBRAD",
+      "codes": "265",
+      "diagnoses": "probable sinus bradycardia, verify av conduction"
+    },
+    {
+      "acronym": "NT",
+      "codes": "1140",
+      "diagnoses": "nonspecific t wave abnormality"
+    },
+    {
+      "acronym": "NSTT",
+      "codes": "1141",
+      "diagnoses": "nonspecific st and t wave abnormality"
+    },
+    {
+      "acronym": "QRST",
+      "codes": "1142",
+      "diagnoses": "abnormal qrs-t angle, consider primary t wave abnormality"
+    },
+    {
+      "acronym": "ILT",
+      "codes": "1145",
+      "diagnoses": "t wave abnormality, consider inferolateral ischemia"
+    },
+    {
+      "acronym": "AT",
+      "codes": "1150",
+      "diagnoses": "t wave abnormality, consider anterior ischemia"
+    },
+    {
+      "acronym": "MAT",
+      "codes": "1151",
+      "diagnoses": "marked t wave abnormality, consider anterior ischemia"
+    },
+    {
+      "acronym": "LT",
+      "codes": "1160",
+      "diagnoses": "t wave abnormality, consider lateral ischemia"
+    },
+    {
+      "acronym": "MLT",
+      "codes": "1161",
+      "diagnoses": "marked t wave abnormality, consider lateral ischemia"
+    },
+    {
+      "acronym": "IT",
+      "codes": "1170",
+      "diagnoses": "t wave abnormality, consider inferior ischemia"
+    },
+    {
+      "acronym": "MIT",
+      "codes": "1171",
+      "diagnoses": "marked t wave abnormality, consider inferior ischemia"
+    },
+    {
+      "acronym": "MILT",
+      "codes": "1172",
+      "diagnoses": "marked t wave abnormality, consider inferolateral ischemia"
+    },
+    {
+      "acronym": "ALT",
+      "codes": "1180",
+      "diagnoses": "t wave abnormality, consider anterolateral ischemia"
+    },
+    {
+      "acronym": "MALT",
+      "codes": "1181",
+      "diagnoses": "marked t wave abnormality, consider anterolateral ischemia"
+    },
+    {
+      "acronym": "TINVIN",
+      "codes": "1182",
+      "diagnoses": "t wave inversion in"
+    },
+    {
+      "acronym": "T-WAVE",
+      "codes": "1200",
+      "diagnoses": "t waves"
+    },
+    {
+      "acronym": "T-INC",
+      "codes": "1201",
+      "diagnoses": "t wave amplitude has increased in"
+    },
+    {
+      "acronym": "T-DEC",
+      "codes": "1203",
+      "diagnoses": "t wave amplitude has decreased in"
+    },
+    {
+      "acronym": "LOWT-INVT",
+      "codes": "1207",
+      "diagnoses": "flat t waves have replaced inverted t waves in"
+    },
+    {
+      "acronym": "QUE-TCHG",
+      "codes": "1208",
+      "diagnoses": "questionable change in t waves"
+    },
+    {
+      "acronym": "LOWT-NOL",
+      "codes": "1210",
+      "diagnoses": "flat t waves no longer evident in"
+    },
+    {
+      "acronym": "LESS-FLTT",
+      "codes": "1211",
+      "diagnoses": "fewer leads exhibit flat t waves in"
+    },
+    {
+      "acronym": "LOWT-NOW",
+      "codes": "1212",
+      "diagnoses": "flat t waves now evident in"
+    },
+    {
+      "acronym": "MORE-FLTT",
+      "codes": "1213",
+      "diagnoses": "more leads exhibit flat t waves in"
+    },
+    {
+      "acronym": "NSTNL",
+      "codes": "1214",
+      "diagnoses": "nonspecific t wave abnormality no longer evident in"
+    },
+    {
+      "acronym": "NSTNW",
+      "codes": "1215",
+      "diagnoses": "nonspecific t wave abnormality now evident in"
+    },
+    {
+      "acronym": "NSTLS",
+      "codes": "1216",
+      "diagnoses": "nonspecific t wave abnormality, improved in"
+    },
+    {
+      "acronym": "NSTMR",
+      "codes": "1217",
+      "diagnoses": "nonspecific t wave abnormality, worse in"
+    },
+    {
+      "acronym": "NSTFT",
+      "codes": "1218",
+      "diagnoses": "nonspecific t wave abnormality has replaced inverted t waves in"
+    },
+    {
+      "acronym": "NSTNF",
+      "codes": "1219",
+      "diagnoses": "inverted t waves have replaced nonspecific t wave abnormality in"
+    },
+    {
+      "acronym": "T-INVNOW",
+      "codes": "1220",
+      "diagnoses": "t wave inversion now evident in"
+    },
+    {
+      "acronym": "T-INVMOR",
+      "codes": "1221",
+      "diagnoses": "t wave inversion more evident in"
+    },
+    {
+      "acronym": "INVT-LOWT",
+      "codes": "1222",
+      "diagnoses": "inverted t waves have replaced flat t waves in"
+    },
+    {
+      "acronym": "T-LESINV",
+      "codes": "1223",
+      "diagnoses": "t wave inversion less evident in"
+    },
+    {
+      "acronym": "T-INVNOL",
+      "codes": "1224",
+      "diagnoses": "t wave inversion no longer evident in"
+    },
+    {
+      "acronym": "SBRAD",
+      "codes": "21",
+      "diagnoses": "sinus bradycardia"
+    },
+    {
+      "acronym": "STACH",
+      "codes": "23",
+      "diagnoses": "sinus tachycardia"
+    },
+    {
+      "acronym": "MSBRAD",
+      "codes": "24",
+      "diagnoses": "marked sinus bradycardia"
+    }
+  ],
+  "patient_recordings": {
+    "max_recordings_per_patient": 106,
+    "patients": 349547,
+    "patients_with_multiple_recordings": 174035,
+    "recordings": 971516,
+    "recordings_per_patient_quantiles": {
+      "0.0": 1.0,
+      "0.25": 1.0,
+      "0.5": 1.0,
+      "0.75": 3.0,
+      "0.9": 6.0,
+      "0.95": 9.0,
+      "0.99": 17.0,
+      "1.0": 106.0
+    }
+  },
+  "reported_code_jaccard": {
+    "exactly_one": 675241,
+    "maximum": 1.0,
+    "mean": 0.8600303924511452,
+    "median": 1.0,
+    "minimum": 0.0,
+    "missing_or_nonnumeric_rows": 0,
+    "numeric_rows": 998844
+  },
+  "schemas": {
+    "acquisition": {
+      "columns": [
+        "FileName",
+        "codes_software",
+        "codes_physician",
+        "jaccard_index"
+      ],
+      "missing_or_empty": {
+        "FileName": 0,
+        "codes_physician": 676,
+        "codes_software": 77,
+        "jaccard_index": 0
+      },
+      "rows": 998844,
+      "unique_nonempty": {
+        "FileName": 998844,
+        "codes_physician": 324719,
+        "codes_software": 269941,
+        "jaccard_index": 259
+      }
+    },
+    "dictionary": {
+      "columns": [
+        "codes",
+        "acronym",
+        "diagnoses"
+      ],
+      "missing_or_empty": {
+        "acronym": 7,
+        "codes": 0,
+        "diagnoses": 0
+      },
+      "rows": 503,
+      "unique_nonempty": {
+        "acronym": 496,
+        "codes": 503,
+        "diagnoses": 492
+      }
+    },
+    "metadata": {
+      "columns": [
+        "BDSPPatientID",
+        "FileName",
+        "FileID",
+        "PatientRace",
+        "Sex",
+        "ECGAcquisitionTime",
+        "DateOfBirth",
+        "LastKnownVisitDate",
+        "DateOfDeath",
+        "AgeAtAcquisition",
+        "AgeAtLastVisit",
+        "AgeAtDeath"
+      ],
+      "missing_or_empty": {
+        "AgeAtAcquisition": 3030,
+        "AgeAtDeath": 867693,
+        "AgeAtLastVisit": 30900,
+        "BDSPPatientID": 27328,
+        "DateOfBirth": 3030,
+        "DateOfDeath": 867554,
+        "ECGAcquisitionTime": 0,
+        "FileID": 0,
+        "FileName": 0,
+        "LastKnownVisitDate": 29315,
+        "PatientRace": 8353,
+        "Sex": 733
+      },
+      "rows": 998844,
+      "unique_nonempty": {
+        "AgeAtAcquisition": 27104,
+        "AgeAtDeath": 13990,
+        "AgeAtLastVisit": 26434,
+        "BDSPPatientID": 349547,
+        "DateOfBirth": 28168,
+        "DateOfDeath": 14230,
+        "ECGAcquisitionTime": 968925,
+        "FileID": 998844,
+        "FileName": 998844,
+        "LastKnownVisitDate": 5660,
+        "PatientRace": 12,
+        "Sex": 2
+      }
+    },
+    "v24": {
+      "columns": [
+        "FileName",
+        "codes"
+      ],
+      "missing_or_empty": {
+        "FileName": 0,
+        "codes": 0
+      },
+      "rows": 974172,
+      "unique_nonempty": {
+        "FileName": 974172,
+        "codes": 111804
+      }
+    }
+  },
+  "software_vs_physician_core_recording_agreement": {
+    "SB": {
+      "agreement_fraction": 0.9977193635843035,
+      "both_negative": 844889,
+      "both_positive": 151677,
+      "left_only": 1074,
+      "right_only": 1204
+    },
+    "STach": {
+      "agreement_fraction": 0.9943624830303831,
+      "both_negative": 918833,
+      "both_positive": 74380,
+      "left_only": 3939,
+      "right_only": 1692
+    },
+    "TWA": {
+      "agreement_fraction": 0.987848953390119,
+      "both_negative": 816664,
+      "both_positive": 170043,
+      "left_only": 6602,
+      "right_only": 5535
+    }
+  },
+  "v24_comparison": {
+    "core_outcome_agreement": {
+      "SB": {
+        "v24_vs_physician": {
+          "agreement_fraction": 0.9923165519025388,
+          "both_negative": 822450,
+          "both_positive": 144237,
+          "left_only": 3067,
+          "right_only": 4418
+        },
+        "v24_vs_software": {
+          "agreement_fraction": 0.9925926838381723,
+          "both_negative": 822650,
+          "both_positive": 144306,
+          "left_only": 2998,
+          "right_only": 4218
+        }
+      },
+      "STach": {
+        "v24_vs_physician": {
+          "agreement_fraction": 0.9898046751497682,
+          "both_negative": 893841,
+          "both_positive": 70399,
+          "left_only": 5874,
+          "right_only": 4058
+        },
+        "v24_vs_software": {
+          "agreement_fraction": 0.9905334992177973,
+          "both_negative": 893090,
+          "both_positive": 71860,
+          "left_only": 4413,
+          "right_only": 4809
+        }
+      },
+      "TWA": {
+        "v24_vs_physician": {
+          "agreement_fraction": 0.9435510361619919,
+          "both_negative": 771717,
+          "both_positive": 147464,
+          "left_only": 30914,
+          "right_only": 24077
+        },
+        "v24_vs_software": {
+          "agreement_fraction": 0.9515609153209085,
+          "both_negative": 775094,
+          "both_positive": 151890,
+          "left_only": 26488,
+          "right_only": 20700
+        }
+      }
+    },
+    "overlap_recordings": 974172
+  },
+  "version": "heedb_readiness_v1"
+}

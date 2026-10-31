@@ -1,0 +1,255 @@
+{
+  "scope": "Evidence consolidation only; no new training, inference, reserved_test evaluation, or clinical mapping changes.",
+  "created": "2026-10-19",
+  "hashes": [
+    {
+      "path": "outputs/literature_closure_v1/NOVELTY_REVIEW_RU.md",
+      "sha256": "186e0fc1aa4b9302efe78791202b002d67d43225f67c595786f4b54f190f1611",
+      "bytes": 13096,
+      "role": "source"
+    },
+    {
+      "path": "outputs/literature_closure_v1/SOURCE_ACCESS_LOG.json",
+      "sha256": "84e745e690a69ed248c894325423d5b56a4827b814f03056ca22bbcf1d90670f",
+      "bytes": 2899,
+      "role": "source"
+    },
+    {
+      "path": "outputs/mask_semantics_recovery_v2/FINAL_RECOVERY_REPORT.md",
+      "sha256": "a09da00d7efd8ec4c27dd60058dca80f9400f00fc372945d9a50a39045508ac0",
+      "bytes": 3125,
+      "role": "source"
+    },
+    {
+      "path": "outputs/mask_semantics_recovery_v2/PRIMARY_CONTRASTS.csv",
+      "sha256": "8214ce581620c357c89d79807db1e2726c562e14dd5e72922a7f2c468e6598c8",
+      "bytes": 3115,
+      "role": "source"
+    },
+    {
+      "path": "outputs/mask_semantics_recovery_v2/EXACT_MASK_COMPARISON.csv",
+      "sha256": "5978eebf8171dbd501a330e5215cbb8eccc471c00980ceeb2070220c77e50d1d",
+      "bytes": 2674,
+      "role": "source"
+    },
+    {
+      "path": "outputs/architecture_replication_m3_recovery_v2/CHAPMAN_REPORT.md",
+      "sha256": "8925590381691c5ebbcb743d6b8ae38242b993b2e07bb8f3ad1cb89c5937e318",
+      "bytes": 5560,
+      "role": "source"
+    },
+    {
+      "path": "outputs/architecture_replication_m3_recovery_v2/PRIMARY_CONTRASTS.csv",
+      "sha256": "3a105f68be4a194fe08d8a6ca633c16d649c8c45df37bd2d75aa0584db1f3c8d",
+      "bytes": 3014,
+      "role": "source"
+    },
+    {
+      "path": "outputs/architecture_replication_m3_recovery_v2/EXACT_MASK_AND_DISTRIBUTION_BY_SEED.csv",
+      "sha256": "0817b1e97f9c1f9794779a014f5c34dcebb816c356df08539994a392b6c8d069",
+      "bytes": 4383,
+      "role": "source"
+    },
+    {
+      "path": "outputs/chest_only_baseline_v1/FINAL_CHEST_ONLY_REPORT.md",
+      "sha256": "87825ffdb1cd18b54ed0ebaf2f6114b6a4fd796d0343e6585e493c7ce109a417",
+      "bytes": 12338,
+      "role": "source"
+    },
+    {
+      "path": "outputs/chest_only_independent_recheck_v1/RESULT_SUMMARY.md",
+      "sha256": "a3ed620d80ee17b04a80b012dff1ddc5caa603c265d510a5ab8e26c8b75d5466",
+      "bytes": 1213,
+      "role": "source"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/FINAL_FOUR_ARM_REPORT.md",
+      "sha256": "235d7c7e055a0052636185723e4c3bb2715d8b9b9e90fa5f913157aba4391118",
+      "bytes": 10109,
+      "role": "source"
+    },
+    {
+      "path": "outputs/heedb_four_arm_extension_v1/REVIEW_NOTES_20261017.md",
+      "sha256": "4893d585921fa4d44b58fdf607997f55003c3f4af7f5d6fd16b3d7f527fc3094",
+      "bytes": 4373,
+      "role": "source"
+    },
+    {
+      "path": "outputs/heldout_limb_cycles_v1/REVIEW_NOTES_20261018.md",
+      "sha256": "27b81326388aeb941af8f9c306d65f7f52de13e86d741532180f300da82031e1",
+      "bytes": 3572,
+      "role": "source"
+    },
+    {
+      "path": "outputs/heldout_limb_cycles_v1/METRICS_MEAN_SD.csv",
+      "sha256": "315c857c58456f2b57c0226777231904053096f9580648482e16d3dba6ca82d8",
+      "bytes": 39211,
+      "role": "source"
+    },
+    {
+      "path": "outputs/heldout_limb_cycles_v1/PAIRED_CONTRASTS_BOOTSTRAP.csv",
+      "sha256": "59c17943ae39f1efd3537daf4a8cb8d64832802714381177c20b1b1951f920b6",
+      "bytes": 28784,
+      "role": "source"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/FINAL_PROBABILITY_STUDY_REPORT_RECOVERED_RU.md",
+      "sha256": "0508f4c4691b2b9d3ecaedbd515a058a5d207b552a0f948bae85c05e4152b5a1",
+      "bytes": 26697,
+      "role": "source"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/REVIEW_NOTES_20261018.md",
+      "sha256": "9f52bcdb019e628926e84059b86556e2ebe4ce18bdb10ba798951e5c552b3b89",
+      "bytes": 4629,
+      "role": "source"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/METRICS_SUMMARY_ALL_ARMS.csv",
+      "sha256": "ec1a4d7f43ae5413727648b73c2a11dabd735e53973dbccde34349a8a9114dc8",
+      "bytes": 7691311,
+      "role": "source"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/ALL_PAIRED_BOOTSTRAP_INTERVALS.csv",
+      "sha256": "3ad26d246feaabe2306ee10b636f5e759bbd407a465b4ed00c932595e4a61d50",
+      "bytes": 24780,
+      "role": "source"
+    },
+    {
+      "path": "outputs/ecgfounder_mitigation_v1/RESULTS_REPORT_RU.md",
+      "sha256": "5d83586377a8a8338ada043a7cad730785b479db890f91b4b54e6a689f008c7d",
+      "bytes": 15052,
+      "role": "source"
+    },
+    {
+      "path": "outputs/ecgfounder_mitigation_v1/REVIEW_NOTES_20261019.md",
+      "sha256": "ec73f3ffc579018214e15bc627a645b589152158bf439376f2fd1d6be51cbb28",
+      "bytes": 5024,
+      "role": "source"
+    },
+    {
+      "path": "outputs/heedb_probability_extension_v1/RESULTS_REPORT_RU.md",
+      "sha256": "77f4972bca053153219367374a505496aedae13b313f887b06e48232829afd7e",
+      "bytes": 13249,
+      "role": "source"
+    },
+    {
+      "path": "outputs/heedb_probability_extension_v1/REVIEW_NOTES_20261019.md",
+      "sha256": "9d0289a4f52434da74a070901e212cb6e5b9ca83e7085ed51bd32ea4ed4faf95",
+      "bytes": 4835,
+      "role": "source"
+    },
+    {
+      "path": "outputs/heedb_probability_extension_v1/INDEPENDENT_REVIEW_AUDIT_20261019.json",
+      "sha256": "f798fff5886c5a2c783b3d334cd5c0c1e52fea4a337100c6c0355d701cc7ef2d",
+      "bytes": 1108,
+      "role": "source"
+    },
+    {
+      "path": "outputs/submission_evidence_v2/CLINICIAN_REVIEW_PACKET.md",
+      "sha256": "bc4e3646073eabeda7edc83a8ca4bc311a34883ab150827bfcf51b85f6a84c1c",
+      "bytes": 12730,
+      "role": "source"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/PAIRED_BOOTSTRAP_TWA_AUPRC_PRESERVED.csv",
+      "sha256": "e169a356d630732452c085d8b4997402069e0caa9955106ac4fa0b9115e9fb1e",
+      "bytes": 8092,
+      "role": "source"
+    },
+    {
+      "path": "outputs/augmentation_probability_study_v1/RUN_MANIFEST.json",
+      "sha256": "dcbd4d09bdf966fb2dec863d17819417650741102a2f0add787ada1e6505922d",
+      "bytes": 15694,
+      "role": "source"
+    },
+    {
+      "path": "outputs/ecgfounder_mitigation_v1/TEST_METRICS_BY_SEED.csv",
+      "sha256": "c97e7af6739f2729ec3d4e39cb057030877c0c2e06fd340c17b53b4c826c25da",
+      "bytes": 381320,
+      "role": "source"
+    },
+    {
+      "path": "outputs/heedb_probability_extension_v1/MIXTURE_RESULTS_BY_SEED.csv",
+      "sha256": "f944dd134fc5af2d5b8bfb4b2c6f368d5bff569b33d8d77e6e9ee3c2e355e246",
+      "bytes": 246150,
+      "role": "source"
+    },
+    {
+      "path": "outputs/heedb_probability_extension_v1/PAIRED_CONTRASTS_BOOTSTRAP.csv",
+      "sha256": "0e0eb5223df78256eba55f3ab15183be08b57f9fbf76973e42d8de11e9fa5fc8",
+      "bytes": 11242,
+      "role": "source"
+    },
+    {
+      "path": "outputs/mentor_response_consolidation_v3/CLAIMS_AND_NOVELTY_RU.md",
+      "sha256": "2349cb36e7f72fad30fbe7200b895218508cd2990c56d18b80f583f44d054568",
+      "bytes": 10476,
+      "role": "consolidation_output"
+    },
+    {
+      "path": "outputs/mentor_response_consolidation_v3/EXPERIMENT_ORDER_RU.md",
+      "sha256": "5b8af868577cdd8a350f0b23644943ef8bbcf28f2eef5c96d346664c41c3ae4d",
+      "bytes": 10149,
+      "role": "consolidation_output"
+    },
+    {
+      "path": "outputs/mentor_response_consolidation_v3/INDEPENDENT_REVIEW_AUDIT_20261019.json",
+      "sha256": "c2ff5dfb0df2d3da637addcd04b918f978dc3aa612970fbbb3fe549f0d462d26",
+      "bytes": 4657,
+      "role": "consolidation_output"
+    },
+    {
+      "path": "outputs/mentor_response_consolidation_v3/MENTOR_CHECKLIST_RU.md",
+      "sha256": "1acf03cd6a63694c0ddf2d9f6efe8fdbed895c1e7dc296a5118be6d4a709cb40",
+      "bytes": 18149,
+      "role": "consolidation_output"
+    },
+    {
+      "path": "outputs/mentor_response_consolidation_v3/MENTOR_UPDATE_EN.md",
+      "sha256": "b1c71b7ca4af3196ea9a006a0d1f7fe4cccb86bbe92b6846bbf43371ad358863",
+      "bytes": 1299,
+      "role": "consolidation_output"
+    },
+    {
+      "path": "outputs/mentor_response_consolidation_v3/OPEN_ITEMS_RU.md",
+      "sha256": "a78dc2c5e12fb18040f938c7c695bf1cbcf9ae98b1edde3e0dde10e5bc17d25b",
+      "bytes": 6746,
+      "role": "consolidation_output"
+    },
+    {
+      "path": "outputs/mentor_response_consolidation_v3/REVIEW_NOTES_20261019.md",
+      "sha256": "0c8b3c8ba6eda2a6be753ad323f546b223469f11ae1d4efe2237c4bbc7c1e3b0",
+      "bytes": 4095,
+      "role": "consolidation_output"
+    },
+    {
+      "path": "outputs/mentor_response_consolidation_v3/SOURCE_INDEX.md",
+      "sha256": "132028a70609eb920622e80d033a84203f36c767b093ab3707b8d7b21f8c2937",
+      "bytes": 6089,
+      "role": "consolidation_output"
+    },
+    {
+      "path": "outputs/mentor_response_consolidation_v3/PLAN_COMPLETION_AUDIT_20261019.md",
+      "sha256": "cd2f6bfca0b7ca2682b1baf0b6891ebeffc949689f1c680cc6e57bc6360403ec",
+      "bytes": 14097,
+      "role": "consolidation_output"
+    }
+  ],
+  "method_fingerprint": "See source reports; this package does not combine incompatible subprotocol fingerprints.",
+  "package": "mentor_response_consolidation_v3",
+  "review": {
+    "date": "2026-10-19",
+    "original_manifest_path": "outputs/mentor_response_consolidation_v3/archive_before_review_20261019/REPRODUCIBILITY_MANIFEST.json",
+    "original_manifest_sha256": "8c0a84a8ac3ea69ef92578f9596d82cc196fb39aabcab3c2efd5b5547cc38422",
+    "notes": "Document/provenance corrections; original source experiments preserved."
+  },
+  "plan_completion_audit": {
+    "date": "2026-10-19",
+    "path": "outputs/mentor_response_consolidation_v3/PLAN_COMPLETION_AUDIT_20261019.md",
+    "meaning": "Bounded follow-up complete; original broader plan not fulfilled in every detail. No new experiment authorized or executed.",
+    "prior_manifest_path": "outputs/mentor_response_consolidation_v3/archive_before_review_20261019/REPRODUCIBILITY_MANIFEST_AFTER_DOCUMENT_REVIEW.json",
+    "prior_manifest_sha256": "60495586bd11151a3126c2d12e743ff2f661ca28e8255921c9f5cc5442b87c91"
+  }
+}

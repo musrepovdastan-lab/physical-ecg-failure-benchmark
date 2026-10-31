@@ -1,0 +1,83 @@
+{
+  "created_utc": "2026-09-22T19:17:03.649889+00:00",
+  "decision": "PASS",
+  "model_load": {
+    "checkpoint": "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\outputs\\published_detector_pipeline_v1\\official_source\\LDenseNet_loadable\\LDenseNet",
+    "model_variable_match_assertion": "PASS",
+    "model_variables": 16,
+    "tensorflow_version": "2.10.1",
+    "trainable_variables": 16
+  },
+  "published_class_mapping": {
+    "0": "clean",
+    "1": "RA_LA",
+    "2": "RA_LL",
+    "3": "LA_LL"
+  },
+  "tensorflow_environment_reused": "outputs\\published_detector_pipeline_v1\\detector_env\\Scripts\\python.exe",
+  "training_overlap_assessment": "Published code identifies Chapman-Shaoxing training and PTB/PTB-XL external tests; no Ningbo use is indicated.",
+  "upstream_source": {
+    "commit_date_utc": "2024-05-16T14:14:53Z",
+    "commit_sha": "465cc36d12c7cd04f622fd121fd1166981eaebd6",
+    "downloaded_main_archive_sha256": "9DBF5FB08987423971AFFD4BED960442335CFBFEB33E1E4441BBC7496E2A4496",
+    "git_tree_sha": "8fe35a7ad01c803a4bf4858f1959d81262a89583",
+    "mapping_method": "Queried GitHub commit/tree API and recomputed Git blob SHA-1 for every extracted file.",
+    "mapping_status": "RELIABLY_MAPPED",
+    "matched_blobs": 22,
+    "mismatched_blobs": 0,
+    "missing_blobs": 0,
+    "repository": "https://github.com/wjcai/ECG_lead_check",
+    "total_blobs": 22
+  },
+  "v1_cache_validation": {
+    "class_order_exact_match": true,
+    "detector_cache_hash_matches_v1_manifest": true,
+    "detector_cache_path": "outputs\\published_detector_pipeline_v1\\cache\\detector_test_probs.npz",
+    "detector_cache_sha256": "1E5CBEC9A679FF8AA3B181CE0DC2A4C259F86DDE0F17C02FA1B5E08B44307E4F",
+    "diagnostic_checkpoint_hashes_match_v1_manifest": true,
+    "record_count": 6981,
+    "record_order_exact_match": true,
+    "record_order_sha256": "2D877ABA3A3F04544BB619923CA87D7A965F691B54ADB0DD4E04AAB04BDAFA0C",
+    "reused_huang_diagnostic_cache_hashes": {
+      "104729": {
+        "RA_LL_reversal": "2B8D12E13D4197F3EA5F2F031FE990BE4AD7101C510168E629FF685396F1DD4F",
+        "clean": "1CC564D66EB39942E56D11597C13EEBEB9048C3402DC117DCC2B85AB465D7536"
+      },
+      "130363": {
+        "RA_LL_reversal": "2577109CF89E86CE96A8F07A989BD6BDE740FD554FAD55EBC6276AC24DC28E4B",
+        "clean": "DB04F9ECE468D12E9188B0BE68E5CDFD8448814CBC2CBE0AB20A9B05464B5644"
+      },
+      "155921": {
+        "RA_LL_reversal": "35ADA66A27EC95B1619285C4F8E2D998C2C738E77229C5DE0C27F9E597108983",
+        "clean": "8374FE73899EB5B4637CEB4047F0DF1FE5B0652F349CAA1C92DE242B0A8F7A18"
+      }
+    }
+  },
+  "weight_files": {
+    "byte_content_matches": {
+      "data": true,
+      "index": true
+    },
+    "checkpoint_prefix_note": "Only the TensorFlow checkpoint prefix was renamed for Windows; index and data shard bytes are identical.",
+    "original_published": {
+      "data": {
+        "path": "outputs\\published_detector_pipeline_v1\\official_source\\ECG_lead_check-main\\saved_model\\LDenseNet\\.data-00000-of-00001",
+        "sha256": "D40D7B9166567AA5332DE96A573E792D42F87A6D79B9030F461E9D4D60430EF6"
+      },
+      "index": {
+        "path": "outputs\\published_detector_pipeline_v1\\official_source\\ECG_lead_check-main\\saved_model\\LDenseNet\\.index",
+        "sha256": "45286E770EF023A5E9D568F8B44024237954AFE5AB6B772F09659447A6D8B4A1"
+      }
+    },
+    "windows_loadable_copy": {
+      "data": {
+        "path": "outputs\\published_detector_pipeline_v1\\official_source\\LDenseNet_loadable\\LDenseNet.data-00000-of-00001",
+        "sha256": "D40D7B9166567AA5332DE96A573E792D42F87A6D79B9030F461E9D4D60430EF6"
+      },
+      "index": {
+        "path": "outputs\\published_detector_pipeline_v1\\official_source\\LDenseNet_loadable\\LDenseNet.index",
+        "sha256": "45286E770EF023A5E9D568F8B44024237954AFE5AB6B772F09659447A6D8B4A1"
+      }
+    }
+  }
+}

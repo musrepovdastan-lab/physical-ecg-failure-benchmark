@@ -1,0 +1,3 @@
+# Engineering amendment 001
+
+The initial preflight stopped before inference because the frozen-protocol verifier compared the canonical JSON fingerprint stored inside the protocol against the SHA-256 of the serialized file. This self-binding is inconsistent by construction. No model inference or outcome inspection occurred. The canonical fingerprint remains in `FROZEN_PROTOCOL.json`; `FROZEN_PROTOCOL_SHA256.txt` now stores the SHA-256 of the exact file bytes, and the verifier checks that file hash. Scientific scope, inputs, conditions, thresholds, and metrics are unchanged. The failed preflight is preserved in `FAILED_ATTEMPT_001.json`.

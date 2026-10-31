@@ -1,0 +1,68 @@
+{
+  "analysis_status": "corrected_reanalysis_after_prior_test_access; not untouched confirmation",
+  "interpretation": {
+    "clean_trained_ra_ll_vulnerability": "assessed separately from mask contrasts; see direct RA_LL and clean rows",
+    "mask_quality_retention": "reassessed using mean per-mask AUPRC and unchanged frozen criteria",
+    "physics_aware_ra_ll_benefit": "M2 minus baseline RA_LL AUPRC; see paired bootstrap rows",
+    "reversal_vs_missingness": "reassessed with corrected five-lead removals"
+  },
+  "m2_revised_decision": {
+    "checks": {
+      "all_three_seeds_validation_and_integrity": true,
+      "clean_twa_any_seed_decline_max_0_04": true,
+      "clean_twa_mean_decline_max_0_02": true,
+      "matched_contrast_decrease_aggregate_min_0_15": true,
+      "matched_contrast_upper95_max_0_15": true,
+      "mean_mask_twa_any_seed_decline_max_0_04": true,
+      "mean_mask_twa_mean_decline_max_0_02": true,
+      "ra_ll_twa_improvement_each_seed_min_0_15": true
+    },
+    "clean_twa_change_by_seed": [
+      0.02187576086396925,
+      0.0005347294124317115,
+      0.009863642574589049
+    ],
+    "decision": "PASS_M2_EXTERNAL_REPLICATION",
+    "frozen_criteria_changed": false,
+    "m2_matched_contrast_upper95": -0.052588259677092235,
+    "matched_contrast_reduction": 0.4648577371339003,
+    "mean_mask_twa_change_by_seed": [
+      0.02317873025928996,
+      0.004438212701064148,
+      0.028177219628986117
+    ],
+    "ra_ll_twa_improvement_by_seed": [
+      0.49677641974318976,
+      0.4769725959046331,
+      0.4792893486101022
+    ]
+  },
+  "ningbo_confirmation_v2": {
+    "all_seed_mean_mask_contrasts_positive": true,
+    "bootstrap": {
+      "contrast": "baseline_mean_mask_minus_ra_ll",
+      "endpoint": "TWA",
+      "lower95": 0.3809124819934368,
+      "mean": 0.4034135710299015,
+      "replicates": "1000",
+      "synchronized": "True",
+      "unit": "canonical_record",
+      "upper95": 0.42566723227500913
+    },
+    "decision": "CONFIRMED_GENERAL_FAILURE",
+    "exact_mask_contrasts_by_seed": [
+      0.22001211359347983,
+      0.2845622462468086,
+      0.2563614952050888
+    ],
+    "frozen_thresholds_changed": false,
+    "mean_mask_contrast": 0.40416343480030315,
+    "mean_mask_contrasts_by_seed": [
+      0.40835990262650423,
+      0.4006440380354174,
+      0.40348636373898783
+    ]
+  },
+  "protocol_binding_sha256": "b3c050887f99b2979ef20122374552298185e5a8f8004a769650783c1b77b28a",
+  "status": "PASS_REVISED_DECISIONS"
+}

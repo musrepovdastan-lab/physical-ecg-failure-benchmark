@@ -1,0 +1,9 @@
+source,condition,true_detector_class,n,detector_argmax_correct,detector_argmax_incorrect,correction_applied_fraction,clean_false_correction_count
+HEEDB,clean,0,10000,9701,299,0.0299,299.0
+HEEDB,RA_LL_reversal,2,10000,9919,81,0.9983,
+HEEDB,RA_LA_reversal,1,10000,9862,138,0.9902,
+HEEDB,LA_LL_reversal,3,10000,9525,475,0.9581,
+Ningbo,clean,0,6981,6877,104,0.0148975791433892,104
+Ningbo,RA_LL_reversal,2,6981,6849,132,0.99684858902736,
+Ningbo,RA_LA_reversal,1,6981,6853,128,0.9928377023349091,
+Ningbo,LA_LL_reversal,3,6981,6785,196,0.9760779257985962,

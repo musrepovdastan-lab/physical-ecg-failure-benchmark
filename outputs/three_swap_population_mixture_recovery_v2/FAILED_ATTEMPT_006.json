@@ -1,0 +1,11 @@
+{
+  "attempt": 6,
+  "stage": "full inference pre-write waveform gate",
+  "status": "FAILED_ORACLE_INTERMEDIATE_DTYPE_MISMATCH",
+  "condition": "RA_LA_reversal",
+  "block": [896, 1024],
+  "observed_max_abs_raw_delta": 0.000244140625,
+  "scope": "Stopped before prediction output files were written.",
+  "cause": "The independent expected waveform formula performed intermediate arithmetic in float32, while the frozen physics transform computes in float64 and casts the final waveform to float32.",
+  "resolution": "Compute the independent physical equations in float64 then cast once to float32. The same block then agrees within 4.6e-15 raw units; waveform comparison tolerance returns to 1e-4."
+}

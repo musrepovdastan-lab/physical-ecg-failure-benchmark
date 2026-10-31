@@ -1,0 +1,8 @@
+{
+  "added_before_successful_metric_output": true,
+  "amendment": "Compute TWA AUPRC and AUROC from one stable score ordering per bootstrap sample, grouping tied scores; retain the same definitions and Brier calculation.",
+  "created_utc": "2026-10-18T04:32:59.275641+00:00",
+  "previous_protocol_sha256": "4e5b0d1e68edcf22d3745fc174ddd12ebae198de55b60b17a2ee89c595847f1d",
+  "reason": "The first complete Chapman bootstrap attempt showed the two sklearn calls per condition were unnecessarily slow. An implementation audit against sklearn on real bootstrap resamples is required.",
+  "scope": "Estimator definitions, tied-score handling, conditions, thresholds, record multiplicities, seeds, and paired contrasts are unchanged."
+}

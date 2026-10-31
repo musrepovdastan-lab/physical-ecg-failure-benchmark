@@ -1,0 +1,9 @@
+{
+  "attempt": 2,
+  "stage": "full inference pre-write gate",
+  "status": "FAILED_EXACT_ARRAY_CHECK_ON_FLOAT32_DERIVATION",
+  "condition": "RA_LA_reversal",
+  "block": [0, 128],
+  "scope": "Stopped before prediction output files were written.",
+  "resolution": "The handoff's independent equation comparison now uses the same 1e-4 raw-unit float32 tolerance as engineering audit Amendment 001; classifier probability replay remains 1e-4."
+}

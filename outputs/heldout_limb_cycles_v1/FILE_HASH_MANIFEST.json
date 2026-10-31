@@ -1,0 +1,426 @@
+{
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "bytes": 4338,
+      "path": "__pycache__/cycle_adapter.cpython-312.pyc",
+      "sha256": "457e7511c6eb1e6eb3b7a1c936a1eaa80900e0f60be0589d0b0d22ae35564177"
+    },
+    {
+      "bytes": 87886,
+      "path": "__pycache__/run_heldout_cycles.cpython-312.pyc",
+      "sha256": "727b62c181e16f451347ad4f63b2bc3a5c109372d4501e7b8a77fb8f3e1e029b"
+    },
+    {
+      "bytes": 17649608,
+      "path": "BOOTSTRAP_CONTRAST_DRAWS.csv",
+      "sha256": "4ce98c33377b25c5212d184b5d5e23f2d264e9861d0301e3bcb7d1e79323a070"
+    },
+    {
+      "bytes": 7555,
+      "path": "CHEST_ONLY_INVARIANCE_AUDIT.json",
+      "sha256": "a3f4a31ebe0633341a23b132c0dc49d707f3e4c51b07e5a05686b1e3e277f9bd"
+    },
+    {
+      "bytes": 3001,
+      "path": "cycle_adapter.py",
+      "sha256": "e070fa86efca9d287270a61f6a76acd07926144cad1764eb2403ff6cf880a293"
+    },
+    {
+      "bytes": 1480,
+      "path": "ENGINEERING_CHECKS.json",
+      "sha256": "d497a1193242c7f3c39e351db5444c7d147fd2769a2445fa302c3734a6f672b8"
+    },
+    {
+      "bytes": 38088,
+      "path": "FINAL_HELDOUT_CYCLES_REPORT_RU.md",
+      "sha256": "5d0a3c4a5cd73c6735b6d1bf8d737f081308f0c521d104e57e90c896dc6edd59"
+    },
+    {
+      "bytes": 649404,
+      "path": "FROZEN_PROTOCOL.json",
+      "sha256": "020e0f2d904a83270035449f2cc14b79bf2128be250c5827e94e5f73c7766623"
+    },
+    {
+      "bytes": 25344,
+      "path": "INFERENCE_MANIFEST.json",
+      "sha256": "0f9b7c152eb1cf9447b80bb14e6f30832c12af6dd67d372765c70c74127ed9a6"
+    },
+    {
+      "bytes": 73861,
+      "path": "METRICS_BY_MODEL_SEED.csv",
+      "sha256": "90861eaa8bffa753741ce74653d9970d13e7a067bf29d6b72626842147489aca"
+    },
+    {
+      "bytes": 39211,
+      "path": "METRICS_MEAN_SD.csv",
+      "sha256": "315c857c58456f2b57c0226777231904053096f9580648482e16d3dba6ca82d8"
+    },
+    {
+      "bytes": 641112,
+      "path": "MODEL_AND_CACHE_AUDIT.json",
+      "sha256": "00225aa0f0539ebbf488cbce4e03622b8149a3131688a159c038bbb92d84cfc1"
+    },
+    {
+      "bytes": 28784,
+      "path": "PAIRED_CONTRASTS_BOOTSTRAP.csv",
+      "sha256": "59c17943ae39f1efd3537daf4a8cb8d64832802714381177c20b1b1951f920b6"
+    },
+    {
+      "bytes": 13239,
+      "path": "PLOT_DATA_TWA.csv",
+      "sha256": "a756da33dc3cd337b7a463b7287147e934a852e0d6068007f434ce08b5cf53d7"
+    },
+    {
+      "bytes": 26316,
+      "path": "predictions/Chapman/chest_only/seed_104729/cycle_slots_120.npz",
+      "sha256": "875d2b9a30ba1a546d48ce6ed6c5847049368f0310a5747e331ac91a65a202eb"
+    },
+    {
+      "bytes": 26316,
+      "path": "predictions/Chapman/chest_only/seed_104729/cycle_slots_201.npz",
+      "sha256": "0af6bd1cfdd08aa58fddcf48ab5a684fa8375001698d8672f74f599a02471d76"
+    },
+    {
+      "bytes": 26536,
+      "path": "predictions/Chapman/chest_only/seed_130363/cycle_slots_120.npz",
+      "sha256": "635e8034d392acfdc50329c8e1ed1f4463571524781186cbbff788ea7356326e"
+    },
+    {
+      "bytes": 26536,
+      "path": "predictions/Chapman/chest_only/seed_130363/cycle_slots_201.npz",
+      "sha256": "b64488bb2e4b58868a7829f18b4504bbf5c94f245a06974d2538be538a53d868"
+    },
+    {
+      "bytes": 26670,
+      "path": "predictions/Chapman/chest_only/seed_155921/cycle_slots_120.npz",
+      "sha256": "4940a3d405d69d6f993c82ce0fab26a0d1a8353c654666837800d7416bd955d1"
+    },
+    {
+      "bytes": 26670,
+      "path": "predictions/Chapman/chest_only/seed_155921/cycle_slots_201.npz",
+      "sha256": "0200c3ed8aa760e7f4a8fbd411488de9f414e038cffa5ad8accc02eb823ebaeb"
+    },
+    {
+      "bytes": 26421,
+      "path": "predictions/Chapman/combined/seed_104729/cycle_slots_120.npz",
+      "sha256": "7318e854f801e3b1a31589c5a039a0000235828587b2b294e8f705c41ce3649e"
+    },
+    {
+      "bytes": 26483,
+      "path": "predictions/Chapman/combined/seed_104729/cycle_slots_201.npz",
+      "sha256": "f813875b3f2c818d82b62a0aa568080170d5255eb0ed084fd1dccae6a51c75c3"
+    },
+    {
+      "bytes": 26362,
+      "path": "predictions/Chapman/combined/seed_130363/cycle_slots_120.npz",
+      "sha256": "94c539d2d76ec6737d6fd2dacf8663704e139d4b26864b11fe4dc6137c3f49ae"
+    },
+    {
+      "bytes": 26492,
+      "path": "predictions/Chapman/combined/seed_130363/cycle_slots_201.npz",
+      "sha256": "ba1623a2ea02180fc33e806894be952a4e1d3c52e3daf07ee035d05e4e4a33c1"
+    },
+    {
+      "bytes": 26415,
+      "path": "predictions/Chapman/combined/seed_155921/cycle_slots_120.npz",
+      "sha256": "278278764399c1b99702d5c92ce94ccb968addb2ffba1896ff0c515473d293c5"
+    },
+    {
+      "bytes": 26508,
+      "path": "predictions/Chapman/combined/seed_155921/cycle_slots_201.npz",
+      "sha256": "68a9d555a049cc7e0d8098eb6cd6e965f0cd0e126e104a5967c867df3202dc17"
+    },
+    {
+      "bytes": 26349,
+      "path": "predictions/Chapman/masking/seed_104729/cycle_slots_120.npz",
+      "sha256": "823286926d10f1496ed7f91a7ba78f048ef9595d47825b84b832f553bc057190"
+    },
+    {
+      "bytes": 26696,
+      "path": "predictions/Chapman/masking/seed_104729/cycle_slots_201.npz",
+      "sha256": "219ca7c2c27d665505557b9d6f556454f39e1390a2378054b428382889c400f2"
+    },
+    {
+      "bytes": 25965,
+      "path": "predictions/Chapman/masking/seed_130363/cycle_slots_120.npz",
+      "sha256": "8845c835d7f0993be7e2913e86dd2ff41341d85155e814c0edb93d505c23d140"
+    },
+    {
+      "bytes": 26227,
+      "path": "predictions/Chapman/masking/seed_130363/cycle_slots_201.npz",
+      "sha256": "7cac7ccf75e03e3849ed0fd09a037cbf2f610813f97d13b5fb874af1800bb357"
+    },
+    {
+      "bytes": 26353,
+      "path": "predictions/Chapman/masking/seed_155921/cycle_slots_120.npz",
+      "sha256": "5516844c3c71167008adc0a990e28031c4df19121e3c105cc3f65010ac9fe595"
+    },
+    {
+      "bytes": 26995,
+      "path": "predictions/Chapman/masking/seed_155921/cycle_slots_201.npz",
+      "sha256": "ad563183f6266047937dee30291960f7cc5f91e0276d58f2d9ce3b15028682be"
+    },
+    {
+      "bytes": 25710,
+      "path": "predictions/Chapman/ordinary/seed_104729/cycle_slots_120.npz",
+      "sha256": "533dda66209779d0fcce94877d85c63dfb8b555a20755028600cd136be60cd69"
+    },
+    {
+      "bytes": 26615,
+      "path": "predictions/Chapman/ordinary/seed_104729/cycle_slots_201.npz",
+      "sha256": "c711e49444b782853f07d182d7f5c316e82705df20f7c683aa04fc991187f709"
+    },
+    {
+      "bytes": 25869,
+      "path": "predictions/Chapman/ordinary/seed_130363/cycle_slots_120.npz",
+      "sha256": "d28f0ee95b57b4914569c3f6c87f9951a6a80b980b86b9e093109a6520b21079"
+    },
+    {
+      "bytes": 26345,
+      "path": "predictions/Chapman/ordinary/seed_130363/cycle_slots_201.npz",
+      "sha256": "5c33eb84ea6c095d6d61947d5ff8d64f456840a869fc5377a570ca0027d3c152"
+    },
+    {
+      "bytes": 26467,
+      "path": "predictions/Chapman/ordinary/seed_155921/cycle_slots_120.npz",
+      "sha256": "bd4fbcd6078bc629a783a3542db37e37c2a4d343347a4c50956aac5dec1d4a60"
+    },
+    {
+      "bytes": 27073,
+      "path": "predictions/Chapman/ordinary/seed_155921/cycle_slots_201.npz",
+      "sha256": "23b52fa7340d3f12acf10a47ca9f6d677959bda87f8cfff3edd6c3316d8fcae7"
+    },
+    {
+      "bytes": 26561,
+      "path": "predictions/Chapman/physics_aware/seed_104729/cycle_slots_120.npz",
+      "sha256": "02b33533861c1cf0bcce8199479b8f1499d035dd4adc6b906b221ba98e4ebcb4"
+    },
+    {
+      "bytes": 26551,
+      "path": "predictions/Chapman/physics_aware/seed_104729/cycle_slots_201.npz",
+      "sha256": "4f34c778be39fea3a893d74127b69b467a2c9cda9721ab5d3e9de2031f0a5fd5"
+    },
+    {
+      "bytes": 26270,
+      "path": "predictions/Chapman/physics_aware/seed_130363/cycle_slots_120.npz",
+      "sha256": "be0818cc15c329f9ac43f25207e160accc17b649f00c8825eacef9370b29116a"
+    },
+    {
+      "bytes": 26323,
+      "path": "predictions/Chapman/physics_aware/seed_130363/cycle_slots_201.npz",
+      "sha256": "a9b23eb70c80788b4db6e8e8324e360a741fa4ca4e7cbe77bd5510d801ccdd3d"
+    },
+    {
+      "bytes": 26354,
+      "path": "predictions/Chapman/physics_aware/seed_155921/cycle_slots_120.npz",
+      "sha256": "5e9ac0835a5fa1ad1b52838adb86c15f199eccfe18002c840a69968c95d0e88c"
+    },
+    {
+      "bytes": 26456,
+      "path": "predictions/Chapman/physics_aware/seed_155921/cycle_slots_201.npz",
+      "sha256": "5358b5d02cea2f359bb93378eb6385603851fe993a4edc9f4f6cad98dd54705b"
+    },
+    {
+      "bytes": 75252,
+      "path": "predictions/Ningbo/chest_only/seed_104729/cycle_slots_120.npz",
+      "sha256": "a9fc9981b578013ece3346bb31a7deb9727a8215d71b21668526760c50e78b88"
+    },
+    {
+      "bytes": 75252,
+      "path": "predictions/Ningbo/chest_only/seed_104729/cycle_slots_201.npz",
+      "sha256": "7ad8764e38819cedd505d17aa508636d5344392e6a8a1e691ae852f18f48c71e"
+    },
+    {
+      "bytes": 76981,
+      "path": "predictions/Ningbo/chest_only/seed_130363/cycle_slots_120.npz",
+      "sha256": "5041bfcf4fb66193683d9a42d1f10aa84f0040fdd78c8927712b258b403ddae4"
+    },
+    {
+      "bytes": 76981,
+      "path": "predictions/Ningbo/chest_only/seed_130363/cycle_slots_201.npz",
+      "sha256": "3875f8ad64cc0bc8e66209e7362e72a800a3ef27c067f3ec8dbc2aea556ef9ac"
+    },
+    {
+      "bytes": 74645,
+      "path": "predictions/Ningbo/chest_only/seed_155921/cycle_slots_120.npz",
+      "sha256": "70e7484c42031d185ab0f1090449818c3d6dc0ddde011eb7c072e9e996dc32cf"
+    },
+    {
+      "bytes": 74645,
+      "path": "predictions/Ningbo/chest_only/seed_155921/cycle_slots_201.npz",
+      "sha256": "abc943e99e22abb4a674e25208ded5e11dc3c6f6917a06d20bd3b971df5759e7"
+    },
+    {
+      "bytes": 78564,
+      "path": "predictions/Ningbo/combined/seed_104729/cycle_slots_120.npz",
+      "sha256": "f02bdb512d666f379a003a2283367679e183f8f0257dc018f8cbbee19cb257eb"
+    },
+    {
+      "bytes": 78988,
+      "path": "predictions/Ningbo/combined/seed_104729/cycle_slots_201.npz",
+      "sha256": "087180a44093d8d384e39b81aad2a0ecb9adc0972509b6447ced3071b36f27cc"
+    },
+    {
+      "bytes": 78183,
+      "path": "predictions/Ningbo/combined/seed_130363/cycle_slots_120.npz",
+      "sha256": "0e6941044a60dfd8695400e29da6cf0105193bd2f1794356c2e8eeb7a03db6b7"
+    },
+    {
+      "bytes": 78366,
+      "path": "predictions/Ningbo/combined/seed_130363/cycle_slots_201.npz",
+      "sha256": "cc0132bee93e69e2c963801f8bd934751848cd7542e0f2478c12ada48fd4a4f1"
+    },
+    {
+      "bytes": 77788,
+      "path": "predictions/Ningbo/combined/seed_155921/cycle_slots_120.npz",
+      "sha256": "feb4dea56d6ab97426546bdd4aaf2bfd165e9f98aa0744d674e3bfcea484dde8"
+    },
+    {
+      "bytes": 77755,
+      "path": "predictions/Ningbo/combined/seed_155921/cycle_slots_201.npz",
+      "sha256": "163e4fce149f79d29248c45aaea3d29e8f66f1b0ad4063e8f5d1f857e9dd3cdb"
+    },
+    {
+      "bytes": 77901,
+      "path": "predictions/Ningbo/masking/seed_104729/cycle_slots_120.npz",
+      "sha256": "4e752b93edf8dc1c402a71732f921e72f17f6691d6f22ea89e8f50de03fa36f1"
+    },
+    {
+      "bytes": 79215,
+      "path": "predictions/Ningbo/masking/seed_104729/cycle_slots_201.npz",
+      "sha256": "48c17b0babdd3b04e0bc7b174e2870381e21e99fbc8e3a6c1dfd486e3f69cf4e"
+    },
+    {
+      "bytes": 77453,
+      "path": "predictions/Ningbo/masking/seed_130363/cycle_slots_120.npz",
+      "sha256": "7f3cc0bbaa7c681ecf133e13e2683f4d4f92c16b3b96a32e2e3da7b5acce0286"
+    },
+    {
+      "bytes": 79947,
+      "path": "predictions/Ningbo/masking/seed_130363/cycle_slots_201.npz",
+      "sha256": "496e09b1665bfd2ac2ad476e0bbcabdfba1aa6353359488ccf1fb1d3561674e0"
+    },
+    {
+      "bytes": 77929,
+      "path": "predictions/Ningbo/masking/seed_155921/cycle_slots_120.npz",
+      "sha256": "4b10492cef8d636f3ebf3acf4296a327a9c7eb8ce419d4eb8a59989e8b40cdd1"
+    },
+    {
+      "bytes": 79581,
+      "path": "predictions/Ningbo/masking/seed_155921/cycle_slots_201.npz",
+      "sha256": "303ffa571c5947e99c5193f81421ef7a9d309f3673eea6cc0e8891f8400bb05d"
+    },
+    {
+      "bytes": 78165,
+      "path": "predictions/Ningbo/ordinary/seed_104729/cycle_slots_120.npz",
+      "sha256": "94067d20bdbe1c39c0bc7415a42ac989137cbe315a857d0efa85680c358a8f80"
+    },
+    {
+      "bytes": 79680,
+      "path": "predictions/Ningbo/ordinary/seed_104729/cycle_slots_201.npz",
+      "sha256": "9eb400552b917e99473cd809a5231f32e7845c8c485ca2e10e989af108e6d92d"
+    },
+    {
+      "bytes": 78642,
+      "path": "predictions/Ningbo/ordinary/seed_130363/cycle_slots_120.npz",
+      "sha256": "c9e64e9876b2522865e3ddee740697a4421ee6c48029274029148120293c637c"
+    },
+    {
+      "bytes": 80338,
+      "path": "predictions/Ningbo/ordinary/seed_130363/cycle_slots_201.npz",
+      "sha256": "5a884ef9866075f086a3da275dd46d37dbf2c611ba4970f7e4c99843a6f93b44"
+    },
+    {
+      "bytes": 78241,
+      "path": "predictions/Ningbo/ordinary/seed_155921/cycle_slots_120.npz",
+      "sha256": "bfda37b7e6495793e1de950d73c9438f629300f51a168c2cc484db9d645a485a"
+    },
+    {
+      "bytes": 79432,
+      "path": "predictions/Ningbo/ordinary/seed_155921/cycle_slots_201.npz",
+      "sha256": "60ad2cd1fbf2bf75aac8f251a2ca7dba7fdc5a44fce8131fed66a5970c2cbb7c"
+    },
+    {
+      "bytes": 76720,
+      "path": "predictions/Ningbo/physics_aware/seed_104729/cycle_slots_120.npz",
+      "sha256": "b3abae0084ca336da45d4da19429456913941ec104c101f1197a131f77c82f11"
+    },
+    {
+      "bytes": 76844,
+      "path": "predictions/Ningbo/physics_aware/seed_104729/cycle_slots_201.npz",
+      "sha256": "39b885e9f1ef52fb61b59c8f5c6ded321fc05523a8370dae41b7aa9562886842"
+    },
+    {
+      "bytes": 77421,
+      "path": "predictions/Ningbo/physics_aware/seed_130363/cycle_slots_120.npz",
+      "sha256": "2a10cee507d60c3978f5cb45263607da425d9a647f34c43062e092e14e2b6199"
+    },
+    {
+      "bytes": 77570,
+      "path": "predictions/Ningbo/physics_aware/seed_130363/cycle_slots_201.npz",
+      "sha256": "c868ef2e90a1f6b36343555a4d734c4874478fb370e86f9b467d4391e8190588"
+    },
+    {
+      "bytes": 78774,
+      "path": "predictions/Ningbo/physics_aware/seed_155921/cycle_slots_120.npz",
+      "sha256": "9d3ac3afa6d6d6421bcb0ba0f643a0b2cf8a19198535d4e48bf301879a913494"
+    },
+    {
+      "bytes": 78859,
+      "path": "predictions/Ningbo/physics_aware/seed_155921/cycle_slots_201.npz",
+      "sha256": "bf011661136478fec3d7d407d89c891557cc89ce99e5d84ab4633f2b55f40137"
+    },
+    {
+      "bytes": 681,
+      "path": "PROTOCOL_AMENDMENT_001.json",
+      "sha256": "cd8d24aa5168d41bc10cb475ded6e50d66f270f7014e52aa9bd690501595f8ca"
+    },
+    {
+      "bytes": 601,
+      "path": "PROTOCOL_AMENDMENT_002.json",
+      "sha256": "aef82a875cdf3f9ad526437108c33c74bc95bb2fb180029cb729fed2171e8ba0"
+    },
+    {
+      "bytes": 740,
+      "path": "PROTOCOL_AMENDMENT_003.json",
+      "sha256": "334ef2b842532bc7a61c83927df094ea28d00ef34d5f21d2062aea5815ebac24"
+    },
+    {
+      "bytes": 515,
+      "path": "PROTOCOL_HASH.json",
+      "sha256": "d4a8c13d269701924490c9ef24e0c0e62a02f1f21caf7335d40d4d78a683bb31"
+    },
+    {
+      "bytes": 30580,
+      "path": "REPLAY_AUDIT.json",
+      "sha256": "f403bacb6ff7b50cb448d61db1e49f3420c9e322f8a95df9b8d2ee26258d082f"
+    },
+    {
+      "bytes": 62267,
+      "path": "run_heldout_cycles.py",
+      "sha256": "1d8b146c2bca4e6d72a533109339f520aec56f679c70d0f23ae1a24e20e75c8b"
+    },
+    {
+      "bytes": 2049,
+      "path": "STATISTIC_IMPLEMENTATION_AUDIT.json",
+      "sha256": "f255dd0c4e247c32549b315cbd084826e11de22f72d969d058cc8ce0040c1185"
+    },
+    {
+      "bytes": 2087,
+      "path": "STATISTIC_IMPLEMENTATION_AUDIT_PRECHECK.json",
+      "sha256": "a60d02d8f85e26213c8d03a77ce3feac71076e4d92fd5c9fad69e28b2b2fcc49"
+    },
+    {
+      "bytes": 2967,
+      "path": "TRAINING_TRANSFORM_AUDIT.md",
+      "sha256": "b469894e3e9b78b644abd3a498fcc9325bb5ac4a6108b91b8d528ea0fe9ece90"
+    },
+    {
+      "bytes": 140476,
+      "path": "TWA_AUPRC_BY_CYCLE.png",
+      "sha256": "d09a25a1ef53283f3d5c204a6a433fdab88c7a870497d928fa5ce14ed2f49a98"
+    }
+  ],
+  "self_hash_excluded": true
+}

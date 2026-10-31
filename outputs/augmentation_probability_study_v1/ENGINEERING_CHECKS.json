@@ -1,0 +1,95 @@
+{
+  "checks": [
+    "Chapman_split_and_data_integrity",
+    "Chapman_deterministic_augmentation",
+    "Chapman_epoch_worker_visibility",
+    "Ningbo_split_and_data_integrity",
+    "Ningbo_deterministic_augmentation",
+    "Ningbo_epoch_worker_visibility",
+    "cuda_amp_forward_backward",
+    "train_eval_mode",
+    "checkpoint_optimizer_scaler_roundtrip"
+  ],
+  "cohorts": {
+    "Chapman": {
+      "physics_p010": {
+        "assignment_changed": true,
+        "epoch_1_swap_counts": {
+          "LA_LL_reversal": 231,
+          "RA_LA_reversal": 254,
+          "RA_LL_reversal": 241
+        },
+        "epoch_2_swap_counts": {
+          "LA_LL_reversal": 214,
+          "RA_LA_reversal": 260,
+          "RA_LL_reversal": 234
+        }
+      },
+      "physics_p025": {
+        "assignment_changed": true,
+        "epoch_1_swap_counts": {
+          "LA_LL_reversal": 577,
+          "RA_LA_reversal": 624,
+          "RA_LL_reversal": 578
+        },
+        "epoch_2_swap_counts": {
+          "LA_LL_reversal": 606,
+          "RA_LA_reversal": 567,
+          "RA_LL_reversal": 566
+        }
+      },
+      "preprocessing_sha256": "4161491196bf41b07dcc6379a54fa5ab5d7eebf28620a0ff25ef51e0d71f4676",
+      "split_disjoint": true,
+      "test": 2050,
+      "train": 7163,
+      "validation": 1021
+    },
+    "Ningbo": {
+      "physics_p010": {
+        "assignment_changed": true,
+        "epoch_1_swap_counts": {
+          "LA_LL_reversal": 788,
+          "RA_LA_reversal": 816,
+          "RA_LL_reversal": 758
+        },
+        "epoch_2_swap_counts": {
+          "LA_LL_reversal": 794,
+          "RA_LA_reversal": 858,
+          "RA_LL_reversal": 861
+        }
+      },
+      "physics_p025": {
+        "assignment_changed": true,
+        "epoch_1_swap_counts": {
+          "LA_LL_reversal": 1995,
+          "RA_LA_reversal": 2126,
+          "RA_LL_reversal": 2025
+        },
+        "epoch_2_swap_counts": {
+          "LA_LL_reversal": 2051,
+          "RA_LA_reversal": 1960,
+          "RA_LL_reversal": 2027
+        }
+      },
+      "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "split_disjoint": true,
+      "test": 6981,
+      "train": 24430,
+      "validation": 3488
+    }
+  },
+  "cuda_device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "data_loader_epoch_visibility": {
+    "Chapman": {
+      "changed_examples": 43,
+      "persistent_workers": false,
+      "workers": 2
+    },
+    "Ningbo": {
+      "changed_examples": 43,
+      "persistent_workers": false,
+      "workers": 2
+    }
+  },
+  "status": "PASSED"
+}

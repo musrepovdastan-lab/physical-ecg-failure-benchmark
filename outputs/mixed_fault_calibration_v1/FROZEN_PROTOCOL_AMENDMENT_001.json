@@ -1,0 +1,94 @@
+{
+  "additional_bindings": {
+    "outputs/ningbo_confirmation_v2/CANONICAL_RECORDS.json": {
+      "bytes": 15013117,
+      "sha256": "2a217b4e01f8570fcb5e6f25feead6f04d4d490c558084c7b9ddf02389495da5"
+    },
+    "outputs/ningbo_confirmation_v2/SPLIT_MEMBERSHIP.json": {
+      "bytes": 8970998,
+      "sha256": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388"
+    },
+    "outputs/published_detector_pipeline_v1/FROZEN_PROTOCOL.json": {
+      "bytes": 1398,
+      "sha256": "11764627f9a84c9ad8afd671e82e2336ff5dc75d4032e2852691c1624ea9ca9d"
+    },
+    "outputs/published_detector_pipeline_v1/REPRODUCIBILITY_MANIFEST.json": {
+      "bytes": 1036,
+      "sha256": "026753e0897c1754e83f44d295272db34c66bb1932d699dbd27ae7a7dd954685"
+    },
+    "outputs/published_detector_pipeline_v1/cache/detector_test_probs.npz": {
+      "bytes": 217315,
+      "sha256": "1e5cbec9a679ff8aa3b181ce0dc2a4c259f86dde0f17c02fa1b5e08b44307e4f"
+    },
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_RA_LL_reversal_seed_104729.npz": {
+      "bytes": 44433,
+      "sha256": "2b8d12e13d4197f3ea5f2f031fe990be4ad7101c510168e629ff685396f1dd4f"
+    },
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_RA_LL_reversal_seed_130363.npz": {
+      "bytes": 45469,
+      "sha256": "2577109cf89e86ce96a8f07a989bd6bde740fd554fad55ebc6276ac24dc28e4b"
+    },
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_RA_LL_reversal_seed_155921.npz": {
+      "bytes": 45666,
+      "sha256": "35ada66a27ec95b1619285c4f8e2d998c2c738e77229c5de0c27f9e597108983"
+    },
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_clean_seed_104729.npz": {
+      "bytes": 44368,
+      "sha256": "1cc564d66eb39942e56d11597c13eebeb9048c3402dc117dcc2b85ab465d7536"
+    },
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_clean_seed_130363.npz": {
+      "bytes": 45385,
+      "sha256": "db04f9ece468d12e9188b0be68e5cdfd8448814cbc2cbe0ab20a9b05464b5644"
+    },
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_clean_seed_155921.npz": {
+      "bytes": 45747,
+      "sha256": "8374fe73899eb5b4637ceb4047f0df1fe5b0652f349caa1c92de242b0a8f7a18"
+    }
+  },
+  "amendment": "001",
+  "conditions": [
+    "clean",
+    "RA_LL_reversal"
+  ],
+  "method": "published frozen Huang detector argmax chooses whether/how to invert displayed ECG, then each unchanged Ningbo baseline ResNet; true fault does not control correction.",
+  "n": 6981,
+  "no_diagnostic_training": true,
+  "no_new_model_inference": true,
+  "reason": "Initial score inventory missed the already-completed published_detector_pipeline_v1 corrected-classifier cache. The existing arrays were discovered during final coverage reconciliation; no new inference or model fitting is required.",
+  "record_order_verified": true,
+  "scores": {
+    "104729": {
+      "RA_LL_reversal": {
+        "path": "outputs/published_detector_pipeline_v1/cache/huang_corrected_RA_LL_reversal_seed_104729.npz",
+        "sha256": "2b8d12e13d4197f3ea5f2f031fe990be4ad7101c510168e629ff685396f1dd4f"
+      },
+      "clean": {
+        "path": "outputs/published_detector_pipeline_v1/cache/huang_corrected_clean_seed_104729.npz",
+        "sha256": "1cc564d66eb39942e56d11597c13eebeb9048c3402dc117dcc2b85ab465d7536"
+      }
+    },
+    "130363": {
+      "RA_LL_reversal": {
+        "path": "outputs/published_detector_pipeline_v1/cache/huang_corrected_RA_LL_reversal_seed_130363.npz",
+        "sha256": "2577109cf89e86ce96a8f07a989bd6bde740fd554fad55ebc6276ac24dc28e4b"
+      },
+      "clean": {
+        "path": "outputs/published_detector_pipeline_v1/cache/huang_corrected_clean_seed_130363.npz",
+        "sha256": "db04f9ece468d12e9188b0be68e5cdfd8448814cbc2cbe0ab20a9b05464b5644"
+      }
+    },
+    "155921": {
+      "RA_LL_reversal": {
+        "path": "outputs/published_detector_pipeline_v1/cache/huang_corrected_RA_LL_reversal_seed_155921.npz",
+        "sha256": "35ada66a27ec95b1619285c4f8e2d998c2c738e77229c5de0c27f9e597108983"
+      },
+      "clean": {
+        "path": "outputs/published_detector_pipeline_v1/cache/huang_corrected_clean_seed_155921.npz",
+        "sha256": "8374fe73899eb5b4637ceb4047f0df1fe5b0652f349caa1c92de242b0a8f7a18"
+      }
+    }
+  },
+  "source": "Ningbo confirmation v2 canonical test order, 6,981 records; exact order matches detector_test_probs.npz record_ids.",
+  "status": "FROZEN_BEFORE_INCLUDING_EXISTING_NINGBO_HUANG_SCORES_IN_MIXTURE_ANALYSIS",
+  "validation": "full detector?correction?classifier Ningbo validation scores remain unavailable; do not calibrate and do not create standardized B operating point. Raw metrics use the preexisting corresponding Ningbo baseline validation thresholds."
+}

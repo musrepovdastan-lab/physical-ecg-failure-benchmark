@@ -1,0 +1,566 @@
+{
+  "condition_checks": 54,
+  "status": "FAIL",
+  "tolerance_abs_probability": 0.0001,
+  "unit_count": 18,
+  "units": [
+    {
+      "arm": "ordinary",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.00048828125,
+          "mean_abs_probability_delta": 5.086263172415784e-06,
+          "pass": false,
+          "reference_sha256": "533dda66209779d0fcce94877d85c63dfb8b555a20755028600cd136be60cd69"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 2.5779008865356445e-06,
+          "pass": false,
+          "reference_sha256": "c711e49444b782853f07d182d7f5c316e82705df20f7c683aa04fc991187f709"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 3.814697265625e-06,
+          "pass": false,
+          "reference_sha256": "b86de4b19d5e43f27b8b3592f4518261ea6a477da417291e80e0a0cec8c3d24b"
+        }
+      },
+      "dataset": "Chapman",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 104729
+    },
+    {
+      "arm": "ordinary",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 2.288818359375e-05,
+          "mean_abs_probability_delta": 2.384185791015625e-07,
+          "pass": true,
+          "reference_sha256": "d28f0ee95b57b4914569c3f6c87f9951a6a80b980b86b9e093109a6520b21079"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 2.586593154774164e-06,
+          "pass": false,
+          "reference_sha256": "5c33eb84ea6c095d6d61947d5ff8d64f456840a869fc5377a570ca0027d3c152"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 2.877165798054193e-06,
+          "pass": false,
+          "reference_sha256": "da5f23c22bdd68ab4fd348e81d520c1c87caae7fbf69df21433f2a1a5a188fac"
+        }
+      },
+      "dataset": "Chapman",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 130363
+    },
+    {
+      "arm": "ordinary",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.00048828125,
+          "mean_abs_probability_delta": 1.0172526344831567e-05,
+          "pass": false,
+          "reference_sha256": "bd4fbcd6078bc629a783a3542db37e37c2a4d343347a4c50956aac5dec1d4a60"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 1.9073486328125e-05,
+          "mean_abs_probability_delta": 2.4835267709022446e-07,
+          "pass": true,
+          "reference_sha256": "23b52fa7340d3f12acf10a47ca9f6d677959bda87f8cfff3edd6c3316d8fcae7"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.0001220703125,
+          "mean_abs_probability_delta": 1.271565793103946e-06,
+          "pass": false,
+          "reference_sha256": "68ba5071b30e4c253ed7276370b7a60eebf7959aa702b8c8947e1148953d0e6b"
+        }
+      },
+      "dataset": "Chapman",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 155921
+    },
+    {
+      "arm": "physics_aware",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.0001220703125,
+          "mean_abs_probability_delta": 1.3113021850585938e-06,
+          "pass": false,
+          "reference_sha256": "02b33533861c1cf0bcce8199479b8f1499d035dd4adc6b906b221ba98e4ebcb4"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "reference_sha256": "4f34c778be39fea3a893d74127b69b467a2c9cda9721ab5d3e9de2031f0a5fd5"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 4.57763671875e-05,
+          "mean_abs_probability_delta": 5.01672445807344e-07,
+          "pass": true,
+          "reference_sha256": "9ecbdb01591fb559ce0c969e7bea82338ecacc5ebb8716c28206421f210b9bd2"
+        }
+      },
+      "dataset": "Chapman",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 104729
+    },
+    {
+      "arm": "physics_aware",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.0001220703125,
+          "mean_abs_probability_delta": 1.271565793103946e-06,
+          "pass": false,
+          "reference_sha256": "be0818cc15c329f9ac43f25207e160accc17b649f00c8825eacef9370b29116a"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.00048828125,
+          "mean_abs_probability_delta": 5.086263172415784e-06,
+          "pass": false,
+          "reference_sha256": "a9b23eb70c80788b4db6e8e8324e360a741fa4ca4e7cbe77bd5510d801ccdd3d"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 2.543131586207892e-06,
+          "pass": false,
+          "reference_sha256": "4eb9081caa6a29c06bbc5e8ec2830ce6f46c772b8ca9fb656569289658d9d8c9"
+        }
+      },
+      "dataset": "Chapman",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 130363
+    },
+    {
+      "arm": "physics_aware",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 4.76837158203125e-06,
+          "mean_abs_probability_delta": 4.967053612858763e-08,
+          "pass": true,
+          "reference_sha256": "5e9ac0835a5fa1ad1b52838adb86c15f199eccfe18002c840a69968c95d0e88c"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 3.313024762974237e-06,
+          "pass": false,
+          "reference_sha256": "5358b5d02cea2f359bb93378eb6385603851fe993a4edc9f4f6cad98dd54705b"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.00048828125,
+          "mean_abs_probability_delta": 5.121032245369861e-06,
+          "pass": false,
+          "reference_sha256": "9609affaf10c071964ce30091a00519f27cec8aa8f2e650539f717d1a7362b72"
+        }
+      },
+      "dataset": "Chapman",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 155921
+    },
+    {
+      "arm": "combined",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.0,
+          "mean_abs_probability_delta": 0.0,
+          "pass": true,
+          "reference_sha256": "7318e854f801e3b1a31589c5a039a0000235828587b2b294e8f705c41ce3649e"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 9.1552734375e-05,
+          "mean_abs_probability_delta": 9.747842568685883e-07,
+          "pass": true,
+          "reference_sha256": "f813875b3f2c818d82b62a0aa568080170d5255eb0ed084fd1dccae6a51c75c3"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.00048828125,
+          "mean_abs_probability_delta": 8.900959983293433e-06,
+          "pass": false,
+          "reference_sha256": "52c2e825b42647f2df0d272138756d7fdc88580c3539c512769cff4f45c1565f"
+        }
+      },
+      "dataset": "Chapman",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 104729
+    },
+    {
+      "arm": "combined",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 1.430511474609375e-06,
+          "mean_abs_probability_delta": 1.4901161193847656e-08,
+          "pass": true,
+          "reference_sha256": "94c539d2d76ec6737d6fd2dacf8663704e139d4b26864b11fe4dc6137c3f49ae"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 2.582867864475702e-06,
+          "pass": false,
+          "reference_sha256": "ba1623a2ea02180fc33e806894be952a4e1d3c52e3daf07ee035d05e4e4a33c1"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 3.496805902614142e-06,
+          "pass": false,
+          "reference_sha256": "61238f05acc4bbdcfb1153979172bf5a5146a828b3d471865691abe188ecc214"
+        }
+      },
+      "dataset": "Chapman",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 130363
+    },
+    {
+      "arm": "combined",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.0001220703125,
+          "mean_abs_probability_delta": 2.562999725341797e-06,
+          "pass": false,
+          "reference_sha256": "278278764399c1b99702d5c92ce94ccb968addb2ffba1896ff0c515473d293c5"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.00048828125,
+          "mean_abs_probability_delta": 1.0848045349121094e-05,
+          "pass": false,
+          "reference_sha256": "68a9d555a049cc7e0d8098eb6cd6e965f0cd0e126e104a5967c867df3202dc17"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 2.6511650048632873e-06,
+          "pass": false,
+          "reference_sha256": "4c436c983dd909fc53a9529a6822d4312d6c040d4b3072cac20856e6c897c857"
+        }
+      },
+      "dataset": "Chapman",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 155921
+    },
+    {
+      "arm": "ordinary",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.0001220703125,
+          "mean_abs_probability_delta": 1.2939175348947174e-06,
+          "pass": false,
+          "reference_sha256": "94067d20bdbe1c39c0bc7415a42ac989137cbe315a857d0efa85680c358a8f80"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 1.1583168998186011e-05,
+          "pass": false,
+          "reference_sha256": "9eb400552b917e99473cd809a5231f32e7845c8c485ca2e10e989af108e6d92d"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 3.5961468256573426e-06,
+          "pass": false,
+          "reference_sha256": "b36338ed1129116e1d6c034010f5fa9e43e1460c4393d5b822a03e2cb6c813d1"
+        }
+      },
+      "dataset": "Ningbo",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 104729
+    },
+    {
+      "arm": "ordinary",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 2.8616439067263855e-06,
+          "pass": false,
+          "reference_sha256": "c9e64e9876b2522865e3ddee740697a4421ee6c48029274029148120293c637c"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.0001220703125,
+          "mean_abs_probability_delta": 3.655751470432733e-06,
+          "pass": false,
+          "reference_sha256": "5a884ef9866075f086a3da275dd46d37dbf2c611ba4970f7e4c99843a6f93b44"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 4.172325134277344e-06,
+          "pass": false,
+          "reference_sha256": "e03f1a3cd094f8c3d86699d5e4b5a4179c900e39b0cf8a0bc05d30dde66972ba"
+        }
+      },
+      "dataset": "Ningbo",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 130363
+    },
+    {
+      "arm": "ordinary",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 4.450479991646716e-06,
+          "pass": false,
+          "reference_sha256": "bfda37b7e6495793e1de950d73c9438f629300f51a168c2cc484db9d645a485a"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 1.1404355063859839e-05,
+          "pass": false,
+          "reference_sha256": "60ad2cd1fbf2bf75aac8f251a2ca7dba7fdc5a44fce8131fed66a5970c2cbb7c"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 2.86102294921875e-06,
+          "mean_abs_probability_delta": 3.414849558680544e-08,
+          "pass": true,
+          "reference_sha256": "9e756fe810a237bac6d296fa1e5fce9cb45c7508216321ea01edc9ced94007f2"
+        }
+      },
+      "dataset": "Ningbo",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 155921
+    },
+    {
+      "arm": "physics_aware",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 4.403293132781982e-06,
+          "pass": false,
+          "reference_sha256": "b3abae0084ca336da45d4da19429456913941ec104c101f1197a131f77c82f11"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 2.627571348057245e-06,
+          "pass": false,
+          "reference_sha256": "39b885e9f1ef52fb61b59c8f5c6ded321fc05523a8370dae41b7aa9562886842"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.00048828125,
+          "mean_abs_probability_delta": 1.2876465916633606e-05,
+          "pass": false,
+          "reference_sha256": "25c960f6d318c812b05e837e2d54c1ef554f490927e53b450227e656b68ede46"
+        }
+      },
+      "dataset": "Ningbo",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 104729
+    },
+    {
+      "arm": "physics_aware",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 1.9073486328125e-06,
+          "mean_abs_probability_delta": 2.1730860666480112e-08,
+          "pass": true,
+          "reference_sha256": "2a10cee507d60c3978f5cb45263607da425d9a647f34c43062e092e14e2b6199"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.00018310546875,
+          "mean_abs_probability_delta": 1.922870751513983e-06,
+          "pass": false,
+          "reference_sha256": "c868ef2e90a1f6b36343555a4d734c4874478fb370e86f9b467d4391e8190588"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.00048828125,
+          "mean_abs_probability_delta": 1.7936030417331494e-05,
+          "pass": false,
+          "reference_sha256": "4d535b59ea9c740f57c75da18c062e4c34e61e98b0fff115357f61996b51c2a0"
+        }
+      },
+      "dataset": "Ningbo",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 130363
+    },
+    {
+      "arm": "physics_aware",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.00048828125,
+          "mean_abs_probability_delta": 7.64864216762362e-06,
+          "pass": false,
+          "reference_sha256": "9d3ac3afa6d6d6421bcb0ba0f643a0b2cf8a19198535d4e48bf301879a913494"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 3.4173328913311707e-06,
+          "pass": false,
+          "reference_sha256": "bf011661136478fec3d7d407d89c891557cc89ce99e5d84ab4633f2b55f40137"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 3.819664470938733e-06,
+          "pass": false,
+          "reference_sha256": "69e7cec208eefbc22e9c1ddb9ea131e023195c110af4ae55e8ff9bfdf3269c1e"
+        }
+      },
+      "dataset": "Ningbo",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 155921
+    },
+    {
+      "arm": "combined",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.00048828125,
+          "mean_abs_probability_delta": 1.7337501049041748e-05,
+          "pass": false,
+          "reference_sha256": "f02bdb512d666f379a003a2283367679e183f8f0257dc018f8cbbee19cb257eb"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.00048828125,
+          "mean_abs_probability_delta": 9.566545486450195e-06,
+          "pass": false,
+          "reference_sha256": "087180a44093d8d384e39b81aad2a0ecb9adc0972509b6447ced3071b36f27cc"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 5.350137598725269e-06,
+          "pass": false,
+          "reference_sha256": "b8f8518f3432921b23c8a37be4cfc1324d1b9bae5fbc922f6b86f2342df712e2"
+        }
+      },
+      "dataset": "Ningbo",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 104729
+    },
+    {
+      "arm": "combined",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 2.5679667032818543e-06,
+          "pass": false,
+          "reference_sha256": "0e6941044a60dfd8695400e29da6cf0105193bd2f1794356c2e8eeb7a03db6b7"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 2.543131586207892e-06,
+          "pass": false,
+          "reference_sha256": "cc0132bee93e69e2c963801f8bd934751848cd7542e0f2478c12ada48fd4a4f1"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.00048828125,
+          "mean_abs_probability_delta": 1.6848245650180615e-05,
+          "pass": false,
+          "reference_sha256": "afc5544ff59bcb35f95f2c82e0e11f290bf834d5630aaa80817793e24c35400b"
+        }
+      },
+      "dataset": "Ningbo",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 130363
+    },
+    {
+      "arm": "combined",
+      "conditions": {
+        "cycle_slots_120": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.000244140625,
+          "mean_abs_probability_delta": 6.387630946846912e-06,
+          "pass": false,
+          "reference_sha256": "feb4dea56d6ab97426546bdd4aaf2bfd165e9f98aa0744d674e3bfcea484dde8"
+        },
+        "cycle_slots_201": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.00018310546875,
+          "mean_abs_probability_delta": 3.8345656321325805e-06,
+          "pass": false,
+          "reference_sha256": "163e4fce149f79d29248c45aaea3d29e8f66f1b0ad4063e8f5d1f857e9dd3cdb"
+        },
+        "original_clean": {
+          "batch_size": 32,
+          "max_abs_probability_delta": 0.00048828125,
+          "mean_abs_probability_delta": 1.1450921192590613e-05,
+          "pass": false,
+          "reference_sha256": "b7116222db12f4e9b6aed67a68f3373f10b116e55c1a627f2f7fc92165d2702e"
+        }
+      },
+      "dataset": "Ningbo",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "n_records": 32,
+      "pass": false,
+      "seed": 155921
+    }
+  ]
+}

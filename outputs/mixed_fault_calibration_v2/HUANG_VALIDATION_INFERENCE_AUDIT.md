@@ -1,0 +1,54 @@
+# Huang validation inference audit
+
+{
+  "amendment_sha256": "6d4d2dedcf326d94dd3189964ddb5b6646d18db01c66aee4ad6de834184bd300",
+  "clean_validation_incorrect_correction_count": 48,
+  "clean_validation_incorrect_correction_fraction": 0.013761467889908258,
+  "cuda_device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "detector_replay": {
+    "max_abs_probability_delta": 0.0,
+    "n": 64,
+    "tolerance": 1e-05
+  },
+  "diagnostic_replay": {
+    "104729": {
+      "compared_n": 64,
+      "inference_batch_size": 128,
+      "inferred_n": 128,
+      "max_abs_probability_delta": 0.0,
+      "tolerance": 0.0001
+    },
+    "130363": {
+      "compared_n": 64,
+      "inference_batch_size": 128,
+      "inferred_n": 128,
+      "max_abs_probability_delta": 0.0,
+      "tolerance": 0.0001
+    },
+    "155921": {
+      "compared_n": 64,
+      "inference_batch_size": 128,
+      "inferred_n": 128,
+      "max_abs_probability_delta": 0.0,
+      "tolerance": 0.0001
+    }
+  },
+  "protocol_sha256": "658b12c968bf8e270de1a68882a3d39564b6e63b6e526766bbcd4c84eab781fd",
+  "seconds": 99.281,
+  "status": "PASS",
+  "test_labels_not_used_for_fitting": true,
+  "training": false,
+  "validation_detector_argmax_class_counts": {
+    "0": 3440,
+    "1": 15,
+    "2": 4,
+    "3": 29
+  },
+  "validation_detector_probabilities_sha256": "2107164c28baa62e9bf78b539bc535a8f0ad4ac4ef3596ebe9e155c51eacd6d8",
+  "validation_diagnostic_scores_sha256": "eb18c033e196cafccd18c74561f67c4c111a7ee9e187af776d868b1b33f9a0c8",
+  "validation_labels_sha256": "c522e7e668ac1969b610c95a5797c747cdc8489e727372ddc25f23429c0bf518",
+  "validation_record_order_sha256": "1358f4a91d8fd08c47aa35ebf9f2ac8b52cbf64121844848e0f33aab2930fd7c",
+  "validation_records": 3488,
+  "validation_score_file_sha256": "90ab9c6b6cc7c70a3beea5c5cd610cee0f7e3c1300bb364c87197856cec116e7",
+  "validation_score_path": "outputs/mixed_fault_calibration_v2/huang_validation_scores.npz"
+}

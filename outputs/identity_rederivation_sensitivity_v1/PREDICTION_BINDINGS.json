@@ -1,0 +1,207 @@
+{
+  "elapsed_seconds": 10.59399999998277,
+  "new_prediction_count": 18,
+  "new_predictions": [
+    {
+      "arm": "ordinary",
+      "condition": "identity_rederived_clean",
+      "dataset": "Chapman",
+      "n": 2050,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Chapman/ordinary/seed_104729/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 104729,
+      "sha256": "36650ae2365030f679ac4e1324b3981963c2210acd36bb21cca457b3cb6e0ecf",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "ordinary",
+      "condition": "identity_rederived_clean",
+      "dataset": "Chapman",
+      "n": 2050,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Chapman/ordinary/seed_130363/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 130363,
+      "sha256": "ae2ba735440535423d3923c60c65990c44e548a21e88c615b541fca522151856",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "ordinary",
+      "condition": "identity_rederived_clean",
+      "dataset": "Chapman",
+      "n": 2050,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Chapman/ordinary/seed_155921/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 155921,
+      "sha256": "60d31c1f22df7ca3ef750bf81cf31a589f02b0acae3208ed6c6d27676e583ce3",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "physics_aware",
+      "condition": "identity_rederived_clean",
+      "dataset": "Chapman",
+      "n": 2050,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Chapman/physics_aware/seed_104729/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 104729,
+      "sha256": "775b1859c9f6b4cf429de95b894b7f4b78b4cebd0a8046b96c6a075dbdf1ffc8",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "physics_aware",
+      "condition": "identity_rederived_clean",
+      "dataset": "Chapman",
+      "n": 2050,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Chapman/physics_aware/seed_130363/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 130363,
+      "sha256": "294188f60d56d54ee58ad30628cffa3916adcbfa560a2fae91a564f10b6147d8",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "physics_aware",
+      "condition": "identity_rederived_clean",
+      "dataset": "Chapman",
+      "n": 2050,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Chapman/physics_aware/seed_155921/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 155921,
+      "sha256": "e5d3dd1a2faab5740e62bcba30c2788cb9323f689cf9d500851c8a871c85d0bd",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "combined",
+      "condition": "identity_rederived_clean",
+      "dataset": "Chapman",
+      "n": 2050,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Chapman/combined/seed_104729/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 104729,
+      "sha256": "428991f487349cdccd7639e4a43c38161b90d1c1a7c8da0d05b1aa5178c958e7",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "combined",
+      "condition": "identity_rederived_clean",
+      "dataset": "Chapman",
+      "n": 2050,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Chapman/combined/seed_130363/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 130363,
+      "sha256": "2972dd57119790f19a44eec929d13fdb4479f3eea60d6db8d515366586cbda42",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "combined",
+      "condition": "identity_rederived_clean",
+      "dataset": "Chapman",
+      "n": 2050,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Chapman/combined/seed_155921/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 155921,
+      "sha256": "18f88484261bd2a9fa19148207e2e1804369a11a0385dbfdd855b7ac607e24bf",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "ordinary",
+      "condition": "identity_rederived_clean",
+      "dataset": "Ningbo",
+      "n": 6981,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Ningbo/ordinary/seed_104729/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 104729,
+      "sha256": "b56c7824393a7dd3ab2eeda7f68ee59509029f6cc0372ab5da406ab76c35c1c3",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "ordinary",
+      "condition": "identity_rederived_clean",
+      "dataset": "Ningbo",
+      "n": 6981,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Ningbo/ordinary/seed_130363/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 130363,
+      "sha256": "aba93dca54c588907e16eb9cd43af5a21ba28146a8141f7683b9df941822b77d",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "ordinary",
+      "condition": "identity_rederived_clean",
+      "dataset": "Ningbo",
+      "n": 6981,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Ningbo/ordinary/seed_155921/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 155921,
+      "sha256": "0343f6dc0826061972c7114af19f3e7b1c42242499c8ff7cc54284c2b653939f",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "physics_aware",
+      "condition": "identity_rederived_clean",
+      "dataset": "Ningbo",
+      "n": 6981,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Ningbo/physics_aware/seed_104729/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 104729,
+      "sha256": "1ec171ac2a0cbd0df2a2da8ec303d10c0fa9cf8a68c4fc83e9d42bb86ed823b1",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "physics_aware",
+      "condition": "identity_rederived_clean",
+      "dataset": "Ningbo",
+      "n": 6981,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Ningbo/physics_aware/seed_130363/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 130363,
+      "sha256": "e5883b7811ce181af061aa2bc3882cb236a1dfcda981e7d63c3bd17fe2571ea8",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "physics_aware",
+      "condition": "identity_rederived_clean",
+      "dataset": "Ningbo",
+      "n": 6981,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Ningbo/physics_aware/seed_155921/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 155921,
+      "sha256": "9ad45fb3bd9d1cb7fe600f6ba61629ea10fcdab790ec2cb5f275ad94c69d1b09",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "combined",
+      "condition": "identity_rederived_clean",
+      "dataset": "Ningbo",
+      "n": 6981,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Ningbo/combined/seed_104729/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 104729,
+      "sha256": "dd1469c0e6ff2df755b05c064b29bce18f6aa3fd4d2de5854e20f0b7783315b8",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "combined",
+      "condition": "identity_rederived_clean",
+      "dataset": "Ningbo",
+      "n": 6981,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Ningbo/combined/seed_130363/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 130363,
+      "sha256": "fe885a26075648adf4f5aabab1cff444b186257483d2bce2acad8a448d84c381",
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "combined",
+      "condition": "identity_rederived_clean",
+      "dataset": "Ningbo",
+      "n": 6981,
+      "path": "outputs/identity_rederivation_sensitivity_v1/predictions/Ningbo/combined/seed_155921/identity_rederived_clean.npz",
+      "reused": false,
+      "seed": 155921,
+      "sha256": "93ab8dd3416d9282c8f51953ec7aab58bff3100cb9199b3dec8d57a2910192f1",
+      "status": "COMPLETE"
+    }
+  ],
+  "protocol_sha256": "c7652e1604ef445c89453cd84b2022ddf687c8e409c31ce2911828a4dcb8fc81",
+  "reused_conditions": "original_clean and both cycles, with paths/hashes in FROZEN_PROTOCOL.json",
+  "status": "COMPLETE"
+}

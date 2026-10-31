@@ -1,0 +1,13 @@
+{
+  "all_12_reversed_leads_match_physics_library": true,
+  "completed_utc": "2026-09-25T00:21:08.014317+00:00",
+  "conditions": 2,
+  "decision": "PASS",
+  "exact_model_shape": [
+    12,
+    1000
+  ],
+  "excluded_records": 23,
+  "finite_prediction_batches": 12,
+  "models": 6
+}

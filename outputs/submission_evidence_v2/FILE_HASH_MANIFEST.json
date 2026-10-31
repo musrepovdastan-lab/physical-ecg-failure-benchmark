@@ -1,0 +1,117 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "All files in this package, including the archived pre-review snapshot, except this root manifest; regenerate after any edit.",
+  "last_review_date": "2026-10-18",
+  "files": [
+    {
+      "path": "archive_before_review_20261018/CLAIMS_AND_EVIDENCE.md",
+      "bytes": 6331,
+      "sha256": "f70c19e8047d74fc145ff30ab8cebb823500a3abe8824c0e66c1da05b6022808"
+    },
+    {
+      "path": "archive_before_review_20261018/CLINICIAN_REVIEW_PACKET.md",
+      "bytes": 12210,
+      "sha256": "30d86bb771186b22dc38444b5a67adb664d6a5f7262ef77c28d3183542047757"
+    },
+    {
+      "path": "archive_before_review_20261018/EXTERNAL_SIX_METHOD_CORRECTED_SUMMARY.md",
+      "bytes": 12486,
+      "sha256": "6da62ec91860a19974c473fc3fdc631337914bdf04099b744a882b3cb7bb7a1e"
+    },
+    {
+      "path": "archive_before_review_20261018/FILE_HASH_MANIFEST.json",
+      "bytes": 1798,
+      "sha256": "993e94e3bf687c3a767272bc5960633dec14ee4a4d980e75f432c48b97ac214a"
+    },
+    {
+      "path": "archive_before_review_20261018/MANUSCRIPT_DRAFT.md",
+      "bytes": 17928,
+      "sha256": "87bfb1bc756ef5168b8a40d447eb9f08099d4b90786de19a13fcecbff4739368"
+    },
+    {
+      "path": "archive_before_review_20261018/MENTOR_ONE_PAGE_RU.md",
+      "bytes": 5194,
+      "sha256": "358be1cf1ad349f172f633328212493966b27877ebe62566ca66fb24547b35ab"
+    },
+    {
+      "path": "archive_before_review_20261018/MENTOR_RESPONSE_MATRIX.md",
+      "bytes": 6074,
+      "sha256": "569fb320f8cfef7138277734da30fde08eb73b7f673051936b7541cbe1b266d2"
+    },
+    {
+      "path": "archive_before_review_20261018/METHOD_FINGERPRINT.json",
+      "bytes": 1286,
+      "sha256": "3c9f680af7be7f9029b2a4c3e3b3d99f666795b460fc5721cfb870e1776b0e36"
+    },
+    {
+      "path": "archive_before_review_20261018/READINESS_AND_REMAINING_WORK.md",
+      "bytes": 2716,
+      "sha256": "5c0028c09e952a6146e8569ba03d21c1af01cf0d16a7d6ca420458d7b30dd7eb"
+    },
+    {
+      "path": "archive_before_review_20261018/SOURCE_OF_TRUTH.md",
+      "bytes": 8478,
+      "sha256": "491377f79c7a877d318b688b3fd0151bbf8f808918bb0e408e2da3a8c1ddba6f"
+    },
+    {
+      "path": "archive_before_review_20261018/VERIFICATION_REPORT.md",
+      "bytes": 4197,
+      "sha256": "684ba85d7d909345a7618f534dee139ddb707ccbb70b8440b3a8f04606977468"
+    },
+    {
+      "path": "CLAIMS_AND_EVIDENCE.md",
+      "bytes": 6368,
+      "sha256": "7c77134e661d25415ae1ccb52b220fb55093fba8db9a2124d5f08aca6414144b"
+    },
+    {
+      "path": "CLINICIAN_REVIEW_PACKET.md",
+      "bytes": 12730,
+      "sha256": "bc4e3646073eabeda7edc83a8ca4bc311a34883ab150827bfcf51b85f6a84c1c"
+    },
+    {
+      "path": "EXTERNAL_SIX_METHOD_CORRECTED_SUMMARY.md",
+      "bytes": 13292,
+      "sha256": "022009747e0befc0527c0a202f4b484c5c08de66c3131fbb09d4841fd73bbc63"
+    },
+    {
+      "path": "MANUSCRIPT_DRAFT.md",
+      "bytes": 19453,
+      "sha256": "112e28421abb46823c280299dc07a15aa54bb62303aaa55221f0a759b87bcd17"
+    },
+    {
+      "path": "MENTOR_ONE_PAGE_RU.md",
+      "bytes": 5219,
+      "sha256": "ed82e0109ccb5a32d732e8ebea5bd83a9bb73d6d7953362bef31fa9df71da331"
+    },
+    {
+      "path": "MENTOR_RESPONSE_MATRIX.md",
+      "bytes": 6257,
+      "sha256": "50fc877630cd7a909da53c1091e3cc6b06448e7491c4ab602306b72917f0e9ec"
+    },
+    {
+      "path": "METHOD_FINGERPRINT.json",
+      "bytes": 1286,
+      "sha256": "3c9f680af7be7f9029b2a4c3e3b3d99f666795b460fc5721cfb870e1776b0e36"
+    },
+    {
+      "path": "READINESS_AND_REMAINING_WORK.md",
+      "bytes": 2716,
+      "sha256": "5c0028c09e952a6146e8569ba03d21c1af01cf0d16a7d6ca420458d7b30dd7eb"
+    },
+    {
+      "path": "REVIEW_NOTES_20261018.md",
+      "bytes": 3593,
+      "sha256": "20dc6900cc4915a5295b79ab07d4c679da19e7f919d07db59877e3633af68bdd"
+    },
+    {
+      "path": "SOURCE_OF_TRUTH.md",
+      "bytes": 8666,
+      "sha256": "60e204fbb6e7cbffe71b3baf0a54551ce4ad755b80e02912bed4ebb6023629d9"
+    },
+    {
+      "path": "VERIFICATION_REPORT.md",
+      "bytes": 4794,
+      "sha256": "020f67f199f5ca02dad3a711a036e779df17bc814869acc2a740cf77d15bc74a"
+    }
+  ]
+}

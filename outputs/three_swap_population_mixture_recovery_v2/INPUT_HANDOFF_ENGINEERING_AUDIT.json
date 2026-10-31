@@ -1,0 +1,520 @@
+{
+  "batch_geometry": [
+    4,
+    12,
+    5000
+  ],
+  "checks": [
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "b3fc91a41a688c849c85bed958cd3b107fc5ed768ed2fecd5e94beb5df70df0d",
+      "correction_vs_independent_composition_max_abs_delta": 2.9831073151780334e-15,
+      "dtype": "float32",
+      "fault": "RA_LL_reversal",
+      "incoming_sha256": "b3fc91a41a688c849c85bed958cd3b107fc5ed768ed2fecd5e94beb5df70df0d",
+      "incoming_transform_max_abs_delta": 2.9831073151780334e-15,
+      "post_correction_sha256": "b3fc91a41a688c849c85bed958cd3b107fc5ed768ed2fecd5e94beb5df70df0d",
+      "predicted_class": 0,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "real",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "b3fc91a41a688c849c85bed958cd3b107fc5ed768ed2fecd5e94beb5df70df0d",
+      "correction_vs_independent_composition_max_abs_delta": 1.0088535096295509e-14,
+      "dtype": "float32",
+      "fault": "RA_LL_reversal",
+      "incoming_sha256": "b3fc91a41a688c849c85bed958cd3b107fc5ed768ed2fecd5e94beb5df70df0d",
+      "incoming_transform_max_abs_delta": 2.9831073151780334e-15,
+      "post_correction_sha256": "35ba6a3c496c66ed8b3c54b780c3cbc9710b8a6d34ed464f98f6eaf526b30a8e",
+      "predicted_class": 1,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "real",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "b3fc91a41a688c849c85bed958cd3b107fc5ed768ed2fecd5e94beb5df70df0d",
+      "correction_vs_independent_composition_max_abs_delta": 1.0088535096295509e-14,
+      "dtype": "float32",
+      "fault": "RA_LL_reversal",
+      "incoming_sha256": "b3fc91a41a688c849c85bed958cd3b107fc5ed768ed2fecd5e94beb5df70df0d",
+      "incoming_transform_max_abs_delta": 2.9831073151780334e-15,
+      "post_correction_sha256": "af56bbbb8abb9792dc8c1547ff9871ae0efab37ad7b833035e0cfd3bd1edac40",
+      "predicted_class": 2,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "real",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "b3fc91a41a688c849c85bed958cd3b107fc5ed768ed2fecd5e94beb5df70df0d",
+      "correction_vs_independent_composition_max_abs_delta": 1.0088535096295509e-14,
+      "dtype": "float32",
+      "fault": "RA_LL_reversal",
+      "incoming_sha256": "b3fc91a41a688c849c85bed958cd3b107fc5ed768ed2fecd5e94beb5df70df0d",
+      "incoming_transform_max_abs_delta": 2.9831073151780334e-15,
+      "post_correction_sha256": "56f59a617850d0dc6bde9f967fb58584deaafca039d2bc5806294db2a9a4f851",
+      "predicted_class": 3,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "real",
+      "status": "PASS"
+    },
+    {
+      "control": "known_class_inverse_engineering_only",
+      "fault": "RA_LL_reversal",
+      "identity_rederived_max_abs_delta": 6.103515625e-05,
+      "predicted_class": 2,
+      "signal_kind": "real",
+      "status": "PASS",
+      "tolerance": 0.0002
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "c545a8dd3ce9d39e36a6db2c9942a26d113b8c982e48874f4b2dbbf969921164",
+      "correction_vs_independent_composition_max_abs_delta": 2.9831073151780334e-15,
+      "dtype": "float32",
+      "fault": "RA_LA_reversal",
+      "incoming_sha256": "c545a8dd3ce9d39e36a6db2c9942a26d113b8c982e48874f4b2dbbf969921164",
+      "incoming_transform_max_abs_delta": 2.9831073151780334e-15,
+      "post_correction_sha256": "c545a8dd3ce9d39e36a6db2c9942a26d113b8c982e48874f4b2dbbf969921164",
+      "predicted_class": 0,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "real",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "c545a8dd3ce9d39e36a6db2c9942a26d113b8c982e48874f4b2dbbf969921164",
+      "correction_vs_independent_composition_max_abs_delta": 2.9831073151780334e-15,
+      "dtype": "float32",
+      "fault": "RA_LA_reversal",
+      "incoming_sha256": "c545a8dd3ce9d39e36a6db2c9942a26d113b8c982e48874f4b2dbbf969921164",
+      "incoming_transform_max_abs_delta": 2.9831073151780334e-15,
+      "post_correction_sha256": "a6e492276795217227ae3f35434b8cb2c6f465815c7cbdfe80768cff355d9f8d",
+      "predicted_class": 1,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "real",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "c545a8dd3ce9d39e36a6db2c9942a26d113b8c982e48874f4b2dbbf969921164",
+      "correction_vs_independent_composition_max_abs_delta": 2.9831073151780334e-15,
+      "dtype": "float32",
+      "fault": "RA_LA_reversal",
+      "incoming_sha256": "c545a8dd3ce9d39e36a6db2c9942a26d113b8c982e48874f4b2dbbf969921164",
+      "incoming_transform_max_abs_delta": 2.9831073151780334e-15,
+      "post_correction_sha256": "b0dab07f26a5cf4b75eddc1b9ca967a54fb2b6c570ad83cf987ccb3a721b8a8c",
+      "predicted_class": 2,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "real",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "c545a8dd3ce9d39e36a6db2c9942a26d113b8c982e48874f4b2dbbf969921164",
+      "correction_vs_independent_composition_max_abs_delta": 2.9831073151780334e-15,
+      "dtype": "float32",
+      "fault": "RA_LA_reversal",
+      "incoming_sha256": "c545a8dd3ce9d39e36a6db2c9942a26d113b8c982e48874f4b2dbbf969921164",
+      "incoming_transform_max_abs_delta": 2.9831073151780334e-15,
+      "post_correction_sha256": "9b3ce6bafe093152c6368ba1d7cd64570ce5b18041c7989bd5105715e6510446",
+      "predicted_class": 3,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "real",
+      "status": "PASS"
+    },
+    {
+      "control": "known_class_inverse_engineering_only",
+      "fault": "RA_LA_reversal",
+      "identity_rederived_max_abs_delta": 6.103515625e-05,
+      "predicted_class": 1,
+      "signal_kind": "real",
+      "status": "PASS",
+      "tolerance": 0.0002
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "7b86d7c1ab52347e7bcd172e5ee2c09944426cc529386ea036a4da610e74d408",
+      "correction_vs_independent_composition_max_abs_delta": 2.9831073151780334e-15,
+      "dtype": "float32",
+      "fault": "LA_LL_reversal",
+      "incoming_sha256": "7b86d7c1ab52347e7bcd172e5ee2c09944426cc529386ea036a4da610e74d408",
+      "incoming_transform_max_abs_delta": 2.9831073151780334e-15,
+      "post_correction_sha256": "7b86d7c1ab52347e7bcd172e5ee2c09944426cc529386ea036a4da610e74d408",
+      "predicted_class": 0,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "real",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "7b86d7c1ab52347e7bcd172e5ee2c09944426cc529386ea036a4da610e74d408",
+      "correction_vs_independent_composition_max_abs_delta": 2.9831073151780334e-15,
+      "dtype": "float32",
+      "fault": "LA_LL_reversal",
+      "incoming_sha256": "7b86d7c1ab52347e7bcd172e5ee2c09944426cc529386ea036a4da610e74d408",
+      "incoming_transform_max_abs_delta": 2.9831073151780334e-15,
+      "post_correction_sha256": "db1de052df0fa9944f2a6af6401dbc7daeb1fcce26cda59e4b03e00246774553",
+      "predicted_class": 1,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "real",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "7b86d7c1ab52347e7bcd172e5ee2c09944426cc529386ea036a4da610e74d408",
+      "correction_vs_independent_composition_max_abs_delta": 2.9831073151780334e-15,
+      "dtype": "float32",
+      "fault": "LA_LL_reversal",
+      "incoming_sha256": "7b86d7c1ab52347e7bcd172e5ee2c09944426cc529386ea036a4da610e74d408",
+      "incoming_transform_max_abs_delta": 2.9831073151780334e-15,
+      "post_correction_sha256": "ea687003e89ae77749fca55ce720ddd2747e95c437a6c7d650e7e2e6be669ace",
+      "predicted_class": 2,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "real",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "7b86d7c1ab52347e7bcd172e5ee2c09944426cc529386ea036a4da610e74d408",
+      "correction_vs_independent_composition_max_abs_delta": 2.9831073151780334e-15,
+      "dtype": "float32",
+      "fault": "LA_LL_reversal",
+      "incoming_sha256": "7b86d7c1ab52347e7bcd172e5ee2c09944426cc529386ea036a4da610e74d408",
+      "incoming_transform_max_abs_delta": 2.9831073151780334e-15,
+      "post_correction_sha256": "7da84c1e65ab559b128028f90da25a8ad65c0b0f7cad48e9116f1533f5d08da4",
+      "predicted_class": 3,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "real",
+      "status": "PASS"
+    },
+    {
+      "control": "known_class_inverse_engineering_only",
+      "fault": "LA_LL_reversal",
+      "identity_rederived_max_abs_delta": 2.9831073151780334e-15,
+      "predicted_class": 3,
+      "signal_kind": "real",
+      "status": "PASS",
+      "tolerance": 0.0002
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "f09d1a0befc6cee94a1aed509ca2175cf443c7987fc201bad2d6521338b50c33",
+      "correction_vs_independent_composition_max_abs_delta": 0.0,
+      "dtype": "float32",
+      "fault": "RA_LL_reversal",
+      "incoming_sha256": "f09d1a0befc6cee94a1aed509ca2175cf443c7987fc201bad2d6521338b50c33",
+      "incoming_transform_max_abs_delta": 0.0,
+      "post_correction_sha256": "f09d1a0befc6cee94a1aed509ca2175cf443c7987fc201bad2d6521338b50c33",
+      "predicted_class": 0,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "synthetic",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "f09d1a0befc6cee94a1aed509ca2175cf443c7987fc201bad2d6521338b50c33",
+      "correction_vs_independent_composition_max_abs_delta": 0.0,
+      "dtype": "float32",
+      "fault": "RA_LL_reversal",
+      "incoming_sha256": "f09d1a0befc6cee94a1aed509ca2175cf443c7987fc201bad2d6521338b50c33",
+      "incoming_transform_max_abs_delta": 0.0,
+      "post_correction_sha256": "ed577d75521392abcbaefe74c654dd9d81c3284d326246ff1a49e699de70e98b",
+      "predicted_class": 1,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "synthetic",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "f09d1a0befc6cee94a1aed509ca2175cf443c7987fc201bad2d6521338b50c33",
+      "correction_vs_independent_composition_max_abs_delta": 0.0,
+      "dtype": "float32",
+      "fault": "RA_LL_reversal",
+      "incoming_sha256": "f09d1a0befc6cee94a1aed509ca2175cf443c7987fc201bad2d6521338b50c33",
+      "incoming_transform_max_abs_delta": 0.0,
+      "post_correction_sha256": "36c4aaf688a7fed45e20e38c6dee424e9275dee106088bcac234392ca6bb7a41",
+      "predicted_class": 2,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "synthetic",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "f09d1a0befc6cee94a1aed509ca2175cf443c7987fc201bad2d6521338b50c33",
+      "correction_vs_independent_composition_max_abs_delta": 0.0,
+      "dtype": "float32",
+      "fault": "RA_LL_reversal",
+      "incoming_sha256": "f09d1a0befc6cee94a1aed509ca2175cf443c7987fc201bad2d6521338b50c33",
+      "incoming_transform_max_abs_delta": 0.0,
+      "post_correction_sha256": "83fe92298f40eebaa98eba2ca1c377f28283290bcf8235670e34498ee5845076",
+      "predicted_class": 3,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "synthetic",
+      "status": "PASS"
+    },
+    {
+      "control": "known_class_inverse_engineering_only",
+      "fault": "RA_LL_reversal",
+      "identity_rederived_max_abs_delta": 4.76837158203125e-07,
+      "predicted_class": 2,
+      "signal_kind": "synthetic",
+      "status": "PASS",
+      "tolerance": 0.0002
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "87e3cffb84e95d9d8c54dca16f341fe998a37000779af6bbc00baefe594ac379",
+      "correction_vs_independent_composition_max_abs_delta": 0.0,
+      "dtype": "float32",
+      "fault": "RA_LA_reversal",
+      "incoming_sha256": "87e3cffb84e95d9d8c54dca16f341fe998a37000779af6bbc00baefe594ac379",
+      "incoming_transform_max_abs_delta": 0.0,
+      "post_correction_sha256": "87e3cffb84e95d9d8c54dca16f341fe998a37000779af6bbc00baefe594ac379",
+      "predicted_class": 0,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "synthetic",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "87e3cffb84e95d9d8c54dca16f341fe998a37000779af6bbc00baefe594ac379",
+      "correction_vs_independent_composition_max_abs_delta": 0.0,
+      "dtype": "float32",
+      "fault": "RA_LA_reversal",
+      "incoming_sha256": "87e3cffb84e95d9d8c54dca16f341fe998a37000779af6bbc00baefe594ac379",
+      "incoming_transform_max_abs_delta": 0.0,
+      "post_correction_sha256": "877745ab90b82e4d491f586ff4bb44bc1b2c98d859ac8ba090a5e7b872c17ae5",
+      "predicted_class": 1,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "synthetic",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "87e3cffb84e95d9d8c54dca16f341fe998a37000779af6bbc00baefe594ac379",
+      "correction_vs_independent_composition_max_abs_delta": 0.0,
+      "dtype": "float32",
+      "fault": "RA_LA_reversal",
+      "incoming_sha256": "87e3cffb84e95d9d8c54dca16f341fe998a37000779af6bbc00baefe594ac379",
+      "incoming_transform_max_abs_delta": 0.0,
+      "post_correction_sha256": "b9d33272badf61a61383be062452892b417ae57275fdcfa3c28994ecfe5c5a17",
+      "predicted_class": 2,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "synthetic",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "87e3cffb84e95d9d8c54dca16f341fe998a37000779af6bbc00baefe594ac379",
+      "correction_vs_independent_composition_max_abs_delta": 0.0,
+      "dtype": "float32",
+      "fault": "RA_LA_reversal",
+      "incoming_sha256": "87e3cffb84e95d9d8c54dca16f341fe998a37000779af6bbc00baefe594ac379",
+      "incoming_transform_max_abs_delta": 0.0,
+      "post_correction_sha256": "7921331bc5897719954cb4485cc774c6b96c9bc66b9e9a9c29266195bcb3c923",
+      "predicted_class": 3,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "synthetic",
+      "status": "PASS"
+    },
+    {
+      "control": "known_class_inverse_engineering_only",
+      "fault": "RA_LA_reversal",
+      "identity_rederived_max_abs_delta": 4.76837158203125e-07,
+      "predicted_class": 1,
+      "signal_kind": "synthetic",
+      "status": "PASS",
+      "tolerance": 0.0002
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "4e036a631d88bcd6d4b0b6ff15d0811a0a63d0088480e2d207cc2a58589230b3",
+      "correction_vs_independent_composition_max_abs_delta": 0.0,
+      "dtype": "float32",
+      "fault": "LA_LL_reversal",
+      "incoming_sha256": "4e036a631d88bcd6d4b0b6ff15d0811a0a63d0088480e2d207cc2a58589230b3",
+      "incoming_transform_max_abs_delta": 0.0,
+      "post_correction_sha256": "4e036a631d88bcd6d4b0b6ff15d0811a0a63d0088480e2d207cc2a58589230b3",
+      "predicted_class": 0,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "synthetic",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "4e036a631d88bcd6d4b0b6ff15d0811a0a63d0088480e2d207cc2a58589230b3",
+      "correction_vs_independent_composition_max_abs_delta": 0.0,
+      "dtype": "float32",
+      "fault": "LA_LL_reversal",
+      "incoming_sha256": "4e036a631d88bcd6d4b0b6ff15d0811a0a63d0088480e2d207cc2a58589230b3",
+      "incoming_transform_max_abs_delta": 0.0,
+      "post_correction_sha256": "00fa3fb605e8ab8dd0673b48d26742e345576b9bcc7dbc76484d63694f66a18a",
+      "predicted_class": 1,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "synthetic",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "4e036a631d88bcd6d4b0b6ff15d0811a0a63d0088480e2d207cc2a58589230b3",
+      "correction_vs_independent_composition_max_abs_delta": 0.0,
+      "dtype": "float32",
+      "fault": "LA_LL_reversal",
+      "incoming_sha256": "4e036a631d88bcd6d4b0b6ff15d0811a0a63d0088480e2d207cc2a58589230b3",
+      "incoming_transform_max_abs_delta": 0.0,
+      "post_correction_sha256": "bc929f3cadbb729e8ffecfd6ee5878330f435e60b5a1c949cbbdc5678fd0151c",
+      "predicted_class": 2,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "synthetic",
+      "status": "PASS"
+    },
+    {
+      "class_zero_keeps_faulty": true,
+      "correction_input_sha256": "4e036a631d88bcd6d4b0b6ff15d0811a0a63d0088480e2d207cc2a58589230b3",
+      "correction_vs_independent_composition_max_abs_delta": 0.0,
+      "dtype": "float32",
+      "fault": "LA_LL_reversal",
+      "incoming_sha256": "4e036a631d88bcd6d4b0b6ff15d0811a0a63d0088480e2d207cc2a58589230b3",
+      "incoming_transform_max_abs_delta": 0.0,
+      "post_correction_sha256": "ea24f14e89ef6a03632ff286844430817c2764dd78c8b8c9f35ec6cd373ea547",
+      "predicted_class": 3,
+      "shape": [
+        4,
+        12,
+        5000
+      ],
+      "signal_kind": "synthetic",
+      "status": "PASS"
+    },
+    {
+      "control": "known_class_inverse_engineering_only",
+      "fault": "LA_LL_reversal",
+      "identity_rederived_max_abs_delta": 0.0,
+      "predicted_class": 3,
+      "signal_kind": "synthetic",
+      "status": "PASS",
+      "tolerance": 0.0002
+    }
+  ],
+  "diagnostic_geometry": [
+    4,
+    12,
+    1000
+  ],
+  "diagnostic_stride": 5,
+  "known_class_inverse_is_engineering_control_only": true,
+  "normalized_dtype": "float32",
+  "raw_channel_order": [
+    "I",
+    "II",
+    "III",
+    "aVR",
+    "aVL",
+    "aVF",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "raw_dtype": "float32",
+  "source_buffer_sha256_before_after": "68c53205bf2252b763dbac33d73ca3505be1563ad8cc9ca1b99c516c04cbe74d",
+  "status": "PASS"
+}

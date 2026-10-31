@@ -1,0 +1,206 @@
+{
+  "status": "PASS",
+  "checks": 18,
+  "max_abs_probability_difference": 0.0,
+  "scope": "Independent first/middle/last block explicit NumPy signal construction and predicted inverse; frozen cached detector outputs, original weights and normalization; no adapter/correction helper imports; no full inference or fitting. Detector neural replay not independently repeated.",
+  "rows": [
+    {
+      "seed": 104729,
+      "condition": "RA_LA_reversal",
+      "processing_block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 104729,
+      "condition": "RA_LA_reversal",
+      "processing_block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 104729,
+      "condition": "RA_LA_reversal",
+      "processing_block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 104729,
+      "condition": "LA_LL_reversal",
+      "processing_block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 104729,
+      "condition": "LA_LL_reversal",
+      "processing_block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 104729,
+      "condition": "LA_LL_reversal",
+      "processing_block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 130363,
+      "condition": "RA_LA_reversal",
+      "processing_block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 130363,
+      "condition": "RA_LA_reversal",
+      "processing_block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 130363,
+      "condition": "RA_LA_reversal",
+      "processing_block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 130363,
+      "condition": "LA_LL_reversal",
+      "processing_block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 130363,
+      "condition": "LA_LL_reversal",
+      "processing_block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 130363,
+      "condition": "LA_LL_reversal",
+      "processing_block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 155921,
+      "condition": "RA_LA_reversal",
+      "processing_block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 155921,
+      "condition": "RA_LA_reversal",
+      "processing_block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 155921,
+      "condition": "RA_LA_reversal",
+      "processing_block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 155921,
+      "condition": "LA_LL_reversal",
+      "processing_block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 155921,
+      "condition": "LA_LL_reversal",
+      "processing_block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    },
+    {
+      "seed": 155921,
+      "condition": "LA_LL_reversal",
+      "processing_block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_difference": 0.0,
+      "pass": true
+    }
+  ]
+}

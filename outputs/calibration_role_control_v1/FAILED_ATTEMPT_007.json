@@ -1,0 +1,8 @@
+{
+  "status": "METRIC_SUMMARY_STAGE_STOPPED_AFTER_ALL_PREDICTIONS",
+  "reason": "The evaluation code had not defined local alias N when selecting the frozen Ningbo bootstrap index file.",
+  "Ningbo_test_predictions_complete": true,
+  "HEEDB_predictions_complete": true,
+  "metrics_or_bootstrap_summaries_written": false,
+  "resolution": "Bind N to control.N and resume evaluation from the hash-verified saved predictions; do not repeat inference."
+}

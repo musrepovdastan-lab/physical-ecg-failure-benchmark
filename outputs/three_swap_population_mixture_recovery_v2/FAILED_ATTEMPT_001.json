@@ -1,0 +1,12 @@
+{
+  "attempt": 1,
+  "stage": "pre-inference engineering handoff",
+  "status": "FAILED_INTERNAL_FLOAT32_TOLERANCE",
+  "observed": {
+    "independent_formula_vs_frozen_transform_max_abs_raw_delta": 0.00006103515625,
+    "initial_internal_tolerance": 0.00001,
+    "reviewed_known_class_inverse_tolerance": 0.0002
+  },
+  "scope": "No inference files or scientific results were written by this attempt.",
+  "resolution": "Use a 1e-4 raw-unit engineering comparison tolerance, below the 2e-4 bound already used for float32 known-class inverse checks. Probability replay tolerance remains the frozen 1e-4."
+}

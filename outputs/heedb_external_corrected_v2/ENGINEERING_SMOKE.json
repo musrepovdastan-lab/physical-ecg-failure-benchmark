@@ -1,0 +1,20 @@
+{
+  "completed_utc": "2026-09-24T16:30:34.808653+00:00",
+  "conditions_per_model": 26,
+  "decision": "PASS",
+  "elapsed_seconds": 2.859,
+  "exact_model_input_shape": [
+    12,
+    1000
+  ],
+  "excluded_records": 23,
+  "finite_three_channel_predictions": true,
+  "models": 6,
+  "original_rate_counts": {
+    "250": 1,
+    "500": 22
+  },
+  "prediction_batches_checked": 156,
+  "protocol_sha256": "c339031084061dddf683f263319fd80c9d87bcec47df781eeeef0a3ed3399838",
+  "reversal_all_12_leads_exact": true
+}

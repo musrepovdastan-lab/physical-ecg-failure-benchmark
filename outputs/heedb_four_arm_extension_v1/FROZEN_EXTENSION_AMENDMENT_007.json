@@ -1,0 +1,12 @@
+{
+  "amendment": "007",
+  "amendment_006_sha256": "6fd4a0b68efe82c963879527a12a49194a8a93a66f465c519117d60d08497041",
+  "analysis_source_sha256": "22f9c4764e2d218238d558cff419bc3658abe473c9776b425ebe92b4b40e5847",
+  "bootstrap_change": false,
+  "bootstrap_draws_written": true,
+  "metric_method_change": false,
+  "metric_tables_written": true,
+  "protocol_sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa",
+  "reason": "The complete bootstrap and metric tables were written, but plotting failed because Tk is unavailable. A post-analysis calibration audit also used identity parameters in a diagnostic-only ranking check, while the published metric tables use fitted Platt coefficients. Bind a finalizer that regenerates only that audit correctly, plots with the noninteractive Agg backend, and writes the report/provenance/hash manifest; no point estimates or bootstrap draws are recomputed or changed.",
+  "status": "FROZEN_BEFORE_FINAL_DELIVERABLE_REGENERATION"
+}\n

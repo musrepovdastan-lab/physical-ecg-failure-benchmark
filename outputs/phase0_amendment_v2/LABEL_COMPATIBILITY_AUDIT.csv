@@ -1,0 +1,10 @@
+endpoint_family,endpoint_name,snomed_ct_code,chapman_shaoxing_positive_records,ningbo_positive_records,chapman_expected_internal_test_20pct,chapman_overall_gate_500,chapman_test_gate_200,ningbo_gate_500,status,rationale,source
+atrial_arrhythmia,atrial_fibrillation,164889003,1780,0,356,PASS,PASS,FAIL,REJECTED,Not shared: zero Ningbo records,Challenge 2021 paper Figure 4/Table 5
+atrial_arrhythmia,atrial_flutter,164890007,445,7615,89,FAIL,FAIL,PASS,REJECTED,Chapman prevalence below both frozen gates,Challenge 2021 paper Figure 4/Table 5
+conduction,first_degree_AV_block,270492004,247,893,49,FAIL,FAIL,PASS,REJECTED,Chapman prevalence below both frozen gates,Challenge 2021 paper Figure 4/Table 5
+conduction,right_bundle_branch_block,59118001,454,195,90,FAIL,FAIL,FAIL,REJECTED,Individual RBBB label fails both source gates; do not replace it with an unverified union,Challenge 2021 paper Figure 4/Table 5
+conduction,complete_right_bundle_branch_block,713427006,0,1096,0,FAIL,FAIL,PASS,REJECTED,Not shared and Chapman count is zero,Challenge 2021 paper Figure 4/Table 5
+conduction,left_bundle_branch_block,164909002,205,35,41,FAIL,FAIL,FAIL,REJECTED,Individual LBBB label fails both source gates,Challenge 2021 paper Figure 4/Table 5
+rate_rhythm,sinus_bradycardia,426177001,3889,12670,778,PASS,PASS,PASS,PRIMARY,Common clinically meaningful rate-rhythm endpoint; deterministic stratification will allocate 778 positives to Chapman internal test,Challenge 2021 paper Figure 4/Table 5
+rate_rhythm,sinus_tachycardia,427084000,1568,5687,313,PASS,PASS,PASS,PRIMARY,Common clinically meaningful rate-rhythm endpoint; deterministic stratification will allocate 313 positives to Chapman internal test,Challenge 2021 paper Figure 4/Table 5
+repolarization,T_wave_abnormality,164934002,1876,5167,375,PASS,PASS,PASS,SECONDARY,Eligible but not primary to cap the confirmatory family count at two,Challenge 2021 paper Figure 4/Table 5

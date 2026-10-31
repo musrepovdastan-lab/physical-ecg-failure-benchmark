@@ -1,0 +1,8 @@
+{
+  "attempt": 9,
+  "stage": "final coverage provenance audit",
+  "status": "FAILED_OBJECT_DTYPE_FILE_IDS",
+  "scope": "All six new predictions and complete metric analysis were already produced; audit stopped while loading file ID metadata with allow_pickle=False.",
+  "cause": "The pandas FileName series was serialized as an object array in the NPZ.",
+  "resolution": "Repack file and patient IDs as Unicode arrays and verify the probability arrays remain bitwise identical."
+}

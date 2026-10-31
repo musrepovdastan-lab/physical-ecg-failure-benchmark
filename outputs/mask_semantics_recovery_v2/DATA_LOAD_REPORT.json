@@ -1,0 +1,13 @@
+{
+  "bytes_in_memory": 335088000,
+  "dtype": "float32",
+  "raw_record_ids_written": false,
+  "records": 6981,
+  "seconds": 9.531000000002678,
+  "shape": [
+    6981,
+    12,
+    1000
+  ],
+  "source": "existing waveforms only"
+}

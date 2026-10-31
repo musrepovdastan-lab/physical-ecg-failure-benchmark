@@ -1,0 +1,11 @@
+{
+  "attempt": 5,
+  "stage": "focused classifier replay before full-file persistence",
+  "status": "FAILED_REPLAY_USED_NONHISTORICAL_BATCH_SIZE",
+  "condition": "RA_LA_reversal",
+  "seed": 104729,
+  "compared_records": 32,
+  "observed_wrong_path_vs_legacy_max_abs_probability_delta": 0.00048828125,
+  "scope": "Stopped before any of the six full prediction files were written.",
+  "resolution": "Replay the complete historical batch of 128 and compare only its first 32 rows, preserving batch-dependent CUDA numerics; retain probability tolerance 1e-4."
+}

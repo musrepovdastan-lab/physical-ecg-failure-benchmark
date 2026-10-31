@@ -1,0 +1,429 @@
+{
+  "HEEDB_label_limit": "physician-code proxy constructs; source SNOMED calibration does not establish proxy-label calibration validity",
+  "Ningbo_test_n_and_bindings": {
+    "104729": {
+      "chest_only_resnet": {
+        "labels_shape": [
+          6981,
+          3
+        ],
+        "n": 6981,
+        "record_order_sha256": "2d877aba3a3f04544bb619923ca87d7a965f691b54adb0dd4e04aab04bdafa0c"
+      },
+      "ordinary_resnet": {
+        "labels_shape": [
+          6981,
+          3
+        ],
+        "n": 6981,
+        "record_order_sha256": "2d877aba3a3f04544bb619923ca87d7a965f691b54adb0dd4e04aab04bdafa0c"
+      },
+      "physics_aware_resnet": {
+        "labels_shape": [
+          6981,
+          3
+        ],
+        "n": 6981,
+        "record_order_sha256": "2d877aba3a3f04544bb619923ca87d7a965f691b54adb0dd4e04aab04bdafa0c"
+      }
+    },
+    "130363": {
+      "chest_only_resnet": {
+        "labels_shape": [
+          6981,
+          3
+        ],
+        "n": 6981,
+        "record_order_sha256": "2d877aba3a3f04544bb619923ca87d7a965f691b54adb0dd4e04aab04bdafa0c"
+      },
+      "ordinary_resnet": {
+        "labels_shape": [
+          6981,
+          3
+        ],
+        "n": 6981,
+        "record_order_sha256": "2d877aba3a3f04544bb619923ca87d7a965f691b54adb0dd4e04aab04bdafa0c"
+      },
+      "physics_aware_resnet": {
+        "labels_shape": [
+          6981,
+          3
+        ],
+        "n": 6981,
+        "record_order_sha256": "2d877aba3a3f04544bb619923ca87d7a965f691b54adb0dd4e04aab04bdafa0c"
+      }
+    },
+    "155921": {
+      "chest_only_resnet": {
+        "labels_shape": [
+          6981,
+          3
+        ],
+        "n": 6981,
+        "record_order_sha256": "2d877aba3a3f04544bb619923ca87d7a965f691b54adb0dd4e04aab04bdafa0c"
+      },
+      "ordinary_resnet": {
+        "labels_shape": [
+          6981,
+          3
+        ],
+        "n": 6981,
+        "record_order_sha256": "2d877aba3a3f04544bb619923ca87d7a965f691b54adb0dd4e04aab04bdafa0c"
+      },
+      "physics_aware_resnet": {
+        "labels_shape": [
+          6981,
+          3
+        ],
+        "n": 6981,
+        "record_order_sha256": "2d877aba3a3f04544bb619923ca87d7a965f691b54adb0dd4e04aab04bdafa0c"
+      }
+    }
+  },
+  "analysis_class": "exploratory_reanalysis_of_previously_accessed_test_sources",
+  "analysis_code_sha256": null,
+  "bootstrap": {
+    "HEEDB_cluster": "patient; same multiplicity for both copies",
+    "Ningbo_cluster": "canonical record; same resampled multiplicity used for clean and reversal copies",
+    "calibrators_and_thresholds": "fixed",
+    "interval": "percentile 2.5%,97.5%; conditional on selected checkpoints and calibrators; excludes model/calibrator fitting uncertainty",
+    "replicates": 1000,
+    "seed": 20261017
+  },
+  "calibration": {
+    "clip_raw_probability": [
+      1e-06,
+      0.999999
+    ],
+    "convergence": "accept only success=True, finite objective/parameters, and positive a; otherwise fail and do not score that fit",
+    "fit_data": "clean validation A",
+    "loss": "ordinary unweighted binary log loss; fit separately per method×seed×endpoint",
+    "mapping": "sigmoid(a*logit(p)+b), a>0",
+    "methods": "ordinary ResNet, physics-aware ResNet and chest-only ResNet only; no frozen full-Huang-pipeline Ningbo validation scores were found, so Huang calibration and standardized B operating point are deferred",
+    "no_refit": "No full-validation refit; no condition-specific mapping or HEEDB calibration",
+    "optimizer": "scipy.optimize.minimize L-BFGS-B; parameters theta=log(a), b; theta bounded [-12,12], b bounded [-30,30]",
+    "precision": "float64",
+    "threshold": "90th percentile of negative clean validation B raw scores, NumPy linear quantile method; calibrated threshold is the same calibrator applied to that raw threshold; both modes therefore share the operating point"
+  },
+  "endpoints": [
+    "TWA",
+    "SB",
+    "STach"
+  ],
+  "estimands": {
+    "operating_point": "sensitivity, specificity, predicted-positive fraction, FP and FN per 1000 records",
+    "probability": "weighted Brier and 15 equal-width ECE; reliability bins fixed at [k/15,(k+1)/15), last includes 1",
+    "summaries": "full-cohort central estimates; metrics calculated per seed then arithmetic mean across three seeds; do not average prediction vectors",
+    "weighted_AP_AUROC": "exact weighted pooled empirical mixture, never average condition metrics"
+  },
+  "external_source": "HEEDB I0006 independent-confirmation cohort, one record per patient, 10,000; same Emory source as earlier HEEDB cohort; not an independent center",
+  "fault": "RA_LL_reversal",
+  "input_artifacts": {
+    "chest_only/104729/RA_LL_reversal": {
+      "bytes": 45253,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_104729/test_predictions/RA_LL_reversal.npz",
+      "sha256": "dd6264355997737148c36095b967bf68ef9d852d06322cbb1a8fc4517a894570"
+    },
+    "chest_only/104729/checkpoint.pt": {
+      "bytes": 3877581,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_104729/checkpoint.pt",
+      "sha256": "c30ca743fbd65ff455b54a9bb5602e28ad20865249b59fb2bb4cfd7d11e4a70f"
+    },
+    "chest_only/104729/clean": {
+      "bytes": 45240,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_104729/test_predictions/clean.npz",
+      "sha256": "95df82c28fa1de06ebda0b73af84d1d734737d78125d354266f84ec3dbefbb60"
+    },
+    "chest_only/104729/preprocessing.npz": {
+      "bytes": 639,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_104729/preprocessing.npz",
+      "sha256": "5892c416d7b967704885a60a08c23c22eae0a6581274410e91f259b5c663ac89"
+    },
+    "chest_only/104729/training_complete.json": {
+      "bytes": 5503,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_104729/training_complete.json",
+      "sha256": "e90fe946e2fac47c1d37996aea3c1564d06515920b925801db13a5ad2f016769"
+    },
+    "chest_only/104729/validation.npz": {
+      "bytes": 23397,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_104729/validation.npz",
+      "sha256": "325f1a0e4f55b0438daacc04168f634c21b36da1d159b2b0a81bc1a74c3a61c5"
+    },
+    "chest_only/130363/RA_LL_reversal": {
+      "bytes": 46993,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_130363/test_predictions/RA_LL_reversal.npz",
+      "sha256": "d0e892d417589ad3120d98f47b50572a65d7125274c1ab67e982cde040fc5fa3"
+    },
+    "chest_only/130363/checkpoint.pt": {
+      "bytes": 3877581,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_130363/checkpoint.pt",
+      "sha256": "bde73b60e3eab003dc08da8b39c135c71104245aa642ed4a07b8b98ccd57e6d8"
+    },
+    "chest_only/130363/clean": {
+      "bytes": 46976,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_130363/test_predictions/clean.npz",
+      "sha256": "2a0d6b297097d5b8d430f1d4e6e61e7b4e3b4537e0d81fa0bc0db435da83121b"
+    },
+    "chest_only/130363/preprocessing.npz": {
+      "bytes": 639,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_130363/preprocessing.npz",
+      "sha256": "5892c416d7b967704885a60a08c23c22eae0a6581274410e91f259b5c663ac89"
+    },
+    "chest_only/130363/training_complete.json": {
+      "bytes": 4108,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_130363/training_complete.json",
+      "sha256": "bfe652f027343f0c9db6ad15229414d69f014f9529327181cd1bdb8e174b8f8a"
+    },
+    "chest_only/130363/validation.npz": {
+      "bytes": 24310,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_130363/validation.npz",
+      "sha256": "f96b15792740d4ff6e1bebd28a77d9ee046a071351a96bb7cf1a9e8588afaaf8"
+    },
+    "chest_only/155921/RA_LL_reversal": {
+      "bytes": 44651,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_155921/test_predictions/RA_LL_reversal.npz",
+      "sha256": "a54daa8f8f7dc9896b0486af6a629486582843e5c61af5b1ff4d42cce911eeec"
+    },
+    "chest_only/155921/checkpoint.pt": {
+      "bytes": 3877581,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_155921/checkpoint.pt",
+      "sha256": "fb550cb9ccd4b4c22699910f2a4f859c1169886165b9f1c7400c4e5b3e62b7e6"
+    },
+    "chest_only/155921/clean": {
+      "bytes": 44636,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_155921/test_predictions/clean.npz",
+      "sha256": "96504a016fc89edb521f88ec2789f9735c6ae3116198c9c8995cc90da76c76fd"
+    },
+    "chest_only/155921/preprocessing.npz": {
+      "bytes": 639,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_155921/preprocessing.npz",
+      "sha256": "5892c416d7b967704885a60a08c23c22eae0a6581274410e91f259b5c663ac89"
+    },
+    "chest_only/155921/training_complete.json": {
+      "bytes": 5379,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_155921/training_complete.json",
+      "sha256": "69a5890f70438a20e1df69066b01fc66a45a99d3ff7b1c8b83aed52c15f49fe1"
+    },
+    "chest_only/155921/validation.npz": {
+      "bytes": 23010,
+      "path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_155921/validation.npz",
+      "sha256": "5fc666788d5f004965b45287253fe833c5eb0c171904145687eb48ff0f8d3cef"
+    },
+    "chest_protocol": {
+      "bytes": 17802,
+      "path": "outputs/chest_only_baseline_v1/FROZEN_CHEST_ONLY_PROTOCOL.json",
+      "sha256": "dd5d0a6b3747699c5308b798741c6486eb31dad84422750fd498e5b5efc6bcc2"
+    },
+    "chest_report_manifest": {
+      "bytes": 2971,
+      "path": "outputs/chest_only_baseline_v1/REPORTING_MANIFEST.json",
+      "sha256": "c500c8f3099ed889398231862ee916d69297ef5d3f00f21fa5017274cc830519"
+    },
+    "clean_12lead/104729/RA_LL_reversal": {
+      "bytes": 49607,
+      "path": "outputs/chest_only_baseline_v1/comparators/Ningbo/clean_12lead/seed_104729/RA_LL_reversal.npz",
+      "sha256": "6287c492096232149f960edf3480df1e21e8de459ba178fad0564e564748d2ef"
+    },
+    "clean_12lead/104729/clean": {
+      "bytes": 47079,
+      "path": "outputs/chest_only_baseline_v1/comparators/Ningbo/clean_12lead/seed_104729/clean.npz",
+      "sha256": "ca8a8a414817274b181cbf02d41962016c1b1f60271750269b58c33980b5781f"
+    },
+    "clean_12lead/130363/RA_LL_reversal": {
+      "bytes": 50154,
+      "path": "outputs/chest_only_baseline_v1/comparators/Ningbo/clean_12lead/seed_130363/RA_LL_reversal.npz",
+      "sha256": "24225fc4d2d5d0e439a4f5483ea7d2f345a51474ac91a06d4ff51b0780502d78"
+    },
+    "clean_12lead/130363/clean": {
+      "bytes": 48134,
+      "path": "outputs/chest_only_baseline_v1/comparators/Ningbo/clean_12lead/seed_130363/clean.npz",
+      "sha256": "824be1943ea203083c291c9dbbc70b00dfb50cc55efaa92c58e3d864239aeb7e"
+    },
+    "clean_12lead/155921/RA_LL_reversal": {
+      "bytes": 49105,
+      "path": "outputs/chest_only_baseline_v1/comparators/Ningbo/clean_12lead/seed_155921/RA_LL_reversal.npz",
+      "sha256": "cc64bf5cdeffb2dcc3cd73df906754be9df74d3fc1bb9f4b59069fdf51d437f1"
+    },
+    "clean_12lead/155921/clean": {
+      "bytes": 48486,
+      "path": "outputs/chest_only_baseline_v1/comparators/Ningbo/clean_12lead/seed_155921/clean.npz",
+      "sha256": "ce6db843da3f40f78deb554d88d684a0812d44c7acb0a9cbe9a4b359f3a25990"
+    },
+    "heedb_chest_protocol": {
+      "bytes": 17802,
+      "path": "outputs/chest_only_baseline_v1/FROZEN_CHEST_ONLY_PROTOCOL.json",
+      "sha256": "dd5d0a6b3747699c5308b798741c6486eb31dad84422750fd498e5b5efc6bcc2"
+    },
+    "heedb_cohort_freeze": {
+      "bytes": 1321,
+      "path": "outputs/heedb_independent_confirmation_v1/COHORT_FREEZE.json",
+      "sha256": "310f08121d74b3f91a907a25e7380390bb03621025606d8f8ed5f20b2e35a36f"
+    },
+    "heedb_huang_prediction": {
+      "bytes": 720128,
+      "path": "data/heedb_restricted/I0006/huang_exploratory_v1/huang_diagnostic_probabilities_float32.npy",
+      "sha256": "e08876d392bd9a64dd4114a9bfaf050ccbf61442a62e005d9f0da341504664f1"
+    },
+    "heedb_huang_protocol": {
+      "bytes": 5496,
+      "path": "outputs/heedb_huang_exploratory_v1/FROZEN_PROTOCOL.json",
+      "sha256": "50974d7cdb7a286d7d3cd4831b29df2a80edaac31a274afd697d931bb76cd53c"
+    },
+    "heedb_inference_complete": {
+      "bytes": 264,
+      "path": "outputs/heedb_independent_confirmation_v1/INFERENCE_COMPLETE.json",
+      "sha256": "a66dff9595b686d1dfbfee5d3db3faa96295d9b5eaba1543336bcdcfda54d4a9"
+    },
+    "heedb_labels_source": {
+      "bytes": 101266857,
+      "path": "data/heedb_restricted/I0006/12SL_diagnoses/diagnoses_acquisition.csv",
+      "sha256": "32eddfbd813c69138850344ff0f141a1b07c3716ef11bb113cf10c254f66a296"
+    },
+    "heedb_prediction_cache": {
+      "bytes": 1440128,
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy",
+      "sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b"
+    },
+    "heedb_protocol": {
+      "bytes": 65,
+      "path": "outputs/heedb_independent_confirmation_v1/FROZEN_PROTOCOL_SHA256.txt",
+      "sha256": "2654e33bf3e9fddd8108e53e76065f223a9313bb6e78eb9ac47d42667f89ec09"
+    },
+    "heedb_run_provenance": {
+      "bytes": 2845,
+      "path": "outputs/heedb_independent_confirmation_v1/RUN_PROVENANCE.json",
+      "sha256": "38ef927960ce4bdf75e7887eab6cf9801bb90caaa96823db48e7c4ba5118ffec"
+    },
+    "heedb_selection": {
+      "bytes": 1717878,
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/selection_initial.csv",
+      "sha256": "7af9986691871d57df5699e270b3cf4442bf5a733536356155a87094bac09de4"
+    },
+    "heedb_signal_cache": {
+      "bytes": 2400000128,
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/signals_10000_float32.npy",
+      "sha256": "c961d7ed720f60ed92522285bf6145fda2d461bc620bc86f7af718b8e356e3c5"
+    },
+    "ningbo_cohort": {
+      "bytes": 8970998,
+      "path": "outputs/ningbo_confirmation_v2/SPLIT_MEMBERSHIP.json",
+      "sha256": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388"
+    },
+    "ningbo_protocol": {
+      "bytes": 175,
+      "path": "outputs/ningbo_confirmation_v2/FROZEN_PROTOCOL_HASH.json",
+      "sha256": "62ce9176da5de3e216a527ad8284e4db5b62f6f8f5356716f763e838fed16cd2"
+    },
+    "ordinary_val/104729": {
+      "bytes": 24196,
+      "path": "outputs/ningbo_confirmation_v2/seed_104729/validation.npz",
+      "sha256": "63a2627320b1d7bfecd11f7cb7e264f8ddd6e7b41406d80f69d37bcc3b4f3fb9"
+    },
+    "ordinary_val/130363": {
+      "bytes": 24777,
+      "path": "outputs/ningbo_confirmation_v2/seed_130363/validation.npz",
+      "sha256": "dd408f673574ab4a0bd925c88a4a08134a206799397fc80b25757e667160458c"
+    },
+    "ordinary_val/155921": {
+      "bytes": 25042,
+      "path": "outputs/ningbo_confirmation_v2/seed_155921/validation.npz",
+      "sha256": "2e7c6c805633e99460e98aa9ce8c92a75e3441691fdc4a63ffe85431c2e3b680"
+    },
+    "physics_aware_12lead/104729/RA_LL_reversal": {
+      "bytes": 46902,
+      "path": "outputs/chest_only_baseline_v1/comparators/Ningbo/physics_aware_12lead/seed_104729/RA_LL_reversal.npz",
+      "sha256": "98e7cb39d274973ce99a55b34caba61114e42c6f9339a49af5e2b9f80bdca776"
+    },
+    "physics_aware_12lead/104729/clean": {
+      "bytes": 46780,
+      "path": "outputs/chest_only_baseline_v1/comparators/Ningbo/physics_aware_12lead/seed_104729/clean.npz",
+      "sha256": "3058de96db8afb851a35cb921156e08cc59027608804cb80c2bd5efce549ecd8"
+    },
+    "physics_aware_12lead/130363/RA_LL_reversal": {
+      "bytes": 47598,
+      "path": "outputs/chest_only_baseline_v1/comparators/Ningbo/physics_aware_12lead/seed_130363/RA_LL_reversal.npz",
+      "sha256": "b0cfbfa39f7a59c0b170340a710714bfe14566d40a9869b3f61a8de8a9bcdea5"
+    },
+    "physics_aware_12lead/130363/clean": {
+      "bytes": 47544,
+      "path": "outputs/chest_only_baseline_v1/comparators/Ningbo/physics_aware_12lead/seed_130363/clean.npz",
+      "sha256": "3fe4c168e05d8671c7fb79dd32b58ffd34de44163e7558fccda9bea020ed6011"
+    },
+    "physics_aware_12lead/155921/RA_LL_reversal": {
+      "bytes": 48905,
+      "path": "outputs/chest_only_baseline_v1/comparators/Ningbo/physics_aware_12lead/seed_155921/RA_LL_reversal.npz",
+      "sha256": "b073b4031f762e3543d30b4b324557594db4c607ad1e7fbcdfecc61355a73223"
+    },
+    "physics_aware_12lead/155921/clean": {
+      "bytes": 48662,
+      "path": "outputs/chest_only_baseline_v1/comparators/Ningbo/physics_aware_12lead/seed_155921/clean.npz",
+      "sha256": "249d55ab148ee033d1bdd1b72aab5758455bf7bf1e9013889dd1ba09262a2dd7"
+    },
+    "physics_val/104729": {
+      "bytes": 24056,
+      "path": "outputs/mitigation_m2_ningbo_v1/seed_104729/validation.npz",
+      "sha256": "36e25a4796279dbf379525a721200536db3488cd4bc258ea1d715056371ca03c"
+    },
+    "physics_val/130363": {
+      "bytes": 24508,
+      "path": "outputs/mitigation_m2_ningbo_v1/seed_130363/validation.npz",
+      "sha256": "ca0c2f953bb260ff4a4d25b75b281db1ac0756d15d884274f364ecd871d02d74"
+    },
+    "physics_val/155921": {
+      "bytes": 25123,
+      "path": "outputs/mitigation_m2_ningbo_v1/seed_155921/validation.npz",
+      "sha256": "ee0aea6549b86fceb6504a63e0b2709a64e729c1326aebaf79f6f83134cc417e"
+    }
+  },
+  "methods": [
+    "ordinary_resnet",
+    "physics_aware_resnet",
+    "chest_only_resnet",
+    "huang_pipeline"
+  ],
+  "mixture": "For each record, clean and exact RA–LL reversal score/label copies receive weights 1-q and q; assign fault independently of labels and patients; this is an explicitly hypothetical scenario, not measured prevalence.",
+  "preexisting_positioning_correction": {
+    "Cao": "direct full-PDF access failed; indexed text was used; retain limitation",
+    "HEEDB": "external relative to Chinese training sources; same Emory source across cohorts, not two external centers",
+    "integrated_deployment_v4": "warm batch-1 CPU request-to-response median 10.59ms physics-aware vs 31.51ms integrated Huang chain (2.97×) on documented matched fixture, 7 runs; implementation/hardware/workload-specific only"
+  },
+  "primary_endpoint": "TWA",
+  "primary_source": "Ningbo; same split and canonical test records as prior Ningbo confirmation",
+  "q_fault_scenarios": [
+    0.0,
+    0.001,
+    0.005,
+    0.01,
+    0.05,
+    0.1,
+    1.0
+  ],
+  "scope_limits": [
+    "No diagnostic model training",
+    "No downloads",
+    "No new latency benchmark",
+    "No reserved_test evaluation",
+    "No clinical cost or utility assignment"
+  ],
+  "secondary_endpoints": [
+    "SB",
+    "STach"
+  ],
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "status": "FROZEN_BEFORE_NEW_CHEST_HEEDB_INFERENCE_AND_CALIBRATION",
+  "title": "Mostly-clean RA-LL simulated-fault mixtures and source-validation-only calibration",
+  "validation_split": {
+    "A_fraction": 0.5,
+    "B_fraction": 0.5,
+    "indices_artifact": "calibration_split_indices.npz",
+    "model_selection_caveat": "checkpoints were historically selected using the full validation set; A/B does not remove that selection dependence",
+    "seed": 20261017,
+    "sha256": "6dd8733b6ac0102ce66600ea1dff9a205db4a73d11af1af4c521656a72a471ec",
+    "stratification": "joint three-label binary combination",
+    "unit": "existing Ningbo validation record"
+  }
+}

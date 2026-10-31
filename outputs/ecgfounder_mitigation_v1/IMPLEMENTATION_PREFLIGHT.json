@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "implementation-only preflight; synthetic metric arrays; no ECG test predictions/outcomes",
+  "compiled_python_files": [
+    "outputs/ecgfounder_mitigation_v1/engineering_pilot.py",
+    "outputs/ecgfounder_mitigation_v1/freeze_mitigation_protocol.py",
+    "outputs/ecgfounder_mitigation_v1/run_mitigation.py"
+  ],
+  "bootstrap_synthetic_max_abs_error": {
+    "auprc": 1.1102230246251565e-16,
+    "auroc": 1.1102230246251565e-16,
+    "brier": 1.6653345369377348e-16
+  },
+  "method_settings_bound_in_protocol": true,
+  "source_sha256": {
+    "outputs/ecgfounder_mitigation_v1/engineering_pilot.py": "c8a16426fd5b2c86f7573166700385ac4bfb35c23c3743ad6f3960f625dbb59c",
+    "outputs/ecgfounder_mitigation_v1/freeze_mitigation_protocol.py": "69804f00924aa51f476969b1431ecfaba410507975e80339de1b589b0f18925d",
+    "outputs/ecgfounder_mitigation_v1/run_mitigation.py": "2bf5aa9f87197fefd52b8b84b0ee6c125bd02f941e3d3a3fabd6db2b170e55f3"
+  }
+}

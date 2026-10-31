@@ -1,0 +1,66 @@
+{
+  "created_utc": "2026-09-22T19:52:40.678575+00:00",
+  "hardware": {
+    "cpu": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+    "logical_processors": 16,
+    "machine": "AMD64",
+    "os": "Windows-11-10.0.26200-SP0",
+    "total_physical_memory_bytes": 33598517248
+  },
+  "huang_detect_correct_clean_resnet": {
+    "clean_resnet_loading_ms": 3647.6037,
+    "conservative_combined_incremental_peak_working_set_bytes": 699441152,
+    "conservative_combined_peak_working_set_bytes": 1009815552,
+    "correction_and_diagnostic_component_latency": {
+      "maximum_ms": 36.3984,
+      "median_ms": 11.593,
+      "minimum_ms": 9.1754,
+      "n": 128,
+      "p95_ms": 15.692965
+    },
+    "detector_component_latency": {
+      "maximum_ms": 91.7744,
+      "median_ms": 21.810499999999998,
+      "minimum_ms": 17.4983,
+      "n": 128,
+      "p95_ms": 24.71168
+    },
+    "detector_loading_ms": 4541.0565,
+    "latency": {
+      "maximum_ms": 103.2239,
+      "median_ms": 34.043899999999994,
+      "minimum_ms": 28.4061,
+      "n": 128,
+      "p95_ms": 40.17644999999999
+    },
+    "model_artifact_bytes": 3992128,
+    "model_parameter_bytes": 3901436,
+    "one_time_loading_ms": 8188.6602
+  },
+  "method": {
+    "batch_size": 1,
+    "disk_io_timed": false,
+    "fixture": "128 deterministic Ningbo records, 32 per clean/RA-LA/RA-LL/LA-LL condition; balanced for measurement only, not a prevalence estimate",
+    "huang_aggregation": "record-matched sum of detector and correction-plus-clean-ResNet component latencies",
+    "logical_cpu_index": 0,
+    "memory": "Windows GetProcessMemoryInfo peak working set; Huang total is conservative sum of two simultaneously resident component processes",
+    "quantiles": "NumPy linear quantile",
+    "threads": 1,
+    "timing_clock": "time.perf_counter_ns",
+    "warmup": 16
+  },
+  "physics_aware": {
+    "incremental_peak_working_set_bytes": 477777920,
+    "latency": {
+      "maximum_ms": 13.8319,
+      "median_ms": 10.70825,
+      "minimum_ms": 9.089,
+      "n": 128,
+      "p95_ms": 11.934099999999999
+    },
+    "model_artifact_bytes": 3882893,
+    "model_parameter_bytes": 3867404,
+    "one_time_loading_ms": 3614.4167,
+    "peak_working_set_bytes": 644018176
+  }
+}

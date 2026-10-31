@@ -1,0 +1,8 @@
+dimension,physics_aware,huang_pipeline,source
+Clean AUPRC (TWA/SB/STach),0.6869/0.9962/0.9867,0.6754/0.9960/0.9842,../published_detector_multifault_v2/worst_fault_summary.csv
+Worst-fault AUPRC (TWA/SB/STach),0.6665/0.9954/0.9843,0.6636/0.9960/0.9780,../published_detector_multifault_v2/worst_fault_summary.csv
+Detector error,Not applicable,2.18% reversal misclassification; 1.49% clean false correction,../published_detector_multifault_v2/detector_metrics_all_faults.json
+Warm batch-1 CPU latency median/p95,10.71/11.93 ms,34.04/40.18 ms,latency_summary.json
+Peak working set,614.2 MiB,963.0 MiB (two-process sum),latency_summary.json
+Model artifacts,3.70 MiB,3.81 MiB,latency_summary.json
+Core limitation,One diagnostic model; no explicit fault label,Two runtimes/models; detector mistakes can trigger wrong correction,detector_mistake_diagnostic_errors.csv

@@ -1,0 +1,967 @@
+{
+  "date": "2026-10-19",
+  "manifest_hashes_verified": 338,
+  "protocol_fingerprint_verified": true,
+  "metric_rows_recomputed": 1368,
+  "metric_values_recomputed": 9576,
+  "metric_max_abs_errors": {
+    "auprc": 4.998224056862455e-13,
+    "auroc": 4.998224056862455e-13,
+    "brier": 4.984901380566953e-13,
+    "ece15": 4.997946501106298e-13,
+    "sensitivity": 4.990452495690079e-13,
+    "specificity": 4.99711383383783e-13,
+    "predicted_positive_fraction": 4.996558722325517e-13
+  },
+  "validation_AP_AUC_max_error": 0.0,
+  "validation_thresholds_checked": 36,
+  "all_76_prediction_label_order_model_threshold_bindings_match": true,
+  "paired_bootstrap_full_points_recomputed": 44,
+  "full_point_max_abs_error": 4.874156633860594e-13,
+  "independent_bootstrap_contrast_spots": [
+    {
+      "cohort": "Chapman",
+      "condition": "clean",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": 0.00470104014932804
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "clean",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": 0.003481260669153959
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "clean",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": 0.0020851813343001715
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "clean",
+      "metric": "auroc",
+      "replicate": 0,
+      "value": -0.004749984850391797
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "clean",
+      "metric": "auroc",
+      "replicate": 417,
+      "value": -0.00044828658852265796
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "clean",
+      "metric": "auroc",
+      "replicate": 999,
+      "value": -0.002361592512661844
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "clean",
+      "metric": "brier",
+      "replicate": 0,
+      "value": 0.002228724718133688
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "clean",
+      "metric": "brier",
+      "replicate": 417,
+      "value": 0.000847983670636071
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "clean",
+      "metric": "brier",
+      "replicate": 999,
+      "value": -0.0020800459151374038
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LA_reversal",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": 0.06840365424823251
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LA_reversal",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": 0.04258746132968257
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LA_reversal",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": 0.058781812249019204
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LA_reversal",
+      "metric": "auroc",
+      "replicate": 0,
+      "value": 0.04415709392705295
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LA_reversal",
+      "metric": "auroc",
+      "replicate": 417,
+      "value": 0.04001340486237873
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LA_reversal",
+      "metric": "auroc",
+      "replicate": 999,
+      "value": 0.033838127226394864
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LA_reversal",
+      "metric": "brier",
+      "replicate": 0,
+      "value": -0.045093269548392
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LA_reversal",
+      "metric": "brier",
+      "replicate": 417,
+      "value": -0.04420610798182906
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LA_reversal",
+      "metric": "brier",
+      "replicate": 999,
+      "value": -0.04450792484482294
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LL_reversal",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": 0.17173097208399246
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LL_reversal",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": 0.20029694143203788
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LL_reversal",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": 0.21203919037496544
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LL_reversal",
+      "metric": "auroc",
+      "replicate": 0,
+      "value": 0.17342546366864983
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LL_reversal",
+      "metric": "auroc",
+      "replicate": 417,
+      "value": 0.19857483133217102
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LL_reversal",
+      "metric": "auroc",
+      "replicate": 999,
+      "value": 0.1944733704592446
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LL_reversal",
+      "metric": "brier",
+      "replicate": 0,
+      "value": -0.29030867666879856
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LL_reversal",
+      "metric": "brier",
+      "replicate": 417,
+      "value": -0.3028263659742293
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LL_reversal",
+      "metric": "brier",
+      "replicate": 999,
+      "value": -0.303440362016181
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "LA_LL_reversal",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": 0.014456084060622673
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "LA_LL_reversal",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": 0.018959196896572956
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "LA_LL_reversal",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": 0.01327543294443656
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "LA_LL_reversal",
+      "metric": "auroc",
+      "replicate": 0,
+      "value": 0.01149868211356971
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "LA_LL_reversal",
+      "metric": "auroc",
+      "replicate": 417,
+      "value": 0.011454269027715588
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "LA_LL_reversal",
+      "metric": "auroc",
+      "replicate": 999,
+      "value": 0.0041301318523213615
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "LA_LL_reversal",
+      "metric": "brier",
+      "replicate": 0,
+      "value": -0.05632100705693648
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "LA_LL_reversal",
+      "metric": "brier",
+      "replicate": 417,
+      "value": -0.06547445886731948
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "LA_LL_reversal",
+      "metric": "brier",
+      "replicate": 999,
+      "value": -0.059672461714403734
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_120",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": 0.21048729117202314
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_120",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": 0.2291170024454876
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_120",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": 0.2052719173415319
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_120",
+      "metric": "auroc",
+      "replicate": 0,
+      "value": 0.21716820933702732
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_120",
+      "metric": "auroc",
+      "replicate": 417,
+      "value": 0.20684325878108686
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_120",
+      "metric": "auroc",
+      "replicate": 999,
+      "value": 0.18721587526767045
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_120",
+      "metric": "brier",
+      "replicate": 0,
+      "value": -0.373560902854608
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_120",
+      "metric": "brier",
+      "replicate": 417,
+      "value": -0.3754973068805658
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_120",
+      "metric": "brier",
+      "replicate": 999,
+      "value": -0.38016154977552646
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_201",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": 0.06948536294221241
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_201",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": 0.07881272061663364
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_201",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": 0.09830314008862544
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_201",
+      "metric": "auroc",
+      "replicate": 0,
+      "value": 0.06529973176129607
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_201",
+      "metric": "auroc",
+      "replicate": 417,
+      "value": 0.07399462165431969
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_201",
+      "metric": "auroc",
+      "replicate": 999,
+      "value": 0.0660603103216405
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_201",
+      "metric": "brier",
+      "replicate": 0,
+      "value": -0.04587904073700693
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_201",
+      "metric": "brier",
+      "replicate": 417,
+      "value": -0.049747293654066944
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_201",
+      "metric": "brier",
+      "replicate": 999,
+      "value": -0.04590464242882906
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": 0.030138696617685794
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": 0.027766364633290335
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": 0.013582779241097223
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "auroc",
+      "replicate": 0,
+      "value": 0.01979341631693084
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "auroc",
+      "replicate": 417,
+      "value": 0.022834188084651725
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "auroc",
+      "replicate": 999,
+      "value": 0.015381932391938302
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "brier",
+      "replicate": 0,
+      "value": -0.11432213264759873
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "brier",
+      "replicate": 417,
+      "value": -0.11445226173039962
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "brier",
+      "replicate": 999,
+      "value": -0.11848801994780632
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mean_32_mask_panel",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": 0.00800460591984021
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mean_32_mask_panel",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": 0.013506717065252591
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mean_32_mask_panel",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": 0.012058351599195749
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "clean",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": -0.021097707482326977
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "clean",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": -0.013892860274768845
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "clean",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": -0.006447578665373044
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "clean",
+      "metric": "auroc",
+      "replicate": 0,
+      "value": -0.006967147090450099
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "clean",
+      "metric": "auroc",
+      "replicate": 417,
+      "value": -0.004408592395801676
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "clean",
+      "metric": "auroc",
+      "replicate": 999,
+      "value": -0.0036199961220458876
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "clean",
+      "metric": "brier",
+      "replicate": 0,
+      "value": 0.0014344614131414541
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "clean",
+      "metric": "brier",
+      "replicate": 417,
+      "value": 1.591992330982987e-05
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "clean",
+      "metric": "brier",
+      "replicate": 999,
+      "value": 0.0008174898143313384
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LA_reversal",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": 0.14279699394206422
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LA_reversal",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": 0.15140348680430663
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LA_reversal",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": 0.15286921297747155
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LA_reversal",
+      "metric": "auroc",
+      "replicate": 0,
+      "value": 0.08707446425467398
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LA_reversal",
+      "metric": "auroc",
+      "replicate": 417,
+      "value": 0.09513972167573748
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LA_reversal",
+      "metric": "auroc",
+      "replicate": 999,
+      "value": 0.08858244037913814
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LA_reversal",
+      "metric": "brier",
+      "replicate": 0,
+      "value": -0.17846683685719855
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LA_reversal",
+      "metric": "brier",
+      "replicate": 417,
+      "value": -0.1809904757905797
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LA_reversal",
+      "metric": "brier",
+      "replicate": 999,
+      "value": -0.17452349012910837
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LL_reversal",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": 0.21833249883341974
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LL_reversal",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": 0.22172299485778624
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LL_reversal",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": 0.22240357540506717
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LL_reversal",
+      "metric": "auroc",
+      "replicate": 0,
+      "value": 0.19988271249650147
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LL_reversal",
+      "metric": "auroc",
+      "replicate": 417,
+      "value": 0.21571349866272185
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LL_reversal",
+      "metric": "auroc",
+      "replicate": 999,
+      "value": 0.20072573217844555
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LL_reversal",
+      "metric": "brier",
+      "replicate": 0,
+      "value": -0.36864552185376925
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LL_reversal",
+      "metric": "brier",
+      "replicate": 417,
+      "value": -0.3720186772815213
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LL_reversal",
+      "metric": "brier",
+      "replicate": 999,
+      "value": -0.368969522860856
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "LA_LL_reversal",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": -0.005151457891527082
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "LA_LL_reversal",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": 0.0019005957958465232
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "LA_LL_reversal",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": 0.003105248334708636
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "LA_LL_reversal",
+      "metric": "auroc",
+      "replicate": 0,
+      "value": 0.0015969936049198274
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "LA_LL_reversal",
+      "metric": "auroc",
+      "replicate": 417,
+      "value": 0.004141346451616161
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "LA_LL_reversal",
+      "metric": "auroc",
+      "replicate": 999,
+      "value": 0.0036077635053185877
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "LA_LL_reversal",
+      "metric": "brier",
+      "replicate": 0,
+      "value": -0.02431497662730886
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "LA_LL_reversal",
+      "metric": "brier",
+      "replicate": 417,
+      "value": -0.028696891132542368
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "LA_LL_reversal",
+      "metric": "brier",
+      "replicate": 999,
+      "value": -0.02436310082336458
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_120",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": 0.21942773853050265
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_120",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": 0.23625600457719234
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_120",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": 0.22056036226666711
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_120",
+      "metric": "auroc",
+      "replicate": 0,
+      "value": 0.2151630714159886
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_120",
+      "metric": "auroc",
+      "replicate": 417,
+      "value": 0.22858166954385095
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_120",
+      "metric": "auroc",
+      "replicate": 999,
+      "value": 0.22070929433145905
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_120",
+      "metric": "brier",
+      "replicate": 0,
+      "value": -0.42611007354931746
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_120",
+      "metric": "brier",
+      "replicate": 417,
+      "value": -0.43357546929934715
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_120",
+      "metric": "brier",
+      "replicate": 999,
+      "value": -0.4283342675959136
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_201",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": 0.13549511524400776
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_201",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": 0.15232518018213026
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_201",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": 0.1477101035510027
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_201",
+      "metric": "auroc",
+      "replicate": 0,
+      "value": 0.1068163670527218
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_201",
+      "metric": "auroc",
+      "replicate": 417,
+      "value": 0.11462936193609892
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_201",
+      "metric": "auroc",
+      "replicate": 999,
+      "value": 0.10461451859234339
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_201",
+      "metric": "brier",
+      "replicate": 0,
+      "value": -0.16665689685777332
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_201",
+      "metric": "brier",
+      "replicate": 417,
+      "value": -0.1674871725472807
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_201",
+      "metric": "brier",
+      "replicate": 999,
+      "value": -0.16599000696314756
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": 0.05392464072156026
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": 0.06518196555655308
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": 0.060364215477116644
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "auroc",
+      "replicate": 0,
+      "value": 0.03986338058029052
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "auroc",
+      "replicate": 417,
+      "value": 0.04317887146833077
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "auroc",
+      "replicate": 999,
+      "value": 0.04244347806772297
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "brier",
+      "replicate": 0,
+      "value": -0.11679105952616631
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "brier",
+      "replicate": 417,
+      "value": -0.11822749006138604
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_3_5",
+      "metric": "brier",
+      "replicate": 999,
+      "value": -0.12042774150488589
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mean_32_mask_panel",
+      "metric": "auprc",
+      "replicate": 0,
+      "value": -0.008387236641013639
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mean_32_mask_panel",
+      "metric": "auprc",
+      "replicate": 417,
+      "value": -0.0023940418398109894
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mean_32_mask_panel",
+      "metric": "auprc",
+      "replicate": 999,
+      "value": 0.0005454575717173058
+    }
+  ],
+  "limits": [
+    "Encoder GPU replay was not repeated.",
+    "Actual bootstrap spot differences computed for replicates 0,417,999; percentile intervals not yet independently recalculated."
+  ],
+  "independent_head_scaler_replay": {
+    "cpu_replay_tolerance": 1e-05,
+    "reason_for_tolerance": "FP32 CPU NumPy/scipy versus original CUDA linear head arithmetic; encoder feature caches unchanged",
+    "scalers_rederived_from_clean_train": [
+      "Chapman",
+      "Ningbo"
+    ],
+    "head_validation_replays": 12,
+    "validation_probability_max_error": 5.364418029785156e-07,
+    "test_head_condition_replays": 108,
+    "sample_rows_per_replay": 32,
+    "test_probability_max_error": 9.5367431640625e-07,
+    "no_encoder_or_gpu_inference": true
+  },
+  "bootstrap_algorithm_actual_contrast_checks": 132,
+  "bootstrap_algorithm_max_error_vs_independent_sklearn_contrasts": 8.881784197001252e-16
+}

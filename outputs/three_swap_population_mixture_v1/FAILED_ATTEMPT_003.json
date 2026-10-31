@@ -1,0 +1,6 @@
+{
+  "stage": "HEEDB diagnostic artifact serialization",
+  "status": "FAILED_BEFORE_WRITING_PREDICTIONS",
+  "reason": "The atomic NPZ helper positional path parameter was named p, which collided with the probability-array keyword p. No inference outcome was persisted; Ningbo and HEEDB replay gates had already passed.",
+  "scientific_scope_changed": false
+}

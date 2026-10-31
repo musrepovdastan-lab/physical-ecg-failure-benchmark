@@ -1,0 +1,20 @@
+{
+  "bootstrap_indices_sha256": "cd4c8f9d8254a0e120e97cc02056cf8f3421a23feb47d401129139fa2286a4c7",
+  "changed_contrast_draws_recomputed": true,
+  "draw_indices": [
+    0,
+    417,
+    999
+  ],
+  "max_abs_delta": 4.263256414560601e-14,
+  "q_positive_values": [
+    0.001,
+    0.005,
+    0.01,
+    0.05,
+    0.1,
+    1.0
+  ],
+  "rows": 270,
+  "status": "PASS"
+}

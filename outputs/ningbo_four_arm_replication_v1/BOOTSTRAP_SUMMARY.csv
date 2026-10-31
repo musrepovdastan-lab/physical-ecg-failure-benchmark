@@ -1,0 +1,7 @@
+contrast,endpoint,estimand,point_estimate_full_cohort,bootstrap_mean,lower95,upper95,replicates,resampling
+masking_minus_clean,TWA,clean,-0.002103101818760759,-0.002131614601239562,-0.011866296641528606,0.007554433774203062,1000,synchronized frozen Ningbo canonical-record draws
+masking_minus_clean,TWA,RA_LL_reversal,-0.013018112428800244,-0.012879091314971447,-0.019186830148100853,-0.006035182159394026,1000,synchronized frozen Ningbo canonical-record draws
+masking_minus_clean,TWA,mean_mask,0.05975472191819756,0.059746261686086655,0.050226252526044846,0.06958191841840744,1000,synchronized frozen Ningbo canonical-record draws
+combined_minus_physics_aware,TWA,clean,-0.010125683925998885,-0.010122213512659073,-0.019587043672800064,-0.0008939961553551257,1000,synchronized frozen Ningbo canonical-record draws
+combined_minus_physics_aware,TWA,RA_LL_reversal,-0.02178752437377396,-0.021958086639642715,-0.032460346817970276,-0.012160358019173145,1000,synchronized frozen Ningbo canonical-record draws
+combined_minus_physics_aware,TWA,mean_mask,0.03707008000121844,0.03688730672001839,0.028824569657444954,0.044645003974437714,1000,synchronized frozen Ningbo canonical-record draws

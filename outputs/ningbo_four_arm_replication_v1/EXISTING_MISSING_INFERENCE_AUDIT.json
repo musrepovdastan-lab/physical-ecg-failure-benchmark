@@ -1,0 +1,91 @@
+{
+  "decision": "PASS",
+  "freeze_sha256": "6224e912615382aa6b57876ab14dd8f45d95e482eb0e838483b5bafa8dd0aa5a",
+  "models_conditions": [
+    {
+      "arm": "clean",
+      "condition": "RA_LA_reversal",
+      "seed": 104729,
+      "sha256": "c38727f8549d1353eef3e8327e62dce77ba2889d36e65fbc0a69c126b7fa909a",
+      "status": "PASS"
+    },
+    {
+      "arm": "clean",
+      "condition": "LA_LL_reversal",
+      "seed": 104729,
+      "sha256": "76331719e83f33d9efc99844dc413f34625556b7381daa9b708858de5167a76d",
+      "status": "PASS"
+    },
+    {
+      "arm": "clean",
+      "condition": "RA_LA_reversal",
+      "seed": 130363,
+      "sha256": "e272cecf3db1add0adf536bd725b95d7fd3c25a47a463ca206ba3ca20729ffce",
+      "status": "PASS"
+    },
+    {
+      "arm": "clean",
+      "condition": "LA_LL_reversal",
+      "seed": 130363,
+      "sha256": "bac6a1db15f9973166d85465240e8e4e6bd713fe6c858fd9110d181ff558c74e",
+      "status": "PASS"
+    },
+    {
+      "arm": "clean",
+      "condition": "RA_LA_reversal",
+      "seed": 155921,
+      "sha256": "d08aa58011815cdc25557a4c6af4d85db32817cf0e7899ba31555ffad85f9514",
+      "status": "PASS"
+    },
+    {
+      "arm": "clean",
+      "condition": "LA_LL_reversal",
+      "seed": 155921,
+      "sha256": "b14caf8d135898ff20e8d120e4d4260f653600b4fbfe214431542deed946599a",
+      "status": "PASS"
+    },
+    {
+      "arm": "physics_aware",
+      "condition": "RA_LA_reversal",
+      "seed": 104729,
+      "sha256": "56f6f68d631bac1eca68538a09bce4c00498d87d8d285c19b199801cb6da5445",
+      "status": "PASS"
+    },
+    {
+      "arm": "physics_aware",
+      "condition": "LA_LL_reversal",
+      "seed": 104729,
+      "sha256": "51ce340781ae0fb0b257fd8cc3382c54a41e304e25b7057439242d53fda4a90b",
+      "status": "PASS"
+    },
+    {
+      "arm": "physics_aware",
+      "condition": "RA_LA_reversal",
+      "seed": 130363,
+      "sha256": "d59436823b4eddd85efa6814c19de164cf8fe33a7e3d001f15292ac4e9dda370",
+      "status": "PASS"
+    },
+    {
+      "arm": "physics_aware",
+      "condition": "LA_LL_reversal",
+      "seed": 130363,
+      "sha256": "0009d0f00cef69af4606eeb6b96d17d5e95de00c084a81912057e2b624d8bcc0",
+      "status": "PASS"
+    },
+    {
+      "arm": "physics_aware",
+      "condition": "RA_LA_reversal",
+      "seed": 155921,
+      "sha256": "69aa6020ed97dd2d466bbec8225dab87d080bb99acbe1d866f1822ba66e90690",
+      "status": "PASS"
+    },
+    {
+      "arm": "physics_aware",
+      "condition": "LA_LL_reversal",
+      "seed": 155921,
+      "sha256": "95f0faad9d5a86ad8a572db030331fbac9da28ffc3a637e9e134a578e9439971",
+      "status": "PASS"
+    }
+  ],
+  "only_missing_conditions_rerun": true
+}

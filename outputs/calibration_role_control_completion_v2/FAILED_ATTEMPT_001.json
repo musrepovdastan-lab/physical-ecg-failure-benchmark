@@ -1,0 +1,11 @@
+{
+  "attempt": 1,
+  "status": "FAILED_BEFORE_OUTPUT_FINALIZATION",
+  "date": "2026-10-20",
+  "scope": "completion bootstrap from frozen predictions only",
+  "error_type": "RuntimeError",
+  "error": "saved point contrast differs from recomputed points: Ningbo_test|RA_LL_only|q0.01|physics_aware_p050-ordinary|AP_raw",
+  "diagnosis": "Completion runner condition order was clean, RA_LL, RA_LA, LA_LL, but frozen control.py defines conditions as clean, RA_LA, RA_LL, LA_LL. RA_LL-only condition weights therefore referred to RA_LA scores in the first attempt. The independent saved-point consistency guard correctly stopped output finalization.",
+  "effects": "No files in v1 changed. No predictions/checkpoints/calibration/thresholds changed. No finalized bootstrap outputs were written. No training or inference occurred.",
+  "disposition": "Corrected only the condition order to match frozen control.py; retained all protocol memberships, q, metrics, contrasts, and draws."
+}

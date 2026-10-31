@@ -1,0 +1,12 @@
+{
+  "amendment": "004",
+  "amendment_003_sha256": "654c9b296a39f9850aba51120ba703f83af147a53e0a0e8831d5837d86154a66",
+  "data_change": false,
+  "extension_source_sha256": "5513fd30cde7dcdf3d8eacf5c393a355dfad6dfac4d7f318a9c0f3da65dcad3e",
+  "method_change": false,
+  "protocol_sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa",
+  "reason": "The first inference attempt computed the first unit but failed before saving because the atomic NPZ writer path parameter collided with the prediction array keyword. Rename the local writer parameter and rerun the incomplete unit. No predictions were persisted by the failed attempt; no metrics were calculated.",
+  "resume": "Only complete checkpoint-bound condition files may be reused; partial temporary files are not accepted.",
+  "status": "FROZEN_BEFORE_INFERENCE_RETRY",
+  "tolerance_change": false
+}\n

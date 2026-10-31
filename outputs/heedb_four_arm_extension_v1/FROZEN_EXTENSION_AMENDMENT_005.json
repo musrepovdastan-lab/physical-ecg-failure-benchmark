@@ -1,0 +1,17 @@
+{
+  "amendment": "005",
+  "amendment_004_sha256": "c75bbc26b1d71161a0114b871b5eac7e4d5918ba47d916b4ea01ad58c293709f",
+  "extension_source_sha256": "519ec1df599b6374013ed837ee514b031f17ddaa2de6bd5824938d80131ed8eb",
+  "metrics_calculated_before_this_amendment": false,
+  "new_prediction_status": "PASS",
+  "protocol_sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa",
+  "reason": "Bind analysis implementation before calculating any new HEEDB outcome metrics. Ensure paired bootstrap replicate draws are saved for audit and ranking/tie diagnostics compare raw-score order against calibrated scores. No estimand or method changes.",
+  "source_ordered_bootstrap_replay": {
+    "exact_indices_match": true,
+    "heedb_draws": 1000,
+    "indices_sha256": "cd4c8f9d8254a0e120e97cc02056cf8f3421a23feb47d401129139fa2286a4c7",
+    "ningbo_draws_discarded": 1000,
+    "rng_seed": 20261017
+  },
+  "status": "FROZEN_BEFORE_NEW_EXTERNAL_METRIC_CALCULATION"
+}\n

@@ -1,0 +1,12 @@
+{
+  "candidate_manifest_sha256": "2748459744a58d96bdf58e07130e88790e6130c450d05f8206e0a7830a5af43c",
+  "created_utc": "2026-09-24T01:22:18.474628+00:00",
+  "eligible_patient_count": 349482,
+  "initial_manifest_sha256": "68c3ab245c14a753e7492722fbc878b2b7c702fcbf007b98115197c8cac73300",
+  "initial_selected_patients": 10000,
+  "joined_recordings": 998844,
+  "missing_patient_id": 27328,
+  "missing_physician_codes_after_patient_filter": 675,
+  "readiness_sample_patients": 23,
+  "selection_seed": "heedb_external_v1|2026-09-24|label-blind|one-ecg-per-patient"
+}

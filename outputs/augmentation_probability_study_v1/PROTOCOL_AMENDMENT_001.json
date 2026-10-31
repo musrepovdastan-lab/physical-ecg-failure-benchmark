@@ -1,0 +1,12 @@
+{
+  "amendment": "PROTOCOL_AMENDMENT_001",
+  "execution_order_change": {
+    "from": "train both cohorts, then evaluate both",
+    "to": "train and evaluate Chapman, then train and evaluate Ningbo"
+  },
+  "issued_before_new_training_and_test_inference": true,
+  "method_changes": [],
+  "previous_protocol_sha256": "fb3d8c8f1bfc31b767733acae0ed56c6814940f516257b30ff0b754d876013cd",
+  "reason": "Align execution staging with the request: complete six Chapman trainings, freeze and evaluate Chapman, then start the six Ningbo trainings under the already frozen recipe.",
+  "scientific_recipe_changed": false
+}

@@ -1,0 +1,1 @@
+Five-channel masking is consequence-count matched only: reversals transform five limb channels, whereas masks remove five channels. It is not a claim of equal corruption magnitude or clinical severity. All Chapman v6 comparisons are exploratory because Chapman outcomes were previously inspected.

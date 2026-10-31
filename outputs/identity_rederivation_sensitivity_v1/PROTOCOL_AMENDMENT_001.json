@@ -1,0 +1,17 @@
+{
+    "reason":  "The first 32-record replay minibatch produced max probability deltas 1.83e-4 to 4.88e-4. Historical heldout inference used batch 128 with CUDA float16 autocast. The replay is amended to execute the original first batch of 128 and compare its first 32 outputs, retaining the frozen 1e-4 tolerance and same records/models/conditions.",
+    "prior_protocol_sha256":  "c7652e1604ef445c89453cd84b2022ddf687c8e409c31ce2911828a4dcb8fc81",
+    "amendment":  "001",
+    "created_utc":  "2026-10-19T14:47:04.3939483Z",
+    "method_changes":  [
+                           "replay processing batch changed from 32 to the original 128",
+                           "comparison remains exactly first 32 records",
+                           "no score threshold, model, data, metric or tolerance change"
+                       ],
+    "preserved_failed_attempt":  {
+                                     "source_script_path":  "outputs/identity_rederivation_sensitivity_v1/run_identity_sensitivity_batch32_attempt.py",
+                                     "path":  "outputs/identity_rederivation_sensitivity_v1/REPLAY_AUDIT_ATTEMPT_BATCH32.json",
+                                     "sha256":  "1213f687a7253665553ca7ca64aeb91daa1e94bcc49e26c7ddaac626b1590f9a",
+                                     "source_script_sha256":  "157fbb67e9154b5863aa121ea9b6bef2f21960a072281f066c69277c9764e3a6"
+                                 }
+}

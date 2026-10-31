@@ -1,0 +1,775 @@
+{
+  "calibration_split_file": "outputs/mixed_fault_calibration_v1/calibration_split_indices.npz",
+  "calibration_split_sha256": "6dd8733b6ac0102ce66600ea1dff9a205db4a73d11af1af4c521656a72a471ec",
+  "new_fits": {
+    "physics_p010/104729": {
+      "fit_split": "A from outputs/mixed_fault_calibration_v1/calibration_split_indices.npz",
+      "threshold_split": "B from the same frozen file",
+      "A_indices_sha256": "3091269c8b83e84dd6126d1422cd9aa59fc3eaf7ef228bf36f6e2bd05ae54468",
+      "B_indices_sha256": "622951f860f4d725c9bd4d690134f21d64dc5326f3d09e9bb3554e12c068c210",
+      "validation_order_ids_sha256": "1358f4a91d8fd08c47aa35ebf9f2ac8b52cbf64121844848e0f33aab2930fd7c",
+      "A_fit_rows": 1744,
+      "B_threshold_rows": 1744,
+      "calibration_fits": [
+        {
+          "endpoint": "TWA",
+          "a": 1.0359543674681293,
+          "b": -1.3431024426646452,
+          "optimizer": {
+            "success": true,
+            "iterations": 8,
+            "loss": 0.25296111527505555,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 258,
+          "threshold_raw_on_B_negative": 0.633056640625,
+          "threshold_calibrated_transform_of_raw": 0.314720412533028
+        },
+        {
+          "endpoint": "SB",
+          "a": 1.1508832285448793,
+          "b": -0.08689507235668598,
+          "optimizer": {
+            "success": true,
+            "iterations": 8,
+            "loss": 0.05349455849679626,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 633,
+          "threshold_raw_on_B_negative": 0.00908660888671875,
+          "threshold_calibrated_transform_of_raw": 0.004124661276817239
+        },
+        {
+          "endpoint": "STach",
+          "a": 1.1640462841994144,
+          "b": -1.5846759264406243,
+          "optimizer": {
+            "success": true,
+            "iterations": 11,
+            "loss": 0.0392073466148188,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 284,
+          "threshold_raw_on_B_negative": 0.05732421875000006,
+          "threshold_calibrated_transform_of_raw": 0.007813914671138702
+        }
+      ],
+      "fit_formula": "a=exp(theta[0]) > 0; g(p)=expit(a*logit(clip(p,1e-6,1-1e-6))+b)",
+      "optimization": {
+        "method": "L-BFGS-B",
+        "initial_theta": [
+          0.0,
+          0.0
+        ],
+        "bounds_theta0": [
+          -12,
+          12
+        ],
+        "bounds_b": [
+          -30,
+          30
+        ],
+        "maxiter": 2000,
+        "ftol": 1e-13,
+        "gtol": 1e-08,
+        "maxls": 50
+      },
+      "full_validation_used_for_checkpoint_selection_before_A_B_split": true
+    },
+    "physics_p010/130363": {
+      "fit_split": "A from outputs/mixed_fault_calibration_v1/calibration_split_indices.npz",
+      "threshold_split": "B from the same frozen file",
+      "A_indices_sha256": "3091269c8b83e84dd6126d1422cd9aa59fc3eaf7ef228bf36f6e2bd05ae54468",
+      "B_indices_sha256": "622951f860f4d725c9bd4d690134f21d64dc5326f3d09e9bb3554e12c068c210",
+      "validation_order_ids_sha256": "1358f4a91d8fd08c47aa35ebf9f2ac8b52cbf64121844848e0f33aab2930fd7c",
+      "A_fit_rows": 1744,
+      "B_threshold_rows": 1744,
+      "calibration_fits": [
+        {
+          "endpoint": "TWA",
+          "a": 0.6936004665034393,
+          "b": -1.2724802132868935,
+          "optimizer": {
+            "success": true,
+            "iterations": 7,
+            "loss": 0.24491023784934166,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 258,
+          "threshold_raw_on_B_negative": 0.6943359375,
+          "threshold_calibrated_transform_of_raw": 0.33105831159515026
+        },
+        {
+          "endpoint": "SB",
+          "a": 1.2258000975839816,
+          "b": -0.10346969780046673,
+          "optimizer": {
+            "success": true,
+            "iterations": 9,
+            "loss": 0.03786606531391417,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 633,
+          "threshold_raw_on_B_negative": 0.006389617919921875,
+          "threshold_calibrated_transform_of_raw": 0.0018519192329053801
+        },
+        {
+          "endpoint": "STach",
+          "a": 1.2688476161539664,
+          "b": -2.559620537251458,
+          "optimizer": {
+            "success": true,
+            "iterations": 10,
+            "loss": 0.032098954013610355,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 284,
+          "threshold_raw_on_B_negative": 0.047494506835937596,
+          "threshold_calibrated_transform_of_raw": 0.0017190944412505624
+        }
+      ],
+      "fit_formula": "a=exp(theta[0]) > 0; g(p)=expit(a*logit(clip(p,1e-6,1-1e-6))+b)",
+      "optimization": {
+        "method": "L-BFGS-B",
+        "initial_theta": [
+          0.0,
+          0.0
+        ],
+        "bounds_theta0": [
+          -12,
+          12
+        ],
+        "bounds_b": [
+          -30,
+          30
+        ],
+        "maxiter": 2000,
+        "ftol": 1e-13,
+        "gtol": 1e-08,
+        "maxls": 50
+      },
+      "full_validation_used_for_checkpoint_selection_before_A_B_split": true
+    },
+    "physics_p010/155921": {
+      "fit_split": "A from outputs/mixed_fault_calibration_v1/calibration_split_indices.npz",
+      "threshold_split": "B from the same frozen file",
+      "A_indices_sha256": "3091269c8b83e84dd6126d1422cd9aa59fc3eaf7ef228bf36f6e2bd05ae54468",
+      "B_indices_sha256": "622951f860f4d725c9bd4d690134f21d64dc5326f3d09e9bb3554e12c068c210",
+      "validation_order_ids_sha256": "1358f4a91d8fd08c47aa35ebf9f2ac8b52cbf64121844848e0f33aab2930fd7c",
+      "A_fit_rows": 1744,
+      "B_threshold_rows": 1744,
+      "calibration_fits": [
+        {
+          "endpoint": "TWA",
+          "a": 0.7534496093140725,
+          "b": -0.9535459915867812,
+          "optimizer": {
+            "success": true,
+            "iterations": 7,
+            "loss": 0.24891700435371286,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 258,
+          "threshold_raw_on_B_negative": 0.612548828125,
+          "threshold_calibrated_transform_of_raw": 0.35241586345655374
+        },
+        {
+          "endpoint": "SB",
+          "a": 1.1316543102813847,
+          "b": -0.9161499374570938,
+          "optimizer": {
+            "success": true,
+            "iterations": 6,
+            "loss": 0.0452448425439295,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 633,
+          "threshold_raw_on_B_negative": 0.01056671142578125,
+          "threshold_calibrated_transform_of_raw": 0.0023447982784738967
+        },
+        {
+          "endpoint": "STach",
+          "a": 1.2621845660116022,
+          "b": -1.8002486273829328,
+          "optimizer": {
+            "success": true,
+            "iterations": 8,
+            "loss": 0.036941639078134865,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 284,
+          "threshold_raw_on_B_negative": 0.07612915039062502,
+          "threshold_calibrated_transform_of_raw": 0.00702772762273493
+        }
+      ],
+      "fit_formula": "a=exp(theta[0]) > 0; g(p)=expit(a*logit(clip(p,1e-6,1-1e-6))+b)",
+      "optimization": {
+        "method": "L-BFGS-B",
+        "initial_theta": [
+          0.0,
+          0.0
+        ],
+        "bounds_theta0": [
+          -12,
+          12
+        ],
+        "bounds_b": [
+          -30,
+          30
+        ],
+        "maxiter": 2000,
+        "ftol": 1e-13,
+        "gtol": 1e-08,
+        "maxls": 50
+      },
+      "full_validation_used_for_checkpoint_selection_before_A_B_split": true
+    },
+    "physics_p025/104729": {
+      "fit_split": "A from outputs/mixed_fault_calibration_v1/calibration_split_indices.npz",
+      "threshold_split": "B from the same frozen file",
+      "A_indices_sha256": "3091269c8b83e84dd6126d1422cd9aa59fc3eaf7ef228bf36f6e2bd05ae54468",
+      "B_indices_sha256": "622951f860f4d725c9bd4d690134f21d64dc5326f3d09e9bb3554e12c068c210",
+      "validation_order_ids_sha256": "1358f4a91d8fd08c47aa35ebf9f2ac8b52cbf64121844848e0f33aab2930fd7c",
+      "A_fit_rows": 1744,
+      "B_threshold_rows": 1744,
+      "calibration_fits": [
+        {
+          "endpoint": "TWA",
+          "a": 1.0440521901923938,
+          "b": -1.175164898848864,
+          "optimizer": {
+            "success": true,
+            "iterations": 8,
+            "loss": 0.2549164287795156,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 258,
+          "threshold_raw_on_B_negative": 0.59619140625,
+          "threshold_calibrated_transform_of_raw": 0.31682954696820265
+        },
+        {
+          "endpoint": "SB",
+          "a": 1.188635825805795,
+          "b": -2.102948013412221,
+          "optimizer": {
+            "success": true,
+            "iterations": 10,
+            "loss": 0.04626600062300068,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 633,
+          "threshold_raw_on_B_negative": 0.036773681640625,
+          "threshold_calibrated_transform_of_raw": 0.002511287125768395
+        },
+        {
+          "endpoint": "STach",
+          "a": 1.02241592508834,
+          "b": -0.25453898308588213,
+          "optimizer": {
+            "success": true,
+            "iterations": 7,
+            "loss": 0.04354323120319388,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 284,
+          "threshold_raw_on_B_negative": 0.014862823486328157,
+          "threshold_calibrated_transform_of_raw": 0.010534936871891262
+        }
+      ],
+      "fit_formula": "a=exp(theta[0]) > 0; g(p)=expit(a*logit(clip(p,1e-6,1-1e-6))+b)",
+      "optimization": {
+        "method": "L-BFGS-B",
+        "initial_theta": [
+          0.0,
+          0.0
+        ],
+        "bounds_theta0": [
+          -12,
+          12
+        ],
+        "bounds_b": [
+          -30,
+          30
+        ],
+        "maxiter": 2000,
+        "ftol": 1e-13,
+        "gtol": 1e-08,
+        "maxls": 50
+      },
+      "full_validation_used_for_checkpoint_selection_before_A_B_split": true
+    },
+    "physics_p025/130363": {
+      "fit_split": "A from outputs/mixed_fault_calibration_v1/calibration_split_indices.npz",
+      "threshold_split": "B from the same frozen file",
+      "A_indices_sha256": "3091269c8b83e84dd6126d1422cd9aa59fc3eaf7ef228bf36f6e2bd05ae54468",
+      "B_indices_sha256": "622951f860f4d725c9bd4d690134f21d64dc5326f3d09e9bb3554e12c068c210",
+      "validation_order_ids_sha256": "1358f4a91d8fd08c47aa35ebf9f2ac8b52cbf64121844848e0f33aab2930fd7c",
+      "A_fit_rows": 1744,
+      "B_threshold_rows": 1744,
+      "calibration_fits": [
+        {
+          "endpoint": "TWA",
+          "a": 1.1179721860194352,
+          "b": -0.9515024514451497,
+          "optimizer": {
+            "success": true,
+            "iterations": 7,
+            "loss": 0.24810108626619054,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 258,
+          "threshold_raw_on_B_negative": 0.5947265625,
+          "threshold_calibrated_transform_of_raw": 0.37221743609878566
+        },
+        {
+          "endpoint": "SB",
+          "a": 1.1535894495203867,
+          "b": -0.24170883975027144,
+          "optimizer": {
+            "success": true,
+            "iterations": 8,
+            "loss": 0.04448020379329071,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 633,
+          "threshold_raw_on_B_negative": 0.00679779052734375,
+          "threshold_calibrated_transform_of_raw": 0.0024934609923043458
+        },
+        {
+          "endpoint": "STach",
+          "a": 1.2512478405383671,
+          "b": -1.2770605182455306,
+          "optimizer": {
+            "success": true,
+            "iterations": 8,
+            "loss": 0.03600131063688181,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 284,
+          "threshold_raw_on_B_negative": 0.030404663085937533,
+          "threshold_calibrated_transform_of_raw": 0.0036504983161867997
+        }
+      ],
+      "fit_formula": "a=exp(theta[0]) > 0; g(p)=expit(a*logit(clip(p,1e-6,1-1e-6))+b)",
+      "optimization": {
+        "method": "L-BFGS-B",
+        "initial_theta": [
+          0.0,
+          0.0
+        ],
+        "bounds_theta0": [
+          -12,
+          12
+        ],
+        "bounds_b": [
+          -30,
+          30
+        ],
+        "maxiter": 2000,
+        "ftol": 1e-13,
+        "gtol": 1e-08,
+        "maxls": 50
+      },
+      "full_validation_used_for_checkpoint_selection_before_A_B_split": true
+    },
+    "physics_p025/155921": {
+      "fit_split": "A from outputs/mixed_fault_calibration_v1/calibration_split_indices.npz",
+      "threshold_split": "B from the same frozen file",
+      "A_indices_sha256": "3091269c8b83e84dd6126d1422cd9aa59fc3eaf7ef228bf36f6e2bd05ae54468",
+      "B_indices_sha256": "622951f860f4d725c9bd4d690134f21d64dc5326f3d09e9bb3554e12c068c210",
+      "validation_order_ids_sha256": "1358f4a91d8fd08c47aa35ebf9f2ac8b52cbf64121844848e0f33aab2930fd7c",
+      "A_fit_rows": 1744,
+      "B_threshold_rows": 1744,
+      "calibration_fits": [
+        {
+          "endpoint": "TWA",
+          "a": 0.7263853866507705,
+          "b": -1.0998654767096814,
+          "optimizer": {
+            "success": true,
+            "iterations": 7,
+            "loss": 0.23724127419799126,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 258,
+          "threshold_raw_on_B_negative": 0.657958984375,
+          "threshold_calibrated_transform_of_raw": 0.34872337570819134
+        },
+        {
+          "endpoint": "SB",
+          "a": 0.9433874799666437,
+          "b": -0.8578856513912507,
+          "optimizer": {
+            "success": true,
+            "iterations": 8,
+            "loss": 0.04451749731146277,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 633,
+          "threshold_raw_on_B_negative": 0.008544921875,
+          "threshold_calibrated_transform_of_raw": 0.004760667019073501
+        },
+        {
+          "endpoint": "STach",
+          "a": 0.9483279078454849,
+          "b": -1.4379634980411673,
+          "optimizer": {
+            "success": true,
+            "iterations": 9,
+            "loss": 0.035645682328541636,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+          },
+          "fit_rows": 1744,
+          "fit_positive_count": 284,
+          "threshold_raw_on_B_negative": 0.009097290039062515,
+          "threshold_calibrated_transform_of_raw": 0.0027697403637899987
+        }
+      ],
+      "fit_formula": "a=exp(theta[0]) > 0; g(p)=expit(a*logit(clip(p,1e-6,1-1e-6))+b)",
+      "optimization": {
+        "method": "L-BFGS-B",
+        "initial_theta": [
+          0.0,
+          0.0
+        ],
+        "bounds_theta0": [
+          -12,
+          12
+        ],
+        "bounds_b": [
+          -30,
+          30
+        ],
+        "maxiter": 2000,
+        "ftol": 1e-13,
+        "gtol": 1e-08,
+        "maxls": 50
+      },
+      "full_validation_used_for_checkpoint_selection_before_A_B_split": true
+    }
+  },
+  "threshold_decision_audit": [
+    {
+      "arm": "physics_p010",
+      "seed": 104729,
+      "endpoint": "TWA",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 0,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 0,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 0,
+      "clean_clipped_high": 0,
+      "fault_clipped_low": 0,
+      "fault_clipped_high": 0,
+      "positive_slope_a": 1.0359543674681293
+    },
+    {
+      "arm": "physics_p010",
+      "seed": 104729,
+      "endpoint": "SB",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 1,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 1,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 202,
+      "clean_clipped_high": 3,
+      "fault_clipped_low": 398,
+      "fault_clipped_high": 1,
+      "positive_slope_a": 1.1508832285448793
+    },
+    {
+      "arm": "physics_p010",
+      "seed": 104729,
+      "endpoint": "STach",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 0,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 0,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 0,
+      "clean_clipped_high": 62,
+      "fault_clipped_low": 0,
+      "fault_clipped_high": 2,
+      "positive_slope_a": 1.1640462841994144
+    },
+    {
+      "arm": "physics_p010",
+      "seed": 130363,
+      "endpoint": "TWA",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 0,
+      "raw_fault_ties_at_threshold": 1,
+      "cal_clean_ties_at_threshold": 0,
+      "cal_fault_ties_at_threshold": 1,
+      "clean_clipped_low": 0,
+      "clean_clipped_high": 0,
+      "fault_clipped_low": 0,
+      "fault_clipped_high": 0,
+      "positive_slope_a": 0.6936004665034393
+    },
+    {
+      "arm": "physics_p010",
+      "seed": 130363,
+      "endpoint": "SB",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 1,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 1,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 564,
+      "clean_clipped_high": 86,
+      "fault_clipped_low": 606,
+      "fault_clipped_high": 56,
+      "positive_slope_a": 1.2258000975839816
+    },
+    {
+      "arm": "physics_p010",
+      "seed": 130363,
+      "endpoint": "STach",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 0,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 0,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 0,
+      "clean_clipped_high": 230,
+      "fault_clipped_low": 0,
+      "fault_clipped_high": 111,
+      "positive_slope_a": 1.2688476161539664
+    },
+    {
+      "arm": "physics_p010",
+      "seed": 155921,
+      "endpoint": "TWA",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 0,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 0,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 0,
+      "clean_clipped_high": 0,
+      "fault_clipped_low": 0,
+      "fault_clipped_high": 0,
+      "positive_slope_a": 0.7534496093140725
+    },
+    {
+      "arm": "physics_p010",
+      "seed": 155921,
+      "endpoint": "SB",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 1,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 1,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 337,
+      "clean_clipped_high": 360,
+      "fault_clipped_low": 319,
+      "fault_clipped_high": 90,
+      "positive_slope_a": 1.1316543102813847
+    },
+    {
+      "arm": "physics_p010",
+      "seed": 155921,
+      "endpoint": "STach",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 0,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 0,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 0,
+      "clean_clipped_high": 56,
+      "fault_clipped_low": 0,
+      "fault_clipped_high": 2,
+      "positive_slope_a": 1.2621845660116022
+    },
+    {
+      "arm": "physics_p025",
+      "seed": 104729,
+      "endpoint": "TWA",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 3,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 3,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 0,
+      "clean_clipped_high": 0,
+      "fault_clipped_low": 0,
+      "fault_clipped_high": 0,
+      "positive_slope_a": 1.0440521901923938
+    },
+    {
+      "arm": "physics_p025",
+      "seed": 104729,
+      "endpoint": "SB",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 0,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 0,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 253,
+      "clean_clipped_high": 421,
+      "fault_clipped_low": 436,
+      "fault_clipped_high": 145,
+      "positive_slope_a": 1.188635825805795
+    },
+    {
+      "arm": "physics_p025",
+      "seed": 104729,
+      "endpoint": "STach",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 0,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 0,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 0,
+      "clean_clipped_high": 37,
+      "fault_clipped_low": 0,
+      "fault_clipped_high": 3,
+      "positive_slope_a": 1.02241592508834
+    },
+    {
+      "arm": "physics_p025",
+      "seed": 130363,
+      "endpoint": "TWA",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 3,
+      "raw_fault_ties_at_threshold": 5,
+      "cal_clean_ties_at_threshold": 3,
+      "cal_fault_ties_at_threshold": 5,
+      "clean_clipped_low": 0,
+      "clean_clipped_high": 0,
+      "fault_clipped_low": 0,
+      "fault_clipped_high": 0,
+      "positive_slope_a": 1.1179721860194352
+    },
+    {
+      "arm": "physics_p025",
+      "seed": 130363,
+      "endpoint": "SB",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 0,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 0,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 235,
+      "clean_clipped_high": 23,
+      "fault_clipped_low": 522,
+      "fault_clipped_high": 5,
+      "positive_slope_a": 1.1535894495203867
+    },
+    {
+      "arm": "physics_p025",
+      "seed": 130363,
+      "endpoint": "STach",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 0,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 0,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 0,
+      "clean_clipped_high": 9,
+      "fault_clipped_low": 0,
+      "fault_clipped_high": 1,
+      "positive_slope_a": 1.2512478405383671
+    },
+    {
+      "arm": "physics_p025",
+      "seed": 155921,
+      "endpoint": "TWA",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 0,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 0,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 0,
+      "clean_clipped_high": 0,
+      "fault_clipped_low": 0,
+      "fault_clipped_high": 0,
+      "positive_slope_a": 0.7263853866507705
+    },
+    {
+      "arm": "physics_p025",
+      "seed": 155921,
+      "endpoint": "SB",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 1,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 1,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 810,
+      "clean_clipped_high": 801,
+      "fault_clipped_low": 1156,
+      "fault_clipped_high": 611,
+      "positive_slope_a": 0.9433874799666437
+    },
+    {
+      "arm": "physics_p025",
+      "seed": 155921,
+      "endpoint": "STach",
+      "test_rows_both_conditions": 13962,
+      "decision_mismatches": 0,
+      "raw_clean_ties_at_threshold": 0,
+      "raw_fault_ties_at_threshold": 0,
+      "cal_clean_ties_at_threshold": 0,
+      "cal_fault_ties_at_threshold": 0,
+      "clean_clipped_low": 2,
+      "clean_clipped_high": 230,
+      "fault_clipped_low": 1,
+      "fault_clipped_high": 120,
+      "positive_slope_a": 0.9483279078454849
+    }
+  ],
+  "all_raw_and_calibrated_decisions_identical": true,
+  "decision_check_conditions": [
+    "clean",
+    "RA_LL_reversal"
+  ],
+  "q_fault": [
+    0.0,
+    0.001,
+    0.005,
+    0.01,
+    0.05,
+    0.1,
+    1.0
+  ],
+  "test_data_used_for_fit_or_threshold": false,
+  "historical_comparator_calibrators_refit": false,
+  "full_validation_checkpoint_selection_dependence": "All validation records had already influenced epoch/checkpoint selection. The subsequent A/B split is used for a consistent post-selection calibration procedure but does not make the fit/threshold statistically independent of model selection."
+}

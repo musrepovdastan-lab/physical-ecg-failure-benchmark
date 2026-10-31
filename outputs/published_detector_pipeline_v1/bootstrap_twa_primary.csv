@@ -1,0 +1,3 @@
+comparison,endpoint,mean_delta_auprc,lower95,upper95,replicates
+physics_aware_no_correction_minus_clean_resnet_no_correction,TWA,0.48363551964149326,0.4563630665418703,0.5089517524340803,1000
+huang_argmax_correct_clean_resnet_minus_clean_resnet_no_correction,TWA,0.48069776712249557,0.4537885669015943,0.506400033617488,1000

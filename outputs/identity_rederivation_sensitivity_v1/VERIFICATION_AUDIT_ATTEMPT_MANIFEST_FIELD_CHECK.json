@@ -1,0 +1,30 @@
+{
+  "bootstrap_spot_indices": [
+    0,
+    417,
+    999
+  ],
+  "counts": {
+    "binding_checks": 72,
+    "bootstrap_index_checks": 2,
+    "draw_summaries_recomputed": 342,
+    "metric_rows_recomputed": 216,
+    "metric_scalar_values_recomputed": 1080,
+    "sklearn_spot_metric_checks": 270
+  },
+  "failure_count": 1,
+  "failures": [
+    {
+      "failed": 18,
+      "kind": "historical_cache_bindings"
+    }
+  ],
+  "historical_cache_binding_audit_status": "FAIL",
+  "status": "FAIL",
+  "tolerances": {
+    "bootstrap_sklearn_spots": 5e-12,
+    "metric": 5e-13,
+    "summary": 5e-13
+  },
+  "verification_scope": "internal independent recalculation from frozen saved files; not an external audit"
+}

@@ -1,0 +1,6 @@
+{
+  "status": "PROVENANCE_MATERIALIZATION_STOPPED_BEFORE_REPLAY",
+  "reason": "The supplementary provenance writer referenced the Ningbo data root as N without defining that local alias; execution stopped before selection replay, A/B inference, test scoring, or HEEDB scoring.",
+  "existing_calibration_lock_unchanged": true,
+  "resolution": "Bind N directly to control.N and rerun only deterministic provenance/replay/A/B materialization. No fit is repeated."
+}

@@ -1,0 +1,179 @@
+{
+  "accepted_membership_snapshot_sha256": "44eac1c840443c1df315ea692d7035adb04d99d44caa36d0ef63edd95fdd4515",
+  "active_plan_snapshot_sha256": "4de069ad0ec63262b325d1333d3cc62cdabbc5046516afddf557f6eaa4af199e",
+  "calibration": {
+    "bounds": [
+      [
+        -12,
+        12
+      ],
+      [
+        -30,
+        30
+      ]
+    ],
+    "clip": [
+      1e-06,
+      0.999999
+    ],
+    "fit": "per method/seed/endpoint Platt on clean calibration_A only",
+    "fits": 36,
+    "form": "sigmoid(exp(theta0)*logit(clip(p))+b)",
+    "ftol": 1e-13,
+    "gtol": 1e-08,
+    "initial": [
+      0,
+      0
+    ],
+    "loss": "unweighted logistic",
+    "maxiter": 2000,
+    "maxls": 50,
+    "optimizer": "L-BFGS-B",
+    "threshold": "q90 of negative clean raw scores in threshold_B; numpy linear; raw score >= q90",
+    "thresholds": 36
+  },
+  "canonical_fingerprint_sha256": "ae1fc61c15eeffbdc0847c4ba69f78cf1a82ee24e5a0ca5c40e686c4ad40654a",
+  "created_utc": "2026-10-19",
+  "design": "B_NINGBO_RECORD_DISJOINT_CONTROL",
+  "future_evaluation": {
+    "bootstraps": 1000,
+    "cohorts": [
+      "previous Ningbo test",
+      "previous HEEDB I0006"
+    ],
+    "conditions": [
+      "clean",
+      "RA_LL_reversal",
+      "RA_LA_reversal",
+      "LA_LL_reversal"
+    ],
+    "equal_three_weights": "[1-q,q/3,q/3,q/3]",
+    "primary_endpoint": "TWA",
+    "q": [
+      0,
+      0.001,
+      0.005,
+      0.01,
+      0.05,
+      0.1,
+      1.0
+    ],
+    "scenarios": [
+      "RA_LL_only",
+      "equal_three_swap"
+    ],
+    "unit": {
+      "HEEDB": "patient",
+      "Ningbo": "record"
+    }
+  },
+  "historical_caveat": "HEEDB has historical access and is sensitivity control; Ningbo patient IDs absent; old-to-new difference combines checkpoint and sample-size changes.",
+  "huang": "frozen published detector; argmax class inverse applied to same incoming raw faulty waveform; corresponding new ordinary classifier; no oracle; clean correction errors retained.",
+  "independence": "Ningbo record/waveform disjoint only; patient IDs not established.",
+  "input_file_sha256": {
+    "LUNA_PROMPT_CALIBRATION_CONTROL_20261019.md": "ab970b79e04e2a30d9f691547cced2d1036376e5cfde658ad6f3080232c47025",
+    "NEXT_RESEARCH_DECISIONS_20261019.md": "4de069ad0ec63262b325d1333d3cc62cdabbc5046516afddf557f6eaa4af199e",
+    "configs/FROZEN_MITIGATION_M1_PROTOCOL_v1.json": "248976f691003daa45c5f188c53f7cf75891f19f8723223477fc41e1d65667ce",
+    "configs/FROZEN_MITIGATION_M2_NINGBO_PROTOCOL_v1.json": "2d7b605af175ef6d5b59b223a9ea37bb3f7d675c2c1ac3e27fff23fcd43e96b8",
+    "outputs/calibration_independence_preflight_v1/DRAFT_CONTROL_PROTOCOL.json": "3d8aaa22f427530612f5e88de8a55c61ead3cd0e2bd811b75c39e56df9a2e358",
+    "outputs/calibration_independence_preflight_v1/IDENTITY_AND_LEAKAGE_AUDIT.json": "c9ad384f7f9bcf2f0f3f91db6c3e0e9e8bd848479d70cdb976231820bb160e3d",
+    "outputs/calibration_independence_preflight_v1/PROPOSED_MEMBERSHIP.csv": "44eac1c840443c1df315ea692d7035adb04d99d44caa36d0ef63edd95fdd4515",
+    "outputs/calibration_independence_preflight_v1/REVIEW_NOTES_20261019.md": "b650224b2c92b9a34c87b84d6cee3ece376a1e966240f170191db48229956830",
+    "outputs/calibration_independence_preflight_v1/SPLIT_COUNTS.csv": "e37ed500813383769c1162370c7601a8bee846974f1ec2cff08ab937072d480c",
+    "outputs/calibration_role_control_v1/AMENDMENT_001.md": "30a2a9964bc72be128401b440b51a494009c024cff1d73b59402e6d651c5cb4d",
+    "outputs/calibration_role_control_v1/AMENDMENT_002.md": "61c1b044834191e8e5ce43192e56c7c63fdbc4aa793627a5222ec3d369158b23",
+    "outputs/calibration_role_control_v1/FAILED_ATTEMPT_001.json": "cb570e360bea6ab4dd47f4928804bdfbdeef56e1ea5f0b3cef654170d9bc79dd",
+    "outputs/calibration_role_control_v1/FAILED_ATTEMPT_002.json": "538afb179fe2622158bafb4ba16b9e17e258f23c517c957fe29fd56ce530270a",
+    "outputs/calibration_role_control_v1/FROZEN_EXECUTION_PROTOCOL_FAILED_001.json": "aebff9e3bf787c9aa1f4a7175b60ed60c73d92e9573faf39c5ca3c68924e24dc",
+    "outputs/calibration_role_control_v1/FROZEN_EXECUTION_PROTOCOL_FAILED_001_SHA256.txt": "6db3a0e0f151b7f3f34269f770e07935da5c706316c80598d7b0d57ae71db35f",
+    "outputs/calibration_role_control_v1/FROZEN_EXECUTION_PROTOCOL_FAILED_002.json": "c78afb4e9549dc7b00a29c58c71b87fa8ad43f00cd76005a2d1f7c75963675dd",
+    "outputs/calibration_role_control_v1/FROZEN_EXECUTION_PROTOCOL_FAILED_002_SHA256.txt": "65213ef76228fb424335310c1073fd2cbc1ae9d0a550be8a0590fbc2c4296902",
+    "outputs/mitigation_m2_ningbo_v1/seed_104729/preprocessing.npz": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+    "outputs/mitigation_m2_ningbo_v1/seed_130363/preprocessing.npz": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+    "outputs/mitigation_m2_ningbo_v1/seed_155921/preprocessing.npz": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+    "outputs/ningbo_confirmation_v2/CANONICAL_RECORDS.json": "2a217b4e01f8570fcb5e6f25feead6f04d4d490c558084c7b9ddf02389495da5",
+    "outputs/ningbo_confirmation_v2/SPLIT_LEAKAGE_PROOF.json": "07d2d7745beef3334338d62bddbc594b638d02dce8de8cdb9c07287df93e7783",
+    "outputs/ningbo_confirmation_v2/SPLIT_MEMBERSHIP.json": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388",
+    "outputs/ningbo_confirmation_v2/bootstrap_indices.npy": "6d186026b73c6a0ad31df3c20f16c6f18ad9970176e9c78b0235e6a64e1861d1",
+    "outputs/ningbo_confirmation_v2/seed_104729/preprocessing.npz": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+    "outputs/ningbo_confirmation_v2/seed_130363/preprocessing.npz": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+    "outputs/ningbo_confirmation_v2/seed_155921/preprocessing.npz": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+    "outputs/published_detector_pipeline_v1/official_source/LDenseNet_loadable/LDenseNet.data-00000-of-00001": "d40d7b9166567aa5332de96a573e792d42f87a6d79b9030f461e9d4d60430ef6",
+    "outputs/published_detector_pipeline_v1/official_source/LDenseNet_loadable/LDenseNet.index": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1",
+    "outputs/three_swap_population_mixture_recovery_v2/DETECTOR_BLOCK_REPLAY_AUDIT.json": "239afaf0f74a6083d80c1b1f2c528682283cdefe4e3e55f4df7f2923e1ac06c8",
+    "outputs/three_swap_population_mixture_recovery_v2/INPUT_HANDOFF_ENGINEERING_AUDIT.json": "8cae2a8d821bb1c6388c4a74bcf4fb40282a9b02a924efc6be35c484868a4114",
+    "outputs/three_swap_population_mixture_recovery_v2/REVIEW_NOTES_20261019.md": "bca8b82bea868ca1dfec7c3f0877fc3a3633f4d202effe8a30280c094539979e",
+    "outputs/three_swap_population_mixture_recovery_v2/recovery_inference.py": "08f3b8aa0d7e9d98d8a5f1ff39d0ec951eb15476b10f4c48f1b17b049b791d67",
+    "src/chapman_phase1.py": "8a9d4926cbd623892391af1298e03d7a5e7e23c60c1d3393b71e36ee45a16e82",
+    "src/ecg_physics.py": "51218806eec81765df6247307e70ccce56f76cfa54e54782f1b47d468014eb9c",
+    "src/heedb_huang_adapter_v1.py": "9ed599dff95b77e9f17814c90bd0b6c414e97ef5ffe5f25152a296503ae8f516",
+    "src/huang_detector_infer_v2.py": "4844a5f77d6815d877b662f20988463fb9480430523fef3baed300a5be47c05a",
+    "src/mask_semantics_recovery_v2.py": "467407691539469f8d6046ce1678a95c6cb7a7d2a802aa373533035e943821e6",
+    "src/mitigation_m2_ningbo_v1.py": "de27585a3ef0bbc29b3dc53079622f1c011001d7442b6470de2d31612d857308",
+    "src/ningbo_confirmation_v1.py": "63e78bbd30c79064e1a93b3617895dc4239157510de64bdb99407ff19521cd2a"
+  },
+  "mask": {
+    "indices_removed": 5,
+    "remaining": 7,
+    "sentinel": "unchanged train per-displayed-lead mean in raw units before normalization",
+    "space": "uniform lexicographic C(12,5)=792"
+  },
+  "membership_file_sha256": "44eac1c840443c1df315ea692d7035adb04d99d44caa36d0ef63edd95fdd4515",
+  "membership_seed": 20261019,
+  "membership_sha256_canonical": "9d3c98c60dd9ff77ae65a85f3774d797719b6e57ccea2636d38ad26172cb2fb9",
+  "models": {
+    "architecture": "ECGResNet-small",
+    "autocast": "CUDA float16 + GradScaler",
+    "batch_size": 64,
+    "epochs_max": 30,
+    "gate": {
+      "TWA_AUPRC_min": 0.45,
+      "TWA_AUROC_min": 0.75,
+      "checkpoint_replay": true,
+      "finite": true
+    },
+    "loss": "train-only pos_weight capped at 20, weighted multilabel BCE",
+    "methods": [
+      "ordinary",
+      "physics_aware_p050",
+      "combined"
+    ],
+    "n_fits": 9,
+    "optimizer": "AdamW lr=.001 wd=.0001",
+    "seeds": [
+      104729,
+      130363,
+      155921
+    ],
+    "selection": "model_selection only TWA AUPRC, patience 5, strict improvement, earliest tie"
+  },
+  "no_new_scope": [
+    "no new model family",
+    "no p-grid",
+    "no new seeds",
+    "no 792-mask evaluation",
+    "no additional endpoints",
+    "no threshold tuning"
+  ],
+  "normalization": "Reuse byte-identical existing train-only mean/std with bound exact source hashes; no validation-derived statistics.",
+  "recipes": {
+    "combined": "clean 50%; 25% one uniform five-displayed-lead mask; 25% one uniform RA_LA/RA_LL/LA_LL reversal; exclusive",
+    "ordinary": "clean 100%",
+    "physics_aware_p050": "clean 50%; 50% one uniform RA_LA/RA_LL/LA_LL reversal"
+  },
+  "roles": {
+    "HEEDB": 10000,
+    "Ningbo_test": 6981,
+    "calibration_A": 872,
+    "model_selection": 1744,
+    "threshold_B": 872,
+    "train": 24430
+  },
+  "runner_sha256": {
+    "control.py": "2b80d905ac2ac22e799a7622872f1eb5611884e68e1563f422bc698b8779a741",
+    "detector_scores.py": "89d5011c8a108113cc1af382d88bc137936004a73b609f740540135cdb1b8a39",
+    "freeze.py": "1cfd9fdcd04f7ac810c2d65956da444fd98be736b83ca97da9c959a6528bd999"
+  },
+  "scientific_question": "Whether protective method comparisons remain after separate record roles for checkpoint selection, calibration fitting, and threshold selection.",
+  "status": "FROZEN_BEFORE_TRAINING"
+}

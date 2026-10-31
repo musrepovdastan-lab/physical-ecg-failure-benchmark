@@ -1,0 +1,10 @@
+{
+  "affected_unit": "Chapman/physics_p010/seed_104729",
+  "amendment": "PROTOCOL_AMENDMENT_004",
+  "implementation_correction": "Rename the atomic NPZ path parameter so scientific arrays named p are accepted. Resume remains at the last committed complete epoch; the interrupted first epoch is replayed from the original seeded initial state.",
+  "issued_before_new_test_inference": true,
+  "observed_status": "first training epoch and clean validation computation completed, but no resume epoch commit or test inference was written",
+  "previous_protocol_sha256": "75dbd53ffe183fc8332889c88692f54030f7bf397a70fbe07909f050fc6e398a",
+  "reason": "A writer argument name collided with the probability-array keyword during validation artifact persistence. No test inference occurred and no epoch had reached the atomic resume commit.",
+  "scientific_recipe_changed": false
+}

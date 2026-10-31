@@ -1,0 +1,48 @@
+{
+  "arms": [
+    "clean-trained ResNet, no correction",
+    "physics-aware ResNet, no correction",
+    "published Huang LDenseNet detector argmax -> correction -> clean-trained ResNet"
+  ],
+  "bootstrap": {
+    "indices": "outputs/ningbo_confirmation_v2/bootstrap_indices.npy",
+    "primary": "TWA AUPRC paired differences",
+    "replicates": 1000,
+    "unit": "record"
+  },
+  "created_utc": "2026-09-22T18:02:31.654377+00:00",
+  "detector": {
+    "channels": [
+      "III",
+      "aVR",
+      "V6"
+    ],
+    "classes": [
+      "clean",
+      "RA_LA",
+      "RA_LL",
+      "LA_LL"
+    ],
+    "input_shape": [
+      1200,
+      3
+    ],
+    "local_source": "outputs\\published_detector_pipeline_v1\\official_source\\ECG_lead_check-main",
+    "policy_primary": "unmodified softmax argmax",
+    "preprocessing": "500 Hz SOS Butterworth 0.5-35 Hz order 5, resample to 1200, per-lead z-score",
+    "source": "https://github.com/wjcai/ECG_lead_check",
+    "threshold_selection": "none for primary; no validation tuning used"
+  },
+  "population": {
+    "dataset": "Ningbo frozen v2",
+    "test_records": 6981
+  },
+  "prohibited": [
+    "HEEDB",
+    "diagnostic retraining",
+    "new detector training",
+    "792-mask rerun"
+  ],
+  "status": "FROZEN_AFTER_AUDIT_AND_SMOKE_BEFORE_NINGBO_TEST_OUTCOME_ANALYSIS",
+  "version": "published_detector_pipeline_v1"
+}

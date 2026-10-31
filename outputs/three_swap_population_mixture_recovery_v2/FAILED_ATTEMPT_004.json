@@ -1,0 +1,8 @@
+{
+  "attempt": 4,
+  "stage": "full inference pre-write gate",
+  "status": "FAILED_BATCH_WRAPPER_SHAPE_ASSUMPTION",
+  "scope": "Stopped before prediction output files were written.",
+  "cause": "The frozen diagnostic_input adapter accepts one 12x5000 record, while this recovery runner passed a batch array.",
+  "resolution": "Apply the unchanged stride-5 and per-channel normalization vectorized across the batch, and assert the first normalized row equals the frozen per-record adapter output."
+}

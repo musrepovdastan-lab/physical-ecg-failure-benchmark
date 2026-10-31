@@ -1,0 +1,789 @@
+{
+  "condition_counts": {
+    "LA_LL_reversal": 32,
+    "RA_LA_reversal": 32,
+    "RA_LL_reversal": 32,
+    "clean": 32
+  },
+  "created_utc": "2026-09-22T20:40:20.987870+00:00",
+  "dtype": "float32",
+  "entries": [
+    {
+      "anonymous_record_id": "NGB-1E819D20CFB8",
+      "condition": "clean",
+      "fixture_index": 0,
+      "source_test_index": 0
+    },
+    {
+      "anonymous_record_id": "NGB-B63BACDA44A3",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 1,
+      "source_test_index": 54
+    },
+    {
+      "anonymous_record_id": "NGB-E0924B47BEFB",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 2,
+      "source_test_index": 109
+    },
+    {
+      "anonymous_record_id": "NGB-83AA9968D8A8",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 3,
+      "source_test_index": 164
+    },
+    {
+      "anonymous_record_id": "NGB-4D173B2EC78F",
+      "condition": "clean",
+      "fixture_index": 4,
+      "source_test_index": 219
+    },
+    {
+      "anonymous_record_id": "NGB-3DC830EC7CAB",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 5,
+      "source_test_index": 274
+    },
+    {
+      "anonymous_record_id": "NGB-06F230F34778",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 6,
+      "source_test_index": 329
+    },
+    {
+      "anonymous_record_id": "NGB-1E4D8200FAA2",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 7,
+      "source_test_index": 384
+    },
+    {
+      "anonymous_record_id": "NGB-AF3ACA73685B",
+      "condition": "clean",
+      "fixture_index": 8,
+      "source_test_index": 439
+    },
+    {
+      "anonymous_record_id": "NGB-CCDA9FFB3696",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 9,
+      "source_test_index": 494
+    },
+    {
+      "anonymous_record_id": "NGB-93D5D20712A5",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 10,
+      "source_test_index": 549
+    },
+    {
+      "anonymous_record_id": "NGB-19FB99DBD4BC",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 11,
+      "source_test_index": 604
+    },
+    {
+      "anonymous_record_id": "NGB-F91EBAB6B705",
+      "condition": "clean",
+      "fixture_index": 12,
+      "source_test_index": 659
+    },
+    {
+      "anonymous_record_id": "NGB-5DFE285CC8D3",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 13,
+      "source_test_index": 714
+    },
+    {
+      "anonymous_record_id": "NGB-6DBD4AA09027",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 14,
+      "source_test_index": 769
+    },
+    {
+      "anonymous_record_id": "NGB-A38436E432A0",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 15,
+      "source_test_index": 824
+    },
+    {
+      "anonymous_record_id": "NGB-C3FE3E471DA3",
+      "condition": "clean",
+      "fixture_index": 16,
+      "source_test_index": 879
+    },
+    {
+      "anonymous_record_id": "NGB-BF2F93394BB0",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 17,
+      "source_test_index": 934
+    },
+    {
+      "anonymous_record_id": "NGB-7679F4B76E44",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 18,
+      "source_test_index": 989
+    },
+    {
+      "anonymous_record_id": "NGB-FF33EA0AE68E",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 19,
+      "source_test_index": 1044
+    },
+    {
+      "anonymous_record_id": "NGB-D41A031EF91F",
+      "condition": "clean",
+      "fixture_index": 20,
+      "source_test_index": 1099
+    },
+    {
+      "anonymous_record_id": "NGB-A382BEE4626F",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 21,
+      "source_test_index": 1154
+    },
+    {
+      "anonymous_record_id": "NGB-78EC86BB44BB",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 22,
+      "source_test_index": 1209
+    },
+    {
+      "anonymous_record_id": "NGB-B22C4EC93A87",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 23,
+      "source_test_index": 1264
+    },
+    {
+      "anonymous_record_id": "NGB-4DE9859048B3",
+      "condition": "clean",
+      "fixture_index": 24,
+      "source_test_index": 1319
+    },
+    {
+      "anonymous_record_id": "NGB-BC3076376892",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 25,
+      "source_test_index": 1374
+    },
+    {
+      "anonymous_record_id": "NGB-F66C7D94F5DA",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 26,
+      "source_test_index": 1428
+    },
+    {
+      "anonymous_record_id": "NGB-7A50123215AB",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 27,
+      "source_test_index": 1483
+    },
+    {
+      "anonymous_record_id": "NGB-5BD31F39F0C1",
+      "condition": "clean",
+      "fixture_index": 28,
+      "source_test_index": 1538
+    },
+    {
+      "anonymous_record_id": "NGB-E94F89A2C4D2",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 29,
+      "source_test_index": 1593
+    },
+    {
+      "anonymous_record_id": "NGB-706FF816B0DF",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 30,
+      "source_test_index": 1648
+    },
+    {
+      "anonymous_record_id": "NGB-6A1D75DCC05A",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 31,
+      "source_test_index": 1703
+    },
+    {
+      "anonymous_record_id": "NGB-98CFB926BD72",
+      "condition": "clean",
+      "fixture_index": 32,
+      "source_test_index": 1758
+    },
+    {
+      "anonymous_record_id": "NGB-52EAF030D587",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 33,
+      "source_test_index": 1813
+    },
+    {
+      "anonymous_record_id": "NGB-544B0B4C1D48",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 34,
+      "source_test_index": 1868
+    },
+    {
+      "anonymous_record_id": "NGB-EA17A41D8C47",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 35,
+      "source_test_index": 1923
+    },
+    {
+      "anonymous_record_id": "NGB-8A60482E485E",
+      "condition": "clean",
+      "fixture_index": 36,
+      "source_test_index": 1978
+    },
+    {
+      "anonymous_record_id": "NGB-C130A1C4AF0D",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 37,
+      "source_test_index": 2033
+    },
+    {
+      "anonymous_record_id": "NGB-27393928AF78",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 38,
+      "source_test_index": 2088
+    },
+    {
+      "anonymous_record_id": "NGB-FB1B50598B60",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 39,
+      "source_test_index": 2143
+    },
+    {
+      "anonymous_record_id": "NGB-67AFC58E63B8",
+      "condition": "clean",
+      "fixture_index": 40,
+      "source_test_index": 2198
+    },
+    {
+      "anonymous_record_id": "NGB-581906852DCA",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 41,
+      "source_test_index": 2253
+    },
+    {
+      "anonymous_record_id": "NGB-29021C367435",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 42,
+      "source_test_index": 2308
+    },
+    {
+      "anonymous_record_id": "NGB-474593463B6C",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 43,
+      "source_test_index": 2363
+    },
+    {
+      "anonymous_record_id": "NGB-36065B83D3AD",
+      "condition": "clean",
+      "fixture_index": 44,
+      "source_test_index": 2418
+    },
+    {
+      "anonymous_record_id": "NGB-9033628C02C6",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 45,
+      "source_test_index": 2473
+    },
+    {
+      "anonymous_record_id": "NGB-0F391A747DC4",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 46,
+      "source_test_index": 2528
+    },
+    {
+      "anonymous_record_id": "NGB-95DBB2AF18CA",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 47,
+      "source_test_index": 2583
+    },
+    {
+      "anonymous_record_id": "NGB-458A2F3928BA",
+      "condition": "clean",
+      "fixture_index": 48,
+      "source_test_index": 2638
+    },
+    {
+      "anonymous_record_id": "NGB-313AA9AC2E13",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 49,
+      "source_test_index": 2693
+    },
+    {
+      "anonymous_record_id": "NGB-0EE9086F3DC2",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 50,
+      "source_test_index": 2748
+    },
+    {
+      "anonymous_record_id": "NGB-08D6D4A049B5",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 51,
+      "source_test_index": 2802
+    },
+    {
+      "anonymous_record_id": "NGB-A78E35A5A87A",
+      "condition": "clean",
+      "fixture_index": 52,
+      "source_test_index": 2857
+    },
+    {
+      "anonymous_record_id": "NGB-B2A305F3303B",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 53,
+      "source_test_index": 2912
+    },
+    {
+      "anonymous_record_id": "NGB-FC3BFEDA77D4",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 54,
+      "source_test_index": 2967
+    },
+    {
+      "anonymous_record_id": "NGB-12171A917147",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 55,
+      "source_test_index": 3022
+    },
+    {
+      "anonymous_record_id": "NGB-5C42DB8D43F4",
+      "condition": "clean",
+      "fixture_index": 56,
+      "source_test_index": 3077
+    },
+    {
+      "anonymous_record_id": "NGB-016D9F5A8D1F",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 57,
+      "source_test_index": 3132
+    },
+    {
+      "anonymous_record_id": "NGB-0EBD0057BD67",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 58,
+      "source_test_index": 3187
+    },
+    {
+      "anonymous_record_id": "NGB-13EDE96F69C7",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 59,
+      "source_test_index": 3242
+    },
+    {
+      "anonymous_record_id": "NGB-ED7D17138AD6",
+      "condition": "clean",
+      "fixture_index": 60,
+      "source_test_index": 3297
+    },
+    {
+      "anonymous_record_id": "NGB-376BBAB5C036",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 61,
+      "source_test_index": 3352
+    },
+    {
+      "anonymous_record_id": "NGB-C034CF82203A",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 62,
+      "source_test_index": 3407
+    },
+    {
+      "anonymous_record_id": "NGB-D258EA384492",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 63,
+      "source_test_index": 3462
+    },
+    {
+      "anonymous_record_id": "NGB-4B9AC776C99B",
+      "condition": "clean",
+      "fixture_index": 64,
+      "source_test_index": 3517
+    },
+    {
+      "anonymous_record_id": "NGB-F6C0D256C43C",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 65,
+      "source_test_index": 3572
+    },
+    {
+      "anonymous_record_id": "NGB-D243CF82456D",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 66,
+      "source_test_index": 3627
+    },
+    {
+      "anonymous_record_id": "NGB-AF1E15102FD6",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 67,
+      "source_test_index": 3682
+    },
+    {
+      "anonymous_record_id": "NGB-B34DA892BDB0",
+      "condition": "clean",
+      "fixture_index": 68,
+      "source_test_index": 3737
+    },
+    {
+      "anonymous_record_id": "NGB-7BE141067038",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 69,
+      "source_test_index": 3792
+    },
+    {
+      "anonymous_record_id": "NGB-FFA4CB1AB562",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 70,
+      "source_test_index": 3847
+    },
+    {
+      "anonymous_record_id": "NGB-B157E3D4176E",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 71,
+      "source_test_index": 3902
+    },
+    {
+      "anonymous_record_id": "NGB-0C9F5FA873F7",
+      "condition": "clean",
+      "fixture_index": 72,
+      "source_test_index": 3957
+    },
+    {
+      "anonymous_record_id": "NGB-9324D959BCAF",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 73,
+      "source_test_index": 4012
+    },
+    {
+      "anonymous_record_id": "NGB-8DB120054285",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 74,
+      "source_test_index": 4067
+    },
+    {
+      "anonymous_record_id": "NGB-64A3487D1142",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 75,
+      "source_test_index": 4122
+    },
+    {
+      "anonymous_record_id": "NGB-C527DACAEDD8",
+      "condition": "clean",
+      "fixture_index": 76,
+      "source_test_index": 4177
+    },
+    {
+      "anonymous_record_id": "NGB-785F09242CA7",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 77,
+      "source_test_index": 4231
+    },
+    {
+      "anonymous_record_id": "NGB-A19468232EFB",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 78,
+      "source_test_index": 4286
+    },
+    {
+      "anonymous_record_id": "NGB-D573AD4D5801",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 79,
+      "source_test_index": 4341
+    },
+    {
+      "anonymous_record_id": "NGB-2532621704DF",
+      "condition": "clean",
+      "fixture_index": 80,
+      "source_test_index": 4396
+    },
+    {
+      "anonymous_record_id": "NGB-846211D13EA8",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 81,
+      "source_test_index": 4451
+    },
+    {
+      "anonymous_record_id": "NGB-68ADF6BDEC01",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 82,
+      "source_test_index": 4506
+    },
+    {
+      "anonymous_record_id": "NGB-7015834CA122",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 83,
+      "source_test_index": 4561
+    },
+    {
+      "anonymous_record_id": "NGB-4362B162B159",
+      "condition": "clean",
+      "fixture_index": 84,
+      "source_test_index": 4616
+    },
+    {
+      "anonymous_record_id": "NGB-53BECC712AE7",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 85,
+      "source_test_index": 4671
+    },
+    {
+      "anonymous_record_id": "NGB-55BA36106E89",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 86,
+      "source_test_index": 4726
+    },
+    {
+      "anonymous_record_id": "NGB-981F0362DF01",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 87,
+      "source_test_index": 4781
+    },
+    {
+      "anonymous_record_id": "NGB-5CD79154BEE1",
+      "condition": "clean",
+      "fixture_index": 88,
+      "source_test_index": 4836
+    },
+    {
+      "anonymous_record_id": "NGB-ECF9ADC77D00",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 89,
+      "source_test_index": 4891
+    },
+    {
+      "anonymous_record_id": "NGB-0EE5F85FC0C7",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 90,
+      "source_test_index": 4946
+    },
+    {
+      "anonymous_record_id": "NGB-B2AC702D14E3",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 91,
+      "source_test_index": 5001
+    },
+    {
+      "anonymous_record_id": "NGB-8ECC80BE4EB5",
+      "condition": "clean",
+      "fixture_index": 92,
+      "source_test_index": 5056
+    },
+    {
+      "anonymous_record_id": "NGB-FF2DE5F5B21B",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 93,
+      "source_test_index": 5111
+    },
+    {
+      "anonymous_record_id": "NGB-0CEE6C577702",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 94,
+      "source_test_index": 5166
+    },
+    {
+      "anonymous_record_id": "NGB-D9E18E1E0436",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 95,
+      "source_test_index": 5221
+    },
+    {
+      "anonymous_record_id": "NGB-EB55D138C3B6",
+      "condition": "clean",
+      "fixture_index": 96,
+      "source_test_index": 5276
+    },
+    {
+      "anonymous_record_id": "NGB-9C09E5EBB10F",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 97,
+      "source_test_index": 5331
+    },
+    {
+      "anonymous_record_id": "NGB-B2B9F5615AD6",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 98,
+      "source_test_index": 5386
+    },
+    {
+      "anonymous_record_id": "NGB-177BF411DA5B",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 99,
+      "source_test_index": 5441
+    },
+    {
+      "anonymous_record_id": "NGB-6D222B3E4FA2",
+      "condition": "clean",
+      "fixture_index": 100,
+      "source_test_index": 5496
+    },
+    {
+      "anonymous_record_id": "NGB-777F79895438",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 101,
+      "source_test_index": 5551
+    },
+    {
+      "anonymous_record_id": "NGB-E59EB7634483",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 102,
+      "source_test_index": 5605
+    },
+    {
+      "anonymous_record_id": "NGB-A3878479F99D",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 103,
+      "source_test_index": 5660
+    },
+    {
+      "anonymous_record_id": "NGB-EBD78FACD533",
+      "condition": "clean",
+      "fixture_index": 104,
+      "source_test_index": 5715
+    },
+    {
+      "anonymous_record_id": "NGB-A03CD6CEC4A5",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 105,
+      "source_test_index": 5770
+    },
+    {
+      "anonymous_record_id": "NGB-CF96B5A02304",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 106,
+      "source_test_index": 5825
+    },
+    {
+      "anonymous_record_id": "NGB-0B57FC318BAF",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 107,
+      "source_test_index": 5880
+    },
+    {
+      "anonymous_record_id": "NGB-5363F28165BD",
+      "condition": "clean",
+      "fixture_index": 108,
+      "source_test_index": 5935
+    },
+    {
+      "anonymous_record_id": "NGB-12217C2E8108",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 109,
+      "source_test_index": 5990
+    },
+    {
+      "anonymous_record_id": "NGB-22682C62F5C2",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 110,
+      "source_test_index": 6045
+    },
+    {
+      "anonymous_record_id": "NGB-087497C9D6FF",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 111,
+      "source_test_index": 6100
+    },
+    {
+      "anonymous_record_id": "NGB-C6004AB854D8",
+      "condition": "clean",
+      "fixture_index": 112,
+      "source_test_index": 6155
+    },
+    {
+      "anonymous_record_id": "NGB-9DB295E18584",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 113,
+      "source_test_index": 6210
+    },
+    {
+      "anonymous_record_id": "NGB-493E243A50DB",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 114,
+      "source_test_index": 6265
+    },
+    {
+      "anonymous_record_id": "NGB-E2E09CC7DF83",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 115,
+      "source_test_index": 6320
+    },
+    {
+      "anonymous_record_id": "NGB-3413CE4BBF94",
+      "condition": "clean",
+      "fixture_index": 116,
+      "source_test_index": 6375
+    },
+    {
+      "anonymous_record_id": "NGB-3E7751CC0A23",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 117,
+      "source_test_index": 6430
+    },
+    {
+      "anonymous_record_id": "NGB-575F573F0FF4",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 118,
+      "source_test_index": 6485
+    },
+    {
+      "anonymous_record_id": "NGB-75C7261C4B72",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 119,
+      "source_test_index": 6540
+    },
+    {
+      "anonymous_record_id": "NGB-3A31584B7F7E",
+      "condition": "clean",
+      "fixture_index": 120,
+      "source_test_index": 6595
+    },
+    {
+      "anonymous_record_id": "NGB-9C2AF1FD5A76",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 121,
+      "source_test_index": 6650
+    },
+    {
+      "anonymous_record_id": "NGB-18AF68406A74",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 122,
+      "source_test_index": 6705
+    },
+    {
+      "anonymous_record_id": "NGB-D4EE36FEB4C3",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 123,
+      "source_test_index": 6760
+    },
+    {
+      "anonymous_record_id": "NGB-9302E2A8DBE1",
+      "condition": "clean",
+      "fixture_index": 124,
+      "source_test_index": 6815
+    },
+    {
+      "anonymous_record_id": "NGB-956180E9F576",
+      "condition": "RA_LA_reversal",
+      "fixture_index": 125,
+      "source_test_index": 6870
+    },
+    {
+      "anonymous_record_id": "NGB-2425A623D347",
+      "condition": "RA_LL_reversal",
+      "fixture_index": 126,
+      "source_test_index": 6925
+    },
+    {
+      "anonymous_record_id": "NGB-F55374B6E3F2",
+      "condition": "LA_LL_reversal",
+      "fixture_index": 127,
+      "source_test_index": 6980
+    }
+  ],
+  "fixture_sha256": "97386D31F6741D4935C64FE2081C6DC59FB2D6E192063A3477474084E42DCE3D",
+  "purpose": "balanced latency fixture only; not a clinical prevalence estimate",
+  "records": 128,
+  "selection": "np.linspace(0, 6980, 128, dtype=int), conditions cycling clean/RA-LA/RA-LL/LA-LL",
+  "shape": [
+    128,
+    12,
+    5000
+  ]
+}

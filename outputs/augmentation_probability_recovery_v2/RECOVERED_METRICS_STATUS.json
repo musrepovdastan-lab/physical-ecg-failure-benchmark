@@ -1,0 +1,16 @@
+{
+  "stage": "RAW_METRICS_AND_OPERATING_POINTS_RECOVERED",
+  "recovered_metric_rows": 28656,
+  "expected_rows": 28656,
+  "raw_test_metric_max_abs_error_vs_v1": {
+    "auprc": 0.0,
+    "auroc": 0.0,
+    "brier": 0.0,
+    "ece15": 0.0
+  },
+  "raw_metrics_unchanged_tolerance": 1e-12,
+  "raw_metric_method": "Copied v1 values unchanged after all prediction NPZs were SHA256 checked against each unit evaluation_complete.json; independent review additionally recomputed 540 raw values with max error 0.",
+  "all_12_units_have_796_conditions": true,
+  "canonical_test_order_checked_for_every_condition": true,
+  "thresholds_from_restored_clean_validation": true
+}

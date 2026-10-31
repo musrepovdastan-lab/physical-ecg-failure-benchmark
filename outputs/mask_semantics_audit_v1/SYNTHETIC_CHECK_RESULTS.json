@@ -1,0 +1,110 @@
+{
+  "check": "PASS",
+  "data": "synthetic only; shape=(12 leads, 4 samples); float64",
+  "canonical_leads": [
+    "I",
+    "II",
+    "III",
+    "aVR",
+    "aVL",
+    "aVF",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "train_mean_nonzero": true,
+  "train_std_nonzero": true,
+  "ra_ll_mask_indices": [
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
+  "ra_ll_mask_leads": [
+    "I",
+    "II",
+    "III",
+    "aVR",
+    "aVF"
+  ],
+  "expected_retained_indices": [
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "expected_retained_leads": [
+    "aVL",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "inverted_expression_changed_indices": [
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "inverted_expression_changed_leads": [
+    "aVL",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "inverted_expression_unchanged_indices": [
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
+  "intended_expression_changed_indices": [
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
+  "intended_expression_unchanged_indices": [
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "mean_sentinel_normalizes_to_zero": true,
+  "inverted_selected_signals_preserved": true,
+  "inverted_complement_replaced_by_train_mean": true,
+  "intended_selected_channels_replaced_by_train_mean": true,
+  "intended_unmasked_signals_preserved": true,
+  "panel_mask_count": 792,
+  "panel_unique_mask_count": 792,
+  "panel_unique_name_count": 792,
+  "panel_all_have_five_distinct_indices": true,
+  "source_sha256": {
+    "src/ningbo_confirmation_v1.py": "63e78bbd30c79064e1a93b3617895dc4239157510de64bdb99407ff19521cd2a",
+    "src/mitigation_m2_ningbo_v1.py": "de27585a3ef0bbc29b3dc53079622f1c011001d7442b6470de2d31612d857308",
+    "src/architecture_m3_workflow_v1.py": "598443d58b6958f5a714809a0363b43dfad62496b213a6dae244cc79e3f464ed",
+    "src/mitigation_m1_v1.py": "7f18c09b2c9a5cd9844a98275cdbb36de59c34f1d321932c73837ebbca235ebb",
+    "src/chapman_multiseed_workflow_v7.py": "48b17139c9b341cdd48b0262901ad6bd92df6106ed95978a43ae1656e6fd3e44"
+  },
+  "source_execution_note": "Expression-level check, not full evaluator invocation. Full evaluator is coupled to model/data loading and inference; its np.where expressions are reproduced above with source files hashed."
+}

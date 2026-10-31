@@ -1,0 +1,118 @@
+{
+  "aggregate_output_sha256": {
+    "AGGREGATE_CONTRASTS.csv": "5d8f31769daa82ded8e9e6d76f521ca08a774ff1efd7d28c26806f53d20b11f3",
+    "AGGREGATE_LABEL_COUNTS.json": "d3b03c1a6c7e42f35c35c811a03eda3622c293efbcd92652f5e92adcba3d7c29",
+    "AGGREGATE_RESULTS_BY_SEED.csv": "7e587124711f5c1e8a2821f176935d5d34662ba8b1298ce0d875e5634c69c06a",
+    "ENGINEERING_SMOKE.json": "3eb2aa8bcfb6de9df75b698c07e605fcef65dbe8ed3d4d03cf16ade157e54cea",
+    "HEEDB_EXTERNAL_REPORT.md": "2dff0a0424dc5acc288d3eaf555cc4567c1106b00f1364e41b7f836f667e8c55",
+    "INFERENCE_COMPLETE.json": "5b457b6130229e3ee0c752e914198b76f8024ef8c371f3e255a98958e846ce04",
+    "PAIRED_BOOTSTRAP_INTERVALS.csv": "ee2a032131a6ee93a4d37a1a9b8bf7ffbaaf657ddd71262c745cc1c0d7fa5731"
+  },
+  "completed_utc": "2026-09-24T02:02:46.804105+00:00",
+  "disk_free_bytes": 169455800320,
+  "downloaded_waveform_bytes": 1178093385,
+  "evaluation_code_sha256": "6c7186779578a91240a6137fb563f6b37a0aab1aa46b5684bf7672af76ea3450",
+  "frozen_source_hashes": {
+    "baseline_protocol": "1fe829e4357b4efde0e5f227baf5bf94e8d22d12af0959a38cee12cce1f40d71",
+    "evaluation_code": "6c7186779578a91240a6137fb563f6b37a0aab1aa46b5684bf7672af76ea3450",
+    "freeze_code": "e9dddaaa19e33f46e7a3d8ef0ee862e694aba5838ad60159a2b4badf9a42c723",
+    "m2_protocol": "2d7b605af175ef6d5b59b223a9ea37bb3f7d675c2c1ac3e27fff23fcd43e96b8",
+    "model_architecture_source": "8a9d4926cbd623892391af1298e03d7a5e7e23c60c1d3393b71e36ee45a16e82",
+    "physics_source": "51218806eec81765df6247307e70ccce56f76cfa54e54782f1b47d468014eb9c",
+    "readiness_report": "db9b928003c937ef6202024fe0842745bc7fbe8a17070f00045026c34abf8aae"
+  },
+  "models": {
+    "architecture": "src.chapman_phase1.ECGResNetSmall",
+    "baseline": {
+      "104729": {
+        "checkpoint": "outputs/ningbo_confirmation_v2/seed_104729/checkpoint.pt",
+        "checkpoint_sha256": "4ccbef0f71197f4156ac34cd742d6ab9210e4e7a6829867a137bd7fceb5ccf40",
+        "preprocessing": "outputs/ningbo_confirmation_v2/seed_104729/preprocessing.npz",
+        "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+        "thresholds": [
+          0.650341808795929,
+          0.010204315185546875,
+          0.04400634765625
+        ],
+        "validation_threshold_source": "outputs/ningbo_confirmation_v2/seed_104729/validation.npz",
+        "validation_threshold_source_sha256": "63a2627320b1d7bfecd11f7cb7e264f8ddd6e7b41406d80f69d37bcc3b4f3fb9"
+      },
+      "130363": {
+        "checkpoint": "outputs/ningbo_confirmation_v2/seed_130363/checkpoint.pt",
+        "checkpoint_sha256": "1baf5865b01456704980878a6e9ed72bb23e587636303b6a419b63c58ee0c600",
+        "preprocessing": "outputs/ningbo_confirmation_v2/seed_130363/preprocessing.npz",
+        "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+        "thresholds": [
+          0.733203113079071,
+          0.0027326582930982113,
+          0.10052490234375
+        ],
+        "validation_threshold_source": "outputs/ningbo_confirmation_v2/seed_130363/validation.npz",
+        "validation_threshold_source_sha256": "dd408f673574ab4a0bd925c88a4a08134a206799397fc80b25757e667160458c"
+      },
+      "155921": {
+        "checkpoint": "outputs/ningbo_confirmation_v2/seed_155921/checkpoint.pt",
+        "checkpoint_sha256": "9a71453fe35d94ccdc9bb05925abb6b1bedb1496c1d8105f0ede606904b35949",
+        "preprocessing": "outputs/ningbo_confirmation_v2/seed_155921/preprocessing.npz",
+        "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+        "thresholds": [
+          0.586132824420929,
+          0.04575805738568306,
+          0.039886474609375
+        ],
+        "validation_threshold_source": "outputs/ningbo_confirmation_v2/seed_155921/validation.npz",
+        "validation_threshold_source_sha256": "2e7c6c805633e99460e98aa9ce8c92a75e3441691fdc4a63ffe85431c2e3b680"
+      }
+    },
+    "label_order": [
+      "TWA",
+      "SB",
+      "STach"
+    ],
+    "physics_aware": {
+      "104729": {
+        "checkpoint": "outputs/mitigation_m2_ningbo_v1/seed_104729/checkpoint.pt",
+        "checkpoint_sha256": "5e164b3496077b49a063c75c0d712c66531c907f3ef45db62d087f4877fe8d09",
+        "preprocessing": "outputs/mitigation_m2_ningbo_v1/seed_104729/preprocessing.npz",
+        "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+        "thresholds": [
+          0.6971679925918579,
+          0.008510589599609375,
+          0.009073639288544655
+        ],
+        "validation_threshold_source": "outputs/mitigation_m2_ningbo_v1/seed_104729/validation.npz",
+        "validation_threshold_source_sha256": "36e25a4796279dbf379525a721200536db3488cd4bc258ea1d715056371ca03c"
+      },
+      "130363": {
+        "checkpoint": "outputs/mitigation_m2_ningbo_v1/seed_130363/checkpoint.pt",
+        "checkpoint_sha256": "ef347b6bd2d1cc6e4fd649d299543e78ed23efa044976ac3cf66436c0d695c8f",
+        "preprocessing": "outputs/mitigation_m2_ningbo_v1/seed_130363/preprocessing.npz",
+        "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+        "thresholds": [
+          0.562451183795929,
+          0.0056854248978197575,
+          0.011165618896484375
+        ],
+        "validation_threshold_source": "outputs/mitigation_m2_ningbo_v1/seed_130363/validation.npz",
+        "validation_threshold_source_sha256": "ca0c2f953bb260ff4a4d25b75b281db1ac0756d15d884274f364ecd871d02d74"
+      },
+      "155921": {
+        "checkpoint": "outputs/mitigation_m2_ningbo_v1/seed_155921/checkpoint.pt",
+        "checkpoint_sha256": "fd16f1df621764fd1229ed84e615f016226c00800943c064c021c9136de26eb8",
+        "preprocessing": "outputs/mitigation_m2_ningbo_v1/seed_155921/preprocessing.npz",
+        "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+        "thresholds": [
+          0.711865246295929,
+          0.01172027550637722,
+          0.011447906494140625
+        ],
+        "validation_threshold_source": "outputs/mitigation_m2_ningbo_v1/seed_155921/validation.npz",
+        "validation_threshold_source_sha256": "ee0aea6549b86fceb6504a63e0b2709a64e729c1326aebaf79f6f83134cc417e"
+      }
+    }
+  },
+  "prediction_artifact_sha256": "03653a6e15babbd85a6a2d92c0ebaada47b7ecdbf4100b8b234e035cd247ec7a",
+  "protocol_sha256": "a1409359fe89e6e93f1cfdc734d82b212807e8ebe6e8aa7adb181c55b527d2c1",
+  "selection_sha256": "e382156a3765622e23159b6eaf7c0834de519717e1f1d5e430d17740bb8230a6",
+  "waveform_cache_sha256": "3754f1bc726ca6003f7354abe837b08883909c14390cfef77cd33c9445b8c984"
+}

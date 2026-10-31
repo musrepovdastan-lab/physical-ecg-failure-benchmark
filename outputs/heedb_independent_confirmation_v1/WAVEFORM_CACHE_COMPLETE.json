@@ -1,0 +1,10 @@
+{
+  "cache_bytes": 2400000128,
+  "cache_sha256": "c961d7ed720f60ed92522285bf6145fda2d461bc620bc86f7af718b8e356e3c5",
+  "completed_utc": "2026-09-26T03:57:13.064234+00:00",
+  "decision": "PASS",
+  "patients": 10000,
+  "replacements": 0,
+  "selection_sha256": "7af9986691871d57df5699e270b3cf4442bf5a733536356155a87094bac09de4",
+  "unreadable_attempts": 0
+}

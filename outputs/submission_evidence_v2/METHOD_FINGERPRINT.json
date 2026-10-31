@@ -1,0 +1,26 @@
+{
+  "description": "Composite identifier of frozen method/protocol artifacts referenced by this synthesis; it does not freeze new scientific choices.",
+  "composite_sha256": "3b31f1c1a50fb82e98b86f93dbf35820ebfec7c9bd5f4438e1c10bba2b1348aa",
+  "protocols": {
+    "mask_recovery": {
+      "path": "outputs/mask_semantics_recovery_v2/RECOVERY_PROTOCOL.json",
+      "sha256": "b6b148f9c19c2dbe54c06618863ca66a4a2f8090753697d687a9946bd5fe84b8"
+    },
+    "m3_recovery": {
+      "path": "outputs/architecture_replication_m3_recovery_v2/RECOVERY_PROTOCOL_FREEZE_002.json",
+      "sha256": "49b703afc1bd1979e071192271debb3974f8e1c9c451f8dde3fc4222fd349642"
+    },
+    "chest_only": {
+      "path": "outputs/chest_only_baseline_v1/FROZEN_CHEST_ONLY_PROTOCOL.json",
+      "sha256": "dd5d0a6b3747699c5308b798741c6486eb31dad84422750fd498e5b5efc6bcc2"
+    },
+    "ningbo_four_arm": {
+      "path": "outputs/ningbo_four_arm_replication_v1/FROZEN_NINGBO_FOUR_ARM_PROTOCOL.json",
+      "sha256": "a0bb0ee5f7aaa068ebcba227523e3efb5855aec94cbc8a9a319c8b943f70e92c"
+    },
+    "heedb_six_method": {
+      "path": "outputs/heedb_four_arm_extension_v1/FROZEN_EXTENSION_PROTOCOL.json",
+      "sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa"
+    }
+  }
+}

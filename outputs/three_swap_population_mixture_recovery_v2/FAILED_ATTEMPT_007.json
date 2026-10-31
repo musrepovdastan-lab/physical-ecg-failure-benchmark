@@ -1,0 +1,9 @@
+{
+  "attempt": 7,
+  "stage": "persist first corrected prediction file after full inference",
+  "status": "FAILED_WRITER_PARAMETER_NAME_COLLISION",
+  "completed_inference_unit": "Huang_full_pipeline/seed_104729/RA_LA_reversal, 10,000 HEEDB rows",
+  "scope": "The inference output remained in memory; no corrected score file was persisted by this attempt.",
+  "cause": "The atomic NPZ writer used a positional parameter named p while the prediction array was also passed by keyword p.",
+  "resolution": "Rename the writer's path parameter; inference logic and all scientific settings are unchanged."
+}

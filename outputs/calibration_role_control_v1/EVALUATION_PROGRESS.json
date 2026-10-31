@@ -1,0 +1,8 @@
+{
+  "cohort": "HEEDB",
+  "complete_predictions": 45,
+  "condition": "clean",
+  "elapsed_seconds": 7.8,
+  "method": "Huang_full_pipeline",
+  "seed": 155921
+}

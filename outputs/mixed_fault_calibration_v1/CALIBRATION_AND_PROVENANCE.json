@@ -1,0 +1,662 @@
+{
+  "HEEDB_chest_inference": {
+    "adapter": "canonical cached 12-lead 500Hz-equivalent waveform -> ::5 -> V1-V6 -> per-seed Ningbo train-derived mean/std -> frozen chest-only ResNet",
+    "checkpoint_sha256": {
+      "104729": "c30ca743fbd65ff455b54a9bb5602e28ad20865249b59fb2bb4cfd7d11e4a70f",
+      "130363": "bde73b60e3eab003dc08da8b39c135c71104245aa642ed4a07b8b98ccd57e6d8",
+      "155921": "fb550cb9ccd4b4c22699910f2a4f859c1169886165b9f1c7400c4e5b3e62b7e6"
+    },
+    "conditions": [
+      "clean",
+      "RA_LL_reversal"
+    ],
+    "conditions_identical_by_input_invariance": true,
+    "device": "cuda",
+    "n_patients": 10000,
+    "prediction_path": "data/heedb_restricted/I0006/mixed_fault_calibration_v1/chest_only_predictions_float32.npy",
+    "preprocessing_sha256": {
+      "104729": "5892c416d7b967704885a60a08c23c22eae0a6581274410e91f259b5c663ac89",
+      "130363": "5892c416d7b967704885a60a08c23c22eae0a6581274410e91f259b5c663ac89",
+      "155921": "5892c416d7b967704885a60a08c23c22eae0a6581274410e91f259b5c663ac89"
+    },
+    "seconds": 5.563,
+    "seeds": [
+      104729,
+      130363,
+      155921
+    ],
+    "sha256": "7d4680f1a686bf0c61ca7bbebd6615c18b6f29105f7a4a84f02e799badb140d9",
+    "source_signal_sha256": "c961d7ed720f60ed92522285bf6145fda2d461bc620bc86f7af718b8e356e3c5",
+    "status": "PASS"
+  },
+  "HEEDB_label_prevalence": {
+    "SB": 0.1637,
+    "STach": 0.0615,
+    "TWA": 0.1456
+  },
+  "HEEDB_patient_count": 10000,
+  "calibration_fits": {
+    "chest_only_resnet": {
+      "104729": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.6771752915775531,
+          "b": -1.2655864834155874,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.2654245305678403,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.33447051877611583,
+          "threshold_historical": 0.688427746295929,
+          "threshold_raw": 0.701171875
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 0.8398338519645768,
+          "b": -1.0257182028258671,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.04662263977097689,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.004384477107235288,
+          "threshold_historical": 0.005279541015625,
+          "threshold_raw": 0.005279541015625
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 0.8075715368984533,
+          "b": -1.5836256252242975,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 11,
+            "loss": 0.04961504110925788,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.0032690019453158305,
+          "threshold_historical": 0.0057777403853833675,
+          "threshold_raw": 0.005928802490234397
+        }
+      ],
+      "130363": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.9928228582554305,
+          "b": -1.475130095775806,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.26650034627874686,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.297138819547247,
+          "threshold_historical": 0.6478027105331421,
+          "threshold_raw": 0.64990234375
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 0.9422768743990166,
+          "b": -0.6485516253360168,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.04959048384601609,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.006483621880954907,
+          "threshold_historical": 0.00945281982421875,
+          "threshold_raw": 0.00945281982421875
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 1.0643188980798224,
+          "b": -1.665276721580272,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.04987043517694462,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.0071799738868972,
+          "threshold_historical": 0.0390167236328125,
+          "threshold_raw": 0.04450073242187509
+        }
+      ],
+      "155921": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.7780613342677706,
+          "b": -1.5062310241416128,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.2669058183430654,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.2914530676917475,
+          "threshold_historical": 0.6927245855331421,
+          "threshold_raw": 0.688720703125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 0.8994397691052345,
+          "b": -0.36502115989410316,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.04207623934841131,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.009196482634193941,
+          "threshold_historical": 0.010973358526825905,
+          "threshold_raw": 0.00818634033203125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 0.6936119884326406,
+          "b": -0.619237938027736,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.05154011940626494,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.0060401805598517926,
+          "threshold_historical": 0.0014902114635333419,
+          "threshold_raw": 0.001554965972900399
+        }
+      ]
+    },
+    "ordinary_resnet": {
+      "104729": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.7260290958971031,
+          "b": -1.1328098346749873,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.2414149127340961,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.35076127453694694,
+          "threshold_historical": 0.650341808795929,
+          "threshold_raw": 0.6708984375
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 1.05082462820335,
+          "b": -1.3470625458045242,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.041760072372690006,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.0015032134146901956,
+          "threshold_historical": 0.010204315185546875,
+          "threshold_raw": 0.007373809814453125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 0.8594332483232019,
+          "b": -2.4265077368374577,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 11,
+            "loss": 0.04076920767571557,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.006322900438258504,
+          "threshold_historical": 0.04400634765625,
+          "threshold_raw": 0.04474487304687509
+        }
+      ],
+      "130363": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.7672255538017698,
+          "b": -1.4311866539452494,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.24369275196297088,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.352480196685437,
+          "threshold_historical": 0.733203113079071,
+          "threshold_raw": 0.7451171875
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 1.1271713099037817,
+          "b": 0.6082900698900956,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.03995828588819262,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.0022941039648064314,
+          "threshold_historical": 0.0027326582930982113,
+          "threshold_raw": 0.0026531219482421875
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 1.1963094135646242,
+          "b": -2.7054721259577845,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.038971363745463096,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.0053637162956929356,
+          "threshold_historical": 0.10052490234375,
+          "threshold_raw": 0.10869140625000015
+        }
+      ],
+      "155921": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.9021122163264989,
+          "b": -1.0988502851247879,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.2470164223945601,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.3327345604326696,
+          "threshold_historical": 0.586132824420929,
+          "threshold_raw": 0.60986328125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 1.2850584119933983,
+          "b": -1.7408251967015582,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.046104810200518924,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.003224960976722356,
+          "threshold_historical": 0.04575805738568306,
+          "threshold_raw": 0.042816162109375
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 1.3178749739342623,
+          "b": -0.8131826534432813,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 10,
+            "loss": 0.03794591304978694,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.006794524175110845,
+          "threshold_historical": 0.039886474609375,
+          "threshold_raw": 0.04048767089843753
+        }
+      ]
+    },
+    "physics_aware_resnet": {
+      "104729": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.9019818567045178,
+          "b": -1.5442795674110268,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.24099021506468998,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.33689224214647157,
+          "threshold_historical": 0.6971679925918579,
+          "threshold_raw": 0.723388671875
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 1.0906055445237275,
+          "b": -1.102457210473296,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.039457533389790404,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.0015866770678218563,
+          "threshold_historical": 0.008510589599609375,
+          "threshold_raw": 0.007404327392578125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 0.911187547245109,
+          "b": -1.4374980032163651,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.031407305551306094,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.0037580023702314187,
+          "threshold_historical": 0.009073639288544655,
+          "threshold_raw": 0.01049423217773438
+        }
+      ],
+      "130363": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.800302184268603,
+          "b": -0.9669021640814857,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.24723983862170054,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.33014550013168975,
+          "threshold_historical": 0.562451183795929,
+          "threshold_raw": 0.580322265625
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 1.0450804473611577,
+          "b": -0.868213409749475,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.04062501947372184,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.001560892767778048,
+          "threshold_historical": 0.0056854248978197575,
+          "threshold_raw": 0.004718780517578125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 1.1306198912528465,
+          "b": -2.130908193200512,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 10,
+            "loss": 0.028908094928268825,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.0007962535456200623,
+          "threshold_historical": 0.011165618896484375,
+          "threshold_raw": 0.011823272705078247
+        }
+      ],
+      "155921": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.9529842435189698,
+          "b": -1.682254402527904,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.24972060699561294,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.30913796402377863,
+          "threshold_historical": 0.711865246295929,
+          "threshold_raw": 0.71533203125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 1.3163689679487143,
+          "b": -0.3311689914918552,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.04140907891805673,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.0016109064568453132,
+          "threshold_historical": 0.01172027550637722,
+          "threshold_raw": 0.00963592529296875
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 1.1299986717593233,
+          "b": -0.5016062122919044,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.03174709137733546,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.004516521682017738,
+          "threshold_historical": 0.011447906494140625,
+          "threshold_raw": 0.01298522949218752
+        }
+      ]
+    }
+  },
+  "calibration_split_sha256": "6dd8733b6ac0102ce66600ea1dff9a205db4a73d11af1af4c521656a72a471ec",
+  "huang_calibration": "not fit: no full-pipeline Ningbo validation score artifact; HEEDB/test labels not used",
+  "validation_inputs": {
+    "chest_only_resnet/104729": {
+      "thresholds_full_validation_historical": [
+        0.688427746295929,
+        0.005279541015625,
+        0.0057777403853833675
+      ],
+      "validation_path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_104729/validation.npz",
+      "validation_sha256": "325f1a0e4f55b0438daacc04168f634c21b36da1d159b2b0a81bc1a74c3a61c5"
+    },
+    "chest_only_resnet/130363": {
+      "thresholds_full_validation_historical": [
+        0.6478027105331421,
+        0.00945281982421875,
+        0.0390167236328125
+      ],
+      "validation_path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_130363/validation.npz",
+      "validation_sha256": "f96b15792740d4ff6e1bebd28a77d9ee046a071351a96bb7cf1a9e8588afaaf8"
+    },
+    "chest_only_resnet/155921": {
+      "thresholds_full_validation_historical": [
+        0.6927245855331421,
+        0.010973358526825905,
+        0.0014902114635333419
+      ],
+      "validation_path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_155921/validation.npz",
+      "validation_sha256": "5fc666788d5f004965b45287253fe833c5eb0c171904145687eb48ff0f8d3cef"
+    },
+    "ordinary_resnet/104729": {
+      "thresholds_full_validation_historical": [
+        0.650341808795929,
+        0.010204315185546875,
+        0.04400634765625
+      ],
+      "validation_path": "outputs/ningbo_confirmation_v2/seed_104729/validation.npz",
+      "validation_sha256": "63a2627320b1d7bfecd11f7cb7e264f8ddd6e7b41406d80f69d37bcc3b4f3fb9"
+    },
+    "ordinary_resnet/130363": {
+      "thresholds_full_validation_historical": [
+        0.733203113079071,
+        0.0027326582930982113,
+        0.10052490234375
+      ],
+      "validation_path": "outputs/ningbo_confirmation_v2/seed_130363/validation.npz",
+      "validation_sha256": "dd408f673574ab4a0bd925c88a4a08134a206799397fc80b25757e667160458c"
+    },
+    "ordinary_resnet/155921": {
+      "thresholds_full_validation_historical": [
+        0.586132824420929,
+        0.04575805738568306,
+        0.039886474609375
+      ],
+      "validation_path": "outputs/ningbo_confirmation_v2/seed_155921/validation.npz",
+      "validation_sha256": "2e7c6c805633e99460e98aa9ce8c92a75e3441691fdc4a63ffe85431c2e3b680"
+    },
+    "physics_aware_resnet/104729": {
+      "thresholds_full_validation_historical": [
+        0.6971679925918579,
+        0.008510589599609375,
+        0.009073639288544655
+      ],
+      "validation_path": "outputs/mitigation_m2_ningbo_v1/seed_104729/validation.npz",
+      "validation_sha256": "36e25a4796279dbf379525a721200536db3488cd4bc258ea1d715056371ca03c"
+    },
+    "physics_aware_resnet/130363": {
+      "thresholds_full_validation_historical": [
+        0.562451183795929,
+        0.0056854248978197575,
+        0.011165618896484375
+      ],
+      "validation_path": "outputs/mitigation_m2_ningbo_v1/seed_130363/validation.npz",
+      "validation_sha256": "ca0c2f953bb260ff4a4d25b75b281db1ac0756d15d884274f364ecd871d02d74"
+    },
+    "physics_aware_resnet/155921": {
+      "thresholds_full_validation_historical": [
+        0.711865246295929,
+        0.01172027550637722,
+        0.011447906494140625
+      ],
+      "validation_path": "outputs/mitigation_m2_ningbo_v1/seed_155921/validation.npz",
+      "validation_sha256": "ee0aea6549b86fceb6504a63e0b2709a64e729c1326aebaf79f6f83134cc417e"
+    }
+  }
+}

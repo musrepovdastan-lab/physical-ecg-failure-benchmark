@@ -1,0 +1,16 @@
+{
+  "decision": "STOP_DATA_INTEGRITY",
+  "reason": "Strict audit found 13 exact waveform-hash duplicates across distinct Chapman record IDs. The frozen v3 protocol forbids silently excluding, repairing, or deduplicating records.",
+  "records_verified": 10247,
+  "verified_files": 20494,
+  "verified_bytes": 1237539902,
+  "checksum_mismatches": 0,
+  "malformed_records": 0,
+  "nonfinite_records": 0,
+  "exact_duplicate_waveform_pairs": 13,
+  "split_created": false,
+  "model_trained": false,
+  "chapman_internal_test_accessed": false,
+  "ningbo_accessed": false,
+  "recommended_next_step": "Amend and re-freeze the protocol before any handling of duplicate waveforms; do not resume this frozen pilot."
+}

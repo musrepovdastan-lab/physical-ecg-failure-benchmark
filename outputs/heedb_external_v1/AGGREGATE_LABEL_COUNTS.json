@@ -1,0 +1,33 @@
+{
+  "core_pattern_counts": {
+    "000": 6500,
+    "001": 536,
+    "010": 1440,
+    "100": 1162,
+    "101": 137,
+    "110": 225
+  },
+  "outcomes": {
+    "core_SB": {
+      "positive": 1665,
+      "total": 10000
+    },
+    "core_STach": {
+      "positive": 673,
+      "total": 10000
+    },
+    "core_TWA": {
+      "positive": 1524,
+      "total": 10000
+    },
+    "strict_SB": {
+      "positive": 1448,
+      "total": 10000
+    },
+    "strict_TWA": {
+      "positive": 770,
+      "total": 10000
+    }
+  },
+  "patients": 10000
+}

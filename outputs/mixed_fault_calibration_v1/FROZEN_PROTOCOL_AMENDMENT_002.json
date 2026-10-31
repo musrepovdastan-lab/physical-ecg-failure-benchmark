@@ -1,0 +1,41 @@
+{
+  "amendment": "002",
+  "endpoint": "TWA primary only; SB and STach remain secondary descriptive estimates",
+  "outputs": [
+    "BOOTSTRAP_METRICS_SUMMARY.csv",
+    "BOOTSTRAP_METRICS_REPLICATES.npz"
+  ],
+  "protocol_amendment_001_sha256": "5a60c1e128f8acd685848346f58f99a067d386fedf05909cdd60e4c72cb77768",
+  "protocol_sha256": "95b4f75148502b59bed1141fd05f364283d2b21511d09d95510759b7742ffa8f",
+  "q_grid": [
+    0,
+    0.001,
+    0.005,
+    0.01,
+    0.05,
+    0.1,
+    1.0
+  ],
+  "reason": "Completes paired uncertainty reporting for every prespecified primary-endpoint TWA metric; the original bootstrap reported TWA AUPRC contrasts only. This is a coverage expansion, not metric or q selection.",
+  "reason_for_extension": "The complete protocol requests paired uncertainty; preserving the original AUPRC bootstrap while adding all primary-endpoint metrics makes that uncertainty inspectable.",
+  "resampling": {
+    "calibrators_thresholds": "fixed existing calibration A and threshold B fits; Huang remains raw at historical baseline threshold",
+    "cluster": "Ningbo canonical record; HEEDB patient; same draw applied to clean/reversal copies and all methods/seeds",
+    "interval": "percentile 2.5%,97.5%; conditional on checkpoints, calibration fits, thresholds, cohort",
+    "replicates": 1000,
+    "rng": "numpy.default_rng(20261017), same first 1000 Ningbo and next 1000 HEEDB record draws as initial primary bootstrap",
+    "seed_aggregation": "calculate per-seed metric, then arithmetic mean across three seeds; no prediction averaging"
+  },
+  "source_metric_set": [
+    "auprc",
+    "auroc",
+    "brier",
+    "ece15",
+    "sensitivity",
+    "specificity",
+    "predicted_positive_fraction",
+    "false_positives_per_1000",
+    "false_negatives_per_1000"
+  ],
+  "status": "FROZEN_BEFORE_EXTENDED_METRIC_BOOTSTRAP"
+}

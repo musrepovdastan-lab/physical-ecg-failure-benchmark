@@ -1,0 +1,8 @@
+{
+  "status": "TRAINING_LAUNCH_BLOCKED_BEFORE_FIRST_EPOCH",
+  "reason": "The run guard expected a scalar runner hash while the frozen protocol correctly stored separate hashes for control.py, detector_scores.py, and freeze.py.",
+  "training_started": false,
+  "calibration_or_test_accessed": false,
+  "resolution": "Bind the control.py and detector_scores.py components by their individual frozen SHA-256 values; re-freeze before training.",
+  "failed_protocol_file": "FROZEN_EXECUTION_PROTOCOL_FAILED_002.json"
+}

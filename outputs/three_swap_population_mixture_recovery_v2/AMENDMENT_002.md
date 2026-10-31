@@ -1,0 +1,3 @@
+# Amendment 002 — waveform handoff comparison
+
+The full-inference gate initially required bitwise equality between the adapter's incoming faulty waveform and an independent physical-equation implementation. At the first RA–LA batch this was stricter than the documented float32 derived-lead rounding. The gate now compares maximum raw-unit error against 1e-4 as in Amendment 001. This only checks equivalent construction of the same incoming fault; it does not affect class selection, inverse correction, model inputs, model scores, or the frozen 1e-4 probability replay tolerance. No prediction was written by the failed attempt.

@@ -1,0 +1,8 @@
+﻿{
+    "stderr":  "outputs/mitigation_m1_v1/workflow_resume2_stderr.log",
+    "pid":  12864,
+    "started_utc":  "2026-08-30T11:34:27.7321083Z",
+    "resume_scope":  "physics_aware seed 104729 evaluation only; no retraining",
+    "stdout":  "outputs/mitigation_m1_v1/workflow_resume2_stdout.log",
+    "task":  "mitigation_m1_v1_evaluation_resume"
+}

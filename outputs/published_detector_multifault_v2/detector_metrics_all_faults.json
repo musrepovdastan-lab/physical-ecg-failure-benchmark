@@ -1,0 +1,45 @@
+{
+  "class_order": [
+    "clean",
+    "RA_LA",
+    "RA_LL",
+    "LA_LL"
+  ],
+  "clean_false_correction_rate": 0.014897579143389184,
+  "clean_specificity_correct_no_correction_rate": 0.9851024208566108,
+  "confusion_matrix": [
+    [
+      6877,
+      34,
+      3,
+      67
+    ],
+    [
+      50,
+      6853,
+      13,
+      65
+    ],
+    [
+      22,
+      88,
+      6849,
+      22
+    ],
+    [
+      167,
+      7,
+      22,
+      6785
+    ]
+  ],
+  "per_class_recall": {
+    "LA_LL": 0.9719237931528434,
+    "RA_LA": 0.9816645179773671,
+    "RA_LL": 0.9810915341641598,
+    "clean": 0.9851024208566108
+  },
+  "policy": "unmodified argmax",
+  "records_per_class": 6981,
+  "total_examples": 27924
+}

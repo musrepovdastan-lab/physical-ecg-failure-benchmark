@@ -1,0 +1,45 @@
+{
+  "arms": [
+    "baseline",
+    "physics_aware"
+  ],
+  "conditions": [
+    "clean",
+    "RA_LL_reversal",
+    "mask5_3_5_6_9_11",
+    "mask5_2_4_7_8_10",
+    "mask5_0_1_2_3_4",
+    "mask5_1_5_6_7_9",
+    "mask5_0_1_8_10_11",
+    "mask5_2_3_6_8_9",
+    "mask5_4_5_7_10_11",
+    "mask5_0_1_2_7_8",
+    "mask5_3_4_5_6_9",
+    "mask5_0_8_9_10_11",
+    "mask5_1_6_7_10_11",
+    "mask5_0_2_3_4_5",
+    "mask5_1_2_4_5_6",
+    "mask5_0_7_9_10_11",
+    "mask5_1_3_7_8_9",
+    "mask5_4_6_8_10_11",
+    "mask5_0_2_3_5_11",
+    "mask5_1_3_4_5_9",
+    "mask5_0_2_6_7_10",
+    "mask5_2_5_8_10_11",
+    "mask5_0_3_6_7_8",
+    "mask5_1_4_8_9_11",
+    "mask5_3_5_6_7_9",
+    "mask5_0_1_2_4_10"
+  ],
+  "outcomes_inspected_before_freeze": false,
+  "patients": 10000,
+  "protocol_sha256": "a1409359fe89e6e93f1cfdc734d82b212807e8ebe6e8aa7adb181c55b527d2c1",
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "selection_sha256": "e382156a3765622e23159b6eaf7c0834de519717e1f1d5e430d17740bb8230a6",
+  "started_utc": "2026-09-24T01:39:00.911701+00:00",
+  "waveform_cache_sha256": "3754f1bc726ca6003f7354abe837b08883909c14390cfef77cd33c9445b8c984"
+}

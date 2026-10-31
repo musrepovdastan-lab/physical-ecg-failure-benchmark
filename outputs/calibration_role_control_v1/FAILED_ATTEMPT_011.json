@@ -1,0 +1,7 @@
+{
+  "status": "REPLAY_TOLERANCE_EXCEEDED_WITH_DIFFERENT_BATCH_SHAPE",
+  "reason": "The first source-aligned replay compared saved 128-row inference batches against fresh 32-row batches. Half-precision convolution changed probabilities by up to 2.44e-4, above the unchanged 1e-4 tolerance.",
+  "input_handoff_delta": 0.0,
+  "scientific_predictions_changed": false,
+  "resolution": "Replay complete source-aligned first/middle/last batches using the original 128-row inference geometry (and the shorter final source batch), then compare against saved rows at 1e-4."
+}

@@ -1,0 +1,6 @@
+{
+  "protocol": "configs/FROZEN_NINGBO_CONFIRMATION_PROTOCOL_v1.json",
+  "sha256": "B6EEB79C0CD214FE7F41FDC526AEC64DF2E9D982F59A45E7F21D0108B5A3698E",
+  "frozen_before_ningbo_access": true,
+  "chapman_development_decision": "FREEZE_NINGBO_GENERAL_FAILURE_CONFIRMATION"
+}

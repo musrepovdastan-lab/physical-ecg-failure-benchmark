@@ -1,0 +1,10 @@
+{
+  "bootstrap_replicates": 1000,
+  "datasets": [
+    "Chapman",
+    "Ningbo"
+  ],
+  "pid": 26844,
+  "stage": "COMPLETE",
+  "updated_utc": "2026-09-21T02:56:40.589549+00:00"
+}

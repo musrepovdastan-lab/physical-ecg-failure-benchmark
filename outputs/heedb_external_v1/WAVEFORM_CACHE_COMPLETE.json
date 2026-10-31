@@ -1,0 +1,12 @@
+{
+  "cache_bytes": 2400000128,
+  "cache_sha256": "3754f1bc726ca6003f7354abe837b08883909c14390cfef77cd33c9445b8c984",
+  "cap_bytes": 2147483648,
+  "completed_utc": "2026-09-24T01:38:07.824276+00:00",
+  "final_selection_sha256": "e382156a3765622e23159b6eaf7c0834de519717e1f1d5e430d17740bb8230a6",
+  "object_manifest_sha256": "12dc2109daeb13dd0b1d7d5deef363e154e5ccf33f2930d6ddf7ab6a0b629473",
+  "patients": 10000,
+  "replacement_patients": 0,
+  "total_remote_waveform_bytes": 1178093385,
+  "unreadable_attempts": 0
+}

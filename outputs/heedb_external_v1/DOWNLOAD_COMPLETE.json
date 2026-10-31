@@ -1,0 +1,10 @@
+{
+  "cap_bytes": 2147483648,
+  "completed_utc": "2026-09-24T01:31:42.944218+00:00",
+  "elapsed_seconds": 339.532,
+  "exact_remote_bytes": 1178093385,
+  "new_bytes_this_invocation": 1178093385,
+  "objects": 20000,
+  "restricted_manifest_sha256": "12dc2109daeb13dd0b1d7d5deef363e154e5ccf33f2930d6ddf7ab6a0b629473",
+  "verified_objects": 20000
+}

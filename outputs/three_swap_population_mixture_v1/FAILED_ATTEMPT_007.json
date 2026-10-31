@@ -1,0 +1,6 @@
+{
+  "stage": "historical Huang anchor lookup",
+  "status": "FAILED_AFTER_PRELIMINARY_TABLES",
+  "reason": "The previous Huang package labels its primary raw/calibrated score modes as raw_validation_B_90pct and calibrated_validation_B_90pct rather than generic raw/calibrated. Historical comparator row was not found by the generic label. No inferencing or fitting occurred; Huang calibration thresholds are still the required frozen validation-B values.",
+  "scientific_scope_changed": false
+}

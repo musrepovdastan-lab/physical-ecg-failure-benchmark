@@ -1,0 +1,13 @@
+{
+  "amended_utc": "2026-10-16T18:00:39.570431+00:00",
+  "amendment_binding_sha256": "aa67749487503c8fa080bf41a216452bf673d9f64b626240c90f837f716a41dc",
+  "amendment_version": "001",
+  "change": "Preserve the original frozen protocol. Re-infer the full clean and RA-LL score arrays for this one model/seed in the recovery directory, bound to the ordered test membership and current checkpoint/preprocessing. Reuse the other five model/seed score pairs that passed the probe. The mask transform and scientific estimands are unchanged.",
+  "initial_probe_inference_used_prior_runner": true,
+  "no_corrected_mask_inference_started_before_amendment": true,
+  "prior_protocol_binding_sha256": "b3c050887f99b2979ef20122374552298185e5a8f8004a769650783c1b77b28a",
+  "prior_runner_source_sha256": "08480a17880f54e25cf2aa69a25416e0304814c468555bc45be7d4571662f4f8",
+  "reason": "The fixed clean/RA-LL probe found 2 comparisons outside the predeclared tolerance among 1,536 scores for M2 seed 104729. Repeated recovery inference was bitwise deterministic; the maximum difference was 3.8147e-05 at a score near 0.01045. The tolerance remains unchanged.",
+  "runner_source_sha256": "7427bdd8dcea8139b2e93efbb8408181b207e20811f7c1fc40b1554b593a4bc7",
+  "scope": "Runner/cache handling only; no mask semantics, thresholds, labels, split, bootstrap indices, model, or training change."
+}

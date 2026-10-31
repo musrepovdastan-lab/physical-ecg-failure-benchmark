@@ -1,0 +1,72 @@
+{
+  "amendment_id": "ecgfounder_mitigation_v1_continuation_20261018",
+  "status": "EXECUTION_AMENDMENT_BEFORE_CONTINUATION",
+  "base_protocol_sha256": "8ca374850607497506bb702bed0633fa1a540749c0903043425023a85e85ff4c",
+  "original_runner_sha256": "2bf5aa9f87197fefd52b8b84b0ee6c125bd02f941e3d3a3fabd6db2b170e55f3",
+  "continuation_runner_path": "outputs/ecgfounder_mitigation_v1/continue_mitigation.py",
+  "continuation_runner_sha256": "39ecdac719797f07e1ffdc5cf6ddb188b3901c197fa0c45435e06edaf108f85f",
+  "preserved_artifact_sha256": {
+    "outputs/ecgfounder_mitigation_v1/FROZEN_PROTOCOL.json": "025292bb312e8668a34def6cc5e59fa02c8ffd75672d1fc1ced195f48b5dc45c",
+    "outputs/ecgfounder_mitigation_v1/run_mitigation.py": "2bf5aa9f87197fefd52b8b84b0ee6c125bd02f941e3d3a3fabd6db2b170e55f3",
+    "outputs/ecgfounder_mitigation_v1/engineering_pilot.py": "c8a16426fd5b2c86f7573166700385ac4bfb35c23c3743ad6f3960f625dbb59c",
+    "outputs/ecgfounder_mitigation_v1/ENGINEERING_PILOT.json": "0f103d7094f879f6ed0ae418d304a199cac44d6d9ffba22102e0cda63fb93e05",
+    "outputs/ecgfounder_mitigation_v1/ENGINEERING_GATE_STOP_REPORT.md": "f00798eeb7cb0128691c30d439262d96b2819c281f8c05fe425ff34179269e75",
+    "outputs/ecgfounder_mitigation_v1/REVIEW_NOTES_20261018.md": "accafd503fd03c5e1faea095e18ff82eaa61f13cf2e380435cc7fcded6a67836",
+    "outputs/ecgfounder_mitigation_v1/INDEPENDENT_REVIEW_AUDIT_20261018.json": "08ae1c873fc853f06df44289b91f1307bb5742e62d407a6af633ab9340b98b4e",
+    "outputs/ecgfounder_mitigation_v1/CONTINUATION_VALIDATION_INPUT_BINDINGS.json": "8fec42d3bff43b80593d3a064843d059a92faff92cd6763b85f89d13b5226471"
+  },
+  "cache_lineage": {
+    "chapman_train_clean_source": "existing Founder baseline clean cache; exact file and metadata hashes bound in FROZEN_PROTOCOL.json; source cache copied with hash, order, checkpoint, preprocessing binding and batch-16 replay checks",
+    "chapman_validation_clean_source": "existing Founder baseline clean cache; exact file and metadata hashes bound in FROZEN_PROTOCOL.json; source cache copied with hash, order, checkpoint, preprocessing binding and batch-16 replay checks",
+    "chapman_train_RA_LA_reversal": {
+      "path": "outputs/ecgfounder_mitigation_v1/features/chapman_train_RA_LA_reversal.npy",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_train_RA_LA_reversal.meta.json",
+      "status": "IN_PROGRESS",
+      "completed_records": 2464,
+      "record_count": 7163,
+      "record_ids_sha256": "77d807b5436f8758dfeed2bb0a6311a805b017c442501946dcd76880f88a06c5",
+      "feature_file_sha256_at_amendment": "216e11097e8da05eb75a47b74b3621b23ecfd08fabe165505cc67197f629a8e2",
+      "metadata_sha256_at_amendment": "3aeb7c0c897b756f0e9db61880efc63cc3fd7de6be141e08a1e49d5bc99478e7",
+      "committed_prefix_sha256": "da24b16f6a52f20b251fa7f03ffa54ae514f6e3073350241dead84c09409487d",
+      "batch_size": 16,
+      "checkpoint_sha256": "ee199f3781f4ae1f732973267f003da0a759ea12bddb0dd28a77faa60aca7997",
+      "mitigation_protocol_sha256": "8ca374850607497506bb702bed0633fa1a540749c0903043425023a85e85ff4c"
+    },
+    "validation_raw_input_bindings": {
+      "path": "outputs/ecgfounder_mitigation_v1/CONTINUATION_VALIDATION_INPUT_BINDINGS.json",
+      "sha256": "8fec42d3bff43b80593d3a064843d059a92faff92cd6763b85f89d13b5226471",
+      "binding_sha256": "e719aec1ea194764722e6330f531dbfba1d1ae370f0ed1738a6bb8f9add63f30",
+      "record_counts": {
+        "Chapman": 1021,
+        "Ningbo": 3488
+      },
+      "record_order_sha256": {
+        "Chapman": "272a77fcac424a104d7fef98d2e4de3d6785222c4ba256753aaa36ea91ec0553",
+        "Ningbo": "76489ab169b935fb915885ef915fecce4bde98021d13b9866d7c2716c014f832"
+      },
+      "captured_before_new_test_outcomes": true
+    }
+  },
+  "implementation_corrections": [
+    "test prediction path loads clean-train mean/std for its cohort and applies standardization exactly once",
+    "best-checkpoint validation probabilities and thresholds are reproduced and scaler-bound before any test prediction",
+    "completed heads are verified/reused without optimizer steps; stopped resumes validate history, optimizer/current/best states and finalize best state without an extra epoch",
+    "partial feature-cache metadata, canonical order, finite committed prefix and sampled batch-16 encoder replay are checked before resume",
+    "32-mask extraction preprocesses each clean ECG batch once, then applies each mask and calls the same frozen encoder with unchanged batch size/order/precision; train/validation equivalence must pass before test use",
+    "test conditions and prediction bundles are resume-safe and hash-bound"
+  ],
+  "scientific_settings_unchanged": true,
+  "new_resource_limit": {
+    "feature_preparation_cumulative_seconds": 43200,
+    "unit": "pipeline execution seconds on the assigned single GPU workflow; pauses between sessions excluded",
+    "measurement": "end-to-end wall-clock pipeline execution from stage timer, not measured CUDA-active time",
+    "head_training_seconds_tracked_separately": true,
+    "analysis_seconds_tracked_separately": true
+  },
+  "source_hashes": {
+    "outputs/ecgfounder_mitigation_v1/continue_mitigation.py": "39ecdac719797f07e1ffdc5cf6ddb188b3901c197fa0c45435e06edaf108f85f",
+    "outputs/ecgfounder_mitigation_v1/run_mitigation.py": "2bf5aa9f87197fefd52b8b84b0ee6c125bd02f941e3d3a3fabd6db2b170e55f3"
+  },
+  "validation_inputs_sha256": "8fec42d3bff43b80593d3a064843d059a92faff92cd6763b85f89d13b5226471",
+  "amendment_sha256": "83f5a1915baad121c50d631d9445db51821dfac9d94fc30d2d4e824a9f25c92b"
+}

@@ -1,0 +1,188 @@
+{
+  "created_utc": "2026-09-22T20:41:22.436251+00:00",
+  "decision": "PASS",
+  "hardware": {
+    "cpu": "AMD Ryzen AI 7 350 w/ Radeon 860M",
+    "logical_processors": 16,
+    "machine": "AMD64",
+    "os": "Windows-11-10.0.26200-SP0"
+  },
+  "huang_detect_correct_diagnose": {
+    "external_echo_overhead": {
+      "maximum_ms": 0.181,
+      "median_ms": 0.054,
+      "minimum_ms": 0.0473,
+      "n": 128,
+      "p95_ms": 0.13324499999999986
+    },
+    "internal_loading_ms": 8946.0956,
+    "latency": {
+      "maximum_ms": 68.834,
+      "median_ms": 31.51425,
+      "minimum_ms": 28.753,
+      "n": 896,
+      "p95_ms": 34.1586
+    },
+    "loaded_memory": {
+      "components": [
+        {
+          "peak_working_set_bytes": 635842560,
+          "private_bytes": 1026105344,
+          "working_set_bytes": 635842560
+        },
+        {
+          "peak_working_set_bytes": 364085248,
+          "private_bytes": 514371584,
+          "working_set_bytes": 364085248
+        }
+      ],
+      "peak_working_set_bytes_sum": 999927808,
+      "private_bytes": 1540476928,
+      "working_set_bytes": 999927808
+    },
+    "loading_to_ready_ms": 10980.6275,
+    "maximum_sampled_working_set_bytes": 999968768,
+    "model_artifact_bytes": 3992128,
+    "process_peak_working_set_bytes_sum": 1000345600,
+    "run_variability": {
+      "median_mean_ms": 31.46739285714286,
+      "median_range_ms": [
+        31.2117,
+        31.68835
+      ],
+      "median_sd_ms": 0.17038218419328996,
+      "p95_mean_ms": 34.042856428571426,
+      "p95_range_ms": [
+        33.051784999999995,
+        34.767205
+      ],
+      "p95_sd_ms": 0.6439404478852204,
+      "run_medians_ms": [
+        31.57085,
+        31.35805,
+        31.2117,
+        31.33025,
+        31.5931,
+        31.51945,
+        31.68835
+      ],
+      "run_p95s_ms": [
+        34.539404999999995,
+        34.405395,
+        33.051784999999995,
+        33.73232,
+        34.767205,
+        34.385115,
+        33.41877
+      ]
+    }
+  },
+  "measurement": {
+    "batch_size": 1,
+    "clock": "time.perf_counter_ns in controller around complete pipe request/response",
+    "conditions": [
+      "clean",
+      "RA_LA_reversal",
+      "RA_LL_reversal",
+      "LA_LL_reversal"
+    ],
+    "external_protocol": "identical newline-delimited JSON over persistent stdin/stdout pipes; fixture index request and three-probability response",
+    "fixture_records": 128,
+    "logical_cpu_index": 0,
+    "quantile": "NumPy linear quantile",
+    "raw_input": "identical read-only memory-mapped 12x5000 float32 ECG fixture; mapping and disk access completed before readiness/timing",
+    "records_per_condition": 32,
+    "requests_per_run_per_pipeline": 128,
+    "run_order": "alternating pipeline order by run; identical deterministic shuffled fixture order within each run",
+    "threads_per_framework": 1,
+    "timed_runs": 7,
+    "total_timed_requests_per_pipeline": 896,
+    "type": "warm integrated persistent-worker request/response; no component latency summation",
+    "warmup_requests_per_pipeline": 16
+  },
+  "output_agreement": {
+    "huang": {
+      "comparison": "live CPU integrated output versus frozen v2 seed-104729 cache",
+      "decision": "PASS",
+      "detector_class_agreement": 1.0,
+      "max_absolute_probability_difference": 0.00034683942794799805,
+      "mean_absolute_probability_difference": 4.450110644714627e-05,
+      "predeclared_acceptance": "max absolute diagnostic probability difference <=0.05; threshold decision agreement >=0.99; Huang detector class agreement =1.0",
+      "threshold_decision_agreement": 1.0
+    },
+    "physics": {
+      "comparison": "live CPU integrated output versus frozen v2 seed-104729 cache",
+      "decision": "PASS",
+      "detector_class_agreement": null,
+      "max_absolute_probability_difference": 0.0004107952117919922,
+      "mean_absolute_probability_difference": 4.799927256615653e-05,
+      "predeclared_acceptance": "max absolute diagnostic probability difference <=0.05; threshold decision agreement >=0.99; Huang detector class agreement =1.0",
+      "threshold_decision_agreement": 1.0
+    }
+  },
+  "physics_aware": {
+    "external_echo_overhead": {
+      "maximum_ms": 0.2224,
+      "median_ms": 0.0561,
+      "minimum_ms": 0.0498,
+      "n": 128,
+      "p95_ms": 0.11379500000000001
+    },
+    "internal_loading_ms": 3763.7268,
+    "latency": {
+      "maximum_ms": 41.9692,
+      "median_ms": 10.5943,
+      "minimum_ms": 9.3305,
+      "n": 896,
+      "p95_ms": 12.4153
+    },
+    "loaded_memory": {
+      "components": [
+        {
+          "peak_working_set_bytes": 641900544,
+          "private_bytes": 1024987136,
+          "working_set_bytes": 641900544
+        }
+      ],
+      "peak_working_set_bytes_sum": 641900544,
+      "private_bytes": 1024987136,
+      "working_set_bytes": 641900544
+    },
+    "loading_to_ready_ms": 5823.5197,
+    "maximum_sampled_working_set_bytes": 641900544,
+    "model_artifact_bytes": 3882893,
+    "process_peak_working_set_bytes_sum": 641900544,
+    "run_variability": {
+      "median_mean_ms": 10.594992857142858,
+      "median_range_ms": [
+        10.5146,
+        10.75985
+      ],
+      "median_sd_ms": 0.08239922344178675,
+      "p95_mean_ms": 13.157852857142856,
+      "p95_range_ms": [
+        11.713255,
+        20.154834999999995
+      ],
+      "p95_sd_ms": 3.098850336514409,
+      "run_medians_ms": [
+        10.5715,
+        10.75985,
+        10.523900000000001,
+        10.626999999999999,
+        10.5146,
+        10.5734,
+        10.5947
+      ],
+      "run_p95s_ms": [
+        12.56561,
+        20.154834999999995,
+        12.09883,
+        11.76481,
+        11.9891,
+        11.713255,
+        11.818529999999999
+      ]
+    }
+  }
+}

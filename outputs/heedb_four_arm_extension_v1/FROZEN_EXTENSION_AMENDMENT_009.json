@@ -1,0 +1,9 @@
+{
+  "amendment": "009",
+  "amendment_008_sha256": "19e9346d4a454fb263bc222aab2da26fffb4f459f6b3ca1114877b1c13a109c6",
+  "finalizer_sha256": "a7f773d5c95026430f689e5cfe6db86a039fbe3ca4602f13a8fdfb0b52b84cd1",
+  "no_metric_recompute": true,
+  "protocol_sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa",
+  "reason": "Bind corrected provenance extraction. The v2 frozen input inventory did not list historic comparator checkpoints directly; finalizer now hashes existing comparator checkpoint and preprocessing files themselves rather than reading a missing protocol key. No scores, calibrators, or intervals change.",
+  "status": "FROZEN_BEFORE_FINALIZATION_RETRY"
+}\n

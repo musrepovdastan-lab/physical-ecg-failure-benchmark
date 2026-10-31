@@ -1,0 +1,32 @@
+{
+  "status": "INITIALIZATION_NOT_CONTROLLED_BY_DECLARED_FIT_SEED",
+  "model_constructor_lines": [
+    109,
+    135
+  ],
+  "seed_calls": [
+    {
+      "call": "random.seed",
+      "line": 111
+    },
+    {
+      "call": "np.random.seed",
+      "line": 111
+    },
+    {
+      "call": "torch.manual_seed",
+      "line": 111
+    },
+    {
+      "call": "torch.cuda.manual_seed_all",
+      "line": 111
+    }
+  ],
+  "first_constructor_before_first_seed_call": true,
+  "same_declared_seed_different_ambient_rng_changes_initial_weights": true,
+  "seed_before_constructor_control_matches": true,
+  "weight_digest_ambient111": "af76319fd2b03d62333ce3fb55c3d245a286b84e54bd6983f15680dd0dbeca34",
+  "weight_digest_ambient222": "02c5be0334d198001d26d22a4c56a2e928b0d3ff9359c2b6bd1ca2097acaf98a",
+  "interpretation": "Declared seed controls subsequent shuffle/training RNG and deterministic augmentations, but is assigned after model initialization. Existing checkpoints remain evaluable; exact fresh initialization cannot be reproduced solely from their fit seed. Initial-state provenance needs a narrow audit; this is not evidence of A/B leakage or invalid prediction arithmetic.",
+  "scope": "Static source audit plus four CPU model constructions; zero training, zero data inference, no historical artifact edits."
+}

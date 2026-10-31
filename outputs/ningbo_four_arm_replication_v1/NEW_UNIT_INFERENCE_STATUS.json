@@ -1,0 +1,41 @@
+{
+  "completed_utc": "2026-10-17T16:49:49.514873+00:00",
+  "units": [
+    {
+      "arm": "masking",
+      "prediction_manifest_sha256": "9b14ec82593f668e605d19644cc3986508664bdb860640c894581392a54aa970",
+      "seed": 104729,
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "masking",
+      "prediction_manifest_sha256": "14b4d6705f6667fdd5b6549e12849a06a52ba8cb6424562fcd0baec8c2ee0ce0",
+      "seed": 130363,
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "masking",
+      "prediction_manifest_sha256": "887962136f6e5b2a85274b2e2773116c67e6bc9758384088fc4b45629e8db030",
+      "seed": 155921,
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "combined",
+      "prediction_manifest_sha256": "793b28a8f9d282016a284e7ca1737e53d70c43a119652026dab3300fac48a1c7",
+      "seed": 104729,
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "combined",
+      "prediction_manifest_sha256": "0b36f4e2fb16ba57af261c7a590fe4a6b6f0de898db9fa3bfba16f9c85ceac91",
+      "seed": 130363,
+      "status": "COMPLETE"
+    },
+    {
+      "arm": "combined",
+      "prediction_manifest_sha256": "4ff8e9f9ead31c5e4b063d03c11d742000fa8fcbf2d4cadf2d3cbaa9875e5b7b",
+      "seed": 155921,
+      "status": "COMPLETE"
+    }
+  ]
+}

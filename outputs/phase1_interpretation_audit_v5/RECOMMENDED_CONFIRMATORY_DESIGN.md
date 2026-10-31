@@ -1,0 +1,5 @@
+# Recommended confirmatory design (draft only)
+
+Question: Do conventional independent displayed-lead masking evaluations underestimate ECG classifier failures caused by electrically coupled acquisition faults and terminal reversals?
+
+Use Chapman only as exploratory/development evidence and leave Ningbo untouched for confirmation. Distinguish displayed leads, independent measurements, electrodes, and terminal reversals. Collapse prediction-equivalent consequence classes before analysis; compare severity- or consequence-matched conditions; prespecify a positive direction; and compute scenario-level synchronized 1,000-replicate intervals. Retain T-wave abnormality primary and SB/STach negative controls. Require at least three fixed seeds, a Ningbo confirmation effect in the same direction, no equal-or-larger loss in both controls, and a predeclared effect threshold. Before authorizing, benchmark cached inference and reserve roughly 3× the observed single-seed GPU time plus 20 GB storage for data, checkpoints, and prediction caches.

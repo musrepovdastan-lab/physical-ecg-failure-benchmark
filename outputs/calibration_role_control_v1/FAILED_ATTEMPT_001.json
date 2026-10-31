@@ -1,0 +1,8 @@
+{
+  "status": "ENGINEERING_SMOKE_BLOCKED_BEFORE_TRAINING",
+  "reason": "Accepted membership CSV has a UTF-8 BOM; the first DictReader key was '\\ufeffrole', causing a KeyError before any waveform role was loaded.",
+  "training_started": false,
+  "calibration_or_test_accessed": false,
+  "resolution": "Use utf-8-sig when parsing the accepted membership file, then re-freeze the runner and rerun the smoke.",
+  "failed_protocol_file": "FROZEN_EXECUTION_PROTOCOL_FAILED_001.json"
+}

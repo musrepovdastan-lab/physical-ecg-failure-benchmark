@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-18",
+  "files": [
+    {
+      "path": "Alves2025_Real_World_Electrode_Interchange.pdf",
+      "bytes": 479386,
+      "sha256": "10689cc646408f77624ff8148875754d59aa8d53017cf76734db5169fe000d1e"
+    },
+    {
+      "path": "NOVELTY_REVIEW_RU.md",
+      "bytes": 13096,
+      "sha256": "186e0fc1aa4b9302efe78791202b002d67d43225f67c595786f4b54f190f1611"
+    },
+    {
+      "path": "Rafiei2026_Self_Validating_ECG.pdf",
+      "bytes": 2035761,
+      "sha256": "d455513f48485c8ee04a02dec49c9bd0a9b5b373b0152c8f9d2a278e9a92fbcc"
+    },
+    {
+      "path": "SOURCE_ACCESS_LOG.json",
+      "bytes": 2899,
+      "sha256": "84e745e690a69ed248c894325423d5b56a4827b814f03056ca22bbcf1d90670f"
+    }
+  ]
+}

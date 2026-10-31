@@ -1,0 +1,26 @@
+{
+  "review_date": "2026-10-19",
+  "manifest_files_hashed": 53,
+  "frozen_inputs_hashed": 83,
+  "original_2_4GB_waveform_cache_hash_checked": true,
+  "patient_count_unique": 10000,
+  "proxy_labels_reconstructed_from_original_codes": true,
+  "metric_rows_recomputed": 1071,
+  "metric_values_recomputed": 9639,
+  "metric_max_error": 5.551115123125783e-16,
+  "recovered_calibrator_entries_checked": 18,
+  "decision_checks": 144,
+  "paired_full_sample_points_checked": 48,
+  "full_sample_point_max_error": 4.218847493575595e-15,
+  "bootstrap_summary_values_checked": 144,
+  "bootstrap_summary_max_error": 0.0,
+  "actual_bootstrap_contrast_spots_checked": 144,
+  "bootstrap_spot_max_error": 2.366162821232365e-15,
+  "historical_metric_rows_preserved": 819,
+  "limits": [
+    "No GPU replay was independently rerun.",
+    "All saved 1000-draw summaries reproduced; actual repeated-patient metrics independently checked at draws 0,417,999. Full 1000-draw metric generation was not repeated."
+  ],
+  "mean_sd_summary_values_checked": 4998,
+  "mean_sd_max_abs_error": 3.3306690738754696e-16
+}

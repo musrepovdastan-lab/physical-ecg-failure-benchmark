@@ -1,0 +1,20 @@
+{
+  "huang": {
+    "comparison": "live CPU integrated output versus frozen v2 seed-104729 cache",
+    "decision": "PASS",
+    "detector_class_agreement": 1.0,
+    "max_absolute_probability_difference": 0.00034683942794799805,
+    "mean_absolute_probability_difference": 4.450110644714627e-05,
+    "predeclared_acceptance": "max absolute diagnostic probability difference <=0.05; threshold decision agreement >=0.99; Huang detector class agreement =1.0",
+    "threshold_decision_agreement": 1.0
+  },
+  "physics": {
+    "comparison": "live CPU integrated output versus frozen v2 seed-104729 cache",
+    "decision": "PASS",
+    "detector_class_agreement": null,
+    "max_absolute_probability_difference": 0.0004107952117919922,
+    "mean_absolute_probability_difference": 4.799927256615653e-05,
+    "predeclared_acceptance": "max absolute diagnostic probability difference <=0.05; threshold decision agreement >=0.99; Huang detector class agreement =1.0",
+    "threshold_decision_agreement": 1.0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "arm": "physics_aware",
+  "bootstrap_completed": 0,
+  "bootstrap_total": 1000,
+  "completed_conditions": 794,
+  "condition": "mask5_7_8_9_10_11",
+  "dataset": "Chapman",
+  "estimated_remaining_seconds": null,
+  "pid": 13284,
+  "seed": 155921,
+  "stage": "EVALUATING",
+  "total_conditions": 794,
+  "updated_utc": "2026-08-31T14:05:04.266629+00:00"
+}

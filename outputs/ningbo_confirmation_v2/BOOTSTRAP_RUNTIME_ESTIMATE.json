@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-08-30T06:36:02.211107+00:00",
+  "estimated_single_process_seconds": 4634.99999960186,
+  "exact_metric_calls": 7137000,
+  "labels": 3,
+  "masks": 792,
+  "method": "exact sklearn average_precision_score, 32-condition chunks; no approximation",
+  "microbenchmark_seconds_for_793_metrics": 0.5149999999557622,
+  "replicates": 1000,
+  "seeds": 3
+}

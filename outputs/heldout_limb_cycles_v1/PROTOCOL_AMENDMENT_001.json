@@ -1,0 +1,9 @@
+{
+  "added_before_new_cycle_inference_or_metrics": true,
+  "amendment": "Add a complete-cohort chest-only invariance audit comparing each fresh cycle prediction file with the preserved historical clean cache before inference is marked complete.",
+  "created_utc": "2026-10-18T04:22:23.679162+00:00",
+  "previous_protocol_sha256": "66a426aeab9a7c66d4a9828608d2cc4c07904114a86487e740530c74c46e0d33",
+  "reason": "Explicitly satisfy the frozen user requirement to verify chest-only clean/cycle prediction invariance.",
+  "scope": "Auditing only; no model, signal transform, endpoint, threshold, cohort, or metric definition changed.",
+  "tolerance_abs_probability": 0.0001
+}

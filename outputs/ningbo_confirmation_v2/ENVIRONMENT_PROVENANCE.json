@@ -1,0 +1,13 @@
+{
+  "canonical_record_count": 34899,
+  "canonical_records_sha256": "2a217b4e01f8570fcb5e6f25feead6f04d4d490c558084c7b9ddf02389495da5",
+  "cuda": "12.8",
+  "exclusion_artifact_sha256": "63c79f46c27fae3861e5ff4b719f6b6cebd66d4f3bcf5aefad2ecce469770a0f",
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "protocol_v2_sha256": "1FE829E4357B4EFDE0E5F227BAF5BF94E8D22D12AF0959A38CEE12CCE1F40D71",
+  "python": "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\.venv\\Scripts\\python.exe",
+  "split_sha256": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388",
+  "torch": "2.11.0+cu128",
+  "version": "ningbo_confirmation_v2",
+  "workflow_version": "ningbo_confirmation_v2"
+}

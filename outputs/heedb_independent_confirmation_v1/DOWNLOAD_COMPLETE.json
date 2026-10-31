@@ -1,0 +1,15 @@
+{
+  "cap_bytes": 2147483648,
+  "completed_utc": "2026-09-26T03:53:14.703265+00:00",
+  "decision": "PASS",
+  "elapsed_seconds": 9.859,
+  "estimated_aws_service_charge_usd_upper_without_discount": 0.1219,
+  "exact_remote_bytes": 1177012861,
+  "new_download_bytes_total": 1177012861,
+  "objects": 20000,
+  "restricted_object_manifest_sha256": "19ed0e4755ff85c2aef9e1d52bf83e3b87847cef0288c87e735ecb9ef400740f",
+  "resumed_bytes_this_amendment": 120000,
+  "scientific_protocol_sha256": "199344e9f7cbb0eb55564f52ce320bca4c85478ceb68174a3d11568611a58760",
+  "transfer_amendment_sha256": "fd001d31bca91bba76f6e197b97e6bee89d9153d101fc9717cb3b3911b13c69a",
+  "verified_objects": 20000
+}

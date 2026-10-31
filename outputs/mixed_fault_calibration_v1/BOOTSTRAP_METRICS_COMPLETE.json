@@ -1,0 +1,36 @@
+{
+  "AUPRC_reproduces_original_bootstrap_exactly": true,
+  "absolute_metric_summaries": 882,
+  "amendment_002_sha256": "e180d13ebce247878f21e501b3364e9608d0b566703d3fecaebcc29f7545585c",
+  "metrics": [
+    "auprc",
+    "auroc",
+    "brier",
+    "ece15",
+    "sensitivity",
+    "specificity",
+    "predicted_positive_fraction",
+    "false_positives_per_1000",
+    "false_negatives_per_1000"
+  ],
+  "not_retrained": true,
+  "paired_contrast_summaries": 567,
+  "primary_endpoint": "TWA",
+  "q_scenarios": [
+    0.0,
+    0.001,
+    0.005,
+    0.01,
+    0.05,
+    0.1,
+    1.0
+  ],
+  "replicate_artifact_sha256": "d84e18e562737f04e72e453302a48ee8fee3b51091f20b22aae190e8ec9e7890",
+  "replicates": 1000,
+  "sources": [
+    "Ningbo",
+    "HEEDB_I0006_independent_confirmation"
+  ],
+  "status": "PASS",
+  "summary_sha256": "3d1a6e9582846e571505a7347c25ee1e55d97b85251890940a34a6ea72cade03"
+}

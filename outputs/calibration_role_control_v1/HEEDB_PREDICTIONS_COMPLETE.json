@@ -1,0 +1,488 @@
+{
+  "elapsed_seconds": 0.5939999999827705,
+  "label_sha256": "7b978b7c34669a46d5af964056944aa42289840c25dc6a0d560a7edb9f638b83",
+  "rows": [
+    {
+      "cohort": "HEEDB",
+      "condition": "clean",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_104729/clean.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "08b7751d568ad1823ed454f4f7dbbcbd6e8cc5dd62eee64cb67a93b9501626ac",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LA_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_104729/RA_LA_reversal.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "0f352ebf9d7316cce6ee1716640960e4608fbbf5e91cd676c7a9be4f8bf020d9",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LL_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_104729/RA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "770e51de314037db6c0c7c22c5fca9614893bea6c7d017d83610b242d36005a0",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "LA_LL_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_104729/LA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "7a65070f79cb3aeca85dddc4166799c67e03535966a0e302a758ae1b01c223fc",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "clean",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_130363/clean.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "b83c028893b7437a4142b3222acbd899f55ef1e9e0916fd08f0e03992f413a5e",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LA_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_130363/RA_LA_reversal.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "94af3811b374d15b65d1c599b40c0bcd5e3a39e6804a7ea6b464fbcc8971d1b4",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LL_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_130363/RA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "7b29b9e45d178f9b76aa47213459bf2948a6c7db0157135051599a6ffd877f79",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "LA_LL_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_130363/LA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "6e7451c98956e533f7d9780f98f377f32d2d35023b895e34f7b94d08254e8ad2",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "clean",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_155921/clean.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "b474791e104e5474de87c462e001b02970f70a4598aacac8d70bfd9b7c3feca5",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LA_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_155921/RA_LA_reversal.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "30337e677bb9a41c6cd370e288786e9ce46e73d55bd5396d2b029c8bf8782be9",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LL_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_155921/RA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "25fb0c061abd4b12d80a19f2cd04338cb609162b895ea86fd864a8bf5b4d66e0",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "LA_LL_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_155921/LA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "f63ab6954923bf489e0f6943b9aa0fb320b8081c28169b4f481089dd5192814c",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "clean",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_104729/clean.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "b190a887eb27361ee68dab75c965e6da5947be847e7d8be17996ef210e32685a",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LA_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_104729/RA_LA_reversal.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "1c561c326b3456bb5f6f801f3a1d16b8203e4a723c8f019a9dd3632b02dbe773",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LL_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_104729/RA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "dd7e264ce0f299aa7d3c15721292773a84c554a91d80f03ac416feaebeb4b89b",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "LA_LL_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_104729/LA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "b202ae5abeeaf9b80ba7ac0d2021fa09efd3badb92aae53df8f0fbbc0da00799",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "clean",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_130363/clean.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "d84b42106efce78be99b75e5e23f73475956abfaac679e78e29a9927c849a807",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LA_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_130363/RA_LA_reversal.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "a85037fd90d4b10fe646a16e548b0a3d34e0a1b84a1b31816c93371c88078b2c",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LL_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_130363/RA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "d57448711a79b6efa96c2c77bff7f18be7092e3ba585877ae2d5d1b96bd6f85b",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "LA_LL_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_130363/LA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "d284b90ff829eb0a37cbf752074ab16be2acb1bfc144d1948d65c6c5ea2f4429",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "clean",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_155921/clean.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "d87ebf735aa562e4f0a4c0c56076c1c3937a97c3da3e59223b29e34cb1151c1e",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LA_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_155921/RA_LA_reversal.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "5fa518732257e6c47d78aaab6bafc99c35ca1b687380e17c3d5f415f3204e25e",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LL_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_155921/RA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "3e39908423c1565896ed78802c2d3078c42a53d1eb5f9aab108e6e9659549208",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "LA_LL_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_155921/LA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "6b55f33b27438cc97f3bf6820888430b636ab25e7b76fd98ea13bb34dc61a2b4",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "clean",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_104729/clean.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "364623b636e6a527a9984c1555fd0983469d1a12907899a3deb34c580ed0232e",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LA_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_104729/RA_LA_reversal.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "7b42f7cd2d7a6884d1dc8bd027be9c8d85b765e8fb9c6618f017f26a5643e121",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_104729/RA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "113457acbb2dabff58d469b41c4d7760e6c3899bede6a1c7754095b7aae9dd9a",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "LA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_104729/LA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "8fabd8034b1f0518217d5cf0259d6401e68105d17840231978df277bd1d9658e",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "clean",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_130363/clean.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "c04339b7dec61e19e67fa5f4fe9632f93caab0bae28009e20886020e2a3cf2cb",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LA_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_130363/RA_LA_reversal.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "d7a51ba59a2a5101a3e04319cb52f87ea2925977e7bc188b9ef48b8c2c527f47",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_130363/RA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "ace8697b44e628870d9153092567366bb8b3f2db187e701e4f560adf956bd67f",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "LA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_130363/LA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "a4b6c068f4642d950dcb7aaed5fb1792c3d9b84615d6d13b12288d8edfc417ff",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "clean",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_155921/clean.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "046e9220a0fefdf0bbf65b97ffb4b7c0fa111e964c09241a28d2015828a9f76d",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LA_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_155921/RA_LA_reversal.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "6918defa77ff8f54bf4c87ef300e7c6416dd6f6b7286743de7d393a2fe0a3a00",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_155921/RA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "cf12d19f8d31175f3b0f55f180ae281e8174a916a1e7311cd1dd14f47ad8b284",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "LA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_155921/LA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "6af4dfcd82833222b18a8429e29bc2ab8705923efe675af984e8c83101f7f991",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "clean",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_104729/clean.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "3f6bf8ad6568596a11810ef7ad331835966349d555d54fc21fa51c3c096d7770",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LA_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_104729/RA_LA_reversal.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "be85b15d64a99d939657dd4c2f21945005d230fd8678ba51375ce115a1c8320d",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_104729/RA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "13e19de3b097c6b95d0019d3765211c1ef63cc7407e696c0237a0140067d2a8c",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "LA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_104729/LA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 104729,
+      "sha256": "adc1bbbe3bc4659a8b9e5219d8301604ea6f1f555cb7fd54953736a013ceb5de",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "clean",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_130363/clean.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "375710c95632e819e55d50ccaf6664c154325ad9987f7d4e1471c84fac5c1ebe",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LA_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_130363/RA_LA_reversal.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "9919c2702d821b311036962bc8e77ffdd0c3d2064e29fcc55ed622eec2c6f8dd",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_130363/RA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "9310c76a481981c26b4b3c3535c7e1d6643c0d435656abb7c3a2b388318f367a",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "LA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_130363/LA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 130363,
+      "sha256": "f0250444e759a009fb94dd86ef7da2434cea149fd47950a9582f13d4910ff179",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "clean",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_155921/clean.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "be034c3d834365b0940a720647ab19ee29b4b39503767bfaa0ef31d189fb81bd",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LA_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_155921/RA_LA_reversal.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "b4a4de149dfb9a49ffe5b83033a9e3eafb688fd66721c6e4188f2d2f8be92d92",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "RA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_155921/RA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "7f0bcf462729a340f5293ed7d8d088e78d733ad43fd0bd221e6c3e81da87fc28",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "HEEDB",
+      "condition": "LA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_155921/LA_LL_reversal.npz",
+      "rows": 10000,
+      "seed": 155921,
+      "sha256": "0c0826117ef46411c527b15bcc2132e42a8210f17bd620a7ff443c11023ff605",
+      "status": "REUSED"
+    }
+  ],
+  "source_order_sha256": "bc8b9ab31178f7eb35f031a8e0654eaa8bcd15503e121a1233620170dabca5c3",
+  "status": "PASS"
+}

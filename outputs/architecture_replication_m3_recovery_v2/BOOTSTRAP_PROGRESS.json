@@ -1,0 +1,10 @@
+{
+  "completed_tasks": 18,
+  "indices_sha256": "5d02c9fc5f3379ca1f9a7dfd5acb1f1b7700cce894b196c05ea86b8ed5902b9e",
+  "indices_shape_axes": [
+    "replicate",
+    "canonical_test_record"
+  ],
+  "total_tasks": 18,
+  "updated_utc": "2026-10-17T04:05:29.272293+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "cohort_draws": 1000,
+  "contrast_rows": 280,
+  "draw_groups": 280,
+  "draws_reproduced_exactly": true,
+  "existing_v2_replay_audit": {
+    "artifact_sha256": "8a55340a61b3cd858e397d9b8004ff0c60ad9b8e804a6b705750861ae5660cd0",
+    "max_abs_delta": 0.0,
+    "status": "PASS",
+    "v1_absolute_groups_checked": 882000
+  },
+  "indices_sha256": "cd4c8f9d8254a0e120e97cc02056cf8f3421a23feb47d401129139fa2286a4c7",
+  "metrics_implementation": "mixed_fault_calibration_v1/extend_bootstrap_metrics.py fast_metrics; validated against sklearn reference by validate_fast_metrics",
+  "replicate_array_sha256": "25ebd30bcccc78608754ac24cd5c8cbd40f5d4e061eaf26c2287900652a6510b",
+  "rng_seed": 20261017,
+  "same_patient_multiplicity_both_conditions": true,
+  "seed_mean_then_paired_difference": true,
+  "status": "PASS"
+}

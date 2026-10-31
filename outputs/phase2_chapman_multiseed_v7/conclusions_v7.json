@@ -1,0 +1,43 @@
+{
+  "all_seed_twa_contrasts_positive": true,
+  "baseline_all_pass": true,
+  "bootstrap": {
+    "SB": {
+      "aggregate": "mean_of_three_seed_contrasts",
+      "bootstrap_unit": "canonical_record",
+      "high95": 0.007355509791523218,
+      "label": "SB",
+      "low95": 0.0030333390459418297,
+      "mean_contrast": 0.004982891026884317,
+      "replicates": 1000
+    },
+    "STach": {
+      "aggregate": "mean_of_three_seed_contrasts",
+      "bootstrap_unit": "canonical_record",
+      "high95": 0.2726935148239136,
+      "label": "STach",
+      "low95": 0.18671752512454987,
+      "mean_contrast": 0.2268005609512329,
+      "replicates": 1000
+    },
+    "TWA": {
+      "aggregate": "mean_of_three_seed_contrasts",
+      "bootstrap_unit": "canonical_record",
+      "high95": 0.27958938479423523,
+      "label": "TWA",
+      "low95": 0.20959141850471497,
+      "mean_contrast": 0.24571871757507324,
+      "replicates": 1000
+    }
+  },
+  "completed_utc": "2026-08-29T10:51:55.138084+00:00",
+  "decision": "FREEZE_NINGBO_GENERAL_FAILURE_CONFIRMATION",
+  "exploratory": true,
+  "frozen_protocol_sha256": "312DABB9A0400675097D492F66DF58C9DA5EAD69623FFF0563F4DAECE0944CB7",
+  "ningbo_accessed": false,
+  "seed_twa_contrasts": {
+    "104729": 0.30819098676407153,
+    "130363": 0.21319014570812778,
+    "155921": 0.2165610782637336
+  }
+}

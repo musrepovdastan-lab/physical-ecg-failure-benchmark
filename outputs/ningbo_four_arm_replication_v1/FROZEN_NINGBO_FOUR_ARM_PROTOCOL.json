@@ -1,0 +1,225 @@
+{
+  "amendments": [
+    {
+      "created_utc": "2026-10-17T12:57:13.605241+00:00",
+      "id": "001",
+      "method_change": false,
+      "prior_protocol_sha256": "51eb6490370b39deaccb64f35e141cd597f1804ea253d3e7eb2f1c0a155244c5",
+      "reason": "Corrected the protocol identity gate to compare the four-arm registry separately from the two arms scheduled for new training. The initial check rejected its own valid frozen protocol.",
+      "test_accessed_before_amendment": false,
+      "training_started_before_amendment": false,
+      "workflow_source_sha256": "7494cc12ba98c4f9258cd2b228a77ac18582c59c6e6e93f3bd63e17d110d4a44"
+    },
+    {
+      "created_utc": "2026-10-17T13:04:08.679225+00:00",
+      "id": "002",
+      "method_change": false,
+      "prior_protocol_sha256": "edd11c30f8ed62ed3087f2cd862073a33678915dafb448a1bdedd8087a79af02",
+      "reason": "Avoid redundant waveform re-extraction by reusing byte-identical per-lead mean/std already derived on the exact frozen Ningbo train split and bound to all six existing checkpoints.",
+      "test_accessed_before_amendment": false,
+      "training_started_before_amendment": false,
+      "verification": "all three clean and all three physics-aware preprocessing.npz have the same SHA-256; new units copy these bytes and record split/source provenance",
+      "workflow_source_sha256": "f5e7ac5685424770961819d453d8c1d4a370b6017061b624900a8de66e7429aa"
+    }
+  ],
+  "arms": [
+    "clean",
+    "masking",
+    "physics_aware",
+    "combined"
+  ],
+  "arms_recipe": {
+    "clean": {
+      "clean": 1.0,
+      "existing_checkpoint_only": true
+    },
+    "combined": {
+      "clean": 0.5,
+      "five_lead_mask": 0.25,
+      "never_combine": true,
+      "one_uniform_physical_reversal": 0.25
+    },
+    "masking": {
+      "clean": 0.5,
+      "five_lead_mask": 0.5
+    },
+    "physics_aware": {
+      "clean": 0.5,
+      "existing_checkpoint_only": true,
+      "one_uniform_physical_reversal": 0.5
+    }
+  },
+  "bindings": {
+    "RESEARCH_PLAN_AFTER_MENTOR_20261016.md": "a05c195b44cc73b45e78a8f413dbe16456d0afabd71f65aaec65cdbe14e34128",
+    "configs/FROZEN_MITIGATION_M1_PROTOCOL_v1.json": "248976f691003daa45c5f188c53f7cf75891f19f8723223477fc41e1d65667ce",
+    "configs/FROZEN_MITIGATION_M2_NINGBO_PROTOCOL_v1.json": "2d7b605af175ef6d5b59b223a9ea37bb3f7d675c2c1ac3e27fff23fcd43e96b8",
+    "outputs/architecture_replication_m3_recovery_v2/CHAPMAN_REPORT.md": "8925590381691c5ebbcb743d6b8ae38242b993b2e07bb8f3ad1cb89c5937e318",
+    "outputs/mask_semantics_recovery_v2/FINAL_RECOVERY_REPORT.md": "a09da00d7efd8ec4c27dd60058dca80f9400f00fc372945d9a50a39045508ac0",
+    "outputs/mask_semantics_recovery_v2/RECOVERY_PROTOCOL.json": "b6b148f9c19c2dbe54c06618863ca66a4a2f8090753697d687a9946bd5fe84b8",
+    "outputs/mixed_fault_calibration_v1/calibration_split_indices.npz": "6dd8733b6ac0102ce66600ea1dff9a205db4a73d11af1af4c521656a72a471ec",
+    "outputs/mixed_fault_calibration_v2/CALIBRATION_AND_PROVENANCE.json": "80e8056cc97b903ed1b74930df1088acffe70a32bbe3f6155a254a4ccb444942",
+    "outputs/mixed_fault_calibration_v2/FINAL_FOUR_METHOD_COMPARISON.md": "0ef8927b77ac3d06d3ef5f159dd222e5b938ad787cac9f8447b0ac4648f61227",
+    "outputs/mixed_fault_calibration_v2/FROZEN_COMPLETION_PROTOCOL.json": "658b12c968bf8e270de1a68882a3d39564b6e63b6e526766bbcd4c84eab781fd",
+    "outputs/ningbo_confirmation_v2/CANONICAL_RECORDS.json": "2a217b4e01f8570fcb5e6f25feead6f04d4d490c558084c7b9ddf02389495da5",
+    "outputs/ningbo_confirmation_v2/SPLIT_LEAKAGE_PROOF.json": "07d2d7745beef3334338d62bddbc594b638d02dce8de8cdb9c07287df93e7783",
+    "outputs/ningbo_confirmation_v2/SPLIT_MEMBERSHIP.json": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388",
+    "outputs/ningbo_confirmation_v2/bootstrap_indices.npy": "6d186026b73c6a0ad31df3c20f16c6f18ad9970176e9c78b0235e6a64e1861d1",
+    "src/chapman_phase1.py": "8a9d4926cbd623892391af1298e03d7a5e7e23c60c1d3393b71e36ee45a16e82",
+    "src/ecg_physics.py": "51218806eec81765df6247307e70ccce56f76cfa54e54782f1b47d468014eb9c",
+    "src/mask_semantics_recovery_v2.py": "467407691539469f8d6046ce1678a95c6cb7a7d2a802aa373533035e943821e6",
+    "src/mitigation_m1_v1.py": "7f18c09b2c9a5cd9844a98275cdbb36de59c34f1d321932c73837ebbca235ebb",
+    "src/mitigation_m2_ningbo_v1.py": "de27585a3ef0bbc29b3dc53079622f1c011001d7442b6470de2d31612d857308",
+    "src/ningbo_confirmation_v1.py": "63e78bbd30c79064e1a93b3617895dc4239157510de64bdb99407ff19521cd2a"
+  },
+  "bootstrap": {
+    "mask_panel": "AP per mask then mean; no prediction vector averaging",
+    "point_estimates": "full cohort; report bootstrap mean separately",
+    "replicates": 1000,
+    "source": "outputs/ningbo_confirmation_v2/bootstrap_indices.npy",
+    "synchronization": "same record indices across arms/seeds/conditions/endpoints",
+    "unit": "canonical record"
+  },
+  "bootstrap_indices_sha256": "6d186026b73c6a0ad31df3c20f16c6f18ad9970176e9c78b0235e6a64e1861d1",
+  "bootstrap_indices_shape": [
+    1000,
+    6981
+  ],
+  "conditions": [
+    "clean",
+    "RA_LA_reversal",
+    "RA_LL_reversal",
+    "LA_LL_reversal",
+    "all_792_removed_five_lead_masks"
+  ],
+  "conditions_source": "src/mask_semantics_recovery_v2.py; corrected cache contract",
+  "created_utc": "2026-10-17T12:56:23.377780+00:00",
+  "evaluator_source_sha256": "467407691539469f8d6046ce1678a95c6cb7a7d2a802aa373533035e943821e6",
+  "exact_mask": {
+    "indices": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "name": "I,II,III,aVR,aVF"
+  },
+  "existing_model_bindings": {
+    "clean/104729": {
+      "checkpoint": "4ccbef0f71197f4156ac34cd742d6ab9210e4e7a6829867a137bd7fceb5ccf40",
+      "preprocessing": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "recovery_evaluation": "5a70a822538c5b9b37f40e48e39128c6d859b043930e2093983cb2be29897276",
+      "validation": "63a2627320b1d7bfecd11f7cb7e264f8ddd6e7b41406d80f69d37bcc3b4f3fb9"
+    },
+    "clean/130363": {
+      "checkpoint": "1baf5865b01456704980878a6e9ed72bb23e587636303b6a419b63c58ee0c600",
+      "preprocessing": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "recovery_evaluation": "ef3a2bebdf58700a66fa9e87ac7a06302350f732a87c139c68492bfe3901aa9f",
+      "validation": "dd408f673574ab4a0bd925c88a4a08134a206799397fc80b25757e667160458c"
+    },
+    "clean/155921": {
+      "checkpoint": "9a71453fe35d94ccdc9bb05925abb6b1bedb1496c1d8105f0ede606904b35949",
+      "preprocessing": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "recovery_evaluation": "e02131a078442f88a810ea04d19f692ed6d643e28a1ae6bc81ffa7b9531f3fd4",
+      "validation": "2e7c6c805633e99460e98aa9ce8c92a75e3441691fdc4a63ffe85431c2e3b680"
+    },
+    "physics_aware/104729": {
+      "checkpoint": "5e164b3496077b49a063c75c0d712c66531c907f3ef45db62d087f4877fe8d09",
+      "preprocessing": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "recovery_evaluation": "11b6b2f4143781b6fe9d0a5a758c3b73f7b1507ccc09a1432d82b33957a83158",
+      "validation": "36e25a4796279dbf379525a721200536db3488cd4bc258ea1d715056371ca03c"
+    },
+    "physics_aware/130363": {
+      "checkpoint": "ef347b6bd2d1cc6e4fd649d299543e78ed23efa044976ac3cf66436c0d695c8f",
+      "preprocessing": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "recovery_evaluation": "060126ace635427007f5b70a5b1617a4a570455817b71316cee63d9250aea194",
+      "validation": "ca0c2f953bb260ff4a4d25b75b281db1ac0756d15d884274f364ecd871d02d74"
+    },
+    "physics_aware/155921": {
+      "checkpoint": "fd16f1df621764fd1229ed84e615f016226c00800943c064c021c9136de26eb8",
+      "preprocessing": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "recovery_evaluation": "42b7d3e9b36c6ec76aa4ef5473d9730d83148bfebd521fcc8a0f2081ff149609",
+      "validation": "ee0aea6549b86fceb6504a63e0b2709a64e729c1326aebaf79f6f83134cc417e"
+    }
+  },
+  "limitations": [
+    "Ningbo test has prior access",
+    "combined has half the reversal exposure of physics-aware; contrast does not isolate the effect of adding masks",
+    "M3 Chapman frozen gate FAIL retained",
+    "do not infer channel-use mechanism"
+  ],
+  "masking": {
+    "replacement_before_normalization": true,
+    "sample_space": "uniform over lexicographic C(12,5)=792; indices are removed channels",
+    "sentinel": "training split raw per-lead mean"
+  },
+  "metrics": [
+    "AUPRC",
+    "AUROC",
+    "Brier",
+    "ECE15",
+    "sensitivity",
+    "specificity",
+    "predicted_positive_fraction"
+  ],
+  "mixtures": {
+    "calibration": "same frozen validation A/B positions and v1 Platt recipe; A clean validation fit, B negative clean validation 90th percentile threshold",
+    "fault": "RA_LL_reversal",
+    "q": [
+      0,
+      0.001,
+      0.005,
+      0.01,
+      0.05,
+      0.1,
+      1.0
+    ],
+    "test_fitting": false
+  },
+  "model_training": {
+    "architecture": "ECGResNet-small",
+    "batch_size": 64,
+    "best_checkpoint": "highest validation TWA AUPRC; ties retain earlier epoch",
+    "early_stop": "validation TWA AUPRC only; patience 5",
+    "inference_batch_size": 128,
+    "loss": "weighted multilabel BCE; train-only positive weights capped at 20",
+    "max_epochs": 30,
+    "mixed_precision": "CUDA float16 autocast and GradScaler",
+    "optimizer": "AdamW lr=0.001 weight_decay=0.0001",
+    "validation_gate": {
+      "TWA AUPRC minimum": 0.45,
+      "TWA AUROC minimum": 0.75,
+      "checkpoint/hash/split/protocol integrity": true,
+      "finite loss/predictions": true,
+      "test inference blocked on failure": true
+    }
+  },
+  "new_training_arms": [
+    "masking",
+    "combined"
+  ],
+  "preprocessing": "training split per displayed lead mean/std; augmentation in raw units then mean/std normalization",
+  "primary_contrasts": [
+    "masking-clean on clean TWA, RA_LL TWA, mean-mask TWA",
+    "combined-physics_aware on clean TWA, RA_LL TWA, mean-mask TWA"
+  ],
+  "protocol_sha256": "4718893819c305c0c8efbbe2f9a1e5760d2f622f3f2038fce3685a894acb74ae",
+  "recovery_binding_sha256": "b3c050887f99b2979ef20122374552298185e5a8f8004a769650783c1b77b28a",
+  "research_question": "Does masking and combined training replicate on Ningbo, and how do they change clean-performance, lead-reversal robustness, and missing-lead robustness tradeoffs?",
+  "reuse_policy": "corrected recovery v2 only; require source completion manifest and checkpoint/protocol/preprocessing/order/label/condition bindings; old inverted mask caches prohibited",
+  "scope": "Ningbo follow-up on an already accessed test cohort; exploratory reanalysis, not untouched confirmation.",
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "source_protocols": {
+    "m1": "e2611f563957c1572d22fc822204e1b55febc70366abc229006c776351f63b5f",
+    "m2": "44026e86a513e167be59f68f6a17ce818eb408484d6984874b1c8ab8d7a05ca9",
+    "mask_recovery": "9b590599a7e89f8186f3f7a2342afda7c65187d3f9d98a6e5ba5e99b12839dd2"
+  },
+  "status": "FROZEN_BEFORE_TRAINING",
+  "threshold": "per seed/endpoint 90th percentile of negative validation raw scores (linear quantile)",
+  "version": "ningbo_four_arm_replication_v1",
+  "workflow_source_sha256": "f5e7ac5685424770961819d453d8c1d4a370b6017061b624900a8de66e7429aa"
+}

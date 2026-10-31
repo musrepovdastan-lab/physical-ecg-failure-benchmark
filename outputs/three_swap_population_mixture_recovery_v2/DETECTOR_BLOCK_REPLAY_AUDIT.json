@@ -1,0 +1,109 @@
+{
+  "cached_artifact_sha256": "8186e38275627ca0e4221d2c6ac432f0cdcf04e5e44a27f20479597a90ae515a",
+  "checkpoint": "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\outputs\\published_detector_pipeline_v1\\official_source\\LDenseNet_loadable\\LDenseNet",
+  "checkpoint_data_sha256": "d40d7b9166567aa5332de96a573e792d42f87a6d79b9030f461e9d4d60430ef6",
+  "checkpoint_index_sha256": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1",
+  "class_order": [
+    "clean",
+    "RA_LA",
+    "RA_LL",
+    "LA_LL"
+  ],
+  "elapsed_seconds": 8.25,
+  "max_abs_probability_delta": 0.0,
+  "rows": [
+    {
+      "block": [
+        0,
+        32
+      ],
+      "cached_detector_probabilities_sha256": "0769088d1554142db65fb061148de5b2f91aeed1a10eba3a02e0ed313bd8dfd3",
+      "condition": "RA_LA_reversal",
+      "detector_feature_sha256": "5e2c8d202165f3ddeb7bdd4d2cfc67df9a4c4075d45764d15f88b6103211e270",
+      "incoming_raw_sha256": "73ee5932f3bd9f6786b635cefd6c27f86b8b085df15aeb26d7790b6eb77ca78e",
+      "max_abs_probability_delta": 0.0,
+      "n": 32,
+      "replayed_detector_probabilities_sha256": "0769088d1554142db65fb061148de5b2f91aeed1a10eba3a02e0ed313bd8dfd3",
+      "status": "PASS",
+      "tolerance": 1e-05
+    },
+    {
+      "block": [
+        4992,
+        5024
+      ],
+      "cached_detector_probabilities_sha256": "873ad3c3dd42be11bec10fb22597e0a53d042267cd3558f068a539c986332b81",
+      "condition": "RA_LA_reversal",
+      "detector_feature_sha256": "2a9bad5e7c43827cf716be5fe9a759552f4f69d54653fd2bf7713a68b834586a",
+      "incoming_raw_sha256": "89f63c03f27135f0193e2cd0aee87d0ea8fb13d465e68432930fac57bf942faf",
+      "max_abs_probability_delta": 0.0,
+      "n": 32,
+      "replayed_detector_probabilities_sha256": "873ad3c3dd42be11bec10fb22597e0a53d042267cd3558f068a539c986332b81",
+      "status": "PASS",
+      "tolerance": 1e-05
+    },
+    {
+      "block": [
+        9984,
+        10000
+      ],
+      "cached_detector_probabilities_sha256": "c1a1735ec3221a1e396d83991bcd1b9b6590259a2e76fa1908760eeab003f457",
+      "condition": "RA_LA_reversal",
+      "detector_feature_sha256": "3a79a22e14d800822f3b40a0959ee04c73a5909c9d0044d45553373fc580e17e",
+      "incoming_raw_sha256": "97799ddb5d6dafd1feb4ba5d7ba7c2eb13d9739286d066c0e535b39bf3f40ffa",
+      "max_abs_probability_delta": 0.0,
+      "n": 16,
+      "replayed_detector_probabilities_sha256": "c1a1735ec3221a1e396d83991bcd1b9b6590259a2e76fa1908760eeab003f457",
+      "status": "PASS",
+      "tolerance": 1e-05
+    },
+    {
+      "block": [
+        0,
+        32
+      ],
+      "cached_detector_probabilities_sha256": "4806159429191752d9a9a93279824fea6d117a6140dbf68b8cd660d613f1f861",
+      "condition": "LA_LL_reversal",
+      "detector_feature_sha256": "68e0d821ae45daad73361d9aae6f40b6ea7950886d085f879ef5ebfb0e71cf15",
+      "incoming_raw_sha256": "0880a35847fabd95d528f6e08d3793eea9635c90b5d6c44bf86c7c04eee41ef1",
+      "max_abs_probability_delta": 0.0,
+      "n": 32,
+      "replayed_detector_probabilities_sha256": "4806159429191752d9a9a93279824fea6d117a6140dbf68b8cd660d613f1f861",
+      "status": "PASS",
+      "tolerance": 1e-05
+    },
+    {
+      "block": [
+        4992,
+        5024
+      ],
+      "cached_detector_probabilities_sha256": "264aa396cdd851bc0f949f628ee676cea3105692b4ebf5203504eebee3702f36",
+      "condition": "LA_LL_reversal",
+      "detector_feature_sha256": "d7f6b4692287fb68e11b33117de0ba9fbc30fec46331f365945afd3bbd36f17c",
+      "incoming_raw_sha256": "3ac91b4a92cba163bb3ef08ce939722bba95bbdc2d9a8c84e90a645334f4afc1",
+      "max_abs_probability_delta": 0.0,
+      "n": 32,
+      "replayed_detector_probabilities_sha256": "264aa396cdd851bc0f949f628ee676cea3105692b4ebf5203504eebee3702f36",
+      "status": "PASS",
+      "tolerance": 1e-05
+    },
+    {
+      "block": [
+        9984,
+        10000
+      ],
+      "cached_detector_probabilities_sha256": "cd8be40bd7a2edfdb69b53f35bd09e42d178c2c335ae6c494e9b9a8d3fba6dd5",
+      "condition": "LA_LL_reversal",
+      "detector_feature_sha256": "c5b59327eba1b49f8d28a4525dea0853a87d13f86795fec9d91792ba37b01872",
+      "incoming_raw_sha256": "b32b7a6959ad3d34fffea009bb2589ebdc477027aa26cf55e048753dbc902dc6",
+      "max_abs_probability_delta": 0.0,
+      "n": 16,
+      "replayed_detector_probabilities_sha256": "cd8be40bd7a2edfdb69b53f35bd09e42d178c2c335ae6c494e9b9a8d3fba6dd5",
+      "status": "PASS",
+      "tolerance": 1e-05
+    }
+  ],
+  "source_order_sha256": "7af9986691871d57df5699e270b3cf4442bf5a733536356155a87094bac09de4",
+  "status": "PASS",
+  "tensorflow_version": "2.10.1"
+}

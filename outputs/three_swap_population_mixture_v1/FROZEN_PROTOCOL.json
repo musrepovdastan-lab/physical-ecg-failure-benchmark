@@ -1,0 +1,310 @@
+{
+  "bootstrap": {
+    "HEEDB": "reuse 10,000 patient indices; synchronized multiplicities across four views/methods/seeds",
+    "HEEDB_rng": "preserve source-ordered draws from previous frozen protocol and verify",
+    "Ningbo": "reuse record-resampling indices, historical order"
+  },
+  "calibration": {
+    "fit": "none",
+    "platt": "reuse prior coefficients, clipping, precision unchanged",
+    "ranking": "calculate raw and calibrated; track tie/clipping effects; operating decisions on raw/calibrated thresholds",
+    "thresholds": "reuse per source/method/seed/endpoint raw validation-B thresholds; Huang uses its own full-pipeline validation-B threshold"
+  },
+  "constraints": [
+    "no training",
+    "no threshold selection",
+    "no calibration fitting",
+    "no reserved_test",
+    "no historical writes",
+    "no new split",
+    "no oracle correction",
+    "no model tuning"
+  ],
+  "input_bindings": {
+    "LUNA_PROMPT_THREE_SWAP_MIXTURE_20261019.md": {
+      "bytes": 14274,
+      "sha256": "5e1cb9bd0cd080ee7e27d25799d054373e7bedcc485c272876e4bc066e15a4b6"
+    },
+    "NEXT_RESEARCH_DECISIONS_20261019.md": {
+      "bytes": 13708,
+      "sha256": "907ddefad15049a5fa7b7324a5462492d4973a6df445ad8819d813aa84275676"
+    },
+    "data/heedb_restricted/I0006/huang_exploratory_v1/detector_probabilities_float32.npy": {
+      "bytes": 320128,
+      "sha256": "874882f834ef4a50460bcd286b93a5f7827f21f71d0529fb3858a9e38031407d"
+    },
+    "data/heedb_restricted/I0006/huang_exploratory_v1/huang_diagnostic_probabilities_float32.npy": {
+      "bytes": 720128,
+      "sha256": "e08876d392bd9a64dd4114a9bfaf050ccbf61442a62e005d9f0da341504664f1"
+    },
+    "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy": {
+      "bytes": 1440128,
+      "sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b"
+    },
+    "data/heedb_restricted/I0006/independent_confirmation_v1/selection_initial.csv": {
+      "bytes": 1717878,
+      "sha256": "7af9986691871d57df5699e270b3cf4442bf5a733536356155a87094bac09de4"
+    },
+    "data/heedb_restricted/I0006/independent_confirmation_v1/signals_10000_float32.npy": {
+      "bytes": 2400000128,
+      "sha256": "c961d7ed720f60ed92522285bf6145fda2d461bc620bc86f7af718b8e356e3c5"
+    },
+    "outputs/heedb_four_arm_extension_v1/CALIBRATION_PROVENANCE.json": {
+      "bytes": 32793,
+      "sha256": "ff56414b5d96724f0fa08130db84b0f9a95dbc6fdcb48d381a39b3164082ad9f"
+    },
+    "outputs/heedb_four_arm_extension_v1/FROZEN_EXTENSION_PROTOCOL.json": {
+      "bytes": 13861,
+      "sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa"
+    },
+    "outputs/heedb_four_arm_extension_v1/HEEDB_BOOTSTRAP_INDICES.npy": {
+      "bytes": 80000128,
+      "sha256": "cd4c8f9d8254a0e120e97cc02056cf8f3421a23feb47d401129139fa2286a4c7"
+    },
+    "outputs/heedb_four_arm_extension_v1/PREDICTION_BINDINGS.json": {
+      "bytes": 19671,
+      "sha256": "b90961667676c43a088445001c54aebf41ab8581125d7ab9cab7c233537d5d1a"
+    },
+    "outputs/heedb_four_arm_extension_v1/extension.py": {
+      "bytes": 18860,
+      "sha256": "22f9c4764e2d218238d558cff419bc3658abe473c9776b425ebe92b4b40e5847"
+    },
+    "outputs/heedb_huang_exploratory_v1/DETECTOR_COMPLETE.json": {
+      "bytes": 355,
+      "sha256": "18c8fb5e5657c3f54a413a3212320b424fd278aad968213c101dae3452fa5855"
+    },
+    "outputs/heedb_huang_exploratory_v1/FROZEN_PROTOCOL.json": {
+      "bytes": 5496,
+      "sha256": "50974d7cdb7a286d7d3cd4831b29df2a80edaac31a274afd697d931bb76cd53c"
+    },
+    "outputs/heedb_huang_exploratory_v1/HUANG_DIAGNOSIS_COMPLETE.json": {
+      "bytes": 291,
+      "sha256": "9f784c005b66a05d33738d802323d5dde2ec474bb63f417d4e1d02e9e1234df6"
+    },
+    "outputs/heedb_probability_extension_v1/HEEDB_BOOTSTRAP_INDICES.npy": {
+      "bytes": 80000128,
+      "sha256": "cd4c8f9d8254a0e120e97cc02056cf8f3421a23feb47d401129139fa2286a4c7"
+    },
+    "outputs/heedb_probability_extension_v1/REVIEW_NOTES_20261019.md": {
+      "bytes": 4835,
+      "sha256": "9d0289a4f52434da74a070901e212cb6e5b9ca83e7085ed51bd32ea4ed4faf95"
+    },
+    "outputs/identity_rederivation_sensitivity_v1/REVIEW_NOTES_20261019.md": {
+      "bytes": 4394,
+      "sha256": "7a5c5a8502717c6ca79fafcb0db14be496a2a50fa8c11b4b43205c7d402f6f99"
+    },
+    "outputs/mitigation_m2_ningbo_v1/seed_104729/checkpoint.pt": {
+      "bytes": 3882893,
+      "sha256": "5e164b3496077b49a063c75c0d712c66531c907f3ef45db62d087f4877fe8d09"
+    },
+    "outputs/mitigation_m2_ningbo_v1/seed_130363/checkpoint.pt": {
+      "bytes": 3882893,
+      "sha256": "ef347b6bd2d1cc6e4fd649d299543e78ed23efa044976ac3cf66436c0d695c8f"
+    },
+    "outputs/mitigation_m2_ningbo_v1/seed_155921/checkpoint.pt": {
+      "bytes": 3882893,
+      "sha256": "fd16f1df621764fd1229ed84e615f016226c00800943c064c021c9136de26eb8"
+    },
+    "outputs/mixed_fault_calibration_v2/BOOTSTRAP_METRICS_REPLICATES.npz": {
+      "bytes": 17418937,
+      "sha256": "a589067419f6ee4a5f8d382360bd2db08c81a71d1a3879c5bc36394c244c68bc"
+    },
+    "outputs/mixed_fault_calibration_v2/CALIBRATION_AND_PROVENANCE.json": {
+      "bytes": 35833,
+      "sha256": "80e8056cc97b903ed1b74930df1088acffe70a32bbe3f6155a254a4ccb444942"
+    },
+    "outputs/mixed_fault_calibration_v2/FINAL_FOUR_METHOD_COMPARISON.md": {
+      "bytes": 13074,
+      "sha256": "0ef8927b77ac3d06d3ef5f159dd222e5b938ad787cac9f8447b0ac4648f61227"
+    },
+    "outputs/mixed_fault_calibration_v2/FROZEN_COMPLETION_PROTOCOL.json": {
+      "bytes": 12807,
+      "sha256": "658b12c968bf8e270de1a68882a3d39564b6e63b6e526766bbcd4c84eab781fd"
+    },
+    "outputs/mixed_fault_calibration_v2/HUANG_CALIBRATION_AND_PROVENANCE.json": {
+      "bytes": 12159,
+      "sha256": "98a1282797abcdd1eab6307f94de675841789a77cd5d1063a717d4f2c20387be"
+    },
+    "outputs/ningbo_confirmation_v2/CANONICAL_RECORDS.json": {
+      "bytes": 15013117,
+      "sha256": "2a217b4e01f8570fcb5e6f25feead6f04d4d490c558084c7b9ddf02389495da5"
+    },
+    "outputs/ningbo_confirmation_v2/SPLIT_MEMBERSHIP.json": {
+      "bytes": 8970998,
+      "sha256": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388"
+    },
+    "outputs/ningbo_confirmation_v2/bootstrap_indices.npy": {
+      "bytes": 27924128,
+      "sha256": "6d186026b73c6a0ad31df3c20f16c6f18ad9970176e9c78b0235e6a64e1861d1"
+    },
+    "outputs/ningbo_confirmation_v2/seed_104729/checkpoint.pt": {
+      "bytes": 3879349,
+      "sha256": "4ccbef0f71197f4156ac34cd742d6ab9210e4e7a6829867a137bd7fceb5ccf40"
+    },
+    "outputs/ningbo_confirmation_v2/seed_130363/checkpoint.pt": {
+      "bytes": 3879349,
+      "sha256": "1baf5865b01456704980878a6e9ed72bb23e587636303b6a419b63c58ee0c600"
+    },
+    "outputs/ningbo_confirmation_v2/seed_155921/checkpoint.pt": {
+      "bytes": 3879349,
+      "sha256": "9a71453fe35d94ccdc9bb05925abb6b1bedb1496c1d8105f0ede606904b35949"
+    },
+    "outputs/ningbo_four_arm_replication_v1/combined/seed_104729/checkpoint.pt": {
+      "bytes": 3880781,
+      "sha256": "b5a561a59c00e8d1ce32a3fc76f45a43bbc4f0a3264535b893bae84ce7a3f476"
+    },
+    "outputs/ningbo_four_arm_replication_v1/combined/seed_130363/checkpoint.pt": {
+      "bytes": 3880781,
+      "sha256": "29aabc12fc44db58c1e282715cf604f1a576c4f39ba3504c881ca3a7660c4328"
+    },
+    "outputs/ningbo_four_arm_replication_v1/combined/seed_155921/checkpoint.pt": {
+      "bytes": 3880781,
+      "sha256": "59c012325adb76fa3d7496242f7e9ad19fc2ea2a278caedc125d37e86431bcc7"
+    },
+    "outputs/ningbo_four_arm_replication_v1/test_waveforms_float32.npy": {
+      "bytes": 335088128,
+      "sha256": "f353daf890956e7887dfa4cdb1067fa5d9965f37fa815c417d87e90df134b1b8"
+    },
+    "outputs/published_detector_multifault_v2/FROZEN_MULTIFAULT_PROTOCOL.json": {
+      "bytes": 2280,
+      "sha256": "40ae4df3062f876f395ca83a5b5715070e8f0fff44781d22325f885393681198"
+    },
+    "outputs/published_detector_multifault_v2/REPRODUCIBILITY_MANIFEST.json": {
+      "bytes": 9521,
+      "sha256": "9e86438689d8aa20938aceaecc7bd55e83f7ed1a4a3f3cdc70a9871e9bdaccbb"
+    },
+    "outputs/published_detector_pipeline_v1/official_source/LDenseNet_loadable/LDenseNet.data-00000-of-00001": {
+      "bytes": 109153,
+      "sha256": "d40d7b9166567aa5332de96a573e792d42f87a6d79b9030f461e9d4d60430ef6"
+    },
+    "outputs/published_detector_pipeline_v1/official_source/LDenseNet_loadable/LDenseNet.index": {
+      "bytes": 3626,
+      "sha256": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1"
+    },
+    "src/chapman_phase1.py": {
+      "bytes": 11421,
+      "sha256": "8a9d4926cbd623892391af1298e03d7a5e7e23c60c1d3393b71e36ee45a16e82"
+    },
+    "src/ecg_physics.py": {
+      "bytes": 4854,
+      "sha256": "51218806eec81765df6247307e70ccce56f76cfa54e54782f1b47d468014eb9c"
+    },
+    "src/heedb_huang_adapter_v1.py": {
+      "bytes": 3987,
+      "sha256": "9ed599dff95b77e9f17814c90bd0b6c414e97ef5ffe5f25152a296503ae8f516"
+    },
+    "src/huang_detector_infer_v2.py": {
+      "bytes": 6464,
+      "sha256": "4844a5f77d6815d877b662f20988463fb9480430523fef3baed300a5be47c05a"
+    },
+    "src/published_detector_multifault_v2.py": {
+      "bytes": 39682,
+      "sha256": "b8e65b5d629608d20a551d7180293d97c695d3098c0cda11723e29605897db8d"
+    }
+  },
+  "metrics": {
+    "bootstrap_ci": "percentile 2.5%,97.5%; conditional on fixed models/calibrators; interval crossing zero is not equivalence",
+    "bootstrap_draws": 1000,
+    "bootstrap_metrics": [
+      "raw_TWA_AP",
+      "raw_TWA_Brier",
+      "calibrated_TWA_Brier",
+      "sensitivity_validation_B",
+      "FP_per_1000_validation_B"
+    ],
+    "endpoints": [
+      "TWA",
+      "SB",
+      "STach"
+    ],
+    "paired_contrasts": [
+      "physics_aware_p050-ordinary_resnet",
+      "combined-ordinary_resnet",
+      "Huang_full_pipeline-ordinary_resnet",
+      "physics_aware_p050-Huang_full_pipeline",
+      "combined-Huang_full_pipeline"
+    ],
+    "per_condition_and_mixture": [
+      "raw_AP",
+      "calibrated_AP",
+      "raw_AUROC",
+      "calibrated_AUROC",
+      "raw_Brier",
+      "calibrated_Brier",
+      "raw_ECE15",
+      "calibrated_ECE15",
+      "sensitivity",
+      "specificity",
+      "predicted_positive_fraction",
+      "FP_per_1000",
+      "FN_per_1000"
+    ],
+    "primary": "TWA",
+    "seed_aggregation": "per seed then mean and sample SD, no ensemble"
+  },
+  "mixtures": {
+    "A_equal_three_swaps": {
+      "LA_LL_reversal": "q/3",
+      "RA_LA_reversal": "q/3",
+      "RA_LL_reversal": "q/3",
+      "clean": "1-q"
+    },
+    "B_RA_LL_only": {
+      "LA_LL_reversal": 0,
+      "RA_LA_reversal": 0,
+      "RA_LL_reversal": "q",
+      "clean": "1-q"
+    },
+    "interpretation": "weighted counterfactual views of same patient/record; weights sum to one; q is a scenario, not prevalence"
+  },
+  "protocol_sha256": "8038dae11ce13eab81440ebd4e13fda7f05ab9c030af707a04728bac7185af24",
+  "replay": {
+    "batch_size": 128,
+    "detector_tolerance": 1e-05,
+    "existing_probability_tolerance": 0.0001,
+    "precision": "existing float16 autocast diagnostic path and detector environment",
+    "sequence": "Ningbo replay and engineering checks before HEEDB full cohort inference"
+  },
+  "scope": {
+    "HEEDB_unique_patients": 10000,
+    "Ningbo_records": 6981,
+    "conditions": [
+      "clean",
+      "RA_LL_reversal",
+      "RA_LA_reversal",
+      "LA_LL_reversal"
+    ],
+    "methods": [
+      "ordinary_resnet",
+      "physics_aware_p050",
+      "combined",
+      "Huang_full_pipeline"
+    ],
+    "q": [
+      0,
+      0.001,
+      0.005,
+      0.01,
+      0.05,
+      0.1,
+      1
+    ],
+    "seeds": [
+      104729,
+      130363,
+      155921
+    ],
+    "sources": [
+      "Ningbo",
+      "HEEDB_I0006_independent_confirmation_v1"
+    ]
+  },
+  "status": "FROZEN_BEFORE_NEW_INFERENCE_OUTCOMES",
+  "transformations": {
+    "Huang": "published detector preprocessing, predicted-class argmax inverse correction on raw ECG before ordinary classifier preprocessing; true condition never used; detector also runs on clean",
+    "clean": "historical clean, no identity re-derivation",
+    "faults": "named physical reversal on original raw 12-lead ECG before frozen normalization",
+    "formula_source": "src.ecg_physics.named_reversal plus prior physical transform implementation"
+  },
+  "version": "three_swap_population_mixture_v1"
+}

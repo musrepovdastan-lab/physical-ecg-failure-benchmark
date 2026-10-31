@@ -1,0 +1,6 @@
+v1_artifact,issue,replacement
+outputs/augmentation_probability_study_v1/{cohort}/{arm}/seed_{seed}/validation.npz,contains last-epoch validation predictions although test inference used best checkpoint,outputs/augmentation_probability_recovery_v2/validation/{cohort}/{arm}/seed_{seed}.npz
+outputs/augmentation_probability_study_v1/METRICS_CHAPMAN_NEW_BY_SEED.csv and METRICS_NINGBO_NEW_BY_SEED.csv threshold-derived fields,threshold metrics used last-epoch validation scores,outputs/augmentation_probability_recovery_v2/METRICS_NEW_RECOVERED_BY_SEED.csv
+"outputs/augmentation_probability_study_v1 Ningbo new-arm Platt fits, thresholds, and mixtures",calibration used last-epoch validation probabilities,outputs/augmentation_probability_recovery_v2/NINGBO_CALIBRATION_PROVENANCE_RECOVERED.json and NINGBO_MIXTURES_RECOVERED_BY_SEED.csv
+outputs/augmentation_probability_study_v1/FINAL_PROBABILITY_STUDY_REPORT_RU.md,reports validation-dependent outputs from the wrong epoch and misstates mean-mask comparison,outputs/augmentation_probability_recovery_v2/FINAL_PROBABILITY_STUDY_REPORT_RECOVERED_RU.md
+outputs/augmentation_probability_study_v1/METRICS_ALL_ARMS_BY_SEED.csv historical comparator missing fields,some historical cached-prediction threshold metrics were omitted,outputs/augmentation_probability_recovery_v2/METRICS_ALL_ARMS_RECOVERED_BY_SEED.csv

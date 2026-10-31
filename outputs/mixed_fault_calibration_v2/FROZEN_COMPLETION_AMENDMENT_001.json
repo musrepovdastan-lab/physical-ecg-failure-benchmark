@@ -1,0 +1,24 @@
+{
+  "amendment": "001",
+  "detector_replay": {
+    "max_abs_probability_delta": 0.0,
+    "tolerance": 1e-05
+  },
+  "diagnostic_replay": {
+    "compared_records": 64,
+    "inference_batch_size": 128,
+    "tolerance": 0.0001
+  },
+  "infer_validation_py_sha256": "e58a4615fe8a561e85ad490860fc7b4452687afc2e479fc180410bd683cbc553",
+  "post_result_tolerance_change": false,
+  "protocol_sha256": "658b12c968bf8e270de1a68882a3d39564b6e63b6e526766bbcd4c84eab781fd",
+  "reason": "The first adapter replay met the exact detector score comparison (max absolute delta 0), but diagnostic replay of the first 64 records used a partial batch of 64 while the frozen historical pipeline uses batch size 128. The observed max absolute difference 0.000244140625 exceeded the unchanged preregistered tolerance 0.0001.",
+  "resolution": "Repeat inference on the same first 64 preregistered records as part of a full 128-record batch, compare only those same 64 outputs. No model, weights, data, preprocessing, correction policy, calibration, or tolerance changed.",
+  "root_cause_binding": {
+    "failed_replay_batch_size": 64,
+    "historical_diagnostic_batch_size": 128,
+    "sha256": "f1ea88bcf611d56de4e9a05fb952a0f8ef63e7cfee0b35f1ae19dcf598e6cc4d",
+    "source": "src/published_detector_pipeline_v1.py"
+  },
+  "status": "FROZEN_BEFORE_REPLAY_RETRY"
+}

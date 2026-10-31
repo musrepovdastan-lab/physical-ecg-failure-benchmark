@@ -1,0 +1,10 @@
+{
+  "amendment_sha256": "5a60c1e128f8acd685848346f58f99a067d386fedf05909cdd60e4c72cb77768",
+  "bootstrap_rng_matches_main_analysis_ningbo_stream": true,
+  "calibration": "not fit; no full-pipeline source-validation score set",
+  "new_rows": 504,
+  "ningbo_huang_cache_record_order_verified": true,
+  "primary_bootstrap_replicates": 1000,
+  "scores_were_preexisting_not_reinferred": true,
+  "status": "PASS"
+}

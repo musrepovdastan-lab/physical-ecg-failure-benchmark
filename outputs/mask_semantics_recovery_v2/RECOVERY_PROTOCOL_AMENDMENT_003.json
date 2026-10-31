@@ -1,0 +1,15 @@
+{
+  "amended_utc": "2026-10-16T19:20:53.060497+00:00",
+  "amendment_binding_sha256": "7de5f5fa3fa5762b2f85e3d6ff830c9061e9f9f3b6e23cfd18788380ac2fcf8b",
+  "amendment_version": "003",
+  "bootstrap_task_path_fix_in_amendment_002_preserved": true,
+  "change": "Cache validation accepts the current evaluator digest or the exact evaluator digest frozen in Amendment 001 for already-generated recovery mask predictions. Protocol, checkpoint, preprocessing, record order, mask, schema, dimensions, and prediction checks remain mandatory.",
+  "existing_mask_inference_preserved": true,
+  "point_metrics_completed_before_patch": true,
+  "prior_amendment_binding_sha256": "0c6a9ff7f595762cdbdb1adad2635bfcfc0635e25ff05feaf38421008a9d7969",
+  "prior_protocol_binding_sha256": "b3c050887f99b2979ef20122374552298185e5a8f8004a769650783c1b77b28a",
+  "prior_runner_source_sha256": "f7af4f95bab78d18cf899dacab0915b8ddf5db63741121db3e11d4cb9b11c429",
+  "reason": "The resumed run correctly rejected prediction caches because their evaluator-source digest belongs to the frozen runner that generated them before the bootstrap-only fix. The caches and manifest hashes are intact; a source-code bookkeeping edit should not invalidate them.",
+  "runner_source_sha256": "3b5734cf3164c8f2f3a9aaee744422ca6af60d3f0a1747d4add2823ba8fc4b1b",
+  "scope": "Cache provenance compatibility only. No prediction content, outcome, estimand, split, bootstrap index, mask meaning, threshold, model, training, or tolerance changed."
+}

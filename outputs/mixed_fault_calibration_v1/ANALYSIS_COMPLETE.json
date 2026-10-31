@@ -1,0 +1,22 @@
+{
+  "all_twa_metrics_bootstrap_status": "PASS",
+  "amendment_added_existing_huang_ningbo_scores": true,
+  "analysis_code_sha256": "c0f1027552a8149f4aba9529d2b03c1f82b9ff728142196538c73b82e8a24645",
+  "bootstrap_rows": 168,
+  "bootstrap_summary_rows_final": 168,
+  "completed_utc": "2026-10-17T09:41:09.145157+00:00",
+  "mixture_rows": 1323,
+  "mixture_rows_final": 1323,
+  "no_diagnostic_training": true,
+  "no_downloads": true,
+  "paired_contrast_rows": 1701,
+  "paired_contrast_rows_final": 1701,
+  "private_chest_prediction_sha256": "7d4680f1a686bf0c61ca7bbebd6615c18b6f29105f7a4a84f02e799badb140d9",
+  "protocol_amendment_001_sha256": "5a60c1e128f8acd685848346f58f99a067d386fedf05909cdd60e4c72cb77768",
+  "protocol_amendment_002_sha256": "e180d13ebce247878f21e501b3364e9608d0b566703d3fecaebcc29f7545585c",
+  "protocol_sha256": "95b4f75148502b59bed1141fd05f364283d2b21511d09d95510759b7742ffa8f",
+  "raw_calibrated_operating_point_decisions_identical": true,
+  "seconds": 1514.375,
+  "source_tests_previously_accessed": true,
+  "status": "PASS"
+}

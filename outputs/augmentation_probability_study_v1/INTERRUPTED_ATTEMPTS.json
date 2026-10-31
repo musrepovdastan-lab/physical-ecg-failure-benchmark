@@ -1,0 +1,12 @@
+[
+  {
+    "arm": "physics_p010",
+    "cohort": "Chapman",
+    "epoch": 1,
+    "epoch_committed": false,
+    "reason": "atomic_npz path parameter collided with prediction array keyword p",
+    "replay_from_seed": 104729,
+    "seed": 104729,
+    "test_inference": false
+  }
+]

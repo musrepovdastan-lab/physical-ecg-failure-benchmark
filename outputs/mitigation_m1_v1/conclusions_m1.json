@@ -1,0 +1,37 @@
+{
+  "checks": {
+    "aggregate_matched_contrast_decrease_min_0_15": true,
+    "aggregate_matched_contrast_upper95_max_0_15": true,
+    "all_physics_seeds_validation_and_integrity": true,
+    "clean_twa_any_seed_decline_max_0_04": true,
+    "clean_twa_mean_decline_max_0_02": true,
+    "mean_mask_twa_any_seed_decline_max_0_04": true,
+    "mean_mask_twa_mean_decline_max_0_02": true,
+    "ra_ll_twa_improvement_each_seed_min_0_15": true
+  },
+  "completed_utc": "2026-08-30T19:45:47.610586+00:00",
+  "decision": "PASS_M1_FREEZE_NINGBO_M2",
+  "ningbo_accessed": false,
+  "primary_arm": "physics_aware",
+  "primary_twa": {
+    "baseline_mean_matched_contrast": 0.24598073691197764,
+    "contrast_reduction": 0.3152651309896639,
+    "physics_matched_contrast_bootstrap": {
+      "arm": "physics_aware",
+      "endpoint": "TWA",
+      "high95": -0.05270916968584061,
+      "low95": -0.0862739086151123,
+      "mean": -0.06899192184209824,
+      "metric": "matched_contrast",
+      "replicates": 1000,
+      "synchronized_across_arms_seeds_conditions": true,
+      "unit": "canonical_record"
+    },
+    "physics_mean_matched_contrast": -0.06928439407768627
+  },
+  "protocol_sha256": "248976F691003DAA45C5F188C53F7CF75891F19F8723223477FC41E1D65667CE",
+  "secondary_arms": [
+    "masking",
+    "combined"
+  ]
+}

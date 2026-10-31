@@ -1,0 +1,105 @@
+{
+  "elapsed_seconds": 0.73,
+  "new_prediction_count": 12,
+  "predictions": [
+    {
+      "arm": "physics_p010",
+      "condition": "clean",
+      "path": "outputs/heedb_probability_extension_v1/predictions/physics_p010/seed_104729/clean.npz",
+      "seed": 104729,
+      "sha256": "d51c4f0f6cc823f1e4e369c39ef09a1b6fdea6a724950f60341a73e9556b74cd",
+      "status": "REUSED"
+    },
+    {
+      "arm": "physics_p010",
+      "condition": "RA_LL_reversal",
+      "path": "outputs/heedb_probability_extension_v1/predictions/physics_p010/seed_104729/RA_LL_reversal.npz",
+      "seed": 104729,
+      "sha256": "8fa96565497b445db045ec1a263d9bcf69923957af404073a9669286d7054da8",
+      "status": "REUSED"
+    },
+    {
+      "arm": "physics_p010",
+      "condition": "clean",
+      "path": "outputs/heedb_probability_extension_v1/predictions/physics_p010/seed_130363/clean.npz",
+      "seed": 130363,
+      "sha256": "4194cbac7be0fcb73ab4efb92e090baa7be0393c337f47ab68b16613a4d40e80",
+      "status": "REUSED"
+    },
+    {
+      "arm": "physics_p010",
+      "condition": "RA_LL_reversal",
+      "path": "outputs/heedb_probability_extension_v1/predictions/physics_p010/seed_130363/RA_LL_reversal.npz",
+      "seed": 130363,
+      "sha256": "e738f8ccafea26f4dd12ab974061e4bf7b65611d6d36179be607c85b249b1df6",
+      "status": "REUSED"
+    },
+    {
+      "arm": "physics_p010",
+      "condition": "clean",
+      "path": "outputs/heedb_probability_extension_v1/predictions/physics_p010/seed_155921/clean.npz",
+      "seed": 155921,
+      "sha256": "6afca7c52e25b492fc37220cd4c1d607e17786e08a2c46e378338ecbec57135c",
+      "status": "REUSED"
+    },
+    {
+      "arm": "physics_p010",
+      "condition": "RA_LL_reversal",
+      "path": "outputs/heedb_probability_extension_v1/predictions/physics_p010/seed_155921/RA_LL_reversal.npz",
+      "seed": 155921,
+      "sha256": "6e81ba13ab5fe91895ce73025382f2983ffded73bd87ef687d060b056305fb13",
+      "status": "REUSED"
+    },
+    {
+      "arm": "physics_p025",
+      "condition": "clean",
+      "path": "outputs/heedb_probability_extension_v1/predictions/physics_p025/seed_104729/clean.npz",
+      "seed": 104729,
+      "sha256": "3f94edbbb0b6eb81119abd14045ca63c98072b1d242338c98a4a3308fef0300c",
+      "status": "REUSED"
+    },
+    {
+      "arm": "physics_p025",
+      "condition": "RA_LL_reversal",
+      "path": "outputs/heedb_probability_extension_v1/predictions/physics_p025/seed_104729/RA_LL_reversal.npz",
+      "seed": 104729,
+      "sha256": "1721e5bc81c3603e777f4ba99333a2a6c7caf9499838d2e404a40099f0bb176c",
+      "status": "REUSED"
+    },
+    {
+      "arm": "physics_p025",
+      "condition": "clean",
+      "path": "outputs/heedb_probability_extension_v1/predictions/physics_p025/seed_130363/clean.npz",
+      "seed": 130363,
+      "sha256": "274a794b6809f933633b70d8a28cbf9c8a9a118956850f14eaa7b20c309351a8",
+      "status": "REUSED"
+    },
+    {
+      "arm": "physics_p025",
+      "condition": "RA_LL_reversal",
+      "path": "outputs/heedb_probability_extension_v1/predictions/physics_p025/seed_130363/RA_LL_reversal.npz",
+      "seed": 130363,
+      "sha256": "e1853c6aeb294e698d06fd9f93d7b7e92a8c2076de25e52a84f5b97796f69d53",
+      "status": "REUSED"
+    },
+    {
+      "arm": "physics_p025",
+      "condition": "clean",
+      "path": "outputs/heedb_probability_extension_v1/predictions/physics_p025/seed_155921/clean.npz",
+      "seed": 155921,
+      "sha256": "fcc716758a46c87df5edeb6f5ed5a937d4a460372311238df94202f8f9fdd708",
+      "status": "REUSED"
+    },
+    {
+      "arm": "physics_p025",
+      "condition": "RA_LL_reversal",
+      "path": "outputs/heedb_probability_extension_v1/predictions/physics_p025/seed_155921/RA_LL_reversal.npz",
+      "seed": 155921,
+      "sha256": "f79d70be427cb95ea07b98f4c0436d40de686fcb3ee679348d5cad3c79b2cb5f",
+      "status": "REUSED"
+    }
+  ],
+  "protocol_sha256": "6cc3534e6c7e3f01f535578f995308b29f2425cae0ae2aa8ead093ccbfa6df87",
+  "reserved_test_evaluated": false,
+  "status": "PASS"
+}

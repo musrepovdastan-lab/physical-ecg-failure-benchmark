@@ -1,0 +1,185 @@
+{
+  "review_date": "2026-10-19",
+  "original_manifest_entries_verified_before_edits": 31,
+  "original_source_entries_unchanged": 25,
+  "numerical_spot_checks": [
+    {
+      "name": "Chapmancycle_slots_120",
+      "actual": 0.3590576970343062,
+      "displayed": 0.359,
+      "tolerance": 0.0005
+    },
+    {
+      "name": "Chapmancycle_slots_201",
+      "actual": 0.2548995835814276,
+      "displayed": 0.255,
+      "tolerance": 0.0005
+    },
+    {
+      "name": "Ningbocycle_slots_120",
+      "actual": 0.5059900634776398,
+      "displayed": 0.506,
+      "tolerance": 0.0005
+    },
+    {
+      "name": "Ningbocycle_slots_201",
+      "actual": 0.4222964190520124,
+      "displayed": 0.422,
+      "tolerance": 0.0005
+    },
+    {
+      "name": "Chapmanfull_cohort_point_difference",
+      "actual": -0.0474448342899034,
+      "displayed": -0.0474,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "Chapmanci95_low",
+      "actual": -0.0585120452421689,
+      "displayed": -0.0585,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "Chapmanci95_high",
+      "actual": -0.0372267043016736,
+      "displayed": -0.0372,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "Ningbofull_cohort_point_difference",
+      "actual": -0.0376905834177206,
+      "displayed": -0.0377,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "Ningboci95_low",
+      "actual": -0.044863744527111,
+      "displayed": -0.0449,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "Ningboci95_high",
+      "actual": -0.0303935924095122,
+      "displayed": -0.0304,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "Chapmanclean_head",
+      "actual": 0.3354159336003333,
+      "displayed": 0.3354,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "Chapmanphysics_head",
+      "actual": 0.5188638885823335,
+      "displayed": 0.5189,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "Ningboclean_head",
+      "actual": 0.24736470119633333,
+      "displayed": 0.2474,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "Ningbophysics_head",
+      "actual": 0.45984694667699993,
+      "displayed": 0.4598,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "ordinary_resnetrawbrier",
+      "actual": 0.09939860214022433,
+      "displayed": 0.099399,
+      "tolerance": 5e-07
+    },
+    {
+      "name": "physics_aware_resnetrawbrier",
+      "actual": 0.11522517532545651,
+      "displayed": 0.115225,
+      "tolerance": 5e-07
+    },
+    {
+      "name": "ordinary_resnetrawauroc",
+      "actual": 0.903117513436158,
+      "displayed": 0.903118,
+      "tolerance": 5e-07
+    },
+    {
+      "name": "physics_aware_resnetrawauroc",
+      "actual": 0.8927267040855525,
+      "displayed": 0.892727,
+      "tolerance": 5e-07
+    },
+    {
+      "name": "ordinary_resnetcalibratedbrier",
+      "actual": 0.08263636689973693,
+      "displayed": 0.082636,
+      "tolerance": 5e-07
+    },
+    {
+      "name": "physics_aware_resnetcalibratedbrier",
+      "actual": 0.08402237787101847,
+      "displayed": 0.084022,
+      "tolerance": 5e-07
+    },
+    {
+      "name": "0.01physics_p010",
+      "actual": 0.5852327686538352,
+      "displayed": 0.5852,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "0.01physics_p025",
+      "actual": 0.5849269591933498,
+      "displayed": 0.5849,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "0.01physics_aware_resnet",
+      "actual": 0.5758620530210238,
+      "displayed": 0.5759,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "0.01combined",
+      "actual": 0.5912523306748066,
+      "displayed": 0.5913,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "0.01huang_pipeline",
+      "actual": 0.5721416772920886,
+      "displayed": 0.5721,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "1physics_p010",
+      "actual": 0.5367158643238747,
+      "displayed": 0.5367,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "1physics_p025",
+      "actual": 0.5288138222439956,
+      "displayed": 0.5288,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "1physics_aware_resnet",
+      "actual": 0.5683198208299903,
+      "displayed": 0.5683,
+      "tolerance": 5e-05
+    },
+    {
+      "name": "1huang_pipeline",
+      "actual": 0.581131671451442,
+      "displayed": 0.5811,
+      "tolerance": 5e-05
+    }
+  ],
+  "verified_absolute_links": 29,
+  "source_index_file_paths_verified": true,
+  "original_documents_archived": true,
+  "scope": "Document review/corrections only; no training, model inference or changes to experimental outputs."
+}

@@ -1,0 +1,14 @@
+{
+  "decision": "STOP_DUPLICATE_CONFLICT",
+  "source_records": 34905,
+  "unique_waveform_hashes": 34902,
+  "duplicate_groups": 3,
+  "duplicate_records": 6,
+  "exact_metadata_duplicate_groups": 0,
+  "target_endpoint_label_conflict_groups": 0,
+  "conflict_artifact": "DUPLICATE_CONFLICTS.json",
+  "conflict_artifact_sha256": "F5976880484276C1747B1A3598EE92322733273BE92DCA5AA04EC7C2A0E0CF2F",
+  "protocol_v1_sha256": "B6EEB79C0CD214FE7F41FDC526AEC64DF2E9D982F59A45E7F21D0108B5A3698E",
+  "no_split_training_or_test_evaluation": true,
+  "created_utc": "2026-08-30T04:30:00+00:00"
+}

@@ -1,0 +1,7 @@
+{
+  "canonical_records": 34899,
+  "decision": "PASS",
+  "protocol_v2_sha256": "1FE829E4357B4EFDE0E5F227BAF5BF94E8D22D12AF0959A38CEE12CCE1F40D71",
+  "split_sha256": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388",
+  "version": "ningbo_confirmation_v2"
+}

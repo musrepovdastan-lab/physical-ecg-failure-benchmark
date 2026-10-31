@@ -1,0 +1,162 @@
+{
+  "status": "PASS",
+  "tolerance_abs_probability": 0.0001,
+  "units": [
+    {
+      "arm": "chest_only",
+      "clean_cache_path": "outputs/chest_only_baseline_v1/models/Chapman/seed_104729/test_predictions/clean.npz",
+      "clean_cache_sha256": "24ec2fdcfbed3d82dc0669c18ded1c3b23bbff8dd8e9e5fc511b080903c9907e",
+      "cycles": {
+        "cycle_slots_120": {
+          "exact_probability_match": true,
+          "max_abs_probability_delta_vs_clean": 0.0,
+          "mean_abs_probability_delta_vs_clean": 0.0,
+          "pass": true,
+          "prediction_path": "outputs/heldout_limb_cycles_v1/predictions/Chapman/chest_only/seed_104729/cycle_slots_120.npz",
+          "prediction_sha256": "875d2b9a30ba1a546d48ce6ed6c5847049368f0310a5747e331ac91a65a202eb"
+        },
+        "cycle_slots_201": {
+          "exact_probability_match": true,
+          "max_abs_probability_delta_vs_clean": 0.0,
+          "mean_abs_probability_delta_vs_clean": 0.0,
+          "pass": true,
+          "prediction_path": "outputs/heldout_limb_cycles_v1/predictions/Chapman/chest_only/seed_104729/cycle_slots_201.npz",
+          "prediction_sha256": "0af6bd1cfdd08aa58fddcf48ab5a684fa8375001698d8672f74f599a02471d76"
+        }
+      },
+      "dataset": "Chapman",
+      "pass": true,
+      "seed": 104729
+    },
+    {
+      "arm": "chest_only",
+      "clean_cache_path": "outputs/chest_only_baseline_v1/models/Chapman/seed_130363/test_predictions/clean.npz",
+      "clean_cache_sha256": "0dd3e71e4afc5968c28f0eed45327454084b864c3fb75e184f4167692d67955d",
+      "cycles": {
+        "cycle_slots_120": {
+          "exact_probability_match": true,
+          "max_abs_probability_delta_vs_clean": 0.0,
+          "mean_abs_probability_delta_vs_clean": 0.0,
+          "pass": true,
+          "prediction_path": "outputs/heldout_limb_cycles_v1/predictions/Chapman/chest_only/seed_130363/cycle_slots_120.npz",
+          "prediction_sha256": "635e8034d392acfdc50329c8e1ed1f4463571524781186cbbff788ea7356326e"
+        },
+        "cycle_slots_201": {
+          "exact_probability_match": true,
+          "max_abs_probability_delta_vs_clean": 0.0,
+          "mean_abs_probability_delta_vs_clean": 0.0,
+          "pass": true,
+          "prediction_path": "outputs/heldout_limb_cycles_v1/predictions/Chapman/chest_only/seed_130363/cycle_slots_201.npz",
+          "prediction_sha256": "b64488bb2e4b58868a7829f18b4504bbf5c94f245a06974d2538be538a53d868"
+        }
+      },
+      "dataset": "Chapman",
+      "pass": true,
+      "seed": 130363
+    },
+    {
+      "arm": "chest_only",
+      "clean_cache_path": "outputs/chest_only_baseline_v1/models/Chapman/seed_155921/test_predictions/clean.npz",
+      "clean_cache_sha256": "285e8a3b7f03effa8ede6152a6ad5bb7d47e218ee31a1835f9327b7d877c5bd5",
+      "cycles": {
+        "cycle_slots_120": {
+          "exact_probability_match": true,
+          "max_abs_probability_delta_vs_clean": 0.0,
+          "mean_abs_probability_delta_vs_clean": 0.0,
+          "pass": true,
+          "prediction_path": "outputs/heldout_limb_cycles_v1/predictions/Chapman/chest_only/seed_155921/cycle_slots_120.npz",
+          "prediction_sha256": "4940a3d405d69d6f993c82ce0fab26a0d1a8353c654666837800d7416bd955d1"
+        },
+        "cycle_slots_201": {
+          "exact_probability_match": true,
+          "max_abs_probability_delta_vs_clean": 0.0,
+          "mean_abs_probability_delta_vs_clean": 0.0,
+          "pass": true,
+          "prediction_path": "outputs/heldout_limb_cycles_v1/predictions/Chapman/chest_only/seed_155921/cycle_slots_201.npz",
+          "prediction_sha256": "0200c3ed8aa760e7f4a8fbd411488de9f414e038cffa5ad8accc02eb823ebaeb"
+        }
+      },
+      "dataset": "Chapman",
+      "pass": true,
+      "seed": 155921
+    },
+    {
+      "arm": "chest_only",
+      "clean_cache_path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_104729/test_predictions/clean.npz",
+      "clean_cache_sha256": "95df82c28fa1de06ebda0b73af84d1d734737d78125d354266f84ec3dbefbb60",
+      "cycles": {
+        "cycle_slots_120": {
+          "exact_probability_match": true,
+          "max_abs_probability_delta_vs_clean": 0.0,
+          "mean_abs_probability_delta_vs_clean": 0.0,
+          "pass": true,
+          "prediction_path": "outputs/heldout_limb_cycles_v1/predictions/Ningbo/chest_only/seed_104729/cycle_slots_120.npz",
+          "prediction_sha256": "a9fc9981b578013ece3346bb31a7deb9727a8215d71b21668526760c50e78b88"
+        },
+        "cycle_slots_201": {
+          "exact_probability_match": true,
+          "max_abs_probability_delta_vs_clean": 0.0,
+          "mean_abs_probability_delta_vs_clean": 0.0,
+          "pass": true,
+          "prediction_path": "outputs/heldout_limb_cycles_v1/predictions/Ningbo/chest_only/seed_104729/cycle_slots_201.npz",
+          "prediction_sha256": "7ad8764e38819cedd505d17aa508636d5344392e6a8a1e691ae852f18f48c71e"
+        }
+      },
+      "dataset": "Ningbo",
+      "pass": true,
+      "seed": 104729
+    },
+    {
+      "arm": "chest_only",
+      "clean_cache_path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_130363/test_predictions/clean.npz",
+      "clean_cache_sha256": "2a0d6b297097d5b8d430f1d4e6e61e7b4e3b4537e0d81fa0bc0db435da83121b",
+      "cycles": {
+        "cycle_slots_120": {
+          "exact_probability_match": true,
+          "max_abs_probability_delta_vs_clean": 0.0,
+          "mean_abs_probability_delta_vs_clean": 0.0,
+          "pass": true,
+          "prediction_path": "outputs/heldout_limb_cycles_v1/predictions/Ningbo/chest_only/seed_130363/cycle_slots_120.npz",
+          "prediction_sha256": "5041bfcf4fb66193683d9a42d1f10aa84f0040fdd78c8927712b258b403ddae4"
+        },
+        "cycle_slots_201": {
+          "exact_probability_match": true,
+          "max_abs_probability_delta_vs_clean": 0.0,
+          "mean_abs_probability_delta_vs_clean": 0.0,
+          "pass": true,
+          "prediction_path": "outputs/heldout_limb_cycles_v1/predictions/Ningbo/chest_only/seed_130363/cycle_slots_201.npz",
+          "prediction_sha256": "3875f8ad64cc0bc8e66209e7362e72a800a3ef27c067f3ec8dbc2aea556ef9ac"
+        }
+      },
+      "dataset": "Ningbo",
+      "pass": true,
+      "seed": 130363
+    },
+    {
+      "arm": "chest_only",
+      "clean_cache_path": "outputs/chest_only_baseline_v1/models/Ningbo/seed_155921/test_predictions/clean.npz",
+      "clean_cache_sha256": "96504a016fc89edb521f88ec2789f9735c6ae3116198c9c8995cc90da76c76fd",
+      "cycles": {
+        "cycle_slots_120": {
+          "exact_probability_match": true,
+          "max_abs_probability_delta_vs_clean": 0.0,
+          "mean_abs_probability_delta_vs_clean": 0.0,
+          "pass": true,
+          "prediction_path": "outputs/heldout_limb_cycles_v1/predictions/Ningbo/chest_only/seed_155921/cycle_slots_120.npz",
+          "prediction_sha256": "70e7484c42031d185ab0f1090449818c3d6dc0ddde011eb7c072e9e996dc32cf"
+        },
+        "cycle_slots_201": {
+          "exact_probability_match": true,
+          "max_abs_probability_delta_vs_clean": 0.0,
+          "mean_abs_probability_delta_vs_clean": 0.0,
+          "pass": true,
+          "prediction_path": "outputs/heldout_limb_cycles_v1/predictions/Ningbo/chest_only/seed_155921/cycle_slots_201.npz",
+          "prediction_sha256": "abc943e99e22abb4a674e25208ded5e11dc3c6f6917a06d20bd3b971df5759e7"
+        }
+      },
+      "dataset": "Ningbo",
+      "pass": true,
+      "seed": 155921
+    }
+  ]
+}

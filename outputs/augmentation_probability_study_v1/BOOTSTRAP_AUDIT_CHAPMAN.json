@@ -1,0 +1,22 @@
+{
+  "bootstrap_indices": "outputs\\phase2_chapman_multiseed_v7\\bootstrap_indices.npy",
+  "implementation": "paired_bootstrap.py; exact tie-aware vectorized cumulative AP checked against sklearn on 20 existing resamples using real scores",
+  "mask_metric_validation": [
+    {
+      "arm": "physics_p010",
+      "max_abs_difference_fast_vs_sklearn": 6.661338147750939e-16,
+      "real_data": true,
+      "replicates_compared": 20
+    },
+    {
+      "arm": "physics_aware",
+      "max_abs_difference_fast_vs_sklearn": 6.661338147750939e-16,
+      "real_data": true,
+      "replicates_compared": 20
+    }
+  ],
+  "shape": [
+    1000,
+    2050
+  ]
+}

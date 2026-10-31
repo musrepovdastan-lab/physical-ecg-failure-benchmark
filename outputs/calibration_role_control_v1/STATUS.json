@@ -1,0 +1,16 @@
+{
+  "all_fits": 9,
+  "calibration_threshold_locks": 36,
+  "cohorts": [
+    "Ningbo_test",
+    "HEEDB_historical_sensitivity"
+  ],
+  "completed_utc": "2026-10-19T20:30:35.286704+00:00",
+  "new_prediction_files": 96,
+  "status": "COMPLETE_PENDING_USER_REVIEW",
+  "verification_status": "PASS",
+  "reserved_test_evaluated": false,
+  "manifest": "REPRODUCIBILITY_MANIFEST.json",
+  "report": "FINAL_REPORT_RU.md",
+  "training_report": "TRAINING_REPORT.md"
+}

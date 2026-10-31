@@ -1,0 +1,21 @@
+{
+  "completed_files": 69810,
+  "completed_records_equivalent": 34905,
+  "current_group": "g35",
+  "downloaded_bytes_run": 0,
+  "expected_files": 69810,
+  "official_manifest_sha256": "f29c2609343c38734f3a3d62be4a9052ca56a9e560e7ad2efc2118563fca2473",
+  "per_file_retry_information": {},
+  "pid": 46308,
+  "progress_flush_interval_files": 25,
+  "retry_attempts_total": 0,
+  "source_index_mode": "verified_local_cache",
+  "source_mapping_sha256": "ae749eebe8fc6efaf42e5e559b3fe494fab93c015306f1dd8c0659a7dc1fdd5e",
+  "stage": "official_ningbo_acquisition",
+  "states": {
+    "verified_existing": 69810
+  },
+  "updated_utc": "2026-08-30T04:24:35.149201+00:00",
+  "verified_bytes_total": 4215509826,
+  "workers": 4
+}

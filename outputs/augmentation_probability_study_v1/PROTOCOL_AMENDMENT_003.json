@@ -1,0 +1,8 @@
+{
+  "amendment": "PROTOCOL_AMENDMENT_003",
+  "issued_before_new_training_and_test_inference": true,
+  "method_changes": [],
+  "previous_protocol_sha256": "900b613d38e52f34894fc5ff2205cdb5f5be45f5ad84df4ea4d61164ab84e89a",
+  "reason": "Bind and run engineering checks for data integrity, deterministic augmentation, epoch delivery to recreated Windows DataLoader workers, CUDA AMP, train/eval mode, and checkpoint/optimizer/scaler round trip.",
+  "scientific_recipe_changed": false
+}

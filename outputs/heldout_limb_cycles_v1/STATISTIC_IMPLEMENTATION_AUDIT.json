@@ -1,0 +1,83 @@
+{
+  "checks": [
+    {
+      "bootstrap_replicates_compared": [
+        0,
+        417,
+        999
+      ],
+      "checks": [
+        {
+          "max_abs_delta": 0.0,
+          "metrics": {
+            "auprc": 0.6750554693804441,
+            "auroc": 0.8961824541122252,
+            "brier": 0.1411728510817672
+          },
+          "replicate": 0
+        },
+        {
+          "max_abs_delta": 2.220446049250313e-16,
+          "metrics": {
+            "auprc": 0.5994018083220584,
+            "auroc": 0.8928179568300015,
+            "brier": 0.15096361183995813
+          },
+          "replicate": 417
+        },
+        {
+          "max_abs_delta": 1.1102230246251565e-16,
+          "metrics": {
+            "auprc": 0.5822184783217428,
+            "auroc": 0.8953490321942352,
+            "brier": 0.14602142520138153
+          },
+          "replicate": 999
+        }
+      ],
+      "dataset": "Chapman",
+      "status": "PASS",
+      "tolerance": 1e-12
+    },
+    {
+      "bootstrap_replicates_compared": [
+        0,
+        417,
+        999
+      ],
+      "checks": [
+        {
+          "max_abs_delta": 1.1102230246251565e-16,
+          "metrics": {
+            "auprc": 0.6558460097653738,
+            "auroc": 0.9047150658179205,
+            "brier": 0.1208882067189995
+          },
+          "replicate": 0
+        },
+        {
+          "max_abs_delta": 1.1102230246251565e-16,
+          "metrics": {
+            "auprc": 0.6649219664096744,
+            "auroc": 0.9176653487021548,
+            "brier": 0.11459364220212714
+          },
+          "replicate": 417
+        },
+        {
+          "max_abs_delta": 1.1102230246251565e-16,
+          "metrics": {
+            "auprc": 0.6809368573273955,
+            "auroc": 0.9161935380236405,
+            "brier": 0.11551548798570711
+          },
+          "replicate": 999
+        }
+      ],
+      "dataset": "Ningbo",
+      "status": "PASS",
+      "tolerance": 1e-12
+    }
+  ],
+  "status": "PASS"
+}

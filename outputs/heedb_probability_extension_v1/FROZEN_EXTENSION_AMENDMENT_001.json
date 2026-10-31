@@ -1,0 +1,8 @@
+{
+  "amended_protocol_sha256": "83356fe94f61ba77076488c8a0aa6d0d9ba660d03cb32405e2459be280ef4730",
+  "amendment": "001",
+  "amendment_script_sha256": "58d3035d007f7351d1a779697408e9d0ad2fec066749cbf7a4b8ad757bb59239",
+  "prior_protocol_sha256": "decffe8644d4029d764cd1e960a8cc30e5ca0569563d5f94fbd96e6452b45941",
+  "reason": "Static path/key consistency review before any replay or new HEEDB inference; no data comparisons had been run. The Ningbo train-derived preprocessing location and one shared replay tolerance are made explicit. Cohort, models, seeds, conditions, metrics, thresholds, bootstrap and comparisons unchanged.",
+  "status": "AMENDED_BEFORE_REPLAY"
+}

@@ -1,0 +1,43 @@
+{
+  "status": "PASS_METADATA_AND_SPLIT",
+  "failure_count": 0,
+  "failures": [],
+  "counts": {
+    "input_hash": 66,
+    "archived_context_hash": 1,
+    "source_canonical_label": 34899,
+    "source_canonical_waveform": 34899,
+    "candidate_count": 1,
+    "validation_partition": 1,
+    "role_size": 3,
+    "source_index": 3488,
+    "source_membership": 3488,
+    "candidate_labels": 3488,
+    "candidate_waveform": 3488,
+    "record_digest": 3488,
+    "identity_not_invented": 3488,
+    "source_overlap": 6,
+    "role_overlap": 6,
+    "exclusions": 1,
+    "counts_n": 54,
+    "counts_positive": 54,
+    "counts_negative": 54,
+    "counts_prevalence": 54,
+    "role_id_hash": 3,
+    "role_wave_hash": 3,
+    "precision_counts": 6,
+    "precision_rank": 6,
+    "precision_sensitivity": 6,
+    "fit_budget": 1,
+    "runtime_projection": 1
+  },
+  "notes": [
+    "Active-plan status changed after preflight; original context preserved with matching hash in archive_before_review_20261019/ACTIVE_PLAN_AT_REVIEW.md. Scientific inputs unchanged."
+  ],
+  "review_corrections_recorded": [
+    "HEEDB was evaluated with transferred source calibrators/thresholds, not directly fitted in verified historical pipelines.",
+    "TWA has the fewest positives (129); SB has the fewest negatives (555/556), so blanket STach precision bottleneck was corrected.",
+    "Total future calibration/threshold operations include Huang: 36 endpoint fits/selections, not just 27 core operations."
+  ],
+  "scope": "Independent metadata/count/hash/overlap/precision audit; no training, forward pass, calibration fit, threshold choice or test/HEEDB outcome analysis."
+}

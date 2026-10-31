@@ -1,0 +1,9 @@
+{
+  "amended_protocol_sha256": "30fc1d9d7aa7bf6637a5ae5c1b15ac9a281697c816972fdc652fa9f193a62f89",
+  "amendment": "004",
+  "inference_completed_before_amendment": true,
+  "inference_protocol_sha256": "6cc3534e6c7e3f01f535578f995308b29f2425cae0ae2aa8ead093ccbfa6df87",
+  "prior_protocol_sha256": "079b48e390f4e10db3a385d1ec85123c123164dee65bfd8c4b3bf207213b3eec",
+  "reason": "Analysis preflight after new inference clarified historical reuse must source masking and combined prediction bundles and calibration fits from the immutable six-method extension. The failed preflight produced no metrics and did not alter the 12 new prediction bundles. This correction adds the six-method reuse mapping only; methods and comparisons unchanged.",
+  "status": "ANALYSIS_IMPLEMENTATION_CORRECTION"
+}

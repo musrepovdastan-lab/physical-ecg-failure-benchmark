@@ -1,0 +1,9 @@
+﻿{
+    "protocol_sha256":  "248976F691003DAA45C5F188C53F7CF75891F19F8723223477FC41E1D65667CE",
+    "stderr":  "outputs/mitigation_m1_v1/workflow_restart_stderr.log",
+    "pid":  1660,
+    "prior_attempt":  "prevalidation_writer_error_archived",
+    "started_utc":  "2026-08-30T11:29:15.1227629Z",
+    "stdout":  "outputs/mitigation_m1_v1/workflow_restart_stdout.log",
+    "task":  "mitigation_m1_v1_restart_after_prevalidation_writer_fix"
+}

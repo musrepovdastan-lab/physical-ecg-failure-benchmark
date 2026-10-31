@@ -1,0 +1,23 @@
+{
+  "completed_utc": "2026-09-21T02:40:44.894638+00:00",
+  "dataset": "Ningbo",
+  "head_sha256": "57c768fd05d9354e24d45383eb10e8f02d3d6b1f281dcf0000b1f010b0629f79",
+  "protocol_sha256": "2f1e7600c26a6466c29e9bbc5ddbe6b826486cc05c84edaa3350433b3981ad81",
+  "selected_C": {
+    "SB": 0.01,
+    "STach": 0.01,
+    "TWA": 0.01
+  },
+  "test_inputs_audited_before_protocol_freeze": true,
+  "test_model_outcomes_evaluated_before_validation_freeze": false,
+  "validation_auprc": {
+    "SB": 0.9985287694035204,
+    "STach": 0.9958470965288014,
+    "TWA": 0.6085720108684763
+  },
+  "validation_threshold": {
+    "SB": 0.011397935498724315,
+    "STach": 0.02630329097695665,
+    "TWA": 0.3309901221824432
+  }
+}

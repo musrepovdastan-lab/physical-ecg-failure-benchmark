@@ -1,0 +1,328 @@
+{
+  "calibration_split_sha256": "6dd8733b6ac0102ce66600ea1dff9a205db4a73d11af1af4c521656a72a471ec",
+  "new_fits": {
+    "physics_p010/104729": {
+      "fit_rows": 1744,
+      "fit_split": "existing Ningbo validation A",
+      "fits": [
+        {
+          "a": 0.8983450515409225,
+          "b": -1.8156824087366514,
+          "endpoint": "TWA",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.26039422634593795,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        },
+        {
+          "a": 1.1287236892535168,
+          "b": -1.6830502105592082,
+          "endpoint": "SB",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 10,
+            "loss": 0.04678837494695059,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        },
+        {
+          "a": 1.3205977086095846,
+          "b": -2.981201151219631,
+          "endpoint": "STach",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 12,
+            "loss": 0.030118161140788944,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        }
+      ],
+      "threshold_validation_B_calibrated": [
+        0.31953604123757096,
+        0.002562543503144443,
+        0.0021107801025675686
+      ],
+      "threshold_validation_B_raw": [
+        0.764892578125,
+        0.02203369140625,
+        0.08271484375000002
+      ]
+    },
+    "physics_p010/130363": {
+      "fit_rows": 1744,
+      "fit_split": "existing Ningbo validation A",
+      "fits": [
+        {
+          "a": 0.8274732237299994,
+          "b": -1.579346116270625,
+          "endpoint": "TWA",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.2493244261790688,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        },
+        {
+          "a": 1.0155314590782756,
+          "b": 0.6564041198258391,
+          "endpoint": "SB",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.03517014765918271,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        },
+        {
+          "a": 0.8939480553092756,
+          "b": -2.168019721085931,
+          "endpoint": "STach",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 10,
+            "loss": 0.032278066074918295,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        }
+      ],
+      "threshold_validation_B_calibrated": [
+        0.3379540120586698,
+        0.0016776133907295966,
+        0.0026276468481407824
+      ],
+      "threshold_validation_B_raw": [
+        0.74951171875,
+        0.0009698867797851562,
+        0.014508819580078132
+      ]
+    },
+    "physics_p010/155921": {
+      "fit_rows": 1744,
+      "fit_split": "existing Ningbo validation A",
+      "fits": [
+        {
+          "a": 0.8074717783548507,
+          "b": -1.7336236869184054,
+          "endpoint": "TWA",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.24235785067400514,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        },
+        {
+          "a": 1.029990868116502,
+          "b": -1.1537497813752204,
+          "endpoint": "SB",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.04372498689803652,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        },
+        {
+          "a": 1.1729625612215635,
+          "b": -2.0712806007464337,
+          "endpoint": "STach",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.033183116346454114,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        }
+      ],
+      "threshold_validation_B_calibrated": [
+        0.3615006463510852,
+        0.002487041504749102,
+        0.002912230184262662
+      ],
+      "threshold_validation_B_raw": [
+        0.808837890625,
+        0.0090179443359375,
+        0.03880920410156257
+      ]
+    },
+    "physics_p025/104729": {
+      "fit_rows": 1744,
+      "fit_split": "existing Ningbo validation A",
+      "fits": [
+        {
+          "a": 0.7925393914861327,
+          "b": -1.6677624552742079,
+          "endpoint": "TWA",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.2519958120309803,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        },
+        {
+          "a": 1.2470164901320435,
+          "b": -1.6334299942273962,
+          "endpoint": "SB",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.04260881968936722,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        },
+        {
+          "a": 1.0357370710830869,
+          "b": -1.726711490415742,
+          "endpoint": "STach",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.03735251043801011,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        }
+      ],
+      "threshold_validation_B_calibrated": [
+        0.34406484943125465,
+        0.0017117069629570439,
+        0.005493251448376138
+      ],
+      "threshold_validation_B_raw": [
+        0.7841796875,
+        0.021942138671875,
+        0.033822631835937554
+      ]
+    },
+    "physics_p025/130363": {
+      "fit_rows": 1744,
+      "fit_split": "existing Ningbo validation A",
+      "fits": [
+        {
+          "a": 0.9449453487151133,
+          "b": -1.5095161249997515,
+          "endpoint": "TWA",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.2560107193240382,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        },
+        {
+          "a": 1.1131125870140484,
+          "b": -0.418063334419097,
+          "endpoint": "SB",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.037980798309743595,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        },
+        {
+          "a": 1.2971290349544293,
+          "b": -2.2563329718845075,
+          "endpoint": "STach",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 11,
+            "loss": 0.03040428277334988,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        }
+      ],
+      "threshold_validation_B_calibrated": [
+        0.32331913581673527,
+        0.000997152307061783,
+        0.002080733612611404
+      ],
+      "threshold_validation_B_raw": [
+        0.693359375,
+        0.0029239654541015625,
+        0.046554565429687604
+      ]
+    },
+    "physics_p025/155921": {
+      "fit_rows": 1744,
+      "fit_split": "existing Ningbo validation A",
+      "fits": [
+        {
+          "a": 0.7692312070496622,
+          "b": -1.820584168201872,
+          "endpoint": "TWA",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.24941611945344355,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        },
+        {
+          "a": 0.8974477708568479,
+          "b": -0.012848763583381688,
+          "endpoint": "SB",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.039984535238840845,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        },
+        {
+          "a": 0.7691084416347225,
+          "b": -0.6505365029798935,
+          "endpoint": "STach",
+          "fit_rows": 1744,
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.03499431582798559,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          }
+        }
+      ],
+      "threshold_validation_B_calibrated": [
+        0.3291493417038883,
+        0.0034696253502979036,
+        0.0032613311279560456
+      ],
+      "threshold_validation_B_raw": [
+        0.80859375,
+        0.0018463134765625,
+        0.001366138458251959
+      ]
+    }
+  },
+  "new_thresholds_validation_B_only": true,
+  "q_fault": [
+    0,
+    0.001,
+    0.005,
+    0.01,
+    0.05,
+    0.1,
+    1.0
+  ],
+  "test_data_used_for_fit_or_threshold": false
+}

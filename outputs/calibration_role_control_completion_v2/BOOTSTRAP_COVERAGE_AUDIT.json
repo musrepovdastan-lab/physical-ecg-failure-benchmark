@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "cohorts": [
+    "Ningbo_test",
+    "HEEDB"
+  ],
+  "scenarios": [
+    "RA_LL_only",
+    "equal_three_swap"
+  ],
+  "q_fault": [
+    0.0,
+    0.001,
+    0.005,
+    0.01,
+    0.05,
+    0.1,
+    1.0
+  ],
+  "contrasts": [
+    "physics_aware_p050-ordinary",
+    "combined-ordinary",
+    "Huang_full_pipeline-ordinary",
+    "physics_aware_p050-Huang_full_pipeline",
+    "combined-Huang_full_pipeline"
+  ],
+  "metrics": [
+    "AP_raw",
+    "Brier_raw",
+    "Brier_calibrated",
+    "sensitivity_raw",
+    "FP_per_1000_raw"
+  ],
+  "expected_group_count": 700,
+  "observed_group_count": 700,
+  "reused_v1_groups": 300,
+  "new_v2_groups": 400,
+  "draws_per_group": 1000,
+  "expected_draws": 700000,
+  "groups_by_q": {
+    "0.0": 100,
+    "0.001": 100,
+    "0.005": 100,
+    "0.01": 100,
+    "0.05": 100,
+    "0.1": 100,
+    "1.0": 100
+  },
+  "new_groups_by_q": {
+    "0.0": 100,
+    "0.001": 100,
+    "0.005": 100,
+    "0.05": 100
+  },
+  "q0_scenarios_equal_weights_but_both_covered": true,
+  "unit": {
+    "Ningbo_test": "record",
+    "HEEDB": "patient"
+  },
+  "group_manifest": "BOOTSTRAP_COVERAGE_700.csv",
+  "draw_archive_schema": {
+    "format": "NPZ",
+    "array_key": "cohort|scenario|q{q:g}|left-right|metric",
+    "shape": [
+      1000
+    ],
+    "dtype": "float64",
+    "draw_index": "same frozen cohort bootstrap index row across views/methods/seeds"
+  }
+}

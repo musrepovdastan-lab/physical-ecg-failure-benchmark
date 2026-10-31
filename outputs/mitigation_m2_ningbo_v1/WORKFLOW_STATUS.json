@@ -1,0 +1,13 @@
+{
+  "bootstrap_completed": 1000,
+  "bootstrap_state_sha256": "8DE562E38F9AB637640D491EFAEF67B323B2DFBA54FCC210FEE5C37C8092C891",
+  "bootstrap_total": 1000,
+  "completed_conditions": 2382,
+  "decision": "PASS_M2_EXTERNAL_REPLICATION",
+  "estimated_remaining_seconds": 0.0,
+  "pid": 572,
+  "stage": "COMPLETE",
+  "telemetry_reconciled_utc": "2026-08-31T12:42:49.815573+00:00",
+  "total_conditions": 2382,
+  "updated_utc": "2026-08-31T10:30:32.701746+00:00"
+}

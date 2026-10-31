@@ -1,0 +1,224 @@
+{
+  "status": "FAIL",
+  "counts": {
+    "output_hash": 55,
+    "output_bytes": 55,
+    "protocol_hash": 1,
+    "input_hash": 4228,
+    "prediction_finite": 72,
+    "prediction_range": 72,
+    "prediction_protocol": 18,
+    "prediction_checkpoint": 18,
+    "prediction_preprocessing": 18,
+    "labels_match": 52,
+    "ids_match": 52,
+    "canonical_labels": 2,
+    "canonical_ids": 2,
+    "metric_value": 1080,
+    "threshold": 216,
+    "mean_sd": 720,
+    "score_change": 1620,
+    "contrast_point": 114,
+    "replicate_count": 114,
+    "replicate_index_set": 114,
+    "bootstrap_summary": 342,
+    "bootstrap_actual_spot": 342
+  },
+  "max_abs_errors": {
+    "output_bytes": 0,
+    "metric_value": 0,
+    "threshold": 0,
+    "mean_sd": 0,
+    "score_change": 0,
+    "contrast_point": 3.2331248789319034e-11,
+    "replicate_count": 0,
+    "bootstrap_summary": 0,
+    "bootstrap_actual_spot": 2.220446049250313e-16
+  },
+  "failure_count": 37,
+  "failures": [
+    [
+      "contrast_point",
+      "-0.00010456616521545743",
+      "-0.00010456618327402596"
+    ],
+    [
+      "contrast_point",
+      "0.45834640820909117",
+      "0.4583464081767599"
+    ],
+    [
+      "contrast_point",
+      "0.4584509743743066",
+      "0.45845097436003396"
+    ],
+    [
+      "contrast_point",
+      "0.20829199192887468",
+      "0.20829199190508288"
+    ],
+    [
+      "contrast_point",
+      "0.2083965580940901",
+      "0.2083965580883569"
+    ],
+    [
+      "contrast_point",
+      "0.02998099180521281",
+      "0.02998099178567776"
+    ],
+    [
+      "contrast_point",
+      "0.030092590182246023",
+      "0.03009259016346814"
+    ],
+    [
+      "contrast_point",
+      "0.014590200475889478",
+      "0.014590200444438423"
+    ],
+    [
+      "contrast_point",
+      "0.014701798852922688",
+      "0.014701798822228801"
+    ],
+    [
+      "contrast_point",
+      "-8.619936924710488e-05",
+      "-8.619937640238125e-05"
+    ],
+    [
+      "contrast_point",
+      "0.013051302390864822",
+      "0.01305130238017213"
+    ],
+    [
+      "contrast_point",
+      "0.013137501760111928",
+      "0.013137501756574512"
+    ],
+    [
+      "contrast_point",
+      "0.016206095006275605",
+      "0.016206095003597116"
+    ],
+    [
+      "contrast_point",
+      "0.01629229437552271",
+      "0.0162922943799995"
+    ],
+    [
+      "contrast_point",
+      "-0.4076432380775521",
+      "-0.40764323806240865"
+    ],
+    [
+      "contrast_point",
+      "-0.43805251767797104",
+      "-0.4380525176609134"
+    ],
+    [
+      "contrast_point",
+      "-0.17297961312665888",
+      "-0.17297961313197088"
+    ],
+    [
+      "contrast_point",
+      "-0.18484330878234378",
+      "-0.18484330876581134"
+    ],
+    [
+      "contrast_point",
+      "6.810047308194085e-05",
+      "6.81004667696707e-05"
+    ],
+    [
+      "contrast_point",
+      "0.4931819188293663",
+      "0.4931819188102811"
+    ],
+    [
+      "contrast_point",
+      "0.4931138183562844",
+      "0.4931138183435115"
+    ],
+    [
+      "contrast_point",
+      "0.3006859335076371",
+      "0.3006859335188689"
+    ],
+    [
+      "contrast_point",
+      "0.30061783303455525",
+      "0.3006178330520992"
+    ],
+    [
+      "contrast_point",
+      "-6.782267569182172e-05",
+      "-6.78226928521412e-05"
+    ],
+    [
+      "contrast_point",
+      "0.014111694281421658",
+      "0.014111694257638668"
+    ],
+    [
+      "contrast_point",
+      "0.01417951695711348",
+      "0.014179516950490809"
+    ],
+    [
+      "contrast_point",
+      "0.016035419822832974",
+      "0.016035419800487286"
+    ],
+    [
+      "contrast_point",
+      "0.016103242498524795",
+      "0.01610324249333943"
+    ],
+    [
+      "contrast_point",
+      "1.7553336999644637e-05",
+      "1.7553325505871114e-05"
+    ],
+    [
+      "contrast_point",
+      "0.024762948503800966",
+      "0.024762948507161184"
+    ]
+  ],
+  "identity_twa_ap_points": [
+    {
+      "cohort": "Chapman",
+      "contrast": "identity_rederived_clean_minus_original_clean_for_ordinary",
+      "point": -9.376030014126199e-06
+    },
+    {
+      "cohort": "Chapman",
+      "contrast": "identity_rederived_clean_minus_original_clean_for_physics_aware",
+      "point": 3.680198547773017e-05
+    },
+    {
+      "cohort": "Chapman",
+      "contrast": "identity_rederived_clean_minus_original_clean_for_combined",
+      "point": -2.9525993017938865e-06
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "identity_rederived_clean_minus_original_clean_for_ordinary",
+      "point": 0.0001446119829152289
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "identity_rederived_clean_minus_original_clean_for_physics_aware",
+      "point": -1.0133735582673609e-05
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "identity_rederived_clean_minus_original_clean_for_combined",
+      "point": 4.610587925646392e-05
+    }
+  ],
+  "scope": "Independent saved-file hash and numerical review. No new GPU replay, full signal reconstruction, or new inference performed."
+}

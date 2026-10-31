@@ -1,0 +1,12 @@
+{
+    "reason":  "Verification attempted to find a derived verified_historical_predictions field inside the raw historical evaluation manifest. That derived binding is stored by design in the frozen cycle protocol, while the original manifest records source metadata. No data binding failed; the verifier location was wrong.",
+    "prior_protocol_sha256":  "c7652e1604ef445c89453cd84b2022ddf687c8e409c31ce2911828a4dcb8fc81",
+    "amendment":  "003",
+    "correction":  "Compare manifest source fields with the recorded manifest fields and verify the clean prediction path/hash through the frozen historical protocol binding.",
+    "created_utc":  "2026-10-19T14:57:09.4503926Z",
+    "preserved_attempt":  {
+                              "script_sha256":  "1fa49f37808f3ccc33147b26d02353ebb62daf070f88a417d73b8de019ff7c0b",
+                              "audit_path":  "outputs/identity_rederivation_sensitivity_v1/VERIFICATION_AUDIT_ATTEMPT_MANIFEST_FIELD_CHECK.json",
+                              "script_path":  "outputs/identity_rederivation_sensitivity_v1/run_identity_sensitivity_attempt_manifest_field_check.py"
+                          }
+}

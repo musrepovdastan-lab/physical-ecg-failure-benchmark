@@ -1,0 +1,15 @@
+{
+  "IDs_and_waveforms_disjoint_across_roles": true,
+  "all_A_B_scoring_after_all_models_lock": true,
+  "all_training_epoch_scores_model_selection_only": true,
+  "best_checkpoint_replay_sha256": "2fc5b8670ec0a32bbf18adbc4e388e82bc73216cd1cebfea0a9a9fe26e89bd39",
+  "counts": {
+    "calibration_A": 872,
+    "model_selection": 1744,
+    "threshold_B": 872
+  },
+  "exact_partition_of_previous_validation": true,
+  "membership_file_sha256": "44eac1c840443c1df315ea692d7035adb04d99d44caa36d0ef63edd95fdd4515",
+  "patient_disjointness": "not established; record/waveform disjoint only",
+  "status": "PASS"
+}

@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "counts": {
+    "output_hash": 29,
+    "output_size": 29,
+    "source_hash": 125,
+    "source_size": 125,
+    "v1_unchanged_hash": 293,
+    "v1_unchanged_size": 293,
+    "protocol_hash": 1,
+    "amended_runner": 1,
+    "transitive_labels_match": 94,
+    "exact_700_keys": 1,
+    "table_rows": 1,
+    "unique_coverage": 1,
+    "draw_shape": 700,
+    "all_draws_finite": 700,
+    "full_point": 700,
+    "draw_summary": 2100,
+    "actual_draw_spot": 2100,
+    "old_draw_exact": 300,
+    "old_count": 1,
+    "coverage_provenance": 700,
+    "q0_scenarios_equal": 50,
+    "utf8_russian": 5
+  },
+  "max_abs_errors": {
+    "output_size": 0,
+    "source_size": 0,
+    "v1_unchanged_size": 0,
+    "table_rows": 0,
+    "unique_coverage": 0,
+    "full_point": 5.684341886080802e-14,
+    "draw_summary": 0,
+    "actual_draw_spot": 1.1368683772161603e-13,
+    "old_count": 0
+  },
+  "failure_count": 0,
+  "failures": [],
+  "scope": "Independent completion hashes, all700 points and summaries,2100 actual draw spots,old300 exact preservation,coverage/provenance and report encoding. No training, inference or calibration refit. Previously reviewed weights/predictions preserved by hashes; previous initialization/patient/proxy/chronology limitations remain."
+}

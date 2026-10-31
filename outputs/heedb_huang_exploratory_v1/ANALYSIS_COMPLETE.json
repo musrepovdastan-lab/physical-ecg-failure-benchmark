@@ -1,0 +1,18 @@
+{
+  "aggregate_hashes": {
+    "DETECTOR_CONFUSION_AGGREGATE.csv": "0110e38b6d3dcfa2f20cb88748359e6c5dbfa08e51b19332dbb2208d51cea760",
+    "DETECTOR_ERROR_DIAGNOSIS_AGGREGATE.csv": "50a48715654b199469aa7fef12510a5e8be9c818c621610ea83ce5a9b1b326dc",
+    "PAIRED_PATIENT_BOOTSTRAP.csv": "004365291cbf13d70f0f1dd3bc5033741fe764607ac9c8de652a8cc02b40dea0",
+    "TWA_BY_SEED.csv": "b835f46a28576513ebff177e282470ae192c406890255d18932f8986440faff8",
+    "TWA_THREE_SEED_MEANS.csv": "fd238e6dfa66bef8ea62a32a65f7ad6f70f6465bbbc231ab6f940c9725e22781"
+  },
+  "bootstrap_replicates": 1000,
+  "bootstrap_seed": 20260926,
+  "decision": "PASS",
+  "detector_prediction_sha256": "874882f834ef4a50460bcd286b93a5f7827f21f71d0529fb3858a9e38031407d",
+  "elapsed_seconds": 126.094,
+  "huang_diagnosis_prediction_sha256": "e08876d392bd9a64dd4114a9bfaf050ccbf61442a62e005d9f0da341504664f1",
+  "patients": 10000,
+  "protocol_sha256": "50974d7cdb7a286d7d3cd4831b29df2a80edaac31a274afd697d931bb76cd53c",
+  "twa_positive": 1456
+}

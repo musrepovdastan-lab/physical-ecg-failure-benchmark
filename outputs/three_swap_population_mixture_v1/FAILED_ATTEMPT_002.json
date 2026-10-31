@@ -1,0 +1,7 @@
+{
+  "gate": "Ningbo small-block replay",
+  "status": "FAILED_DUE_TO_REPLAY_INPUT_ORDER_MISMATCH",
+  "reason": "The checker read the 6,981-record waveform cache from ningbo_four_arm_replication_v1; saved source comparator scores bind to the distinct ningbo_confirmation_v2 record order. This produced large score deltas, not a model replay result. No HEEDB inference or outcome analysis had started. Formula and chest-lead checks passed.",
+  "failed_rows": 24,
+  "maximum_probability_delta": 1.0
+}

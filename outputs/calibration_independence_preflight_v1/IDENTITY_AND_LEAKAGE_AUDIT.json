@@ -1,0 +1,104 @@
+{
+  "ningbo_ids": "record_id and exact stored waveform hash; patient ID absent",
+  "patient_disjoint": "NOT ESTABLISHED; record/waveform disjoint only",
+  "canonical_records": 34899,
+  "unique_record_ids": 34899,
+  "unique_waveform_hashes": 34899,
+  "proposed_roles": {
+    "model_selection": 1744,
+    "calibration_A": 872,
+    "threshold_B": 872
+  },
+  "proposed_membership_sha256_by_role": {
+    "model_selection": "093e7ca7cc0fe4c4b1f6203d56853114cb1ca8836f6f07c420fcf32a451863ce",
+    "calibration_A": "e6a1a414ee6d0e315c849bc0c8f29a4ac95cb24fe82f52019496fba0e25af0cb",
+    "threshold_B": "1590aafdabbb6ae3674babc3fb26b75a2597724b7919b8618a13dc19433bc1b7"
+  },
+  "proposed_waveform_hash_sha256_by_role": {
+    "model_selection": "0e3fb55c4eebf1e5dc778c1a47c379467e96621814ed7a84dc8f3c6c753b310e",
+    "calibration_A": "ef5fefada4d3a5eea1aacd79a9f813bcb3f569a45296a71e427b4614959a0604",
+    "threshold_B": "564937c17eed8a0dbc6dd5ea7c2c220aac4dcf98eef758b381eae035f88acedd"
+  },
+  "intersections": [
+    {
+      "kind": "proposed_record_id",
+      "part_a": "model_selection",
+      "part_b": "threshold_B",
+      "intersection_n": 0
+    },
+    {
+      "kind": "proposed_record_id",
+      "part_a": "calibration_A",
+      "part_b": "model_selection",
+      "intersection_n": 0
+    },
+    {
+      "kind": "proposed_record_id",
+      "part_a": "calibration_A",
+      "part_b": "threshold_B",
+      "intersection_n": 0
+    },
+    {
+      "kind": "proposed_waveform_hash",
+      "part_a": "model_selection",
+      "part_b": "threshold_B",
+      "intersection_n": 0
+    },
+    {
+      "kind": "proposed_waveform_hash",
+      "part_a": "calibration_A",
+      "part_b": "model_selection",
+      "intersection_n": 0
+    },
+    {
+      "kind": "proposed_waveform_hash",
+      "part_a": "calibration_A",
+      "part_b": "threshold_B",
+      "intersection_n": 0
+    },
+    {
+      "kind": "source_record_id",
+      "part_a": "train",
+      "part_b": "validation",
+      "intersection_n": 0
+    },
+    {
+      "kind": "source_record_id",
+      "part_a": "test",
+      "part_b": "train",
+      "intersection_n": 0
+    },
+    {
+      "kind": "source_record_id",
+      "part_a": "test",
+      "part_b": "validation",
+      "intersection_n": 0
+    },
+    {
+      "kind": "source_waveform_hash",
+      "part_a": "train",
+      "part_b": "validation",
+      "intersection_n": 0
+    },
+    {
+      "kind": "source_waveform_hash",
+      "part_a": "test",
+      "part_b": "train",
+      "intersection_n": 0
+    },
+    {
+      "kind": "source_waveform_hash",
+      "part_a": "test",
+      "part_b": "validation",
+      "intersection_n": 0
+    }
+  ],
+  "excluded_conflict_records": 6,
+  "excluded_conflict_waveform_groups": 3,
+  "excluded_conflict_membership_in_proposal": 0,
+  "HEEDB_records": 10000,
+  "HEEDB_membership_sha256": "7ded567e78bb691a9797f1b9640724ed05f5dad6332ff40ea6b1dad56fe7dfff",
+  "HEEDB_unique_patients": 10000,
+  "cross_cohort_patient_overlap": "not testable; Ningbo patient IDs unavailable",
+  "hash_limit": "Exact waveform hash does not establish patient independence and cannot detect transformed repeat recordings."
+}

@@ -1,0 +1,9 @@
+{
+  "amended_protocol_sha256": "079b48e390f4e10db3a385d1ec85123c123164dee65bfd8c4b3bf207213b3eec",
+  "amendment": "003",
+  "inference_completed_before_amendment": true,
+  "inference_protocol_sha256": "6cc3534e6c7e3f01f535578f995308b29f2425cae0ae2aa8ead093ccbfa6df87",
+  "prior_protocol_sha256": "6cc3534e6c7e3f01f535578f995308b29f2425cae0ae2aa8ead093ccbfa6df87",
+  "reason": "After all 12 new prediction bundles completed, analysis preflight found a stale path reference to a historical calibration JSON under the changed model root. Corrected the read path to the immutable six-method extension package. No metrics, calibrators, thresholds, predictions, or cohort selections were generated/changed by the failed analysis preflight. Statistical methods and frozen outcomes unchanged.",
+  "status": "ANALYSIS_IMPLEMENTATION_CORRECTION"
+}

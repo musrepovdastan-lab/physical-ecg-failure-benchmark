@@ -1,0 +1,3 @@
+model_family,Chapman_corrected_792_mask_panel,Ningbo_corrected_panel,gate_status,test_provenance
+ECGResNet-small,not fully verified; not run in this package,"complete: baseline and physics-aware M2; 6 units, 4,752 corrected mask predictions",Ningbo M2 reported PASS under its own frozen M2 criteria,Ningbo corrected reanalysis after prior test access; not untouched confirmation
+TimePatchTransformer,complete: 6 units; Stage M3A FAIL at seed 155921 mask-retention criterion,not run because frozen Stage M3A gate failed,FAIL_M3_ARCHITECTURE_SPECIFIC,Chapman corrected reanalysis after historical test access; not untouched confirmation

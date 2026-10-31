@@ -1,0 +1,152 @@
+{
+  "status": "REVIEWED_DRAFT_EXECUTION_PROTOCOL_MUST_BE_FROZEN_BEFORE_TRAINING",
+  "path": "B_NINGBO_RECORD_DISJOINT_CONTROL",
+  "roles": {
+    "train": 24430,
+    "model_selection": 1744,
+    "calibration_A": 872,
+    "threshold_B": 872,
+    "Ningbo_test": 6981,
+    "HEEDB": 10000
+  },
+  "membership": {
+    "file": "PROPOSED_MEMBERSHIP.csv",
+    "source_split_sha256": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388",
+    "seed": 20261019,
+    "algorithm": "proportional largest-remainder within each joint label stratum, seeded shuffle and deterministic repair to exact sizes; no predictions",
+    "independence": "record/waveform-disjoint only"
+  },
+  "models": {
+    "methods": [
+      "ordinary",
+      "physics_aware_p050",
+      "combined"
+    ],
+    "seeds": [
+      104729,
+      130363,
+      155921
+    ],
+    "new_fits": 9,
+    "old_checkpoints_reusable": false,
+    "architecture": "ECGResNet-small",
+    "recipe": {
+      "ordinary": "clean 1.0",
+      "physics_aware_p050": "clean .5 + one uniform draw from RA_LL/RA_LA/LA_LL physical reversals .5",
+      "combined": "clean .5 + uniform five-lead mask .25 + one uniform draw from RA_LL/RA_LA/LA_LL reversal .25; never combined",
+      "mask": "uniform lexicographic C(12,5)=792; raw train per-lead mean sentinel",
+      "loss": "weighted multilabel BCE, train-only pos_weight cap20",
+      "optimizer": "AdamW lr .001, weight_decay .0001",
+      "batch": 64,
+      "max_epochs": 30,
+      "mixed_precision": "CUDA float16 autocast and GradScaler",
+      "early_stop": "selection TWA AUPRC patience 5",
+      "checkpoint": "best selection TWA AUPRC; earliest tie",
+      "normalization": "per displayed lead mean/std from unchanged train only"
+    }
+  },
+  "selection": "only model_selection TWA AUPRC; no A/B access; early stop patience 5",
+  "calibration": "positive-slope sigmoid(a*logit(p)+b); A clean scores only, unweighted log loss, per method/seed/endpoint",
+  "threshold": "B clean negative raw q90; use A fit for calibrated operating threshold; no fitting now",
+  "huang": "frozen detector -> predicted inverse on incoming damaged ECG -> corresponding NEW ordinary classifier; same separate A/B roles, own pipeline scores; zero additional training; reuse detector cache only with verified input/order/class/checkpoint bindings; recovery-v2 handoff regression required",
+  "failure": "one-class/nonfinite/solver failure stops affected endpoint; no fallback; primary TWA failure or any model selection/integrity gate failure closes test; preserve negative scientific outcomes",
+  "selection_gate": {
+    "role": "model_selection only",
+    "TWA_AUROC_min": 0.75,
+    "TWA_AUPRC_min": 0.45,
+    "finite_losses_predictions": true,
+    "best_checkpoint_and_membership_integrity": true,
+    "all_nine_models_locked_before_calibration": true
+  },
+  "calibration_numerics": {
+    "source": "historical outputs/mixed_fault_calibration_v1/run_analysis.py fit_platt/platt",
+    "clip_probability": [0.000001, 0.999999],
+    "a": "exp(theta0)",
+    "initial_theta": [0.0, 0.0],
+    "optimizer": "L-BFGS-B",
+    "bounds_theta0_b": [[-12, 12], [-30, 30]],
+    "maxiter": 2000,
+    "ftol": 1e-13,
+    "gtol": 1e-8,
+    "maxls": 50,
+    "raw_q90_quantile_method": "numpy linear; freeze score/threshold precision before inference",
+    "primary_operating_decisions": "raw score >= raw B q90; calibrated threshold is its mapped value; report clipping/saturation decision differences explicitly, no outcome-driven threshold adjustment"
+  },
+  "future_eval": {
+    "sources": [
+      "previously accessed Ningbo test",
+      "previously accessed HEEDB"
+    ],
+    "q": [
+      0,
+      0.001,
+      0.005,
+      0.01,
+      0.05,
+      0.1,
+      1.0
+    ],
+    "conditions": [
+      "clean",
+      "RA_LL",
+      "RA_LA",
+      "LA_LL"
+    ],
+    "scenarios": ["RA_LL_only", "equal_three_swap"],
+    "metrics": [
+      "raw/calibrated Brier",
+      "ranking",
+      "sensitivity",
+      "false alarms"
+    ],
+    "rule": "only after all fits lock; no outcome-based choices"
+  },
+  "claims": "separation of roles for new checkpoint runs at record level; not untouched research history, patient-disjoint or new independent external replication. Comparison with historical outputs also changes checkpoint selection and calibration sample sizes; it does not isolate a causal effect or quantify historical calibration bias.",
+  "budget": {
+    "new_fits": 9,
+    "core_endpoint_calibration_fits": 27,
+    "huang_endpoint_calibration_fits": 9,
+    "total_endpoint_calibration_fits": 36,
+    "total_endpoint_threshold_selections": 36,
+    "methods": [
+      "ordinary",
+      "physics_aware_p050",
+      "combined"
+    ],
+    "seeds": [
+      104729,
+      130363,
+      155921
+    ],
+    "max_epochs_each": 30,
+    "max_total_epochs": 270,
+    "measured_reference": "6 Ningbo masking/combined trainings",
+    "measured_seconds_min": 1107.840377,
+    "median": 1272.2880205,
+    "max": 2041.115083,
+    "estimated_hours_min": 2.7696009425,
+    "median_hours": 3.18072005125,
+    "estimated_hours_max": 5.102787707499999,
+    "measured_peak_gpu_allocated_bytes_max": 283986432,
+    "measured_peak_gpu_allocated_GiB_max": 0.2644829750061035,
+    "caveat": "Projection from similar runs, not new measurement; exact p050 runtime and future load unknown; excludes future inference/calibration/evaluation/bootstrap.",
+    "additional_compute": "Up to 270 selection-validation passes × 1,744 records = 470,880 record presentations during training; 15,696 clean diagnostic score rows for A/B (9 checkpoints × 1,744). Core methods require 27 endpoint Platt fits and 27 negative-q90 selections. Huang adds 5,232 diagnostic A/B score rows (3 seeds × 1,744), 9 Platt fits and 9 q90 selections: 36 fits/selections total. Detector inputs required only if verified caches cannot bind. Future test/HEEDB scoring excluded and not run.",
+    "expected_artifacts_per_fit": [
+      "checkpoint.pt",
+      "history.json",
+      "preprocessing.npz",
+      "model-selection validation score cache",
+      "training config/provenance/logs"
+    ]
+  },
+  "regressions": [
+    "best epoch argmax/earliest tie on selection only",
+    "all split counts/hash/overlap and source train/test intersections",
+    "normalization and pos_weight source bindings",
+    "recipes/seeds/augmentation determinism",
+    "Platt A-only and q90 B-only, frozen numerical failures",
+    "Huang order/classes/input damaged handoff regression",
+    "historical inputs unchanged",
+    "test/HEEDB gate closed until all locks"
+  ]
+}

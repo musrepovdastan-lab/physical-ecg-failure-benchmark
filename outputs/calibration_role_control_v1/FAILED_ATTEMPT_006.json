@@ -1,0 +1,7 @@
+{
+  "status": "EVALUATION_RUNNER_SYNTAX_STOP_BEFORE_TEST_ACCESS",
+  "reason": "evaluate.py was missing the closing bracket in the historical comparison join; Python compilation failed before the evaluation function ran.",
+  "test_or_HEEDB_accessed": false,
+  "final_calibration_lock_created": true,
+  "resolution": "Close the DataFrame mask and run py_compile before entering the evaluation gate."
+}

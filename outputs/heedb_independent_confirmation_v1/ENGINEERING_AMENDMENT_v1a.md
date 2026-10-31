@@ -1,0 +1,11 @@
+# Transfer-only engineering amendment v1a
+
+The original confirmation cohort, protocol and evaluator were **not edited**. Amendment protocol SHA-256: `fd001d31bca91bba76f6e197b97e6bee89d9153d101fc9717cb3b3911b13c69a`; additive transfer source SHA-256: `12b67be1a356d19fe2ac9b1260cfbe5ec6726d29a4113167e3aa86e449595083`; tests SHA-256: `e65ef632d2298610e00fae9ade5b85ee82579238e68b8a0448c1948146c6ada3`.
+
+The original `Path.resolve()` containment check rejected one manifest path during concurrent downloading. Read-only checks of all 20,000 frozen manifest paths later found no invalid path; the sole missing path was relative, had no traversal/reserved-name features and resolved within the restricted root. The precise original trigger was **not reproducible**, so it is not described as a proven Windows race.
+
+The amendment replaces only transfer-path handling with a lexical `commonpath` check plus rejection of absolute/drive/UNC, traversal, empty/dot, backslash/colon, NUL, reserved Windows device, trailing-space/dot, unexpected suffix, symlink and junction paths. It rechecks after creating the parent directory. This avoids dependence on the changing existence of nested directories without disabling containment. Tests passed for valid paths, attacks and 1,500 concurrent directory creations; a symlink-creation test was skipped because this Windows account lacks that privilege, while runtime link checks remain enabled.
+
+Before resume, hashes of the original protocol/evaluator, selection and object manifests were revalidated; no downloader lock or Python process remained. Exactly 19,999 objects (1,176,892,861 bytes) matched remote sizes, with one 120,000-byte object absent. The non-root `bdsp-reader` identity was reverified. The amendment HEAD-checked and downloaded **only that object**, emitted aggregate progress immediately, and wrote `DOWNLOAD_COMPLETE.json` only after all 20,000 objects matched the preflight size manifest (1,177,012,861 bytes), below the original 2 GiB / $0.25 gates.
+
+No patient replacement, waveform transformation, label mapping, checkpoint, threshold, metric or bootstrap rule changed. The original frozen evaluator is used for cache construction and the single scientific evaluation.

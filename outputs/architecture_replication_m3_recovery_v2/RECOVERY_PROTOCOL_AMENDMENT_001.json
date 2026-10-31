@@ -1,0 +1,14 @@
+{
+  "amendment": "001",
+  "amendment_binding_sha256": "01078eba827ce0f0fd8b9cba3a17cbb05fa677bf98292e5d53508012e9495bca",
+  "clean_replay_tolerance_changed": false,
+  "legacy_mask_cache_reused": false,
+  "mask_semantics_changed": false,
+  "method_changes": false,
+  "preserved_failed_probe": "LEGACY_REPLAY_MISMATCH_BEFORE_REINFERENCE.json",
+  "prior_evaluator_source_sha256": "f8da6e678906b98b30576bc98db2d0a2e868ae49c52565dad946dffe55f0c21d",
+  "prior_protocol_binding_sha256": "e04435dbe26eba2eebc5001829d4301dbd50aaf583ab080cb074f43df267f55f",
+  "reason": "Legacy evaluation_complete binds prediction file hashes and checkpoint but not evaluator source or canonical test record order; frozen clean/RA probe exceeded predeclared tolerance in all 12 checks. Re-infer these conditions on the frozen test order into the versioned recovery root.",
+  "runner_source_sha256": "eef9e2b6f610898a82c2c53d5439d2e212c6396733ed3e43cce8be8133b321f8",
+  "scientific_thresholds_changed": false
+}

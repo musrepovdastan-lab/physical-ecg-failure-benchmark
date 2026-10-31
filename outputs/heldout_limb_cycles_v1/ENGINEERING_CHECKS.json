@@ -1,0 +1,49 @@
+{
+  "batch_channels": [
+    "I",
+    "II",
+    "III",
+    "aVR",
+    "aVL",
+    "aVF",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "cohort_checks": {
+    "Chapman": {
+      "clean_control_policy": "raw historical 12-lead input unchanged; no identity correction",
+      "cycle_chest_max_abs_delta": {
+        "cycle_slots_120": 0.0,
+        "cycle_slots_201": 0.0
+      },
+      "identity_reconstruction_max_abs_vs_historical_12lead": 3.5,
+      "identity_reconstruction_rmse_vs_historical_12lead": 0.8903321887082372
+    },
+    "Ningbo": {
+      "clean_control_policy": "raw historical 12-lead input unchanged; no identity correction",
+      "cycle_chest_max_abs_delta": {
+        "cycle_slots_120": 0.0,
+        "cycle_slots_201": 0.0
+      },
+      "identity_reconstruction_max_abs_vs_historical_12lead": 3.5,
+      "identity_reconstruction_rmse_vs_historical_12lead": 0.8877948453894063
+    }
+  },
+  "cycles_distinct_from_identity_and_three_training_swaps": true,
+  "cycles_mutual_inverse": true,
+  "known_swap_compositions": {
+    "cycle_slots_120": "apply RA_LA_reversal then LA_LL_reversal",
+    "cycle_slots_201": "apply LA_LL_reversal then RA_LA_reversal"
+  },
+  "status": "PASS",
+  "synthetic_explicit_formula_max_abs": {
+    "cycle_slots_120": 8.881784197001252e-16,
+    "cycle_slots_201": 8.881784197001252e-16
+  },
+  "transform_before_normalization": true,
+  "triple_application_identity": true
+}

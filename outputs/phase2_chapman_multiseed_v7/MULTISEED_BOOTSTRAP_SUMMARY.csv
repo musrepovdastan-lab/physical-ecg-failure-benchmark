@@ -1,0 +1,4 @@
+label,mean_contrast,low95,high95,replicates,bootstrap_unit,aggregate
+TWA,0.24571871757507324,0.20959141850471497,0.27958938479423523,1000,canonical_record,mean_of_three_seed_contrasts
+SB,0.004982891026884317,0.0030333390459418297,0.007355509791523218,1000,canonical_record,mean_of_three_seed_contrasts
+STach,0.2268005609512329,0.18671752512454987,0.2726935148239136,1000,canonical_record,mean_of_three_seed_contrasts

@@ -1,0 +1,9 @@
+condition,predicted_class,patients,correct
+clean,clean,9701,True
+clean,RA_LA,61,False
+clean,RA_LL,15,False
+clean,LA_LL,223,False
+RA_LL_reversal,clean,17,False
+RA_LL_reversal,RA_LA,48,False
+RA_LL_reversal,RA_LL,9919,True
+RA_LL_reversal,LA_LL,16,False

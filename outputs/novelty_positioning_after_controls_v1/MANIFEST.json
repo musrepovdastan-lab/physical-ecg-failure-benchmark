@@ -1,0 +1,135 @@
+{
+  "created": "2026-10-20",
+  "package": "novelty_positioning_after_controls_v1",
+  "scope": "targeted literature positioning; no new experiments or manuscript",
+  "inputs": [
+    {
+      "path": "NEXT_RESEARCH_DECISIONS_20261019.md",
+      "bytes": 13924,
+      "sha256": "05ce47a69f52eebd09f1ef4ca96bb4a5cb093bfc841ac0a43e51243635c5ef7e"
+    },
+    {
+      "path": "LUNA_PROMPT_NOVELTY_POSITIONING_20261020.md",
+      "bytes": 12456,
+      "sha256": "5db88b4e0af8d46633e87a55fac0e771bd710a71958ac48130960a907a31c2c2"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/REVIEW_NOTES_20261020.md",
+      "bytes": 6739,
+      "sha256": "8be9a50e324c86a23e98308f2fc662cfdc275be5674f56e90e146b9d3bb349e6"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/FINAL_REPORT_RU.md",
+      "bytes": 8452,
+      "sha256": "e42c66f08678bc9f8305d992b604835fa35f5278a08951e51a33b337d3cfdeaa"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/CURRENT_PLAN_STATUS_RU.md",
+      "bytes": 4326,
+      "sha256": "fb3c82504f493a9821e3ba54fc6a5c5ecaaefbe28101accb9198fa7512465d4d"
+    },
+    {
+      "path": "outputs/mentor_response_consolidation_v3/PLAN_COMPLETION_AUDIT_20261019.md",
+      "bytes": 14097,
+      "sha256": "cd2f6bfca0b7ca2682b1baf0b6891ebeffc949689f1c680cc6e57bc6360403ec"
+    },
+    {
+      "path": "outputs/mentor_response_consolidation_v3/CLAIMS_AND_NOVELTY_RU.md",
+      "bytes": 10476,
+      "sha256": "2349cb36e7f72fad30fbe7200b895218508cd2990c56d18b80f583f44d054568"
+    },
+    {
+      "path": "outputs/mentor_response_consolidation_v3/SOURCE_INDEX.md",
+      "bytes": 6089,
+      "sha256": "132028a70609eb920622e80d033a84203f36c767b093ab3707b8d7b21f8c2937"
+    },
+    {
+      "path": "outputs/literature_closure_v1/NOVELTY_REVIEW_RU.md",
+      "bytes": 13096,
+      "sha256": "186e0fc1aa4b9302efe78791202b002d67d43225f67c595786f4b54f190f1611"
+    },
+    {
+      "path": "outputs/literature_closure_v1/SOURCE_ACCESS_LOG.json",
+      "bytes": 2899,
+      "sha256": "84e745e690a69ed248c894325423d5b56a4827b814f03056ca22bbcf1d90670f"
+    },
+    {
+      "path": "outputs/novelty_reassessment_v1/CAO2020_FULLTEXT_REVIEW.md",
+      "bytes": 6975,
+      "sha256": "873afec4fbdbbc04d290859541ebbd53a4569c270e11b6a8975d17b9ab78e45e"
+    },
+    {
+      "path": "outputs/novelty_reassessment_v1/REVISED_CONTRIBUTION.md",
+      "bytes": 3578,
+      "sha256": "66bd2ae834b620e835bf9f8acc864eb60c04edcc7106805dd4989e0de3298014"
+    },
+    {
+      "path": "outputs/submission_evidence_v2/CLINICIAN_REVIEW_PACKET.md",
+      "bytes": 12730,
+      "sha256": "bc4e3646073eabeda7edc83a8ca4bc311a34883ab150827bfcf51b85f6a84c1c"
+    },
+    {
+      "path": "outputs/submission_evidence_v2/MENTOR_RESPONSE_MATRIX.md",
+      "bytes": 6257,
+      "sha256": "50fc877630cd7a909da53c1091e3cc6b06448e7491c4ab602306b72917f0e9ec"
+    }
+  ],
+  "local_full_pdfs": [
+    {
+      "path": "outputs/literature_closure_v1/Rafiei2026_Self_Validating_ECG.pdf",
+      "bytes": 2035761,
+      "sha256": "d455513f48485c8ee04a02dec49c9bd0a9b5b373b0152c8f9d2a278e9a92fbcc",
+      "access": "full PDF read in prior targeted review"
+    },
+    {
+      "path": "outputs/literature_closure_v1/Alves2025_Real_World_Electrode_Interchange.pdf",
+      "bytes": 479386,
+      "sha256": "10689cc646408f77624ff8148875754d59aa8d53017cf76734db5169fe000d1e",
+      "access": "full PDF read in prior targeted review"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "outputs/novelty_positioning_after_controls_v1/ACTIVE_PLAN_BEFORE_POSITIONING.md",
+      "bytes": 13936,
+      "sha256": "23b7cfcc64b612af608e36b19100659049cb3c3fef716fc73b25b580c2ced220"
+    },
+    {
+      "path": "outputs/novelty_positioning_after_controls_v1/CAO_BASELINE_DECISION_RU.md",
+      "bytes": 8943,
+      "sha256": "aa0ff69d87698e2bcb0dd0dd20881a816de60c5917f55e53d2c3626370bc46bc"
+    },
+    {
+      "path": "outputs/novelty_positioning_after_controls_v1/PRIOR_WORK_MATRIX.csv",
+      "bytes": 5970,
+      "sha256": "a4852095e4a499db3cebe3475139e79e265e55f634ba6f2dcf3b90b38b69db4c"
+    },
+    {
+      "path": "outputs/novelty_positioning_after_controls_v1/REMAINING_DECISIONS_RU.md",
+      "bytes": 6256,
+      "sha256": "4c81c08e08e00660adaf3aaf7253a5475e9e2f48ef053740461997e1d1be5143"
+    },
+    {
+      "path": "outputs/novelty_positioning_after_controls_v1/RESEARCH_POSITIONING_RU.md",
+      "bytes": 13933,
+      "sha256": "cd6192bfb9af8bffbb9e18a1f0c5b5da7104b6963aae1a2f4ee9e5443e262de8"
+    },
+    {
+      "path": "outputs/novelty_positioning_after_controls_v1/SOURCE_ACCESS_AND_EVIDENCE.json",
+      "bytes": 4302,
+      "sha256": "6262656e91037b903ac0a03274d16d7c912802d77d08b5564a8501c09580a2c9"
+    },
+    {
+      "path": "outputs/novelty_positioning_after_controls_v1/STATUS.md",
+      "bytes": 2506,
+      "sha256": "e1538a9840cdc724f31f30bb6ffadb16746618c63b451432608f0286f93911b1"
+    }
+  ],
+  "active_plan_update": {
+    "path": "NEXT_RESEARCH_DECISIONS_20261019.md",
+    "prechange_snapshot": "outputs/novelty_positioning_after_controls_v1/ACTIVE_PLAN_BEFORE_POSITIONING.md",
+    "update_scope": "only the leading status sentence changed; verified byte-for-byte after normalization",
+    "sha256_after": "05ce47a69f52eebd09f1ef4ca96bb4a5cb093bfc841ac0a43e51243635c5ef7e",
+    "sha256_snapshot": "23b7cfcc64b612af608e36b19100659049cb3c3fef716fc73b25b580c2ced220"
+  }
+}

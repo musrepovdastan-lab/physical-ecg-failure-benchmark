@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-18",
+  "scope": "Recompute AP and synchronized 1000-draw intervals from existing frozen predictions only; previously accessed cohorts.",
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "datasets": [
+    "Chapman",
+    "Ningbo",
+    "HEEDB"
+  ],
+  "conditions": [
+    "clean",
+    "RA_LL_reversal"
+  ],
+  "primary_endpoint": "TWA",
+  "contrast": "physics-aware 12-lead minus chest-only",
+  "statistic": "mean of seed-specific AP differences; percentile interval; no ensemble",
+  "new_training": false,
+  "new_inference": false,
+  "interpretation": "Conditional record/patient uncertainty; not equivalence or all training uncertainty."
+}

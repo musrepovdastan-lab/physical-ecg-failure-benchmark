@@ -1,0 +1,11 @@
+# Submission-readiness decision
+
+**Scientific arithmetic/provenance gate: PASS.** The [independent verification](VERIFICATION_REPORT.md) matched the saved aggregate metrics, bootstrap intervals, six protocol hashes, HEEDB patient-disjointness and source figure values. Three figures have aggregate-only [data](FIGURE_DATA.csv) and a [hash manifest](FIGURE_MANIFEST.json).
+
+**Methods/workshop framing: conditionally ready for coauthor and clinician review, not yet ready to upload.** A concise, simulation-bounded story is supported: exact simulated terminal reversals expose a gap missed by matched missing-lead masking; physics-aware training protects diagnostic ranking across Chapman, Ningbo and an independent HEEDB physician-code-proxy sample. The Huang detect-and-correct chain is a strong **post-hoc exploratory** comparator and has no established AUPRC disadvantage. The draft explicitly displays sensitivity, specificity, predicted-positive fraction and calibration tradeoffs. Before submission, obtain clinician review of HEEDB code semantics, final institutional/BDSP data-use and code-release review, coauthor approval and venue-specific disclosures. Do not upload restricted HEEDB traces, manifests, predictions or record-level examples.
+
+**Stronger clinical claim: not ready.** It would require a separate, approved study with verified *real* cable/wiring errors, independently adjudicated outcomes and fault provenance; a prespecified clinical operating point and calibration/false-alarm workflow; and evidence that changes in ranking improve a clinically relevant decision, not merely AUROC/AUPRC. HEEDB overread-code proxies cannot substitute for an exact cross-dataset diagnosis definition.
+
+**Stronger top-tier ML/generalization claim: not ready.** It would require a broader model-family/site/device assessment, a prospectively specified comparison against Huang-like detection-and-correction systems, and appropriately powered noninferiority/equivalence margins if such language is desired. Current Huang confidence intervals crossing zero cannot supply that claim. Further evidence should be planned independently; none was initiated for this package.
+
+No paper, code, figures or data were submitted or sent externally.

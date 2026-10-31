@@ -1,0 +1,12 @@
+{
+  "amendment": "003",
+  "amendment_002_sha256": "5ee5f80ca3388233fff22378e0f841ffa3becd58519386ce1fbcae2f47a0a40c",
+  "control": "ordinary saved HEEDB predictions must match within 1e-4 before new inference.",
+  "data_change": false,
+  "extension_source_sha256": "74098b0f1e3c73f79273dc1a6f61d2a55d74ba5ae9694d0fffc72fef0e3cb8db",
+  "method_change": false,
+  "protocol_sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa",
+  "reason": "Replay diagnosis showed src.heedb_external_v1.reversal_ra_ll is not algebraically equivalent to the frozen Ningbo physical transform for aVR/aVF. Replay adapter now uses the exact Ningbo frozen src.ecg_physics-derived workflow.reverse_raw transform record by record for both HEEDB control and Ningbo saved outputs. First attempt outputs are preserved in REPLAY_AUDIT.json; this amendment changes the adapter implementation only, not physical fault, data, metrics, or tolerances.",
+  "status": "FROZEN_BEFORE_REPLAY_RETRY",
+  "tolerance_change": false
+}\n

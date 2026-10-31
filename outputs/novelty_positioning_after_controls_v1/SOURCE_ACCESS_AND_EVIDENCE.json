@@ -1,0 +1,170 @@
+{
+  "as_of": "2026-10-20",
+  "package_status": "PARTIAL_SOURCE_ACCESS",
+  "scope": "Targeted novelty positioning, not systematic review or proof of priority.",
+  "cao": {
+    "identity": "Zheng Cao, Jialin Shi, Ji Wu, Reversal No Longer Matters: Attention-Based Arrhythmia Detection with Lead-Reversal ECG Data, ICASSP 2020, DOI 10.1109/ICASSP40776.2020.9053307",
+    "status": "PARTIAL_SOURCE_ACCESS",
+    "all_pages_readable_full_text_obtained": false,
+    "local_pdf_saved": false,
+    "sha256": null,
+    "primary_indexed_excerpts": [
+      "§3.2–3.3, printed p.953",
+      "Tables 2–3, printed p.954",
+      "official ICASSP record: title/authors/affiliation"
+    ],
+    "full_text_read": "No. Relevant indexed extraction was accessible; not a verifiably complete paginated paper.",
+    "unverified": [
+      "all pages 951–955",
+      "all figures and remaining page content",
+      "public code or weights outside inspected routes",
+      "details not returned by indexed extraction"
+    ],
+    "routes_checked": [
+      {
+        "route": "DOI / publisher",
+        "url": "https://doi.org/10.1109/ICASSP40776.2020.9053307",
+        "result": "No readable full text in available reader."
+      },
+      {
+        "route": "Official ICASSP program",
+        "url": "https://cmsworkshops.com/ICASSP2020/Papers/ViewPaper.asp?PaperNum=3120",
+        "result": "Confirms exact title, authors, Tsinghua affiliation; not full text."
+      },
+      {
+        "route": "Proceedings mirror",
+        "url": "https://dihana.cps.unizar.es/proceedings/ICASSP/2020/pdfs/0000951.pdf",
+        "result": "Indexed text surfaced; complete readable PDF not obtained. Earlier access log records timeout and direct-download failures (hostname mismatch / HTTP 401)."
+      },
+      {
+        "route": "Targeted author/institutional public search",
+        "url": "https://www.google.com/search?q=%22Reversal+No+Longer+Matters%22+Cao+Shi+Wu+PDF",
+        "result": "No verified all-pages author/institutional copy or linked official code/weights found in checked public routes; no authentication bypass."
+      }
+    ],
+    "prior_access_log": "outputs/literature_closure_v1/SOURCE_ACCESS_LOG.json (2026-10-18)"
+  },
+  "source_access": [
+    {
+      "work": "Gopal et al 2021 3KG",
+      "urls": [
+        "https://proceedings.mlr.press/v158/gopal21a.html",
+        "https://proceedings.mlr.press/v158/gopal21a/gopal21a.pdf"
+      ],
+      "access": "Official PMLR page and primary PDF text."
+    },
+    {
+      "work": "Oh et al 2022",
+      "urls": [
+        "https://proceedings.mlr.press/v174/oh22a.html",
+        "https://proceedings.mlr.press/v174/oh22a/oh22a.pdf"
+      ],
+      "access": "Official PMLR page and primary PDF text."
+    },
+    {
+      "work": "Lai et al 2023",
+      "urls": [
+        "https://www.nature.com/articles/s41467-023-39472-8",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10290151/"
+      ],
+      "access": "Open primary full text; pre-filtration and augmentation sections."
+    },
+    {
+      "work": "Huang et al 2024",
+      "urls": [
+        "https://doi.org/10.1088/1361-6579/ad43ae",
+        "https://github.com/wjcai/ECG_lead_check"
+      ],
+      "access": "Publisher full text unavailable in prior audit; public author repository/code/examples/models inspected."
+    },
+    {
+      "work": "Lim et al SIMVEA 2025",
+      "urls": [
+        "https://doi.org/10.1007/s13534-024-00455-3",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11871216/"
+      ],
+      "access": "Open primary full text."
+    },
+    {
+      "work": "Lee et al AiTiALVSD 2025",
+      "urls": [
+        "https://doi.org/10.3390/diagnostics15151837",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12346549/"
+      ],
+      "access": "Open primary full text; §3.5 checked."
+    },
+    {
+      "work": "Alves et al CBIC 2025",
+      "urls": [
+        "https://doi.org/10.21528/CBIC2025-1191460",
+        "https://sbia.org.br/wp-content/uploads/2025/12/pdf/CBIC_2025_paper1191460.pdf"
+      ],
+      "access": "Full primary PDF read in prior audit."
+    },
+    {
+      "work": "Rafiei et al 2026",
+      "urls": [
+        "https://doi.org/10.1016/j.jelectrocard.2026.154204",
+        "https://gdclifford.info/publications"
+      ],
+      "access": "Full 8-page author PDF read in prior audit."
+    },
+    {
+      "work": "Zhang et al 2026",
+      "urls": [
+        "https://doi.org/10.3389/fcvm.2026.1856211",
+        "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2026.1856211/full"
+      ],
+      "access": "Open primary full HTML; methods/results checked."
+    }
+  ],
+  "human_responses": "No author or clinician response was found in checked project files. Existing questions, request drafts and response matrices are not human replies. No external message was sent.",
+  "search_scope": "Targeted update of closest prior art on 2026-10-20, building on the project audit dated 2026-10-18; not systematic.",
+  "independent_review_20261020": {
+    "result": "Consistent with a limited empirical positioning; not a completed full-text Cao review or proof of priority.",
+    "cao": {
+      "official_record_reopened": true,
+      "mirror_direct_open": "Web reader returned Internal Error; no complete readable PDF obtained.",
+      "indexed_primary_rechecked": "Printed p953 sections3.1-3.3 and p954 Table2 returned by targeted search; training described on original train and fault sets from original test. Table2 clean73.68 and RA/LL73.17 F1 agree with report.",
+      "queries": [
+        "\"Reversal No Longer Matters\" Cao Shi Wu pdf",
+        "\"Reversal No Longer Matters\" \"training\" \"3.2\" [domain dihana.cps.unizar.es]",
+        "site:dihana.cps.unizar.es/proceedings/ICASSP/2020/pdfs/0000951.pdf \"73.68\" \"73.17\"",
+        "\"Reversal No Longer Matters\" Cao github code"
+      ],
+      "all_pages_readable_full_text_obtained": false,
+      "code_weights": "Not verified in inspected public routes; not a claim that no implementation exists."
+    },
+    "other_primary_checks": [
+      {
+        "url": "https://proceedings.mlr.press/v158/gopal21a.html",
+        "scope": "Official abstract: physiological spatial/temporal augmentation; 23-class downstream task."
+      },
+      {
+        "url": "https://proceedings.mlr.press/v174/oh22a.html",
+        "scope": "Official abstract: random lead masking, arbitrary lead sets; arrhythmia and identification tasks."
+      },
+      {
+        "url": "https://github.com/wjcai/ECG_lead_check",
+        "scope": "Author README and visible file listing: detector code, saved_model, DOI, pipeline/preprocessing description."
+      },
+      {
+        "url": "https://www.nature.com/articles/s41467-023-39472-8",
+        "scope": "Methods pre-filtration and augmentation: wearing-error detection and channel mask; distinct diagnostic endpoints."
+      },
+      {
+        "url": "https://link.springer.com/article/10.1007/s13534-024-00455-3",
+        "scope": "Official article metadata/abstract: precordial positional augmentation."
+      },
+      {
+        "url": "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2026.1856211/full",
+        "scope": "Methods/Table2: 4094-subset benchmark; Transformer covered32 representative combinations, unlike exhaustive linear/CNN coverage."
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12346549/",
+        "scope": "Direct reader hit verification page; primary indexed result/MDPI indexed result supports12 reversal scenarios. Full-text review remains inherited from prior project audit, not newly repeated here."
+      }
+    ],
+    "prior_pdf_reviews": "Alves and Rafiei local PDF hashes verified against manifest; not reread in full in this document-only review."
+  }
+}

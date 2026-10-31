@@ -1,0 +1,51 @@
+{
+  "preserved_existing_TWA_AUPRC_rows": 48,
+  "cached_AP_draw_verification_rows": 48,
+  "cached_AP_draw_max_abs_summary_error": 9.71445146547012e-17,
+  "cached_792_mask_AP_draw_files_reused": 30,
+  "full_792_mask_AP_bootstrap_recomputed": false,
+  "new_AUROC_Brier_groups": 80,
+  "groups_expected": 80,
+  "full_cohort_point_max_abs_difference_vs_v1": {
+    "auroc": 1.1102230246251565e-16,
+    "brier": 5.4295440476970214e-08
+  },
+  "full_cohort_point_source": "recomputed from the exact frozen prediction probabilities; small raw Brier differences up to 1e-7 are allowed for float32/float64 reduction precision",
+  "bootstrap_indices": {
+    "Chapman": {
+      "path": "outputs/phase2_chapman_multiseed_v7/bootstrap_indices.npy",
+      "sha256": "5d02c9fc5f3379ca1f9a7dfd5acb1f1b7700cce894b196c05ea86b8ed5902b9e",
+      "shape": [
+        1000,
+        2050
+      ],
+      "sample_size": 2050
+    },
+    "Ningbo": {
+      "path": "outputs/ningbo_confirmation_v2/bootstrap_indices.npy",
+      "sha256": "6d186026b73c6a0ad31df3c20f16c6f18ad9970176e9c78b0235e6a64e1861d1",
+      "shape": [
+        1000,
+        6981
+      ],
+      "sample_size": 6981
+    }
+  },
+  "auc_brier_implementation_audits": [
+    {
+      "cohort": "Chapman",
+      "real_model_condition": "physics_p010 seed 104729 clean TWA",
+      "replicates": 20,
+      "auc_max_abs_error_vs_sklearn": 1.1102230246251565e-16,
+      "brier_max_abs_error_vs_direct": 0.0
+    },
+    {
+      "cohort": "Ningbo",
+      "real_model_condition": "physics_p010 seed 104729 clean TWA",
+      "replicates": 20,
+      "auc_max_abs_error_vs_sklearn": 2.220446049250313e-16,
+      "brier_max_abs_error_vs_direct": 0.0
+    }
+  ],
+  "Brier_sign_convention": "negative first-minus-second difference means lower Brier and favors first arm"
+}

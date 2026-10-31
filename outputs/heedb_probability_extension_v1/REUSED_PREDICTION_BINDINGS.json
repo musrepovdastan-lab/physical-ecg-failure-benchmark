@@ -1,0 +1,151 @@
+{
+  "historical_manifest_sha256": "e95b75cd3b8cc8ea9b523edc6eac339a0f46d2283492601b840333845b844d1a",
+  "historical_protocol_sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa",
+  "historical_source_package": "outputs/heedb_four_arm_extension_v1",
+  "huang_known_fault_substitution": false,
+  "legacy_helper_failure_evidence": {
+    "path": "outputs/heedb_four_arm_extension_v1/REPLAY_AUDIT_LEGACY_HELPER_DIAGNOSTIC.json",
+    "sha256": "9221f73e780b3bc6756de9d0db6a021dbe9b2110fccbdc76a6000bee248d6689",
+    "status": "STOP_REPLAY_MISMATCH",
+    "used_in_new_pipeline": false
+  },
+  "package": "heedb_probability_extension_v1",
+  "reused_predictions": [
+    {
+      "binding": "arm index 0; [seed,condition,patient,endpoint]",
+      "bytes": 1440128,
+      "method": "ordinary_resnet",
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy",
+      "sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b"
+    },
+    {
+      "binding": "arm index 1; [seed,condition,patient,endpoint]",
+      "bytes": 1440128,
+      "method": "physics_aware_resnet",
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy",
+      "sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b"
+    },
+    {
+      "binding": "[seed,condition,patient,endpoint]",
+      "bytes": 720128,
+      "method": "chest_only_resnet",
+      "path": "data/heedb_restricted/I0006/mixed_fault_calibration_v1/chest_only_predictions_float32.npy",
+      "sha256": "7d4680f1a686bf0c61ca7bbebd6615c18b6f29105f7a4a84f02e799badb140d9"
+    },
+    {
+      "binding": "[seed,condition,patient,endpoint]; outputs of frozen detector→predicted correction→diagnostic cascade",
+      "bytes": 720128,
+      "method": "huang_pipeline",
+      "path": "data/heedb_restricted/I0006/huang_exploratory_v1/huang_diagnostic_probabilities_float32.npy",
+      "sha256": "e08876d392bd9a64dd4114a9bfaf050ccbf61442a62e005d9f0da341504664f1"
+    },
+    {
+      "bytes": 186758,
+      "condition": "clean",
+      "method": "masking",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/masking/seed_104729/clean.npz",
+      "prior_manifest_sha256": "a6cf3dfa9d10030754d9c73a0969db2c24d32a0389558b3bf54cbfa834502651",
+      "seed": 104729,
+      "sha256": "a6cf3dfa9d10030754d9c73a0969db2c24d32a0389558b3bf54cbfa834502651"
+    },
+    {
+      "bytes": 189597,
+      "condition": "RA_LL_reversal",
+      "method": "masking",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/masking/seed_104729/RA_LL_reversal.npz",
+      "prior_manifest_sha256": "28eb62e98c222706e1ea784acbf5bcb3b32a4c70af08ee87270f9eed4db48ee2",
+      "seed": 104729,
+      "sha256": "28eb62e98c222706e1ea784acbf5bcb3b32a4c70af08ee87270f9eed4db48ee2"
+    },
+    {
+      "bytes": 188077,
+      "condition": "clean",
+      "method": "masking",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/masking/seed_130363/clean.npz",
+      "prior_manifest_sha256": "b555ee3eb07ee2c7a4527c2d45c070fca167ee4feb7e604cb45f56a2b16ca81c",
+      "seed": 130363,
+      "sha256": "b555ee3eb07ee2c7a4527c2d45c070fca167ee4feb7e604cb45f56a2b16ca81c"
+    },
+    {
+      "bytes": 189098,
+      "condition": "RA_LL_reversal",
+      "method": "masking",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/masking/seed_130363/RA_LL_reversal.npz",
+      "prior_manifest_sha256": "54e09cc5140a1124f1096a212f563b84399e11cd74d60d87a3dde5fb22a3bef7",
+      "seed": 130363,
+      "sha256": "54e09cc5140a1124f1096a212f563b84399e11cd74d60d87a3dde5fb22a3bef7"
+    },
+    {
+      "bytes": 187917,
+      "condition": "clean",
+      "method": "masking",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/masking/seed_155921/clean.npz",
+      "prior_manifest_sha256": "4f23e88303a969138ea55c723777bbb41da69a8a4c45add0034eb99a8c68aa8c",
+      "seed": 155921,
+      "sha256": "4f23e88303a969138ea55c723777bbb41da69a8a4c45add0034eb99a8c68aa8c"
+    },
+    {
+      "bytes": 190089,
+      "condition": "RA_LL_reversal",
+      "method": "masking",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/masking/seed_155921/RA_LL_reversal.npz",
+      "prior_manifest_sha256": "cd210f1f26c8e1f824d01cf81ae140fe3f628f66de4f226b08b356c64433cec3",
+      "seed": 155921,
+      "sha256": "cd210f1f26c8e1f824d01cf81ae140fe3f628f66de4f226b08b356c64433cec3"
+    },
+    {
+      "bytes": 189887,
+      "condition": "clean",
+      "method": "combined",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/combined/seed_104729/clean.npz",
+      "prior_manifest_sha256": "c39178678e77ada86da0d52e318088a2d5a803f2075beecd79480798e70d0f86",
+      "seed": 104729,
+      "sha256": "c39178678e77ada86da0d52e318088a2d5a803f2075beecd79480798e70d0f86"
+    },
+    {
+      "bytes": 190228,
+      "condition": "RA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/combined/seed_104729/RA_LL_reversal.npz",
+      "prior_manifest_sha256": "bee8a9ff0d64a6b3a28df1748ee2a3a2a2188c55d1ef231621e3907ab00bf99c",
+      "seed": 104729,
+      "sha256": "bee8a9ff0d64a6b3a28df1748ee2a3a2a2188c55d1ef231621e3907ab00bf99c"
+    },
+    {
+      "bytes": 189746,
+      "condition": "clean",
+      "method": "combined",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/combined/seed_130363/clean.npz",
+      "prior_manifest_sha256": "505dc7470408e3894e03b385e1620b5293382d4cb73f649ea2a27140263d5448",
+      "seed": 130363,
+      "sha256": "505dc7470408e3894e03b385e1620b5293382d4cb73f649ea2a27140263d5448"
+    },
+    {
+      "bytes": 189811,
+      "condition": "RA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/combined/seed_130363/RA_LL_reversal.npz",
+      "prior_manifest_sha256": "4bf1bd95bb03765ab12d5634cf3a25a5abe861cc93095f0048c2229f59c9efd3",
+      "seed": 130363,
+      "sha256": "4bf1bd95bb03765ab12d5634cf3a25a5abe861cc93095f0048c2229f59c9efd3"
+    },
+    {
+      "bytes": 189241,
+      "condition": "clean",
+      "method": "combined",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/combined/seed_155921/clean.npz",
+      "prior_manifest_sha256": "866065e80442e1b8521a195ea5d1ed2e61fafe65bf0eb4971008f94d66307f0b",
+      "seed": 155921,
+      "sha256": "866065e80442e1b8521a195ea5d1ed2e61fafe65bf0eb4971008f94d66307f0b"
+    },
+    {
+      "bytes": 189585,
+      "condition": "RA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/combined/seed_155921/RA_LL_reversal.npz",
+      "prior_manifest_sha256": "24dbc1df5f57156b6ab0ad03b0e13d790ca42b4e44d2a96e9f37f890d64cac4e",
+      "seed": 155921,
+      "sha256": "24dbc1df5f57156b6ab0ad03b0e13d790ca42b4e44d2a96e9f37f890d64cac4e"
+    }
+  ]
+}

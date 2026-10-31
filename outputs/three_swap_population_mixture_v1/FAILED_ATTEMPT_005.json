@@ -1,0 +1,6 @@
+{
+  "stage": "analysis input binding preflight",
+  "status": "FAILED_BEFORE_METRIC_COMPUTATION",
+  "reason": "Generated prediction artifacts include a convenience file_names array serialized by NumPy as object dtype; the verifier correctly refused to deserialize object arrays with allow_pickle=False. Labels and patient IDs were not read or changed; no metric table was written.",
+  "scientific_scope_changed": false
+}

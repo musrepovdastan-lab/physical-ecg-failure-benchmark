@@ -1,0 +1,66 @@
+{
+  "status": "READY_FOR_REVIEW",
+  "no_training": true,
+  "no_new_inference": true,
+  "no_calibration_fit": true,
+  "no_threshold_choice": true,
+  "no_new_test_HEEDB_analysis": true,
+  "historical_files_modified": false,
+  "validation_used_in_old_checkpoint_selection": true,
+  "old_A_B_disjoint": true,
+  "old_A_B_n": 1744,
+  "old_joint_strata": {
+    "000": 1388,
+    "001": 484,
+    "010": 1100,
+    "100": 266,
+    "101": 84,
+    "110": 166
+  },
+  "new_sizes": {
+    "model_selection": 1744,
+    "calibration_A": 872,
+    "threshold_B": 872
+  },
+  "partition_exact": true,
+  "checked_intersections_zero": true,
+  "patient_disjoint": "not established",
+  "budget": {
+    "new_fits": 9,
+    "core_endpoint_calibration_fits": 27,
+    "huang_endpoint_calibration_fits": 9,
+    "total_endpoint_calibration_fits": 36,
+    "total_endpoint_threshold_selections": 36,
+    "methods": [
+      "ordinary",
+      "physics_aware_p050",
+      "combined"
+    ],
+    "seeds": [
+      104729,
+      130363,
+      155921
+    ],
+    "max_epochs_each": 30,
+    "max_total_epochs": 270,
+    "measured_reference": "6 Ningbo masking/combined trainings",
+    "measured_seconds_min": 1107.840377,
+    "median": 1272.2880205,
+    "max": 2041.115083,
+    "estimated_hours_min": 2.7696009425,
+    "median_hours": 3.18072005125,
+    "estimated_hours_max": 5.102787707499999,
+    "measured_peak_gpu_allocated_bytes_max": 283986432,
+    "measured_peak_gpu_allocated_GiB_max": 0.2644829750061035,
+    "caveat": "Projection from similar runs, not new measurement; exact p050 runtime and future load unknown; excludes future inference/calibration/evaluation/bootstrap.",
+    "additional_compute": "Up to 270 selection-validation passes × 1,744 records = 470,880 record presentations during training; 15,696 clean diagnostic score rows for A/B (9 checkpoints × 1,744). Core methods require 27 endpoint Platt fits and 27 negative-q90 selections. Huang adds 5,232 diagnostic A/B score rows (3 seeds × 1,744), 9 Platt fits and 9 q90 selections: 36 fits/selections total. Detector inputs required only if verified caches cannot bind. Future test/HEEDB scoring excluded and not run.",
+    "expected_artifacts_per_fit": [
+      "checkpoint.pt",
+      "history.json",
+      "preprocessing.npz",
+      "model-selection validation score cache",
+      "training config/provenance/logs"
+    ]
+  },
+  "input_files": 67
+}

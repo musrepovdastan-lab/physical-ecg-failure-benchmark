@@ -1,0 +1,13 @@
+{
+  "amendment": "006",
+  "amendment_005_sha256": "0230d4346d52e05e7c1b7cbc5e38ceb79f3a86f9dc85d75a60aae16a93c037bc",
+  "estimand_change": false,
+  "existing_metric_visibility": "MIXTURE_RESULTS_BY_SEED.csv and MIXTURE_MEAN_SUMMARY.csv from the initial run were written before interruption and remain unchanged pending regeneration under this amendment.",
+  "extension_source_sha256": "22f9c4764e2d218238d558cff419bc3658abe473c9776b425ebe92b4b40e5847",
+  "method_change": false,
+  "metric_implementation": "Reuse existing frozen v1 grouped implementation; validate_fast_metrics() compares it against the reference weighted sklearn implementation including ties and zero weights.",
+  "protocol_sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa",
+  "reason": "The initial generic paired-bootstrap implementation was stopped after seed-level and full-sample mixture tables were generated but before any bootstrap contrast output completed. Replace redundant generic sklearn metric calls with the already-validated grouped fast_metrics implementation from mixed_fault_calibration_v1/extend_bootstrap_metrics.py; all fixed scores are pre-sorted once, patient multiplicities and q weights are identical, and seed metrics are still averaged within each draw before paired subtraction.",
+  "rng_change": false,
+  "status": "FROZEN_BEFORE_BOOTSTRAP_RETRY"
+}\n

@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    "clean",
+    "RA_LL_reversal"
+  ],
+  "decision": "PASS",
+  "elapsed_seconds": 72.985,
+  "patients": 10000,
+  "prediction_sha256": "e08876d392bd9a64dd4114a9bfaf050ccbf61442a62e005d9f0da341504664f1",
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ]
+}

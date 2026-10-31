@@ -1,0 +1,5 @@
+# Physics semantics audit
+
+`transform()` reconstructs displayed leads from the eight independent measurements. If I or II is unavailable, all six limb displays are assigned the train-normalized sentinel because those derived displays are not identifiable from the remaining independent signal under the frozen adapter. This is a conservative information-availability abstraction, not a literal electrode-disconnection waveform model. Hence masks containing I or II can be prediction-equivalent when their remaining available chest information is the same.
+
+Four unavailable independent measurements and four unavailable displayed leads are not severity-matched: losing I or II removes six displayed limb outputs, whereas a display mask removes exactly four model channels. Exact terminal cable reversals and derived lead algebra are reconstructible from a clean conventional 12-lead recording. Open-circuit impedance, motion artefact, and physical electrode displacement are not; the unavailable-lead sentinel is only an abstraction.

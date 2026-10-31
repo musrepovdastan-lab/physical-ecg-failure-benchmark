@@ -1,0 +1,7 @@
+{
+  "status": "SLOW_REFERENCE_BOOTSTRAP_INTERRUPTED_BEFORE_TABLE_WRITE",
+  "reason": "The conservative reference bootstrap repeatedly invoked sklearn's full ranking sort for every method/seed/draw on the same fixed score vectors; after ten CPU minutes it had produced no final tables or draws.",
+  "inference_files_unchanged": true,
+  "summary_outputs_written": false,
+  "resolution": "Use an exact tie-group weighted AP calculation with precomputed score ranks and frozen synchronized multiplicities; independently compare selected draws 0, 417, and 999 against sklearn average_precision_score. Brier, sensitivity, and FP are direct weighted sums."
+}

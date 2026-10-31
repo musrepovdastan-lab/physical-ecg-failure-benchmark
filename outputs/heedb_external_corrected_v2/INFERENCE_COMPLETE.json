@@ -1,0 +1,9 @@
+{
+  "completed_utc": "2026-09-24T16:33:38.064497+00:00",
+  "conditions_per_model": 26,
+  "decision": "PASS",
+  "elapsed_seconds": 156.718,
+  "models": 6,
+  "patients": 10000,
+  "prediction_artifact_sha256": "53019eb25e251f44900e3fa3621c37f42b993bc00fd742eadd5ea6fcccc90bc6"
+}

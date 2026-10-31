@@ -1,0 +1,15 @@
+{
+  "amendment": "002",
+  "amendment_binding_sha256": "0fcc887b9e4039bcca6df41b9016a324c5ac30eae74ba36579d8ef6b543f6480",
+  "clean_replay_tolerance_changed": false,
+  "legacy_mask_cache_reused": false,
+  "mask_semantics_changed": false,
+  "method_changes": false,
+  "prior_amendment_binding_sha256": "01078eba827ce0f0fd8b9cba3a17cbb05fa677bf98292e5d53508012e9495bca",
+  "prior_amendment_path": "RECOVERY_PROTOCOL_AMENDMENT_001.json",
+  "prior_evaluator_source_sha256": "eef9e2b6f610898a82c2c53d5439d2e212c6396733ed3e43cce8be8133b321f8",
+  "prior_protocol_binding_sha256": "7d83517752f00ae97b700576b90d36e42ba5a8f08d81d71067bb2348a75a0f8b",
+  "reason": "Avoid recomputing the already frozen test labels for every one of 4,752 cache lookups; use the protocol-bound label and split hashes directly. This changes cache lookup cost only, not condition data or model input.",
+  "runner_source_sha256": "2be9d9d0357034f815fd70ad54e9ed3dd911ccfc9da6f5e686f678a6670db1c5",
+  "scientific_thresholds_changed": false
+}

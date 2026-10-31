@@ -1,0 +1,64 @@
+{
+  "bootstrap": {
+    "comparisons": [
+      "physics-aware minus unprotected clean ResNet",
+      "Huang detect-and-correct minus unprotected clean ResNet",
+      "physics-aware minus Huang detect-and-correct"
+    ],
+    "endpoint": "TWA AUPRC",
+    "indices": "outputs/ningbo_confirmation_v2/bootstrap_indices.npy",
+    "replicates": 1000,
+    "seed_aggregation": "mean within each condition and replicate",
+    "unit": "record",
+    "worst_fault_endpoint": "minimum across the three reversal-condition seed-mean AUPRC values within each replicate"
+  },
+  "conditions": [
+    "clean",
+    "RA_LA_reversal",
+    "RA_LL_reversal",
+    "LA_LL_reversal"
+  ],
+  "correction_order": "Fault and predicted inverse correction are applied to raw displayed ECG before normal diagnostic preprocessing.",
+  "created_utc": "2026-09-22T18:54:23.464171+00:00",
+  "detector_classes": [
+    "clean",
+    "RA_LA",
+    "RA_LL",
+    "LA_LL"
+  ],
+  "detector_policy": "Published Huang LDenseNet four-class unmodified softmax argmax; no threshold tuning or adaptation.",
+  "diagnoses": [
+    "TWA",
+    "SB",
+    "STach"
+  ],
+  "diagnostic_arms": [
+    "clean_resnet_no_correction",
+    "physics_aware_no_correction",
+    "huang_argmax_correct_clean_resnet",
+    "oracle_true_inverse_clean_resnet_upper_bound"
+  ],
+  "diagnostic_thresholds": "Existing per-seed validation-fixed thresholds from each diagnostic checkpoint family.",
+  "metrics": [
+    "AUPRC",
+    "AUROC",
+    "sensitivity",
+    "specificity"
+  ],
+  "oracle_label": "Implementation upper bound only; true fault is never used by deployable arms.",
+  "population": {
+    "dataset": "Ningbo frozen v2 test split",
+    "record_order_sha256": "2D877ABA3A3F04544BB619923CA87D7A965F691B54ADB0DD4E04AAB04BDAFA0C",
+    "records": 6981
+  },
+  "prohibited": [
+    "HEEDB",
+    "model retraining",
+    "detector adaptation",
+    "792-mask rerun",
+    "post-test detector threshold tuning"
+  ],
+  "status": "FROZEN_AFTER_AUDIT_AND_SMOKE_BEFORE_FULL_RA_LA_AND_LA_LL_OUTCOME_GENERATION_OR_INSPECTION",
+  "version": "published_detector_multifault_v2",
+  "worst_fault": "For each arm, diagnosis, and metric: minimum of the three reversal-condition metrics after averaging across seeds."
+}

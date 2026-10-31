@@ -1,0 +1,45 @@
+{
+  "amendment": "002",
+  "bootstrap": {
+    "preserve": "Copy/reuse existing v1 uncertainty draws for already reported groups; fill missing Ningbo Huang paired intervals by subtracting the synchronized saved per-arm absolute draws; generate new bootstrap metrics only for Huang validation-B/calibrated groups and the missing consistent historical-threshold mode.",
+    "replicates": 1000,
+    "rng": "numpy.default_rng(20261017), Ningbo first and HEEDB second; reproduce saved v1 absolute metric replicates exactly before deriving new groups"
+  },
+  "bound_inputs": {
+    "outputs/heedb_huang_exploratory_v1/FROZEN_PROTOCOL.json": "50974d7cdb7a286d7d3cd4831b29df2a80edaac31a274afd697d931bb76cd53c",
+    "outputs/mixed_fault_calibration_v1/BOOTSTRAP_METRICS_REPLICATES.npz": "d84e18e562737f04e72e453302a48ee8fee3b51091f20b22aae190e8ec9e7890",
+    "outputs/mixed_fault_calibration_v1/BOOTSTRAP_METRICS_SUMMARY.csv": "3d1a6e9582846e571505a7347c25ee1e55d97b85251890940a34a6ea72cade03",
+    "outputs/mixed_fault_calibration_v1/CALIBRATION_AND_PROVENANCE.json": "0017e07e4ab7b83282819f144263ccb49162ce89f43062f6baba13f63a7418e7",
+    "outputs/mixed_fault_calibration_v1/MIXTURE_RESULTS_BY_SEED.csv": "6ba0394fb26cf0ba94f936ea131d4268a30ec4b78741a533738d6e84e22a1d55",
+    "outputs/mixed_fault_calibration_v1/PAIRED_CONTRASTS.csv": "a07e6948ed76e08908541dcbb84a61a6dcb02bd93f07f832f822df8a613a283b",
+    "outputs/mixed_fault_calibration_v1/calibration_split_indices.npz": "6dd8733b6ac0102ce66600ea1dff9a205db4a73d11af1af4c521656a72a471ec",
+    "outputs/mixed_fault_calibration_v2/FROZEN_COMPLETION_AMENDMENT_001.json": "6d4d2dedcf326d94dd3189964ddb5b6646d18db01c66aee4ad6de834184bd300",
+    "outputs/mixed_fault_calibration_v2/HUANG_VALIDATION_INFERENCE_AUDIT.json": "7480e7a75f1a73a93730db16516fd28cff2ce4a0a19aef248312f71470536357",
+    "outputs/mixed_fault_calibration_v2/huang_validation_scores.npz": "90ab9c6b6cc7c70a3beea5c5cd610cee0f7e3c1300bb364c87197856cec116e7",
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_RA_LL_reversal_seed_104729.npz": "2b8d12e13d4197f3ea5f2f031fe990be4ad7101c510168e629ff685396f1dd4f",
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_RA_LL_reversal_seed_130363.npz": "2577109cf89e86ce96a8f07a989bd6bde740fd554fad55ebc6276ac24dc28e4b",
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_RA_LL_reversal_seed_155921.npz": "35ada66a27ec95b1619285c4f8e2d998c2c738e77229c5de0c27f9e597108983",
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_clean_seed_104729.npz": "1cc564d66eb39942e56d11597c13eebeb9048c3402dc117dcc2b85ab465d7536",
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_clean_seed_130363.npz": "db04f9ece468d12e9188b0be68e5cdfd8448814cbc2cbe0ab20a9b05464b5644",
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_clean_seed_155921.npz": "8374fe73899eb5b4637ceb4047f0df1fe5b0652f349caa1c92de242b0a8f7a18"
+  },
+  "calibration": "Apply v1 fit_platt implementation unchanged to Huang full-pipeline clean validation A, labels from same frozen validation records; 90th percentile method=linear of validation-B negative raw scores; transform raw threshold with that same calibrator.",
+  "central_estimate": "Full-cohort per-seed metric then arithmetic mean across three seeds; bootstrap mean reported separately.",
+  "complete_analysis_py_sha256": "1b6e0cb5bf6e85cc9fcd0c094e5201059c81d630aacb9f441ff21ec9085db322",
+  "mixture": "q grid and all nine TWA metrics as frozen in parent protocol; reuse v1 prediction/calibration artifacts for other three methods.",
+  "prohibited_changes": [
+    "no new model/detector training",
+    "no weight/checkpoint/split/label/q/recipe changes",
+    "no test or HEEDB fit",
+    "no reserved_test evaluation",
+    "no tuning against test outcomes"
+  ],
+  "protocol_sha256": "658b12c968bf8e270de1a68882a3d39564b6e63b6e526766bbcd4c84eab781fd",
+  "status": "FROZEN_BEFORE_CALIBRATION_AND_BOOTSTRAP",
+  "threshold_comparison_modes": [
+    "raw validation-B threshold",
+    "calibrated validation-B threshold",
+    "each method historical raw threshold",
+    "explicit legacy v1 Huang historical-threshold comparison retained under its original mixed-threshold label"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": "ecgfounder_baseline_v1",
+  "decision": "STOP_PREPROCESSING_MISMATCH",
+  "valid_two_dataset_comparison": false,
+  "chapman": "feature extraction and validation-only head selection completed; new held-out outcome metrics deliberately not reported",
+  "ningbo": "stopped during clean training feature extraction after 80 of 24430 training records; no Ningbo validation or held-out ECGFounder inference",
+  "first_trigger_record": "g1/JS10767",
+  "first_trigger_detail": "four digital -32768 samples in V6 become NaN in WFDB physical values; frozen v1 nonfinite rule stops, whereas official dataset.py replaces NaN with zero before filtering",
+  "additional_adapter_obstacle": "24 Ningbo training record IDs point to a different waveform folder in the frozen canonical mapping; the v1 adapter derives the file path from record ID",
+  "repair_performed": false,
+  "m3_resumed_or_modified": false
+}

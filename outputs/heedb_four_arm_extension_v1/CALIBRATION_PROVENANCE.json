@@ -1,0 +1,986 @@
+{
+  "HEEDB_fit": false,
+  "fits_by_method_and_seed": {
+    "chest_only_resnet": {
+      "104729": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.6771752915775531,
+          "b": -1.2655864834155874,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.2654245305678403,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.33447051877611583,
+          "threshold_historical": 0.688427746295929,
+          "threshold_raw": 0.701171875
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 0.8398338519645768,
+          "b": -1.0257182028258671,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.04662263977097689,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.004384477107235288,
+          "threshold_historical": 0.005279541015625,
+          "threshold_raw": 0.005279541015625
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 0.8075715368984533,
+          "b": -1.5836256252242975,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 11,
+            "loss": 0.04961504110925788,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.0032690019453158305,
+          "threshold_historical": 0.0057777403853833675,
+          "threshold_raw": 0.005928802490234397
+        }
+      ],
+      "130363": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.9928228582554305,
+          "b": -1.475130095775806,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.26650034627874686,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.297138819547247,
+          "threshold_historical": 0.6478027105331421,
+          "threshold_raw": 0.64990234375
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 0.9422768743990166,
+          "b": -0.6485516253360168,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.04959048384601609,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.006483621880954907,
+          "threshold_historical": 0.00945281982421875,
+          "threshold_raw": 0.00945281982421875
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 1.0643188980798224,
+          "b": -1.665276721580272,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.04987043517694462,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.0071799738868972,
+          "threshold_historical": 0.0390167236328125,
+          "threshold_raw": 0.04450073242187509
+        }
+      ],
+      "155921": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.7780613342677706,
+          "b": -1.5062310241416128,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.2669058183430654,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.2914530676917475,
+          "threshold_historical": 0.6927245855331421,
+          "threshold_raw": 0.688720703125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 0.8994397691052345,
+          "b": -0.36502115989410316,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.04207623934841131,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.009196482634193941,
+          "threshold_historical": 0.010973358526825905,
+          "threshold_raw": 0.00818634033203125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 0.6936119884326406,
+          "b": -0.619237938027736,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.05154011940626494,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.0060401805598517926,
+          "threshold_historical": 0.0014902114635333419,
+          "threshold_raw": 0.001554965972900399
+        }
+      ]
+    },
+    "combined": {
+      "104729": [
+        {
+          "a": 0.7880539624166573,
+          "b": -1.3664367039053862,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.24548166135969468,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "threshold_calibrated": 0.358536420153437,
+          "threshold_raw": 0.730224609375
+        },
+        {
+          "a": 1.2537319967901541,
+          "b": -1.3093306327666798,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.044048261213597395,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "threshold_calibrated": 0.004601954278778992,
+          "threshold_raw": 0.03753662109375
+        },
+        {
+          "a": 1.416034847025593,
+          "b": -2.552416468248564,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.03368048178194476,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "threshold_calibrated": 0.002310779246983623,
+          "threshold_raw": 0.07708740234375
+        }
+      ],
+      "130363": [
+        {
+          "a": 0.958600296754682,
+          "b": -1.3860829863714255,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.24165638275418402,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "threshold_calibrated": 0.33700000453017576,
+          "threshold_raw": 0.677001953125
+        },
+        {
+          "a": 1.1171954162513194,
+          "b": -1.1405663585070647,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 6,
+            "loss": 0.04084019166365536,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "threshold_calibrated": 0.0024147257763612313,
+          "threshold_raw": 0.012481689453125
+        },
+        {
+          "a": 1.027587681002279,
+          "b": -2.338455275163968,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.034533172211084706,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "threshold_calibrated": 0.004458459393768095,
+          "threshold_raw": 0.04798889160156256
+        }
+      ],
+      "155921": [
+        {
+          "a": 0.9996654705897872,
+          "b": -1.273074371643557,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.23948728931949373,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "threshold_calibrated": 0.3120745094168121,
+          "threshold_raw": 0.618408203125
+        },
+        {
+          "a": 1.0500929869826325,
+          "b": -0.9236361319854447,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.04714012299056489,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "threshold_calibrated": 0.0034953964282953666,
+          "threshold_raw": 0.01094818115234375
+        },
+        {
+          "a": 1.1945390474318653,
+          "b": -2.4963856851534874,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.0344496411101318,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "threshold_calibrated": 0.0029251457926061943,
+          "threshold_raw": 0.05776062011718757
+        }
+      ]
+    },
+    "huang_pipeline": {
+      "104729": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.7102800283195098,
+          "b": -1.1211091183392703,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.24486616829554395,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated_validation_B_90pct": 0.3523059279773725,
+          "threshold_historical": null,
+          "threshold_raw_validation_B_90pct": 0.6728515625
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 1.0471516750124452,
+          "b": -1.3448736807795618,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.042010942787302455,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated_validation_B_90pct": 0.001584863835990595,
+          "threshold_historical": null,
+          "threshold_raw_validation_B_90pct": 0.00760650634765625
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 0.8067413774312905,
+          "b": -2.174633322877415,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 10,
+            "loss": 0.045453680738244545,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated_validation_B_90pct": 0.009401160552913167,
+          "threshold_historical": null,
+          "threshold_raw_validation_B_90pct": 0.044039916992187546
+        }
+      ],
+      "130363": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.7521707251140408,
+          "b": -1.416824026972385,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.2464986850752531,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated_validation_B_90pct": 0.35406575928646844,
+          "threshold_historical": null,
+          "threshold_raw_validation_B_90pct": 0.747314453125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 1.12718650931784,
+          "b": 0.6108378114022103,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.03992715516705321,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated_validation_B_90pct": 0.0023183868276757127,
+          "threshold_historical": null,
+          "threshold_raw_validation_B_90pct": 0.0026721954345703125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 1.0751793769381117,
+          "b": -2.306750134640986,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 10,
+            "loss": 0.04554159401543684,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated_validation_B_90pct": 0.009978288426903018,
+          "threshold_historical": null,
+          "threshold_raw_validation_B_90pct": 0.10617675781250005
+        }
+      ],
+      "155921": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.8885567773382632,
+          "b": -1.0910837686039767,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.24977150563615716,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated_validation_B_90pct": 0.34047649072518305,
+          "threshold_historical": null,
+          "threshold_raw_validation_B_90pct": 0.61865234375
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 1.2867274026842899,
+          "b": -1.749807387391113,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.04622149655895312,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated_validation_B_90pct": 0.0032988028495208044,
+          "threshold_historical": null,
+          "threshold_raw_validation_B_90pct": 0.04400634765625
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 1.2265814982250252,
+          "b": -0.6294276001617154,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.04336670839829922,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated_validation_B_90pct": 0.010776818063070705,
+          "threshold_historical": null,
+          "threshold_raw_validation_B_90pct": 0.040252685546875
+        }
+      ]
+    },
+    "masking": {
+      "104729": [
+        {
+          "a": 0.8151522207907345,
+          "b": -1.5887320376813803,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.24258130775408865,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "threshold_calibrated": 0.34075028456424106,
+          "threshold_raw": 0.757568359375
+        },
+        {
+          "a": 0.9364595783087553,
+          "b": 0.865098737948568,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.041760547789793996,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "threshold_calibrated": 0.0017146684302621633,
+          "threshold_raw": 0.0004425048828125
+        },
+        {
+          "a": 1.0162107906238889,
+          "b": -2.081756108752154,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 10,
+            "loss": 0.030225783335259826,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "threshold_calibrated": 0.0026827294159569655,
+          "threshold_raw": 0.022416687011718815
+        }
+      ],
+      "130363": [
+        {
+          "a": 0.8722784127939511,
+          "b": -1.3360855531046831,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.24630186700295031,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "threshold_calibrated": 0.34269596981516465,
+          "threshold_raw": 0.686767578125
+        },
+        {
+          "a": 0.9534111017650521,
+          "b": -0.7966780597753007,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.042254178393725916,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "threshold_calibrated": 0.002263219053108655,
+          "threshold_raw": 0.0038700103759765625
+        },
+        {
+          "a": 1.040674196226065,
+          "b": -2.0728883195614975,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 10,
+            "loss": 0.03178102985452935,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "threshold_calibrated": 0.0020585973540413463,
+          "threshold_raw": 0.01888885498046877
+        }
+      ],
+      "155921": [
+        {
+          "a": 0.6931458803310276,
+          "b": -1.1911825939915734,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.24401912252091282,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "threshold_calibrated": 0.3631733034625958,
+          "threshold_raw": 0.712646484375
+        },
+        {
+          "a": 1.0616957557755085,
+          "b": -1.8970343460614043,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 11,
+            "loss": 0.036953867235251264,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "success": true
+          },
+          "threshold_calibrated": 0.0008611268756976475,
+          "threshold_raw": 0.007694244384765625
+        },
+        {
+          "a": 0.8790700780599561,
+          "b": -1.660409714739917,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.030388429508792295,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "threshold_calibrated": 0.001436120400315764,
+          "threshold_raw": 0.0038499832153320456
+        }
+      ]
+    },
+    "ordinary_resnet": {
+      "104729": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.7260290958971031,
+          "b": -1.1328098346749873,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.2414149127340961,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.35076127453694694,
+          "threshold_historical": 0.650341808795929,
+          "threshold_raw": 0.6708984375
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 1.05082462820335,
+          "b": -1.3470625458045242,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.041760072372690006,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.0015032134146901956,
+          "threshold_historical": 0.010204315185546875,
+          "threshold_raw": 0.007373809814453125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 0.8594332483232019,
+          "b": -2.4265077368374577,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 11,
+            "loss": 0.04076920767571557,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.006322900438258504,
+          "threshold_historical": 0.04400634765625,
+          "threshold_raw": 0.04474487304687509
+        }
+      ],
+      "130363": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.7672255538017698,
+          "b": -1.4311866539452494,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.24369275196297088,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.352480196685437,
+          "threshold_historical": 0.733203113079071,
+          "threshold_raw": 0.7451171875
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 1.1271713099037817,
+          "b": 0.6082900698900956,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.03995828588819262,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.0022941039648064314,
+          "threshold_historical": 0.0027326582930982113,
+          "threshold_raw": 0.0026531219482421875
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 1.1963094135646242,
+          "b": -2.7054721259577845,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 7,
+            "loss": 0.038971363745463096,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.0053637162956929356,
+          "threshold_historical": 0.10052490234375,
+          "threshold_raw": 0.10869140625000015
+        }
+      ],
+      "155921": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.9021122163264989,
+          "b": -1.0988502851247879,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.2470164223945601,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.3327345604326696,
+          "threshold_historical": 0.586132824420929,
+          "threshold_raw": 0.60986328125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 1.2850584119933983,
+          "b": -1.7408251967015582,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.046104810200518924,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.003224960976722356,
+          "threshold_historical": 0.04575805738568306,
+          "threshold_raw": 0.042816162109375
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 1.3178749739342623,
+          "b": -0.8131826534432813,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 10,
+            "loss": 0.03794591304978694,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.006794524175110845,
+          "threshold_historical": 0.039886474609375,
+          "threshold_raw": 0.04048767089843753
+        }
+      ]
+    },
+    "physics_aware_resnet": {
+      "104729": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.9019818567045178,
+          "b": -1.5442795674110268,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.24099021506468998,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.33689224214647157,
+          "threshold_historical": 0.6971679925918579,
+          "threshold_raw": 0.723388671875
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 1.0906055445237275,
+          "b": -1.102457210473296,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.039457533389790404,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.0015866770678218563,
+          "threshold_historical": 0.008510589599609375,
+          "threshold_raw": 0.007404327392578125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 0.911187547245109,
+          "b": -1.4374980032163651,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.031407305551306094,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 104729,
+          "threshold_calibrated": 0.0037580023702314187,
+          "threshold_historical": 0.009073639288544655,
+          "threshold_raw": 0.01049423217773438
+        }
+      ],
+      "130363": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.800302184268603,
+          "b": -0.9669021640814857,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.24723983862170054,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.33014550013168975,
+          "threshold_historical": 0.562451183795929,
+          "threshold_raw": 0.580322265625
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 1.0450804473611577,
+          "b": -0.868213409749475,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.04062501947372184,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.001560892767778048,
+          "threshold_historical": 0.0056854248978197575,
+          "threshold_raw": 0.004718780517578125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 1.1306198912528465,
+          "b": -2.130908193200512,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 10,
+            "loss": 0.028908094928268825,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 130363,
+          "threshold_calibrated": 0.0007962535456200623,
+          "threshold_historical": 0.011165618896484375,
+          "threshold_raw": 0.011823272705078247
+        }
+      ],
+      "155921": [
+        {
+          "A_n": 1744,
+          "A_positives": 258,
+          "B_n": 1744,
+          "B_negatives": 1486,
+          "a": 0.9529842435189698,
+          "b": -1.682254402527904,
+          "endpoint": "TWA",
+          "optimizer": {
+            "iterations": 8,
+            "loss": 0.24972060699561294,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.30913796402377863,
+          "threshold_historical": 0.711865246295929,
+          "threshold_raw": 0.71533203125
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 633,
+          "B_n": 1744,
+          "B_negatives": 1111,
+          "a": 1.3163689679487143,
+          "b": -0.3311689914918552,
+          "endpoint": "SB",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.04140907891805673,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.0016109064568453132,
+          "threshold_historical": 0.01172027550637722,
+          "threshold_raw": 0.00963592529296875
+        },
+        {
+          "A_n": 1744,
+          "A_positives": 284,
+          "B_n": 1744,
+          "B_negatives": 1460,
+          "a": 1.1299986717593233,
+          "b": -0.5016062122919044,
+          "endpoint": "STach",
+          "optimizer": {
+            "iterations": 9,
+            "loss": 0.03174709137733546,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "success": true
+          },
+          "seed": 155921,
+          "threshold_calibrated": 0.004516521682017738,
+          "threshold_historical": 0.011447906494140625,
+          "threshold_raw": 0.01298522949218752
+        }
+      ]
+    }
+  },
+  "protocol_sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa",
+  "sources": {
+    "huang_full_pipeline": {
+      "path": "outputs/mixed_fault_calibration_v2/HUANG_CALIBRATION_AND_PROVENANCE.json",
+      "sha256": "98a1282797abcdd1eab6307f94de675841789a77cd5d1063a717d4f2c20387be"
+    },
+    "masking_combined": {
+      "path": "outputs/ningbo_four_arm_replication_v1/CALIBRATION_AND_PROVENANCE.json",
+      "sha256": "6b9a540a89821ead2e6db95e578009042e5885361e6787f96b6eeef5bb8f9cce"
+    },
+    "ordinary_physics_chest": {
+      "path": "outputs/mixed_fault_calibration_v2/CALIBRATION_AND_PROVENANCE.json",
+      "sha256": "80e8056cc97b903ed1b74930df1088acffe70a32bbe3f6155a254a4ccb444942"
+    }
+  }
+}

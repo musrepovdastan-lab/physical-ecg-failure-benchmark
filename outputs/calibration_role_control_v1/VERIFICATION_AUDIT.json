@@ -1,0 +1,80 @@
+{
+  "actual_sklearn_draw_checks": 432,
+  "actual_sklearn_draw_max_abs_delta": 6.217248937900877e-15,
+  "best_checkpoint_replays": [
+    {
+      "checkpoint_epoch": 10,
+      "history_best_epoch": 10,
+      "method": "ordinary",
+      "score_delta": 0.0,
+      "seed": 104729
+    },
+    {
+      "checkpoint_epoch": 15,
+      "history_best_epoch": 15,
+      "method": "ordinary",
+      "score_delta": 0.0,
+      "seed": 130363
+    },
+    {
+      "checkpoint_epoch": 11,
+      "history_best_epoch": 11,
+      "method": "ordinary",
+      "score_delta": 0.0,
+      "seed": 155921
+    },
+    {
+      "checkpoint_epoch": 20,
+      "history_best_epoch": 20,
+      "method": "physics_aware_p050",
+      "score_delta": 0.0,
+      "seed": 104729
+    },
+    {
+      "checkpoint_epoch": 20,
+      "history_best_epoch": 20,
+      "method": "physics_aware_p050",
+      "score_delta": 0.0,
+      "seed": 130363
+    },
+    {
+      "checkpoint_epoch": 11,
+      "history_best_epoch": 11,
+      "method": "physics_aware_p050",
+      "score_delta": 0.0,
+      "seed": 155921
+    },
+    {
+      "checkpoint_epoch": 12,
+      "history_best_epoch": 12,
+      "method": "combined",
+      "score_delta": 0.0,
+      "seed": 104729
+    },
+    {
+      "checkpoint_epoch": 17,
+      "history_best_epoch": 17,
+      "method": "combined",
+      "score_delta": 0.0,
+      "seed": 130363
+    },
+    {
+      "checkpoint_epoch": 19,
+      "history_best_epoch": 19,
+      "method": "combined",
+      "score_delta": 0.0,
+      "seed": 155921
+    }
+  ],
+  "bootstrap_summary_max_abs_delta": 5.684341886080802e-14,
+  "bootstrap_summary_rows_recalculated": 300,
+  "completed_utc": "2026-10-20",
+  "independent_metric_rows_recalculated": 24624,
+  "max_metric_abs_delta": 5.684341886080802e-14,
+  "metric_anomalies": [],
+  "model_best_epoch_history_and_selection_only_pass": true,
+  "patient_independence": "Ningbo patient IDs unavailable; HEEDB uses one unique patient per row",
+  "reserved_test_evaluated": false,
+  "role_membership_audit_pass": true,
+  "status": "PASS"
+}

@@ -1,0 +1,22 @@
+{
+  "bootstrap_indices": "outputs\\ningbo_confirmation_v2\\bootstrap_indices.npy",
+  "implementation": "paired_bootstrap.py; exact tie-aware vectorized cumulative AP checked against sklearn on 20 existing resamples using real scores",
+  "mask_metric_validation": [
+    {
+      "arm": "physics_p010",
+      "max_abs_difference_fast_vs_sklearn": 1.1102230246251565e-15,
+      "real_data": true,
+      "replicates_compared": 20
+    },
+    {
+      "arm": "physics_aware",
+      "max_abs_difference_fast_vs_sklearn": 1.5543122344752192e-15,
+      "real_data": true,
+      "replicates_compared": 20
+    }
+  ],
+  "shape": [
+    1000,
+    6981
+  ]
+}

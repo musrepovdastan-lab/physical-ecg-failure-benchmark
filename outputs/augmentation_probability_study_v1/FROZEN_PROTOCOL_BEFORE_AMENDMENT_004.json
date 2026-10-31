@@ -1,0 +1,129 @@
+{
+  "arms": {
+    "physics_p010": {
+      "clean": 0.9,
+      "one_uniform_reversal": 0.1
+    },
+    "physics_p025": {
+      "clean": 0.75,
+      "one_uniform_reversal": 0.25
+    }
+  },
+  "bindings": {
+    "REMAINING_WORK_PLAN_20261018.md": "5d906ce0cde13268b9c7f07c37de03b62aa8fc72af24b70e0d948dda48ba554b",
+    "configs/FROZEN_MITIGATION_M1_PROTOCOL_v1.json": "248976f691003daa45c5f188c53f7cf75891f19f8723223477fc41e1d65667ce",
+    "outputs/augmentation_probability_study_v1/PROTOCOL_AMENDMENT_001.json": "e2c8b847ec6140c2e190e6433df3070d5feb95ac14d942c894dc57d976960bf1",
+    "outputs/augmentation_probability_study_v1/PROTOCOL_AMENDMENT_002.json": "c96989734e002ed155c1c49a7b9b662a90dc47c33125d5f16dd3ac1e096967dd",
+    "outputs/augmentation_probability_study_v1/PROTOCOL_AMENDMENT_003.json": "66cb0b739c4b73aebe33e77a541127513b319fec2cb368e8443eb316e2cda43b",
+    "outputs/augmentation_probability_study_v1/engineering_checks.py": "bf38c8b09ccd5db0e8b107918a03a6878d535fd3e1e37446bbc6e0c878db5d34",
+    "outputs/heldout_limb_cycles_v1/FROZEN_PROTOCOL.json": "020e0f2d904a83270035449f2cc14b79bf2128be250c5827e94e5f73c7766623",
+    "outputs/heldout_limb_cycles_v1/REVIEW_NOTES_20261018.md": "27b81326388aeb941af8f9c306d65f7f52de13e86d741532180f300da82031e1",
+    "outputs/heldout_limb_cycles_v1/cycle_adapter.py": "e070fa86efca9d287270a61f6a76acd07926144cad1764eb2403ff6cf880a293",
+    "outputs/mask_semantics_recovery_v2/RECOVERY_PROTOCOL.json": "b6b148f9c19c2dbe54c06618863ca66a4a2f8090753697d687a9946bd5fe84b8",
+    "outputs/mixed_fault_calibration_v1/calibration_split_indices.npz": "6dd8733b6ac0102ce66600ea1dff9a205db4a73d11af1af4c521656a72a471ec",
+    "outputs/mixed_fault_calibration_v2/CALIBRATION_AND_PROVENANCE.json": "80e8056cc97b903ed1b74930df1088acffe70a32bbe3f6155a254a4ccb444942",
+    "outputs/ningbo_confirmation_v2/CANONICAL_RECORDS.json": "2a217b4e01f8570fcb5e6f25feead6f04d4d490c558084c7b9ddf02389495da5",
+    "outputs/ningbo_confirmation_v2/SPLIT_MEMBERSHIP.json": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388",
+    "outputs/ningbo_confirmation_v2/bootstrap_indices.npy": "6d186026b73c6a0ad31df3c20f16c6f18ad9970176e9c78b0235e6a64e1861d1",
+    "outputs/ningbo_four_arm_replication_v1/CALIBRATION_AND_PROVENANCE.json": "6b9a540a89821ead2e6db95e578009042e5885361e6787f96b6eeef5bb8f9cce",
+    "outputs/ningbo_four_arm_replication_v1/workflow.py": "f5e7ac5685424770961819d453d8c1d4a370b6017061b624900a8de66e7429aa",
+    "outputs/phase1_chapman_seed1_v4/SPLIT_MEMBERSHIP_v4.json": "f3dafa0fc892a3d821ac0b386205e185134f1653990815c55deaa699cb66253d",
+    "outputs/phase1_chapman_seed1_v4/preprocessing_v4.npz": "4161491196bf41b07dcc6379a54fa5ab5d7eebf28620a0ff25ef51e0d71f4676",
+    "src/mitigation_m1_v1.py": "7f18c09b2c9a5cd9844a98275cdbb36de59c34f1d321932c73837ebbca235ebb",
+    "src/mitigation_m2_ningbo_v1.py": "de27585a3ef0bbc29b3dc53079622f1c011001d7442b6470de2d31612d857308"
+  },
+  "created_utc": "2026-10-18T06:21:41.027464+00:00",
+  "dataset_order": [
+    "Chapman",
+    "Ningbo"
+  ],
+  "evaluation": {
+    "Ningbo_mixtures": {
+      "fit_new_Platt_only_on_existing_validation_A": true,
+      "new_thresholds_from_existing_validation_B": true,
+      "no_test_tuning": true,
+      "q_fault": [
+        0,
+        0.001,
+        0.005,
+        0.01,
+        0.05,
+        0.1,
+        1
+      ]
+    },
+    "bootstrap": {
+      "aggregation": "seed-specific metrics averaged within replicate before contrasts",
+      "method": "existing cohort bootstrap indices; paired and synchronized",
+      "replicates": 1000
+    },
+    "comparisons": [
+      "p025 vs combined (25% reversal; 25% masks replace clean exposure)",
+      "p025 vs physics-aware 50%",
+      "p010 vs ordinary 0%",
+      "p010 vs physics-aware 50%"
+    ],
+    "conditions": [
+      "clean",
+      "RA_LL_reversal",
+      "cycle_slots_120",
+      "cycle_slots_201",
+      "all lexicographic C(12,5)=792 mean-imputed masks"
+    ],
+    "exact_mask": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "metrics": [
+      "AUPRC",
+      "AUROC",
+      "Brier",
+      "ECE15",
+      "sensitivity",
+      "specificity",
+      "predicted_positive_fraction"
+    ],
+    "primary_endpoint": "TWA",
+    "threshold": "per seed/endpoint 90th percentile of clean validation negative raw scores"
+  },
+  "exclusions": [
+    "Reserved_test not separately evaluated",
+    "HEEDB",
+    "new probabilities",
+    "hyperparameter search",
+    "manuscript edits"
+  ],
+  "model": "existing ECGResNet-small",
+  "protocol_sha256": "75dbd53ffe183fc8332889c88692f54030f7bf397a70fbe07909f050fc6e398a",
+  "research_scope": "Exploratory augmentation-probability extension on previously accessed Chapman and Ningbo cohorts; not independent confirmation.",
+  "reversal_family": [
+    "RA_LA_reversal",
+    "RA_LL_reversal",
+    "LA_LL_reversal"
+  ],
+  "runner_source_sha256": "90fb639293e21d0139e80e3170c38a38efb34810c04bcd77bf6bf0832bee7b83",
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "status": "FROZEN_BEFORE_NEW_TEST_INFERENCE",
+  "training": {
+    "AMP": "CUDA float16 autocast with GradScaler",
+    "batch_size": 64,
+    "checkpoint": "maximum clean validation TWA AUPRC, ties retain earlier epoch",
+    "data_loader": "two workers, recreated for each epoch so epoch-dependent deterministic transforms reach workers",
+    "early_stopping": "patience 5",
+    "gate": "TWA validation AUROC >=0.75 and AUPRC >=0.45; finite scores and artifact integrity",
+    "loss": "weighted multilabel BCE; positive weights estimated on training labels only and capped at 20",
+    "masks_or_cycles_in_training": false,
+    "max_epochs": 30,
+    "normalization": "existing train-derived per-lead mean/std; raw transformation before normalization",
+    "optimizer": "AdamW lr=0.001 weight_decay=0.0001",
+    "resume": "epoch-boundary model, optimizer, scaler, Python/NumPy/Torch/CUDA RNG; committed epoch is the resume point"
+  },
+  "version": "augmentation_probability_study_v1"
+}

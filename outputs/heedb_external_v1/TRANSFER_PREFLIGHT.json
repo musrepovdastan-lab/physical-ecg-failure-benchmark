@@ -1,0 +1,9 @@
+{
+  "cap_bytes": 2147483648,
+  "checked_utc": "2026-09-24T01:25:48.534382+00:00",
+  "exact_remote_bytes": 1178093385,
+  "objects": 20000,
+  "restricted_manifest_sha256": "18ebfdc8a4701fbe86dee51fd5b66ff80d66075ca4dd6a16c5c7044ca36c957c",
+  "selected_patients": 10000,
+  "within_cap": true
+}

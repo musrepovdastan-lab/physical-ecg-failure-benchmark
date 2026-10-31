@@ -1,0 +1,38 @@
+{
+  "canonical_record_count": 34899,
+  "canonical_records": 34899,
+  "canonical_records_sha256": "2a217b4e01f8570fcb5e6f25feead6f04d4d490c558084c7b9ddf02389495da5",
+  "completed_utc": "2026-08-30T06:03:27.627010+00:00",
+  "decision": "PASS",
+  "endpoint_counts_by_split": {
+    "test": {
+      "SB": 2534,
+      "STach": 1138,
+      "TWA": 1034,
+      "records": 6981
+    },
+    "train": {
+      "SB": 8868,
+      "STach": 3981,
+      "TWA": 3617,
+      "records": 24430
+    },
+    "validation": {
+      "SB": 1266,
+      "STach": 568,
+      "TWA": 516,
+      "records": 3488
+    }
+  },
+  "exclusion_artifact_sha256": "63c79f46c27fae3861e5ff4b719f6b6cebd66d4f3bcf5aefad2ecce469770a0f",
+  "metadata_missingness": {
+    "age_unknown": 55,
+    "sex_other": 0,
+    "sex_unknown": 22
+  },
+  "protocol_sha256": "1FE829E4357B4EFDE0E5F227BAF5BF94E8D22D12AF0959A38CEE12CCE1F40D71",
+  "protocol_v2_sha256": "1FE829E4357B4EFDE0E5F227BAF5BF94E8D22D12AF0959A38CEE12CCE1F40D71",
+  "split_sha256": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388",
+  "version": "ningbo_confirmation_v2",
+  "workflow_version": "ningbo_confirmation_v2"
+}

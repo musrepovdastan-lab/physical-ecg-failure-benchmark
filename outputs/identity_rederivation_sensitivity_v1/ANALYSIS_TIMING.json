@@ -1,0 +1,10 @@
+{
+  "bootstrap_draws_per_cohort": 1000,
+  "cohorts": [
+    "Chapman",
+    "Ningbo"
+  ],
+  "elapsed_seconds": 25.43699999997625,
+  "models": 18,
+  "new_full_inference_files": 18
+}

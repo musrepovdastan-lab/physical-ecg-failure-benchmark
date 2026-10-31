@@ -1,0 +1,7 @@
+﻿{
+    "stdout":  "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\outputs\\phase2_chapman_multiseed_v7\\workflow_stdout.log",
+    "pid":  36580,
+    "stderr":  "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\outputs\\phase2_chapman_multiseed_v7\\workflow_stderr.log",
+    "entry":  "src/chapman_multiseed_workflow_v7.py run",
+    "launched_utc":  "2026-08-29T04:17:14.0386187Z"
+}

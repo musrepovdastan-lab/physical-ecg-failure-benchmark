@@ -1,0 +1,6 @@
+{
+  "stage": "Huang detector worker launch",
+  "status": "FAILED_BEFORE_DETECTOR_INFERENCE",
+  "reason": "The isolated TensorFlow environment correctly lacks PyTorch, but the shared runner imported torch at module load even for the detector-only command. No detector probabilities were produced. HEEDB classifier inference and replay gates remain complete.",
+  "scientific_scope_changed": false
+}

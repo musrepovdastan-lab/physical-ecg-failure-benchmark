@@ -1,0 +1,52 @@
+{
+  "amendment": "phase0_v2",
+  "supersedes": "nothing; v1 Phase-0 documents remain historical evidence for Challenge 2020 only",
+  "official_release": {
+    "name": "PhysioNet/Computing in Cardiology Challenge 2021",
+    "version": "1.0.3",
+    "doi": "https://doi.org/10.13026/34va-7q14",
+    "project_url": "https://physionet.org/content/challenge-2021/1.0.3/",
+    "access": "public subject to license terms",
+    "license": "CC BY 4.0",
+    "whole_release_uncompressed_gb": 12.6,
+    "official_integrity_information": {
+      "path": "SHA256SUMS.txt",
+      "published_size_mb": 16.5,
+      "phase0_status": "official manifest identified; not fully retrieved after a foreground request detached and was stopped to comply with the no-background-download instruction"
+    }
+  },
+  "sources": {
+    "chapman_shaoxing": {
+      "role": "development",
+      "folder": "training/chapman_shaoxing",
+      "authoritative_patients": 10247,
+      "authoritative_recordings": 10247,
+      "one_record_per_patient": true,
+      "institution": "Shaoxing People's Hospital, Shaoxing, Zhejiang, China",
+      "independent_of_ptb_and_ptb_xl": true,
+      "public_training_data": true,
+      "waveforms": {"format": "WFDB header plus MATLAB v4 signal", "leads": 12, "lead_order": ["I", "II", "III", "aVR", "aVL", "aVF", "V1", "V2", "V3", "V4", "V5", "V6"], "sampling_hz": 500, "duration_seconds": 10},
+      "metadata_header_route": "per-record .hea in g1...g11; no .mat requested",
+      "header_level_results": "not completed: the explicitly foreground headers-only operation detached from the execution session and was stopped; see FEASIBILITY_AUDIT_v2.md",
+      "waveform_nonfinite_count": "not assessable from headers; no waveform downloaded"
+    },
+    "ningbo": {
+      "role": "sealed_external_confirmation",
+      "folder": "training/ningbo",
+      "authoritative_patients": 34905,
+      "authoritative_recordings": 34905,
+      "one_record_per_patient": true,
+      "institution": "Ningbo First Hospital, Ningbo, Zhejiang, China",
+      "independent_of_ptb_and_ptb_xl": true,
+      "public_training_data": true,
+      "waveforms": {"format": "WFDB header plus MATLAB v4 signal", "leads": 12, "lead_order": ["I", "II", "III", "aVR", "aVL", "aVF", "V1", "V2", "V3", "V4", "V5", "V6"], "sampling_hz": 500, "duration_seconds": 10},
+      "metadata_header_route": "per-record .hea in g1...g35; no .mat requested",
+      "seal_manifest": {"phase0_access": ["official source-level count, demographics summary, scored-label prevalence"], "prohibited": ["waveform access", "model inference", "training", "threshold fitting", "fault selection", "prediction access"], "sealed_before": "any Chapman internal-test prediction"},
+      "waveform_nonfinite_count": "not assessable from headers; no waveform downloaded"
+    }
+  },
+  "label_count_provenance": "Challenge 2021 paper Figure 4 and Table 5: exact counts for the 30 scored approximate SNOMED-CT diagnoses in public training data; LABEL_COMPATIBILITY_AUDIT.csv records all primary-candidate decisions.",
+  "headers_only_audit_script": "src/audit_challenge2021_headers.py; it forbids .mat URLs and is intentionally not run in background.",
+  "metadata_fields_not_derived_in_phase0": ["age/sex missingness", "multiple-diagnosis record count", "per-record malformed-header count", "waveform nonfinite count"],
+  "reason": "These require parsing all headers or signals. Headers are separately available; waveforms are not needed for label/split eligibility and were not downloaded. A foreground header audit is required as the first data-ingestion checkpoint before any model activity."
+}

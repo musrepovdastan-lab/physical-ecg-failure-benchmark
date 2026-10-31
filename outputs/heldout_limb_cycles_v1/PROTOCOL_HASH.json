@@ -1,0 +1,11 @@
+{
+  "amendments": [
+    "outputs/heldout_limb_cycles_v1/PROTOCOL_AMENDMENT_001.json",
+    "outputs/heldout_limb_cycles_v1/PROTOCOL_AMENDMENT_002.json",
+    "outputs/heldout_limb_cycles_v1/PROTOCOL_AMENDMENT_003.json"
+  ],
+  "created_utc": "2026-10-18T04:32:59.344436+00:00",
+  "previous_protocol_sha256": "4e5b0d1e68edcf22d3745fc174ddd12ebae198de55b60b17a2ee89c595847f1d",
+  "protocol_sha256": "a4ad541c3645eae04273a8edee30d7235f5192a52d70a3ac0ef7f8e7a8dec9d6",
+  "status": "FROZEN_BEFORE_NEW_METRICS"
+}

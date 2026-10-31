@@ -1,0 +1,10 @@
+{
+  "bootstrap_contrast_rows": 280,
+  "bootstrap_draw_groups": 280,
+  "metric_rows": 819,
+  "new_predictions": 12,
+  "protocol_sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa",
+  "replay_status": "PASS",
+  "reserved_test_evaluated": false,
+  "status": "PASS"
+}

@@ -1,0 +1,55 @@
+{
+  "cached_detector_replayed_records": 160,
+  "cached_detector_selected_block_replay_seconds": 8.25,
+  "calibration_fitting": false,
+  "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "historical_v1_full_Huang_classifier_runtime": "unavailable; not recorded in v1",
+  "historical_v1_full_Huang_detector_runtime": "unavailable; not recorded in v1",
+  "model_training": false,
+  "new_detector_full_cohort_inference": "not run; existing detector probabilities reused",
+  "precision": "float32 input, float16 CUDA autocast",
+  "recovery_classifier_inference_seconds_by_unit": [
+    {
+      "condition": "LA_LL_reversal",
+      "elapsed_seconds": 35.95300000003772,
+      "seed": 104729,
+      "sha256": "7efb0e3fd29ce0580fda65c1013ce9c83e4389893ee595a30ba6885f564221f4"
+    },
+    {
+      "condition": "RA_LA_reversal",
+      "elapsed_seconds": 37.46899999998277,
+      "seed": 104729,
+      "sha256": "ed234364e46ee9c12bb7716b1971620fedde7b300edd8778b7a3b4070378bcdf"
+    },
+    {
+      "condition": "LA_LL_reversal",
+      "elapsed_seconds": 35.01500000001397,
+      "seed": 130363,
+      "sha256": "e1278bc436f730348f1132f4fbb8020d493935efd9a8ac5234aed7c3612004d3"
+    },
+    {
+      "condition": "RA_LA_reversal",
+      "elapsed_seconds": 36.34399999998277,
+      "seed": 130363,
+      "sha256": "28872ee6c8235f2ad16240c7817fc209fbfcb416739a9b5564ff509349766a33"
+    },
+    {
+      "condition": "LA_LL_reversal",
+      "elapsed_seconds": 35.60899999999674,
+      "seed": 155921,
+      "sha256": "0d9b1f44382bbbfd5d10a6bfceab162fc0be59214bcf6e883215728ee475c252"
+    },
+    {
+      "condition": "RA_LA_reversal",
+      "elapsed_seconds": 32.31300000002375,
+      "seed": 155921,
+      "sha256": "33a63ed70be4de667c387afb085dce8166ac502bce8c5e41514300f8f17b164b"
+    }
+  ],
+  "recovery_classifier_inference_seconds_sum_of_six_units": 212.70300000003772,
+  "recovery_classifier_inference_seconds_total": 215.98399999999674,
+  "reserved_test": false,
+  "status": "COMPLETED_AWAITING_USER_REVIEW",
+  "threshold_selection": false,
+  "torch_version": "2.11.0+cu128"
+}

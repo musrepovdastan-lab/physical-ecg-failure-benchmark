@@ -1,0 +1,22 @@
+{
+  "completed_utc": "2026-09-20T19:19:55.053481+00:00",
+  "dataset": "Chapman",
+  "head_sha256": "2debe29cb136086d96a475425bbf78282b4f8f307215e745e3658d411c4b63db",
+  "protocol_sha256": "17214328ef9e0443692da4248df7683cff906689d270b3e08efe3311710c1bee",
+  "selected_C": {
+    "SB": 0.01,
+    "STach": 0.01,
+    "TWA": 0.01
+  },
+  "test_accessed_before_freeze": false,
+  "validation_auprc": {
+    "SB": 0.9996286952743929,
+    "STach": 0.9940939525798447,
+    "TWA": 0.6591074119444861
+  },
+  "validation_threshold": {
+    "SB": 0.013325751515494422,
+    "STach": 0.05554219542427769,
+    "TWA": 0.3373539032721097
+  }
+}

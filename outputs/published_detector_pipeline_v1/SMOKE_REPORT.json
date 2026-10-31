@@ -1,0 +1,5 @@
+{
+  "completed_utc": "2026-09-22T17:55:58.407675+00:00",
+  "decision": "PASS",
+  "detector_cache": "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\outputs\\published_detector_pipeline_v1\\cache\\detector_smoke_probs.npz"
+}

@@ -1,0 +1,23 @@
+{
+  "bootstrap_replicates_per_group": 1000,
+  "bootstrap_summary_rows": 2709,
+  "errors": [],
+  "huang_grid_rows": 378,
+  "no_training": true,
+  "q_endpoint_groups_checked": 36,
+  "raw_calibrated_operating_metric_max_abs_delta": 0.0,
+  "replay_max_abs_delta_detector": 0.0,
+  "replay_max_abs_delta_diagnostic": {
+    "104729": 0.0,
+    "130363": 0.0,
+    "155921": 0.0
+  },
+  "reserved_test_evaluated": false,
+  "status": "PASS",
+  "v1_non_Huang_point_estimates_unchanged": true,
+  "v1_saved_absolute_draws_checked": {
+    "max_abs_delta": 0.0,
+    "v1_absolute_groups_checked": 882000
+  },
+  "validation_split_partition": "PASS"
+}

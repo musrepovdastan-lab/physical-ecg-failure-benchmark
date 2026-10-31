@@ -1,0 +1,15 @@
+{
+  "A_indices_sha256": "956334b12762243eeae5bf1c35ae6fd19a4b2fde42207fe362fce9a840583a98",
+  "B_indices_sha256": "a604662e8391b5a09dc18361a8928e5498a8d1baf371f7bbf1391c51c4356f72",
+  "artifact_sha256": "6dd8733b6ac0102ce66600ea1dff9a205db4a73d11af1af4c521656a72a471ec",
+  "joint_label_strata_counts": {
+    "000": 1388,
+    "001": 484,
+    "010": 1100,
+    "100": 266,
+    "101": 84,
+    "110": 166
+  },
+  "n": 3488,
+  "seed": 20261017
+}

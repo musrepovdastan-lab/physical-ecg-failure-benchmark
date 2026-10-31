@@ -1,0 +1,20 @@
+{
+  "candidate_reserve_order_sha256": "9fd43031d7b09721b96c147294c625d5ed735e3043a654fe582216a999189cde",
+  "created_utc": "2026-09-25T00:14:48.852151+00:00",
+  "decision": "FROZEN_BEFORE_OUTCOME_ACCESS",
+  "disjoint_eligible_patients": 339482,
+  "excluded_readiness_patients": 23,
+  "excluded_v1_v2_patients": 10000,
+  "readiness_manifest_sha256": "e6ae973b4ae59b65f2fc4419759d132df22df5ac048c2630693c00cb2bf4fab2",
+  "selected_manifest_sha256": "7af9986691871d57df5699e270b3cf4442bf5a733536356155a87094bac09de4",
+  "selected_patients": 10000,
+  "selection_rule": "v1 label-blind one-record-per-patient candidate; exclude v1/v2 and readiness patients; sort SHA256(seed|patient ID), tie-break patient ID; first 10000; no outcome/rate/quality selection",
+  "selection_seed": "heedb_independent_confirmation_v1|2026-09-24|patient_hash",
+  "unreadable_rule": "stop the confirmation; do not replace after the frozen cohort is selected",
+  "upstream_eligible_patients": 349482,
+  "upstream_joined_recordings": 998844,
+  "upstream_missing_patient_id": 27328,
+  "upstream_missing_physician_codes": 675,
+  "v1_candidate_source_sha256": "2748459744a58d96bdf58e07130e88790e6130c450d05f8206e0a7830a5af43c",
+  "v1_evaluation_selection_sha256": "e382156a3765622e23159b6eaf7c0834de519717e1f1d5e430d17740bb8230a6"
+}

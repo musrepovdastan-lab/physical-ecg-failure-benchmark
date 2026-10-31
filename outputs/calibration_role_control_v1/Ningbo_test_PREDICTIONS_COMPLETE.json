@@ -1,0 +1,488 @@
+{
+  "elapsed_seconds": 0.5630000000237487,
+  "label_sha256": "f58771a24258a5883597dfd6c98e7c26042f2445c448e085cd67ea8bcf8fd6d4",
+  "rows": [
+    {
+      "cohort": "Ningbo_test",
+      "condition": "clean",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_104729/clean.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "2ba3912ba314b6c6e76bf6efdb29932dffe8e45bf682b1161d2df27a0ffa3fa8",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LA_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_104729/RA_LA_reversal.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "2ad51886a40cdf8f4e643c328fbb3dc3c32d4704a363d4e00f2e70987feb5688",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LL_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_104729/RA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "d2a04055caf91365eebe8b62f61e7ba5c51274360f85a85df9d2e6400a00afd8",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "LA_LL_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_104729/LA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "2701a5f8bfe17975d85e8c2d6a850a08b48da2b11b991db9c6f969c5f36a145f",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "clean",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_130363/clean.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "ef48ec49800de02453573943be6db47bbbff17b22a20f8bed26fba808ef6c447",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LA_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_130363/RA_LA_reversal.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "b698e8e09a5cfab5c19fc6d6df572b64ddbf411c652b2d4c3ac09f97c2bf7116",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LL_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_130363/RA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "889704b4047cfb3c958b0581521c1985700dd6f928e7c5869a45826aa29614fe",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "LA_LL_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_130363/LA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "43962b28fb8790a10b3212600be3622b7a33a997a2f3b90ca29a9ca9683ecd4f",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "clean",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_155921/clean.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "f2a605d32a4760fd4f4f90053dad5fce4efcfbd0b533afa6f7edf23cf1cd0a05",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LA_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_155921/RA_LA_reversal.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "fa715df7b3b10ef3bc411943e29af8de8f759c23cb612e4caa0ee680e5477178",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LL_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_155921/RA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "ad83395bd9bb34e85d4ca94fcbc25bde2bef8e9009fcc5821f452fe57d1f571f",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "LA_LL_reversal",
+      "method": "ordinary",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_155921/LA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "face94c515a943c4168c9b366f93a3fea2cd4afa00a20c2ad71b4102608503cd",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "clean",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_104729/clean.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "000146c0292b2dedbca51ca4fc5014ca185a6a06164e971d151584ed4d7fcd82",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LA_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_104729/RA_LA_reversal.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "3efb1fa73fde537a0070a955e8a6f1cc3de6d4033c1152d48f025691ec315508",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LL_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_104729/RA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "981e09ecbeec9d691f7525d1d181135dcc7660a70289a7ee84190e075385b991",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "LA_LL_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_104729/LA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "4dcecb95f154529cc08c7f08b0780d97756a47d19f82adc205e2f69ab28349db",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "clean",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_130363/clean.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "7e1e348f194d9a2c037bd95e247972df2b25e4aa3e955ef9504a6b3d47b8abbb",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LA_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_130363/RA_LA_reversal.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "1458ffdd39d8bf63f9690af654e4ef20873395cfca75e258656dd9a997cd0610",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LL_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_130363/RA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "c0e2e9c294d88a11ddf44a2de7811fcd2df4a88550f7bcf30bc697f436ead6e0",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "LA_LL_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_130363/LA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "329737bad54d5fd5758c4fd7716256f5f4e1b1b245878ce519fd88852ba790e4",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "clean",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_155921/clean.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "f3ce57c056c47c0ba1cbb20e8cfc7b540a7700ce740141c57dea67164a471e7a",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LA_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_155921/RA_LA_reversal.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "5eafe97916fd3133c33642fbf0303566162be9584196868549323711d521fcfa",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LL_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_155921/RA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "51d4829a0284781ae0b9e8c092a19c091bd0186f13f6b05ef5a13def3620094f",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "LA_LL_reversal",
+      "method": "physics_aware_p050",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_155921/LA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "449e884a5c538a44cc5435b2fa7fed73ce56c0a3549dfeffa5982c4fe7aa8d5d",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "clean",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_104729/clean.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "2ef2e224e6927f294ffd17b5e18ebfbf6d0a4530f112690e1282a79f67253524",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LA_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_104729/RA_LA_reversal.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "359bba0e8994cc24dffe38f55ce109d401197f33e6a86413a7d12f131226a758",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_104729/RA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "6e7b1de7c4956ea6a2fca6cbba227a923f934cc6d9a90d629c902b02d964a5bb",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "LA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_104729/LA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "7767128d5ad7820b764ce4fc0f3113f7f87aebdc790afb8858d5b1d1cb61cb02",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "clean",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_130363/clean.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "ae479887daae709bdeed33cea9e7c7c29d58723dbc7fa6ddc3370cad2d3d98b6",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LA_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_130363/RA_LA_reversal.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "3bde70bbe8c66e00a2f1f7b9ee6b714709adb3a9184090081cf3f5566db2566b",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_130363/RA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "085800aed70a24a647e6650bf70fa1f7e60114bcbb33be77867e7cf603646948",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "LA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_130363/LA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "072c3d7048406f65d0673a3ee9772b58aa98afa4ca8e390df06a683a0219dc6b",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "clean",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_155921/clean.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "e039f61ee4fd0aebe46c73e23efae243c772dd3fcf541f742eeb49fac5a4def2",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LA_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_155921/RA_LA_reversal.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "a847aa9ed22ecfb6623ffcbbda1c3d219b28eadd4db85c7f4c95f14d1cfbb4bd",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_155921/RA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "a8ac1983c5d7ce99af853d3876d08d16e7c7d43dc3c6b7a25245d88cc5371acc",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "LA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_155921/LA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "c06cd4b4effcb23ffc726ec5bfab26b6aa707ae25b92ed57bdc1921c7b6b2f1e",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "clean",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_104729/clean.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "2e8dea4d3ad78c6f63d070bd64b819b29b4149e90b69ac36e5e6daa00b1745b1",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LA_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_104729/RA_LA_reversal.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "8868861c3ee49b4082518aee5d0b2942dac3bf9642f82eb9982d5161abaa82b0",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_104729/RA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "0adf4829d9d9e92a6f087794b67070dc7af85cd51d4ee5b5d5eb9db783ba3a8d",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "LA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_104729/LA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 104729,
+      "sha256": "ffc2f19172345a9e563df890f1757250695dfa033959816d968d78d874acb9ad",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "clean",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_130363/clean.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "7a228aa3c20bc598dc67644b111af666e34b515f7c1d7e53833654a8b8a758f3",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LA_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_130363/RA_LA_reversal.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "30ce98f7341b8bd697a899bd9c9bec36da06b86d0f07d02fe5d70a02d6cb1a90",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_130363/RA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "f6f25b81724486e62ff099238c4acb61d25523ca32c5507caf2eb970f18ad91f",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "LA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_130363/LA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 130363,
+      "sha256": "5eb598d146055027cb1f66fd0d8109b526c7e9ac1859fb6d681c42acd9f431ec",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "clean",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_155921/clean.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "4dba942ade40f1242b8e547850853309d7c79885c43daf0dc4ea0ec760c6c1ae",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LA_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_155921/RA_LA_reversal.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "d3f96a52e2c9d29bb8b6f293e9e40bcc51d9be612f90b9ad76757d5f3e9f31f2",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "RA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_155921/RA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "a1d63ac634adbf8d5845a8e6fe77d85883fa08a7502f0a5edf4284c920320e62",
+      "status": "REUSED"
+    },
+    {
+      "cohort": "Ningbo_test",
+      "condition": "LA_LL_reversal",
+      "method": "Huang_full_pipeline",
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_155921/LA_LL_reversal.npz",
+      "rows": 6981,
+      "seed": 155921,
+      "sha256": "51f3a588b892a1b49b84aa87a99fb4e043b317ce46b214aee29ac5a3c76cf368",
+      "status": "REUSED"
+    }
+  ],
+  "source_order_sha256": "c33cc9c7e6a11600ab82ea6bc6d0028b40bfb0b49a9b5ace3b6844030f39b85b",
+  "status": "PASS"
+}

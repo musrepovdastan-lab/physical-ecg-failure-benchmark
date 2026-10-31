@@ -1,0 +1,8 @@
+{
+  "attempt": 8,
+  "stage": "analysis final audit metadata",
+  "status": "FAILED_FINAL_AUDIT_REFERENCED_V1_PROTOCOL_FILENAME",
+  "scope": "All metric tables, bootstrap draws, paired point/CI rows, historical anchors, and draw-level AP checks had already been written. Only the final audit JSON failed to write.",
+  "cause": "Copied v1 analysis code referenced FROZEN_PROTOCOL.json after its output directory had been changed to recovery_v2.",
+  "resolution": "Recovery analysis now records RECOVERY_PROTOCOL.json's file hash. Existing result tables will be independently recalculated and verified before completion."
+}

@@ -1,0 +1,7 @@
+{
+    "scope":  "report-only",
+    "reason":  "Expanded final report with completed signal-unit differences, prediction-change quantiles/decision flip maxima, and exact failed-versus-passed replay context. Reporting text only; no numerical artifacts or analyses changed.",
+    "prior_protocol_sha256":  "c7652e1604ef445c89453cd84b2022ddf687c8e409c31ce2911828a4dcb8fc81",
+    "amendment":  "006",
+    "created_utc":  "2026-10-19T15:00:37.6799864Z"
+}

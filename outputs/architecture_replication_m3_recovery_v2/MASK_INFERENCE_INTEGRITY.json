@@ -1,0 +1,159 @@
+{
+  "decision": "PASS",
+  "protocol_binding_sha256": "e4a3287aa726325360845ffe200f905c963c7a51ec44241a198a1b434d3dc3de",
+  "evaluation_completion": {
+    "decision": "FAIL_M3_ARCHITECTURE_SPECIFIC",
+    "ningbo_authorized": false,
+    "stage": "COMPLETE",
+    "updated_utc": "2026-10-17T04:05:30.058448+00:00"
+  },
+  "prediction_cache_units": [
+    {
+      "arm": "clean",
+      "seed": 104729,
+      "conditions": 794,
+      "mask_conditions": 792,
+      "expected_conditions": 794,
+      "expected_masks": 792,
+      "summary_loader_verified_binding_shape_finiteness": true,
+      "binding_semantic": "m3_mask5_removed_train_mean_before_channelwise_normalization_v2"
+    },
+    {
+      "arm": "clean",
+      "seed": 130363,
+      "conditions": 794,
+      "mask_conditions": 792,
+      "expected_conditions": 794,
+      "expected_masks": 792,
+      "summary_loader_verified_binding_shape_finiteness": true,
+      "binding_semantic": "m3_mask5_removed_train_mean_before_channelwise_normalization_v2"
+    },
+    {
+      "arm": "clean",
+      "seed": 155921,
+      "conditions": 794,
+      "mask_conditions": 792,
+      "expected_conditions": 794,
+      "expected_masks": 792,
+      "summary_loader_verified_binding_shape_finiteness": true,
+      "binding_semantic": "m3_mask5_removed_train_mean_before_channelwise_normalization_v2"
+    },
+    {
+      "arm": "physics_aware",
+      "seed": 104729,
+      "conditions": 794,
+      "mask_conditions": 792,
+      "expected_conditions": 794,
+      "expected_masks": 792,
+      "summary_loader_verified_binding_shape_finiteness": true,
+      "binding_semantic": "m3_mask5_removed_train_mean_before_channelwise_normalization_v2"
+    },
+    {
+      "arm": "physics_aware",
+      "seed": 130363,
+      "conditions": 794,
+      "mask_conditions": 792,
+      "expected_conditions": 794,
+      "expected_masks": 792,
+      "summary_loader_verified_binding_shape_finiteness": true,
+      "binding_semantic": "m3_mask5_removed_train_mean_before_channelwise_normalization_v2"
+    },
+    {
+      "arm": "physics_aware",
+      "seed": 155921,
+      "conditions": 794,
+      "mask_conditions": 792,
+      "expected_conditions": 794,
+      "expected_masks": 792,
+      "summary_loader_verified_binding_shape_finiteness": true,
+      "binding_semantic": "m3_mask5_removed_train_mean_before_channelwise_normalization_v2"
+    }
+  ],
+  "prediction_cache_count": 4764,
+  "corrected_mask_prediction_count": 4752,
+  "mask_conditions_expected": 4752,
+  "condition_metric_rows": 14292,
+  "bootstrap_tasks": {
+    "completed_tasks": 18,
+    "indices_sha256": "5d02c9fc5f3379ca1f9a7dfd5acb1f1b7700cce894b196c05ea86b8ed5902b9e",
+    "indices_shape_axes": [
+      "replicate",
+      "canonical_test_record"
+    ],
+    "total_tasks": 18,
+    "updated_utc": "2026-10-17T04:05:29.272293+00:00"
+  },
+  "bootstrap_replicate_rows": 3000,
+  "validation_units": [
+    {
+      "arm": "clean",
+      "seed": 104729,
+      "checkpoint_identity_and_validation_artifact": true,
+      "finite_validation_predictions": true,
+      "validation_test_separation_flag": true,
+      "validation_twa_auprc": 0.7000574345254637,
+      "validation_twa_auroc": 0.9076749726353743,
+      "checkpoint_sha256": "f28a6bbbef647bac8cfa601c2e5e80425c8517833f34a448a5eca4b6714521a4",
+      "validation_artifact_sha256": "4d867701934200c183f0558109dd4163379b9981eb14958a0e0de2a72c7ef8c2"
+    },
+    {
+      "arm": "clean",
+      "seed": 130363,
+      "checkpoint_identity_and_validation_artifact": true,
+      "finite_validation_predictions": true,
+      "validation_test_separation_flag": true,
+      "validation_twa_auprc": 0.7370235208412501,
+      "validation_twa_auroc": 0.9181057240357995,
+      "checkpoint_sha256": "d2e051e581a8362e9f40d9fc5f3ef826689b951d0392b6b47f243194874a474a",
+      "validation_artifact_sha256": "9f008f51354680d71cc8147a00dd4954dca89cbd65dd13b94954ac5c5c54b9a2"
+    },
+    {
+      "arm": "clean",
+      "seed": 155921,
+      "checkpoint_identity_and_validation_artifact": true,
+      "finite_validation_predictions": true,
+      "validation_test_separation_flag": true,
+      "validation_twa_auprc": 0.6884346139778366,
+      "validation_twa_auroc": 0.9150730796471572,
+      "checkpoint_sha256": "f9c9acb46fbf208d5c42bab217cfe0f0d5a9b8e02a75120f412d4201d1fb9ed7",
+      "validation_artifact_sha256": "a52b088407a50908c39d24a21b8edefb8dc06d5332dcfb1698dd07d8edd3744a"
+    },
+    {
+      "arm": "physics_aware",
+      "seed": 104729,
+      "checkpoint_identity_and_validation_artifact": true,
+      "finite_validation_predictions": true,
+      "validation_test_separation_flag": true,
+      "validation_twa_auprc": 0.7150585358729991,
+      "validation_twa_auroc": 0.9181379177129612,
+      "checkpoint_sha256": "79cf89d57811593988f8094d101adb17b68b57953247260a14d60d2db89b8934",
+      "validation_artifact_sha256": "777b0c91ef743e7a40a90af2ffde16563e474dc0a0bccbac3e0a5f7af8525d4a"
+    },
+    {
+      "arm": "physics_aware",
+      "seed": 130363,
+      "checkpoint_identity_and_validation_artifact": true,
+      "finite_validation_predictions": true,
+      "validation_test_separation_flag": true,
+      "validation_twa_auprc": 0.6983161758666444,
+      "validation_twa_auroc": 0.9198506213379691,
+      "checkpoint_sha256": "a07258d5050fc0bd8d1135b57b6f3a47f2a22211d29efdf65db6430696f865f3",
+      "validation_artifact_sha256": "74d8fd65bf519ffa919db4f6396c1633d4b3730a71ed1a6f9f668218cfd64615"
+    },
+    {
+      "arm": "physics_aware",
+      "seed": 155921,
+      "checkpoint_identity_and_validation_artifact": true,
+      "finite_validation_predictions": true,
+      "validation_test_separation_flag": true,
+      "validation_twa_auprc": 0.7026215392899074,
+      "validation_twa_auroc": 0.9171527911918098,
+      "checkpoint_sha256": "313265e20253038b3fd686ad64b2b43abed6c85a54da1bbb4eb9d7140af1868f",
+      "validation_artifact_sha256": "fc1be6d7a4551d1344f1e75155ecf096b8914cfba70390ae44fc2d128e2dba1c"
+    }
+  ],
+  "legacy_mask_predictions_reused": false,
+  "legacy_clean_ra_ll_replay": "failed frozen tolerance for all 12 probes; all 12 conditions fully re-inferred under amended protocol",
+  "test_accessed_historically": true,
+  "interpretation": "corrected reanalysis, not an untouched confirmation"
+}

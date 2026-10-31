@@ -1,0 +1,6 @@
+{
+  "error": "RuntimeError('nonfinite waveform: Ningbo/g1/JS10767')",
+  "pid": 30356,
+  "stage": "STOP_TECHNICAL_BLOCKER",
+  "updated_utc": "2026-09-20T19:23:40.335472+00:00"
+}

@@ -1,0 +1,872 @@
+{
+  "status": "PASS",
+  "checks": 72,
+  "max_abs_probability_delta": 0.0,
+  "rows": [
+    {
+      "method": "ordinary",
+      "seed": 104729,
+      "condition": "clean",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "ordinary",
+      "seed": 104729,
+      "condition": "RA_LA_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "ordinary",
+      "seed": 104729,
+      "condition": "RA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "ordinary",
+      "seed": 104729,
+      "condition": "LA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 104729,
+      "condition": "clean",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 104729,
+      "condition": "clean",
+      "block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 104729,
+      "condition": "clean",
+      "block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 104729,
+      "condition": "RA_LA_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 104729,
+      "condition": "RA_LA_reversal",
+      "block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 104729,
+      "condition": "RA_LA_reversal",
+      "block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 104729,
+      "condition": "RA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 104729,
+      "condition": "RA_LL_reversal",
+      "block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 104729,
+      "condition": "RA_LL_reversal",
+      "block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 104729,
+      "condition": "LA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 104729,
+      "condition": "LA_LL_reversal",
+      "block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 104729,
+      "condition": "LA_LL_reversal",
+      "block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "physics_aware_p050",
+      "seed": 104729,
+      "condition": "clean",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "physics_aware_p050",
+      "seed": 104729,
+      "condition": "RA_LA_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "physics_aware_p050",
+      "seed": 104729,
+      "condition": "RA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "physics_aware_p050",
+      "seed": 104729,
+      "condition": "LA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "combined",
+      "seed": 104729,
+      "condition": "clean",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "combined",
+      "seed": 104729,
+      "condition": "RA_LA_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "combined",
+      "seed": 104729,
+      "condition": "RA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "combined",
+      "seed": 104729,
+      "condition": "LA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "ordinary",
+      "seed": 130363,
+      "condition": "clean",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "ordinary",
+      "seed": 130363,
+      "condition": "RA_LA_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "ordinary",
+      "seed": 130363,
+      "condition": "RA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "ordinary",
+      "seed": 130363,
+      "condition": "LA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 130363,
+      "condition": "clean",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 130363,
+      "condition": "clean",
+      "block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 130363,
+      "condition": "clean",
+      "block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 130363,
+      "condition": "RA_LA_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 130363,
+      "condition": "RA_LA_reversal",
+      "block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 130363,
+      "condition": "RA_LA_reversal",
+      "block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 130363,
+      "condition": "RA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 130363,
+      "condition": "RA_LL_reversal",
+      "block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 130363,
+      "condition": "RA_LL_reversal",
+      "block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 130363,
+      "condition": "LA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 130363,
+      "condition": "LA_LL_reversal",
+      "block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 130363,
+      "condition": "LA_LL_reversal",
+      "block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "physics_aware_p050",
+      "seed": 130363,
+      "condition": "clean",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "physics_aware_p050",
+      "seed": 130363,
+      "condition": "RA_LA_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "physics_aware_p050",
+      "seed": 130363,
+      "condition": "RA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "physics_aware_p050",
+      "seed": 130363,
+      "condition": "LA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "combined",
+      "seed": 130363,
+      "condition": "clean",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "combined",
+      "seed": 130363,
+      "condition": "RA_LA_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "combined",
+      "seed": 130363,
+      "condition": "RA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "combined",
+      "seed": 130363,
+      "condition": "LA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "ordinary",
+      "seed": 155921,
+      "condition": "clean",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "ordinary",
+      "seed": 155921,
+      "condition": "RA_LA_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "ordinary",
+      "seed": 155921,
+      "condition": "RA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "ordinary",
+      "seed": 155921,
+      "condition": "LA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 155921,
+      "condition": "clean",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 155921,
+      "condition": "clean",
+      "block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 155921,
+      "condition": "clean",
+      "block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 155921,
+      "condition": "RA_LA_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 155921,
+      "condition": "RA_LA_reversal",
+      "block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 155921,
+      "condition": "RA_LA_reversal",
+      "block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 155921,
+      "condition": "RA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 155921,
+      "condition": "RA_LL_reversal",
+      "block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 155921,
+      "condition": "RA_LL_reversal",
+      "block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 155921,
+      "condition": "LA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 155921,
+      "condition": "LA_LL_reversal",
+      "block": [
+        4992,
+        5120
+      ],
+      "compared_n": 128,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "Huang_full_pipeline",
+      "seed": 155921,
+      "condition": "LA_LL_reversal",
+      "block": [
+        9984,
+        10000
+      ],
+      "compared_n": 16,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "physics_aware_p050",
+      "seed": 155921,
+      "condition": "clean",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "physics_aware_p050",
+      "seed": 155921,
+      "condition": "RA_LA_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "physics_aware_p050",
+      "seed": 155921,
+      "condition": "RA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "physics_aware_p050",
+      "seed": 155921,
+      "condition": "LA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "combined",
+      "seed": 155921,
+      "condition": "clean",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "combined",
+      "seed": 155921,
+      "condition": "RA_LA_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "combined",
+      "seed": 155921,
+      "condition": "RA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    },
+    {
+      "method": "combined",
+      "seed": 155921,
+      "condition": "LA_LL_reversal",
+      "block": [
+        0,
+        128
+      ],
+      "compared_n": 32,
+      "max_abs_probability_delta": 0.0,
+      "pass": true
+    }
+  ],
+  "scope": "HEEDB first historical block for all four methods, three seeds and four conditions; extra middle/last blocks for Huang including clean false corrections. Explicit NumPy transforms and predicted inverse; no adapter/evaluation workflow imports, no full inference or training. Ningbo GPU and detector neural replay not independently repeated."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "POSTTRAINING_SCORE_SAVE_FAILED_AFTER_SELECTION_INFERENCE",
+  "reason": "The frozen control.py atomic_npz helper named its path parameter 'p', which conflicts with the prediction array keyword 'p'. The first clean calibration_A inference completed in memory but could not be written.",
+  "training_fits_completed": 9,
+  "all_models_locked": true,
+  "test_or_HEEDB_accessed": false,
+  "calibration_or_threshold_fit": false,
+  "rerun_policy": "Reuse the nine verified best checkpoints; rerun clean A/B score inference once with a separately versioned postprocessor. Do not retrain.",
+  "frozen_runner_sha256": "2b80d905ac2ac22e799a7622872f1eb5611884e68e1563f422bc698b8779a741"
+}

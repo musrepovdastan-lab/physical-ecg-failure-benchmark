@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETED_AWAITING_USER_REVIEW",
+  "protocol_sha256": "321151e5906e0e570cda1f611c18c821119973485871973b06b7bd17031f5612",
+  "new_training": false,
+  "threshold_fitting": false,
+  "calibration_fitting": false,
+  "new_heedb_diagnostic_inference_elapsed_seconds": 260.125,
+  "huang_detector_runtime": "TensorFlow 2.10.1 isolated environment; CPU execution (CUDA libraries unavailable in that environment); measured elapsed time was not recorded in completion manifest",
+  "huang_classifier_runtime_seconds": null,
+  "ningbo_replay": "PASS on exact historical batch boundaries; max probability delta 0.0; tolerance 1e-4",
+  "failed_attempts_preserved": [
+    "FAILED_ATTEMPT_001.json",
+    "FAILED_ATTEMPT_002.json",
+    "FAILED_ATTEMPT_003.json",
+    "FAILED_ATTEMPT_004.json",
+    "FAILED_ATTEMPT_005.json",
+    "FAILED_ATTEMPT_006.json",
+    "FAILED_ATTEMPT_007.json",
+    "FAILED_ATTEMPT_008.json"
+  ],
+  "verification": "INDEPENDENT_NUMERICAL_VERIFICATION.json; PASS; internal independent recomputation, not external audit"
+}

@@ -1,0 +1,217 @@
+{
+  "all_new_primary_tasks_use_same_draws": true,
+  "decision": "PASS",
+  "index_shape": [
+    1000,
+    6981
+  ],
+  "indices_sha256": "6d186026b73c6a0ad31df3c20f16c6f18ad9970176e9c78b0235e6a64e1861d1",
+  "mask_panel_ap_per_mask_then_mean": true,
+  "point_estimates_from_full_cohort": true,
+  "tasks": [
+    {
+      "arm": "clean",
+      "binding_sha256": "84dc0a2ab7123ecc570dae64cdc699adb0f085bde73ba04c85602b6936396d31",
+      "endpoint": "TWA",
+      "seed": 104729,
+      "sha256": "e23b5acf572708687bf2df6b7f30c19c2cc71d373a4baf10067b9eec7e030828",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/baseline_v2_seed_104729_TWA.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "clean",
+      "binding_sha256": "40184df473e9d1cbcf9588869cd34c9f40d46bf9c79145734e5f095f3e60fef4",
+      "endpoint": "SB",
+      "seed": 104729,
+      "sha256": "f16bff3294cb909c4def7f665b6b60a7e1d8f8a710092755d6edd18304386025",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/baseline_v2_seed_104729_SB.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "clean",
+      "binding_sha256": "bbb35c6cc9264503977a3106a6d13845b4a0815889d6f2f78fc8b647056f77cf",
+      "endpoint": "STach",
+      "seed": 104729,
+      "sha256": "25566d68ff7a5b8cc63a3d65a1d8dd1dee7b483dcc583d9c7f0d22a131dbe811",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/baseline_v2_seed_104729_STach.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "clean",
+      "binding_sha256": "ebee1950cc4e2390a42113e6920d0798f4e86c975c79d5d2b5125419359afb9c",
+      "endpoint": "TWA",
+      "seed": 130363,
+      "sha256": "4e20d076767ef362aeb95bee809a8c6f2a8bd6db95ec74d1ed8f0cf0b0f8c743",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/baseline_v2_seed_130363_TWA.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "clean",
+      "binding_sha256": "de95b0d349000bc5cd3e8e5dc928b68bab4013c6d6d03650be36f98781b6c944",
+      "endpoint": "SB",
+      "seed": 130363,
+      "sha256": "d97744b322aa6fbc619902888d19347cf2ae413477396bbfdfbce92f7570f79d",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/baseline_v2_seed_130363_SB.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "clean",
+      "binding_sha256": "d809fd6ad08f1deb3ecfb6c0dd867eed52b705163ed967f07b0aa408588faefe",
+      "endpoint": "STach",
+      "seed": 130363,
+      "sha256": "d52c0a0228579be8fc57675449d972c9ae22580234842efc8e4352c8850fa818",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/baseline_v2_seed_130363_STach.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "clean",
+      "binding_sha256": "effeb7c357bc0c9a3bc39c23ca49d0e05e493c96929ca8aac216e79f6f3e22c6",
+      "endpoint": "TWA",
+      "seed": 155921,
+      "sha256": "a8ee1e9bbd405e9f36498763cfadafd94127a26da0f80958f2217eef86161a2b",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/baseline_v2_seed_155921_TWA.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "clean",
+      "binding_sha256": "f476236742f098b33c2ce1c55e06b372a028b59146e2b3dbc24bde8b75ab90aa",
+      "endpoint": "SB",
+      "seed": 155921,
+      "sha256": "8736e63b476008a5008f543430ab52ee6ba90c0fc1c1e8e996237a04fb22c967",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/baseline_v2_seed_155921_SB.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "clean",
+      "binding_sha256": "a0c47414f55c64c1c660b5e9d0cd2b0ecf6f71cd0a1ccf1874753e4b20305b62",
+      "endpoint": "STach",
+      "seed": 155921,
+      "sha256": "29abf9895423670aab1cdf0a50f44ea1dbfd42e71e4bcc90a2c928c14ce71504",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/baseline_v2_seed_155921_STach.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "physics_aware",
+      "binding_sha256": "accbe2da87b5163986c0365c3d06facc3f28d8e5ccf0cc54fd145982171075bf",
+      "endpoint": "TWA",
+      "seed": 104729,
+      "sha256": "1d547d3135dc89b2d57265cbf66e0ef8bf243bbfa2fd3c00b4f305957f38490c",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/physics_aware_m2_seed_104729_TWA.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "physics_aware",
+      "binding_sha256": "cc00835b92ac54d9dab14fef13defcb285f1bc9ade4ec88bed65b9f3e95bb045",
+      "endpoint": "SB",
+      "seed": 104729,
+      "sha256": "f3f398f4a750d46e2316af9319b5f072a69a3e906063bcd4de3b4c08d3ad530d",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/physics_aware_m2_seed_104729_SB.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "physics_aware",
+      "binding_sha256": "384df1a45d0434b3901df32f2256c527e00aa357eecdbac045048e0a74244e6d",
+      "endpoint": "STach",
+      "seed": 104729,
+      "sha256": "9822fca27c2336e6b90e70d8d30017a513d1f99dbc5b8c67e6f7a76b27c5df29",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/physics_aware_m2_seed_104729_STach.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "physics_aware",
+      "binding_sha256": "d621b469ad821ac43eeee571d4861f80d8e8069d8c40f19296d9b9279bf89fa8",
+      "endpoint": "TWA",
+      "seed": 130363,
+      "sha256": "2b12c9f8a8d678036063c99042756c5b8788ee32dfdba80a6782f915863388cd",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/physics_aware_m2_seed_130363_TWA.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "physics_aware",
+      "binding_sha256": "94081e7aebd8ec47630f3c9f6e344541727d82a520c55f2edbcedf072c5496af",
+      "endpoint": "SB",
+      "seed": 130363,
+      "sha256": "56e261dd1d7505e3504f2b9a0a604b98a7eebfd3ccec95489a4381d49d2c9716",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/physics_aware_m2_seed_130363_SB.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "physics_aware",
+      "binding_sha256": "d51b300fb470284d695da5a7ee7b062afac034deb49502b570dab3eac8d70c4f",
+      "endpoint": "STach",
+      "seed": 130363,
+      "sha256": "3896a124eeec3e1bed25e0f86b35d483ba6b70870302400ea1be98aca103dbba",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/physics_aware_m2_seed_130363_STach.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "physics_aware",
+      "binding_sha256": "05738e8df589b643cfb7566b2d5547d8fd5b3b22e0d26aaff5ee1e65201702de",
+      "endpoint": "TWA",
+      "seed": 155921,
+      "sha256": "5e505de18d5942603021544e40bfecc9ae76b77ea0614ebc4d7970b5e1f237f8",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/physics_aware_m2_seed_155921_TWA.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "physics_aware",
+      "binding_sha256": "aa7dc0d56936f3cb52930a8a273cbb55407d9ad7feb1c0b501f147aaaa981fe2",
+      "endpoint": "SB",
+      "seed": 155921,
+      "sha256": "ea55e464a3d4ce59acd05ce933d35546b299cff3dddd60e65063e3c6120bab33",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/physics_aware_m2_seed_155921_SB.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "physics_aware",
+      "binding_sha256": "5d442923aedf48f6f2c5cf86e1cdc1436e449d83250ddd3d7b0d9be3d030f566",
+      "endpoint": "STach",
+      "seed": 155921,
+      "sha256": "9421585723b2d62e8017c130aadeee4eac7793d3df240bebb8770f9e973eb95d",
+      "source": "outputs/mask_semantics_recovery_v2/bootstrap_tasks/physics_aware_m2_seed_155921_STach.npz",
+      "status": "REUSED_VERIFIED"
+    },
+    {
+      "arm": "masking",
+      "endpoint": "TWA",
+      "replicates": 1000,
+      "seed": 104729,
+      "status": "COMPUTED"
+    },
+    {
+      "arm": "masking",
+      "endpoint": "TWA",
+      "replicates": 1000,
+      "seed": 130363,
+      "status": "COMPUTED"
+    },
+    {
+      "arm": "masking",
+      "endpoint": "TWA",
+      "replicates": 1000,
+      "seed": 155921,
+      "status": "COMPUTED"
+    },
+    {
+      "arm": "combined",
+      "endpoint": "TWA",
+      "replicates": 1000,
+      "seed": 104729,
+      "status": "COMPUTED"
+    },
+    {
+      "arm": "combined",
+      "endpoint": "TWA",
+      "replicates": 1000,
+      "seed": 130363,
+      "status": "COMPUTED"
+    },
+    {
+      "arm": "combined",
+      "endpoint": "TWA",
+      "replicates": 1000,
+      "seed": 155921,
+      "status": "COMPUTED"
+    }
+  ]
+}

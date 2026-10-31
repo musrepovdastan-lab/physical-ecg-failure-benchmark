@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "reports": {
+    "FINAL_REPORT_RU.md": {
+      "utf8_readable": true,
+      "has_cyrillic": true,
+      "contains_replacement_question_run": false
+    },
+    "TRAINING_REPORT_RU.md": {
+      "utf8_readable": true,
+      "has_cyrillic": true,
+      "contains_replacement_question_run": false
+    },
+    "CURRENT_PLAN_STATUS_RU.md": {
+      "utf8_readable": true,
+      "has_cyrillic": true,
+      "contains_replacement_question_run": false
+    },
+    "STATUS.md": {
+      "utf8_readable": true,
+      "has_cyrillic": true,
+      "contains_replacement_question_run": false
+    },
+    "INITIALIZATION_PROVENANCE_NOTE_RU.md": {
+      "utf8_readable": true,
+      "has_cyrillic": true,
+      "contains_replacement_question_run": false
+    },
+    "LOCK_CHRONOLOGY_RU.md": {
+      "utf8_readable": true,
+      "has_cyrillic": true,
+      "contains_replacement_question_run": false
+    },
+    "KEY_RESULTS_TABLES_RU.md": {
+      "utf8_readable": true,
+      "has_cyrillic": true,
+      "contains_replacement_question_run": false
+    }
+  }
+}

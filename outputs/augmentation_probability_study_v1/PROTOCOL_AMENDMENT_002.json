@@ -1,0 +1,10 @@
+{
+  "amendment": "PROTOCOL_AMENDMENT_002",
+  "analysis_policy": "All metrics use fixed recipe and thresholds established on that model's own clean validation negatives; no changes are selected from test results.",
+  "execution_change": "After each cohort's six training units pass their validation gate, infer all frozen conditions and write per-seed metrics plus 792-mask distributions before any next-cohort training begins.",
+  "issued_before_new_training_and_test_inference": true,
+  "method_changes": [],
+  "previous_protocol_sha256": "d89c8e0b67ebd6f77e8d0b41e3a00dbe2b861ba9936bc5d14a63144195f246cd",
+  "reason": "Record the required Chapman assessment stage before starting Ningbo training.",
+  "scientific_recipe_changed": false
+}

@@ -1,0 +1,6 @@
+{
+  "stage": "historical RA-LL anchor comparison",
+  "status": "FAILED_AFTER_PRELIMINARY_METRIC_TABLES",
+  "reason": "The first comparator exposed that two historical combined-arm CSVs do not store FP/FN per 1,000. Anchor verifier indexed nonexistent columns before bootstrap or final verification. Preliminary current tables are archived; no threshold or model selection was performed.",
+  "scientific_scope_changed": false
+}

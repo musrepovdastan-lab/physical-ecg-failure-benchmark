@@ -1,0 +1,248 @@
+{
+  "bootstrap_replicates": 1000,
+  "bootstrap_unit": "canonical record as patient under one-record-per-patient assumption",
+  "chapman_v1_cache_reused": false,
+  "checkpoint_sha256": "ee199f3781f4ae1f732973267f003da0a759ea12bddb0dd28a77faa60aca7997",
+  "consistency_checks": {
+    "changed_examples": 18,
+    "feature_hashes": 8,
+    "main_rows": 36,
+    "paired_rows": 18,
+    "per_seed_rows": 72,
+    "status": "PASS",
+    "targeted_tests": "7 passed",
+    "zero_shot_rows": 8
+  },
+  "file_sha256": {
+    "configs/FROZEN_ECGFOUNDER_BASELINE_PROTOCOL_v2.json": "2f1e7600c26a6466c29e9bbc5ddbe6b826486cc05c84edaa3350433b3981ad81",
+    "outputs/ecgfounder_baseline_v2/CHANGED_PREDICTIONS.csv": "1aca3ee23eb1ee1d4e0244c30fd6d3614cc680c5d14cafa5fda939aa8d4d750d",
+    "outputs/ecgfounder_baseline_v2/COMPACT_RESULTS.csv": "13bd8847258ceb4396e93e8fe082e44b4507f2fe2aa239c5e8afe0f3166c6695",
+    "outputs/ecgfounder_baseline_v2/FINAL_BASELINE_REPORT.md": "f586f480c8dc6e5b6b84200601151cf001e913603dd7825aca91e5aae4a4178f",
+    "outputs/ecgfounder_baseline_v2/FROZEN_PROTOCOL_HASH.json": "e6456a3947729c828a90727fc5d0556fe3db79d943f7782c0a790cd60441ecd2",
+    "outputs/ecgfounder_baseline_v2/MAIN_COMPARISON.csv": "bbed734eaa5b66991b5d0d59a70c0eb1404bb2b929436e4d12ce6251a010d77f",
+    "outputs/ecgfounder_baseline_v2/MISSING_PATH_AUDIT.json": "8b8a73dd7830190177c8345f2a1f8dcf385e754eaa01f54651cb26387bead99f",
+    "outputs/ecgfounder_baseline_v2/PAIRED_DROP_DIFFERENCES.csv": "73b03669eec77d930cda8842f90eefa3f73fbeabcef899a78e0d4261e3a7b0d4",
+    "outputs/ecgfounder_baseline_v2/PER_SEED_COMPARISON.csv": "77e1c0ece940ebb0a0ea93c7f0174bbe69ad0f7be7400210e8a0088bdd7365a6",
+    "outputs/ecgfounder_baseline_v2/PREFREEZE_SMOKE.json": "eaa1abf517489f2574e69746cedf4dc867e68446299a195e4e387b796be99d0f",
+    "outputs/ecgfounder_baseline_v2/PRE_RUN_AUDIT.json": "8896450bae1bf326fc948c4d194067af2d6d137da7be4b8c53cbd86d5f20eb23",
+    "outputs/ecgfounder_baseline_v2/SMOKE_REPORT.json": "73e6da65aebc290c09a76f829f792f9ec5370c79f7a42e72a2c81d79c0bb23f7",
+    "outputs/ecgfounder_baseline_v2/WORKFLOW_STATUS.json": "bfe6b9a1a6796e7bfd1c0d59a0be4c7e208dd559017edf177c64b794433c2282",
+    "outputs/ecgfounder_baseline_v2/ZERO_SHOT_NAME_MATCHED.csv": "99c61b03aba75b6f3a686d3d24b21383b8b9f1d22cf63b151b03cbb720f3af19",
+    "outputs/ecgfounder_baseline_v2/chapman_bootstrap_indices.npy": "1534152d4b82e133eba83ab57472d2482528cf54e6f43028ac6bd9e9e635a01f",
+    "outputs/ecgfounder_baseline_v2/chapman_bootstrap_metrics.npy": "a89939a407c3111257c05359f763bc4c57c56d4641f200ee7f7d162c56cd99a6",
+    "outputs/ecgfounder_baseline_v2/chapman_bootstrap_progress.json": "bc2970ee4261789ff9d57fd5d0704d637c9c14969a04d4be93bfcf5b6b82b9d5",
+    "outputs/ecgfounder_baseline_v2/chapman_head.npz": "2debe29cb136086d96a475425bbf78282b4f8f307215e745e3658d411c4b63db",
+    "outputs/ecgfounder_baseline_v2/chapman_progress.log": "68350a91c2a83c04989f55971ef163783c1a580b23452df4f9c822c64912ee09",
+    "outputs/ecgfounder_baseline_v2/chapman_supervisor_events.jsonl": "2705c6b059cdb7c2ed2becb46bd4f8888d0eca4ceae64f2900d622b4dafa7a47",
+    "outputs/ecgfounder_baseline_v2/chapman_validation_freeze.json": "34cd60a0368feda1cdd755a69c2a821ff9080cf1f995c6a1fef8ba96a3295d70",
+    "outputs/ecgfounder_baseline_v2/features/chapman_test_RA_LL_reversal_features.npy": "1ae3fa7336c6d9b6e72516793c2c4e6dd83d95be09b230237d9432038cd461aa",
+    "outputs/ecgfounder_baseline_v2/features/chapman_test_RA_LL_reversal_logits.npy": "172b7497a17c896435663909e45c55a9eeb4312daed61bbc75af52876963214e",
+    "outputs/ecgfounder_baseline_v2/features/chapman_test_RA_LL_reversal_meta.json": "375628d3d61b011db8dfaf9ab46daa799d821ebc98aebc44e4274ad2e2c3dc28",
+    "outputs/ecgfounder_baseline_v2/features/chapman_test_clean_features.npy": "ee3dd445f7ae61018b87bab225b71ab4ef7350d790c7e83164ba3b3da10d6817",
+    "outputs/ecgfounder_baseline_v2/features/chapman_test_clean_logits.npy": "9ba398a7d3640faf1815bdb3d9c2cbc45290e5a824c5dc8e48d034c3c03ed816",
+    "outputs/ecgfounder_baseline_v2/features/chapman_test_clean_meta.json": "cb3fdec5b194300f109fdc2f582071913a3668b15af3869a28666bad457a0b5d",
+    "outputs/ecgfounder_baseline_v2/features/chapman_train_clean_features.npy": "a0ed7b7754f9082b9743f5b170f9ce74ae32c21c2e1db59eac643cfc7fb22f76",
+    "outputs/ecgfounder_baseline_v2/features/chapman_train_clean_logits.npy": "6cc76da16f97bf10a59ea77d6f1427d236740cd0713f5943ab5fff00dbfaecfd",
+    "outputs/ecgfounder_baseline_v2/features/chapman_train_clean_meta.json": "73d7dbc3bd8e322dee70fc295f33fa0e65aa613a69f327108deae10e5270d074",
+    "outputs/ecgfounder_baseline_v2/features/chapman_validation_clean_features.npy": "20f4826d93cc9a553cb8585d5d74045c143f5e27e3963da15d847e980b239b06",
+    "outputs/ecgfounder_baseline_v2/features/chapman_validation_clean_logits.npy": "7dda7b31e1916e6f25aa6301e75ca338ef1fa015adbeebaa2f107af31039a839",
+    "outputs/ecgfounder_baseline_v2/features/chapman_validation_clean_meta.json": "6dbf93efe9f6937a48a00d794da1750e163ad42d8bc0694a57e7065c89d02857",
+    "outputs/ecgfounder_baseline_v2/features/ningbo_test_RA_LL_reversal_features.npy": "f10bb786c550a3412cf1e7276d5ac33d4b819ca23f308972537e824b0b85dede",
+    "outputs/ecgfounder_baseline_v2/features/ningbo_test_RA_LL_reversal_logits.npy": "bdaff8029ee313c127b11cb112e77e38476af5a7cbd1abdb4cd59b453b171041",
+    "outputs/ecgfounder_baseline_v2/features/ningbo_test_RA_LL_reversal_meta.json": "39994955b4e56bbf157aff52663bcd449d5d55b00639748f299ae816522f9bda",
+    "outputs/ecgfounder_baseline_v2/features/ningbo_test_clean_features.npy": "06ff2195bfacbc02808adb5db62b075c249abc7c794eb0f499c8b6035e128b63",
+    "outputs/ecgfounder_baseline_v2/features/ningbo_test_clean_logits.npy": "a336fffa4c9bf9518826b1aa91138da905c7accfa89255102dee4504b26d2fe0",
+    "outputs/ecgfounder_baseline_v2/features/ningbo_test_clean_meta.json": "4bbcc018ea49c7bc1c563e951dca0c8b70e513e9eaa9126bdd417c3c3569e3a9",
+    "outputs/ecgfounder_baseline_v2/features/ningbo_train_clean_features.npy": "92bf8e2d0e679a0690ce8918e3baa62aebb852cb30fa5f877bc5afbf364f17ec",
+    "outputs/ecgfounder_baseline_v2/features/ningbo_train_clean_logits.npy": "5aed01131d1a5069d01afbf24cf1e0dd65eb4e161087339d0c6194ccdd29fdc1",
+    "outputs/ecgfounder_baseline_v2/features/ningbo_train_clean_meta.json": "ccfbcbc1618bf96f86f1a3944356c96163d3606ffc46d4d1529815fb368519bf",
+    "outputs/ecgfounder_baseline_v2/features/ningbo_validation_clean_features.npy": "3e98fc1985bf1ec19a2314b8e0dbb5b88bb6f27895d7f2e6f938d0c668bda216",
+    "outputs/ecgfounder_baseline_v2/features/ningbo_validation_clean_logits.npy": "70c651754fcd04c8ba539381f2bd9e7f6b129c1bc0c946a39dbbf6ca30a2337b",
+    "outputs/ecgfounder_baseline_v2/features/ningbo_validation_clean_meta.json": "c119391e144582ce8a75e0203535b80917095f029d034722d1c2cd826c5e4442",
+    "outputs/ecgfounder_baseline_v2/ningbo_bootstrap_indices.npy": "d77d61a1b6556f52b11a60a472ecf13efe5ae759134a6739883268476e6ce35f",
+    "outputs/ecgfounder_baseline_v2/ningbo_bootstrap_metrics.npy": "2b433f702dbad4ba3cf3d0ac10d63fda5375c4c102cc20aa200184bd1ae2dbe9",
+    "outputs/ecgfounder_baseline_v2/ningbo_bootstrap_progress.json": "e40746892a87f4a1cf9c720f3324f6a64199728f31e80e773e8d622196f738fe",
+    "outputs/ecgfounder_baseline_v2/ningbo_head.npz": "57c768fd05d9354e24d45383eb10e8f02d3d6b1f281dcf0000b1f010b0629f79",
+    "outputs/ecgfounder_baseline_v2/ningbo_progress.log": "081dd6a025210b125201a2315f596466e19e845dc8386396f7b29912b384a87b",
+    "outputs/ecgfounder_baseline_v2/ningbo_supervisor_events.jsonl": "e7b6d34a0524a7446ec0e0f2edf84637985330c0b842fb5052d3754a7294bd04",
+    "outputs/ecgfounder_baseline_v2/ningbo_validation_freeze.json": "1e8699d266d697ccc2148f8c1c7d68914a6d5e3a23f5fe93fe0fab7a36b86eac",
+    "src/ecgfounder_analyze_v2.py": "cd2547a8b8337dcfde289efcaf6326e2eedf3b43debd6463b904a9648c48c20a",
+    "src/ecgfounder_baseline_v2.py": "5c4516439d8d56e60f6b8036f7dd6fa76c3c91374ccb67346a7635aee1cccf9b",
+    "src/ecgfounder_report_v2.py": "12ba80fcb8c65650cf858f177cf58df0a4771bbac3fd1e5686fdb39b80c1db1b",
+    "src/ecgfounder_v2_job_supervisor.py": "48e772a3b207839e3c9524c5ab0470e9de4ae0d1bd8f5c42dc8a009e29e31edd"
+  },
+  "frozen_head": {
+    "C_grid": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "family": "three independent L2-regularized linear logistic heads on the 1024-D frozen features, trained clean only",
+    "feature_standardization": "per-dimension mean and population std from each dataset's existing training split, floor std at 1e-6",
+    "no_backbone_updates": true,
+    "selection": "highest clean validation AUPRC for each label; tie selects smaller C",
+    "solver": "sklearn LogisticRegression liblinear, max_iter=300, tol=1e-4, class_weight=None, random_state=20260920",
+    "threshold": "90th percentile of clean validation negative probabilities per label, fixed for both test conditions"
+  },
+  "frozen_source_and_saved_prediction_sha256": {
+    "outputs/ecgfounder_baseline_v1/official/12_lead_ECGFounder.pth": "ee199f3781f4ae1f732973267f003da0a759ea12bddb0dd28a77faa60aca7997",
+    "outputs/ecgfounder_baseline_v1/official/ECGFounder-04edac702b61c91face519774ddcc0cd712fef23/dataset.py": "b113a9c35fdbb94923e2a88ccbaff4b4e04a5ca1fc8c732ee9fa6de5d49b4a31",
+    "outputs/ecgfounder_baseline_v1/official/ECGFounder-04edac702b61c91face519774ddcc0cd712fef23/net1d.py": "832bf90e05e20e62db6f9c7007acf7f0b1f739938ab80fa9b2c1ad438e8da7f7",
+    "outputs/ecgfounder_baseline_v1/official/ECGFounder-04edac702b61c91face519774ddcc0cd712fef23/tasks.txt": "7c087a0d383c7ea9ae9b818ad00a551b029334edfa5f1fbb5036bfbaa0df0c39",
+    "outputs/ecgfounder_baseline_v1/official/ECGFounder-04edac702b61c91face519774ddcc0cd712fef23/util.py": "79972b6c8e769f75e1fa766879ce7de50125e621fb0b0dcce1af45e3bfac4184",
+    "outputs/ecgfounder_baseline_v2/MISSING_PATH_AUDIT.json": "8b8a73dd7830190177c8345f2a1f8dcf385e754eaa01f54651cb26387bead99f",
+    "outputs/ecgfounder_baseline_v2/PREFREEZE_SMOKE.json": "eaa1abf517489f2574e69746cedf4dc867e68446299a195e4e387b796be99d0f",
+    "outputs/ningbo_confirmation_v2/CANONICAL_RECORDS.json": "2a217b4e01f8570fcb5e6f25feead6f04d4d490c558084c7b9ddf02389495da5",
+    "outputs/ningbo_confirmation_v2/SPLIT_MEMBERSHIP.json": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388",
+    "outputs/ningbo_confirmation_v2/seed_104729/test_predictions/RA_LL_reversal.npz": "dd1664666a8383f9f92a867e70949f5930250c454135df0352352e965006228a",
+    "outputs/ningbo_confirmation_v2/seed_104729/test_predictions/clean.npz": "b36338ed1129116e1d6c034010f5fa9e43e1460c4393d5b822a03e2cb6c813d1",
+    "outputs/ningbo_confirmation_v2/seed_130363/test_predictions/RA_LL_reversal.npz": "0d2e7c901db2a506d7c38400f7806b76d9c1ad24d352fd1ed36a563714a6b88c",
+    "outputs/ningbo_confirmation_v2/seed_130363/test_predictions/clean.npz": "e03f1a3cd094f8c3d86699d5e4b5a4179c900e39b0cf8a0bc05d30dde66972ba",
+    "outputs/ningbo_confirmation_v2/seed_155921/test_predictions/RA_LL_reversal.npz": "769feca273d07580ca08e0fe0c0661676f1a96a6a4cb767e48d0a68dd4e100d1",
+    "outputs/ningbo_confirmation_v2/seed_155921/test_predictions/clean.npz": "9e756fe810a237bac6d296fa1e5fce9cb45c7508216321ea01edc9ced94007f2",
+    "outputs/phase1_chapman_seed1_v4/SPLIT_MEMBERSHIP_v4.json": "f3dafa0fc892a3d821ac0b386205e185134f1653990815c55deaa699cb66253d",
+    "outputs/phase1_chapman_seed1_v4/test_predictions_v4/RA_LL_reversal.npz": "a9fe2b7bd1aff07944e67107c7297059b377a66b5cb6b2bb18d20d44d59daaea",
+    "outputs/phase1_chapman_seed1_v4/test_predictions_v4/clean.npz": "b86de4b19d5e43f27b8b3592f4518261ea6a477da417291e80e0a0cec8c3d24b",
+    "outputs/phase2_chapman_multiseed_v7/seed_130363/test_predictions/RA_LL_reversal.npz": "18ad5bd56b747fe50732128b1e60f455467fb065d54e3049f06151d30cf46733",
+    "outputs/phase2_chapman_multiseed_v7/seed_130363/test_predictions/clean.npz": "da5f23c22bdd68ab4fd348e81d520c1c87caae7fbf69df21433f2a1a5a188fac",
+    "outputs/phase2_chapman_multiseed_v7/seed_155921/test_predictions/RA_LL_reversal.npz": "f481fa0137e4be2f87f26b568e0841cb01af4d50b2e79935aa333b787f98fd43",
+    "outputs/phase2_chapman_multiseed_v7/seed_155921/test_predictions/clean.npz": "68ba5071b30e4c253ed7276370b7a60eebf7959aa702b8c8947e1148953d0e6b",
+    "src/ecg_physics.py": "51218806eec81765df6247307e70ccce56f76cfa54e54782f1b47d468014eb9c",
+    "src/ecgfounder_analyze_v2.py": "cd2547a8b8337dcfde289efcaf6326e2eedf3b43debd6463b904a9648c48c20a",
+    "src/ecgfounder_preflight_v2.py": "63c5a33d06ca2ecc7d5139b89d9275fd4fa5e85e2095bef8f74a8789505d89c4",
+    "src/ecgfounder_prefreeze_smoke_v2.py": "9c0e816985c2213467e05ecb8a61b755d9940b009bde06fad903992ee3df801e"
+  },
+  "generated_utc": "2026-09-21T02:59:55.595441+00:00",
+  "input_adapter_changes": {
+    "chapman_v1_reuse": "none; recompute all Chapman features and validation-selected head in v2",
+    "ningbo_hash": "verify every actual waveform SHA-256 against canonical record and frozen split before full run; check ID/hash binding again during loading",
+    "ningbo_path": "resolve every ID through canonical header_path and waveform_path; header filename may differ from waveform basename if its 12 signal lines reference the canonical waveform; reject missing files or ID mismatch",
+    "physical_nan": "replace WFDB NaN physical samples with zero before RA-LL permutation or any filter, as in pinned dataset.py",
+    "unexpected": "reject infinities, unrecognized dimensions/rate/leads and hash mismatches; exclude no records"
+  },
+  "input_audit_counts": {
+    "Chapman": {
+      "test": {
+        "affected_records": 0,
+        "header_waveform_stem_mismatches": 0,
+        "missing_samples": 0,
+        "path_group_mismatches": 0,
+        "records": 2050
+      },
+      "train": {
+        "affected_records": 0,
+        "header_waveform_stem_mismatches": 0,
+        "missing_samples": 0,
+        "path_group_mismatches": 0,
+        "records": 7163
+      },
+      "validation": {
+        "affected_records": 0,
+        "header_waveform_stem_mismatches": 0,
+        "missing_samples": 0,
+        "path_group_mismatches": 0,
+        "records": 1021
+      }
+    },
+    "Ningbo": {
+      "test": {
+        "affected_records": 26,
+        "header_waveform_stem_mismatches": 0,
+        "missing_samples": 1227,
+        "path_group_mismatches": 4,
+        "records": 6981
+      },
+      "train": {
+        "affected_records": 59,
+        "header_waveform_stem_mismatches": 1,
+        "missing_samples": 1861,
+        "path_group_mismatches": 24,
+        "records": 24430
+      },
+      "validation": {
+        "affected_records": 12,
+        "header_waveform_stem_mismatches": 0,
+        "missing_samples": 1003,
+        "path_group_mismatches": 6,
+        "records": 3488
+      }
+    }
+  },
+  "input_samples": 5000,
+  "labels_in_order": [
+    "TWA",
+    "SB",
+    "STach"
+  ],
+  "lead_order": [
+    "I",
+    "II",
+    "III",
+    "aVR",
+    "aVL",
+    "aVF",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "ningbo_v1_incomplete_cache_reused": false,
+  "parent_protocol_sha256": "17214328ef9e0443692da4248df7683cff906689d270b3e08efe3311710c1bee",
+  "preprocessing": {
+    "input": "WFDB physical values in mV, 12 x 5000, 500 Hz, 10 seconds",
+    "lead_order": [
+      "I",
+      "II",
+      "III",
+      "aVR",
+      "aVL",
+      "aVF",
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5",
+      "V6"
+    ],
+    "nonfinite_or_schema_mismatch": "WFDB NaN -> 0 before fault/filter; reject infinity and other schema errors",
+    "order": [
+      "replace WFDB NaN physical samples with zero",
+      "50 Hz iirnotch Q=30 with filtfilt per lead",
+      "4th-order Butterworth 0.67-40 Hz bandpass with filtfilt per lead",
+      "subtract 201-sample median-filter baseline per lead",
+      "global z-score over all 12 x 5000 values using population std and epsilon 1e-8",
+      "cast float32"
+    ],
+    "pre_fault": "RA-LL terminal permutation on raw physical I, II, V1..V6; derive 12 displayed leads; chest leads invariant",
+    "provenance": "official util.py::filter_bandpass and dataset.py::z_score_normalization; 500 Hz data need no resampling"
+  },
+  "protocol_sha256": "2f1e7600c26a6466c29e9bbc5ddbe6b826486cc05c84edaa3350433b3981ad81",
+  "resumable_retry": "single-worker wrapper retries only Windows atomic_json WinError 5; no scientific-code edits",
+  "runtime_gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "runtime_torch": "2.11.0+cu128",
+  "sampling_rate_hz": 500,
+  "saved_resnet_prediction_order": "saved evaluators use the frozen split row order; prediction arrays lack embedded IDs; frozen split, source logic and prediction hashes are bound",
+  "scientific_choices_changed_from_v1": false,
+  "source_commit": "04edac702b61c91face519774ddcc0cd712fef23",
+  "split_sizes": {
+    "test_sizes": {
+      "Chapman": 2050,
+      "Ningbo": 6981
+    },
+    "training_sizes": {
+      "Chapman": 7163,
+      "Ningbo": 24430
+    },
+    "validation_sizes": {
+      "Chapman": 1021,
+      "Ningbo": 3488
+    }
+  },
+  "status": "COMPLETE",
+  "test_inputs_audited_before_freeze": true,
+  "test_model_outcomes_evaluated_before_protocol_freeze": false,
+  "test_model_outcomes_evaluated_before_validation_head_freeze": false,
+  "version": "ecgfounder_baseline_v2"
+}

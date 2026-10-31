@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "coverage": {
+    "starting_results": true,
+    "mentor_feedback": true,
+    "mask_correction": true,
+    "exact_mask": true,
+    "mask_distribution": true,
+    "four_training_arms": true,
+    "chest_only": true,
+    "augmentation_doses": true,
+    "matched_swap_exposure": true,
+    "transformer_negative": true,
+    "founder_frozen": true,
+    "unseen_cycles": true,
+    "identity_control": true,
+    "heedb_probability_extension": true,
+    "huang_comparison": true,
+    "runtime": true,
+    "clean_calibration_cost": true,
+    "sensitivity_loss": true,
+    "three_swap_recovery": true,
+    "calibration_role_control": true,
+    "threshold_rule": true,
+    "population_grid": true,
+    "full_bootstrap": true,
+    "seed_limitation": true,
+    "patient_limitation": true,
+    "previous_heedb_access": true,
+    "clinical_target": true,
+    "cao_partial_access": true,
+    "cao_email_sent": true,
+    "novelty_boundary": true,
+    "optional_extensions": true
+  },
+  "items_covered": 31,
+  "pages": 6,
+  "tables": 9,
+  "small_additions": [
+    "Explicit positive-slope Platt calibration and negative-score q90 threshold rule",
+    "Clinician question distinguishing intended clean-ECG interpretation from underlying disease"
+  ],
+  "deliberately_condensed": [
+    "Every seed and every mask value",
+    "All 700 confidence intervals",
+    "Full mathematical implementation and troubleshooting history",
+    "Exhaustive literature matrix and dataset code lists"
+  ],
+  "document_sha256": "d4e5a09b79ec6e0be048d675d01474aeec0130b44eed334c2c7d20c12d9139b2"
+}

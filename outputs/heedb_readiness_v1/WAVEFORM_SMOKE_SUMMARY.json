@@ -1,0 +1,44 @@
+{
+  "all_object_sizes_locally_verified": true,
+  "diagnoses_joined": 23,
+  "expected_lead_order_records": 23,
+  "fs_hz_counts": {
+    "250.0": 1,
+    "500.0": 22
+  },
+  "label_pattern_counts": {
+    "000": 3,
+    "001": 3,
+    "010": 3,
+    "011": 3,
+    "100": 3,
+    "101": 3,
+    "110": 3,
+    "111": 2
+  },
+  "label_recomputed_equal": 23,
+  "lead_order_counts": {
+    "I|II|III|aVR|aVL|aVF|V1|V2|V3|V4|V5|V6": 23
+  },
+  "metadata_joined": 23,
+  "patients": 23,
+  "readable_records": 23,
+  "records": 23,
+  "records_with_infinite_samples": 0,
+  "records_with_nan_samples": 0,
+  "restricted_detail_manifest": "data\\heedb_restricted\\I0006\\audit_manifests\\waveform_smoke_results.csv",
+  "sample_count_distribution": {
+    "2500": 1,
+    "5000": 22
+  },
+  "signal_count_distribution": {
+    "12": 23
+  },
+  "total_infinite_samples": 0,
+  "total_nan_samples": 0,
+  "unit_order_counts": {
+    "mV|mV|mV|mV|mV|mV|mV|mV|mV|mV|mV|mV": 23
+  },
+  "waveform_bytes": 2719415,
+  "waveform_object_count": 46
+}

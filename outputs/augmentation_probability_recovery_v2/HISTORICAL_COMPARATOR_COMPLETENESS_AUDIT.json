@@ -1,0 +1,19 @@
+{
+  "historical_arms": [
+    "ordinary",
+    "p050 (source label physics_aware)",
+    "combined"
+  ],
+  "conditions_per_seed": 796,
+  "cached_predictions_read": 14328,
+  "inference_performed": false,
+  "all_cached_labels_match_canonical_split": true,
+  "recomputed_missing_fields": [
+    "Brier where absent",
+    "predicted_positive_fraction where absent",
+    "accuracy where absent"
+  ],
+  "preexisting_threshold_metrics_checked": 129060,
+  "max_abs_difference_for_preexisting_threshold_metric": 1.0965819552399836e-07,
+  "historical_thresholds_preserved": true
+}

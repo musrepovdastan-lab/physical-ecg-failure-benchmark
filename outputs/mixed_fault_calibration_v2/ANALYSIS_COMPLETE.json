@@ -1,0 +1,47 @@
+{
+  "amendment_001_sha256": "6d4d2dedcf326d94dd3189964ddb5b6646d18db01c66aee4ad6de834184bd300",
+  "amendment_002_sha256": "42101ae0628c68e3fed0a9fd5cd17b8bd0a5ac3effd309aa9029c2fdbc0233ef",
+  "amendment_003_sha256": "14a522fe88b034e3ab16567d2cdc209fe41263b8641056fbfec5f24e4df709ac",
+  "bootstrap_audit": {
+    "all_groups_finite": true,
+    "huang_historical_contrast_reused_HEEDB_and_filled_Ningbo": true,
+    "metrics": [
+      "auprc",
+      "auroc",
+      "brier",
+      "ece15",
+      "sensitivity",
+      "specificity",
+      "predicted_positive_fraction",
+      "false_positives_per_1000",
+      "false_negatives_per_1000"
+    ],
+    "modes": [
+      "raw",
+      "calibrated",
+      "raw_historical_threshold",
+      "raw_validation_B_90pct",
+      "calibrated_validation_B_90pct",
+      "raw_legacy_v1_Huang_historical"
+    ],
+    "new_huang_validation_B_and_calibrated_absolute_and_paired_metrics": true,
+    "replicate_file_sha256": "a589067419f6ee4a5f8d382360bd2db08c81a71d1a3879c5bc36394c244c68bc",
+    "replicates": 1000,
+    "retry_amendment_sha256": "14a522fe88b034e3ab16567d2cdc209fe41263b8641056fbfec5f24e4df709ac",
+    "rng_seed": 20261017,
+    "status": "PASS",
+    "summary_rows": 2709,
+    "verification": {
+      "max_abs_delta": 0.0,
+      "v1_absolute_groups_checked": 882000
+    }
+  },
+  "bootstrap_summary_rows": 2709,
+  "elapsed_seconds": 572.313,
+  "mixture_rows": 1512,
+  "no_training": true,
+  "paired_contrast_rows": 3591,
+  "protocol_sha256": "658b12c968bf8e270de1a68882a3d39564b6e63b6e526766bbcd4c84eab781fd",
+  "reserved_test_evaluated": false,
+  "status": "PASS"
+}

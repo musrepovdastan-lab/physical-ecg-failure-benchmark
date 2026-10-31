@@ -1,0 +1,25 @@
+{
+  "changes": [
+    {
+      "path": "outputs/calibration_role_control_completion_v2/FINAL_REPORT_RU.md",
+      "original_archived_path": "outputs/calibration_role_control_completion_v2/archive_before_review_20261020/FINAL_REPORT_RU.md",
+      "original_sha256": "bf78f3c23a9668aa07c43f2d14695f1e29753d5881c99467ab8678dc4726105b",
+      "reviewed_sha256": "e42c66f08678bc9f8305d992b604835fa35f5278a08951e51a33b337d3cfdeaa",
+      "scope": "Text/status correction only; predictions, draws, locks and original manifest unchanged."
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/CURRENT_PLAN_STATUS_RU.md",
+      "original_archived_path": "outputs/calibration_role_control_completion_v2/archive_before_review_20261020/CURRENT_PLAN_STATUS_RU.md",
+      "original_sha256": "2b09d171a1aec8a1b4c24866cd6b4accbeab335c2f3412a8fdf07a84bed1b6a9",
+      "reviewed_sha256": "fb3c82504f493a9821e3ba54fc6a5c5ecaaefbe28101accb9198fa7512465d4d",
+      "scope": "Text/status correction only; predictions, draws, locks and original manifest unchanged."
+    },
+    {
+      "path": "NEXT_RESEARCH_DECISIONS_20261019.md",
+      "original_archived_path": "outputs/calibration_role_control_completion_v2/archive_before_review_20261020/ACTIVE_PLAN_BEFORE_REVIEW.md",
+      "original_sha256": "ab37198bb76639859e1d51bb1b5fdcda5eb9f471a94ae92d5df1cb4b94439ac6",
+      "reviewed_sha256": "23b7cfcc64b612af608e36b19100659049cb3c3fef716fc73b25b580c2ced220",
+      "scope": "Text/status correction only; predictions, draws, locks and original manifest unchanged."
+    }
+  ]
+}

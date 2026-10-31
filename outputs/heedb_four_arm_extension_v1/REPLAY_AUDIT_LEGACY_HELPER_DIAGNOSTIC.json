@@ -1,0 +1,205 @@
+{
+  "diagnosis": "Mismatch observed; full HEEDB inference halted pending diagnosis; tolerance unchanged",
+  "protocol_sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa",
+  "replay_rows": [
+    {
+      "arm": "ordinary_resnet",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "existing_control",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "ordinary_resnet",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "existing_control",
+      "max_abs_probability_delta": 0.84722900390625,
+      "n": 256,
+      "seed": 104729,
+      "status": "FAIL",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "masking",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "masking",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.6890029907226562,
+      "n": 256,
+      "seed": 104729,
+      "status": "FAIL",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "combined",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "combined",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.541015625,
+      "n": 256,
+      "seed": 104729,
+      "status": "FAIL",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "ordinary_resnet",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "existing_control",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "ordinary_resnet",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "existing_control",
+      "max_abs_probability_delta": 0.82293701171875,
+      "n": 256,
+      "seed": 130363,
+      "status": "FAIL",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "masking",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "masking",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.72906494140625,
+      "n": 256,
+      "seed": 130363,
+      "status": "FAIL",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "combined",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "combined",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.436279296875,
+      "n": 256,
+      "seed": 130363,
+      "status": "FAIL",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "ordinary_resnet",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "existing_control",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "ordinary_resnet",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "existing_control",
+      "max_abs_probability_delta": 0.6802978515625,
+      "n": 256,
+      "seed": 155921,
+      "status": "FAIL",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "masking",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "masking",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.884552001953125,
+      "n": 256,
+      "seed": 155921,
+      "status": "FAIL",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "combined",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "combined",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.41796875,
+      "n": 256,
+      "seed": 155921,
+      "status": "FAIL",
+      "tolerance": 0.0001
+    }
+  ],
+  "status": "STOP_REPLAY_MISMATCH"
+}

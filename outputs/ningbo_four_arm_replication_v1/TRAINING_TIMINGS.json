@@ -1,0 +1,66 @@
+{
+  "trainer_pid": 39496,
+  "events": [
+    {
+      "arm": "masking",
+      "seed": 104729,
+      "start_utc": "2026-10-17T13:04:35.049780+00:00",
+      "start_source": "observed UNIT_START/progress monitor",
+      "peak_gpu_memory_bytes": 282212864,
+      "last_status_utc": "2026-10-17T13:38:13.524720+00:00",
+      "end_utc": "2026-10-17T13:38:36.164863+00:00",
+      "wall_seconds": 2041.115083
+    },
+    {
+      "arm": "masking",
+      "seed": 130363,
+      "start_utc": "2026-10-17T13:38:36.164863+00:00",
+      "start_source": "observed UNIT_START/progress monitor",
+      "peak_gpu_memory_bytes": 283986432,
+      "last_status_utc": "2026-10-17T13:59:53.793392+00:00",
+      "end_utc": "2026-10-17T14:00:17.741539+00:00",
+      "wall_seconds": 1301.576676
+    },
+    {
+      "arm": "masking",
+      "seed": 155921,
+      "start_utc": "2026-10-17T14:00:17.742951+00:00",
+      "start_source": "observed UNIT_START/progress monitor",
+      "peak_gpu_memory_bytes": 283986432,
+      "last_status_utc": "2026-10-17T14:31:24.401475+00:00",
+      "end_utc": "2026-10-17T14:31:52.053577+00:00",
+      "wall_seconds": 1894.310626
+    },
+    {
+      "arm": "combined",
+      "seed": 104729,
+      "start_utc": "2026-10-17T14:31:52.053577+00:00",
+      "start_source": "observed UNIT_START/progress monitor",
+      "peak_gpu_memory_bytes": 283986432,
+      "last_status_utc": "2026-10-17T14:52:08.564986+00:00",
+      "end_utc": "2026-10-17T14:52:35.032767+00:00",
+      "wall_seconds": 1242.97919
+    },
+    {
+      "arm": "combined",
+      "seed": 130363,
+      "start_utc": "2026-10-17T14:52:35.032767+00:00",
+      "start_source": "observed UNIT_START/progress monitor",
+      "peak_gpu_memory_bytes": 283986432,
+      "last_status_utc": "2026-10-17T15:10:38.344683+00:00",
+      "end_utc": "2026-10-17T15:11:02.873144+00:00",
+      "wall_seconds": 1107.840377
+    },
+    {
+      "arm": "combined",
+      "seed": 155921,
+      "start_utc": "2026-10-17T15:11:02.873144+00:00",
+      "start_source": "observed UNIT_START/progress monitor",
+      "peak_gpu_memory_bytes": 283986432,
+      "last_status_utc": "2026-10-17T15:31:18.807566+00:00",
+      "end_utc": "2026-10-17T15:31:45.872509+00:00",
+      "wall_seconds": 1242.999365
+    }
+  ],
+  "updated_utc": "2026-10-17T15:31:45.872509+00:00"
+}

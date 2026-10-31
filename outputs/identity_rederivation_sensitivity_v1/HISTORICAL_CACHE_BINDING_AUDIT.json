@@ -1,0 +1,332 @@
+{
+  "cycle_inference_units_complete": 18,
+  "original_clean_bindings_passed": 18,
+  "selected_unit_count": 18,
+  "status": "PASS",
+  "units": [
+    {
+      "arm": "ordinary",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Chapman",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/phase1_chapman_seed1_v4/test_predictions_v4/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/phase1_chapman_seed1_v4/test_predictions_manifest_v4.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 104729
+    },
+    {
+      "arm": "ordinary",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Chapman",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/phase2_chapman_multiseed_v7/seed_130363/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/phase2_chapman_multiseed_v7/seed_130363/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 130363
+    },
+    {
+      "arm": "ordinary",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Chapman",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/phase2_chapman_multiseed_v7/seed_155921/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/phase2_chapman_multiseed_v7/seed_155921/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 155921
+    },
+    {
+      "arm": "physics_aware",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Chapman",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/mitigation_m1_v1/physics_aware/seed_104729/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/mitigation_m1_v1/physics_aware/seed_104729/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 104729
+    },
+    {
+      "arm": "physics_aware",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Chapman",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/mitigation_m1_v1/physics_aware/seed_130363/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/mitigation_m1_v1/physics_aware/seed_130363/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 130363
+    },
+    {
+      "arm": "physics_aware",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Chapman",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/mitigation_m1_v1/physics_aware/seed_155921/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/mitigation_m1_v1/physics_aware/seed_155921/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 155921
+    },
+    {
+      "arm": "combined",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Chapman",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/mitigation_m1_v1/combined/seed_104729/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/mitigation_m1_v1/combined/seed_104729/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 104729
+    },
+    {
+      "arm": "combined",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Chapman",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/mitigation_m1_v1/combined/seed_130363/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/mitigation_m1_v1/combined/seed_130363/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 130363
+    },
+    {
+      "arm": "combined",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Chapman",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/mitigation_m1_v1/combined/seed_155921/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/mitigation_m1_v1/combined/seed_155921/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 155921
+    },
+    {
+      "arm": "ordinary",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Ningbo",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/ningbo_confirmation_v2/seed_104729/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/ningbo_confirmation_v2/seed_104729/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 104729
+    },
+    {
+      "arm": "ordinary",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Ningbo",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/ningbo_confirmation_v2/seed_130363/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/ningbo_confirmation_v2/seed_130363/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 130363
+    },
+    {
+      "arm": "ordinary",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Ningbo",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/ningbo_confirmation_v2/seed_155921/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/ningbo_confirmation_v2/seed_155921/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 155921
+    },
+    {
+      "arm": "physics_aware",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Ningbo",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/mitigation_m2_ningbo_v1/seed_104729/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/mitigation_m2_ningbo_v1/seed_104729/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 104729
+    },
+    {
+      "arm": "physics_aware",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Ningbo",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/mitigation_m2_ningbo_v1/seed_130363/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/mitigation_m2_ningbo_v1/seed_130363/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 130363
+    },
+    {
+      "arm": "physics_aware",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Ningbo",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/mitigation_m2_ningbo_v1/seed_155921/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/mitigation_m2_ningbo_v1/seed_155921/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 155921
+    },
+    {
+      "arm": "combined",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Ningbo",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/ningbo_four_arm_replication_v1/combined/seed_104729/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/ningbo_four_arm_replication_v1/combined/seed_104729/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 104729
+    },
+    {
+      "arm": "combined",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Ningbo",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/ningbo_four_arm_replication_v1/combined/seed_130363/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/ningbo_four_arm_replication_v1/combined/seed_130363/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 130363
+    },
+    {
+      "arm": "combined",
+      "cache_hash_match": true,
+      "canonical_order_and_label_hash_match": true,
+      "cohort": "Ningbo",
+      "cycle_manifest_unit_complete": true,
+      "historical_clean_path": "outputs/ningbo_four_arm_replication_v1/combined/seed_155921/test_predictions/clean.npz",
+      "manifests": [
+        {
+          "clean_prediction_path_and_hash_match_frozen_protocol": true,
+          "path": "outputs/ningbo_four_arm_replication_v1/combined/seed_155921/evaluation_complete.json",
+          "recorded_manifest_fields_match": true,
+          "sha256_match": true
+        }
+      ],
+      "pass": true,
+      "seed": 155921
+    }
+  ]
+}

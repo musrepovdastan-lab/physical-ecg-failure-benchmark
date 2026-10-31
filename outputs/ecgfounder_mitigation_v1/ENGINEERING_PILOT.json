@@ -1,0 +1,186 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-10-18T15:21:37.401396+00:00",
+  "scope": "engineering only; train/validation inputs only; no new test outcomes",
+  "checkpoint_sha256": "ee199f3781f4ae1f732973267f003da0a759ea12bddb0dd28a77faa60aca7997",
+  "official_code_commit": "04edac702b61c91face519774ddcc0cd712fef23",
+  "source_code_sha256": {
+    "runner": "5c4516439d8d56e60f6b8036f7dd6fa76c3c91374ccb67346a7635aee1cccf9b",
+    "physics": "51218806eec81765df6247307e70ccce56f76cfa54e54782f1b47d468014eb9c",
+    "cycle_adapter": "e070fa86efca9d287270a61f6a76acd07926144cad1764eb2403ff6cf880a293",
+    "mask_semantics": "467407691539469f8d6046ce1678a95c6cb7a7d2a802aa373533035e943821e6"
+  },
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "gpu_total_bytes": 8546484224,
+  "gpu_peak_allocated_bytes": 290145280,
+  "gpu_peak_reserved_bytes": 524288000,
+  "backbone_eval": true,
+  "all_parameters_frozen": true,
+  "state_dict_unchanged": true,
+  "feature_dimension": 1024,
+  "numeric_tolerance_atol_rtol": [
+    1e-06,
+    0.0
+  ],
+  "old_clean_cache_replay": [
+    {
+      "dataset": "Chapman",
+      "partition": "train",
+      "records": 7163,
+      "sample_replay_records": 32,
+      "sample_feature_max_abs_error": 0.0,
+      "cache_features_sha256": "a0ed7b7754f9082b9743f5b170f9ce74ae32c21c2e1db59eac643cfc7fb22f76",
+      "ordered_ids_sha256": "77d807b5436f8758dfeed2bb0a6311a805b017c442501946dcd76880f88a06c5",
+      "cache_reused_eligible": true
+    },
+    {
+      "dataset": "Chapman",
+      "partition": "validation",
+      "records": 1021,
+      "sample_replay_records": 32,
+      "sample_feature_max_abs_error": 0.0,
+      "cache_features_sha256": "20f4826d93cc9a553cb8585d5d74045c143f5e27e3963da15d847e980b239b06",
+      "ordered_ids_sha256": "272a77fcac424a104d7fef98d2e4de3d6785222c4ba256753aaa36ea91ec0553",
+      "cache_reused_eligible": true
+    },
+    {
+      "dataset": "Ningbo",
+      "partition": "train",
+      "records": 24430,
+      "sample_replay_records": 32,
+      "sample_feature_max_abs_error": 0.0,
+      "cache_features_sha256": "92bf8e2d0e679a0690ce8918e3baa62aebb852cb30fa5f877bc5afbf364f17ec",
+      "ordered_ids_sha256": "fe0d7917466d0b7d4dbfd8a34b4a82ee5379e55318b4c18419a43886a91bfbfa",
+      "cache_reused_eligible": true
+    },
+    {
+      "dataset": "Ningbo",
+      "partition": "validation",
+      "records": 3488,
+      "sample_replay_records": 32,
+      "sample_feature_max_abs_error": 0.0,
+      "cache_features_sha256": "3e98fc1985bf1ec19a2314b8e0dbb5b88bb6f27895d7f2e6f938d0c668bda216",
+      "ordered_ids_sha256": "76489ab169b935fb915885ef915fecce4bde98021d13b9866d7c2716c014f832",
+      "cache_reused_eligible": true
+    }
+  ],
+  "transformed_train_engineering_checks": [
+    {
+      "dataset": "Chapman",
+      "condition": "RA_LA_reversal",
+      "preprocessing_before_encoder": true,
+      "feature_dimension": 1024,
+      "chest_lead_max_abs_change_raw_mv": 8.881784197001252e-16,
+      "finite_features_and_logits": true
+    },
+    {
+      "dataset": "Chapman",
+      "condition": "RA_LL_reversal",
+      "preprocessing_before_encoder": true,
+      "feature_dimension": 1024,
+      "chest_lead_max_abs_change_raw_mv": 8.881784197001252e-16,
+      "finite_features_and_logits": true
+    },
+    {
+      "dataset": "Chapman",
+      "condition": "LA_LL_reversal",
+      "preprocessing_before_encoder": true,
+      "feature_dimension": 1024,
+      "chest_lead_max_abs_change_raw_mv": 8.881784197001252e-16,
+      "finite_features_and_logits": true
+    },
+    {
+      "dataset": "Ningbo",
+      "condition": "RA_LA_reversal",
+      "preprocessing_before_encoder": true,
+      "feature_dimension": 1024,
+      "chest_lead_max_abs_change_raw_mv": 8.881784197001252e-16,
+      "finite_features_and_logits": true
+    },
+    {
+      "dataset": "Ningbo",
+      "condition": "RA_LL_reversal",
+      "preprocessing_before_encoder": true,
+      "feature_dimension": 1024,
+      "chest_lead_max_abs_change_raw_mv": 8.881784197001252e-16,
+      "finite_features_and_logits": true
+    },
+    {
+      "dataset": "Ningbo",
+      "condition": "LA_LL_reversal",
+      "preprocessing_before_encoder": true,
+      "feature_dimension": 1024,
+      "chest_lead_max_abs_change_raw_mv": 8.881784197001252e-16,
+      "finite_features_and_logits": true
+    }
+  ],
+  "timings": [
+    {
+      "dataset": "Chapman",
+      "condition": "RA_LA_reversal",
+      "records": 64,
+      "seconds_transform_preprocess_infer": 1.3128092999977525,
+      "records_per_second": 48.75041637815147
+    },
+    {
+      "dataset": "Chapman",
+      "condition": "RA_LL_reversal",
+      "records": 64,
+      "seconds_transform_preprocess_infer": 1.2863403000228573,
+      "records_per_second": 49.75355277204856
+    },
+    {
+      "dataset": "Chapman",
+      "condition": "LA_LL_reversal",
+      "records": 64,
+      "seconds_transform_preprocess_infer": 1.2980079000117257,
+      "records_per_second": 49.30632548493877
+    },
+    {
+      "dataset": "Ningbo",
+      "condition": "RA_LA_reversal",
+      "records": 64,
+      "seconds_transform_preprocess_infer": 1.2250820999906864,
+      "records_per_second": 52.241396719849675
+    },
+    {
+      "dataset": "Ningbo",
+      "condition": "RA_LL_reversal",
+      "records": 64,
+      "seconds_transform_preprocess_infer": 1.1619389000115916,
+      "records_per_second": 55.080348888707945
+    },
+    {
+      "dataset": "Ningbo",
+      "condition": "LA_LL_reversal",
+      "records": 64,
+      "seconds_transform_preprocess_infer": 1.2111941000039224,
+      "records_per_second": 52.84041591665014
+    }
+  ],
+  "pilot_total_wall_seconds": 11.148072999989381,
+  "pilot_inference_pipeline_records_per_second": 51.2316092195371,
+  "input_reads_train_only": 128,
+  "mask_control": {
+    "indices_zeroed_at_encoder_input_after_official_preprocessing": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "other_channels_unchanged": true,
+    "same_rule_for_clean_head_and_physics_head": true,
+    "resnet_difference": "ResNet masks in raw displayed-lead space by replacing selected channels with train lead means before channel-wise normalization; this Founder control zeros those channels after its official filtering and global z-score, preserving all other normalized channels."
+  },
+  "resource_estimate": {
+    "new_train_feature_rows": 94779,
+    "new_test_feature_rows": 325116,
+    "new_test_views_per_record": 36,
+    "estimated_total_new_feature_rows": 419895,
+    "conservative_factor_over_pilot": 1.75,
+    "estimated_gpu_hours": 3.984173601210262,
+    "limit_gpu_hours": 6.0,
+    "within_limit": true
+  }
+}

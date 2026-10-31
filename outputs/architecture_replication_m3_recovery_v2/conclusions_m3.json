@@ -1,0 +1,151 @@
+{
+  "analysis_status": "corrected_reanalysis_of_previously_accessed_Chapman_test; not untouched confirmation",
+  "bootstrap_twa": {
+    "contrast_reduction": {
+      "bootstrap_mean": 0.4050256247719129,
+      "endpoint": "TWA",
+      "estimand": "contrast_reduction",
+      "lower95": 0.36777623767654105,
+      "replicates": 1000,
+      "synchronized": true,
+      "unit": "canonical record",
+      "upper95": 0.44547800781826175
+    },
+    "physics_mean_mask_minus_ra_ll": {
+      "bootstrap_mean": -0.10315360680222511,
+      "endpoint": "TWA",
+      "estimand": "physics_mean_mask_minus_ra_ll",
+      "lower95": -0.12544158374269804,
+      "replicates": 1000,
+      "synchronized": true,
+      "unit": "canonical record",
+      "upper95": -0.080032978951931
+    },
+    "physics_minus_clean_clean": {
+      "bootstrap_mean": -0.007652181804180145,
+      "endpoint": "TWA",
+      "estimand": "physics_minus_clean_clean",
+      "lower95": -0.027096500496069587,
+      "replicates": 1000,
+      "synchronized": true,
+      "unit": "canonical record",
+      "upper95": 0.011891101797421833
+    },
+    "physics_minus_clean_mean_mask": {
+      "bootstrap_mean": -0.01892336281140645,
+      "endpoint": "TWA",
+      "estimand": "physics_minus_clean_mean_mask",
+      "lower95": -0.0337800328930219,
+      "replicates": 1000,
+      "synchronized": true,
+      "unit": "canonical record",
+      "upper95": -0.004486031830310842
+    },
+    "physics_minus_clean_ra_ll": {
+      "bootstrap_mean": 0.38610226196050645,
+      "endpoint": "TWA",
+      "estimand": "physics_minus_clean_ra_ll",
+      "lower95": 0.34671866446733474,
+      "replicates": 1000,
+      "synchronized": true,
+      "unit": "canonical record",
+      "upper95": 0.4248730722814798
+    }
+  },
+  "decision": "FAIL_M3_ARCHITECTURE_SPECIFIC",
+  "frozen_thresholds_changed": false,
+  "gate_checks": {
+    "aggregate_contrast_reduction_min_0_15": {
+      "pass": true,
+      "threshold": 0.15,
+      "value": 0.4050692048702242
+    },
+    "all_integrity_gates": {
+      "pass": true,
+      "value": true
+    },
+    "any_clean_decline_max_0_04": {
+      "pass": true,
+      "threshold": -0.04,
+      "values": [
+        0.02009548823965912,
+        -0.0032531487420337513,
+        -0.03967669365734228
+      ]
+    },
+    "any_mask_decline_max_0_04": {
+      "pass": false,
+      "threshold": -0.04,
+      "values": [
+        0.02653334749628844,
+        0.029606188982806425,
+        -0.11256703322433398
+      ]
+    },
+    "mean_clean_decline_max_0_02": {
+      "pass": true,
+      "threshold": -0.02,
+      "values": [
+        0.02009548823965912,
+        -0.0032531487420337513,
+        -0.03967669365734228
+      ]
+    },
+    "mean_mask_decline_max_0_02": {
+      "pass": true,
+      "threshold": -0.02,
+      "values": [
+        0.02653334749628844,
+        0.029606188982806425,
+        -0.11256703322433398
+      ]
+    },
+    "physics_contrast_upper95_max_0_15": {
+      "pass": true,
+      "threshold": 0.15,
+      "upper95": -0.080032978951931
+    },
+    "ra_ll_twa_improvement_each_seed_min_0_15": {
+      "pass": true,
+      "threshold": 0.15,
+      "values": [
+        0.4285650784377727,
+        0.3580782262593452,
+        0.37213681316831543
+      ]
+    }
+  },
+  "if_failed": "Do not proceed to Ningbo; retain corrected Chapman results and report exact failed conditions.",
+  "mean_contrast_reduction_point_estimate": 0.4050692048702242,
+  "ningbo_stage_b_authorized_by_gate": false,
+  "per_seed": {
+    "104729": {
+      "clean_change": 0.02009548823965912,
+      "clean_contrast": 0.28502100079507453,
+      "clean_ra_ll_auprc": 0.20899845498872438,
+      "mean_mask_change": 0.02653334749628844,
+      "physics_contrast": -0.11701073014640972,
+      "physics_ra_ll_auprc": 0.6375635334264971,
+      "ra_ll_gain": 0.4285650784377727
+    },
+    "130363": {
+      "clean_change": -0.0032531487420337513,
+      "clean_contrast": 0.281258085028582,
+      "clean_ra_ll_auprc": 0.22495408764888242,
+      "mean_mask_change": 0.029606188982806425,
+      "physics_contrast": -0.04721395224795677,
+      "physics_ra_ll_auprc": 0.5830323139082276,
+      "ra_ll_gain": 0.3580782262593452
+    },
+    "155921": {
+      "clean_change": -0.03967669365734228,
+      "clean_contrast": 0.3385068104316666,
+      "clean_ra_ll_auprc": 0.2209103099018897,
+      "mean_mask_change": -0.11256703322433398,
+      "physics_contrast": -0.14619703596098282,
+      "physics_ra_ll_auprc": 0.5930471230702051,
+      "ra_ll_gain": 0.37213681316831543
+    }
+  },
+  "protocol_binding_sha256": "e4a3287aa726325360845ffe200f905c963c7a51ec44241a198a1b434d3dc3de"
+}

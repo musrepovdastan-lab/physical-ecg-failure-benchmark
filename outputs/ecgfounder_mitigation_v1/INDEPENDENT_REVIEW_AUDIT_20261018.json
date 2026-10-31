@@ -1,0 +1,55 @@
+{
+  "review_date": "2026-10-18",
+  "status": "ENGINEERING_ONLY_NO_SCIENTIFIC_RESULT_YET",
+  "protocol_fingerprint_matches": true,
+  "frozen_source_files_hashed": 42,
+  "mask_panel_reproduced": 32,
+  "cache_audits": [
+    {
+      "file": "chapman_train_clean.meta.json",
+      "shape": [
+        7163,
+        1024
+      ],
+      "completed": 7163,
+      "finite_committed_rows": true,
+      "verified_reuse": true,
+      "status": "verified_reuse"
+    },
+    {
+      "file": "chapman_train_RA_LA_reversal.meta.json",
+      "shape": [
+        7163,
+        1024
+      ],
+      "completed": 2464,
+      "finite_committed_rows": true,
+      "verified_reuse": false,
+      "status": "IN_PROGRESS"
+    },
+    {
+      "file": "chapman_validation_clean.meta.json",
+      "shape": [
+        1021,
+        1024
+      ],
+      "completed": 1021,
+      "finite_committed_rows": true,
+      "verified_reuse": true,
+      "status": "verified_reuse"
+    }
+  ],
+  "heads_trained": 0,
+  "test_predictions": 0,
+  "newly_identified_blocker": "make_test_predictions passes zero mean and unit std to predict, although head training/validation use the saved clean-train feature standardization. Fix before test inference.",
+  "test_predict_calls": [
+    {
+      "line": 548,
+      "expression": "predict(head, features, np.zeros(1024, np.float32), np.ones(1024, np.float32))"
+    }
+  ],
+  "other_required_execution_fix": "Idempotent head resume: completed early-stopped runs must not enter another training epoch when the workflow is restarted.",
+  "resource_limit_origin": "The previous assistant prompt introduced six hours; this was not an independently stated user hardware constraint.",
+  "resource_units": "Reported 8.67-hour projection is end-to-end single-device pipeline wall time, not measured CUDA busy time.",
+  "gpu_replay_independently_rerun": false
+}

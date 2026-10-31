@@ -1,0 +1,9 @@
+{
+    "scope":  "reporting and verification only",
+    "reason":  "Added a transitive historical cache binding audit and recorded stage runtimes in the new package; expanded the final report with measured score/metric effect sizes. No model, input, condition, threshold, metric, bootstrap indices or prediction changed.",
+    "prior_protocol_sha256":  "c7652e1604ef445c89453cd84b2022ddf687c8e409c31ce2911828a4dcb8fc81",
+    "amendment":  "004",
+    "source_script_path":  "outputs/identity_rederivation_sensitivity_v1/run_identity_sensitivity_pre_report_amendment.py",
+    "created_utc":  "2026-10-19T14:57:52.4172473Z",
+    "source_script_sha256":  "a57b602561e848e56cfaf6bab8f44c939aaa13c160ba39415f6b93e4ac3cb4a5"
+}

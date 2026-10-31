@@ -1,0 +1,29 @@
+{
+  "amendment": "003",
+  "amendment_002_sha256": "42101ae0628c68e3fed0a9fd5cd17b8bd0a5ac3effd309aa9029c2fdbc0233ef",
+  "bound_inputs": {
+    "outputs/mixed_fault_calibration_v1/BOOTSTRAP_METRICS_REPLICATES.npz": "d84e18e562737f04e72e453302a48ee8fee3b51091f20b22aae190e8ec9e7890",
+    "outputs/mixed_fault_calibration_v1/BOOTSTRAP_METRICS_SUMMARY.csv": "3d1a6e9582846e571505a7347c25ee1e55d97b85251890940a34a6ea72cade03",
+    "outputs/mixed_fault_calibration_v2/FROZEN_COMPLETION_AMENDMENT_001.json": "6d4d2dedcf326d94dd3189964ddb5b6646d18db01c66aee4ad6de834184bd300",
+    "outputs/mixed_fault_calibration_v2/FROZEN_COMPLETION_AMENDMENT_002.json": "42101ae0628c68e3fed0a9fd5cd17b8bd0a5ac3effd309aa9029c2fdbc0233ef",
+    "outputs/mixed_fault_calibration_v2/FROZEN_COMPLETION_PROTOCOL.json": "658b12c968bf8e270de1a68882a3d39564b6e63b6e526766bbcd4c84eab781fd",
+    "outputs/mixed_fault_calibration_v2/HUANG_CALIBRATION_AND_PROVENANCE.json": "98a1282797abcdd1eab6307f94de675841789a77cd5d1063a717d4f2c20387be",
+    "outputs/mixed_fault_calibration_v2/HUANG_VALIDATION_INFERENCE_AUDIT.json": "7480e7a75f1a73a93730db16516fd28cff2ce4a0a19aef248312f71470536357",
+    "outputs/mixed_fault_calibration_v2/MIXTURE_RESULTS_BY_SEED.csv": "dd2c9b7d3f7a74cf7d7632191bb97fa8f099156196e457104914d34888a7c4ef",
+    "outputs/mixed_fault_calibration_v2/SCORE_COVERAGE_AUDIT.csv": "5120fbdf03434d4bacd96091762a591d8db2bc299b5e700de53d66c3530040f0",
+    "outputs/mixed_fault_calibration_v2/huang_validation_scores.npz": "90ab9c6b6cc7c70a3beea5c5cd610cee0f7e3c1300bb364c87197856cec116e7",
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_RA_LL_reversal_seed_104729.npz": "2b8d12e13d4197f3ea5f2f031fe990be4ad7101c510168e629ff685396f1dd4f",
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_RA_LL_reversal_seed_130363.npz": "2577109cf89e86ce96a8f07a989bd6bde740fd554fad55ebc6276ac24dc28e4b",
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_RA_LL_reversal_seed_155921.npz": "35ada66a27ec95b1619285c4f8e2d998c2c738e77229c5de0c27f9e597108983",
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_clean_seed_104729.npz": "1cc564d66eb39942e56d11597c13eebeb9048c3402dc117dcc2b85ab465d7536",
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_clean_seed_130363.npz": "db04f9ece468d12e9188b0be68e5cdfd8448814cbc2cbe0ab20a9b05464b5644",
+    "outputs/published_detector_pipeline_v1/cache/huang_corrected_clean_seed_155921.npz": "8374fe73899eb5b4637ceb4047f0df1fe5b0652f349caa1c92de242b0a8f7a18"
+  },
+  "complete_analysis_py_sha256": "72940060757468f3f8d276c193d309be1c7a06c1acf4aab4da6fc1af86831327",
+  "post_result_method_or_tolerance_change": false,
+  "protocol_sha256": "658b12c968bf8e270de1a68882a3d39564b6e63b6e526766bbcd4c84eab781fd",
+  "reason": "The first full 1000-draw pass for both sources reproduced every v1 absolute metric draw within 1e-12. Final packaging QA then caught that the copied HEEDB v1 Huang historical contrast was overwritten with an all-NaN calibrated slot. No new bootstrap artifact was committed.",
+  "resolution": "Copy only the valid raw historical Huang contrast into the explicitly named raw_legacy_v1_Huang_historical axis. Preserve all estimands, score thresholds, methods, fixed RNG seed/order, and intervals. Rerun the deterministic stream and all v1 draw checks before writing completion artifacts.",
+  "root_cause": "Array-copy loop copied both raw and calibrated v1 Huang contrasts into a single legacy historical-threshold axis; the later all-NaN calibrated array overwrote the valid raw historical array.",
+  "status": "FROZEN_BEFORE_BOOTSTRAP_RETRY"
+}

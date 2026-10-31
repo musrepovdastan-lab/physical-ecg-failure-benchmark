@@ -1,0 +1,20 @@
+{
+  "checkpoint": "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\outputs\\published_detector_pipeline_v1\\official_source\\LDenseNet_loadable\\LDenseNet",
+  "conditions": [
+    "clean",
+    "RA_LL_reversal",
+    "RA_LA_reversal",
+    "LA_LL_reversal"
+  ],
+  "new": [
+    "RA_LA_reversal",
+    "LA_LL_reversal"
+  ],
+  "protocol_sha256": "8038dae11ce13eab81440ebd4e13fda7f05ab9c030af707a04728bac7185af24",
+  "reused": [
+    "clean",
+    "RA_LL_reversal"
+  ],
+  "status": "PASS",
+  "tensorflow_version": "2.10.1"
+}

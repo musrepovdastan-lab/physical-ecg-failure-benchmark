@@ -1,0 +1,88 @@
+{
+  "stage": "combined Ningbo replay at first/middle/last test blocks",
+  "status": "FAILED_UNDER_FROZEN_TOLERANCE",
+  "protocol_tolerance": 0.0001,
+  "maximum_abs_probability_delta": 0.00048828125,
+  "failing_rows": [
+    {
+      "block": [
+        6800,
+        6928
+      ],
+      "block_record_ids_sha256": "c294d8a7bf044786a6a194194ba5f82f06ce3805156c413b95fbebe5a1996a5b",
+      "condition": "RA_LL_reversal",
+      "max_abs_probability_delta": 0.000244140625,
+      "method": "combined",
+      "seed": 104729,
+      "status": "FAIL",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6800,
+        6928
+      ],
+      "block_record_ids_sha256": "c294d8a7bf044786a6a194194ba5f82f06ce3805156c413b95fbebe5a1996a5b",
+      "condition": "RA_LA_reversal",
+      "max_abs_probability_delta": 0.00048828125,
+      "method": "combined",
+      "seed": 104729,
+      "status": "FAIL",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6800,
+        6928
+      ],
+      "block_record_ids_sha256": "c294d8a7bf044786a6a194194ba5f82f06ce3805156c413b95fbebe5a1996a5b",
+      "condition": "LA_LL_reversal",
+      "max_abs_probability_delta": 0.000244140625,
+      "method": "combined",
+      "seed": 104729,
+      "status": "FAIL",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6800,
+        6928
+      ],
+      "block_record_ids_sha256": "c294d8a7bf044786a6a194194ba5f82f06ce3805156c413b95fbebe5a1996a5b",
+      "condition": "RA_LA_reversal",
+      "max_abs_probability_delta": 0.0003662109375,
+      "method": "combined",
+      "seed": 130363,
+      "status": "FAIL",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6800,
+        6928
+      ],
+      "block_record_ids_sha256": "c294d8a7bf044786a6a194194ba5f82f06ce3805156c413b95fbebe5a1996a5b",
+      "condition": "RA_LL_reversal",
+      "max_abs_probability_delta": 0.000244140625,
+      "method": "combined",
+      "seed": 155921,
+      "status": "FAIL",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6800,
+        6928
+      ],
+      "block_record_ids_sha256": "c294d8a7bf044786a6a194194ba5f82f06ce3805156c413b95fbebe5a1996a5b",
+      "condition": "RA_LA_reversal",
+      "max_abs_probability_delta": 0.000244140625,
+      "method": "combined",
+      "seed": 155921,
+      "status": "FAIL",
+      "tolerance": 0.0001
+    }
+  ],
+  "reason": "The fixed final block produced per-probability deltas above the predeclared tolerance. No tolerance was changed and no result files were recalculated. Investigating source-order/raw-input binding.",
+  "scientific_scope_changed": false
+}

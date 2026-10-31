@@ -1,0 +1,9 @@
+{
+  "bootstrap_replicates": 1000,
+  "bootstrap_unit": "patient",
+  "completed_utc": "2026-09-24T02:02:39.872036+00:00",
+  "decision": "PASS",
+  "paired_across_arms_seeds_conditions": true,
+  "patient_or_record_identifiers_in_outputs": false,
+  "patients": 10000
+}

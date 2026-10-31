@@ -1,0 +1,14 @@
+{
+  "all_evaluation_checkpoint_hashes_match": true,
+  "all_validation_gates_pass": true,
+  "checked_utc": "2026-08-30T13:53:05.983644+00:00",
+  "conditions_per_unit": 794,
+  "prediction_shape": [
+    2050,
+    3
+  ],
+  "protocol_sha256": "248976F691003DAA45C5F188C53F7CF75891F19F8723223477FC41E1D65667CE",
+  "status": "PASS",
+  "trainer_or_inference_active": false,
+  "unit_count": 9
+}

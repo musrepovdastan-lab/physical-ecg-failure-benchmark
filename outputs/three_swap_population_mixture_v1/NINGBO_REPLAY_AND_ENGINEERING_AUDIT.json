@@ -1,0 +1,245 @@
+{
+  "formula_and_channel_checks": [
+    {
+      "condition": "RA_LL_reversal",
+      "max_V1_V6_delta": 0.0,
+      "max_formula_delta_vs_frozen_transform": 0.0,
+      "records": 256,
+      "status": "PASS"
+    },
+    {
+      "condition": "RA_LA_reversal",
+      "max_V1_V6_delta": 0.0,
+      "max_formula_delta_vs_frozen_transform": 0.0,
+      "records": 256,
+      "status": "PASS"
+    },
+    {
+      "condition": "LA_LL_reversal",
+      "max_V1_V6_delta": 0.0,
+      "max_formula_delta_vs_frozen_transform": 0.0,
+      "records": 256,
+      "status": "PASS"
+    }
+  ],
+  "frozen_prediction_replay": [
+    {
+      "condition": "clean",
+      "max_abs_delta": 0.0,
+      "method": "ordinary_resnet",
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "max_abs_delta": 0.0,
+      "method": "ordinary_resnet",
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "RA_LA_reversal",
+      "max_abs_delta": 0.0,
+      "method": "ordinary_resnet",
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "LA_LL_reversal",
+      "max_abs_delta": 0.0,
+      "method": "ordinary_resnet",
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "clean",
+      "max_abs_delta": 0.0,
+      "method": "ordinary_resnet",
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "max_abs_delta": 0.0,
+      "method": "ordinary_resnet",
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "RA_LA_reversal",
+      "max_abs_delta": 0.0,
+      "method": "ordinary_resnet",
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "LA_LL_reversal",
+      "max_abs_delta": 0.0,
+      "method": "ordinary_resnet",
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "clean",
+      "max_abs_delta": 0.0,
+      "method": "ordinary_resnet",
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "max_abs_delta": 0.0,
+      "method": "ordinary_resnet",
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "RA_LA_reversal",
+      "max_abs_delta": 0.0,
+      "method": "ordinary_resnet",
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "LA_LL_reversal",
+      "max_abs_delta": 0.0,
+      "method": "ordinary_resnet",
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "clean",
+      "max_abs_delta": 0.0,
+      "method": "physics_aware_p050",
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "max_abs_delta": 0.0,
+      "method": "physics_aware_p050",
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "RA_LA_reversal",
+      "max_abs_delta": 0.0,
+      "method": "physics_aware_p050",
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "LA_LL_reversal",
+      "max_abs_delta": 0.0,
+      "method": "physics_aware_p050",
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "clean",
+      "max_abs_delta": 0.0,
+      "method": "physics_aware_p050",
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "max_abs_delta": 0.0,
+      "method": "physics_aware_p050",
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "RA_LA_reversal",
+      "max_abs_delta": 0.0,
+      "method": "physics_aware_p050",
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "LA_LL_reversal",
+      "max_abs_delta": 0.0,
+      "method": "physics_aware_p050",
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "clean",
+      "max_abs_delta": 0.0,
+      "method": "physics_aware_p050",
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "max_abs_delta": 0.0,
+      "method": "physics_aware_p050",
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "RA_LA_reversal",
+      "max_abs_delta": 0.0,
+      "method": "physics_aware_p050",
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "condition": "LA_LL_reversal",
+      "max_abs_delta": 0.0,
+      "method": "physics_aware_p050",
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    }
+  ],
+  "protocol_sha256": "8038dae11ce13eab81440ebd4e13fda7f05ab9c030af707a04728bac7185af24",
+  "status": "PASS"
+}

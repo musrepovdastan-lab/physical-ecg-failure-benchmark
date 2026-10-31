@@ -1,0 +1,7 @@
+﻿{
+    "stdout":  "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\outputs\\mitigation_m1_v1\\workflow_stdout.log",
+    "pid":  7304,
+    "entry":  "src/mitigation_m1_v1.py run",
+    "stderr":  "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\outputs\\mitigation_m1_v1\\workflow_stderr.log",
+    "launched_utc":  "2026-08-30T11:21:30.3460589Z"
+}

@@ -1,0 +1,23 @@
+{
+  "verification": "PASS",
+  "membership_rows": 3488,
+  "role_counts": {
+    "model_selection": 1744,
+    "calibration_A": 872,
+    "threshold_B": 872
+  },
+  "counts_rows": 54,
+  "manifest_files_unchanged": 67,
+  "excluded_conflict_records": 6,
+  "excluded_record_or_waveform_overlap": 0,
+  "calibration_A_positives": {
+    "TWA": 129,
+    "SB": 317,
+    "STach": 142
+  },
+  "threshold_B_positives": {
+    "TWA": 129,
+    "SB": 316,
+    "STach": 142
+  }
+}

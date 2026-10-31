@@ -1,0 +1,7 @@
+{
+  "primary_metric": "TWA AUPRC only; all other endpoints have full-sample descriptive estimates",
+  "replicates": 1000,
+  "rng_seed": 20261017,
+  "seconds": 1486.125,
+  "unit": "canonical record/patient"
+}

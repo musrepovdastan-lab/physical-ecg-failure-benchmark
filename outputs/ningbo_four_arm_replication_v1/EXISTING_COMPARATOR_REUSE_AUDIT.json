@@ -1,0 +1,67 @@
+{
+  "decision": "PASS",
+  "models": [
+    {
+      "arm": "clean",
+      "condition_paths": {
+        "RA_LL_reversal": "outputs/ningbo_confirmation_v2/seed_104729/test_predictions/RA_LL_reversal.npz",
+        "clean": "outputs/ningbo_confirmation_v2/seed_104729/test_predictions/clean.npz"
+      },
+      "corrected_mask_count": 792,
+      "recovery_manifest_sha256": "5a70a822538c5b9b37f40e48e39128c6d859b043930e2093983cb2be29897276",
+      "seed": 104729
+    },
+    {
+      "arm": "clean",
+      "condition_paths": {
+        "RA_LL_reversal": "outputs/ningbo_confirmation_v2/seed_130363/test_predictions/RA_LL_reversal.npz",
+        "clean": "outputs/ningbo_confirmation_v2/seed_130363/test_predictions/clean.npz"
+      },
+      "corrected_mask_count": 792,
+      "recovery_manifest_sha256": "ef3a2bebdf58700a66fa9e87ac7a06302350f732a87c139c68492bfe3901aa9f",
+      "seed": 130363
+    },
+    {
+      "arm": "clean",
+      "condition_paths": {
+        "RA_LL_reversal": "outputs/ningbo_confirmation_v2/seed_155921/test_predictions/RA_LL_reversal.npz",
+        "clean": "outputs/ningbo_confirmation_v2/seed_155921/test_predictions/clean.npz"
+      },
+      "corrected_mask_count": 792,
+      "recovery_manifest_sha256": "e02131a078442f88a810ea04d19f692ed6d643e28a1ae6bc81ffa7b9531f3fd4",
+      "seed": 155921
+    },
+    {
+      "arm": "physics_aware",
+      "condition_paths": {
+        "RA_LL_reversal": "outputs/mask_semantics_recovery_v2/physics_aware_m2/seed_104729/verified_conditions/RA_LL_reversal.npz",
+        "clean": "outputs/mask_semantics_recovery_v2/physics_aware_m2/seed_104729/verified_conditions/clean.npz"
+      },
+      "corrected_mask_count": 792,
+      "recovery_manifest_sha256": "11b6b2f4143781b6fe9d0a5a758c3b73f7b1507ccc09a1432d82b33957a83158",
+      "seed": 104729
+    },
+    {
+      "arm": "physics_aware",
+      "condition_paths": {
+        "RA_LL_reversal": "outputs/mitigation_m2_ningbo_v1/seed_130363/test_predictions/RA_LL_reversal.npz",
+        "clean": "outputs/mitigation_m2_ningbo_v1/seed_130363/test_predictions/clean.npz"
+      },
+      "corrected_mask_count": 792,
+      "recovery_manifest_sha256": "060126ace635427007f5b70a5b1617a4a570455817b71316cee63d9250aea194",
+      "seed": 130363
+    },
+    {
+      "arm": "physics_aware",
+      "condition_paths": {
+        "RA_LL_reversal": "outputs/mitigation_m2_ningbo_v1/seed_155921/test_predictions/RA_LL_reversal.npz",
+        "clean": "outputs/mitigation_m2_ningbo_v1/seed_155921/test_predictions/clean.npz"
+      },
+      "corrected_mask_count": 792,
+      "recovery_manifest_sha256": "42b7d3e9b36c6ec76aa4ef5473d9730d83148bfebd521fcc8a0f2081ff149609",
+      "seed": 155921
+    }
+  ],
+  "old_inverted_mask_cache_reused": false,
+  "recovery_binding_sha256": "b3c050887f99b2979ef20122374552298185e5a8f8004a769650783c1b77b28a"
+}

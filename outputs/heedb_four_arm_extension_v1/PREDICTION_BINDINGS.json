@@ -1,0 +1,334 @@
+{
+  "cohort_n": 10000,
+  "cohort_name": "HEEDB_I0006_independent_confirmation_v1",
+  "label_source_sha256": "32eddfbd813c69138850344ff0f141a1b07c3716ef11bb113cf10c254f66a296",
+  "new_prediction_files": [
+    {
+      "artifact_sha256": "a6cf3dfa9d10030754d9c73a0969db2c24d32a0389558b3bf54cbfa834502651",
+      "checkpoint_or_pipeline_binding_sha256": "c4b1d645bcbbc5fc5cab384d88ae5ac93e2ff8a2e388d92fdb097a2ad455e642",
+      "condition": "clean",
+      "method": "masking",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/masking/seed_104729/clean.npz",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 104729
+    },
+    {
+      "artifact_sha256": "28eb62e98c222706e1ea784acbf5bcb3b32a4c70af08ee87270f9eed4db48ee2",
+      "checkpoint_or_pipeline_binding_sha256": "c4b1d645bcbbc5fc5cab384d88ae5ac93e2ff8a2e388d92fdb097a2ad455e642",
+      "condition": "RA_LL_reversal",
+      "method": "masking",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/masking/seed_104729/RA_LL_reversal.npz",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 104729
+    },
+    {
+      "artifact_sha256": "b555ee3eb07ee2c7a4527c2d45c070fca167ee4feb7e604cb45f56a2b16ca81c",
+      "checkpoint_or_pipeline_binding_sha256": "f03848a0271b01ea36d5ef7ff45739b9595eac61c268339e40b8133a4cde5d95",
+      "condition": "clean",
+      "method": "masking",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/masking/seed_130363/clean.npz",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 130363
+    },
+    {
+      "artifact_sha256": "54e09cc5140a1124f1096a212f563b84399e11cd74d60d87a3dde5fb22a3bef7",
+      "checkpoint_or_pipeline_binding_sha256": "f03848a0271b01ea36d5ef7ff45739b9595eac61c268339e40b8133a4cde5d95",
+      "condition": "RA_LL_reversal",
+      "method": "masking",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/masking/seed_130363/RA_LL_reversal.npz",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 130363
+    },
+    {
+      "artifact_sha256": "4f23e88303a969138ea55c723777bbb41da69a8a4c45add0034eb99a8c68aa8c",
+      "checkpoint_or_pipeline_binding_sha256": "d956223ffd422df68d619622c4c4c6f6406d1dc6c77ceb32e7a8c08553e0ce75",
+      "condition": "clean",
+      "method": "masking",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/masking/seed_155921/clean.npz",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 155921
+    },
+    {
+      "artifact_sha256": "cd210f1f26c8e1f824d01cf81ae140fe3f628f66de4f226b08b356c64433cec3",
+      "checkpoint_or_pipeline_binding_sha256": "d956223ffd422df68d619622c4c4c6f6406d1dc6c77ceb32e7a8c08553e0ce75",
+      "condition": "RA_LL_reversal",
+      "method": "masking",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/masking/seed_155921/RA_LL_reversal.npz",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 155921
+    },
+    {
+      "artifact_sha256": "c39178678e77ada86da0d52e318088a2d5a803f2075beecd79480798e70d0f86",
+      "checkpoint_or_pipeline_binding_sha256": "b5a561a59c00e8d1ce32a3fc76f45a43bbc4f0a3264535b893bae84ce7a3f476",
+      "condition": "clean",
+      "method": "combined",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/combined/seed_104729/clean.npz",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 104729
+    },
+    {
+      "artifact_sha256": "bee8a9ff0d64a6b3a28df1748ee2a3a2a2188c55d1ef231621e3907ab00bf99c",
+      "checkpoint_or_pipeline_binding_sha256": "b5a561a59c00e8d1ce32a3fc76f45a43bbc4f0a3264535b893bae84ce7a3f476",
+      "condition": "RA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/combined/seed_104729/RA_LL_reversal.npz",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 104729
+    },
+    {
+      "artifact_sha256": "505dc7470408e3894e03b385e1620b5293382d4cb73f649ea2a27140263d5448",
+      "checkpoint_or_pipeline_binding_sha256": "29aabc12fc44db58c1e282715cf604f1a576c4f39ba3504c881ca3a7660c4328",
+      "condition": "clean",
+      "method": "combined",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/combined/seed_130363/clean.npz",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 130363
+    },
+    {
+      "artifact_sha256": "4bf1bd95bb03765ab12d5634cf3a25a5abe861cc93095f0048c2229f59c9efd3",
+      "checkpoint_or_pipeline_binding_sha256": "29aabc12fc44db58c1e282715cf604f1a576c4f39ba3504c881ca3a7660c4328",
+      "condition": "RA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/combined/seed_130363/RA_LL_reversal.npz",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 130363
+    },
+    {
+      "artifact_sha256": "866065e80442e1b8521a195ea5d1ed2e61fafe65bf0eb4971008f94d66307f0b",
+      "checkpoint_or_pipeline_binding_sha256": "59c012325adb76fa3d7496242f7e9ad19fc2ea2a278caedc125d37e86431bcc7",
+      "condition": "clean",
+      "method": "combined",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/combined/seed_155921/clean.npz",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 155921
+    },
+    {
+      "artifact_sha256": "24dbc1df5f57156b6ab0ad03b0e13d790ca42b4e44d2a96e9f37f890d64cac4e",
+      "checkpoint_or_pipeline_binding_sha256": "59c012325adb76fa3d7496242f7e9ad19fc2ea2a278caedc125d37e86431bcc7",
+      "condition": "RA_LL_reversal",
+      "method": "combined",
+      "path": "outputs/heedb_four_arm_extension_v1/predictions/combined/seed_155921/RA_LL_reversal.npz",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 155921
+    }
+  ],
+  "patient_order_sha256": "7af9986691871d57df5699e270b3cf4442bf5a733536356155a87094bac09de4",
+  "reused_prediction_bindings": [
+    {
+      "artifact_sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b",
+      "checkpoint_or_pipeline_binding_sha256": "4ccbef0f71197f4156ac34cd742d6ab9210e4e7a6829867a137bd7fceb5ccf40",
+      "condition": "clean",
+      "method": "ordinary_resnet",
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 104729
+    },
+    {
+      "artifact_sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b",
+      "checkpoint_or_pipeline_binding_sha256": "4ccbef0f71197f4156ac34cd742d6ab9210e4e7a6829867a137bd7fceb5ccf40",
+      "condition": "RA_LL_reversal",
+      "method": "ordinary_resnet",
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 104729
+    },
+    {
+      "artifact_sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b",
+      "checkpoint_or_pipeline_binding_sha256": "1baf5865b01456704980878a6e9ed72bb23e587636303b6a419b63c58ee0c600",
+      "condition": "clean",
+      "method": "ordinary_resnet",
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 130363
+    },
+    {
+      "artifact_sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b",
+      "checkpoint_or_pipeline_binding_sha256": "1baf5865b01456704980878a6e9ed72bb23e587636303b6a419b63c58ee0c600",
+      "condition": "RA_LL_reversal",
+      "method": "ordinary_resnet",
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 130363
+    },
+    {
+      "artifact_sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b",
+      "checkpoint_or_pipeline_binding_sha256": "9a71453fe35d94ccdc9bb05925abb6b1bedb1496c1d8105f0ede606904b35949",
+      "condition": "clean",
+      "method": "ordinary_resnet",
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 155921
+    },
+    {
+      "artifact_sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b",
+      "checkpoint_or_pipeline_binding_sha256": "9a71453fe35d94ccdc9bb05925abb6b1bedb1496c1d8105f0ede606904b35949",
+      "condition": "RA_LL_reversal",
+      "method": "ordinary_resnet",
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 155921
+    },
+    {
+      "artifact_sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b",
+      "checkpoint_or_pipeline_binding_sha256": "5e164b3496077b49a063c75c0d712c66531c907f3ef45db62d087f4877fe8d09",
+      "condition": "clean",
+      "method": "physics_aware_resnet",
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 104729
+    },
+    {
+      "artifact_sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b",
+      "checkpoint_or_pipeline_binding_sha256": "5e164b3496077b49a063c75c0d712c66531c907f3ef45db62d087f4877fe8d09",
+      "condition": "RA_LL_reversal",
+      "method": "physics_aware_resnet",
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 104729
+    },
+    {
+      "artifact_sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b",
+      "checkpoint_or_pipeline_binding_sha256": "ef347b6bd2d1cc6e4fd649d299543e78ed23efa044976ac3cf66436c0d695c8f",
+      "condition": "clean",
+      "method": "physics_aware_resnet",
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 130363
+    },
+    {
+      "artifact_sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b",
+      "checkpoint_or_pipeline_binding_sha256": "ef347b6bd2d1cc6e4fd649d299543e78ed23efa044976ac3cf66436c0d695c8f",
+      "condition": "RA_LL_reversal",
+      "method": "physics_aware_resnet",
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 130363
+    },
+    {
+      "artifact_sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b",
+      "checkpoint_or_pipeline_binding_sha256": "fd16f1df621764fd1229ed84e615f016226c00800943c064c021c9136de26eb8",
+      "condition": "clean",
+      "method": "physics_aware_resnet",
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 155921
+    },
+    {
+      "artifact_sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b",
+      "checkpoint_or_pipeline_binding_sha256": "fd16f1df621764fd1229ed84e615f016226c00800943c064c021c9136de26eb8",
+      "condition": "RA_LL_reversal",
+      "method": "physics_aware_resnet",
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 155921
+    },
+    {
+      "artifact_sha256": "7d4680f1a686bf0c61ca7bbebd6615c18b6f29105f7a4a84f02e799badb140d9",
+      "checkpoint_or_pipeline_binding_sha256": "c30ca743fbd65ff455b54a9bb5602e28ad20865249b59fb2bb4cfd7d11e4a70f",
+      "condition": "clean",
+      "method": "chest_only_resnet",
+      "path": "data/heedb_restricted/I0006/mixed_fault_calibration_v1/chest_only_predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "5892c416d7b967704885a60a08c23c22eae0a6581274410e91f259b5c663ac89",
+      "seed": 104729
+    },
+    {
+      "artifact_sha256": "7d4680f1a686bf0c61ca7bbebd6615c18b6f29105f7a4a84f02e799badb140d9",
+      "checkpoint_or_pipeline_binding_sha256": "c30ca743fbd65ff455b54a9bb5602e28ad20865249b59fb2bb4cfd7d11e4a70f",
+      "condition": "RA_LL_reversal",
+      "method": "chest_only_resnet",
+      "path": "data/heedb_restricted/I0006/mixed_fault_calibration_v1/chest_only_predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "5892c416d7b967704885a60a08c23c22eae0a6581274410e91f259b5c663ac89",
+      "seed": 104729
+    },
+    {
+      "artifact_sha256": "7d4680f1a686bf0c61ca7bbebd6615c18b6f29105f7a4a84f02e799badb140d9",
+      "checkpoint_or_pipeline_binding_sha256": "bde73b60e3eab003dc08da8b39c135c71104245aa642ed4a07b8b98ccd57e6d8",
+      "condition": "clean",
+      "method": "chest_only_resnet",
+      "path": "data/heedb_restricted/I0006/mixed_fault_calibration_v1/chest_only_predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "5892c416d7b967704885a60a08c23c22eae0a6581274410e91f259b5c663ac89",
+      "seed": 130363
+    },
+    {
+      "artifact_sha256": "7d4680f1a686bf0c61ca7bbebd6615c18b6f29105f7a4a84f02e799badb140d9",
+      "checkpoint_or_pipeline_binding_sha256": "bde73b60e3eab003dc08da8b39c135c71104245aa642ed4a07b8b98ccd57e6d8",
+      "condition": "RA_LL_reversal",
+      "method": "chest_only_resnet",
+      "path": "data/heedb_restricted/I0006/mixed_fault_calibration_v1/chest_only_predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "5892c416d7b967704885a60a08c23c22eae0a6581274410e91f259b5c663ac89",
+      "seed": 130363
+    },
+    {
+      "artifact_sha256": "7d4680f1a686bf0c61ca7bbebd6615c18b6f29105f7a4a84f02e799badb140d9",
+      "checkpoint_or_pipeline_binding_sha256": "fb550cb9ccd4b4c22699910f2a4f859c1169886165b9f1c7400c4e5b3e62b7e6",
+      "condition": "clean",
+      "method": "chest_only_resnet",
+      "path": "data/heedb_restricted/I0006/mixed_fault_calibration_v1/chest_only_predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "5892c416d7b967704885a60a08c23c22eae0a6581274410e91f259b5c663ac89",
+      "seed": 155921
+    },
+    {
+      "artifact_sha256": "7d4680f1a686bf0c61ca7bbebd6615c18b6f29105f7a4a84f02e799badb140d9",
+      "checkpoint_or_pipeline_binding_sha256": "fb550cb9ccd4b4c22699910f2a4f859c1169886165b9f1c7400c4e5b3e62b7e6",
+      "condition": "RA_LL_reversal",
+      "method": "chest_only_resnet",
+      "path": "data/heedb_restricted/I0006/mixed_fault_calibration_v1/chest_only_predictions_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "5892c416d7b967704885a60a08c23c22eae0a6581274410e91f259b5c663ac89",
+      "seed": 155921
+    },
+    {
+      "artifact_sha256": "e08876d392bd9a64dd4114a9bfaf050ccbf61442a62e005d9f0da341504664f1",
+      "checkpoint_or_pipeline_binding_sha256": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1",
+      "condition": "clean",
+      "method": "huang_pipeline",
+      "path": "data/heedb_restricted/I0006/huang_exploratory_v1/huang_diagnostic_probabilities_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 104729
+    },
+    {
+      "artifact_sha256": "e08876d392bd9a64dd4114a9bfaf050ccbf61442a62e005d9f0da341504664f1",
+      "checkpoint_or_pipeline_binding_sha256": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1",
+      "condition": "RA_LL_reversal",
+      "method": "huang_pipeline",
+      "path": "data/heedb_restricted/I0006/huang_exploratory_v1/huang_diagnostic_probabilities_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 104729
+    },
+    {
+      "artifact_sha256": "e08876d392bd9a64dd4114a9bfaf050ccbf61442a62e005d9f0da341504664f1",
+      "checkpoint_or_pipeline_binding_sha256": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1",
+      "condition": "clean",
+      "method": "huang_pipeline",
+      "path": "data/heedb_restricted/I0006/huang_exploratory_v1/huang_diagnostic_probabilities_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 130363
+    },
+    {
+      "artifact_sha256": "e08876d392bd9a64dd4114a9bfaf050ccbf61442a62e005d9f0da341504664f1",
+      "checkpoint_or_pipeline_binding_sha256": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1",
+      "condition": "RA_LL_reversal",
+      "method": "huang_pipeline",
+      "path": "data/heedb_restricted/I0006/huang_exploratory_v1/huang_diagnostic_probabilities_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 130363
+    },
+    {
+      "artifact_sha256": "e08876d392bd9a64dd4114a9bfaf050ccbf61442a62e005d9f0da341504664f1",
+      "checkpoint_or_pipeline_binding_sha256": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1",
+      "condition": "clean",
+      "method": "huang_pipeline",
+      "path": "data/heedb_restricted/I0006/huang_exploratory_v1/huang_diagnostic_probabilities_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 155921
+    },
+    {
+      "artifact_sha256": "e08876d392bd9a64dd4114a9bfaf050ccbf61442a62e005d9f0da341504664f1",
+      "checkpoint_or_pipeline_binding_sha256": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1",
+      "condition": "RA_LL_reversal",
+      "method": "huang_pipeline",
+      "path": "data/heedb_restricted/I0006/huang_exploratory_v1/huang_diagnostic_probabilities_float32.npy",
+      "preprocessing_or_pipeline_binding_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "seed": 155921
+    }
+  ]
+}

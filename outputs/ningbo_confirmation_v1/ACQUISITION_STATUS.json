@@ -1,0 +1,19 @@
+{
+  "checksum_verified_files": 69810,
+  "completed_files": 69810,
+  "current_group": "g35",
+  "downloaded_bytes_run": 0,
+  "expected_files": 69810,
+  "note": "unique partial files from interrupted attempts are retained safely",
+  "official_manifest_sha256": "f29c2609343c38734f3a3d62be4a9052ca56a9e560e7ad2efc2118563fca2473",
+  "part_files_forbidden_at_completion": false,
+  "pid": 46308,
+  "release": "PhysioNet Challenge 2021 v1.0.3",
+  "retry_attempts_total": 0,
+  "source_index_mode": "verified_local_cache",
+  "source_mapping_sha256": "ae749eebe8fc6efaf42e5e559b3fe494fab93c015306f1dd8c0659a7dc1fdd5e",
+  "stage": "ACQUISITION_COMPLETE",
+  "updated_utc": "2026-08-30T04:24:35.151228+00:00",
+  "verified_bytes_total": 4215509826,
+  "workers": 4
+}

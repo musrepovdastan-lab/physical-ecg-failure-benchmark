@@ -1,0 +1,140 @@
+{
+  "review_date": "2026-10-18",
+  "original_outputs_unchanged": true,
+  "tracked_artifact_hashes_checked": 28,
+  "new_scalar_prediction_hashes_checked": 60,
+  "new_raw_ap_auc_brier_values_recomputed": 540,
+  "raw_metric_max_abs_error": 0.0,
+  "real_scalar_bootstrap_draw_spot_checks": 450,
+  "bootstrap_spot_max_abs_error": 0.0,
+  "mean_mask_per_mask_points_spot_checks": 120,
+  "paired_ap_summary_values_recomputed": 192,
+  "paired_ap_summary_max_abs_error": 0.0,
+  "validation_mismatches": [
+    {
+      "cohort": "Chapman",
+      "arm": "physics_p010",
+      "seed": 104729,
+      "best_epoch": 9,
+      "last_epoch": 14,
+      "best_gate_ap": 0.7462457723994012,
+      "saved_validation_ap": 0.7142545083328341,
+      "last_history_ap": 0.7142545083328341
+    },
+    {
+      "cohort": "Chapman",
+      "arm": "physics_p010",
+      "seed": 130363,
+      "best_epoch": 7,
+      "last_epoch": 12,
+      "best_gate_ap": 0.7375245002190964,
+      "saved_validation_ap": 0.7303729965554269,
+      "last_history_ap": 0.7303729965554269
+    },
+    {
+      "cohort": "Chapman",
+      "arm": "physics_p010",
+      "seed": 155921,
+      "best_epoch": 13,
+      "last_epoch": 18,
+      "best_gate_ap": 0.7553561497945703,
+      "saved_validation_ap": 0.7347127462927598,
+      "last_history_ap": 0.7347127462927598
+    },
+    {
+      "cohort": "Chapman",
+      "arm": "physics_p025",
+      "seed": 104729,
+      "best_epoch": 13,
+      "last_epoch": 18,
+      "best_gate_ap": 0.7614676904732791,
+      "saved_validation_ap": 0.7467335967295303,
+      "last_history_ap": 0.7467335967295303
+    },
+    {
+      "cohort": "Chapman",
+      "arm": "physics_p025",
+      "seed": 130363,
+      "best_epoch": 15,
+      "last_epoch": 20,
+      "best_gate_ap": 0.7550314190918826,
+      "saved_validation_ap": 0.7437665802101395,
+      "last_history_ap": 0.7437665802101395
+    },
+    {
+      "cohort": "Chapman",
+      "arm": "physics_p025",
+      "seed": 155921,
+      "best_epoch": 16,
+      "last_epoch": 21,
+      "best_gate_ap": 0.762905373939592,
+      "saved_validation_ap": 0.752442048865945,
+      "last_history_ap": 0.752442048865945
+    },
+    {
+      "cohort": "Ningbo",
+      "arm": "physics_p010",
+      "seed": 104729,
+      "best_epoch": 7,
+      "last_epoch": 12,
+      "best_gate_ap": 0.6472178004561667,
+      "saved_validation_ap": 0.6235652493597931,
+      "last_history_ap": 0.6235652493597931
+    },
+    {
+      "cohort": "Ningbo",
+      "arm": "physics_p010",
+      "seed": 130363,
+      "best_epoch": 16,
+      "last_epoch": 21,
+      "best_gate_ap": 0.668098742737386,
+      "saved_validation_ap": 0.6554839581488123,
+      "last_history_ap": 0.6554839581488123
+    },
+    {
+      "cohort": "Ningbo",
+      "arm": "physics_p010",
+      "seed": 155921,
+      "best_epoch": 8,
+      "last_epoch": 13,
+      "best_gate_ap": 0.6626246477342864,
+      "saved_validation_ap": 0.6602525813139207,
+      "last_history_ap": 0.6602525813139207
+    },
+    {
+      "cohort": "Ningbo",
+      "arm": "physics_p025",
+      "seed": 104729,
+      "best_epoch": 8,
+      "last_epoch": 13,
+      "best_gate_ap": 0.6563651977799956,
+      "saved_validation_ap": 0.6529601969273424,
+      "last_history_ap": 0.6529601969273424
+    },
+    {
+      "cohort": "Ningbo",
+      "arm": "physics_p025",
+      "seed": 130363,
+      "best_epoch": 8,
+      "last_epoch": 13,
+      "best_gate_ap": 0.6585410333709579,
+      "saved_validation_ap": 0.654507162416368,
+      "last_history_ap": 0.654507162416368
+    },
+    {
+      "cohort": "Ningbo",
+      "arm": "physics_p025",
+      "seed": 155921,
+      "best_epoch": 21,
+      "last_epoch": 26,
+      "best_gate_ap": 0.6833434836415232,
+      "saved_validation_ap": 0.65146161542962,
+      "last_history_ap": 0.65146161542962
+    }
+  ],
+  "review_limits": [
+    "No GPU replay or checkpoint tensor equality was rerun.",
+    "All new Chapman test ID sequences checked against canonical split; labels agree across newly evaluated conditions. Ningbo labels checked against canonical record table.",
+    "Mean-mask summaries reproduced from saved 792-mask points/draws, with 120 per-mask point checks, rather than independently repeating all 1000 full-panel bootstraps."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "amended_utc": "2026-10-16T19:19:36.050176+00:00",
+  "amendment_binding_sha256": "0c6a9ff7f595762cdbdb1adad2635bfcfc0635e25ff05feaf38421008a9d7969",
+  "amendment_version": "002",
+  "change": "Keep prediction-cache hashes in prediction_path and validate/write the separate bootstrap task_path. Preserve prediction checks, bootstrap indices, mask semantics, frozen thresholds, and all generated point metrics.",
+  "existing_mask_inference_preserved": true,
+  "point_metrics_completed_before_patch": true,
+  "prior_amendment_binding_sha256": "aa67749487503c8fa080bf41a216452bf673d9f64b626240c90f837f716a41dc",
+  "prior_protocol_binding_sha256": "b3c050887f99b2979ef20122374552298185e5a8f8004a769650783c1b77b28a",
+  "prior_runner_source_sha256": "7427bdd8dcea8139b2e93efbb8408181b207e20811f7c1fc40b1554b593a4bc7",
+  "reason": "The point-metric stage completed, but bootstrap task validation exposed variable shadowing: the last prediction cache path was checked in place of the bootstrap task path. No bootstrap task was accepted or written before this validation failure.",
+  "runner_source_sha256": "f7af4f95bab78d18cf899dacab0915b8ddf5db63741121db3e11d4cb9b11c429",
+  "scope": "Bootstrap cache-path bookkeeping only; no scores, estimands, labels, split, seed, model, training, or tolerance changed."
+}

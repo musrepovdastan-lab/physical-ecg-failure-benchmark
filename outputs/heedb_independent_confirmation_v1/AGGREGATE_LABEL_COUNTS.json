@@ -1,0 +1,10 @@
+{
+  "outcomes": {
+    "core_SB": 1637,
+    "core_STach": 615,
+    "core_TWA": 1456,
+    "strict_SB": 1453,
+    "strict_TWA": 727
+  },
+  "patients": 10000
+}

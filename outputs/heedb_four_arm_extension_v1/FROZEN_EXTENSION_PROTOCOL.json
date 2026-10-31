@@ -1,0 +1,297 @@
+{
+  "bootstrap": {
+    "indices_file": "HEEDB_BOOTSTRAP_INDICES.npy",
+    "indices_sha256": "cd4c8f9d8254a0e120e97cc02056cf8f3421a23feb47d401129139fa2286a4c7",
+    "interval": "percentile 2.5%,97.5%; conditional on fixed checkpoints/calibrators; zero crossing is not equivalence",
+    "replicates": 1000,
+    "rng": "numpy.default_rng(20261017); exact source-ordered stream from mixed_fault_calibration_v2 (discard Ningbo draws then use HEEDB draws)",
+    "same_multiplicity_clean_reversed": true,
+    "seed_aggregation": "calculate each seed metric within each draw, average three seed metrics, then form paired differences",
+    "unit": "patient"
+  },
+  "bound_inputs": {
+    "data/heedb_restricted/I0006/12SL_diagnoses/diagnoses_acquisition.csv": {
+      "bytes": 101266857,
+      "sha256": "32eddfbd813c69138850344ff0f141a1b07c3716ef11bb113cf10c254f66a296"
+    },
+    "data/heedb_restricted/I0006/huang_exploratory_v1/huang_diagnostic_probabilities_float32.npy": {
+      "bytes": 720128,
+      "sha256": "e08876d392bd9a64dd4114a9bfaf050ccbf61442a62e005d9f0da341504664f1"
+    },
+    "data/heedb_restricted/I0006/independent_confirmation_v1/predictions_float32.npy": {
+      "bytes": 1440128,
+      "sha256": "9714ea726e75a6945b0e9f8329c37fd33470af9859ce327302748d85863c855b"
+    },
+    "data/heedb_restricted/I0006/independent_confirmation_v1/selection_initial.csv": {
+      "bytes": 1717878,
+      "sha256": "7af9986691871d57df5699e270b3cf4442bf5a733536356155a87094bac09de4"
+    },
+    "data/heedb_restricted/I0006/independent_confirmation_v1/signals_10000_float32.npy": {
+      "bytes": 2400000128,
+      "sha256": "c961d7ed720f60ed92522285bf6145fda2d461bc620bc86f7af718b8e356e3c5"
+    },
+    "data/heedb_restricted/I0006/mixed_fault_calibration_v1/chest_only_predictions_float32.npy": {
+      "bytes": 720128,
+      "sha256": "7d4680f1a686bf0c61ca7bbebd6615c18b6f29105f7a4a84f02e799badb140d9"
+    },
+    "outputs/heedb_independent_confirmation_v1/COHORT_FREEZE.json": {
+      "bytes": 1321,
+      "sha256": "310f08121d74b3f91a907a25e7380390bb03621025606d8f8ed5f20b2e35a36f"
+    },
+    "outputs/heedb_independent_confirmation_v1/EVALUATION_FREEZE.json": {
+      "bytes": 543,
+      "sha256": "8b6f1292ce6305b262a09314394240b21abbeb192dcb8da8839218a093f70cd3"
+    },
+    "outputs/heedb_independent_confirmation_v1/INFERENCE_COMPLETE.json": {
+      "bytes": 264,
+      "sha256": "a66dff9595b686d1dfbfee5d3db3faa96295d9b5eaba1543336bcdcfda54d4a9"
+    },
+    "outputs/mixed_fault_calibration_v1/BOOTSTRAP_METRICS_REPLICATES.npz": {
+      "bytes": 9276616,
+      "sha256": "d84e18e562737f04e72e453302a48ee8fee3b51091f20b22aae190e8ec9e7890"
+    },
+    "outputs/mixed_fault_calibration_v1/FROZEN_ANALYSIS_PROTOCOL.json": {
+      "bytes": 19463,
+      "sha256": "95b4f75148502b59bed1141fd05f364283d2b21511d09d95510759b7742ffa8f"
+    },
+    "outputs/mixed_fault_calibration_v1/calibration_split_indices.npz": {
+      "bytes": 8307,
+      "sha256": "6dd8733b6ac0102ce66600ea1dff9a205db4a73d11af1af4c521656a72a471ec"
+    },
+    "outputs/mixed_fault_calibration_v1/extend_bootstrap_metrics.py": {
+      "bytes": 11321,
+      "sha256": "32ec4f357f3d1c9a4275e735f4d5e7964e8bb33fd305b1d51cd5340cad667325"
+    },
+    "outputs/mixed_fault_calibration_v1/run_analysis.py": {
+      "bytes": 31758,
+      "sha256": "c0f1027552a8149f4aba9529d2b03c1f82b9ff728142196538c73b82e8a24645"
+    },
+    "outputs/mixed_fault_calibration_v2/BOOTSTRAP_COMPLETION_AUDIT.json": {
+      "bytes": 975,
+      "sha256": "8a55340a61b3cd858e397d9b8004ff0c60ad9b8e804a6b705750861ae5660cd0"
+    },
+    "outputs/mixed_fault_calibration_v2/BOOTSTRAP_METRICS_REPLICATES.npz": {
+      "bytes": 17418937,
+      "sha256": "a589067419f6ee4a5f8d382360bd2db08c81a71d1a3879c5bc36394c244c68bc"
+    },
+    "outputs/mixed_fault_calibration_v2/CALIBRATION_AND_PROVENANCE.json": {
+      "bytes": 35833,
+      "sha256": "80e8056cc97b903ed1b74930df1088acffe70a32bbe3f6155a254a4ccb444942"
+    },
+    "outputs/mixed_fault_calibration_v2/FROZEN_COMPLETION_AMENDMENT_001.json": {
+      "bytes": 1358,
+      "sha256": "6d4d2dedcf326d94dd3189964ddb5b6646d18db01c66aee4ad6de834184bd300"
+    },
+    "outputs/mixed_fault_calibration_v2/FROZEN_COMPLETION_AMENDMENT_002.json": {
+      "bytes": 4277,
+      "sha256": "42101ae0628c68e3fed0a9fd5cd17b8bd0a5ac3effd309aa9029c2fdbc0233ef"
+    },
+    "outputs/mixed_fault_calibration_v2/FROZEN_COMPLETION_AMENDMENT_003.json": {
+      "bytes": 3667,
+      "sha256": "14a522fe88b034e3ab16567d2cdc209fe41263b8641056fbfec5f24e4df709ac"
+    },
+    "outputs/mixed_fault_calibration_v2/FROZEN_COMPLETION_PROTOCOL.json": {
+      "bytes": 12807,
+      "sha256": "658b12c968bf8e270de1a68882a3d39564b6e63b6e526766bbcd4c84eab781fd"
+    },
+    "outputs/mixed_fault_calibration_v2/HUANG_CALIBRATION_AND_PROVENANCE.json": {
+      "bytes": 12159,
+      "sha256": "98a1282797abcdd1eab6307f94de675841789a77cd5d1063a717d4f2c20387be"
+    },
+    "outputs/ningbo_four_arm_replication_v1/CALIBRATION_AND_PROVENANCE.json": {
+      "bytes": 48482,
+      "sha256": "6b9a540a89821ead2e6db95e578009042e5885361e6787f96b6eeef5bb8f9cce"
+    },
+    "outputs/ningbo_four_arm_replication_v1/FROZEN_INFERENCE_CONTRACT.json": {
+      "bytes": 2183,
+      "sha256": "057099e473f870a0a65ca1051724d2c9ab53afd3b61afb0075fa2d8bf5a8b24c"
+    },
+    "outputs/ningbo_four_arm_replication_v1/FROZEN_NINGBO_FOUR_ARM_PROTOCOL.json": {
+      "bytes": 11423,
+      "sha256": "a0bb0ee5f7aaa068ebcba227523e3efb5855aec94cbc8a9a319c8b943f70e92c"
+    },
+    "outputs/ningbo_four_arm_replication_v1/REPRODUCIBILITY_MANIFEST.json": {
+      "bytes": 12375,
+      "sha256": "ec4367f2161ba94a11140d39e4f81043900fd66b275c0bc37fb6b3d19c1aa12e"
+    },
+    "outputs/ningbo_four_arm_replication_v1/infer_new_units.py": {
+      "bytes": 7719,
+      "sha256": "b1988fc98e3fbafec070b2f9a8142acfa9243722cd66e8955200104cdfe1023c"
+    },
+    "outputs/ningbo_four_arm_replication_v1/workflow.py": {
+      "bytes": 31557,
+      "sha256": "f5e7ac5685424770961819d453d8c1d4a370b6017061b624900a8de66e7429aa"
+    },
+    "src/chapman_phase1.py": {
+      "bytes": 11421,
+      "sha256": "8a9d4926cbd623892391af1298e03d7a5e7e23c60c1d3393b71e36ee45a16e82"
+    },
+    "src/ecg_physics.py": {
+      "bytes": 4854,
+      "sha256": "51218806eec81765df6247307e70ccce56f76cfa54e54782f1b47d468014eb9c"
+    },
+    "src/heedb_external_v1.py": {
+      "bytes": 48402,
+      "sha256": "6c7186779578a91240a6137fb563f6b37a0aab1aa46b5684bf7672af76ea3450"
+    }
+  },
+  "calibration": {
+    "HEEDB_fit": false,
+    "huang_historical": "retained only as separately named sensitivity mode",
+    "huang_primary": "full-pipeline validation-B 90th-percentile threshold",
+    "masking_combined": "unchanged per-seed/per-endpoint validation-A Platt coefficients and validation-B 90th-percentile thresholds from ningbo_four_arm_replication_v1",
+    "others": "unchanged per-seed/per-endpoint Platt coefficients and validation-B thresholds from mixed_fault_calibration_v2"
+  },
+  "cohort": {
+    "cohort_freeze_sha256": "310f08121d74b3f91a907a25e7380390bb03621025606d8f8ed5f20b2e35a36f",
+    "evaluation_freeze_sha256": "8b6f1292ce6305b262a09314394240b21abbeb192dcb8da8839218a093f70cd3",
+    "labels_source_sha256": "32eddfbd813c69138850344ff0f141a1b07c3716ef11bb113cf10c254f66a296",
+    "proxy_label": "codes_physician TWA/SB/STach; existing mapping and ordering unchanged",
+    "selection_sha256": "7af9986691871d57df5699e270b3cf4442bf5a733536356155a87094bac09de4",
+    "signals_sha256": "c961d7ed720f60ed92522285bf6145fda2d461bc620bc86f7af718b8e356e3c5"
+  },
+  "conditions": [
+    "clean",
+    "RA_LL_reversal"
+  ],
+  "contrasts": {
+    "metrics": [
+      "auprc",
+      "auroc",
+      "brier",
+      "sensitivity",
+      "specificity"
+    ],
+    "modes": [
+      "raw",
+      "calibrated"
+    ],
+    "multiplicity": "no prespecified adjustment; exploratory",
+    "primary": [
+      "masking_minus_ordinary_resnet",
+      "combined_minus_physics_aware_resnet"
+    ],
+    "q": "all frozen q values",
+    "secondary": [
+      "combined_minus_huang_pipeline",
+      "combined_minus_chest_only_resnet"
+    ]
+  },
+  "endpoints": {
+    "primary": "TWA",
+    "secondary": [
+      "SB",
+      "STach"
+    ]
+  },
+  "limitations": [
+    "HEEDB diagnoses are proxy labels, not clinical adjudication or identical source labels.",
+    "HEEDB analyses share Emory and are not independent centers.",
+    "This is an extension of prior HEEDB access, not new independent confirmation.",
+    "combined has half the physical-reversal exposure of physics-aware; comparison does not isolate mask addition.",
+    "Bootstrap intervals condition on selected checkpoints and calibrators; they do not include training uncertainty."
+  ],
+  "methods": [
+    "ordinary_resnet",
+    "physics_aware_resnet",
+    "chest_only_resnet",
+    "huang_pipeline",
+    "masking",
+    "combined"
+  ],
+  "metrics": [
+    "auprc",
+    "auroc",
+    "brier",
+    "ece15",
+    "sensitivity",
+    "specificity",
+    "predicted_positive_fraction"
+  ],
+  "mixture": "For each record, pair its clean and reversed prediction/label copies with weights 1-q and q; weighted pooled metrics; never average condition AUPRCs.",
+  "models": {
+    "combined/104729": {
+      "checkpoint_sha256": "b5a561a59c00e8d1ce32a3fc76f45a43bbc4f0a3264535b893bae84ce7a3f476",
+      "gate_sha256": "baba9e9e4aeb731fd9666373e80a49cc43549d9657d5c353de17e033bcf7e354",
+      "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "status": "PASS",
+      "validation_sha256": "2e6d97a321a20367c4bf4df83f9f58c088bcf8f4caa6f705048de9cc34a656e8"
+    },
+    "combined/130363": {
+      "checkpoint_sha256": "29aabc12fc44db58c1e282715cf604f1a576c4f39ba3504c881ca3a7660c4328",
+      "gate_sha256": "9c1fa3f18a713d9fffb53bfe5080b8696dde29b9685e66bbfe14de42d584024f",
+      "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "status": "PASS",
+      "validation_sha256": "a807da68bfe5d602b6f64898292db71169ebc32ac021d52588cabcefce038877"
+    },
+    "combined/155921": {
+      "checkpoint_sha256": "59c012325adb76fa3d7496242f7e9ad19fc2ea2a278caedc125d37e86431bcc7",
+      "gate_sha256": "4e798275ec2b88f42ebbc99efb8aed9f984a8e49f93735b3ed460c246d0104fa",
+      "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "status": "PASS",
+      "validation_sha256": "0f5bd727db477abe8ba19475d82fa312f2d47ede42734033d69390b9f686ec80"
+    },
+    "masking/104729": {
+      "checkpoint_sha256": "c4b1d645bcbbc5fc5cab384d88ae5ac93e2ff8a2e388d92fdb097a2ad455e642",
+      "gate_sha256": "0b494843ab6e82f63bacb227bb9ae8fd414d1d74b4714b24b934cebabf4f3b79",
+      "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "status": "PASS",
+      "validation_sha256": "918edb81245acd5a1d467e93aa1b48fd2baa59e3f4b4c7d0262745c147caf235"
+    },
+    "masking/130363": {
+      "checkpoint_sha256": "f03848a0271b01ea36d5ef7ff45739b9595eac61c268339e40b8133a4cde5d95",
+      "gate_sha256": "65eecb83a077950ca9fec54c06f4d4b4ec9cee8854513400c1d740fb965a63d4",
+      "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "status": "PASS",
+      "validation_sha256": "f6b97c829c043fbe5033985e56bb473419eba46ac3b1f9c12f699a002979ba86"
+    },
+    "masking/155921": {
+      "checkpoint_sha256": "d956223ffd422df68d619622c4c4c6f6406d1dc6c77ceb32e7a8c08553e0ce75",
+      "gate_sha256": "bfdddb26475b219771679bde5fe4149f9ece5abc43fc679c29363e5ac979f82b",
+      "preprocessing_sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0",
+      "status": "PASS",
+      "validation_sha256": "a45e1440dcbcf54322ef6ab787d88b6c3ba85732b3e4c1a2c7f40747b3f44591"
+    }
+  },
+  "preprocessing": {
+    "inference": "ECGResNetSmall, model.eval(), inference_mode(), CUDA float16 autocast, batch size 128",
+    "input": "frozen HEEDB float32 waveforms in microvolts, order I,II,III,aVR,aVL,aVF,V1-V6; 5000 samples at 500Hz",
+    "normalization": "checkpoint-specific train mean/std from corresponding frozen preprocessing.npz, raw units then per-lead normalization",
+    "physical_fault": "RA_LL reversal via existing src.heedb_external_v1.reversal_ra_ll",
+    "to_model": "exact existing path: stride-5 decimation to 1000 samples at 100Hz; no other transform; physical RA_LL reversal before normalization"
+  },
+  "purpose": "Exploratory extension of previously accessed Emory HEEDB analysis using existing Ningbo masking and combined checkpoints.",
+  "q": [
+    0,
+    0.001,
+    0.005,
+    0.01,
+    0.05,
+    0.1,
+    1.0
+  ],
+  "replay": {
+    "batch_size": 128,
+    "diagnose_before_retry": true,
+    "existing_prediction_replay_tolerance": 0.0001,
+    "new_ningbo_replay_tolerance": 0.0001,
+    "tolerance_posthoc_widening": false
+  },
+  "reuse": {
+    "existing_four_methods": "unchanged verified predictions from mixed_fault_calibration_v2 inputs; Huang is complete frozen detector→predicted correction→diagnostic pipeline",
+    "new_outputs": "only masking/combined × 3 seeds × clean/RA_LL; no seed prediction averaging"
+  },
+  "scope": {
+    "cohort": "HEEDB_I0006_independent_confirmation_v1",
+    "heemask_panel": false,
+    "model_or_parameter_selection_on_HEEDB": false,
+    "n_patients": 10000,
+    "new_cohorts": false,
+    "new_training": false,
+    "one_record_per_patient": true,
+    "reserved_test": false,
+    "same_selected_record_order_labels_and_transform": true
+  },
+  "status": "FROZEN_BEFORE_NEW_EXTERNAL_METRICS",
+  "version": "heedb_four_arm_extension_v1"
+}

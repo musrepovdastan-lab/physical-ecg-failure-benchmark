@@ -1,0 +1,84 @@
+{
+  "arms": [
+    "clean_resnet_no_correction",
+    "physics_aware_no_correction",
+    "huang_argmax_correct_clean_resnet",
+    "oracle_true_inverse_clean_resnet_upper_bound"
+  ],
+  "completed_utc": "2026-09-22T18:53:19.247165+00:00",
+  "conditions": [
+    "clean",
+    "RA_LA_reversal",
+    "RA_LL_reversal",
+    "LA_LL_reversal"
+  ],
+  "decision": "PASS",
+  "diagnostic_shapes": {
+    "clean_resnet_no_correction:LA_LL_reversal": [
+      8,
+      3
+    ],
+    "clean_resnet_no_correction:RA_LA_reversal": [
+      8,
+      3
+    ],
+    "clean_resnet_no_correction:RA_LL_reversal": [
+      8,
+      3
+    ],
+    "clean_resnet_no_correction:clean": [
+      8,
+      3
+    ],
+    "huang_argmax_correct_clean_resnet:LA_LL_reversal": [
+      8,
+      3
+    ],
+    "huang_argmax_correct_clean_resnet:RA_LA_reversal": [
+      8,
+      3
+    ],
+    "huang_argmax_correct_clean_resnet:RA_LL_reversal": [
+      8,
+      3
+    ],
+    "huang_argmax_correct_clean_resnet:clean": [
+      8,
+      3
+    ],
+    "oracle_true_inverse_clean_resnet_upper_bound:LA_LL_reversal": [
+      8,
+      3
+    ],
+    "oracle_true_inverse_clean_resnet_upper_bound:RA_LA_reversal": [
+      8,
+      3
+    ],
+    "oracle_true_inverse_clean_resnet_upper_bound:RA_LL_reversal": [
+      8,
+      3
+    ],
+    "oracle_true_inverse_clean_resnet_upper_bound:clean": [
+      8,
+      3
+    ],
+    "physics_aware_no_correction:LA_LL_reversal": [
+      8,
+      3
+    ],
+    "physics_aware_no_correction:RA_LA_reversal": [
+      8,
+      3
+    ],
+    "physics_aware_no_correction:RA_LL_reversal": [
+      8,
+      3
+    ],
+    "physics_aware_no_correction:clean": [
+      8,
+      3
+    ]
+  },
+  "outcomes_inspected": false,
+  "records": 8
+}

@@ -1,0 +1,7 @@
+{
+  "protocol_sha256": "2f1e7600c26a6466c29e9bbc5ddbe6b826486cc05c84edaa3350433b3981ad81",
+  "parent_protocol_sha256": "17214328ef9e0443692da4248df7683cff906689d270b3e08efe3311710c1bee",
+  "frozen_utc": "2026-09-21T02:12:19.473301+00:00",
+  "test_inputs_audited_before_freeze": true,
+  "test_model_outcomes_evaluated_before_freeze": false
+}

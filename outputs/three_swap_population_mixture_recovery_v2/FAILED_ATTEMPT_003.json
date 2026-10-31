@@ -1,0 +1,10 @@
+{
+  "attempt": 3,
+  "stage": "full inference pre-write gate",
+  "status": "FAILED_FLOAT32_ROUNDING_EXCEEDS_1E4_RAW_UNITS",
+  "condition": "RA_LA_reversal",
+  "block": [0, 128],
+  "observed_max_abs_raw_delta": 0.0001220703125,
+  "scope": "Stopped before prediction output files were written.",
+  "resolution": "The engineering comparison tolerance is 2e-4 raw units, which exceeds observed float32 rounding and matches the previously justified known-class inverse bound. Probability replay stays at the frozen 1e-4."
+}

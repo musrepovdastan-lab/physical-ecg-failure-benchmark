@@ -1,0 +1,85 @@
+{
+  "overall_status": "FAIL_HUANG_HEEDB_NEW_FAULT_INPUT_PATH",
+  "affected_full_prediction_files": 6,
+  "affected_conditions": [
+    "RA_LA_reversal",
+    "LA_LL_reversal"
+  ],
+  "affected_cohort": "HEEDB only",
+  "meaning": "Detector processed corrupted ECG; submitted new diagnostic path applied predicted inverse to original clean ECG, omitting initial fault. Saved scores replay the wrong path.",
+  "scope": "Focused first historical batch replay for three seeds and two conditions; no full inference, training, fitting or overwrite of predictions.",
+  "rows": [
+    {
+      "seed": 104729,
+      "condition": "RA_LA_reversal",
+      "processing_n": 128,
+      "compared_n": 32,
+      "fault_transform_path_max_abs_difference": 0.0,
+      "saved_vs_wrong_input_max_abs_probability_first32": 0.0,
+      "saved_vs_correct_input_max_abs_probability_first32": 0.9561688899993896,
+      "wrong_vs_correct_input_max_abs_raw_difference": 3806.0,
+      "true_inverse_vs_identity_rederived_max_abs_difference": 0.0001220703125,
+      "cached_replays_wrong_path_within_1e_4": true
+    },
+    {
+      "seed": 104729,
+      "condition": "LA_LL_reversal",
+      "processing_n": 128,
+      "compared_n": 32,
+      "fault_transform_path_max_abs_difference": 0.0,
+      "saved_vs_wrong_input_max_abs_probability_first32": 0.0,
+      "saved_vs_correct_input_max_abs_probability_first32": 0.42510986328125,
+      "wrong_vs_correct_input_max_abs_raw_difference": 6450.0,
+      "true_inverse_vs_identity_rederived_max_abs_difference": 3.4572596301502825e-15,
+      "cached_replays_wrong_path_within_1e_4": true
+    },
+    {
+      "seed": 130363,
+      "condition": "RA_LA_reversal",
+      "processing_n": 128,
+      "compared_n": 32,
+      "fault_transform_path_max_abs_difference": 0.0,
+      "saved_vs_wrong_input_max_abs_probability_first32": 0.0,
+      "saved_vs_correct_input_max_abs_probability_first32": 0.968414306640625,
+      "wrong_vs_correct_input_max_abs_raw_difference": 3806.0,
+      "true_inverse_vs_identity_rederived_max_abs_difference": 0.0001220703125,
+      "cached_replays_wrong_path_within_1e_4": true
+    },
+    {
+      "seed": 130363,
+      "condition": "LA_LL_reversal",
+      "processing_n": 128,
+      "compared_n": 32,
+      "fault_transform_path_max_abs_difference": 0.0,
+      "saved_vs_wrong_input_max_abs_probability_first32": 0.0,
+      "saved_vs_correct_input_max_abs_probability_first32": 0.35504150390625,
+      "wrong_vs_correct_input_max_abs_raw_difference": 6450.0,
+      "true_inverse_vs_identity_rederived_max_abs_difference": 3.4572596301502825e-15,
+      "cached_replays_wrong_path_within_1e_4": true
+    },
+    {
+      "seed": 155921,
+      "condition": "RA_LA_reversal",
+      "processing_n": 128,
+      "compared_n": 32,
+      "fault_transform_path_max_abs_difference": 0.0,
+      "saved_vs_wrong_input_max_abs_probability_first32": 0.0,
+      "saved_vs_correct_input_max_abs_probability_first32": 0.9607467651367188,
+      "wrong_vs_correct_input_max_abs_raw_difference": 3806.0,
+      "true_inverse_vs_identity_rederived_max_abs_difference": 0.0001220703125,
+      "cached_replays_wrong_path_within_1e_4": true
+    },
+    {
+      "seed": 155921,
+      "condition": "LA_LL_reversal",
+      "processing_n": 128,
+      "compared_n": 32,
+      "fault_transform_path_max_abs_difference": 0.0,
+      "saved_vs_wrong_input_max_abs_probability_first32": 0.0,
+      "saved_vs_correct_input_max_abs_probability_first32": 0.2646484375,
+      "wrong_vs_correct_input_max_abs_raw_difference": 6450.0,
+      "true_inverse_vs_identity_rederived_max_abs_difference": 3.4572596301502825e-15,
+      "cached_replays_wrong_path_within_1e_4": true
+    }
+  ]
+}

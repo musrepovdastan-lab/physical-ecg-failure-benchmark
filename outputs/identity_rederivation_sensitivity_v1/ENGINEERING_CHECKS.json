@@ -1,0 +1,209 @@
+{
+  "cohorts": {
+    "Chapman": {
+      "channel_differences_raw_units_unscaled": {
+        "I": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "II": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "III": {
+          "max_abs": 1.0,
+          "mean_abs": 0.249990243902439,
+          "p95_abs": 1.0,
+          "p99_abs": 1.0,
+          "rmse": 0.4999902438072557
+        },
+        "V1": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "V2": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "V3": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "V4": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "V5": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "V6": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "aVF": {
+          "max_abs": 3.5,
+          "mean_abs": 1.3384360975609757,
+          "p95_abs": 3.0,
+          "p99_abs": 3.0,
+          "rmse": 1.749978745515527
+        },
+        "aVL": {
+          "max_abs": 3.5,
+          "mean_abs": 1.3366324390243902,
+          "p95_abs": 3.0,
+          "p99_abs": 3.0,
+          "rmse": 1.7480378198174646
+        },
+        "aVR": {
+          "max_abs": 3.0,
+          "mean_abs": 1.3121339024390244,
+          "p95_abs": 3.0,
+          "p99_abs": 3.0,
+          "rmse": 1.7372809916367702
+        }
+      },
+      "derive_internal_dtype": "float64 (NumPy dtype=float on this runtime)",
+      "displayed_output_dtype": "float32",
+      "explicit_equation_max_abs": 0.0,
+      "historical_dtype": "float32",
+      "identity_idempotence_max_abs": 0.0,
+      "independent_input_dtype": "float32",
+      "independent_lead_max_abs": 0.0,
+      "n": 2050,
+      "signal_shape": [
+        2050,
+        12,
+        1000
+      ]
+    },
+    "Ningbo": {
+      "channel_differences_raw_units_unscaled": {
+        "I": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "II": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "III": {
+          "max_abs": 1.0,
+          "mean_abs": 0.2491018478727976,
+          "p95_abs": 1.0,
+          "p99_abs": 1.0,
+          "rmse": 0.49910103974325437
+        },
+        "V1": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "V2": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "V3": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "V4": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "V5": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "V6": {
+          "max_abs": 0.0,
+          "mean_abs": 0.0,
+          "p95_abs": 0.0,
+          "p99_abs": 0.0,
+          "rmse": 0.0
+        },
+        "aVF": {
+          "max_abs": 3.5,
+          "mean_abs": 1.3359586019194958,
+          "p95_abs": 3.0,
+          "p99_abs": 3.0,
+          "rmse": 1.7478670776160816
+        },
+        "aVL": {
+          "max_abs": 3.5,
+          "mean_abs": 1.3372672253258846,
+          "p95_abs": 3.0,
+          "p99_abs": 3.0,
+          "rmse": 1.7487590398176456
+        },
+        "aVR": {
+          "max_abs": 3.0,
+          "mean_abs": 1.3106060020054433,
+          "p95_abs": 3.0,
+          "p99_abs": 3.0,
+          "rmse": 1.736160029296972
+        }
+      },
+      "derive_internal_dtype": "float64 (NumPy dtype=float on this runtime)",
+      "displayed_output_dtype": "float32",
+      "explicit_equation_max_abs": 0.0,
+      "historical_dtype": "float32",
+      "identity_idempotence_max_abs": 0.0,
+      "independent_input_dtype": "float32",
+      "independent_lead_max_abs": 0.0,
+      "n": 6981,
+      "signal_shape": [
+        6981,
+        12,
+        1000
+      ]
+    }
+  },
+  "formula_checks": {},
+  "protocol_sha256": "c7652e1604ef445c89453cd84b2022ddf687c8e409c31ce2911828a4dcb8fc81",
+  "status": "PASS"
+}

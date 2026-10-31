@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-17T06:25:41.677118+00:00",
+  "evaluation_freeze_written": true,
+  "exception": "TypeError: predict() takes 5 positional arguments but 6 were given",
+  "failing_function": "evaluate_unit",
+  "incident": "INITIAL_EVALUATION_ATTEMPT_STOPPED_BEFORE_PREDICTION",
+  "original_frozen_source_sha256": "4716322bc817867f4862626172a59dc65b17a18811679e66fc1378de836e0760",
+  "original_frozen_source_snapshot": "outputs/chest_only_baseline_v1/frozen_source/chest_only_baseline_v1_pre_eval.py",
+  "prediction_cache_written": false,
+  "test_labels_loaded_before_evaluation_freeze": true,
+  "training_repeated": false,
+  "training_units_complete": 6
+}

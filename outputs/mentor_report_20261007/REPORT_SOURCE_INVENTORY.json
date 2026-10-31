@@ -1,0 +1,154 @@
+{
+  "report_date": "2026-10-07",
+  "scientific_results_through": "2026-09-26",
+  "new_scientific_experiments_for_report": false,
+  "sources": [
+    {
+      "path": "outputs/paper_readiness_v1/CROSS_DATASET_RESULTS.csv",
+      "sha256": "b179e2d5d5b41b8eb8f8bd7b63dae4502bd4491a8ba68c7323b752390744443e",
+      "bytes": 3504
+    },
+    {
+      "path": "outputs/phase1_chapman_seed1_v4/DATA_INGESTION_AUDIT_v4.json",
+      "sha256": "cb1a1148e2de1c1fd0cf686a7c6c1e0d5247f829cb1fe6db3a9c9ffef69da0d9",
+      "bytes": 1710
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/FINAL_NINGBO_CONFIRMATION_DECISION.md",
+      "sha256": "09d9a1e95403965bee471150007a2591f03b5df2d6da4e77c8225508f3296573",
+      "bytes": 913
+    },
+    {
+      "path": "outputs/mitigation_m1_v1/RESULTS_BY_ARM_SEED.csv",
+      "sha256": "fb446cc53b053247068d5ba74c835f07806eb8ffc880ec71b2d2b259fd493c0f",
+      "bytes": 4503504
+    },
+    {
+      "path": "outputs/post_m2_paper_readiness_v2/FINAL_POST_M2_SCIENTIFIC_AUDIT.md",
+      "sha256": "656d0e55d485630500a56222606d79e1919d17b1252b78414e970978fae8318c",
+      "bytes": 3055
+    },
+    {
+      "path": "outputs/ecgfounder_baseline_v2/FINAL_BASELINE_REPORT.md",
+      "sha256": "f586f480c8dc6e5b6b84200601151cf001e913603dd7825aca91e5aae4a4178f",
+      "bytes": 8177
+    },
+    {
+      "path": "outputs/heedb_external_corrected_v2/FINAL_REPORT.md",
+      "sha256": "930368849c3f1aadda6badd769f938d48cedb9cfe12fed7f91aeb662d4d3ae45",
+      "bytes": 8266
+    },
+    {
+      "path": "outputs/heedb_independent_confirmation_v1/FINAL_REPORT.md",
+      "sha256": "9cb4427ad8e961897280b5fbd40487cf63445fbe189461e960aa7e8abd3ea886",
+      "bytes": 8732
+    },
+    {
+      "path": "outputs/published_detector_multifault_v2/FINAL_MULTIFAULT_DECISION.md",
+      "sha256": "68b4d839b5fe9ae411964326f253e3072b60598ac8f629baa3797f5d01c330b6",
+      "bytes": 2905
+    },
+    {
+      "path": "outputs/heedb_huang_exploratory_v1/FINAL_COMPARISON.md",
+      "sha256": "ce17d1bebe10fbbd958ffa550d9d5a1a505b4f7b43c2d5a8e4fb66f2818e1dd7",
+      "bytes": 8139
+    },
+    {
+      "path": "outputs/integrated_deployment_v4/FINAL_DECISION.md",
+      "sha256": "72dfb1403e73487385ef48a7d90073b64a834cf03e1a64be11ddd2b13f2ac710",
+      "bytes": 3177
+    },
+    {
+      "path": "outputs/submission_evidence_v1/VERIFICATION_REPORT.md",
+      "sha256": "c1f4ce36782fbdfc74e3939626fb8144370a54169c06a6f25e505e0c4576d42e",
+      "bytes": 4038
+    },
+    {
+      "path": "src/ecg_physics.py",
+      "sha256": "51218806eec81765df6247307e70ccce56f76cfa54e54782f1b47d468014eb9c",
+      "bytes": 4854
+    },
+    {
+      "path": "outputs/phase1_interpretation_audit_v5/FINAL_INTERPRETATION_DECISION.md",
+      "sha256": "7bf08df6cdd507afb44c788188384c032c4df53dbe2bd94804650e96f3a4273b",
+      "bytes": 508
+    },
+    {
+      "path": "outputs/phase1b_matched_reversal_development_v6/FINAL_PHASE1B_DECISION.md",
+      "sha256": "030fded1ecf0d965dd9c146c3064419684e04987a7a992044ba549c579052140",
+      "bytes": 961
+    },
+    {
+      "path": "outputs/post_m2_paper_readiness_v2/INCIDENTS_AND_TELEMETRY_AUDIT.md",
+      "sha256": "c3f34bb569caa6765469e71ceba7d8580f09bdbebc35d00115fe643ab8531ee6",
+      "bytes": 1844
+    },
+    {
+      "path": "outputs/heedb_failure_audit_v1/FINAL_AUDIT.md",
+      "sha256": "e86d7cc878f9d104a6e028c8850cd919279a0992a52439ea4227df57c72c10b6",
+      "bytes": 11453
+    },
+    {
+      "path": "outputs/submission_evidence_v1/READINESS_DECISION.md",
+      "sha256": "1a13bbdd54526876f9b6a06fa8ad439e4ed1eeee829e21652832ba480a3746b9",
+      "bytes": 2242
+    },
+    {
+      "path": "configs/FROZEN_MITIGATION_M1_PROTOCOL_v1.json",
+      "sha256": "248976f691003daa45c5f188c53f7cf75891f19f8723223477fc41e1d65667ce",
+      "bytes": 3275
+    },
+    {
+      "path": "configs/FROZEN_MITIGATION_M2_NINGBO_PROTOCOL_v1.json",
+      "sha256": "2d7b605af175ef6d5b59b223a9ea37bb3f7d675c2c1ac3e27fff23fcd43e96b8",
+      "bytes": 5439
+    },
+    {
+      "path": "configs/FROZEN_NINGBO_CONFIRMATION_PROTOCOL_v2.json",
+      "sha256": "1fe829e4357b4efde0e5f227baf5bf94e8d22d12af0959a38cee12cce1f40d71",
+      "bytes": 3624
+    },
+    {
+      "path": "configs/FROZEN_ECGFOUNDER_BASELINE_PROTOCOL_v2.json",
+      "sha256": "2f1e7600c26a6466c29e9bbc5ddbe6b826486cc05c84edaa3350433b3981ad81",
+      "bytes": 11112
+    },
+    {
+      "path": "configs/FROZEN_HEEDB_INDEPENDENT_CONFIRMATION_v1.json",
+      "sha256": "199344e9f7cbb0eb55564f52ce320bca4c85478ceb68174a3d11568611a58760",
+      "bytes": 7422
+    },
+    {
+      "path": "outputs/heedb_huang_exploratory_v1/FROZEN_PROTOCOL.json",
+      "sha256": "50974d7cdb7a286d7d3cd4831b29df2a80edaac31a274afd697d931bb76cd53c",
+      "bytes": 5496
+    },
+    {
+      "path": "outputs/post_m2_paper_readiness_v2/CROSS_DATASET_PRIMARY_RESULTS.csv",
+      "sha256": "fba160f6ad466adca30987642b5c096e8b0593cd8ffbd1d4df45f9a0d787760c",
+      "bytes": 3419
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/DATA_INGESTION_AUDIT.json",
+      "sha256": "3097278a1e652819492cf60603cffe304e3c5c530ad01d01cf122765f24dfc0a",
+      "bytes": 662
+    },
+    {
+      "path": "outputs/submission_evidence_v1/FIGURE_DATA.csv",
+      "sha256": "51b4aa9617b5e7e6bffc39f02372281a26ca5610254377c3f9cdf2da6fbe523d",
+      "bytes": 6074
+    },
+    {
+      "path": "outputs/submission_evidence_v1/FIGURE_MANIFEST.json",
+      "sha256": "02b4eb83d9071eb7a6c2aaac11817800f101f5a081fc0f5603a2e6c5cb067a68",
+      "bytes": 1431
+    },
+    {
+      "path": "src/chapman_phase1.py",
+      "sha256": "8a9d4926cbd623892391af1298e03d7a5e7e23c60c1d3393b71e36ee45a16e82",
+      "bytes": 11421
+    }
+  ],
+  "reference_urls_checked": "2026-10-07",
+  "output_docx": "ECG_RESEARCH_COMPLETE_REPORT_2026_10_07.docx"
+}

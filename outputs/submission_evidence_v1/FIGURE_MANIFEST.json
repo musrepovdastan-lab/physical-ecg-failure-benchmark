@@ -1,0 +1,19 @@
+{
+  "artifact_hashes": {
+    "FIGURE_DATA.csv": "51b4aa9617b5e7e6bffc39f02372281a26ca5610254377c3f9cdf2da6fbe523d",
+    "figures/figure1_cross_dataset_ranking.png": "e9cdfecb39120ce4af28eddc7eb012abe9c00fcfa3be420f6a17c2ada31a4fcd",
+    "figures/figure1_cross_dataset_ranking.svg": "9be9f4b53a4ce10e54a397fd961159664141bc06efcb0922780cea99f7e41261",
+    "figures/figure2_heedb_tradeoffs.png": "c0e743409239fdafde9cc445e2ba4614e4c08fcd17131ca5be4b8051e06763ae",
+    "figures/figure2_heedb_tradeoffs.svg": "f2b8e0f02436a71b6c28a31576d314f8f1bc9636716b72aea307e4757d308b38",
+    "figures/figure3_heedb_paired_contrasts.png": "78acb1b4adf2e5a5ef4239065bcd0234b6aeb1bf22b486bb2a5006372ed2256c",
+    "figures/figure3_heedb_paired_contrasts.svg": "389a00849d7ce9ac9c34068066c1ba5de1385763f9a9b7655d897c45b6e53ede"
+  },
+  "figure_data_rows": 64,
+  "source_code_sha256": "3419e30e8ea148eb4b6ab11c56270cc9565d90c0337eed20c7f1d95be4ae2f82",
+  "source_hashes": {
+    "outputs/heedb_huang_exploratory_v1/PAIRED_PATIENT_BOOTSTRAP.csv": "004365291cbf13d70f0f1dd3bc5033741fe764607ac9c8de652a8cc02b40dea0",
+    "outputs/heedb_huang_exploratory_v1/TWA_THREE_SEED_MEANS.csv": "fd238e6dfa66bef8ea62a32a65f7ad6f70f6465bbbc231ab6f940c9725e22781",
+    "outputs/post_m2_paper_readiness_v2/CROSS_DATASET_PRIMARY_RESULTS.csv": "fba160f6ad466adca30987642b5c096e8b0593cd8ffbd1d4df45f9a0d787760c"
+  },
+  "status": "AGGREGATE_ONLY_FIGURES"
+}

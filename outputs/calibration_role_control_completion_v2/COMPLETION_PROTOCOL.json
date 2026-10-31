@@ -1,0 +1,94 @@
+{
+  "title": "Calibration role control completion v2: fill 400 missing bootstrap groups",
+  "status": "FROZEN_BEFORE_MISSING_INTERVAL_CALCULATION",
+  "scope": "Post-hoc analysis completion using existing predictions, locks, metrics, point tables and frozen bootstrap indices only.",
+  "prohibited": [
+    "training",
+    "model initialization or checkpoint changes",
+    "inference or forward passes",
+    "refitting Platt calibration",
+    "threshold selection",
+    "membership/split changes",
+    "new data/models/seeds",
+    "reserved_test evaluation"
+  ],
+  "statistical_design": {
+    "cohorts": [
+      "Ningbo_test",
+      "HEEDB"
+    ],
+    "scenarios": [
+      "RA_LL_only",
+      "equal_three_swap"
+    ],
+    "q_fault": [
+      0,
+      0.001,
+      0.005,
+      0.01,
+      0.05,
+      0.1,
+      1.0
+    ],
+    "contrasts": [
+      [
+        "physics_aware_p050",
+        "ordinary"
+      ],
+      [
+        "combined",
+        "ordinary"
+      ],
+      [
+        "Huang_full_pipeline",
+        "ordinary"
+      ],
+      [
+        "physics_aware_p050",
+        "Huang_full_pipeline"
+      ],
+      [
+        "combined",
+        "Huang_full_pipeline"
+      ]
+    ],
+    "metrics": [
+      "AP_raw",
+      "Brier_raw",
+      "Brier_calibrated",
+      "sensitivity_raw",
+      "FP_per_1000_raw"
+    ],
+    "draws_per_group": 1000,
+    "target_groups": 700,
+    "reused_groups": 300,
+    "new_groups": 400,
+    "bootstrap_unit": {
+      "Ningbo_test": "record",
+      "HEEDB": "patient"
+    },
+    "weights": {
+      "RA_LL_only": "[1-q,0,q,0]",
+      "equal_three_swap": "[1-q,q/3,q/3,q/3]"
+    },
+    "paired": "same frozen resample indices for conditions, methods and seeds; seed-wise left-minus-right then average over three seeds",
+    "ci": "unadjusted percentile 2.5th and 97.5th percentiles of 1000 paired contrasts; conditional on fixed fitted models/calibrators"
+  },
+  "calculation": "Use frozen bootstrap index rows as record/patient multiplicities. Concatenate four condition scores; per condition apply corresponding scenario weight. Reproduce exact weighted sklearn average precision (tie-group acceleration only if equivalent on actual resamples); raw and Platt-mapped Brier; q90 raw-threshold sensitivity and FP per 1000. Reuse existing 300 draw vectors byte-for-byte after integrity/content validation. Compute only q in {0,0.001,0.005,0.05}; q=0 coverage represented separately in both scenarios although weights are identical.",
+  "seed_and_lock_order_disclosures": [
+    "Declared fit seed was set after ECGResNetSmall constructor; initial weights depend on ambient RNG and are not controlled/recoverable from fit seed alone. Do not retrain or alter frozen training code.",
+    "All nine model checkpoints locked before calibration_A and threshold_B scoring. Test detector cache existed before final exact-objective calibration lock; do not claim test waveform unaccessed before final lock. Test/HEEDB scores or labels did not enter Platt/q90 fitting per reviewed code/provenance."
+  ],
+  "active_plan_context_snapshot": {
+    "path": "outputs/calibration_role_control_completion_v2/ACTIVE_PLAN_CONTEXT_SNAPSHOT.md",
+    "sha256": "ed871bf23a094a728f0f3a50ef6920b46aa143db0f1678a294293d21e7e071f2",
+    "role": "mutable project context snapshot, not a scientific model/data binding"
+  },
+  "source_file_count": 125,
+  "freeze_date": "2026-10-20",
+  "freeze_time": "unknown (not recorded)",
+  "completion_runner": {
+    "path": "outputs/calibration_role_control_completion_v2/complete_bootstrap.py",
+    "sha256": "e53e0c442d5cacaad8950f7f8cd9dacdd0ef428b945221fc3f06fbd91ddb7b61"
+  }
+}

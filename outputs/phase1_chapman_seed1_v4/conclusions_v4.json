@@ -1,0 +1,15 @@
+{
+  "decision": "PROCEED_MULTISEED",
+  "negative_controls": {
+    "SB": -0.002065079782831113,
+    "STach": -0.040648917836708764
+  },
+  "ningbo_accessed": false,
+  "primary_effect": {
+    "high95": -0.1349228143321203,
+    "label": "TWA",
+    "low95": -0.19306940125745065,
+    "mean_effect": -0.16368827785492376
+  },
+  "test_accessed": true
+}

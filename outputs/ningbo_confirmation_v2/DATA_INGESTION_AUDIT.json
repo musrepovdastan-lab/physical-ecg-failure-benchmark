@@ -1,0 +1,14 @@
+{
+  "canonical_records": 34899,
+  "decision": "PASS",
+  "exact_metadata_duplicate_groups": 0,
+  "excluded_conflict_groups": 3,
+  "excluded_conflict_records": 6,
+  "ingestion_schema": "ningbo_ingestion_schema_v2_normalized_challenge_comments",
+  "mapping_sha256": "AE749EEBE8FC6EFAF42E5E559B3FE494FAB93C015306F1DD8C0659A7DC1FDD5E",
+  "parent_v1_protocol_sha256": "B6EEB79C0CD214FE7F41FDC526AEC64DF2E9D982F59A45E7F21D0108B5A3698E",
+  "protocol_sha256": "1FE829E4357B4EFDE0E5F227BAF5BF94E8D22D12AF0959A38CEE12CCE1F40D71",
+  "source_records": 34905,
+  "target_endpoint_label_conflict_groups_recorded_not_used": 0,
+  "version": "ningbo_confirmation_v2"
+}

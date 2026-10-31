@@ -1,0 +1,12 @@
+{
+  "amendment": "001",
+  "date": "2026-10-20",
+  "reason": "Implementation correction after a point-metric guard caught a mismatch in canonical condition order.",
+  "original_protocol_sha256": "fd86abdb3a3ab9e762a9245a369f521c4759f3c1cec0f1c5dc6c899ad7b2aece",
+  "original_runner_sha256": "e53e0c442d5cacaad8950f7f8cd9dacdd0ef428b945221fc3f06fbd91ddb7b61",
+  "corrected_runner_sha256": "907ee7eed60f5f128264095275e6aa2643bd73543dafde266cb342130de331a2",
+  "change": "Use frozen order clean, RA_LA_reversal, RA_LL_reversal, LA_LL_reversal when aligning condition scores with the already-frozen scenario weights.",
+  "scientific_scope_changed": false,
+  "new_data_training_inference_or_fitting": false,
+  "failed_attempt_record": "FAILED_ATTEMPT_001.json"
+}

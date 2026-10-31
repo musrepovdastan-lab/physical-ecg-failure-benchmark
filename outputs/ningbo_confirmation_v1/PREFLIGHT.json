@@ -1,0 +1,13 @@
+{
+  "acquisition_status_sha256": "dd32dec3f3e26e1b232e15ce540842c97f0f782800aa2a26b1f843f6f819d973",
+  "completed_utc": "2026-08-30T04:49:06.339952+00:00",
+  "decision": "PASS",
+  "local_regular_file_count": 69810,
+  "local_verified_bytes": 4215509826,
+  "logical_records": 34905,
+  "mapping_sha256": "ae749eebe8fc6efaf42e5e559b3fe494fab93c015306f1dd8c0659a7dc1fdd5e",
+  "official_sums_sha256": "f29c2609343c38734f3a3d62be4a9052ca56a9e560e7ad2efc2118563fca2473",
+  "physical_files": 69810,
+  "protocol_sha256": "B6EEB79C0CD214FE7F41FDC526AEC64DF2E9D982F59A45E7F21D0108B5A3698E",
+  "targeted_rehash": false
+}

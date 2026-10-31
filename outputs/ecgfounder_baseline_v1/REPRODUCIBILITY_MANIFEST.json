@@ -1,0 +1,60 @@
+{
+  "version": "ecgfounder_baseline_v1",
+  "status": "STOP_PREPROCESSING_MISMATCH",
+  "exploratory": true,
+  "official_code": {
+    "repository": "https://github.com/PKUDigitalHealth/ECGFounder",
+    "commit": "04edac702b61c91face519774ddcc0cd712fef23",
+    "local_copy": "official/ECGFounder-04edac702b61c91face519774ddcc0cd712fef23"
+  },
+  "official_checkpoint": {
+    "repository": "https://huggingface.co/PKUDigitalHealth/ECGFounder",
+    "revision": "47a965e",
+    "file": "official/12_lead_ECGFounder.pth",
+    "sha256": "ee199f3781f4ae1f732973267f003da0a759ea12bddb0dd28a77faa60aca7997",
+    "strict_150_class_state_dict_load": true
+  },
+  "protocol": {
+    "file": "../../configs/FROZEN_ECGFOUNDER_BASELINE_PROTOCOL_v1.json",
+    "sha256": "17214328ef9e0443692da4248df7683cff906689d270b3e08efe3311710c1bee",
+    "frozen_before_held_out_extraction": true
+  },
+  "runner": {
+    "file": "../../src/ecgfounder_baseline_v1.py",
+    "sha256": "95fff62083394d797559acb3bc4a1b09ce18057089c9007811f2ad8366db4fab"
+  },
+  "pre_run_audit": {
+    "file": "PRE_RUN_AUDIT.json",
+    "sha256": "26805dcac16cc3633aac70d7d66cebe1df1137980ee7717f254be9c3ae60156b",
+    "contains_split_and_saved_prediction_sha256_bindings": true
+  },
+  "signal": {
+    "lead_order": ["I", "II", "III", "aVR", "aVL", "aVF", "V1", "V2", "V3", "V4", "V5", "V6"],
+    "sample_rate_hz": 500,
+    "samples": 5000,
+    "unit": "physical mV via WFDB",
+    "fault": "electrically exact RA-LL cable permutation on physical I, II, V1-V6 before filtering",
+    "filter": "authors' 50 Hz Q30 notch, 4th-order 0.67-40 Hz bandpass, 201-sample median baseline removal",
+    "normalization": "one global mean and population std over 12x5000, epsilon 1e-8",
+    "missing_value_rule_in_frozen_v1": "stop on nonfinite",
+    "missing_value_rule_in_official_dataset_py": "np.nan_to_num(data, nan=0) before filtering"
+  },
+  "environment": {
+    "python": "3.12.13",
+    "torch": "2.11.0+cu128",
+    "cuda_runtime": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.9.0",
+    "wfdb": "4.3.1"
+  },
+  "verification": {
+    "lead_and_filter_tests": "3 passed",
+    "smoke": "PASS on one Chapman training record, with 12x5000 inputs, 1024-D features and 150 logits",
+    "ningbo_training_missing_scan": "59 of 24430 training records contain 1861 digital -32768 samples",
+    "ningbo_training_path_mismatches": 24,
+    "ningbo_held_out_inference": false,
+    "new_paired_metrics_or_bootstrap": false
+  }
+}

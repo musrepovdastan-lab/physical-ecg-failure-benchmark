@@ -1,0 +1,5 @@
+{
+  "decision": "PASS",
+  "implementation": "direct condition-level AUPRC; no prediction-vector averaging; baseline contrast once per replicate/seed/endpoint",
+  "replicates_checked": 3
+}

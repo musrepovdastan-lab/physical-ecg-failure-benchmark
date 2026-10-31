@@ -1,0 +1,7 @@
+{
+  "status": "METRIC_STAGE_TYPE_GUARD_STOP",
+  "reason": "The calibration CSV reader returned coefficient strings and the evaluator did not cast them to float before applying Platt; the first metric call raised a NumPy dtype error.",
+  "prediction_files_reused": true,
+  "summary_tables_written": false,
+  "resolution": "Explicitly parse the four frozen numeric calibration fields as float before metrics."
+}

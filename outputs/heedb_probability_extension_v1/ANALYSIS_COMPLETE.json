@@ -1,0 +1,15 @@
+{
+  "bootstrap_indices_sha256": "cd4c8f9d8254a0e120e97cc02056cf8f3421a23feb47d401129139fa2286a4c7",
+  "bootstrap_replicates": 1000,
+  "calibration_decision_mismatches": 0,
+  "finalized_utc": "2026-10-18T20:23:51Z",
+  "inference_protocol_sha256": "6cc3534e6c7e3f01f535578f995308b29f2425cae0ae2aa8ead093ccbfa6df87",
+  "mean_summary_rows": 357,
+  "metric_rows": 1071,
+  "prediction_count": 12,
+  "prespecified_contrast_rows": 48,
+  "protocol_sha256": "c2f56ce48e0bf50cdc39c3f962a35dc149e0d239bb54e75e7e663fc368c33176",
+  "replay_status": "PASS",
+  "reserved_test_evaluated": false,
+  "status": "PASS"
+}

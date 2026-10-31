@@ -1,0 +1,7 @@
+cohort,seed,n,clean_records_with_nonzero_predicted_inverse,fraction_clean_records_miscorrected
+Ningbo_test,104729,6981,104,0.0148975791433892
+Ningbo_test,130363,6981,104,0.0148975791433892
+Ningbo_test,155921,6981,104,0.0148975791433892
+HEEDB,104729,10000,299,0.0299
+HEEDB,130363,10000,299,0.0299
+HEEDB,155921,10000,299,0.0299

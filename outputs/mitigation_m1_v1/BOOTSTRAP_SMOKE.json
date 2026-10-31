@@ -1,0 +1,6 @@
+{
+  "implementation": "separate condition-level AUPRC; baseline contrast computed once per replicate/seed/endpoint",
+  "replicates_checked": 3,
+  "status": "PASS",
+  "tolerance": 1e-12
+}

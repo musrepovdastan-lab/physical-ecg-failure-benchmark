@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-18",
+  "files": [
+    {
+      "path": "AUDIT.json",
+      "bytes": 5096,
+      "sha256": "d1c68abc266b4d396929e962b7ac97b2ef05a8e9e6922c92add7cf12a1d5c776"
+    },
+    {
+      "path": "BOOTSTRAP_RECHECK_DRAWS.npz",
+      "bytes": 45852,
+      "sha256": "3b96c5e40334118fd50adb491bfc6583851f28e46edaae06fcbae5bb139f216a"
+    },
+    {
+      "path": "PAIRED_RECHECK.csv",
+      "bytes": 923,
+      "sha256": "59f55f45a098a56841fb30624b0b6918adb814da52829ba694fda196218ad0b6"
+    },
+    {
+      "path": "recheck.py",
+      "bytes": 8096,
+      "sha256": "e5357c185322058999d7cfb5b65a4a12f273bf4f256b32a7580142256239ba4b"
+    },
+    {
+      "path": "RECHECK_SPECIFICATION.json",
+      "bytes": 688,
+      "sha256": "430975bcd1c2162c9a5601ebdb88c8fc98d9e151c717504a94d78aa3adde0a23"
+    },
+    {
+      "path": "RESULT_SUMMARY.md",
+      "bytes": 1213,
+      "sha256": "a3ed620d80ee17b04a80b012dff1ddc5caa603c265d510a5ab8e26c8b75d5466"
+    },
+    {
+      "path": "SEED_LEVEL_RECHECK.csv",
+      "bytes": 3025,
+      "sha256": "68dea7e26698409dd89e4e55d7e3e86e9d0c18b5c529ad8dcd3a4a533529dab3"
+    }
+  ]
+}

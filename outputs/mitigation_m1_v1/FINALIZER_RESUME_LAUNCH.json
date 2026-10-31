@@ -1,0 +1,8 @@
+﻿{
+    "stderr":  "outputs/mitigation_m1_v1/finalizer_resume_stderr.log",
+    "pid":  44108,
+    "started_utc":  "2026-08-30T13:53:02.9311236Z",
+    "bootstrap_completed_before_launch":  0,
+    "stdout":  "outputs/mitigation_m1_v1/finalizer_resume_stdout.log",
+    "task":  "mitigation_m1_cached_prediction_finalizer_v1_resume"
+}

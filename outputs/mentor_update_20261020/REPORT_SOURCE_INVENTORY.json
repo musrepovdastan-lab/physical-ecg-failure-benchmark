@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-20",
+  "author_contact_update": "User reports having emailed Cao; no reply received. Sending details and delivery were not independently verified.",
+  "sources": [
+    {
+      "path": "outputs/mentor_report_20261007/ECG_RESEARCH_COMPLETE_REPORT_READABLE.md",
+      "sha256": "467c2f8a8a08a884dee908fdd02f79a0de7c6b424fd392a17df84b1e9c2b8229"
+    },
+    {
+      "path": "outputs/mask_semantics_recovery_v2/FINAL_RECOVERY_REPORT.md",
+      "sha256": "a09da00d7efd8ec4c27dd60058dca80f9400f00fc372945d9a50a39045508ac0"
+    },
+    {
+      "path": "outputs/mask_semantics_recovery_v2/MASK_DISTRIBUTION_SUMMARY.csv",
+      "sha256": "cbf8348f8e8a7562b1a2dc0e458052a9ec1f5f3ab37cdd6dca6bc55cb156129f"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/FINAL_FOUR_ARM_REPORT.md",
+      "sha256": "235d7c7e055a0052636185723e4c3bb2715d8b9b9e90fa5f913157aba4391118"
+    },
+    {
+      "path": "outputs/chest_only_independent_recheck_v1/RESULT_SUMMARY.md",
+      "sha256": "a3ed620d80ee17b04a80b012dff1ddc5caa603c265d510a5ab8e26c8b75d5466"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/FINAL_PROBABILITY_STUDY_REPORT_RECOVERED_RU.md",
+      "sha256": "0508f4c4691b2b9d3ecaedbd515a058a5d207b552a0f948bae85c05e4152b5a1"
+    },
+    {
+      "path": "outputs/architecture_replication_m3_recovery_v2/CHAPMAN_REPORT.md",
+      "sha256": "8925590381691c5ebbcb743d6b8ae38242b993b2e07bb8f3ad1cb89c5937e318"
+    },
+    {
+      "path": "outputs/ecgfounder_mitigation_v1/RESULTS_REPORT_RU.md",
+      "sha256": "5d83586377a8a8338ada043a7cad730785b479db890f91b4b54e6a689f008c7d"
+    },
+    {
+      "path": "outputs/identity_rederivation_sensitivity_v1/FINAL_REPORT_RU.md",
+      "sha256": "ecb207253fe688c777014f3b2fb0af752a381ebffbd0317ae5053211128e3ccb"
+    },
+    {
+      "path": "outputs/heedb_probability_extension_v1/RESULTS_REPORT_RU.md",
+      "sha256": "77f4972bca053153219367374a505496aedae13b313f887b06e48232829afd7e"
+    },
+    {
+      "path": "outputs/three_swap_population_mixture_recovery_v2/FINAL_RECOVERY_REPORT_RU.md",
+      "sha256": "44db184b088bd14edfd87c58f5b39039a9e8b3344809ef6adf2a1a0b76eceb72"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/FINAL_REPORT_RU.md",
+      "sha256": "e42c66f08678bc9f8305d992b604835fa35f5278a08951e51a33b337d3cfdeaa"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/RESULTS_KEY_Q_TABLE.csv",
+      "sha256": "d147bee653984796d2dd784080711e4acaab27719f671197a0a8081304c597c2"
+    },
+    {
+      "path": "outputs/novelty_positioning_after_controls_v1/REVIEW_NOTES_20261020.md",
+      "sha256": "88b28b534559ad5830be7a21fe55d1ee851c3ea7f38fa159622a7acd6dcb1f7c"
+    },
+    {
+      "path": "outputs/novelty_positioning_after_controls_v1/PRIOR_WORK_MATRIX.csv",
+      "sha256": "a4852095e4a499db3cebe3475139e79e265e55f634ba6f2dcf3b90b38b69db4c"
+    }
+  ],
+  "document": {
+    "path": "outputs/mentor_update_20261020/ECG_Research_Update_After_Mentor_Feedback_2026_10_20.docx",
+    "sha256": "e7ee8316a4a04597f1fb876ceedf18a603bdcbf7f739dc25229ed7599376baa6"
+  },
+  "word_count_including_tables_and_references": 2540
+}

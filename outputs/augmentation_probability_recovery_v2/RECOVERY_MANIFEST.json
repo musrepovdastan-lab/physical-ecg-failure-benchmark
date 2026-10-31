@@ -1,0 +1,1808 @@
+{
+  "package": "augmentation_probability_recovery_v2",
+  "created_utc": "2026-10-18T15:01:52.431486+00:00",
+  "status": "COMPLETE_FOR_REVIEW",
+  "scope": {
+    "new_training": false,
+    "new_test_model_inference": false,
+    "full_792_mask_inference": false,
+    "models_recovered": 12,
+    "new_model_metric_rows": 28656,
+    "paired_bootstrap_intervals": 128
+  },
+  "recovery_protocol_sha256": "89e85ec4beba20297c7f202fdbda92299ab6717f3c819547f9ef03319e41a4f0",
+  "comparator_supplement_sha256": "d1f3175e1b6b8fd097f4c31d37816fa2b7cdb6f6b9fa6811bc6b46debf5c75ab",
+  "input_files_hashed_in_primary_protocol": 26543,
+  "files": [
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/ALL_PAIRED_BOOTSTRAP_INTERVALS.csv",
+      "bytes": 24780,
+      "sha256": "3ad26d246feaabe2306ee10b636f5e759bbd407a465b4ed00c932595e4a61d50"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/analyze_recovered_test.py",
+      "bytes": 9392,
+      "sha256": "2d6bea21cc4741c29c279f9fd7b6c9f9e8532e1a41ba115f95677da49277837b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_104729_clean_auroc.npz",
+      "bytes": 7513,
+      "sha256": "60cc6393e03d90448e6f3e5e0e741698a8b41443dcb79216b616df12434def75"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_104729_clean_brier.npz",
+      "bytes": 7662,
+      "sha256": "c92331acbe3a488c27da2120fc3b4a2d9af0159b490cfc34a2297e5d3dd1d3db"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_104729_cycle_slots_120_auroc.npz",
+      "bytes": 7539,
+      "sha256": "5abccf8eadb4842ed4e10b77e91492e760cb53ebb21013f13bef462af143e061"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_104729_cycle_slots_120_brier.npz",
+      "bytes": 7658,
+      "sha256": "ebb5075a9c1d94ec4c1a786c2a52b745ac9bbf33f21ba95d23d95e3d00f57393"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_104729_cycle_slots_201_auroc.npz",
+      "bytes": 7540,
+      "sha256": "1b8255bc40da61c0344efe7ef19affe8360a89ba9be3997bcb9eb8fbc77728cf"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_104729_cycle_slots_201_brier.npz",
+      "bytes": 7657,
+      "sha256": "2de2cb596b91cf44d0dfdc66fa06f20ec1d713c1c3dbe23eee9bbb61b04d77c4"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_104729_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7553,
+      "sha256": "f60f15f5b897b71d3d96ed63e48209a830ee2017948d49843ff6282fbdb9826e"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_104729_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7656,
+      "sha256": "332b584b2a7b2590faa639dba4a31a0d4ed44f89bfaaba38dde2c7cc07cec146"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_104729_RA_LL_reversal_auroc.npz",
+      "bytes": 7561,
+      "sha256": "3b11eef8af4291106db3478dffa1a8e1855f8b831c2b4369a209eef32bec6138"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_104729_RA_LL_reversal_brier.npz",
+      "bytes": 7669,
+      "sha256": "a14bbdb791e8a604a74d0629f4f133a4ddac8255c548ec24aa381645a588d5a8"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_130363_clean_auroc.npz",
+      "bytes": 7512,
+      "sha256": "7eb620fa7f27fdecff7656a5f68208a406b81b9b31b51fa54883ac0cf1f900d4"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_130363_clean_brier.npz",
+      "bytes": 7570,
+      "sha256": "85269f4fca3468f56e0580a47c0425c1e295a254e3b685c1c2dcace744605082"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_130363_cycle_slots_120_auroc.npz",
+      "bytes": 7542,
+      "sha256": "63e029510268396ea26ea48af28cac76e4a40c4f2b7b37082ffc41f37632caa4"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_130363_cycle_slots_120_brier.npz",
+      "bytes": 7596,
+      "sha256": "a98e1685b672a20d90fd6fcad89ea9edef83743a04bd47eb3a434afd9276be07"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_130363_cycle_slots_201_auroc.npz",
+      "bytes": 7583,
+      "sha256": "9b5813ef3d5cbeb61a93d8a7cebc9fcd28257b26c21ae3967b75de96b9755dcd"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_130363_cycle_slots_201_brier.npz",
+      "bytes": 7563,
+      "sha256": "67b81cb3880095f6cd54fe9e84468fbe2f7a3e6f392e1968fe9746c63447fc35"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_130363_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7554,
+      "sha256": "003f654f9cf3921b43642b9945ee214d8601e628b8f7305ff2cfd9489579c4af"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_130363_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7575,
+      "sha256": "fa95ca85e62b50dd25b92d97a6ac9760e0a6adbd8e630123fea6c20641b93b4f"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_130363_RA_LL_reversal_auroc.npz",
+      "bytes": 7546,
+      "sha256": "0fa0820a044dd08e8e8b1b601d1438807e90194f77b53c0718577a477ee62f7c"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_130363_RA_LL_reversal_brier.npz",
+      "bytes": 7581,
+      "sha256": "c1f8217831c29a1c39fbeee1dc1d9e97e4e2a982e81f1a4031aedd312e72107d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_155921_clean_auroc.npz",
+      "bytes": 7555,
+      "sha256": "993e69823a656537e55ce4dd3039209895971d9053b9f406cfe15d5ec32e7e85"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_155921_clean_brier.npz",
+      "bytes": 7599,
+      "sha256": "4c4713a6e17ae68b3bebafc3d6aeb9546b299cd86f4f3a09e657ef8d794f5c86"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_155921_cycle_slots_120_auroc.npz",
+      "bytes": 7545,
+      "sha256": "de8c504ac54d240af870899499f60651af5a6af4ff1372a040b5742c5e5ea7df"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_155921_cycle_slots_120_brier.npz",
+      "bytes": 7480,
+      "sha256": "97b640682f516f8c0f4486a49d17ffb3132215890ca26774ef5d0a325be44297"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_155921_cycle_slots_201_auroc.npz",
+      "bytes": 7574,
+      "sha256": "1e2a3029cdf193e65cbdc23b2dbf5c53d7ad399359a26b02fd2db7615f15e740"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_155921_cycle_slots_201_brier.npz",
+      "bytes": 7520,
+      "sha256": "ba85e7c6e52fb0b07fa05518e7ecc19958cf90b64257c563fd563c8b713367f4"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_155921_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7552,
+      "sha256": "e978cd51a5ab6c8ed9c31ce58c18aaf680da1de55d9ae7d8882f3e4190b4b69f"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_155921_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7556,
+      "sha256": "cbf474799f3bfbbfe2a8b4b86d8ec5d0da8f5519ea57d4f3691a4abdd9a8b2bc"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_155921_RA_LL_reversal_auroc.npz",
+      "bytes": 7539,
+      "sha256": "61bab2b897c65fb6fe54130a8d412ce710f691ee3aee9a52f324b8100a374ea5"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_combined_155921_RA_LL_reversal_brier.npz",
+      "bytes": 7543,
+      "sha256": "2dcb9e908d8997a1ad38c97f90e13ea7a8eb81ac0e6b649bf1c80b19f8002c35"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_104729_clean_auroc.npz",
+      "bytes": 7510,
+      "sha256": "dd050f894514e3ccc074aaad19e2d3941f3774923ddcb12fd1f70f20288c674e"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_104729_clean_brier.npz",
+      "bytes": 7659,
+      "sha256": "1e49e7d3f7b1c0871fd69a6481be005e679948c4daff4b1d85072c17c9dbd119"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_104729_cycle_slots_120_auroc.npz",
+      "bytes": 7663,
+      "sha256": "908d2be79e7e7b53759f4613229dce14171c373f16379edc4ea54dbb5c4cd5ff"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_104729_cycle_slots_120_brier.npz",
+      "bytes": 7340,
+      "sha256": "69859d36919d0b5f4c4a33080db167b99240a62cacb7ca7a8321b51dd7b2a5e0"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_104729_cycle_slots_201_auroc.npz",
+      "bytes": 7638,
+      "sha256": "2697d581f0eb3bf5e11e0d8950f1b53bdb518502f13e8571e3882a5759c12b34"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_104729_cycle_slots_201_brier.npz",
+      "bytes": 7571,
+      "sha256": "db94e45082835a4c3942c05c2b7a4cadcb92ef0dbeb8f57c05a13967d7f6a6bc"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_104729_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7603,
+      "sha256": "38c04658b2f649e1a16097905c95cb30bd191ce5ac2eb9d20c9255764b47dd03"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_104729_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7479,
+      "sha256": "a4160c2e28333a7b6e16f763a3c342a68718ccbc6cd76cb428324a66044c20fc"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_104729_RA_LL_reversal_auroc.npz",
+      "bytes": 7676,
+      "sha256": "fdf928855e5ff27f19db493c577f060187984db81695701bcedc85884c9332c7"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_104729_RA_LL_reversal_brier.npz",
+      "bytes": 7367,
+      "sha256": "23b79ef3181c9fe8876e7dccf4ef354b4e4d202323f53a4ba37316a8e770a23c"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_130363_clean_auroc.npz",
+      "bytes": 7527,
+      "sha256": "ed5f60267a59b56ca006e323a39b1fefb97f2943dd2b3943403fc57327b69790"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_130363_clean_brier.npz",
+      "bytes": 7744,
+      "sha256": "7b2ef6aaadb2c004acbdbe29b302321c6dfa7d5a2f41b35cb723a9c4455639a3"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_130363_cycle_slots_120_auroc.npz",
+      "bytes": 7674,
+      "sha256": "cbc3b489f76cf0a0f71604596202831eb660a276149b7f0b619740e0a2e49c42"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_130363_cycle_slots_120_brier.npz",
+      "bytes": 7348,
+      "sha256": "e4584ca97b03facf483116cc56d8739810a502cda2d39e3f142498c2ee211191"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_130363_cycle_slots_201_auroc.npz",
+      "bytes": 7624,
+      "sha256": "6d560ea0ff5a58af9d80d5e963cf4e58a53b0c4d27399c9e139693d9a587a4e1"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_130363_cycle_slots_201_brier.npz",
+      "bytes": 7510,
+      "sha256": "83d26cc051889d6a90d7b6a7114714f1008a09aca3abda62011fdd5d6463503b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_130363_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7587,
+      "sha256": "79d5a51363711ac07e94ab8ffe114afbdda07936f8ae475fbd370634c86f032c"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_130363_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7528,
+      "sha256": "4b26f9e1610d6db5b3b907df373b5ce71273e2abf3fe2edf8cb23d881c12b0bf"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_130363_RA_LL_reversal_auroc.npz",
+      "bytes": 7652,
+      "sha256": "29efb79f602651635b2e662d2d73b470eac0c3ca28219b6871cfed0a557d3da4"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_130363_RA_LL_reversal_brier.npz",
+      "bytes": 7352,
+      "sha256": "3798c02f75654c60f1bdddda40df3e742aed3431676c3fd79c2568a7e1e2845e"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_155921_clean_auroc.npz",
+      "bytes": 7543,
+      "sha256": "1365469e5ef8335714b53065aed15759d87675c1eb203d25d46c8fc97f910ecd"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_155921_clean_brier.npz",
+      "bytes": 7662,
+      "sha256": "e2c8bf76b4db8785ee216afbfeb32b4e99f3aadbcf63abbf16693bb8b5e5d2c7"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_155921_cycle_slots_120_auroc.npz",
+      "bytes": 7660,
+      "sha256": "219444b33a15857d1aad5307b827b7ade29ab9839fc233daaf92ee867fa7074d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_155921_cycle_slots_120_brier.npz",
+      "bytes": 7342,
+      "sha256": "efe7c12e951b61a08b18c5e13d5312f3e9384e0680911a796be517d6764d2720"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_155921_cycle_slots_201_auroc.npz",
+      "bytes": 7668,
+      "sha256": "85234722e2ef93f8986a1ab0af257ed814fe53a7f105477d3fa34d980abdf2e3"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_155921_cycle_slots_201_brier.npz",
+      "bytes": 7472,
+      "sha256": "747d4b45ad06e9c8693debb63f0e67b97c0e3035648c54e80d209f6e1a2ca205"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_155921_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7604,
+      "sha256": "f241fcb726945296c41548008de62d04c986dee07e9a049cd3eb8eafa6155b52"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_155921_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7445,
+      "sha256": "74d45583ccd546526d0f993e4b15c9645bcde46f78f728cca080602a01708171"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_155921_RA_LL_reversal_auroc.npz",
+      "bytes": 7668,
+      "sha256": "91d844c358337daab3e3076af1a30e0bab610ee4fbcca7272e86b8e64dfa696b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_ordinary_155921_RA_LL_reversal_brier.npz",
+      "bytes": 7444,
+      "sha256": "edbd94941dc19344f3354969c8dde422c9c03960079c72551907a4cc356ccffe"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_104729_clean_auroc.npz",
+      "bytes": 7511,
+      "sha256": "617fe436938b53c162d2e40b0aace679f40474cb50a4e224e7d2a5eeb4a3d9c9"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_104729_clean_brier.npz",
+      "bytes": 7659,
+      "sha256": "e70a11f0b67c6586246b176c5f08fcdd5c7724db69debc30cf8ff9bf45c9c6bf"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_104729_cycle_slots_120_auroc.npz",
+      "bytes": 7533,
+      "sha256": "f24b5606e7d10f523af9cfa6f54ae114af7290166b8b39aa9cfc781579de644d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_104729_cycle_slots_120_brier.npz",
+      "bytes": 7559,
+      "sha256": "3f0b5ef5c45e2018eba8813cae1c18b90ac4fc67f63ccc8b8a073cab1402a8e8"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_104729_cycle_slots_201_auroc.npz",
+      "bytes": 7561,
+      "sha256": "bfcdc956fcdb0b568ea2726fa22b87283a6d42737cb6a43cd9e739dee99a42e3"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_104729_cycle_slots_201_brier.npz",
+      "bytes": 7651,
+      "sha256": "2dcfca99da1dff8faa6df71e8096588c31c4324232f8102d322d40ac6ada8b64"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_104729_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7533,
+      "sha256": "818dda08e258b15f9f888d5118e56be6a81ffe146629f4295d767649533b0db8"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_104729_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7563,
+      "sha256": "e0dc9aa2c14e0b30981b4d5c02fc6f18a32fbba93b88d694b5cb1837cb6d78ef"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_104729_RA_LL_reversal_auroc.npz",
+      "bytes": 7543,
+      "sha256": "df0e812f2a4f5b52f32e4bbe8919f231f8aa1a85dc566d640276bdb0aad71c62"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_104729_RA_LL_reversal_brier.npz",
+      "bytes": 7579,
+      "sha256": "9399cf4cc46cb08c7113465ddc72fbfe4942990c644ee5fcb67b50f86d600155"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_130363_clean_auroc.npz",
+      "bytes": 7523,
+      "sha256": "2bafa6c000ead886fc02b00c7cb53441991e7e46286850007289c595c227e9e9"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_130363_clean_brier.npz",
+      "bytes": 7612,
+      "sha256": "88af8c2f55dbd14cf2b333353e7739090821a2f257a89a35fa70c56658584719"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_130363_cycle_slots_120_auroc.npz",
+      "bytes": 7538,
+      "sha256": "41b49b5112de09e35d507c59ee10e94d86987f8b2acd60e3425601f741ae6977"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_130363_cycle_slots_120_brier.npz",
+      "bytes": 7598,
+      "sha256": "a303ff797f8a8c9b1576e38452a6b4f8a6b35d8ba48716d881614b36954cc8e0"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_130363_cycle_slots_201_auroc.npz",
+      "bytes": 7556,
+      "sha256": "cce995ba08906b6a306066ae9d1172b67dd35811126296d5636dc794a7e6081d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_130363_cycle_slots_201_brier.npz",
+      "bytes": 7595,
+      "sha256": "f22a063815679b9f4079eb9c75dce99cd504ca0472e3f100574e6695893d150a"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_130363_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7543,
+      "sha256": "624010a4d282c23bffc1c55073a53a42359163c34cd9aa2654e0baa416ba237a"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_130363_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7590,
+      "sha256": "79cc54583bc485252c393ce9e7adeefa75af12e48a891b47aeb899534c6c9299"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_130363_RA_LL_reversal_auroc.npz",
+      "bytes": 7547,
+      "sha256": "a0a8040b753562595d467b1b308dad14664f29a9700e68bf0ce0af42507c2b46"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_130363_RA_LL_reversal_brier.npz",
+      "bytes": 7608,
+      "sha256": "0927f2c46a6079bdc49c8951bbe3a27be61de80769470ae353fdf999e8061658"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_155921_clean_auroc.npz",
+      "bytes": 7538,
+      "sha256": "819b617d47dd7c6331afa06b22fa22ce38ee680e74f237a9fc814bb3b6583194"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_155921_clean_brier.npz",
+      "bytes": 7666,
+      "sha256": "61444cb283cb4a128eb6ec3558c83693226b2c3e23a05fe8173b4d47ff48c7d0"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_155921_cycle_slots_120_auroc.npz",
+      "bytes": 7551,
+      "sha256": "4f082334f802ecddf90bb970705d33fbb3bf48e593536960fcee8b2ae1bf2039"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_155921_cycle_slots_120_brier.npz",
+      "bytes": 7555,
+      "sha256": "f20e5cae4a4e65dfd49503c68ded4fc54e6901f250adcdd0db3450f7e87eb689"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_155921_cycle_slots_201_auroc.npz",
+      "bytes": 7545,
+      "sha256": "0388a8239d9bf6b9aaa326a24f634cd4103af476c2c4cb42222b87fdac45dafa"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_155921_cycle_slots_201_brier.npz",
+      "bytes": 7540,
+      "sha256": "a8c340fb1de04f335361fd8005f818fdf586700fa544f7f4d4aaa1bff3d0e4e1"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_155921_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7542,
+      "sha256": "84e6b1051fd8f3a694f5cf014760d1de59c8f0374327eeb3ba932d209f253b3b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_155921_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7543,
+      "sha256": "c4e1cb1d515877c867d4b6d02499d5a4499b15358532ce75e100eb3786d267df"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_155921_RA_LL_reversal_auroc.npz",
+      "bytes": 7549,
+      "sha256": "a42b9ad41aad847e9ae2f3a4f8cff8f75202070d644a4bc320ed91c423414f24"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_aware_155921_RA_LL_reversal_brier.npz",
+      "bytes": 7539,
+      "sha256": "b0a26a63f5837c1743c364fa8f594438d69a8aca55dfe11b65a0b442c92d2a29"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_104729_clean_auroc.npz",
+      "bytes": 7528,
+      "sha256": "1827b18da5b209510ebdcc1deada889d38cc65a85c837046dd76615bc9b73c86"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_104729_clean_brier.npz",
+      "bytes": 7594,
+      "sha256": "799d4e393225db05850f39d7c0731c2a02ef0670b8518530ba618d57242a47e7"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_104729_cycle_slots_120_auroc.npz",
+      "bytes": 7597,
+      "sha256": "9ceb93934ec5b1d018add0b901fa7747ab32c6d4d4b4613ccb20e2b75d833f44"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_104729_cycle_slots_120_brier.npz",
+      "bytes": 7587,
+      "sha256": "e1a91bc083cd1f2e20f974e9497cefa7bc26482f1b3593fcb28d4c2ce0a2bc4c"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_104729_cycle_slots_201_auroc.npz",
+      "bytes": 7581,
+      "sha256": "1444c42b960b75c3e0f809ef24f997c1ced9576cce1f22e6101eb7a9adf45608"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_104729_cycle_slots_201_brier.npz",
+      "bytes": 7555,
+      "sha256": "135e56430d1e5bd91a9f0ff280d2e21c0a211b40255a38ac68b207eb18dcf6f0"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_104729_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7541,
+      "sha256": "e2e4267b3f847d3bf37facd51884cbcfc8a8c483f3ca17d0801e715da662a6f3"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_104729_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7592,
+      "sha256": "e3ac613f82b94517f28139e6aef6724af1f0474f6c20f7c1a0980286d1f9a78d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_104729_RA_LL_reversal_auroc.npz",
+      "bytes": 7596,
+      "sha256": "dd1b98b0bc1347697a9a6d2f0993aa43eed1b3daeed45fc1fb02d2d7d32702d8"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_104729_RA_LL_reversal_brier.npz",
+      "bytes": 7569,
+      "sha256": "dcc2771cc4cc4690045b1bc1b5d694764450307c5b4f6f341745d649e55dc99b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_130363_clean_auroc.npz",
+      "bytes": 7536,
+      "sha256": "7ef9cb6038a20b0b5c05889580c9485aab4555ddc1ca82d6f9ada0e42dfabac4"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_130363_clean_brier.npz",
+      "bytes": 7568,
+      "sha256": "94d655218a4e233153f25a776a892e76da788b03b90a1a754f9a38c15c72a2a3"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_130363_cycle_slots_120_auroc.npz",
+      "bytes": 7572,
+      "sha256": "fae7d5abd572de316468ff709974fcb3e67cbdc9beb9cef3ff4fbe8b611ee8ca"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_130363_cycle_slots_120_brier.npz",
+      "bytes": 7589,
+      "sha256": "e42ac7efce0016d8693260a76818ca9544c75b355d1c834209dad81b839d02dd"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_130363_cycle_slots_201_auroc.npz",
+      "bytes": 7608,
+      "sha256": "77c42a025c96bd075a56321fa3d87f1c90e7d72428350f7722cb1dba31517d32"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_130363_cycle_slots_201_brier.npz",
+      "bytes": 7563,
+      "sha256": "e76d10f8fe78862771cb0040ea01d91eb06b8e8101367d86019f6906ff62b209"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_130363_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7556,
+      "sha256": "be2338cbbdfae99f9cc5d18b17505976a9599ee6a5739043bc32a4130c390629"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_130363_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7579,
+      "sha256": "02c86820528e9569cb4d8b6c7f2a74bc65f01a261042bdd971946e90650b3cc9"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_130363_RA_LL_reversal_auroc.npz",
+      "bytes": 7573,
+      "sha256": "9b13269089dd97498e565b5febe9c0d9f4f871a9b9e8797bff2ed553d69803ad"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_130363_RA_LL_reversal_brier.npz",
+      "bytes": 7551,
+      "sha256": "f46c0c575f8d6102975df24246a79ae28027f086604aa3234cb3230833e16e58"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_155921_clean_auroc.npz",
+      "bytes": 7528,
+      "sha256": "9a8401df10e5342a28f35dada4c32edd04c236007eaa6f748e9ec6992222c6f3"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_155921_clean_brier.npz",
+      "bytes": 7660,
+      "sha256": "a387e660d541e8b68199ff7f742961677e8d2a7b9426ce19951c54a66b162fee"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_155921_cycle_slots_120_auroc.npz",
+      "bytes": 7571,
+      "sha256": "a7e5d2c5d72252cc3811fb35e7458bdf16fac5e52dd3540189980deee0be7736"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_155921_cycle_slots_120_brier.npz",
+      "bytes": 7564,
+      "sha256": "730fbb39156ea7755c48679080dae4aefe2f143b6fb246f9d1e20944410bb44a"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_155921_cycle_slots_201_auroc.npz",
+      "bytes": 7540,
+      "sha256": "5b9bb149978f45c83f039f5fe0c21583bba11da4de449aef2b8aec023f65becd"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_155921_cycle_slots_201_brier.npz",
+      "bytes": 7664,
+      "sha256": "fd855065ccdac485d1f8cdd82b4359b0339cfdab5a06ff73f6467b8d00358f2b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_155921_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7535,
+      "sha256": "342a37d0a22e08b6e629a29e06cd660ad29c1753fcf155621e1b2f96f922639e"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_155921_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7644,
+      "sha256": "8e8b1d7afc89bdab70657704479ff13133f876437ed5b6315ab0a23d72f4136b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_155921_RA_LL_reversal_auroc.npz",
+      "bytes": 7574,
+      "sha256": "0f238a12066db25998c2a408385193d93d0fda4dadd946b9c6c0d3dc26ed741c"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p010_155921_RA_LL_reversal_brier.npz",
+      "bytes": 7596,
+      "sha256": "96120b7e73e8284bafddc7c8075db01a7f45ae879c64da55e9019013d3d07837"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_104729_clean_auroc.npz",
+      "bytes": 7511,
+      "sha256": "79ed7bc80b1d5ee24cde068370cc4ac339de4a212256d13c7d36666b050c7bb1"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_104729_clean_brier.npz",
+      "bytes": 7583,
+      "sha256": "232e32ddea8edec86c5bed29337dc234039bf3359943bf12f299392f228c11b3"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_104729_cycle_slots_120_auroc.npz",
+      "bytes": 7604,
+      "sha256": "65cac8c8b1bd3e55456b1a14289551d56026bda8caaf1094f658614b4b90347a"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_104729_cycle_slots_120_brier.npz",
+      "bytes": 7423,
+      "sha256": "35bf34a8caba1ee1aad0527f3c791025607aa5deab491eb9e558c1342c90cf5f"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_104729_cycle_slots_201_auroc.npz",
+      "bytes": 7583,
+      "sha256": "5985da84687cc698b4707499193635273883d9b5e7a9f28a4cbcfafa67dd73c9"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_104729_cycle_slots_201_brier.npz",
+      "bytes": 7512,
+      "sha256": "348a534443d676df17bb639bacdff54cdb657eb157069a6dabb92b5d855bacf0"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_104729_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7581,
+      "sha256": "5f3f9b97326f67c7bd088d2fc23e1dec12e805cdd7f07a68711b0a3ec585eb8f"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_104729_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7441,
+      "sha256": "4636d70028198e5bb663ec8eeaaf91f40c2ecf1ec1fe2c4ed12c9a90493fe0a2"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_104729_RA_LL_reversal_auroc.npz",
+      "bytes": 7575,
+      "sha256": "ed661e0439e67c0f0a6c39f4e690830ae46adfd4347068488d6314bb6c74308b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_104729_RA_LL_reversal_brier.npz",
+      "bytes": 7492,
+      "sha256": "198fed12c166bbb2d06fe4ba7d29a3b6912e4d6a28695440462c3ce976aa028f"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_130363_clean_auroc.npz",
+      "bytes": 7532,
+      "sha256": "471a6281232f79ded61baf1dfafbdd50482502b44671e2011fc9163c154ee6f1"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_130363_clean_brier.npz",
+      "bytes": 7666,
+      "sha256": "ead7e2200f9898bd67d2c7bb458bcc8aa5a12c1f97fe02ff5808f3fd90cdd2a0"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_130363_cycle_slots_120_auroc.npz",
+      "bytes": 7590,
+      "sha256": "031a532ab2b5e17ca2e03199f94c7124ad36dd8313fb956d5d5fb1626acd9c79"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_130363_cycle_slots_120_brier.npz",
+      "bytes": 7557,
+      "sha256": "640ab9b82f03f401728d2e6b3425e610e480d378101de7b3d45536fbada02664"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_130363_cycle_slots_201_auroc.npz",
+      "bytes": 7566,
+      "sha256": "0fa691933fc9f3f469e6926446b9fa45d9241e952850057a0222799845e03b3b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_130363_cycle_slots_201_brier.npz",
+      "bytes": 7591,
+      "sha256": "f6d91451a0970dec1a292edd075e07c48ac108dc552e8e9b769d90d68bae40cd"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_130363_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7555,
+      "sha256": "a9bed913096e16fed0ceb8f2ac3cb549950fbcc84bb491cea551ae9532238849"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_130363_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7568,
+      "sha256": "2b78443b8d999a253b30cb85bfe9de26abac9766fbd850d753fc19c8094025fc"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_130363_RA_LL_reversal_auroc.npz",
+      "bytes": 7547,
+      "sha256": "e1819392e52e9a454f5947bc010f130d311b1c55b5cc2b7f402e30e025ca3b35"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_130363_RA_LL_reversal_brier.npz",
+      "bytes": 7554,
+      "sha256": "7a4cb87127cbd0b22f238f871ecf7b8aad27d9b533bae2faa518975a05f5ebce"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_155921_clean_auroc.npz",
+      "bytes": 7522,
+      "sha256": "69afc19464198a751219f27ef7ad2983b8ae8e5b4b1e1f66351fd8d1c49c8478"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_155921_clean_brier.npz",
+      "bytes": 7709,
+      "sha256": "363b57ea110d29dbb6da52e545f2ae7c941840afc29c388f08a2539fef50a00a"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_155921_cycle_slots_120_auroc.npz",
+      "bytes": 7549,
+      "sha256": "31265dca82703ebd05c07388a5ea2cd1dd2626d859e36b2e2e14de731b3259e7"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_155921_cycle_slots_120_brier.npz",
+      "bytes": 7569,
+      "sha256": "215b70d6dda796939f14a481b8aa4ceefb0cfe982701a7608e72a4225a63ea08"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_155921_cycle_slots_201_auroc.npz",
+      "bytes": 7555,
+      "sha256": "409c6817ccf03d936b25baf4c904cecbef4ddabb434a83f568e7dae4f99f70db"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_155921_cycle_slots_201_brier.npz",
+      "bytes": 7629,
+      "sha256": "fc9126258c41378a7c96a3aee1d9433f49830e1a5a1c01c7786fee047af4bae5"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_155921_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7553,
+      "sha256": "d355e4df052a7d53a4a2d721c3c4713666cd8e88caa3857cd1deb9ad164cec64"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_155921_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7598,
+      "sha256": "713ddba0b014abe37d4b54f63ed0a2d03692cd129251ddff99df409b5c909e96"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_155921_RA_LL_reversal_auroc.npz",
+      "bytes": 7546,
+      "sha256": "79826d646479c91c5cdc0655f53c3f65d0a986b45a6b969efd952696b1691f27"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Chapman_physics_p025_155921_RA_LL_reversal_brier.npz",
+      "bytes": 7601,
+      "sha256": "0fa2d3aeb96b21c7bc63c135546f38d70f1a92690c5d5523fb22f7fb021df11f"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_104729_clean_auroc.npz",
+      "bytes": 7435,
+      "sha256": "e3442a5cc2c70e73e44b7fce818e0d3d9cec406c9c43dc2f7465e25a9d350977"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_104729_clean_brier.npz",
+      "bytes": 7701,
+      "sha256": "8f6f467e2e1ccba9219075c745e9dfe237b214789d867d9135eadce04c9439a2"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_104729_cycle_slots_120_auroc.npz",
+      "bytes": 7486,
+      "sha256": "831f052aef71d8fcff36f23cfdd04675fd85333f6628e96e511ad67db5505223"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_104729_cycle_slots_120_brier.npz",
+      "bytes": 7697,
+      "sha256": "7d24f2d02e5f70f0bc61a1c5274a5cd1cc736e652a931db374ae772232b8eb72"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_104729_cycle_slots_201_auroc.npz",
+      "bytes": 7473,
+      "sha256": "5a7d4299d3b7f11ef2b5c3a13121879d387acb2d67503d54d136fb91d77d8f5a"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_104729_cycle_slots_201_brier.npz",
+      "bytes": 7616,
+      "sha256": "9da59f30849f14fccd995f784f345ee34c375db9da0e6f935711963e7f1a08df"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_104729_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7491,
+      "sha256": "060018744d6879e00f56564bb6c4d238bb5c55bde208bb5c1496639d8c65f188"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_104729_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7597,
+      "sha256": "faddb81337638892c7cb950605f3f83eda255da382f7fa462cb2bc4a94bd2071"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_104729_RA_LL_reversal_auroc.npz",
+      "bytes": 7484,
+      "sha256": "7573360ed2e26f048f4f3be4c0f9bf699b239c45689b7bf751836c1bd468aa3e"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_104729_RA_LL_reversal_brier.npz",
+      "bytes": 7691,
+      "sha256": "0e6cdeb4f49b6ea3c3786e7d598a7e24f387726c67c0314421637a05f62d121e"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_130363_clean_auroc.npz",
+      "bytes": 7434,
+      "sha256": "7851db31e11b1d08e66659f2abfbefb1da88b45c14bf742ec09f01534e7dc0a2"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_130363_clean_brier.npz",
+      "bytes": 7678,
+      "sha256": "cc78a9248d23e51d5dd9cadbe473feef7a0c18974a13ff8550e62f66d0895eec"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_130363_cycle_slots_120_auroc.npz",
+      "bytes": 7468,
+      "sha256": "39410192a48bcc3773958c5ed6f85d3178d2e77dca157dc12e23d451f6f98fea"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_130363_cycle_slots_120_brier.npz",
+      "bytes": 7684,
+      "sha256": "d8590133ba8b63e316a9a41bd6791124e8b456771cb52c0d24c0b004b38c44c5"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_130363_cycle_slots_201_auroc.npz",
+      "bytes": 7477,
+      "sha256": "f0847588945e3f6d5f0c00caee8293ae8472c1707f0526773439c3922e63d377"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_130363_cycle_slots_201_brier.npz",
+      "bytes": 7684,
+      "sha256": "2144e4df100b280c46c9ae71b2dea520d27e4bda0936087906ac6370c789fece"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_130363_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7492,
+      "sha256": "f9dbe1c8be8ba7741b4d1a295d13f37e5ac47a7fbf505cbe9443544dffb9b472"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_130363_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7570,
+      "sha256": "362d9527631f9d5a9bb3774688208475a33535e03943d1376c9b4c5f7dc2906b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_130363_RA_LL_reversal_auroc.npz",
+      "bytes": 7489,
+      "sha256": "8880f71bd4294a9580161ee35fb8a8ff073f58cb4d4e759a794f609f4487525e"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_130363_RA_LL_reversal_brier.npz",
+      "bytes": 7673,
+      "sha256": "fe40e808bd70b0601840d3d081dc0b86bb1d217b7955e115df9d623b9f8821ac"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_155921_clean_auroc.npz",
+      "bytes": 7434,
+      "sha256": "84536a4cdfc128ffcfe8e430a7cdee0621aa4437a406a1b1087b718af158d5cd"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_155921_clean_brier.npz",
+      "bytes": 7681,
+      "sha256": "a61668bc798ea5f88a022587e0163bec0a37c0950d096986443885e579b2e595"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_155921_cycle_slots_120_auroc.npz",
+      "bytes": 7513,
+      "sha256": "5ddf04992e6e04a76f5e28bddb670ba5a30de674ece9dba58518883e3913ff2d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_155921_cycle_slots_120_brier.npz",
+      "bytes": 7579,
+      "sha256": "daafa4f69f53d92383b8c9cdb3ac9150a7f68bba62c1df8c280bf0f47e3f101f"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_155921_cycle_slots_201_auroc.npz",
+      "bytes": 7483,
+      "sha256": "568cac339d3f1ddc58768a2f779693235af46f0b2b6b95bcd790ecf276cf45e8"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_155921_cycle_slots_201_brier.npz",
+      "bytes": 7639,
+      "sha256": "0a73374239e25b17559f92411c28feebef042f63e7f6133f6b24fef13a29e2a3"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_155921_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7490,
+      "sha256": "5a78db68bbe1f0ffadfa165b5de5d5ebdb175ca26549580fd96072970d1888be"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_155921_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7568,
+      "sha256": "03b25dd18f49e3088a2b3f0050548e9b2dd8ae2016bd8ec4205517c8452cd695"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_155921_RA_LL_reversal_auroc.npz",
+      "bytes": 7498,
+      "sha256": "4b30bc65ce204fb20734a2a34dcd4d554680640f1311b12c74451ccd1607c6eb"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_combined_155921_RA_LL_reversal_brier.npz",
+      "bytes": 7584,
+      "sha256": "f693a07dd9c301e49c3c3e817a617f3023b89aa6d7da43634711b78e8e40f1a4"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_104729_clean_auroc.npz",
+      "bytes": 7436,
+      "sha256": "d7dd52f5bbb0f0307f3d8f7c3c1e8c6cd16f1d08210bcf7c28b07b6b8840490c"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_104729_clean_brier.npz",
+      "bytes": 7701,
+      "sha256": "1cc163700291471451af4d7ebc48c48b2700118058ba6e1983cac3bbf660b5e5"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_104729_cycle_slots_120_auroc.npz",
+      "bytes": 7685,
+      "sha256": "dee3ab3ba65c28e8a96ae7a2064308732685aa2f7ff43097d18858c5040eb1e1"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_104729_cycle_slots_120_brier.npz",
+      "bytes": 7472,
+      "sha256": "9d712fd3c86c257516ef0853d95a9381bc269e52cd11cebc4b1e6f880c2d03e6"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_104729_cycle_slots_201_auroc.npz",
+      "bytes": 7594,
+      "sha256": "6a386fac6eb63dde5063bf3622e986f7289d83aeffafb1d04b63a6d9327d7b99"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_104729_cycle_slots_201_brier.npz",
+      "bytes": 7561,
+      "sha256": "15e61cefeb77a195f9636471ef897e20a01f05e07250a0c6e22fc925890eff6d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_104729_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7549,
+      "sha256": "df05e819df3ae0e0d791441dee970cf48ad001d57040bdfa2f3b2b55ca003e15"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_104729_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7560,
+      "sha256": "f08697bdb3e9aecaea557d1f09afe46fc4db0bee933d882d006b080e59aa926b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_104729_RA_LL_reversal_auroc.npz",
+      "bytes": 7593,
+      "sha256": "809186dc2779616f7af8a1c677557be0dd8260c40de62f3a01b9a24db69bb591"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_104729_RA_LL_reversal_brier.npz",
+      "bytes": 7499,
+      "sha256": "b4ee8f4d518f2af9c703a34aaf36de5366020add3dd7eda9d5a2025139a35c7c"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_130363_clean_auroc.npz",
+      "bytes": 7431,
+      "sha256": "71ef85753f80063a6507bea0aa748015778d0a9c104b7ce96a5833c81b264954"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_130363_clean_brier.npz",
+      "bytes": 7702,
+      "sha256": "b01ba87dcbb2675846f5de7448c5378b4f5fc9565961ea3a55debcf096f8835e"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_130363_cycle_slots_120_auroc.npz",
+      "bytes": 7693,
+      "sha256": "bd5506863db72f3abf679b39b6fd705081381a5b24e564024872ec9c0739e086"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_130363_cycle_slots_120_brier.npz",
+      "bytes": 7454,
+      "sha256": "635051987353e6211c72154bc2b7b6cbdcbea8aa3f7c515dfaa59258228ae152"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_130363_cycle_slots_201_auroc.npz",
+      "bytes": 7583,
+      "sha256": "2ea8127d0975de28e2990b91e6eb4b3281ac4d52d8eb9a5ca4ec6f8747297ff4"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_130363_cycle_slots_201_brier.npz",
+      "bytes": 7567,
+      "sha256": "575aaf00665bfb4a850c431e506948eaac04694d1b5d54cda4234a3b3ddc39ba"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_130363_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7549,
+      "sha256": "a616f7a53f9ef5ff1f9de851ed576fa4f010fc12c44da07e46217f6f8105e750"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_130363_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7519,
+      "sha256": "5459a5731a97803e32f7151d39ac185a0915d2c051a98443f87046b6f2c3eb2c"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_130363_RA_LL_reversal_auroc.npz",
+      "bytes": 7577,
+      "sha256": "fa26399903fadd5f78b074294340e82cfea9796aa95e5b81ebf9c404383dc662"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_130363_RA_LL_reversal_brier.npz",
+      "bytes": 7447,
+      "sha256": "944ff503a802e2daea207cb5b5881b9c7001e909ecfa52219583c3ca2240fc94"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_155921_clean_auroc.npz",
+      "bytes": 7441,
+      "sha256": "d22c6d715969bbd98480860f9d1989c8891d2b628eb320c025036a1412a498ac"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_155921_clean_brier.npz",
+      "bytes": 7665,
+      "sha256": "d9895bb62adc8b6f85ef4959919201d257f9580b0e12991d49dc492c23cd8cfc"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_155921_cycle_slots_120_auroc.npz",
+      "bytes": 7600,
+      "sha256": "05324aee8bd933bd7a7e80877944b7a26e76b0aa90811dd6ed4382357d6ad158"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_155921_cycle_slots_120_brier.npz",
+      "bytes": 7421,
+      "sha256": "45f7b0f97fda66dacee60168336a86dc4003ec43f9a45c04cb9d0eb26f602a5e"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_155921_cycle_slots_201_auroc.npz",
+      "bytes": 7607,
+      "sha256": "ddb3fd08633c910a9a19daa8e63bf5e58d71fff715b31d7859f444001d453ac8"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_155921_cycle_slots_201_brier.npz",
+      "bytes": 7528,
+      "sha256": "7c6e06fff5d2eeb52d19dc6663ea8bb74bff31ed58084be47619bb0edfbfb397"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_155921_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7524,
+      "sha256": "72abef13e45043cc1b93cf0320242e7bddd518a71e5b25a3d3ca3490b1c973d1"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_155921_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7504,
+      "sha256": "2c8066862bf055ac1abf73ce120178f730b391f77f3d93a7c181e8ccbd2a15d8"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_155921_RA_LL_reversal_auroc.npz",
+      "bytes": 7592,
+      "sha256": "15f142ae64104db1a5f445315f672e2f46e896ef057d09ec30b58e0845f96df0"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_ordinary_155921_RA_LL_reversal_brier.npz",
+      "bytes": 7426,
+      "sha256": "5ff39541111f6f323cbcbe06e7c79cccfbda80b460923d1c67d4060ac52f116c"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_104729_clean_auroc.npz",
+      "bytes": 7438,
+      "sha256": "7fe5dab3f3d8887f060315b4b275f183a97f3d8a11990f632a651b88da372826"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_104729_clean_brier.npz",
+      "bytes": 7697,
+      "sha256": "0f42e98cc57e22999a298d09b1d3e01356edd0471a7516dae4aea00d54bd6c4c"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_104729_cycle_slots_120_auroc.npz",
+      "bytes": 7490,
+      "sha256": "977c5e1cb2f50d032728495a297da33c9ea1e5ae8ab1e5732e94e1d34bce53ff"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_104729_cycle_slots_120_brier.npz",
+      "bytes": 7680,
+      "sha256": "8a5bd28c141ae834be46133e7510bb3b714eef912f0785a7425347e95d7d1d05"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_104729_cycle_slots_201_auroc.npz",
+      "bytes": 7485,
+      "sha256": "eb6d33c94fcc68f6024fe5e3ed411f31df9e378ab6ad3bca018c0d9935b8f2ab"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_104729_cycle_slots_201_brier.npz",
+      "bytes": 7680,
+      "sha256": "7be465755af94fff1a053021054a4e0925036b30fa5441afda625ad30e5eac35"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_104729_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7484,
+      "sha256": "a551036776d9743295cc24659b3c7cbf605ac3831f388a763043e48e621e482d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_104729_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7608,
+      "sha256": "a04a88c5269d7dfec76521ddde0640318c0c4795a492fcd1e7c02fc3edff7534"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_104729_RA_LL_reversal_auroc.npz",
+      "bytes": 7426,
+      "sha256": "8f7a656bbbd54d341bf6281e7f844d93afc9c60cc56f42f1491b801b1cad4d53"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_104729_RA_LL_reversal_brier.npz",
+      "bytes": 7695,
+      "sha256": "bdc381090fef88975e0699653b3f5b5dff91edc9e2a3c520c971487422804e0c"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_130363_clean_auroc.npz",
+      "bytes": 7429,
+      "sha256": "fa98debd26e38d807c2c1517ca22d8715fe37c3dafc39c22643a829604f5b4f9"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_130363_clean_brier.npz",
+      "bytes": 7690,
+      "sha256": "9213317fd24b67d232db967176cca4d926f0228dcb1019ffe5ae66ee9a9707e1"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_130363_cycle_slots_120_auroc.npz",
+      "bytes": 7498,
+      "sha256": "a17cf81d8e42f48d1858efa23901f6852df86889e49c15ed8a6924f0902971af"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_130363_cycle_slots_120_brier.npz",
+      "bytes": 7694,
+      "sha256": "5d006dc2b2d674c66ab1ed08b0803030c0b251acc5a216473466dfcc041f41a6"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_130363_cycle_slots_201_auroc.npz",
+      "bytes": 7477,
+      "sha256": "5485a881fdd31af6c173d54ae3970f3aaf3e2edbe4344c4c7e0422e7792f2d06"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_130363_cycle_slots_201_brier.npz",
+      "bytes": 7686,
+      "sha256": "e3e52311e8be775e1cca51fa258c0b7ce9013cafd3357e8ad0d5503d08a54fa5"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_130363_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7518,
+      "sha256": "e160b22dc4da0db8536a9c41690fe25b4477de3e5bbb90df6b760f943c8c288a"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_130363_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7604,
+      "sha256": "ab59e9a0ba4155ff29df636ef1e76a571c714fdaa53e9c347230b3811684e70b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_130363_RA_LL_reversal_auroc.npz",
+      "bytes": 7451,
+      "sha256": "42b3cb673db8ceecc17d2092675a8f7422561b62ed21a2963522ef6f21c0db47"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_130363_RA_LL_reversal_brier.npz",
+      "bytes": 7685,
+      "sha256": "96103f9f9ffecde08290b0ccda7ba9ef71551508000502929f5643d6d465db30"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_155921_clean_auroc.npz",
+      "bytes": 7422,
+      "sha256": "52ffc3f5c7892ba1427f916b3ece21e1264cf53719cf0511cfd1f6352ac2d3a2"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_155921_clean_brier.npz",
+      "bytes": 7675,
+      "sha256": "fc2348de92ea9437b15ae03abf016e577b915995aa5583a9c1ce97a6e81f9e3f"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_155921_cycle_slots_120_auroc.npz",
+      "bytes": 7485,
+      "sha256": "6c87bd5e48cba87dd8004463219c6936f9b99f34feb66f300d8eb27110f4bc86"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_155921_cycle_slots_120_brier.npz",
+      "bytes": 7583,
+      "sha256": "5207f96b18b01089ffe67ce92ad4f0d4b478bf0256d04dfbf257630231d30e8d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_155921_cycle_slots_201_auroc.npz",
+      "bytes": 7486,
+      "sha256": "e08e683e9103e40599b986618b61510e57da035037edd364ac89f3f0da25fedf"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_155921_cycle_slots_201_brier.npz",
+      "bytes": 7598,
+      "sha256": "4903f4c3c9f5f8511c03a89c44abd3901fa3c3008a742660399a2df5e2b5f8bb"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_155921_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7498,
+      "sha256": "4346d792be8b1ce4c60a25aeb40346132e85b2ead9051b97d2bff0242c17a7e3"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_155921_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7597,
+      "sha256": "b589aacb82e3ade43a568f51fd5aa49b368c97d41732b5d228883a6cd7512fe9"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_155921_RA_LL_reversal_auroc.npz",
+      "bytes": 7488,
+      "sha256": "146f7d6b8364f1f7ae178885b6f6b3b2b6e194490c068db2d4f6cb1cbefdf296"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_aware_155921_RA_LL_reversal_brier.npz",
+      "bytes": 7586,
+      "sha256": "dd65f295f12b161a06b651be335476dc1cb8519809b556162079769bf087d93f"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_104729_clean_auroc.npz",
+      "bytes": 7431,
+      "sha256": "b217ecae1bb02c636fd2239564dddab7b19190b516ed171905c15ea5f52891ee"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_104729_clean_brier.npz",
+      "bytes": 7664,
+      "sha256": "9144571ecb8404157c74a24b35a62c0e4cf2d03fea1b013a0108ee8a94e90258"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_104729_cycle_slots_120_auroc.npz",
+      "bytes": 7486,
+      "sha256": "b109d02c05a1c0ca051f5be7ddb3468e68c22254a55e275e8e809dd3fdb2b941"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_104729_cycle_slots_120_brier.npz",
+      "bytes": 7575,
+      "sha256": "337fa689f9531bbf89aad9468755ab5befd544b0ec6d64d0d2dc0cc94f167cf3"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_104729_cycle_slots_201_auroc.npz",
+      "bytes": 7527,
+      "sha256": "6358f8911c47e319d6b99b5c9ff209c08d10cdedd11f432fc662141362b0ee35"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_104729_cycle_slots_201_brier.npz",
+      "bytes": 7573,
+      "sha256": "c7cc1dfd58b8eed9061373e95fa0d8a22c5ce96f6f190df1322bab16840a7510"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_104729_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7511,
+      "sha256": "3bc34b89fa7332bd1dc18ed1fa78f0d2dca1c627dfe39e1e54143bd4951bd871"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_104729_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7560,
+      "sha256": "67d83789b67379f063fcf327e6507ee48cf7d7675a77bf9735f7212c1c96da5a"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_104729_RA_LL_reversal_auroc.npz",
+      "bytes": 7520,
+      "sha256": "0b33779a1cfdef41b8c33efc5327994befeb865f8287e1919cccc35b43e1695d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_104729_RA_LL_reversal_brier.npz",
+      "bytes": 7580,
+      "sha256": "490c32b96d25abf7fc295d3adeb46b5c4ab4de7def136aff68b75620eca550b6"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_130363_clean_auroc.npz",
+      "bytes": 7417,
+      "sha256": "b6ab55c6805b2b49fcf332865e501fc14b645d1a5001251b746464aa0175a9c0"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_130363_clean_brier.npz",
+      "bytes": 7704,
+      "sha256": "e078213ebcab360a3b717b718b91913afb0e12d2ecb4f644e09d1d12600ba13f"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_130363_cycle_slots_120_auroc.npz",
+      "bytes": 7506,
+      "sha256": "a51a18e3a82fd6d66c02db094c882cd70853ab4d48a326b472514c58cf0e7e95"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_130363_cycle_slots_120_brier.npz",
+      "bytes": 7607,
+      "sha256": "ca8b6435c369c68c49d2da36ea3ed42d011a842af639adebe19936a6e9e5726a"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_130363_cycle_slots_201_auroc.npz",
+      "bytes": 7508,
+      "sha256": "fdbb87be72c67cdbe457d91e350e4e2d9d2bcb5c6e03cc1ae253eabc964aab17"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_130363_cycle_slots_201_brier.npz",
+      "bytes": 7627,
+      "sha256": "6c9c3e2e5e74840c63ddf1e88b80c79cf59334b13f10d5cc13bef641e850856d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_130363_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7517,
+      "sha256": "73b6e7342d803912272aac7ba6e9bfc465fce538358298a7858790f6a533e0e6"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_130363_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7618,
+      "sha256": "c9ba58becbff4dfd1658a11202210586342856cd35b1d651987622ccd79a7e49"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_130363_RA_LL_reversal_auroc.npz",
+      "bytes": 7452,
+      "sha256": "ffef746d1090a6c50d1860fcf9c82f7d92d34d4bfae8eedc8c2898b1aafc3621"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_130363_RA_LL_reversal_brier.npz",
+      "bytes": 7612,
+      "sha256": "a41967d93e096ccd0560452c4ce7b77673bbbc87b805f1f9c189572d6e83b547"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_155921_clean_auroc.npz",
+      "bytes": 7441,
+      "sha256": "7e2fd25ed536392effc6cad333deea1fd560dfea0e386ef42dcf81893a697c98"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_155921_clean_brier.npz",
+      "bytes": 7693,
+      "sha256": "860a0069718e4c3e5b5d22829a82790bc217084795091ccdb73a43b3b5f87d43"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_155921_cycle_slots_120_auroc.npz",
+      "bytes": 7512,
+      "sha256": "4726b3994bbe4bc41c35d11baa6305cd313d47d8fe1bdedc7962886d7baee056"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_155921_cycle_slots_120_brier.npz",
+      "bytes": 7691,
+      "sha256": "f76496d638056f7a30a6660b8acce386ce26b844a56c9811ccb21f57f55341be"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_155921_cycle_slots_201_auroc.npz",
+      "bytes": 7524,
+      "sha256": "271b01e9b87c94951debca4815348b6b9d5a508cc6a203f525c67ad8834329e5"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_155921_cycle_slots_201_brier.npz",
+      "bytes": 7704,
+      "sha256": "8eb5cb1d07ccf39d5754e4d54e03b09450fe53099b81a7cadc209141b5c1539c"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_155921_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7488,
+      "sha256": "cf7ee170e52e709a3569695505d214972400e7f2dc9785406600f9e90646ef49"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_155921_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7695,
+      "sha256": "8548516ebd43a693b0a0f2a9699b863f20c2022bed664a72342acbc0a63c1f5d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_155921_RA_LL_reversal_auroc.npz",
+      "bytes": 7496,
+      "sha256": "4ffe5967f7d7cdbfef3340d4e677afe0558503ae6a724e30620859b387e534d7"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p010_155921_RA_LL_reversal_brier.npz",
+      "bytes": 7705,
+      "sha256": "23a50cd5cfe337f3f43cc82e4a1118de4c41c80235f9bd9990a76efd6aa875e3"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_104729_clean_auroc.npz",
+      "bytes": 7444,
+      "sha256": "0b555824902166df2a726e8cc955b09b4e8082b4ff9071f867cbb1ab08339b2f"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_104729_clean_brier.npz",
+      "bytes": 7671,
+      "sha256": "b2b1c52e31cd7242f8629b109dfd5a68ea9f1766e687f7b7b888711aa47f0f32"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_104729_cycle_slots_120_auroc.npz",
+      "bytes": 7520,
+      "sha256": "dd422794c15c7ce79932e6de1b82ec34eb92e2198fddad12688f28886d4836da"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_104729_cycle_slots_120_brier.npz",
+      "bytes": 7561,
+      "sha256": "2da7f8b6ca227a4d32fef8bb78fe5b148a1cec4e027b98a49a79d44358bba98e"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_104729_cycle_slots_201_auroc.npz",
+      "bytes": 7502,
+      "sha256": "dbf833bf55b155f779e7580fce0f92fdf2c8c8a50c5ef80ea24b304da562b78b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_104729_cycle_slots_201_brier.npz",
+      "bytes": 7579,
+      "sha256": "1774bccfcbb92f17daf70a9ca14779db53b7ab2a5910f65ea322b8978cc0e037"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_104729_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7498,
+      "sha256": "9f1c8b7d592f3fb0c531a05a2aa54623d51500662a8f71fb0c293aff942f4a57"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_104729_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7567,
+      "sha256": "dfd1dae9756054954df7c132baac178d4e08c1a4b6211d7db0487f8c2bcd27cd"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_104729_RA_LL_reversal_auroc.npz",
+      "bytes": 7472,
+      "sha256": "7a8e3886a7d990fb0d55017a697e4addfe25c3541ff3baff57b5db86b736cdbe"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_104729_RA_LL_reversal_brier.npz",
+      "bytes": 7668,
+      "sha256": "593efd70fba1d0a09f84ddd1d9e3135d9e7c5e300057a703e30c0dcb0c0a879a"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_130363_clean_auroc.npz",
+      "bytes": 7443,
+      "sha256": "71467bfa11b39a10c35b62d21a51f363bc062ee32035c89af81f1e640f69f250"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_130363_clean_brier.npz",
+      "bytes": 7650,
+      "sha256": "b67cd22b520bc653bfdbb312891bca368c0e163cd554610ba07f91bbb209f701"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_130363_cycle_slots_120_auroc.npz",
+      "bytes": 7496,
+      "sha256": "2dd7b9df83d3bec4507cf6a5047b7fe33a240d31d80be7d95b75b1311079050a"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_130363_cycle_slots_120_brier.npz",
+      "bytes": 7546,
+      "sha256": "bfdb0c227e8c7399e3fd20c544f33367d27d6f1193dd81a0b575a034adb0b947"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_130363_cycle_slots_201_auroc.npz",
+      "bytes": 7487,
+      "sha256": "a9a9e1765ce954051f434384a8c7c10ece8235feb2c3a1d1d217fc2d77d5a40d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_130363_cycle_slots_201_brier.npz",
+      "bytes": 7675,
+      "sha256": "af68a7e8991c1fdb784dc840fd363fc1ea2184c27fbfacb938e638b982ecf6e4"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_130363_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7486,
+      "sha256": "32d3f0055dc22a04b0afba1e3e598da7030f176c910c6908337c96cf74d761e4"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_130363_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7553,
+      "sha256": "d322089f4c3e501050e1b1deeeeb9335d03ceda27a6f979363ce80d463cc5431"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_130363_RA_LL_reversal_auroc.npz",
+      "bytes": 7477,
+      "sha256": "288e49d6d3ed3341cca1e88482f33dc29b3977c118778550b183eeb758534a31"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_130363_RA_LL_reversal_brier.npz",
+      "bytes": 7564,
+      "sha256": "54e85dd52ca350579d1db00d2dfcb90f3506003e4cc65a6d2c7d983b09863ad1"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_155921_clean_auroc.npz",
+      "bytes": 7423,
+      "sha256": "d67690961179e0d85ccd91d0b4833ec1cf50f594a121a085c6924a1cf4fb878a"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_155921_clean_brier.npz",
+      "bytes": 7695,
+      "sha256": "89bb60d244e08a177b97d3731dbca313c5da951b82ebc04420c0aa6207b47252"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_155921_cycle_slots_120_auroc.npz",
+      "bytes": 7480,
+      "sha256": "ff13b9422adb5b9af91508029c63a6b3e180dbb950e3a31cf534b692c072a6f0"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_155921_cycle_slots_120_brier.npz",
+      "bytes": 7701,
+      "sha256": "b94fa4d77b2b793e203978092aad3fbe9624357db4ea3e0d0d8002a83daef99c"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_155921_cycle_slots_201_auroc.npz",
+      "bytes": 7489,
+      "sha256": "c8e50372db1943c0b1f05c145957e313302037ba2e5f06e9228da82fb0a55e82"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_155921_cycle_slots_201_brier.npz",
+      "bytes": 7716,
+      "sha256": "15b19b95d6b44e24c493b5ceab4e17a27e3463aa10fd22b596d251edbadcf3c6"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_155921_mask5_0_1_2_3_5_auroc.npz",
+      "bytes": 7503,
+      "sha256": "ebdabdc5b23d463bc9e9dccf839565ab82ef52098e84ad7e43ecfbd1e64db6dd"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_155921_mask5_0_1_2_3_5_brier.npz",
+      "bytes": 7617,
+      "sha256": "922a70149400b684f29c624a2b7b92960dd3f151e940aac141713894c9a6485b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_155921_RA_LL_reversal_auroc.npz",
+      "bytes": 7494,
+      "sha256": "a43cc9fed4b0ca5598bfe4812c80887869007b8358f5b2d8d19a4437e06ca229"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/bootstrap_draws_auroc_brier/Ningbo_physics_p025_155921_RA_LL_reversal_brier.npz",
+      "bytes": 7692,
+      "sha256": "3a22b957696769b672fe51467e0bc98739a65e41e5e4a9614b3278553be4cf17"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/BOOTSTRAP_RECOVERY_AUDIT.json",
+      "bytes": 1837,
+      "sha256": "c249c5e5637cd91911b61825bb9571daecf17afb9a42c0962eb547cbf68f4f4d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/build_final_recovery_report.py",
+      "bytes": 24155,
+      "sha256": "2b871277f09cc226685195e99b05c398104b81cbfd71bf21d71be7c72c7f16c2"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/CANONICAL_TEST_ORDER_BINDING.csv",
+      "bytes": 2845,
+      "sha256": "d5fcdcebe0a1057c5624573cacd19ef00ee7f86d2c5d54b8486f50a92ea91dd3"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/CANONICAL_TEST_ORDER_BINDING_ALL_ARMS.csv",
+      "bytes": 4162,
+      "sha256": "0485e37960c179dafe394fa58f36a4877cabbaf1338f534f8678f1159bd6f759"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/COMPARATOR_COMPLETENESS_SUPPLEMENT.json",
+      "bytes": 2411540,
+      "sha256": "5011585e1a7e0abc1fe99c524b13bc2dec7a1176b1adf6125a7bc0710b977796"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/complete_bootstrap_intervals.py",
+      "bytes": 13130,
+      "sha256": "4c8bbfbb10c6bc4485350db70779954b8c8a0e0f5ba7d29f0f24fbe05502cc82"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/complete_historical_comparator_fields.py",
+      "bytes": 7898,
+      "sha256": "b9eddad1b4af3aeb6e07bd823d09e3365a16dde80506f376b569228ddc503efc"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/FINAL_PROBABILITY_STUDY_REPORT_RECOVERED_RU.md",
+      "bytes": 26697,
+      "sha256": "0508f4c4691b2b9d3ecaedbd515a058a5d207b552a0f948bae85c05e4152b5a1"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/freeze_comparator_completeness_inputs.py",
+      "bytes": 3314,
+      "sha256": "d890421d2ef63ebc9b471edd606c97c5ed7b784c0d1965714d41a9a69150e2ee"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/HISTORICAL_COMPARATOR_COMPLETENESS_AUDIT.json",
+      "bytes": 586,
+      "sha256": "4d8407afb4c5d3e9182504821aa1be77e22a61587a8e5ddcb0ab19e3583e6446"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/HISTORICAL_THRESHOLD_METRIC_REPRODUCTION.csv",
+      "bytes": 13235667,
+      "sha256": "da6f3cfd29c0c083ba0128f22505fc05744b7a99d080cc87404cfb7bd0b1d71d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/MEAN_792_MASK_METRICS_ALL_ARMS.csv",
+      "bytes": 9625,
+      "sha256": "0ddcd71dca62372ef90d5e76fc40448776feb845c6f21612b6c3fc13cbe506f8"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/MEAN_792_MASK_METRICS_NEW_BY_SEED.csv",
+      "bytes": 6960,
+      "sha256": "51f73ca043bd2924694acf5e87c73500cbbf8e36ce3b917d2d95baf5eaae6428"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/METRICS_ALL_ARMS_RECOVERED_BY_SEED.csv",
+      "bytes": 23779611,
+      "sha256": "8a78ea87c6cc91f82f84d2756d36d96d1cebce405405171363ad25667c0e7142"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/METRICS_NEW_RECOVERED_BY_SEED.csv",
+      "bytes": 9876496,
+      "sha256": "f8573a1e3a71258bf835759cbb4c98110093631ec97681d9c77288104b2d9b5f"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/METRICS_SUMMARY_ALL_ARMS.csv",
+      "bytes": 7691311,
+      "sha256": "ec1a4d7f43ae5413727648b73c2a11dabd735e53973dbccde34349a8a9114dc8"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/NINGBO_CALIBRATION_PROVENANCE_RECOVERED.json",
+      "bytes": 26555,
+      "sha256": "078df895a6b51cd55357e20f60b469dd8564d798bf0d0d02e36f7b28fd70e5a5"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/NINGBO_MIXTURE_CHANGE_SUMMARY.csv",
+      "bytes": 3408,
+      "sha256": "65a38bafed184e84b791592015f99d08b003349ee507829303effdd62e1120b1"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/NINGBO_MIXTURE_CHANGES_V1_TO_RECOVERED.csv",
+      "bytes": 215387,
+      "sha256": "d3dcdbdf9170a4276f29d133489f4d405eeb8bf01eb6417d5fcbc3f5671fd753"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/NINGBO_MIXTURES_RECOVERED_BY_SEED.csv",
+      "bytes": 97090,
+      "sha256": "9702184c5f176b36245e8f385762285ebf66341ed237ac8a687e52290aa0f7fe"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/PAIRED_BOOTSTRAP_TWA_AUPRC_PRESERVED.csv",
+      "bytes": 8092,
+      "sha256": "e169a356d630732452c085d8b4997402069e0caa9955106ac4fa0b9115e9fb1e"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/PAIRED_BOOTSTRAP_TWA_AUROC_BRIER.csv",
+      "bytes": 18019,
+      "sha256": "e4483669826075fffe74786196ce425bf54b9d4167dc55f4015c371a9bc59637"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/prepare_recovery_protocol.py",
+      "bytes": 13055,
+      "sha256": "ad04ccd96668cdb3445aeb8719fc1868271a52b008c5215f1a83612f71f1c54b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/RAW_TEST_METRIC_REPRODUCTION_AUDIT.json",
+      "bytes": 617,
+      "sha256": "8d7146d96fec1d34fb3fecf4ae97f83009b8b20ef0cdbae5de9a74550df3f826"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/recover_ningbo_calibration_mixtures.py",
+      "bytes": 10675,
+      "sha256": "e49dd4afa05c6ffce04a4c806d874540bbdbcc58da391162792c5f51b344d0a9"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/RECOVERED_METRICS_STATUS.json",
+      "bytes": 675,
+      "sha256": "dcd9c51868243468387702c1536919b21d5b7cbe62de48ae6ba8a1123853d317"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/RECOVERY_AMENDMENT_001.json",
+      "bytes": 1648,
+      "sha256": "a7f6ea5109ab4e461864b5dcc9f1851d9abfa8fcbce2c68ba716b27f293c496a"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/RECOVERY_PROTOCOL.json",
+      "bytes": 3919326,
+      "sha256": "f82c25a1fd0e8e13f032cbac7f2509ec81093cc766ac2f2715a851b7d90aa21d"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/restore_validation.py",
+      "bytes": 13280,
+      "sha256": "fc96bfef1d2aae08432ebad01e07127c879aa04eb13eb52c8cc30f50b6cd36d5"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/SUPERSEDED_ARTIFACTS.csv",
+      "bytes": 1362,
+      "sha256": "872552ce15b7245d3b27e41889dd20438adf4f89d2849063af93c02ee6d0f652"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Chapman/physics_p010/seed_104729.json",
+      "bytes": 1587,
+      "sha256": "fc367bfe45a0678806d8202dc1ce790f6fb66739b441fe9d7dc7d4b40ee6ec2a"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Chapman/physics_p010/seed_104729.npz",
+      "bytes": 12568,
+      "sha256": "1bb5ea57141efb6e86ce285f8c3d8514e69c4f7886d2a1e97ae3173ce53ca388"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Chapman/physics_p010/seed_130363.json",
+      "bytes": 1590,
+      "sha256": "dc59bd0ac4ab2d86aaf42a80b88ae9f3b8f3231b8f79b6033830e2cf6361551a"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Chapman/physics_p010/seed_130363.npz",
+      "bytes": 12609,
+      "sha256": "0d2defd2cf9bf753438e8894193d04b36ed6d2ac2497cb275ac06c32cf8dfbfd"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Chapman/physics_p010/seed_155921.json",
+      "bytes": 1596,
+      "sha256": "27b3554607039adfe78079c4d73a5f1fbd99b08f4a811293844cdf1caaae43bb"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Chapman/physics_p010/seed_155921.npz",
+      "bytes": 12591,
+      "sha256": "19b084c467e61a056bfcdc7530f1bbb2f95be707243f31a96f225a7d17f6a4d3"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Chapman/physics_p025/seed_104729.json",
+      "bytes": 1582,
+      "sha256": "be1169649819af74f7161e30c0218109977c71c0bd1c4da15504e2da454a486b"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Chapman/physics_p025/seed_104729.npz",
+      "bytes": 12522,
+      "sha256": "3c1be87da29e22b2b99f56af661309420fb5305fcbb997d49a5dea63e7a24f9e"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Chapman/physics_p025/seed_130363.json",
+      "bytes": 1597,
+      "sha256": "fa56ff5c0935a7083dc06b1da6ccd73d2b99d10d59484aadd130f5819228f324"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Chapman/physics_p025/seed_130363.npz",
+      "bytes": 12546,
+      "sha256": "fe5c2b58673c8727aa43908b9ff7bf1e0baeb1edca870d561f9fdf25907084e9"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Chapman/physics_p025/seed_155921.json",
+      "bytes": 1586,
+      "sha256": "39a45a5afc63ee545400c5c07e200628f1fe39dcd3f6ed5e925aa1b8a129f9fe"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Chapman/physics_p025/seed_155921.npz",
+      "bytes": 12507,
+      "sha256": "65bac4bf0819bf1f1c76b6ee6adfeb6264956e65b115a16bbafbe8d96cbc66ac"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Ningbo/physics_p010/seed_104729.json",
+      "bytes": 1585,
+      "sha256": "708b5a367a8af70eee22ef219b4f9251aa79e72daebbc37b733b0818873c1cb0"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Ningbo/physics_p010/seed_104729.npz",
+      "bytes": 38530,
+      "sha256": "59b38cf7260cfca94189fe06da8064edeb31752e1a156e63dc6d56ebc9b46631"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Ningbo/physics_p010/seed_130363.json",
+      "bytes": 1592,
+      "sha256": "5f5a4a144cf709171db82cf2ead15c5d8ee007d0b185c80f4416ba2a73a8ee98"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Ningbo/physics_p010/seed_130363.npz",
+      "bytes": 37936,
+      "sha256": "70301cd4377feb6303b297902deb641c68c2d0ec7dd4342e75655c203992f3cb"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Ningbo/physics_p010/seed_155921.json",
+      "bytes": 1592,
+      "sha256": "187902ffd3e138430656365b845dd3162ec3dd779566e0a5a15a56c897f7bc22"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Ningbo/physics_p010/seed_155921.npz",
+      "bytes": 37885,
+      "sha256": "dddaa6d8f7be3ec5ab96b5cc71b036985d0b5f2d7c4dcf00e89ecea3872586ee"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Ningbo/physics_p025/seed_104729.json",
+      "bytes": 1587,
+      "sha256": "431162f19f64ea76b57b0b596dbb139671c16972be70dfdb3616bbf33aefa537"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Ningbo/physics_p025/seed_104729.npz",
+      "bytes": 38108,
+      "sha256": "b999cb4c30ba0defbc0e9878fa80cd22f2d6a587bf45245b165acd34ae4c553f"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Ningbo/physics_p025/seed_130363.json",
+      "bytes": 1591,
+      "sha256": "ebbe932ce44b728f281cb842841cd80041cfb3f3ae92495adce9c150c6d38234"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Ningbo/physics_p025/seed_130363.npz",
+      "bytes": 38153,
+      "sha256": "66c9f069f476bb8e5c34bce36123284ea66f64d5ef34fe872d52fd6d72dd0215"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Ningbo/physics_p025/seed_155921.json",
+      "bytes": 1590,
+      "sha256": "998545bc7ee3facb884d34da5db348493135834226c3b65d1b6da00d438524da"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/validation/Ningbo/physics_p025/seed_155921.npz",
+      "bytes": 37413,
+      "sha256": "f7cc7cee58bc45ace921c44605d8b21971d2be4ef4a8ead81d66e036383f62a7"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/VALIDATION_RESTORATION.csv",
+      "bytes": 1804,
+      "sha256": "215b3b19bdbce270e082c44136ce4ac541aa3fd4d89b1e340c0ed9522e73692f"
+    },
+    {
+      "path": "outputs/augmentation_probability_recovery_v2/VALIDATION_RESTORATION_AUDIT.json",
+      "bytes": 37213,
+      "sha256": "f307b685e0f0c4ae57280a17cf0db9237224aaec60f85843db241e85747e5a2b"
+    }
+  ]
+}

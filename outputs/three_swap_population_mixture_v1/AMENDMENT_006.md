@@ -1,0 +1,3 @@
+# Engineering amendment 006
+
+The frozen legacy tables for combined HEEDB/Ningbo store sensitivity, specificity, and predicted-positive fraction but omit false-positive/false-negative counts. The first anchor comparison stopped after writing preliminary current-condition and mixture tables. Those tables are preserved under `archive/attempt_001_pre_anchor_audit/`. The anchor verifier now derives FP/FN per 1,000 from the rounded historical sensitivity/specificity and exact fixed cohort prevalence, and applies the documented CSV rounding tolerance only to those derived quantities. Other metrics are compared directly. Bootstrap and final verification had not started. No methods, thresholds, or model choices changed.

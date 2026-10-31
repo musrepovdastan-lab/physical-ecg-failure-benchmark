@@ -1,0 +1,37 @@
+{
+  "acceptance_rule": {
+    "download_hash_must_equal": "bbd5fe831ad2ce60dc62588a9f8eeccc2ea37564cf0bfb4d7a8d49c6a9eafdfd",
+    "exact_matlab_v4_structure_required": true,
+    "exact_path_only": "training/ningbo/g3/JS13118.mat",
+    "exact_size_bytes": 120024,
+    "manifest_hash_must_equal": "de32699cbd677b507177b60fa06125e55a935c8ef69daa0f8e8171b06d1b6f5a"
+  },
+  "created_utc": "2026-08-29T16:38:38.583066+00:00",
+  "independent_official_download_attempts": 6,
+  "matlab_v4_structure": {
+    "imagf": 0,
+    "mopt": 30,
+    "mrows": 12,
+    "name": "val",
+    "namelen": 4,
+    "ncols": 5000,
+    "payload_bytes": 120000,
+    "payload_interpretation": "60000 int16 = 12x5000"
+  },
+  "observed_length_bytes": 120024,
+  "official_manifest_expected_sha256": "de32699cbd677b507177b60fa06125e55a935c8ef69daa0f8e8171b06d1b6f5a",
+  "official_manifest_sha256": "f29c2609343c38734f3a3d62be4a9052ca56a9e560e7ad2efc2118563fca2473",
+  "path": "training/ningbo/g3/JS13118.mat",
+  "repeated_observed_sha256": "bbd5fe831ad2ce60dc62588a9f8eeccc2ea37564cf0bfb4d7a8d49c6a9eafdfd",
+  "scientific_definitions_unchanged": [
+    "endpoints",
+    "splits",
+    "models",
+    "faults",
+    "metrics",
+    "bootstrap",
+    "decision gates"
+  ],
+  "scope": "one official-source checksum discrepancy only",
+  "version": "ningbo_acquisition_checksum_exception_v1"
+}

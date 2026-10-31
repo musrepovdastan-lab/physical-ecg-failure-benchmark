@@ -1,0 +1,78 @@
+{
+  "protocol_binding_sha256": "e4a3287aa726325360845ffe200f905c963c7a51ec44241a198a1b434d3dc3de",
+  "reporting_source_sha256": "07c00a50b8c5b43b2e389b4fb0a2d4e699d0da4ad74a990f36f4499fec39081e",
+  "artifacts": {
+    "RECOVERY_PROTOCOL.json": {
+      "sha256": "23a77e32e0c86a5d980e17141de5216e4bf66f8714ca50187f8f2c393cb7566b",
+      "bytes": 44527
+    },
+    "RECOVERY_PROTOCOL_AMENDMENT_001.json": {
+      "sha256": "022027158e2d6faeab6bd8899aaa255a264903d586723edb32f6542c47f20c7d",
+      "bytes": 998
+    },
+    "RECOVERY_PROTOCOL_AMENDMENT_002.json": {
+      "sha256": "76b7f84c3c4134be7355e691f28ad8ee3bd093841b4539e9bc8ae707ceafa6b8",
+      "bytes": 1022
+    },
+    "PILOT_REPORT.json": {
+      "sha256": "a976ac1a23126f29462c56d6abae9eb27e72dd376f9e0df611a01627093f0560",
+      "bytes": 9021
+    },
+    "LEGACY_REPLAY_MISMATCH_BEFORE_REINFERENCE.json": {
+      "sha256": "fd85d3bab0c605fec3be7daf43ca962ae642b6531de9d6d24e3bb28c2b77161a",
+      "bytes": 4736
+    },
+    "MASK_INFERENCE_INTEGRITY.json": {
+      "sha256": "16fd264a9933854e1834b37990683418db8a84e05e9734df67234c63e80aa62f",
+      "bytes": 6388
+    },
+    "VALIDATION_GATES.json": {
+      "sha256": "e8bbd6e9b8df4a24217d13ed141f53f71dc0be03f5bca8c1854c4cebdb7ad3b8",
+      "bytes": 4853
+    },
+    "CONDITION_RESULTS_BY_SEED.csv": {
+      "sha256": "9ef84b32eda4f8e310d5e42e0eb88ee8784c2679ba051e828971b7af0c1ed361",
+      "bytes": 2263405
+    },
+    "EXACT_MASK_AND_DISTRIBUTION_BY_SEED.csv": {
+      "sha256": "0817b1e97f9c1f9794779a014f5c34dcebb816c356df08539994a392b6c8d069",
+      "bytes": 4383
+    },
+    "MASK_DISTRIBUTION_SUMMARY.csv": {
+      "sha256": "64820843a72827dccafd8822f8f6c526c7220bb2996b3aa5a8f407b0db16de20",
+      "bytes": 3353
+    },
+    "PRIMARY_CONTRASTS.csv": {
+      "sha256": "3a105f68be4a194fe08d8a6ca633c16d649c8c45df37bd2d75aa0584db1f3c8d",
+      "bytes": 3014
+    },
+    "BOOTSTRAP_SUMMARY.csv": {
+      "sha256": "978ee1badc3cccf843729125a023b4bd763545e88ce2ab53aa2ed93bead338dc",
+      "bytes": 1873
+    },
+    "BOOTSTRAP_REPLICATES.csv": {
+      "sha256": "eba3672981fdb4dfee079a925c248c8d58dde22f2000dc26e85fe44955cdd986",
+      "bytes": 335274
+    },
+    "conclusions_m3.json": {
+      "sha256": "82d88814926d5af151d6876a15889ec69f09a48ee0a662ca4fc2d2b56fda44cf",
+      "bytes": 4753
+    },
+    "FINAL_M3_DECISION.md": {
+      "sha256": "3f0c750529d2095138d83718705fb2bfd2df10c430934803b55728ff4c18b3a0",
+      "bytes": 887
+    },
+    "CHAPMAN_REPORT.md": {
+      "sha256": "8925590381691c5ebbcb743d6b8ae38242b993b2e07bb8f3ad1cb89c5937e318",
+      "bytes": 5560
+    },
+    "RESNET_VS_TRANSFORMER_STATUS.csv": {
+      "sha256": "88a9c01d224c21720ab4beabd6452f2ad445a2559859c1e54ffe126b06c8815b",
+      "bytes": 638
+    },
+    "chapman_twa_mask_distribution.png": {
+      "sha256": "a814eddeeeae6e84163a7c651d5a061e016ff8b8e103b8cb3aef10bfae41163e",
+      "bytes": 68113
+    }
+  }
+}

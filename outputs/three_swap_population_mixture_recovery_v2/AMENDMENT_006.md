@@ -1,0 +1,3 @@
+# Amendment 006 — independent physical formula precision
+
+The independent oracle had used float32 intermediate arithmetic, while `src.ecg_physics` promotes inputs to float64 for terminal permutation and lead derivation before its final float32 cast. That oracle mismatch reached 2.4414e-4 on one source batch. Recomputing the independent equations in float64 and casting once matches the frozen transform within 4.6e-15 on first, middle and final blocks. Waveform comparison gates therefore use 1e-4; known-class inverse engineering checks retain 2e-4 for composed float32 inverse roundoff. Prediction probability tolerance remains 1e-4. The attempt wrote no predictions.

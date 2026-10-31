@@ -1,0 +1,15 @@
+{
+  "all_fault_handoffs_keep_same_incoming_signal": true,
+  "blocks": "first/middle/last source-aligned inference batches; batch size 128 except original shorter final batch",
+  "clean_detector_false_corrections_measured": true,
+  "detector_class_map": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "rows": 72,
+  "status": "PASS",
+  "tolerance_input_max_abs": 0.0002,
+  "tolerance_prediction_max_abs": 0.0001
+}

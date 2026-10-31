@@ -1,0 +1,9 @@
+{
+  "amendment": "010",
+  "amendment_009_sha256": "1ed5d1f8aabf5278664b5a214670686fb713e50adf7328a2900793a943a31b45",
+  "finalizer_sha256": "52c33ae1f73bd0c6b4a675dda3ab76f66721a1d5c6006e6a6f77a453c6ce1ac4",
+  "no_metric_recompute": true,
+  "protocol_sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa",
+  "reason": "Include the entire frozen amendment chain in the reproducibility manifest and record the already-passing v2 bootstrap replay audit (882000 old absolute metric draws, max delta 0). Regenerate only final deliverables/provenance/hash manifest; no metric or bootstrap recomputation.",
+  "status": "FROZEN_BEFORE_FINAL_MANIFEST_UPDATE"
+}\n

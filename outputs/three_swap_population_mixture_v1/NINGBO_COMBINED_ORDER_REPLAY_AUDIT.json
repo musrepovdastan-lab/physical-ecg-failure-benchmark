@@ -1,0 +1,634 @@
+{
+  "full_cached_label_array_matches_frozen_source": true,
+  "max_abs_probability_delta": 0.0,
+  "record_count": 6981,
+  "record_order_sha256": "c33cc9c7e6a11600ab82ea6bc6d0028b40bfb0b49a9b5ace3b6844030f39b85b",
+  "rows": [
+    {
+      "block": [
+        0,
+        128
+      ],
+      "block_record_ids_sha256": "9a486d2b88ae5d665d90abb1af7d204e0a90bf8ea66e8500a686f6a313333c2a",
+      "condition": "clean",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        3400,
+        3528
+      ],
+      "block_record_ids_sha256": "c9b422431f0c47e1097ad8d8e29f411a9be5b72b96cf749ccee2259421733a19",
+      "condition": "clean",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6784,
+        6912
+      ],
+      "block_record_ids_sha256": "8f42f7c11f3dcda40c8d698fa03796c057bb416b034f847dfb0b796c0b1287a7",
+      "condition": "clean",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6912,
+        6981
+      ],
+      "block_record_ids_sha256": "40c86b618f181a97cd5506951143f9c06727115a9bb1b091a219623b418b6d56",
+      "condition": "clean",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        0,
+        128
+      ],
+      "block_record_ids_sha256": "9a486d2b88ae5d665d90abb1af7d204e0a90bf8ea66e8500a686f6a313333c2a",
+      "condition": "RA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        3400,
+        3528
+      ],
+      "block_record_ids_sha256": "c9b422431f0c47e1097ad8d8e29f411a9be5b72b96cf749ccee2259421733a19",
+      "condition": "RA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6784,
+        6912
+      ],
+      "block_record_ids_sha256": "8f42f7c11f3dcda40c8d698fa03796c057bb416b034f847dfb0b796c0b1287a7",
+      "condition": "RA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6912,
+        6981
+      ],
+      "block_record_ids_sha256": "40c86b618f181a97cd5506951143f9c06727115a9bb1b091a219623b418b6d56",
+      "condition": "RA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        0,
+        128
+      ],
+      "block_record_ids_sha256": "9a486d2b88ae5d665d90abb1af7d204e0a90bf8ea66e8500a686f6a313333c2a",
+      "condition": "RA_LA_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        3400,
+        3528
+      ],
+      "block_record_ids_sha256": "c9b422431f0c47e1097ad8d8e29f411a9be5b72b96cf749ccee2259421733a19",
+      "condition": "RA_LA_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6784,
+        6912
+      ],
+      "block_record_ids_sha256": "8f42f7c11f3dcda40c8d698fa03796c057bb416b034f847dfb0b796c0b1287a7",
+      "condition": "RA_LA_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6912,
+        6981
+      ],
+      "block_record_ids_sha256": "40c86b618f181a97cd5506951143f9c06727115a9bb1b091a219623b418b6d56",
+      "condition": "RA_LA_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        0,
+        128
+      ],
+      "block_record_ids_sha256": "9a486d2b88ae5d665d90abb1af7d204e0a90bf8ea66e8500a686f6a313333c2a",
+      "condition": "LA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        3400,
+        3528
+      ],
+      "block_record_ids_sha256": "c9b422431f0c47e1097ad8d8e29f411a9be5b72b96cf749ccee2259421733a19",
+      "condition": "LA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6784,
+        6912
+      ],
+      "block_record_ids_sha256": "8f42f7c11f3dcda40c8d698fa03796c057bb416b034f847dfb0b796c0b1287a7",
+      "condition": "LA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6912,
+        6981
+      ],
+      "block_record_ids_sha256": "40c86b618f181a97cd5506951143f9c06727115a9bb1b091a219623b418b6d56",
+      "condition": "LA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        0,
+        128
+      ],
+      "block_record_ids_sha256": "9a486d2b88ae5d665d90abb1af7d204e0a90bf8ea66e8500a686f6a313333c2a",
+      "condition": "clean",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        3400,
+        3528
+      ],
+      "block_record_ids_sha256": "c9b422431f0c47e1097ad8d8e29f411a9be5b72b96cf749ccee2259421733a19",
+      "condition": "clean",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6784,
+        6912
+      ],
+      "block_record_ids_sha256": "8f42f7c11f3dcda40c8d698fa03796c057bb416b034f847dfb0b796c0b1287a7",
+      "condition": "clean",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6912,
+        6981
+      ],
+      "block_record_ids_sha256": "40c86b618f181a97cd5506951143f9c06727115a9bb1b091a219623b418b6d56",
+      "condition": "clean",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        0,
+        128
+      ],
+      "block_record_ids_sha256": "9a486d2b88ae5d665d90abb1af7d204e0a90bf8ea66e8500a686f6a313333c2a",
+      "condition": "RA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        3400,
+        3528
+      ],
+      "block_record_ids_sha256": "c9b422431f0c47e1097ad8d8e29f411a9be5b72b96cf749ccee2259421733a19",
+      "condition": "RA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6784,
+        6912
+      ],
+      "block_record_ids_sha256": "8f42f7c11f3dcda40c8d698fa03796c057bb416b034f847dfb0b796c0b1287a7",
+      "condition": "RA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6912,
+        6981
+      ],
+      "block_record_ids_sha256": "40c86b618f181a97cd5506951143f9c06727115a9bb1b091a219623b418b6d56",
+      "condition": "RA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        0,
+        128
+      ],
+      "block_record_ids_sha256": "9a486d2b88ae5d665d90abb1af7d204e0a90bf8ea66e8500a686f6a313333c2a",
+      "condition": "RA_LA_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        3400,
+        3528
+      ],
+      "block_record_ids_sha256": "c9b422431f0c47e1097ad8d8e29f411a9be5b72b96cf749ccee2259421733a19",
+      "condition": "RA_LA_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6784,
+        6912
+      ],
+      "block_record_ids_sha256": "8f42f7c11f3dcda40c8d698fa03796c057bb416b034f847dfb0b796c0b1287a7",
+      "condition": "RA_LA_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6912,
+        6981
+      ],
+      "block_record_ids_sha256": "40c86b618f181a97cd5506951143f9c06727115a9bb1b091a219623b418b6d56",
+      "condition": "RA_LA_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        0,
+        128
+      ],
+      "block_record_ids_sha256": "9a486d2b88ae5d665d90abb1af7d204e0a90bf8ea66e8500a686f6a313333c2a",
+      "condition": "LA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        3400,
+        3528
+      ],
+      "block_record_ids_sha256": "c9b422431f0c47e1097ad8d8e29f411a9be5b72b96cf749ccee2259421733a19",
+      "condition": "LA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6784,
+        6912
+      ],
+      "block_record_ids_sha256": "8f42f7c11f3dcda40c8d698fa03796c057bb416b034f847dfb0b796c0b1287a7",
+      "condition": "LA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6912,
+        6981
+      ],
+      "block_record_ids_sha256": "40c86b618f181a97cd5506951143f9c06727115a9bb1b091a219623b418b6d56",
+      "condition": "LA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        0,
+        128
+      ],
+      "block_record_ids_sha256": "9a486d2b88ae5d665d90abb1af7d204e0a90bf8ea66e8500a686f6a313333c2a",
+      "condition": "clean",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        3400,
+        3528
+      ],
+      "block_record_ids_sha256": "c9b422431f0c47e1097ad8d8e29f411a9be5b72b96cf749ccee2259421733a19",
+      "condition": "clean",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6784,
+        6912
+      ],
+      "block_record_ids_sha256": "8f42f7c11f3dcda40c8d698fa03796c057bb416b034f847dfb0b796c0b1287a7",
+      "condition": "clean",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6912,
+        6981
+      ],
+      "block_record_ids_sha256": "40c86b618f181a97cd5506951143f9c06727115a9bb1b091a219623b418b6d56",
+      "condition": "clean",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        0,
+        128
+      ],
+      "block_record_ids_sha256": "9a486d2b88ae5d665d90abb1af7d204e0a90bf8ea66e8500a686f6a313333c2a",
+      "condition": "RA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        3400,
+        3528
+      ],
+      "block_record_ids_sha256": "c9b422431f0c47e1097ad8d8e29f411a9be5b72b96cf749ccee2259421733a19",
+      "condition": "RA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6784,
+        6912
+      ],
+      "block_record_ids_sha256": "8f42f7c11f3dcda40c8d698fa03796c057bb416b034f847dfb0b796c0b1287a7",
+      "condition": "RA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6912,
+        6981
+      ],
+      "block_record_ids_sha256": "40c86b618f181a97cd5506951143f9c06727115a9bb1b091a219623b418b6d56",
+      "condition": "RA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        0,
+        128
+      ],
+      "block_record_ids_sha256": "9a486d2b88ae5d665d90abb1af7d204e0a90bf8ea66e8500a686f6a313333c2a",
+      "condition": "RA_LA_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        3400,
+        3528
+      ],
+      "block_record_ids_sha256": "c9b422431f0c47e1097ad8d8e29f411a9be5b72b96cf749ccee2259421733a19",
+      "condition": "RA_LA_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6784,
+        6912
+      ],
+      "block_record_ids_sha256": "8f42f7c11f3dcda40c8d698fa03796c057bb416b034f847dfb0b796c0b1287a7",
+      "condition": "RA_LA_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6912,
+        6981
+      ],
+      "block_record_ids_sha256": "40c86b618f181a97cd5506951143f9c06727115a9bb1b091a219623b418b6d56",
+      "condition": "RA_LA_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        0,
+        128
+      ],
+      "block_record_ids_sha256": "9a486d2b88ae5d665d90abb1af7d204e0a90bf8ea66e8500a686f6a313333c2a",
+      "condition": "LA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        3400,
+        3528
+      ],
+      "block_record_ids_sha256": "c9b422431f0c47e1097ad8d8e29f411a9be5b72b96cf749ccee2259421733a19",
+      "condition": "LA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6784,
+        6912
+      ],
+      "block_record_ids_sha256": "8f42f7c11f3dcda40c8d698fa03796c057bb416b034f847dfb0b796c0b1287a7",
+      "condition": "LA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "block": [
+        6912,
+        6981
+      ],
+      "block_record_ids_sha256": "40c86b618f181a97cd5506951143f9c06727115a9bb1b091a219623b418b6d56",
+      "condition": "LA_LL_reversal",
+      "max_abs_probability_delta": 0.0,
+      "method": "combined",
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    }
+  ],
+  "sampling": "first/middle/last fixed 128-record blocks; all 3 seeds and four conditions",
+  "status": "PASS"
+}

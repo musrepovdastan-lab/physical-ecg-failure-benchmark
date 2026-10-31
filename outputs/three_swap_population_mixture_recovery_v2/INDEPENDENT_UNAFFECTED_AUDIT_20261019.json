@@ -1,0 +1,546 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "kind": "v1_file_unchanged",
+      "path": "__pycache__/analyze_mixture.cpython-312.pyc",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "__pycache__/audit_combined_replay.cpython-312.pyc",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "__pycache__/run_inference.cpython-312.pyc",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "__pycache__/verify_results.cpython-312.pyc",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "AMENDMENT_001.md",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "AMENDMENT_002.md",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "AMENDMENT_002_INPUT_BINDINGS.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "AMENDMENT_003.md",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "AMENDMENT_004.md",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "AMENDMENT_005.md",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "AMENDMENT_006.md",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "AMENDMENT_007.md",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "analyze_mixture.py",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "ANCHOR_WEIGHT_AUDIT.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "archive/attempt_001_pre_anchor_audit/CALIBRATION_RANKING_AND_DECISION_AUDIT.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "archive/attempt_001_pre_anchor_audit/COHORT_ORDER_AND_LABELS.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "archive/attempt_001_pre_anchor_audit/CONDITION_METRICS_BY_SEED.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "archive/attempt_001_pre_anchor_audit/MIXTURE_METRICS_BY_SEED.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "archive/attempt_001_pre_anchor_audit/MIXTURE_METRICS_MEAN_SD.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "archive/FROZEN_PROTOCOL_SHA256_canonical_fingerprint.txt",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "audit_combined_replay.py",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "BOOTSTRAP_DRAW_RECALC_AUDIT.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "CALIBRATION_RANKING_AND_DECISION_AUDIT.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "COHORT_ORDER_AND_LABELS.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "CONDITION_METRICS_BY_SEED.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "EXECUTION_SUMMARY.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "FAILED_ATTEMPT_001.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "FAILED_ATTEMPT_002.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "FAILED_ATTEMPT_003.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "FAILED_ATTEMPT_004.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "FAILED_ATTEMPT_005.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "FAILED_ATTEMPT_006.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "FAILED_ATTEMPT_007.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "FAILED_ATTEMPT_008.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "FINAL_REPORT_RU.md",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "FROZEN_PROTOCOL.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "FROZEN_PROTOCOL_SHA256.txt",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "HEEDB_DIAGNOSTIC_INFERENCE_COMPLETE.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "HEEDB_HUANG_INFERENCE_COMPLETE.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "HEEDB_INFERENCE_PROGRESS.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "HUANG_DETECTOR_CONFUSION_BY_CONDITION.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "HUANG_DETECTOR_INFERENCE_COMPLETE.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "huang_detector_probabilities.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "HUANG_FALSE_CORRECTION_AUDIT.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "INDEPENDENT_NUMERICAL_VERIFICATION.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "INPUT_COVERAGE.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "INPUT_COVERAGE_COMPLETION.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "MIXTURE_METRICS_BY_SEED.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "MIXTURE_METRICS_MEAN_SD.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "NINGBO_COMBINED_ORDER_REPLAY_AUDIT.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "NINGBO_REPLAY_AND_ENGINEERING_AUDIT.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "PAIRED_BOOTSTRAP_DRAWS.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "PAIRED_CONTRASTS_POINT_AND_CI.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/combined/seed_104729/clean.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/combined/seed_104729/LA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/combined/seed_104729/RA_LA_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/combined/seed_104729/RA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/combined/seed_130363/clean.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/combined/seed_130363/LA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/combined/seed_130363/RA_LA_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/combined/seed_130363/RA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/combined/seed_155921/clean.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/combined/seed_155921/LA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/combined/seed_155921/RA_LA_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/combined/seed_155921/RA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/Huang_full_pipeline/seed_104729/clean.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/Huang_full_pipeline/seed_104729/LA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/Huang_full_pipeline/seed_104729/RA_LA_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/Huang_full_pipeline/seed_104729/RA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/Huang_full_pipeline/seed_130363/clean.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/Huang_full_pipeline/seed_130363/LA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/Huang_full_pipeline/seed_130363/RA_LA_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/Huang_full_pipeline/seed_130363/RA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/Huang_full_pipeline/seed_155921/clean.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/Huang_full_pipeline/seed_155921/LA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/Huang_full_pipeline/seed_155921/RA_LA_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/Huang_full_pipeline/seed_155921/RA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/ordinary_resnet/seed_104729/clean.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/ordinary_resnet/seed_104729/LA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/ordinary_resnet/seed_104729/RA_LA_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/ordinary_resnet/seed_104729/RA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/ordinary_resnet/seed_130363/clean.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/ordinary_resnet/seed_130363/LA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/ordinary_resnet/seed_130363/RA_LA_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/ordinary_resnet/seed_130363/RA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/ordinary_resnet/seed_155921/clean.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/ordinary_resnet/seed_155921/LA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/ordinary_resnet/seed_155921/RA_LA_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/ordinary_resnet/seed_155921/RA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/physics_aware_p050/seed_104729/clean.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/physics_aware_p050/seed_104729/LA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/physics_aware_p050/seed_104729/RA_LA_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/physics_aware_p050/seed_104729/RA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/physics_aware_p050/seed_130363/clean.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/physics_aware_p050/seed_130363/LA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/physics_aware_p050/seed_130363/RA_LA_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/physics_aware_p050/seed_130363/RA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/physics_aware_p050/seed_155921/clean.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/physics_aware_p050/seed_155921/LA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/physics_aware_p050/seed_155921/RA_LA_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "predictions/HEEDB/physics_aware_p050/seed_155921/RA_LL_reversal.npz",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "RA_LL_ANCHOR_AUDIT.csv",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "REPLAY_AUDIT.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "run_inference.py",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "STATUS.md",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "VERIFICATION_AUDIT.json",
+      "pass": true
+    },
+    {
+      "kind": "v1_file_unchanged",
+      "path": "verify_results.py",
+      "pass": true
+    },
+    {
+      "kind": "610_unaffected_bootstrap_groups",
+      "count": 610,
+      "max_abs_difference": 3.3306690738754696e-16,
+      "pass": true
+    }
+  ]
+}

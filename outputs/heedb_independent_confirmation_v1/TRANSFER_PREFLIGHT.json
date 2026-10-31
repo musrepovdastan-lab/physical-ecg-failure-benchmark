@@ -1,0 +1,16 @@
+{
+  "cap_bytes": 2147483648,
+  "charge_assumption": "non-Requester-Pays inferred from successful HEAD without RequestPayer; standard us-east-1 internet egress $0.09/decimal GB plus Standard request charges; bucket owner ordinarily billed",
+  "checked_utc": "2026-09-25T00:20:39.967661+00:00",
+  "estimated_aws_service_charge_usd_upper_without_discount": 0.1219,
+  "estimated_charge_ceiling_usd": 0.25,
+  "exact_new_download_bytes": 1177012861,
+  "exact_remote_bytes": 1177012861,
+  "objects": 20000,
+  "patients": 10000,
+  "request_charged_head_responses": 0,
+  "restricted_object_manifest_sha256": "19ed0e4755ff85c2aef9e1d52bf83e3b87847cef0288c87e735ecb9ef400740f",
+  "reusable_local_objects": 0,
+  "safe_to_transfer": true,
+  "storage_class": "STANDARD"
+}

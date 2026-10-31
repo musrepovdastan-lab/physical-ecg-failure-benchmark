@@ -1,0 +1,12 @@
+{
+  "completed_utc": "2026-09-24T01:38:41.138304+00:00",
+  "conditions_per_model": 26,
+  "cuda_device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "decision": "PASS",
+  "elapsed_seconds": 5.843,
+  "excluded_readiness_records": 23,
+  "finite_predictions": true,
+  "models": 6,
+  "prediction_batches_checked": 156,
+  "resampled_250_to_500_records": 1
+}

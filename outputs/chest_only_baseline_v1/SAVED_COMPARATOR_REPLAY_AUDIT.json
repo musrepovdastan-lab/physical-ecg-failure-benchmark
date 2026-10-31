@@ -1,0 +1,489 @@
+{
+  "checks": [
+    {
+      "condition": "clean",
+      "dataset": "Chapman",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "clean_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": false,
+      "saved_prediction_path": "outputs\\phase1_chapman_seed1_v4\\test_predictions_v4\\clean.npz",
+      "saved_prediction_sha256": "b86de4b19d5e43f27b8b3592f4518261ea6a477da417291e80e0a0cec8c3d24b",
+      "seed": 104729,
+      "shape": [
+        2050,
+        3
+      ]
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "dataset": "Chapman",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "clean_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": false,
+      "saved_prediction_path": "outputs\\phase1_chapman_seed1_v4\\test_predictions_v4\\RA_LL_reversal.npz",
+      "saved_prediction_sha256": "a9fe2b7bd1aff07944e67107c7297059b377a66b5cb6b2bb18d20d44d59daaea",
+      "seed": 104729,
+      "shape": [
+        2050,
+        3
+      ]
+    },
+    {
+      "condition": "clean",
+      "dataset": "Chapman",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "clean_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\phase2_chapman_multiseed_v7\\seed_130363\\test_predictions\\clean.npz",
+      "saved_prediction_sha256": "da5f23c22bdd68ab4fd348e81d520c1c87caae7fbf69df21433f2a1a5a188fac",
+      "seed": 130363,
+      "shape": [
+        2050,
+        3
+      ]
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "dataset": "Chapman",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "clean_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\phase2_chapman_multiseed_v7\\seed_130363\\test_predictions\\RA_LL_reversal.npz",
+      "saved_prediction_sha256": "18ad5bd56b747fe50732128b1e60f455467fb065d54e3049f06151d30cf46733",
+      "seed": 130363,
+      "shape": [
+        2050,
+        3
+      ]
+    },
+    {
+      "condition": "clean",
+      "dataset": "Chapman",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "clean_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\phase2_chapman_multiseed_v7\\seed_155921\\test_predictions\\clean.npz",
+      "saved_prediction_sha256": "68ba5071b30e4c253ed7276370b7a60eebf7959aa702b8c8947e1148953d0e6b",
+      "seed": 155921,
+      "shape": [
+        2050,
+        3
+      ]
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "dataset": "Chapman",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "clean_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\phase2_chapman_multiseed_v7\\seed_155921\\test_predictions\\RA_LL_reversal.npz",
+      "saved_prediction_sha256": "f481fa0137e4be2f87f26b568e0841cb01af4d50b2e79935aa333b787f98fd43",
+      "seed": 155921,
+      "shape": [
+        2050,
+        3
+      ]
+    },
+    {
+      "condition": "clean",
+      "dataset": "Chapman",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "physics_aware_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\mitigation_m1_v1\\physics_aware\\seed_104729\\test_predictions\\clean.npz",
+      "saved_prediction_sha256": "9ecbdb01591fb559ce0c969e7bea82338ecacc5ebb8716c28206421f210b9bd2",
+      "seed": 104729,
+      "shape": [
+        2050,
+        3
+      ]
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "dataset": "Chapman",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "physics_aware_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\mitigation_m1_v1\\physics_aware\\seed_104729\\test_predictions\\RA_LL_reversal.npz",
+      "saved_prediction_sha256": "ce3272e2a76a13dd95b42d065ef84f3339ce2d3384f320f655d834c4d4af2b0b",
+      "seed": 104729,
+      "shape": [
+        2050,
+        3
+      ]
+    },
+    {
+      "condition": "clean",
+      "dataset": "Chapman",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "physics_aware_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\mitigation_m1_v1\\physics_aware\\seed_130363\\test_predictions\\clean.npz",
+      "saved_prediction_sha256": "4eb9081caa6a29c06bbc5e8ec2830ce6f46c772b8ca9fb656569289658d9d8c9",
+      "seed": 130363,
+      "shape": [
+        2050,
+        3
+      ]
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "dataset": "Chapman",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "physics_aware_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\mitigation_m1_v1\\physics_aware\\seed_130363\\test_predictions\\RA_LL_reversal.npz",
+      "saved_prediction_sha256": "9fb9a88f381aa24d6636ceea53f6b6395355e72b39be002c94f3882de54cffc3",
+      "seed": 130363,
+      "shape": [
+        2050,
+        3
+      ]
+    },
+    {
+      "condition": "clean",
+      "dataset": "Chapman",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "physics_aware_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\mitigation_m1_v1\\physics_aware\\seed_155921\\test_predictions\\clean.npz",
+      "saved_prediction_sha256": "9609affaf10c071964ce30091a00519f27cec8aa8f2e650539f717d1a7362b72",
+      "seed": 155921,
+      "shape": [
+        2050,
+        3
+      ]
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "dataset": "Chapman",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "physics_aware_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\mitigation_m1_v1\\physics_aware\\seed_155921\\test_predictions\\RA_LL_reversal.npz",
+      "saved_prediction_sha256": "67f259bdacb5f407ea82af4f9af9dbe9735dde7274642fbe369ff5a50340ecdd",
+      "seed": 155921,
+      "shape": [
+        2050,
+        3
+      ]
+    },
+    {
+      "condition": "clean",
+      "dataset": "Ningbo",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "clean_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\ningbo_confirmation_v2\\seed_104729\\test_predictions\\clean.npz",
+      "saved_prediction_sha256": "b36338ed1129116e1d6c034010f5fa9e43e1460c4393d5b822a03e2cb6c813d1",
+      "seed": 104729,
+      "shape": [
+        6981,
+        3
+      ]
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "dataset": "Ningbo",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "clean_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\ningbo_confirmation_v2\\seed_104729\\test_predictions\\RA_LL_reversal.npz",
+      "saved_prediction_sha256": "dd1664666a8383f9f92a867e70949f5930250c454135df0352352e965006228a",
+      "seed": 104729,
+      "shape": [
+        6981,
+        3
+      ]
+    },
+    {
+      "condition": "clean",
+      "dataset": "Ningbo",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "clean_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\ningbo_confirmation_v2\\seed_130363\\test_predictions\\clean.npz",
+      "saved_prediction_sha256": "e03f1a3cd094f8c3d86699d5e4b5a4179c900e39b0cf8a0bc05d30dde66972ba",
+      "seed": 130363,
+      "shape": [
+        6981,
+        3
+      ]
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "dataset": "Ningbo",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "clean_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\ningbo_confirmation_v2\\seed_130363\\test_predictions\\RA_LL_reversal.npz",
+      "saved_prediction_sha256": "0d2e7c901db2a506d7c38400f7806b76d9c1ad24d352fd1ed36a563714a6b88c",
+      "seed": 130363,
+      "shape": [
+        6981,
+        3
+      ]
+    },
+    {
+      "condition": "clean",
+      "dataset": "Ningbo",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "clean_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\ningbo_confirmation_v2\\seed_155921\\test_predictions\\clean.npz",
+      "saved_prediction_sha256": "9e756fe810a237bac6d296fa1e5fce9cb45c7508216321ea01edc9ced94007f2",
+      "seed": 155921,
+      "shape": [
+        6981,
+        3
+      ]
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "dataset": "Ningbo",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "clean_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\ningbo_confirmation_v2\\seed_155921\\test_predictions\\RA_LL_reversal.npz",
+      "saved_prediction_sha256": "769feca273d07580ca08e0fe0c0661676f1a96a6a4cb767e48d0a68dd4e100d1",
+      "seed": 155921,
+      "shape": [
+        6981,
+        3
+      ]
+    },
+    {
+      "condition": "clean",
+      "dataset": "Ningbo",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "physics_aware_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\mitigation_m2_ningbo_v1\\seed_104729\\test_predictions\\clean.npz",
+      "saved_prediction_sha256": "25c960f6d318c812b05e837e2d54c1ef554f490927e53b450227e656b68ede46",
+      "seed": 104729,
+      "shape": [
+        6981,
+        3
+      ]
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "dataset": "Ningbo",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "physics_aware_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\mitigation_m2_ningbo_v1\\seed_104729\\test_predictions\\RA_LL_reversal.npz",
+      "saved_prediction_sha256": "c6d077334cce740b50e57df0783a67e48c474d899f47fb50f4186df030762e41",
+      "seed": 104729,
+      "shape": [
+        6981,
+        3
+      ]
+    },
+    {
+      "condition": "clean",
+      "dataset": "Ningbo",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "physics_aware_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\mitigation_m2_ningbo_v1\\seed_130363\\test_predictions\\clean.npz",
+      "saved_prediction_sha256": "4d535b59ea9c740f57c75da18c062e4c34e61e98b0fff115357f61996b51c2a0",
+      "seed": 130363,
+      "shape": [
+        6981,
+        3
+      ]
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "dataset": "Ningbo",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "physics_aware_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\mitigation_m2_ningbo_v1\\seed_130363\\test_predictions\\RA_LL_reversal.npz",
+      "saved_prediction_sha256": "15f00d753601ab73f8c8a78dcb605526ea9039dbf8d988d670d78926b0277e95",
+      "seed": 130363,
+      "shape": [
+        6981,
+        3
+      ]
+    },
+    {
+      "condition": "clean",
+      "dataset": "Ningbo",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "physics_aware_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\mitigation_m2_ningbo_v1\\seed_155921\\test_predictions\\clean.npz",
+      "saved_prediction_sha256": "69e7cec208eefbc22e9c1ddb9ea131e023195c110af4ae55e8ff9bfdf3269c1e",
+      "seed": 155921,
+      "shape": [
+        6981,
+        3
+      ]
+    },
+    {
+      "condition": "RA_LL_reversal",
+      "dataset": "Ningbo",
+      "frozen_tolerance": {
+        "atol": 1e-05,
+        "rtol": 0.0001
+      },
+      "max_abs_delta": 0.0,
+      "mean_abs_delta": 0.0,
+      "model": "physics_aware_12lead",
+      "pass": true,
+      "saved_manifest_hash_checked": true,
+      "saved_prediction_path": "outputs\\mitigation_m2_ningbo_v1\\seed_155921\\test_predictions\\RA_LL_reversal.npz",
+      "saved_prediction_sha256": "13317efe52fa9c9e3cdbf6ec858162e10188bd5ef04b3d347bf7ff5a3a7e1960",
+      "seed": 155921,
+      "shape": [
+        6981,
+        3
+      ]
+    }
+  ],
+  "decision": "PASS",
+  "interpretation": "The comparator outputs used in the final analysis are fresh inference from provenance-audited checkpoints, preprocessing and validation thresholds, on this package's bound canonical test order.",
+  "manifest_hash_verified": 22,
+  "protocol_sha256": "dd5d0a6b3747699c5308b798741c6486eb31dad84422750fd498e5b5efc6bcc2",
+  "total_replays": 24
+}

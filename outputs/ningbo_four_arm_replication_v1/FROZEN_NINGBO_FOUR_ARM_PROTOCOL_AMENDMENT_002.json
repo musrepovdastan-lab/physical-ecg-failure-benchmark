@@ -1,0 +1,15 @@
+{
+  "amendment": {
+    "id": "002",
+    "reason": "Avoid redundant waveform re-extraction by reusing byte-identical per-lead mean/std already derived on the exact frozen Ningbo train split and bound to all six existing checkpoints.",
+    "method_change": false,
+    "training_started_before_amendment": false,
+    "test_accessed_before_amendment": false,
+    "created_utc": "2026-10-17T13:04:08.679225+00:00",
+    "prior_protocol_sha256": "edd11c30f8ed62ed3087f2cd862073a33678915dafb448a1bdedd8087a79af02",
+    "workflow_source_sha256": "f5e7ac5685424770961819d453d8c1d4a370b6017061b624900a8de66e7429aa",
+    "verification": "all three clean and all three physics-aware preprocessing.npz have the same SHA-256; new units copy these bytes and record split/source provenance"
+  },
+  "amended_protocol_sha256": "4718893819c305c0c8efbbe2f9a1e5760d2f622f3f2038fce3685a894acb74ae",
+  "prior_protocol_archive": "outputs/ningbo_four_arm_replication_v1/archive/FROZEN_NINGBO_FOUR_ARM_PROTOCOL_pre_amendment_002.json"
+}

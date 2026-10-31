@@ -1,0 +1,9 @@
+dataset,label,official_task,official_zero_based_index,condition,records,positives,validation_threshold,auprc,auroc,sensitivity,mapping_scope
+Chapman,SB,SINUS BRADYCARDIA,4,clean,2050,780,0.06305575100693067,0.9995889884600971,0.9997733696749445,1.0,name-level match; separate from trained-head comparison
+Chapman,SB,SINUS BRADYCARDIA,4,RA_LL_reversal,2050,780,0.06305575100693067,0.9998645105445236,0.9999182313749243,1.0,name-level match; separate from trained-head comparison
+Chapman,STach,SINUS TACHYCARDIA,6,clean,2050,314,0.7031380657324434,0.9682225155346883,0.9941928512724177,0.9904458598726115,name-level match; separate from trained-head comparison
+Chapman,STach,SINUS TACHYCARDIA,6,RA_LL_reversal,2050,314,0.7031380657324434,0.9457328354172974,0.9896450952478794,0.9904458598726115,name-level match; separate from trained-head comparison
+Ningbo,SB,SINUS BRADYCARDIA,4,clean,6981,2534,0.0796101543904127,0.9911982048126551,0.9969021709517817,0.9988161010260458,name-level match; separate from trained-head comparison
+Ningbo,SB,SINUS BRADYCARDIA,4,RA_LL_reversal,6981,2534,0.0796101543904127,0.9832415642740544,0.9947315120167388,0.9964483030781374,name-level match; separate from trained-head comparison
+Ningbo,STach,SINUS TACHYCARDIA,6,clean,6981,1138,0.23782373142444102,0.9404078475379759,0.9922899045227688,0.9956063268892794,name-level match; separate from trained-head comparison
+Ningbo,STach,SINUS TACHYCARDIA,6,RA_LL_reversal,6981,1138,0.23782373142444102,0.9530261876522181,0.9918342197880269,0.992091388400703,name-level match; separate from trained-head comparison

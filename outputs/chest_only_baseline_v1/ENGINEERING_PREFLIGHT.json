@@ -1,0 +1,17 @@
+{
+  "completed_utc": "2026-10-17T04:30:20.747729+00:00",
+  "cuda": "12.8",
+  "decision": "PASS",
+  "finite": true,
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "parameter_delta": -1344,
+  "protocol_sha256": "dd5d0a6b3747699c5308b798741c6486eb31dad84422750fd498e5b5efc6bcc2",
+  "six_comparator_units_reverified": 12,
+  "smoke_shape": [
+    2,
+    3
+  ],
+  "splits_disjoint": true,
+  "test_waveforms_or_labels_loaded": false,
+  "torch": "2.11.0+cu128"
+}

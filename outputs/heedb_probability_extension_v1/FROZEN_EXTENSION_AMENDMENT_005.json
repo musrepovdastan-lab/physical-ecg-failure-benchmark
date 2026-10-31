@@ -1,0 +1,8 @@
+{
+  "amended_protocol_sha256": "c2f56ce48e0bf50cdc39c3f962a35dc149e0d239bb54e75e7e663fc368c33176",
+  "amendment": "005",
+  "inference_protocol_sha256": "6cc3534e6c7e3f01f535578f995308b29f2425cae0ae2aa8ead093ccbfa6df87",
+  "prior_protocol_sha256": "30fc1d9d7aa7bf6637a5ae5c1b15ac9a281697c816972fdc652fa9f193a62f89",
+  "reason": "Post-analysis audit found the audit-only block used raw-mode placeholder coefficients when calculating the calibrated decision cross-check. Metric rows already used the correct fitted coefficients; corrected the audit cross-check to use the stored coefficients, then recompute the audit separately. No model probabilities, calibration fit, threshold, metric, bootstrap draw or contrast changes.",
+  "status": "AUDIT_IMPLEMENTATION_CORRECTION"
+}

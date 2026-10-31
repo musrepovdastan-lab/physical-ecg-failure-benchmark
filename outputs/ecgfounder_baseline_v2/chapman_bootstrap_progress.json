@@ -1,0 +1,24 @@
+{
+  "dataset": "Chapman",
+  "protocol_sha256": "2f1e7600c26a6466c29e9bbc5ddbe6b826486cc05c84edaa3350433b3981ad81",
+  "test_ids_sha256": "4dbccf5d97e368c547ccb1577d533870c8ee506e1014ba7f854247f394446203",
+  "indices_sha256": "1534152d4b82e133eba83ab57472d2482528cf54e6f43028ac6bd9e9e635a01f",
+  "replicates": 1000,
+  "model_order": [
+    "ECGFounder_head",
+    "ResNet_104729",
+    "ResNet_130363",
+    "ResNet_155921"
+  ],
+  "condition_order": [
+    "clean",
+    "RA_LL_reversal"
+  ],
+  "metric_order": [
+    "auprc",
+    "auroc",
+    "sensitivity"
+  ],
+  "completed_replicates": 1000,
+  "metrics_sha256": "a89939a407c3111257c05359f763bc4c57c56d4641f200ee7f7d162c56cd99a6"
+}

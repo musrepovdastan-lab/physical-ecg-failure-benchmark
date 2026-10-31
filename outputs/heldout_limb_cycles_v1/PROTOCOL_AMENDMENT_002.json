@@ -1,0 +1,8 @@
+{
+  "added_before_successful_metric_output": true,
+  "amendment": "Correct bootstrap contrast condition indexing so paired model contrasts compare the same requested cycle for both arms.",
+  "created_utc": "2026-10-18T04:30:30.276008+00:00",
+  "previous_protocol_sha256": "63e2098d7c8e4f4c34968132be99f548cdeff56b08c307c22cbc4f40738c9267",
+  "reason": "The first analysis attempt raised a KeyError before writing metrics; this corrects request tuple construction only.",
+  "scope": "No signals, predictions, cohorts, endpoints, metrics, thresholds, bootstrap indices, or estimands changed."
+}

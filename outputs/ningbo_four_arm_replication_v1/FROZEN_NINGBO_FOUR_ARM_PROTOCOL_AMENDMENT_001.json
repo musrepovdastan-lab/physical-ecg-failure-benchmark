@@ -1,0 +1,12 @@
+{
+  "amendment": "001",
+  "created_utc": "2026-10-17T12:57:13.605241+00:00",
+  "prior_protocol_sha256": "51eb6490370b39deaccb64f35e141cd597f1804ea253d3e7eb2f1c0a155244c5",
+  "amended_protocol_sha256": "edd11c30f8ed62ed3087f2cd862073a33678915dafb448a1bdedd8087a79af02",
+  "prior_protocol_archive": "outputs/ningbo_four_arm_replication_v1/archive/FROZEN_NINGBO_FOUR_ARM_PROTOCOL_pre_amendment_001.json",
+  "reason": "Corrected the protocol identity gate to compare the four-arm registry separately from the two arms scheduled for new training. The initial check rejected its own valid frozen protocol.",
+  "method_change": false,
+  "training_started_before_amendment": false,
+  "test_accessed_before_amendment": false,
+  "workflow_source_sha256": "7494cc12ba98c4f9258cd2b228a77ac18582c59c6e6e93f3bd63e17d110d4a44"
+}

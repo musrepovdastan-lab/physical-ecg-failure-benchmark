@@ -1,0 +1,21 @@
+{
+  "pages": 6,
+  "tables": 9,
+  "page_word_counts": [
+    360,
+    391,
+    394,
+    411,
+    371,
+    521
+  ],
+  "latest_mixture_table_32_cells_match_source_csv": true,
+  "source_hashes_verified": 15,
+  "word_count_including_tables_and_references": 2540,
+  "author_contact_included": true,
+  "visual_review": "All six current page PNGs inspected; no blank pages, clipped text, split tables or overlapping content.",
+  "renderer": "Microsoft Word PDF export and bundled Poppler; canonical LibreOffice renderer unavailable because LibreOffice is not installed.",
+  "document_sha256": "e7ee8316a4a04597f1fb876ceedf18a603bdcbf7f739dc25229ed7599376baa6",
+  "content_coverage_items": 31,
+  "requested_line_removed": true
+}

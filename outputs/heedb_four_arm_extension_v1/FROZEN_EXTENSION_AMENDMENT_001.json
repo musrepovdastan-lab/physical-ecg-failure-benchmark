@@ -1,0 +1,9 @@
+{
+  "amendment": "001",
+  "extension_source_sha256": "4179514729672d87aea0ebfa3b3c8b28b653be7ae76526ff1f6ed8ee1930869c",
+  "protocol_sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa",
+  "reason": "Bind executable replay/inference/analysis implementation after the parent extension protocol and input hashes were frozen; no method or estimand change.",
+  "replay_gate": "existing ordinary HEEDB predictions max absolute probability delta <=1e-4 and new Ningbo saved predictions <=1e-4; retain batch size 128; any failure stops dependent HEEDB inference.",
+  "resumption": "Per-checkpoint-condition prediction files are atomic and hash-bound; only matching completed artifacts may be reused.",
+  "status": "FROZEN_BEFORE_NEW_EXTERNAL_METRICS"
+}\n

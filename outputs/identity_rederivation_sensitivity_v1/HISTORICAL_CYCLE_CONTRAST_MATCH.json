@@ -1,0 +1,245 @@
+{
+  "checks": [
+    {
+      "cohort": "Chapman",
+      "contrast": "physics_aware_minus_ordinary",
+      "cycle": "cycle_slots_120",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AP_AUPRC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Chapman",
+      "contrast": "physics_aware_minus_ordinary",
+      "cycle": "cycle_slots_120",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AUROC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Chapman",
+      "contrast": "physics_aware_minus_ordinary",
+      "cycle": "cycle_slots_120",
+      "max_abs_draw_difference": 0.0,
+      "metric": "raw_Brier",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Chapman",
+      "contrast": "physics_aware_minus_ordinary",
+      "cycle": "cycle_slots_201",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AP_AUPRC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Chapman",
+      "contrast": "physics_aware_minus_ordinary",
+      "cycle": "cycle_slots_201",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AUROC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Chapman",
+      "contrast": "physics_aware_minus_ordinary",
+      "cycle": "cycle_slots_201",
+      "max_abs_draw_difference": 0.0,
+      "metric": "raw_Brier",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Chapman",
+      "contrast": "combined_minus_ordinary",
+      "cycle": "cycle_slots_120",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AP_AUPRC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Chapman",
+      "contrast": "combined_minus_ordinary",
+      "cycle": "cycle_slots_120",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AUROC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Chapman",
+      "contrast": "combined_minus_ordinary",
+      "cycle": "cycle_slots_120",
+      "max_abs_draw_difference": 0.0,
+      "metric": "raw_Brier",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Chapman",
+      "contrast": "combined_minus_ordinary",
+      "cycle": "cycle_slots_201",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AP_AUPRC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Chapman",
+      "contrast": "combined_minus_ordinary",
+      "cycle": "cycle_slots_201",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AUROC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Chapman",
+      "contrast": "combined_minus_ordinary",
+      "cycle": "cycle_slots_201",
+      "max_abs_draw_difference": 0.0,
+      "metric": "raw_Brier",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "physics_aware_minus_ordinary",
+      "cycle": "cycle_slots_120",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AP_AUPRC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "physics_aware_minus_ordinary",
+      "cycle": "cycle_slots_120",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AUROC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "physics_aware_minus_ordinary",
+      "cycle": "cycle_slots_120",
+      "max_abs_draw_difference": 1.6653345369377348e-16,
+      "metric": "raw_Brier",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "physics_aware_minus_ordinary",
+      "cycle": "cycle_slots_201",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AP_AUPRC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "physics_aware_minus_ordinary",
+      "cycle": "cycle_slots_201",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AUROC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "physics_aware_minus_ordinary",
+      "cycle": "cycle_slots_201",
+      "max_abs_draw_difference": 1.1102230246251565e-16,
+      "metric": "raw_Brier",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "combined_minus_ordinary",
+      "cycle": "cycle_slots_120",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AP_AUPRC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "combined_minus_ordinary",
+      "cycle": "cycle_slots_120",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AUROC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "combined_minus_ordinary",
+      "cycle": "cycle_slots_120",
+      "max_abs_draw_difference": 1.6653345369377348e-16,
+      "metric": "raw_Brier",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "combined_minus_ordinary",
+      "cycle": "cycle_slots_201",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AP_AUPRC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "combined_minus_ordinary",
+      "cycle": "cycle_slots_201",
+      "max_abs_draw_difference": 0.0,
+      "metric": "AUROC",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    },
+    {
+      "cohort": "Ningbo",
+      "contrast": "combined_minus_ordinary",
+      "cycle": "cycle_slots_201",
+      "max_abs_draw_difference": 1.1102230246251565e-16,
+      "metric": "raw_Brier",
+      "new_draw_count": 1000,
+      "old_draw_count": 1000,
+      "pass_exact": true
+    }
+  ],
+  "status": "PASS"
+}

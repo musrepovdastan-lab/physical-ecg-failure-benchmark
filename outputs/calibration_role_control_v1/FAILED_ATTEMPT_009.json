@@ -1,0 +1,9 @@
+{
+  "status": "PROVISIONAL_HUANG_CLEAN_PATH_REJECTED_BEFORE_SUMMARIES",
+  "reason": "The first saved full-cohort Huang clean predictions passed the detector's clean argmax directly through without applying its predicted inverse. The frozen Huang chain requires predicted-class correction for clean records too, so false corrections are counted.",
+  "Ningbo_test_and_HEEDB_predictions_archived": true,
+  "metrics_or_bootstrap_summaries_finalized": false,
+  "calibration_threshold_lock_changed": false,
+  "resolution": "Archive six affected clean predictions and completion manifests; recompute only the six clean Huang prediction files with corrected_batch(clean_raw, argmax(clean_detector_probabilities)); reuse all fault Huang and non-Huang predictions.",
+  "frozen_detector_inputs": "verified Ningbo detector test replay and accepted HEEDB recovery-v2 detector cache"
+}

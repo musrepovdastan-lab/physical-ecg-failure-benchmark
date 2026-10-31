@@ -1,0 +1,952 @@
+{
+  "status": "COMPLETE_PENDING_USER_REVIEW",
+  "created_date": "2026-10-20",
+  "exact_wall_clock_time": "unknown",
+  "protocol_sha256": "fd86abdb3a3ab9e762a9245a369f521c4759f3c1cec0f1c5dc6c899ad7b2aece",
+  "completion_runner_sha256": "907ee7eed60f5f128264095275e6aa2643bd73543dafde266cb342130de331a2",
+  "protocol_amendments": [
+    "COMPLETION_PROTOCOL_AMENDMENT_001.json"
+  ],
+  "instruction_context_binding": {
+    "path": "LUNA_PROMPT_CALIBRATION_COMPLETION_20261020.md",
+    "exists_in_workspace": true,
+    "sha256": "f1098e0fae905d699dbed8d116bd55da9aa88d3f539fe601a272578fc093be06",
+    "role": "instruction_context_only; not a statistical/model input"
+  },
+  "active_plan_after_update": {
+    "path": "NEXT_RESEARCH_DECISIONS_20261019.md",
+    "sha256_after_status_update": "ab37198bb76639859e1d51bb1b5fdcda5eb9f471a94ae92d5df1cb4b94439ac6",
+    "role": "mutable current-status document; not a scientific input"
+  },
+  "scientific_input_file_count": 125,
+  "scientific_inputs": [
+    {
+      "path": "outputs/calibration_role_control_v1/FROZEN_EXECUTION_PROTOCOL.json",
+      "sha256": "3daf60f2757cf49867e95faa2982b5ad6f21860d5534906b5a84800c95226321",
+      "bytes": 9954,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/FROZEN_EXECUTION_PROTOCOL_SHA256.txt",
+      "sha256": "daab1dd6b2cfbacc5fd175638522e0d376ef16ddefdc6f90604e737974ec12ed",
+      "bytes": 66,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/ALL_MODELS_LOCK.json",
+      "sha256": "6837a6452cb50b87a47a0d60310fa79de71198959d64797af93da6f9f059894f",
+      "bytes": 13629,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/CALIBRATION_AND_THRESHOLD_LOCK.json",
+      "sha256": "faea23001ecdda266d5179b3cc9ef5c11314c04b21a4ccd42391ab6823005ad4",
+      "bytes": 26473,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/CALIBRATION_AND_THRESHOLD_LOCK.csv",
+      "sha256": "5546e22419efe94b8ec045df74c7a29a4556c7e36c8509c94f590b14b4818af2",
+      "bytes": 10684,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/CALIBRATION_AND_THRESHOLD_LOCK_SHA256.txt",
+      "sha256": "882223464a59511644501827d332e94e07149ea2d54d1cb450f7460741931a4c",
+      "bytes": 66,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/MIXTURE_METRICS_BY_SEED.csv",
+      "sha256": "6e99de670018d7a02a0b5fc86dbee2da98929c3636f60131094507ed7b6d3ffe",
+      "bytes": 436733,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/MIXTURE_METRICS_MEAN_SD.csv",
+      "sha256": "5633969c92670112f94fd5739576ae4ba3a71f259eb76fc1860a53986209f29b",
+      "bytes": 256805,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/CONDITION_METRICS_BY_SEED.csv",
+      "sha256": "01874abb66d42c4cb52aec6ead9c37c764eb3b22c0fc275a9d2ea3a1827108bc",
+      "bytes": 115077,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/CONDITION_METRICS_MEAN_SD.csv",
+      "sha256": "adc66cf5a19adb83e01c73360642de0ce905f0fd0def473158d35e9a45f8ed77",
+      "bytes": 72888,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/TWA_PAIRED_CONTRASTS_POINT_AND_CI.csv",
+      "sha256": "dcc123acac9c0c08c424566519773bf230b1d9ed169839e1e07d166809370fed",
+      "bytes": 51386,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/Ningbo_test_TWA_PAIRED_BOOTSTRAP_DRAWS.npz",
+      "sha256": "1d5bb59538d007b9035db959b4a77df9bf4c9d22daf8c395ad41994e8216f103",
+      "bytes": 1097995,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/HEEDB_TWA_PAIRED_BOOTSTRAP_DRAWS.npz",
+      "sha256": "3c0ba3fb58673d634c72c887dfebc07899f3ca29da84a5bb6df9ffea44c4fe96",
+      "bytes": 1047858,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/PAIRED_BOOTSTRAP_DRAWS_ALL.npz",
+      "sha256": "c21de9a94ef697f59973ea52b2cfcac07828903fc7bdd4a1b056af0efd45da27",
+      "bytes": 2151231,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/INDEPENDENT_REVIEW_AUDIT_20261020.json",
+      "sha256": "b86820c0b68cf53cd2f3522be1472f6da3fff6464daa4c27a2981e28d684c377",
+      "bytes": 2120,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/INDEPENDENT_PREDICTION_REPLAY_20261020.json",
+      "sha256": "ee20cb11eb364c2854a56515c8b33b44b0e9b75f65c5f84dceb2c3691c7d3596",
+      "bytes": 18495,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/SEED_ORDER_REVIEW_20261020.json",
+      "sha256": "7cf76a6872f4ce3077ecc170f66837c4f65f72cf4345e89509e966d96c6ac0d6",
+      "bytes": 1337,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/ROLE_ACCESS_AUDIT.json",
+      "sha256": "8b030113cc680b564ae74e2b514bd5141da26acb72cf0a5319a916f09283c261",
+      "bytes": 618,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/VERIFICATION_AUDIT.json",
+      "sha256": "4d16537867fdda38c85ebd30b04480b22d6e760dc6e2938e0ce98f60c7525ee0",
+      "bytes": 2113,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/BEST_CHECKPOINT_REPLAY_AUDIT.json",
+      "sha256": "2fc5b8670ec0a32bbf18adbc4e388e82bc73216cd1cebfea0a9a9fe26e89bd39",
+      "bytes": 4514,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/TRAINING_STATUS.json",
+      "sha256": "8a72c54fb8797d890b8cdacf916a90368b095ebf2cca6c6f06aa8fea1a29fe48",
+      "bytes": 12426,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/control.py",
+      "sha256": "2b80d905ac2ac22e799a7622872f1eb5611884e68e1563f422bc698b8779a741",
+      "bytes": 21333,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/evaluate.py",
+      "sha256": "db1e514a1cafb6dff412a51a38fee0f586450a3715f9c41b4dcf6a711378de6f",
+      "bytes": 20760,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/postprocess.py",
+      "sha256": "8d0815257ca23410e846a3d35554805a4b513231faee6ff2926d51b158096207",
+      "bytes": 11878,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/refit_exact_calibration.py",
+      "sha256": "985cddb9767730e6a202cf2a50d5befd9088ef34564f319a797645612b42fe47",
+      "bytes": 2838,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/IMMUTABLE_BINDINGS.json",
+      "sha256": "aa92a1c3e0e220844aef7e7a2e3fff656ed0394b76e875bd6dbdf77c4c57a9bb",
+      "bytes": 6256,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/REPRODUCIBILITY_MANIFEST.json",
+      "sha256": "0d30d2b436cf5da31572bfda5e19aeb0ba988faa26c7f3da1d49b2709cd9c978",
+      "bytes": 66079,
+      "role": "locked_analysis_source"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_104729/clean.npz",
+      "sha256": "2ba3912ba314b6c6e76bf6efdb29932dffe8e45bf682b1161d2df27a0ffa3fa8",
+      "bytes": 70979,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_104729/RA_LL_reversal.npz",
+      "sha256": "d2a04055caf91365eebe8b62f61e7ba5c51274360f85a85df9d2e6400a00afd8",
+      "bytes": 71458,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_104729/RA_LA_reversal.npz",
+      "sha256": "2ad51886a40cdf8f4e643c328fbb3dc3c32d4704a363d4e00f2e70987feb5688",
+      "bytes": 71177,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_104729/LA_LL_reversal.npz",
+      "sha256": "2701a5f8bfe17975d85e8c2d6a850a08b48da2b11b991db9c6f969c5f36a145f",
+      "bytes": 71495,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_130363/clean.npz",
+      "sha256": "ef48ec49800de02453573943be6db47bbbff17b22a20f8bed26fba808ef6c447",
+      "bytes": 69666,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_130363/RA_LL_reversal.npz",
+      "sha256": "889704b4047cfb3c958b0581521c1985700dd6f928e7c5869a45826aa29614fe",
+      "bytes": 70513,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_130363/RA_LA_reversal.npz",
+      "sha256": "b698e8e09a5cfab5c19fc6d6df572b64ddbf411c652b2d4c3ac09f97c2bf7116",
+      "bytes": 71254,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_130363/LA_LL_reversal.npz",
+      "sha256": "43962b28fb8790a10b3212600be3622b7a33a997a2f3b90ca29a9ca9683ecd4f",
+      "bytes": 70537,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_155921/clean.npz",
+      "sha256": "f2a605d32a4760fd4f4f90053dad5fce4efcfbd0b533afa6f7edf23cf1cd0a05",
+      "bytes": 69803,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_155921/RA_LL_reversal.npz",
+      "sha256": "ad83395bd9bb34e85d4ca94fcbc25bde2bef8e9009fcc5821f452fe57d1f571f",
+      "bytes": 70585,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_155921/RA_LA_reversal.npz",
+      "sha256": "fa715df7b3b10ef3bc411943e29af8de8f759c23cb612e4caa0ee680e5477178",
+      "bytes": 71479,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/ordinary/seed_155921/LA_LL_reversal.npz",
+      "sha256": "face94c515a943c4168c9b366f93a3fea2cd4afa00a20c2ad71b4102608503cd",
+      "bytes": 70239,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_104729/clean.npz",
+      "sha256": "000146c0292b2dedbca51ca4fc5014ca185a6a06164e971d151584ed4d7fcd82",
+      "bytes": 69619,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_104729/RA_LL_reversal.npz",
+      "sha256": "981e09ecbeec9d691f7525d1d181135dcc7660a70289a7ee84190e075385b991",
+      "bytes": 69629,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_104729/RA_LA_reversal.npz",
+      "sha256": "3efb1fa73fde537a0070a955e8a6f1cc3de6d4033c1152d48f025691ec315508",
+      "bytes": 69606,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_104729/LA_LL_reversal.npz",
+      "sha256": "4dcecb95f154529cc08c7f08b0780d97756a47d19f82adc205e2f69ab28349db",
+      "bytes": 69670,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_130363/clean.npz",
+      "sha256": "7e1e348f194d9a2c037bd95e247972df2b25e4aa3e955ef9504a6b3d47b8abbb",
+      "bytes": 69691,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_130363/RA_LL_reversal.npz",
+      "sha256": "c0e2e9c294d88a11ddf44a2de7811fcd2df4a88550f7bcf30bc697f436ead6e0",
+      "bytes": 69840,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_130363/RA_LA_reversal.npz",
+      "sha256": "1458ffdd39d8bf63f9690af654e4ef20873395cfca75e258656dd9a997cd0610",
+      "bytes": 69862,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_130363/LA_LL_reversal.npz",
+      "sha256": "329737bad54d5fd5758c4fd7716256f5f4e1b1b245878ce519fd88852ba790e4",
+      "bytes": 69736,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_155921/clean.npz",
+      "sha256": "f3ce57c056c47c0ba1cbb20e8cfc7b540a7700ce740141c57dea67164a471e7a",
+      "bytes": 70531,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_155921/RA_LL_reversal.npz",
+      "sha256": "51d4829a0284781ae0b9e8c092a19c091bd0186f13f6b05ef5a13def3620094f",
+      "bytes": 70665,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_155921/RA_LA_reversal.npz",
+      "sha256": "5eafe97916fd3133c33642fbf0303566162be9584196868549323711d521fcfa",
+      "bytes": 70738,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/physics_aware_p050/seed_155921/LA_LL_reversal.npz",
+      "sha256": "449e884a5c538a44cc5435b2fa7fed73ce56c0a3549dfeffa5982c4fe7aa8d5d",
+      "bytes": 70538,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_104729/clean.npz",
+      "sha256": "2ef2e224e6927f294ffd17b5e18ebfbf6d0a4530f112690e1282a79f67253524",
+      "bytes": 70452,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_104729/RA_LL_reversal.npz",
+      "sha256": "6e7b1de7c4956ea6a2fca6cbba227a923f934cc6d9a90d629c902b02d964a5bb",
+      "bytes": 71048,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_104729/RA_LA_reversal.npz",
+      "sha256": "359bba0e8994cc24dffe38f55ce109d401197f33e6a86413a7d12f131226a758",
+      "bytes": 70993,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_104729/LA_LL_reversal.npz",
+      "sha256": "7767128d5ad7820b764ce4fc0f3113f7f87aebdc790afb8858d5b1d1cb61cb02",
+      "bytes": 70717,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_130363/clean.npz",
+      "sha256": "ae479887daae709bdeed33cea9e7c7c29d58723dbc7fa6ddc3370cad2d3d98b6",
+      "bytes": 69946,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_130363/RA_LL_reversal.npz",
+      "sha256": "085800aed70a24a647e6650bf70fa1f7e60114bcbb33be77867e7cf603646948",
+      "bytes": 70277,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_130363/RA_LA_reversal.npz",
+      "sha256": "3bde70bbe8c66e00a2f1f7b9ee6b714709adb3a9184090081cf3f5566db2566b",
+      "bytes": 70242,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_130363/LA_LL_reversal.npz",
+      "sha256": "072c3d7048406f65d0673a3ee9772b58aa98afa4ca8e390df06a683a0219dc6b",
+      "bytes": 70155,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_155921/clean.npz",
+      "sha256": "e039f61ee4fd0aebe46c73e23efae243c772dd3fcf541f742eeb49fac5a4def2",
+      "bytes": 69621,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_155921/RA_LL_reversal.npz",
+      "sha256": "a8ac1983c5d7ce99af853d3876d08d16e7c7d43dc3c6b7a25245d88cc5371acc",
+      "bytes": 70492,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_155921/RA_LA_reversal.npz",
+      "sha256": "a847aa9ed22ecfb6623ffcbbda1c3d219b28eadd4db85c7f4c95f14d1cfbb4bd",
+      "bytes": 70119,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/combined/seed_155921/LA_LL_reversal.npz",
+      "sha256": "c06cd4b4effcb23ffc726ec5bfab26b6aa707ae25b92ed57bdc1921c7b6b2f1e",
+      "bytes": 69796,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_104729/clean.npz",
+      "sha256": "2e8dea4d3ad78c6f63d070bd64b819b29b4149e90b69ac36e5e6daa00b1745b1",
+      "bytes": 71553,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_104729/RA_LL_reversal.npz",
+      "sha256": "0adf4829d9d9e92a6f087794b67070dc7af85cd51d4ee5b5d5eb9db783ba3a8d",
+      "bytes": 71661,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_104729/RA_LA_reversal.npz",
+      "sha256": "8868861c3ee49b4082518aee5d0b2942dac3bf9642f82eb9982d5161abaa82b0",
+      "bytes": 71665,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_104729/LA_LL_reversal.npz",
+      "sha256": "ffc2f19172345a9e563df890f1757250695dfa033959816d968d78d874acb9ad",
+      "bytes": 71627,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_130363/clean.npz",
+      "sha256": "7a228aa3c20bc598dc67644b111af666e34b515f7c1d7e53833654a8b8a758f3",
+      "bytes": 70230,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_130363/RA_LL_reversal.npz",
+      "sha256": "f6f25b81724486e62ff099238c4acb61d25523ca32c5507caf2eb970f18ad91f",
+      "bytes": 70294,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_130363/RA_LA_reversal.npz",
+      "sha256": "30ce98f7341b8bd697a899bd9c9bec36da06b86d0f07d02fe5d70a02d6cb1a90",
+      "bytes": 70296,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_130363/LA_LL_reversal.npz",
+      "sha256": "5eb598d146055027cb1f66fd0d8109b526c7e9ac1859fb6d681c42acd9f431ec",
+      "bytes": 70297,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_155921/clean.npz",
+      "sha256": "4dba942ade40f1242b8e547850853309d7c79885c43daf0dc4ea0ec760c6c1ae",
+      "bytes": 70400,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_155921/RA_LL_reversal.npz",
+      "sha256": "a1d63ac634adbf8d5845a8e6fe77d85883fa08a7502f0a5edf4284c920320e62",
+      "bytes": 70481,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_155921/RA_LA_reversal.npz",
+      "sha256": "d3f96a52e2c9d29bb8b6f293e9e40bcc51d9be612f90b9ad76757d5f3e9f31f2",
+      "bytes": 70474,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/Ningbo_test/Huang_full_pipeline/seed_155921/LA_LL_reversal.npz",
+      "sha256": "51f3a588b892a1b49b84aa87a99fb4e043b317ce46b214aee29ac5a3c76cf368",
+      "bytes": 70445,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_104729/clean.npz",
+      "sha256": "08b7751d568ad1823ed454f4f7dbbcbd6e8cc5dd62eee64cb67a93b9501626ac",
+      "bytes": 175609,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_104729/RA_LL_reversal.npz",
+      "sha256": "770e51de314037db6c0c7c22c5fca9614893bea6c7d017d83610b242d36005a0",
+      "bytes": 174843,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_104729/RA_LA_reversal.npz",
+      "sha256": "0f352ebf9d7316cce6ee1716640960e4608fbbf5e91cd676c7a9be4f8bf020d9",
+      "bytes": 175951,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_104729/LA_LL_reversal.npz",
+      "sha256": "7a65070f79cb3aeca85dddc4166799c67e03535966a0e302a758ae1b01c223fc",
+      "bytes": 175707,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_130363/clean.npz",
+      "sha256": "b83c028893b7437a4142b3222acbd899f55ef1e9e0916fd08f0e03992f413a5e",
+      "bytes": 174614,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_130363/RA_LL_reversal.npz",
+      "sha256": "7b29b9e45d178f9b76aa47213459bf2948a6c7db0157135051599a6ffd877f79",
+      "bytes": 173898,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_130363/RA_LA_reversal.npz",
+      "sha256": "94af3811b374d15b65d1c599b40c0bcd5e3a39e6804a7ea6b464fbcc8971d1b4",
+      "bytes": 176285,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_130363/LA_LL_reversal.npz",
+      "sha256": "6e7451c98956e533f7d9780f98f377f32d2d35023b895e34f7b94d08254e8ad2",
+      "bytes": 174862,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_155921/clean.npz",
+      "sha256": "b474791e104e5474de87c462e001b02970f70a4598aacac8d70bfd9b7c3feca5",
+      "bytes": 173753,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_155921/RA_LL_reversal.npz",
+      "sha256": "25fb0c061abd4b12d80a19f2cd04338cb609162b895ea86fd864a8bf5b4d66e0",
+      "bytes": 174333,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_155921/RA_LA_reversal.npz",
+      "sha256": "30337e677bb9a41c6cd370e288786e9ce46e73d55bd5396d2b029c8bf8782be9",
+      "bytes": 176749,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/ordinary/seed_155921/LA_LL_reversal.npz",
+      "sha256": "f63ab6954923bf489e0f6943b9aa0fb320b8081c28169b4f481089dd5192814c",
+      "bytes": 174012,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_104729/clean.npz",
+      "sha256": "b190a887eb27361ee68dab75c965e6da5947be847e7d8be17996ef210e32685a",
+      "bytes": 174413,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_104729/RA_LL_reversal.npz",
+      "sha256": "dd7e264ce0f299aa7d3c15721292773a84c554a91d80f03ac416feaebeb4b89b",
+      "bytes": 174711,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_104729/RA_LA_reversal.npz",
+      "sha256": "1c561c326b3456bb5f6f801f3a1d16b8203e4a723c8f019a9dd3632b02dbe773",
+      "bytes": 174603,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_104729/LA_LL_reversal.npz",
+      "sha256": "b202ae5abeeaf9b80ba7ac0d2021fa09efd3badb92aae53df8f0fbbc0da00799",
+      "bytes": 174289,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_130363/clean.npz",
+      "sha256": "d84b42106efce78be99b75e5e23f73475956abfaac679e78e29a9927c849a807",
+      "bytes": 174706,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_130363/RA_LL_reversal.npz",
+      "sha256": "d57448711a79b6efa96c2c77bff7f18be7092e3ba585877ae2d5d1b96bd6f85b",
+      "bytes": 174707,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_130363/RA_LA_reversal.npz",
+      "sha256": "a85037fd90d4b10fe646a16e548b0a3d34e0a1b84a1b31816c93371c88078b2c",
+      "bytes": 174760,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_130363/LA_LL_reversal.npz",
+      "sha256": "d284b90ff829eb0a37cbf752074ab16be2acb1bfc144d1948d65c6c5ea2f4429",
+      "bytes": 174511,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_155921/clean.npz",
+      "sha256": "d87ebf735aa562e4f0a4c0c56076c1c3937a97c3da3e59223b29e34cb1151c1e",
+      "bytes": 175060,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_155921/RA_LL_reversal.npz",
+      "sha256": "3e39908423c1565896ed78802c2d3078c42a53d1eb5f9aab108e6e9659549208",
+      "bytes": 175126,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_155921/RA_LA_reversal.npz",
+      "sha256": "5fa518732257e6c47d78aaab6bafc99c35ca1b687380e17c3d5f415f3204e25e",
+      "bytes": 175166,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/physics_aware_p050/seed_155921/LA_LL_reversal.npz",
+      "sha256": "6b55f33b27438cc97f3bf6820888430b636ab25e7b76fd98ea13bb34dc61a2b4",
+      "bytes": 175049,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_104729/clean.npz",
+      "sha256": "364623b636e6a527a9984c1555fd0983469d1a12907899a3deb34c580ed0232e",
+      "bytes": 174956,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_104729/RA_LL_reversal.npz",
+      "sha256": "113457acbb2dabff58d469b41c4d7760e6c3899bede6a1c7754095b7aae9dd9a",
+      "bytes": 175600,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_104729/RA_LA_reversal.npz",
+      "sha256": "7b42f7cd2d7a6884d1dc8bd027be9c8d85b765e8fb9c6618f017f26a5643e121",
+      "bytes": 175570,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_104729/LA_LL_reversal.npz",
+      "sha256": "8fabd8034b1f0518217d5cf0259d6401e68105d17840231978df277bd1d9658e",
+      "bytes": 175152,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_130363/clean.npz",
+      "sha256": "c04339b7dec61e19e67fa5f4fe9632f93caab0bae28009e20886020e2a3cf2cb",
+      "bytes": 175195,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_130363/RA_LL_reversal.npz",
+      "sha256": "ace8697b44e628870d9153092567366bb8b3f2db187e701e4f560adf956bd67f",
+      "bytes": 175481,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_130363/RA_LA_reversal.npz",
+      "sha256": "d7a51ba59a2a5101a3e04319cb52f87ea2925977e7bc188b9ef48b8c2c527f47",
+      "bytes": 175460,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_130363/LA_LL_reversal.npz",
+      "sha256": "a4b6c068f4642d950dcb7aaed5fb1792c3d9b84615d6d13b12288d8edfc417ff",
+      "bytes": 175281,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_155921/clean.npz",
+      "sha256": "046e9220a0fefdf0bbf65b97ffb4b7c0fa111e964c09241a28d2015828a9f76d",
+      "bytes": 173718,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_155921/RA_LL_reversal.npz",
+      "sha256": "cf12d19f8d31175f3b0f55f180ae281e8174a916a1e7311cd1dd14f47ad8b284",
+      "bytes": 174808,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_155921/RA_LA_reversal.npz",
+      "sha256": "6918defa77ff8f54bf4c87ef300e7c6416dd6f6b7286743de7d393a2fe0a3a00",
+      "bytes": 174385,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/combined/seed_155921/LA_LL_reversal.npz",
+      "sha256": "6af4dfcd82833222b18a8429e29bc2ab8705923efe675af984e8c83101f7f991",
+      "bytes": 173756,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_104729/clean.npz",
+      "sha256": "3f6bf8ad6568596a11810ef7ad331835966349d555d54fc21fa51c3c096d7770",
+      "bytes": 176190,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_104729/RA_LL_reversal.npz",
+      "sha256": "13e19de3b097c6b95d0019d3765211c1ef63cc7407e696c0237a0140067d2a8c",
+      "bytes": 176268,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_104729/RA_LA_reversal.npz",
+      "sha256": "be85b15d64a99d939657dd4c2f21945005d230fd8678ba51375ce115a1c8320d",
+      "bytes": 176238,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_104729/LA_LL_reversal.npz",
+      "sha256": "adc1bbbe3bc4659a8b9e5219d8301604ea6f1f555cb7fd54953736a013ceb5de",
+      "bytes": 176189,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_130363/clean.npz",
+      "sha256": "375710c95632e819e55d50ccaf6664c154325ad9987f7d4e1471c84fac5c1ebe",
+      "bytes": 175158,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_130363/RA_LL_reversal.npz",
+      "sha256": "9310c76a481981c26b4b3c3535c7e1d6643c0d435656abb7c3a2b388318f367a",
+      "bytes": 175200,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_130363/RA_LA_reversal.npz",
+      "sha256": "9919c2702d821b311036962bc8e77ffdd0c3d2064e29fcc55ed622eec2c6f8dd",
+      "bytes": 175181,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_130363/LA_LL_reversal.npz",
+      "sha256": "f0250444e759a009fb94dd86ef7da2434cea149fd47950a9582f13d4910ff179",
+      "bytes": 175228,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_155921/clean.npz",
+      "sha256": "be034c3d834365b0940a720647ab19ee29b4b39503767bfaa0ef31d189fb81bd",
+      "bytes": 174313,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_155921/RA_LL_reversal.npz",
+      "sha256": "7f0bcf462729a340f5293ed7d8d088e78d733ad43fd0bd221e6c3e81da87fc28",
+      "bytes": 174357,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_155921/RA_LA_reversal.npz",
+      "sha256": "b4a4de149dfb9a49ffe5b83033a9e3eafb688fd66721c6e4188f2d2f8be92d92",
+      "bytes": 174386,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/calibration_role_control_v1/predictions/HEEDB/Huang_full_pipeline/seed_155921/LA_LL_reversal.npz",
+      "sha256": "0c0826117ef46411c527b15bcc2132e42a8210f17bd620a7ff443c11023ff605",
+      "bytes": 174349,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/bootstrap_indices.npy",
+      "sha256": "6d186026b73c6a0ad31df3c20f16c6f18ad9970176e9c78b0235e6a64e1861d1",
+      "bytes": 27924128,
+      "role": "prediction_or_bootstrap_index"
+    },
+    {
+      "path": "outputs/heedb_four_arm_extension_v1/HEEDB_BOOTSTRAP_INDICES.npy",
+      "sha256": "cd4c8f9d8254a0e120e97cc02056cf8f3421a23feb47d401129139fa2286a4c7",
+      "bytes": 80000128,
+      "role": "prediction_or_bootstrap_index"
+    }
+  ],
+  "new_outputs_count_excluding_manifest": 29,
+  "new_outputs": [
+    {
+      "path": "outputs/calibration_role_control_completion_v2/ACTIVE_PLAN_CONTEXT_SNAPSHOT.md",
+      "sha256": "ed871bf23a094a728f0f3a50ef6920b46aa143db0f1678a294293d21e7e071f2",
+      "bytes": 13890,
+      "role": "frozen_context_snapshot"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/AMENDMENT_001.md",
+      "sha256": "2efb7f3f408a21d8714d124f4d3932cfd70d25e7c94dbe38b18eaf216722a499",
+      "bytes": 582,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/BOOTSTRAP_COVERAGE_700.csv",
+      "sha256": "0c36e22e2fe352608ee8003aa1287acc28b73c08c3e3658a58e61499230bec2e",
+      "bytes": 111402,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/BOOTSTRAP_COVERAGE_AUDIT.json",
+      "sha256": "d69b6c357daf0063f9feb40be4d5170884d62c63f6875777114045b76c2d6a02",
+      "bytes": 1450,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/complete_bootstrap.py",
+      "sha256": "907ee7eed60f5f128264095275e6aa2643bd73543dafde266cb342130de331a2",
+      "bytes": 21371,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/COMPLETION_PROTOCOL.json",
+      "sha256": "fd86abdb3a3ab9e762a9245a369f521c4759f3c1cec0f1c5dc6c899ad7b2aece",
+      "bytes": 3711,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/COMPLETION_PROTOCOL_AMENDMENT_001.json",
+      "sha256": "a9e6a8fb7ce1e3293008ba9130a7f6757e451c896d85b791c205f84d1eba5e6f",
+      "bytes": 769,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/COMPLETION_PROTOCOL_SHA256.txt",
+      "sha256": "de900eec9451999498853ca4f4992adb35f7c15d4080baf55e056932367622ac",
+      "bytes": 92,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/CURRENT_PLAN_STATUS_RU.md",
+      "sha256": "2b09d171a1aec8a1b4c24866cd6b4accbeab335c2f3412a8fdf07a84bed1b6a9",
+      "bytes": 3818,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/FAILED_ATTEMPT_001.json",
+      "sha256": "070f0bfc622b7b9ff66b5e909fb9219b18ee5518d882e5fb7fe1e7c5a47d191c",
+      "bytes": 988,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/FINAL_REPORT_RU.md",
+      "sha256": "bf78f3c23a9668aa07c43f2d14695f1e29753d5881c99467ab8678dc4726105b",
+      "bytes": 8355,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/finalize_package.py",
+      "sha256": "430b1757047d1badb9d63e32edbe804e83fe5c7634181d4b20cc72b9d9bc6dcc",
+      "bytes": 36619,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/HEEDB_PAIRED_DRAWS_700.npz",
+      "sha256": "a403e45ac5e4103550f72c062bd8a851ef8e7df27d17cecfdb1cdd2d8dbd6875",
+      "bytes": 2477498,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/INITIALIZATION_PROVENANCE_NOTE_RU.md",
+      "sha256": "44f2e97f5ce814faed1a1c4402f782b520d339f72a8797988b34c95a783235ba",
+      "bytes": 2552,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/KEY_RESULTS_TABLES_RU.md",
+      "sha256": "5a47cda0097232596856224aa62e2e7f545b1c6e4113606f466562c3b01f1f19",
+      "bytes": 9517,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/LOCK_CHRONOLOGY_RU.md",
+      "sha256": "d81e8b23fe6949829bd08ca5746a660bd459e5284551cb7958f21c6be5ecbcee",
+      "bytes": 3374,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/NEW_GROUP_SKLEARN_CHECKS.csv",
+      "sha256": "fa43590222872440beb1ac94d9904b881f1fd1ca1fdf77dfc2fcc88636b8c9db",
+      "bytes": 67179,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/Ningbo_test_PAIRED_DRAWS_700.npz",
+      "sha256": "acb77b1ace67287a8202c4b8c18aa09626597964cc319c3e8f037563f5cfb6bd",
+      "bytes": 2564498,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/NUMERICAL_VERIFICATION.json",
+      "sha256": "1551ae430cf7aa760434d4f13fd79379f9ec258b2ece8d73271f8cadcd968d90",
+      "bytes": 1118,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/PAIRED_BOOTSTRAP_DRAWS_ALL_700.npz",
+      "sha256": "a455c168f5999e6cc5e5c8da74795e8ae16a99dc53815eca77469c56d3fa4627",
+      "bytes": 5041974,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/PAIRED_CI_KEY_Q.csv",
+      "sha256": "07cc7939e69e84e90dfbb0076726fe5f98f9e48dd508d24f1abe93d6cdefca31",
+      "bytes": 68600,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/PAIRED_POINTS_CI_ALL_700.csv",
+      "sha256": "1f0859d2aaf64ce96ae1b27000b668dff8a7bf94970ea84622292f1a27d8a9af",
+      "bytes": 120650,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/REPORT_UTF8_AUDIT.json",
+      "sha256": "43f01bf0c5f0b105251b22ed1e8d2519137883188ed006df735d4d51e746ab01",
+      "bytes": 1097,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/RESULTS_KEY_Q_TABLE.csv",
+      "sha256": "d147bee653984796d2dd784080711e4acaab27719f671197a0a8081304c597c2",
+      "bytes": 18061,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/SOURCE_BINDINGS.json",
+      "sha256": "69d10f945418df3d31c5027fb53b7c577268e1ae7d2ee9e49d5a1daa13711973",
+      "bytes": 35024,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/STATUS.md",
+      "sha256": "6ee5f46eab5edd4d06830cd9b2d12f64f9a1a81d062c4b5311c76fb734293f66",
+      "bytes": 1114,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/TRAINING_REPORT_RU.md",
+      "sha256": "2f9c8b7f35459b59093285a523b708a03f10b74c815f1f3bb86c20cace17279a",
+      "bytes": 3441,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/TWA_POINT_RECALCULATION.csv",
+      "sha256": "e32e80617e98533bb5b26851508767bcec7f78b17fec8e14a7333aa05898808f",
+      "bytes": 214912,
+      "role": "new_analysis_output"
+    },
+    {
+      "path": "outputs/calibration_role_control_completion_v2/UNCHANGED_ARTIFACTS_AUDIT.json",
+      "sha256": "bd456fc61cd6534a87235aaa15cd0701a0fb4962bfc0297aa57079f9c22eb351",
+      "bytes": 5623,
+      "role": "new_analysis_output"
+    }
+  ],
+  "source_plan_note": "The accepted plan was copied before updating its current status. That snapshot is context only and is not a model/data input."
+}

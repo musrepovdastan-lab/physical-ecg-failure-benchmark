@@ -1,0 +1,326 @@
+{
+  "ambiguous_code_overlap": {
+    "ambiguous_any": 837,
+    "ambiguous_core_negative": 627,
+    "core_without_strict_1140": 754,
+    "mixed_st_t_1141": 263,
+    "other_suggestive_1142_or_1182": 38,
+    "serial_or_fragment_1200_to_1224": 586
+  },
+  "baseline_checkpoint_snomed_order": [
+    "164934002",
+    "426177001",
+    "427084000"
+  ],
+  "hash_checks": {
+    "baseline_104729_checkpoint_matches": true,
+    "baseline_104729_preprocessing_matches": true,
+    "baseline_104729_validation_matches": true,
+    "baseline_130363_checkpoint_matches": true,
+    "baseline_130363_preprocessing_matches": true,
+    "baseline_130363_validation_matches": true,
+    "baseline_155921_checkpoint_matches": true,
+    "baseline_155921_preprocessing_matches": true,
+    "baseline_155921_validation_matches": true,
+    "final_selection_matches": true,
+    "physics_aware_104729_checkpoint_matches": true,
+    "physics_aware_104729_preprocessing_matches": true,
+    "physics_aware_104729_validation_matches": true,
+    "physics_aware_130363_checkpoint_matches": true,
+    "physics_aware_130363_preprocessing_matches": true,
+    "physics_aware_130363_validation_matches": true,
+    "physics_aware_155921_checkpoint_matches": true,
+    "physics_aware_155921_preprocessing_matches": true,
+    "physics_aware_155921_validation_matches": true,
+    "physics_source_matches": true,
+    "prediction_cache_matches": true,
+    "protocol_matches": true,
+    "v1_evaluator_source_matches": true
+  },
+  "m2_validation_labels_match_baseline_by_seed": {
+    "104729": true,
+    "130363": true,
+    "155921": true
+  },
+  "maximum_absolute_frozen_primary_contrast_difference": 9.71445146547012e-17,
+  "maximum_absolute_frozen_seed_metric_difference": 9.540979117872439e-17,
+  "model_channel_order": [
+    "TWA",
+    "SB",
+    "STach"
+  ],
+  "primary_reconstruction": {
+    "auprc:baseline_clean_minus_ra_ll": -0.003642225631249519,
+    "auprc:physics_aware_clean_minus_ra_ll": -0.005215137566801244,
+    "auprc:physics_aware_minus_baseline_clean": -0.013882847721100697,
+    "auprc:physics_aware_minus_baseline_ra_ll": -0.012309935785548972,
+    "sensitivity_at_frozen_threshold:baseline_clean_minus_ra_ll": 0.05839895013123359,
+    "sensitivity_at_frozen_threshold:physics_aware_clean_minus_ra_ll": 0.004811898512685914,
+    "sensitivity_at_frozen_threshold:physics_aware_minus_baseline_clean": -0.06583552055993001,
+    "sensitivity_at_frozen_threshold:physics_aware_minus_baseline_ra_ll": -0.012248468941382326
+  },
+  "rate_counts": {
+    "250": 506,
+    "500": 9494
+  },
+  "recomputed_label_counts": {
+    "core_SB": {
+      "column_mismatches": 0,
+      "positive": 1665
+    },
+    "core_STach": {
+      "column_mismatches": 0,
+      "positive": 673
+    },
+    "core_TWA": {
+      "column_mismatches": 0,
+      "positive": 1524
+    },
+    "strict_SB": {
+      "column_mismatches": 0,
+      "positive": 1448
+    },
+    "strict_TWA": {
+      "column_mismatches": 0,
+      "positive": 770
+    }
+  },
+  "reversal_difference_by_lead": {
+    "I": {
+      "max_abs_difference_uv": 3.0517578125e-05,
+      "p99_abs_difference_uv": 0.0
+    },
+    "II": {
+      "max_abs_difference_uv": 0.0,
+      "p99_abs_difference_uv": 0.0
+    },
+    "III": {
+      "max_abs_difference_uv": 0.0,
+      "p99_abs_difference_uv": 0.0
+    },
+    "V1": {
+      "max_abs_difference_uv": 5.684341886080802e-14,
+      "p99_abs_difference_uv": 1.4210854715202004e-14
+    },
+    "V2": {
+      "max_abs_difference_uv": 1.1368683772161603e-13,
+      "p99_abs_difference_uv": 2.842170943040401e-14
+    },
+    "V3": {
+      "max_abs_difference_uv": 1.1368683772161603e-13,
+      "p99_abs_difference_uv": 2.842170943040401e-14
+    },
+    "V4": {
+      "max_abs_difference_uv": 2.2737367544323206e-13,
+      "p99_abs_difference_uv": 2.842170943040401e-14
+    },
+    "V5": {
+      "max_abs_difference_uv": 2.2737367544323206e-13,
+      "p99_abs_difference_uv": 2.842170943040401e-14
+    },
+    "V6": {
+      "max_abs_difference_uv": 2.2737367544323206e-13,
+      "p99_abs_difference_uv": 2.842170943040401e-14
+    },
+    "aVF": {
+      "max_abs_difference_uv": 1634.5,
+      "p99_abs_difference_uv": 541.5049999999992
+    },
+    "aVL": {
+      "max_abs_difference_uv": 3.0517578125e-05,
+      "p99_abs_difference_uv": 0.0
+    },
+    "aVR": {
+      "max_abs_difference_uv": 946.5,
+      "p99_abs_difference_uv": 400.0
+    }
+  },
+  "reversal_max_abs_difference_from_frozen_physics_uv": 1634.5,
+  "selection_patients": 10000,
+  "unit_checks": [
+    {
+      "adc_baselines": [
+        0
+      ],
+      "adc_gains_per_millivolt": [
+        1000.0
+      ],
+      "canonical_lead_order": true,
+      "max_abs_digital_minus_physical_times_1000": 2.2737367544323206e-13,
+      "max_abs_rebuilt_minus_cached_uv": 0.0,
+      "rate_hz": 250,
+      "records_checked": 20,
+      "sampling_frequencies": [
+        250.0
+      ]
+    },
+    {
+      "adc_baselines": [
+        0
+      ],
+      "adc_gains_per_millivolt": [
+        1000.0
+      ],
+      "canonical_lead_order": true,
+      "max_abs_digital_minus_physical_times_1000": 4.547473508864641e-13,
+      "max_abs_rebuilt_minus_cached_uv": 0.0,
+      "rate_hz": 500,
+      "records_checked": 20,
+      "sampling_frequencies": [
+        500.0
+      ]
+    }
+  ],
+  "waveform_comparison": {
+    "heedb_corrected_v2_proposed_input_length": 1000,
+    "heedb_selected_256_after_matched_decimation": {
+      "einthoven_abs_residual_p99_uv": 1.0005111694335938,
+      "lead_stats": {
+        "I": {
+          "normalized_abs_p95": 1.759866714477539,
+          "normalized_mean": -0.043202925473451614,
+          "normalized_std": 0.9794762134552002,
+          "raw_abs_p50_uv": 49.0,
+          "raw_abs_p95_uv": 253.71728515625,
+          "raw_abs_p99_uv": 639.0
+        },
+        "II": {
+          "normalized_abs_p95": 1.8214257955551147,
+          "normalized_mean": -0.03166171535849571,
+          "normalized_std": 0.9568238258361816,
+          "raw_abs_p50_uv": 63.0,
+          "raw_abs_p95_uv": 327.0,
+          "raw_abs_p99_uv": 727.0
+        },
+        "V1": {
+          "normalized_abs_p95": 1.5986568927764893,
+          "normalized_mean": -0.014774773269891739,
+          "normalized_std": 0.8241979479789734,
+          "raw_abs_p50_uv": 44.0,
+          "raw_abs_p95_uv": 361.0,
+          "raw_abs_p99_uv": 854.0
+        },
+        "V3": {
+          "normalized_abs_p95": 1.2455847263336182,
+          "normalized_mean": -0.019067294895648956,
+          "normalized_std": 0.6303737759590149,
+          "raw_abs_p50_uv": 59.0,
+          "raw_abs_p95_uv": 478.0,
+          "raw_abs_p99_uv": 1069.0
+        },
+        "V6": {
+          "normalized_abs_p95": 0.771567165851593,
+          "normalized_mean": -0.004581657703965902,
+          "normalized_std": 0.41061750054359436,
+          "raw_abs_p50_uv": 54.0,
+          "raw_abs_p95_uv": 346.0,
+          "raw_abs_p99_uv": 839.0
+        }
+      },
+      "record_median_abs_uv_q50": 47.5,
+      "record_rms_uv_q50": 153.2791748046875,
+      "records": 256,
+      "samples_per_record": 1000
+    },
+    "heedb_selected_256_as_v1_input": {
+      "einthoven_abs_residual_p99_uv": 1.0005111694335938,
+      "lead_stats": {
+        "I": {
+          "normalized_abs_p95": 1.746640682220459,
+          "normalized_mean": -0.043312713503837585,
+          "normalized_std": 0.9798766374588013,
+          "raw_abs_p50_uv": 49.0,
+          "raw_abs_p95_uv": 249.0,
+          "raw_abs_p99_uv": 639.0
+        },
+        "II": {
+          "normalized_abs_p95": 1.8214257955551147,
+          "normalized_mean": -0.03163643181324005,
+          "normalized_std": 0.9571260213851929,
+          "raw_abs_p50_uv": 63.0,
+          "raw_abs_p95_uv": 327.0,
+          "raw_abs_p99_uv": 727.0
+        },
+        "V1": {
+          "normalized_abs_p95": 1.5815480947494507,
+          "normalized_mean": -0.014827278442680836,
+          "normalized_std": 0.8243844509124756,
+          "raw_abs_p50_uv": 44.0,
+          "raw_abs_p95_uv": 356.0,
+          "raw_abs_p99_uv": 859.0
+        },
+        "V3": {
+          "normalized_abs_p95": 1.2455847263336182,
+          "normalized_mean": -0.01907464489340782,
+          "normalized_std": 0.6303256154060364,
+          "raw_abs_p50_uv": 59.0,
+          "raw_abs_p95_uv": 473.2447509765625,
+          "raw_abs_p99_uv": 1069.0
+        },
+        "V6": {
+          "normalized_abs_p95": 0.7705649733543396,
+          "normalized_mean": -0.004563495516777039,
+          "normalized_std": 0.41082051396369934,
+          "raw_abs_p50_uv": 54.0,
+          "raw_abs_p95_uv": 346.0,
+          "raw_abs_p99_uv": 844.0
+        }
+      },
+      "record_median_abs_uv_q50": 46.0,
+      "record_rms_uv_q50": 153.1395263671875,
+      "records": 256,
+      "samples_per_record": 5000
+    },
+    "heedb_v1_model_input_length": 5000,
+    "ningbo_train_256": {
+      "einthoven_abs_residual_p99_uv": 1.0,
+      "lead_stats": {
+        "I": {
+          "normalized_abs_p95": 1.8574631214141846,
+          "normalized_mean": 0.0032624502200633287,
+          "normalized_std": 1.03272545337677,
+          "raw_abs_p50_uv": 44.0,
+          "raw_abs_p95_uv": 268.0,
+          "raw_abs_p99_uv": 615.0
+        },
+        "II": {
+          "normalized_abs_p95": 1.5933877229690552,
+          "normalized_mean": -0.0007596419891342521,
+          "normalized_std": 0.9441643953323364,
+          "raw_abs_p50_uv": 54.0,
+          "raw_abs_p95_uv": 288.0,
+          "raw_abs_p99_uv": 756.0
+        },
+        "V1": {
+          "normalized_abs_p95": 1.6208339929580688,
+          "normalized_mean": 0.011548114009201527,
+          "normalized_std": 0.9242384433746338,
+          "raw_abs_p50_uv": 49.0,
+          "raw_abs_p95_uv": 366.0,
+          "raw_abs_p99_uv": 893.0
+        },
+        "V3": {
+          "normalized_abs_p95": 1.7463860511779785,
+          "normalized_mean": 0.003935652785003185,
+          "normalized_std": 0.9338528513908386,
+          "raw_abs_p50_uv": 88.0,
+          "raw_abs_p95_uv": 664.0,
+          "raw_abs_p99_uv": 1479.0
+        },
+        "V6": {
+          "normalized_abs_p95": 1.1972135305404663,
+          "normalized_mean": 0.02160622738301754,
+          "normalized_std": 0.9952202439308167,
+          "raw_abs_p50_uv": 73.0,
+          "raw_abs_p95_uv": 537.0,
+          "raw_abs_p99_uv": 1488.0
+        }
+      },
+      "record_median_abs_uv_q50": 54.0,
+      "record_rms_uv_q50": 205.57025146484375,
+      "records": 256,
+      "samples_per_record": 1000
+    },
+    "ningbo_train_model_input_length": 1000
+  }
+}

@@ -1,0 +1,5 @@
+source,condition,true_detector_class,n,detector_argmax_correct,detector_argmax_incorrect,correction_applied_fraction,clean_false_correction_count
+HEEDB,clean,0,10000,9701,299,0.0299,299
+HEEDB,RA_LL_reversal,2,10000,9919,81,0.9983,
+HEEDB,RA_LA_reversal,1,10000,9862,138,0.9902,
+HEEDB,LA_LL_reversal,3,10000,9525,475,0.9581,

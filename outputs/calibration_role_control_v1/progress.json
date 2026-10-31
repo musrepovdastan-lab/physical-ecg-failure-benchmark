@@ -1,0 +1,11 @@
+{
+  "best_auprc": 0.6753172023284273,
+  "best_epoch": 19,
+  "epoch": 24,
+  "method": "combined",
+  "patience": 5,
+  "seconds": 534.170999999973,
+  "seed": 155921,
+  "stage": "TRAINING",
+  "utc": "2026-10-19T19:22:22.276989+00:00"
+}

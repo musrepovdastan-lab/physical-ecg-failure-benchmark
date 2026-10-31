@@ -1,0 +1,72 @@
+{
+  "artifacts": {
+    "BOOTSTRAP_SUMMARY.csv": {
+      "bytes": 12882,
+      "sha256": "29ba2cffa5c6ce210a3de3816eef130db4a3cc2ee5dab405b5e49f86bf40cd26"
+    },
+    "COMPARATOR_AUDIT.json": {
+      "bytes": 11624,
+      "sha256": "427195c426982f933db897beb136c6e41e7485723d77d5a48d0c893335ee76b9"
+    },
+    "ENGINEERING_PREFLIGHT.json": {
+      "bytes": 473,
+      "sha256": "6cfc0496cb91ff79556ec0b34bea8227dc83cc0d232c1688e92772a9922f67b9"
+    },
+    "ENGINEERING_TEST_REPORT.md": {
+      "sha256": "fda17977be8c5b1f29ffbf864c3b69c274833de2561c471d39b42c65472e1bc2",
+      "bytes": 870
+    },
+    "EVALUATION_CORRECTION_AMENDMENT_001.json": {
+      "bytes": 2407,
+      "sha256": "98237bc872da20b71d82bc5bf37aa1a50f105cc2a7815a7aa5336892106f54e8"
+    },
+    "FINAL_CHEST_ONLY_REPORT.md": {
+      "sha256": "87825ffdb1cd18b54ed0ebaf2f6114b6a4fd796d0343e6585e493c7ce109a417",
+      "bytes": 12338
+    },
+    "FROZEN_CHEST_ONLY_PROTOCOL.json": {
+      "bytes": 17802,
+      "sha256": "dd5d0a6b3747699c5308b798741c6486eb31dad84422750fd498e5b5efc6bcc2"
+    },
+    "FROZEN_PROTOCOL_HASH.json": {
+      "bytes": 218,
+      "sha256": "ba35a001883f5913f74f861680e3c53b3c0fe128d69116f9e238c18359349cc8"
+    },
+    "INITIAL_EVALUATION_INCIDENT.json": {
+      "bytes": 677,
+      "sha256": "b72ee577ce8523a467ef271136fe98368011b2b7e3d8d93e601eadd046bd4e0f"
+    },
+    "PAIRED_CONTRASTS.csv": {
+      "bytes": 9916,
+      "sha256": "6b66a3389d56fcd6b144f29e219720f7755cba1493d4ed560d8c8a52e812722e"
+    },
+    "RESULTS_BY_DATASET_MODEL_SEED.csv": {
+      "bytes": 58311,
+      "sha256": "e899d9f91898e0ff395c4a4844dd469ecdf3d51438dcf088e1794df1ce22ccd6"
+    },
+    "TRAINING_STATUS_BY_DATASET_SEED.csv": {
+      "bytes": 3021,
+      "sha256": "3a5016f05833d3d96c8163b42473abff46c172e4cbd41f739e8a61e99171749d"
+    },
+    "frozen_source/chest_only_baseline_v1_pre_eval.py": {
+      "bytes": 53285,
+      "sha256": "4716322bc817867f4862626172a59dc65b17a18811679e66fc1378de836e0760"
+    },
+    "twa_primary_comparisons.png": {
+      "bytes": 68622,
+      "sha256": "71748336322604468fa4f79be2dcf0088c8ce7299aca196e7e022400f2d28a42"
+    },
+    "SAVED_COMPARATOR_REPLAY_AUDIT.json": {
+      "sha256": "016ecbe99cb7ca14d4eb60f4f8ea5a0acb2b2116600512e7a5049f382085320a",
+      "bytes": 15249
+    }
+  },
+  "completed_utc": "2026-10-17T06:52:53.618896+00:00",
+  "corrected_evaluator_source_sha256": "9651d7bb2e2fef5d02a8f694de8dfa9c14f198f97c879cb29eb1716db482bcdf",
+  "protocol_sha256": "dd5d0a6b3747699c5308b798741c6486eb31dad84422750fd498e5b5efc6bcc2",
+  "source_sha256": {
+    "src/chest_only_baseline_v1.py": "9651d7bb2e2fef5d02a8f694de8dfa9c14f198f97c879cb29eb1716db482bcdf",
+    "src/chest_only_baseline_v1_resume.py": "6c63ba3627bd972861ce30337d1dfbf3de5d49c83bf37009357486b64b2dde46",
+    "src/chest_only_baseline_v1_cache_replay.py": "1d9e4008d16b69a83812c2d55b9119aea3b519a8a5dfd15259d1c2ece4cd6b5a"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "allocation_by_3bit_stratum": {
+    "000": {
+      "test": 758,
+      "train": 2653,
+      "validation": 379
+    },
+    "001": {
+      "test": 256,
+      "train": 896,
+      "validation": 128
+    },
+    "010": {
+      "test": 659,
+      "train": 2302,
+      "validation": 328
+    },
+    "011": {
+      "test": 0,
+      "train": 0,
+      "validation": 0
+    },
+    "100": {
+      "test": 198,
+      "train": 693,
+      "validation": 99
+    },
+    "101": {
+      "test": 58,
+      "train": 200,
+      "validation": 28
+    },
+    "110": {
+      "test": 121,
+      "train": 419,
+      "validation": 59
+    },
+    "111": {
+      "test": 0,
+      "train": 0,
+      "validation": 0
+    }
+  },
+  "canonical_analytical_records": 10234,
+  "duplicate_exports_excluded": 13,
+  "membership_sha256": "327826f4755d1c1622d42a7dfe471b28eeb7f4a6b0bfcee3b7596f70396ef0f6",
+  "record_id_overlap": false,
+  "records": 10234,
+  "seed": 20260828,
+  "source_records": 10247,
+  "split_counts": {
+    "test": 2050,
+    "train": 7163,
+    "validation": 1021
+  },
+  "version": "v4",
+  "waveform_hash_overlap": false
+}

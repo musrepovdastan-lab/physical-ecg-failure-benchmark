@@ -1,0 +1,106 @@
+{
+  "old_v1_package_unchanged": true,
+  "protocol_file_sha256": "0013abb0aea4c95123aeaa66eaf66b44cab37a41ab77833970be42b0b0f3b2cd",
+  "required_regions": {
+    "HEEDB_all_RA_LL_only": "PASS",
+    "HEEDB_physics_and_combined_vs_ordinary_all_equal_mixture_q": "PASS",
+    "HEEDB_q0_both_views": "PASS",
+    "Ningbo_all_views_methods_seeds_draws": "PASS",
+    "affected_Huang_equal_three_HEEDB_q_positive": "RECOMPUTED",
+    "historical_RA_LL_anchor_rows": 1008,
+    "required_contrast_rows": 610
+  },
+  "status": "PASS",
+  "unchanged_results": {
+    "CONDITION_METRICS_BY_SEED.csv": {
+      "compared_unchanged_rows": 540,
+      "max_abs_delta_by_field": {
+        "AP": 0.0,
+        "AUROC": 0.0,
+        "Brier": 0.0,
+        "ECE15": 0.0,
+        "FN": 0.0,
+        "FN_per_1000": 0.0,
+        "FP": 0.0,
+        "FP_per_1000": 0.0,
+        "TN": 0.0,
+        "TP": 0.0,
+        "predicted_positive_fraction": 0.0,
+        "sensitivity": 0.0,
+        "specificity": 0.0,
+        "threshold": 0.0
+      },
+      "status": "PASS"
+    },
+    "MIXTURE_METRICS_BY_SEED.csv": {
+      "compared_unchanged_rows": 1908,
+      "max_abs_delta_by_field": {
+        "AP": 0.0,
+        "AUROC": 0.0,
+        "Brier": 0.0,
+        "ECE15": 0.0,
+        "FN": 0.0,
+        "FN_per_1000": 0.0,
+        "FP": 0.0,
+        "FP_per_1000": 0.0,
+        "TN": 0.0,
+        "TP": 0.0,
+        "predicted_positive_fraction": 0.0,
+        "sensitivity": 0.0,
+        "specificity": 0.0,
+        "threshold": 0.0
+      },
+      "status": "PASS"
+    },
+    "MIXTURE_METRICS_MEAN_SD.csv": {
+      "compared_unchanged_rows": 636,
+      "max_abs_delta_by_field": {
+        "AP_mean": 0.0,
+        "AP_std": 0.0,
+        "AUROC_mean": 0.0,
+        "AUROC_std": 0.0,
+        "Brier_mean": 0.0,
+        "Brier_std": 0.0,
+        "ECE15_mean": 0.0,
+        "ECE15_std": 0.0,
+        "FN_per_1000_mean": 0.0,
+        "FN_per_1000_std": 0.0,
+        "FP_per_1000_mean": 0.0,
+        "FP_per_1000_std": 0.0,
+        "predicted_positive_fraction_mean": 0.0,
+        "predicted_positive_fraction_std": 0.0,
+        "sensitivity_mean": 0.0,
+        "sensitivity_std": 0.0,
+        "specificity_mean": 0.0,
+        "specificity_std": 0.0
+      },
+      "status": "PASS"
+    },
+    "PAIRED_BOOTSTRAP_DRAWS.npz": {
+      "draws_per_key": 1000,
+      "max_abs_delta": 3.3306690738754696e-16,
+      "status": "PASS",
+      "unchanged_draw_keys": 610
+    },
+    "PAIRED_CONTRASTS_POINT_AND_CI.csv": {
+      "compared_unchanged_rows": 610,
+      "max_abs_delta_by_field": {
+        "bootstrap_mean_difference": 1.0061396160665481e-16,
+        "ci_2_5": 2.0036056147532122e-16,
+        "ci_97_5": 1.97758476261356e-16,
+        "full_sample_difference": 0.0,
+        "replicates": 0.0
+      },
+      "status": "PASS"
+    },
+    "required_invariants": {
+      "HEEDB_all_RA_LL_only": "PASS",
+      "HEEDB_physics_and_combined_vs_ordinary_all_equal_mixture_q": "PASS",
+      "HEEDB_q0_both_views": "PASS",
+      "Ningbo_all_views_methods_seeds_draws": "PASS",
+      "affected_Huang_equal_three_HEEDB_q_positive": "RECOMPUTED",
+      "historical_RA_LL_anchor_rows": 1008,
+      "required_contrast_rows": 610
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "all_groups_finite": true,
+  "huang_historical_contrast_reused_HEEDB_and_filled_Ningbo": true,
+  "metrics": [
+    "auprc",
+    "auroc",
+    "brier",
+    "ece15",
+    "sensitivity",
+    "specificity",
+    "predicted_positive_fraction",
+    "false_positives_per_1000",
+    "false_negatives_per_1000"
+  ],
+  "modes": [
+    "raw",
+    "calibrated",
+    "raw_historical_threshold",
+    "raw_validation_B_90pct",
+    "calibrated_validation_B_90pct",
+    "raw_legacy_v1_Huang_historical"
+  ],
+  "new_huang_validation_B_and_calibrated_absolute_and_paired_metrics": true,
+  "replicate_file_sha256": "a589067419f6ee4a5f8d382360bd2db08c81a71d1a3879c5bc36394c244c68bc",
+  "replicates": 1000,
+  "retry_amendment_sha256": "14a522fe88b034e3ab16567d2cdc209fe41263b8641056fbfec5f24e4df709ac",
+  "rng_seed": 20261017,
+  "status": "PASS",
+  "summary_rows": 2709,
+  "verification": {
+    "max_abs_delta": 0.0,
+    "v1_absolute_groups_checked": 882000
+  }
+}

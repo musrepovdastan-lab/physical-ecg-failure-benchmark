@@ -1,0 +1,1554 @@
+{
+  "report_status": "COMPLETE",
+  "created_date": "2026-10-18",
+  "protocol_sha256": "8ca374850607497506bb702bed0633fa1a540749c0903043425023a85e85ff4c",
+  "amendment_sha256": "83f5a1915baad121c50d631d9445db51821dfac9d94fc30d2d4e824a9f25c92b",
+  "continuation_runner_sha256": "39ecdac719797f07e1ffdc5cf6ddb188b3901c197fa0c45435e06edaf108f85f",
+  "official_checkpoint_sha256": "ee199f3781f4ae1f732973267f003da0a759ea12bddb0dd28a77faa60aca7997",
+  "design": {
+    "cohorts": [
+      "Chapman",
+      "Ningbo"
+    ],
+    "modes": [
+      "clean_head",
+      "physics_head"
+    ],
+    "seeds": [
+      104729,
+      130363,
+      155921
+    ],
+    "heads_expected": 12,
+    "heads_complete": 12,
+    "test_conditions_per_cohort": 38,
+    "prediction_bundles_expected": 76,
+    "prediction_bundles_found": 76,
+    "metric_rows": 1368,
+    "paired_bootstrap_summaries": 44,
+    "reserved_test_evaluated": false
+  },
+  "runtime_seconds": {
+    "feature_preparation_event_time_approx": 7903.502,
+    "head_training_event_time": 126.567,
+    "analysis_event_time": 204.571,
+    "pipeline_recorded_total": 8249.1344263,
+    "gpu_active_time_measured": false
+  },
+  "gpu_memory": {
+    "training_peak_memory_measured": false,
+    "note": "No per-run CUDA peak memory fields were recorded in training_result.json; heads were not repeated to collect this metric."
+  },
+  "runs": [
+    {
+      "cohort": "Chapman",
+      "seed": 104729,
+      "mode": "clean_head",
+      "status": "COMPLETE",
+      "best_epoch": 6,
+      "last_epoch": 11,
+      "best_validation_twa_auprc": 0.7036552258391605,
+      "validation_twa_auroc": 0.912285107204945,
+      "validation_twa_accuracy": 0.8707149853085211,
+      "validation_twa_balanced_accuracy": 0.8206683407378791,
+      "validation_twa_macro_f1": 0.797843617251062,
+      "twa_threshold": 0.7404179573059082,
+      "stop_reason": "early_stopping_patience_5",
+      "training_elapsed_seconds": 3.653158299974166,
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_note": "not instrumented in the saved per-run training artifacts",
+      "checkpoint_path": "outputs/ecgfounder_mitigation_v1/heads/chapman/seed_104729/clean_head/best.pt",
+      "checkpoint_sha256": "856831e9e9e83ffb1a0696bba7453025c02b6aa60b63da4b37d2a6c19aa1583f",
+      "initial_state_sha256": "eb82b21aaf1568264e02cdee75cb52d2661a4bf0cf5e1a816edaaee3976a6615",
+      "scaler_sha256": "69dc0aa674193c05fa7ccadfc014c19b427e04153e4c2232ecac4d44c91cc61c"
+    },
+    {
+      "cohort": "Chapman",
+      "seed": 104729,
+      "mode": "physics_head",
+      "status": "COMPLETE",
+      "best_epoch": 6,
+      "last_epoch": 11,
+      "best_validation_twa_auprc": 0.7023320416167174,
+      "validation_twa_auroc": 0.9048161741034062,
+      "validation_twa_accuracy": 0.8736532810969637,
+      "validation_twa_balanced_accuracy": 0.8287328568669113,
+      "validation_twa_macro_f1": 0.803519402811405,
+      "twa_threshold": 0.7570633888244629,
+      "stop_reason": "early_stopping_patience_5",
+      "training_elapsed_seconds": 3.379201700037811,
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_note": "not instrumented in the saved per-run training artifacts",
+      "checkpoint_path": "outputs/ecgfounder_mitigation_v1/heads/chapman/seed_104729/physics_head/best.pt",
+      "checkpoint_sha256": "49b42d8d4d47cefdc3bc38b880b8b0ff2f27534f9daac769905dbc6f6bd87713",
+      "initial_state_sha256": "eb82b21aaf1568264e02cdee75cb52d2661a4bf0cf5e1a816edaaee3976a6615",
+      "scaler_sha256": "69dc0aa674193c05fa7ccadfc014c19b427e04153e4c2232ecac4d44c91cc61c"
+    },
+    {
+      "cohort": "Chapman",
+      "seed": 130363,
+      "mode": "clean_head",
+      "status": "COMPLETE",
+      "best_epoch": 7,
+      "last_epoch": 12,
+      "best_validation_twa_auprc": 0.6928954957772656,
+      "validation_twa_auroc": 0.9126006052411306,
+      "validation_twa_accuracy": 0.8658178256611165,
+      "validation_twa_balanced_accuracy": 0.8072274805228253,
+      "validation_twa_macro_f1": 0.7882310372026761,
+      "twa_threshold": 0.7500927448272705,
+      "stop_reason": "early_stopping_patience_5",
+      "training_elapsed_seconds": 3.243833300017286,
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_note": "not instrumented in the saved per-run training artifacts",
+      "checkpoint_path": "outputs/ecgfounder_mitigation_v1/heads/chapman/seed_130363/clean_head/best.pt",
+      "checkpoint_sha256": "75a95d437ebe0cbf12e918c9627b1618a43af1cc95c5e33dfc58dbfcc711c123",
+      "initial_state_sha256": "5395411c0afe396054449ee550357206e02bcc2a4624e208f4de0141e222cc7f",
+      "scaler_sha256": "69dc0aa674193c05fa7ccadfc014c19b427e04153e4c2232ecac4d44c91cc61c"
+    },
+    {
+      "cohort": "Chapman",
+      "seed": 130363,
+      "mode": "physics_head",
+      "status": "COMPLETE",
+      "best_epoch": 7,
+      "last_epoch": 12,
+      "best_validation_twa_auprc": 0.6851892381169229,
+      "validation_twa_auroc": 0.9040048934389285,
+      "validation_twa_accuracy": 0.871694417238002,
+      "validation_twa_balanced_accuracy": 0.8233565127808898,
+      "validation_twa_macro_f1": 0.7997430741566439,
+      "twa_threshold": 0.7540187835693359,
+      "stop_reason": "early_stopping_patience_5",
+      "training_elapsed_seconds": 3.715448400005698,
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_note": "not instrumented in the saved per-run training artifacts",
+      "checkpoint_path": "outputs/ecgfounder_mitigation_v1/heads/chapman/seed_130363/physics_head/best.pt",
+      "checkpoint_sha256": "9a1f42e45e25079a83e60c476a8681d78d2675085a7f72da74226ad5aa9d5698",
+      "initial_state_sha256": "5395411c0afe396054449ee550357206e02bcc2a4624e208f4de0141e222cc7f",
+      "scaler_sha256": "69dc0aa674193c05fa7ccadfc014c19b427e04153e4c2232ecac4d44c91cc61c"
+    },
+    {
+      "cohort": "Chapman",
+      "seed": 155921,
+      "mode": "clean_head",
+      "status": "COMPLETE",
+      "best_epoch": 6,
+      "last_epoch": 11,
+      "best_validation_twa_auprc": 0.6995566815323769,
+      "validation_twa_auroc": 0.9121692099671626,
+      "validation_twa_accuracy": 0.8677766895200784,
+      "validation_twa_balanced_accuracy": 0.8126038246088468,
+      "validation_twa_macro_f1": 0.7920993687639992,
+      "twa_threshold": 0.7410846948623657,
+      "stop_reason": "early_stopping_patience_5",
+      "training_elapsed_seconds": 2.945607000030577,
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_note": "not instrumented in the saved per-run training artifacts",
+      "checkpoint_path": "outputs/ecgfounder_mitigation_v1/heads/chapman/seed_155921/clean_head/best.pt",
+      "checkpoint_sha256": "c4c58dd6f51fe39fa4dc34b3cb97ed58fc0c12f81fbf24e47b56700705b3f0a5",
+      "initial_state_sha256": "f442e1f9efddae4d29aab10caa1910d92b767030cfc26cae141edccdc9685ed8",
+      "scaler_sha256": "69dc0aa674193c05fa7ccadfc014c19b427e04153e4c2232ecac4d44c91cc61c"
+    },
+    {
+      "cohort": "Chapman",
+      "seed": 155921,
+      "mode": "physics_head",
+      "status": "COMPLETE",
+      "best_epoch": 8,
+      "last_epoch": 13,
+      "best_validation_twa_auprc": 0.6895092986066078,
+      "validation_twa_auroc": 0.9028459210611035,
+      "validation_twa_accuracy": 0.8677766895200784,
+      "validation_twa_balanced_accuracy": 0.8126038246088468,
+      "validation_twa_macro_f1": 0.7920993687639992,
+      "twa_threshold": 0.7517773509025574,
+      "stop_reason": "early_stopping_patience_5",
+      "training_elapsed_seconds": 3.9348785000038333,
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_note": "not instrumented in the saved per-run training artifacts",
+      "checkpoint_path": "outputs/ecgfounder_mitigation_v1/heads/chapman/seed_155921/physics_head/best.pt",
+      "checkpoint_sha256": "843778f2a35e717f86f85fc8ff8395ea6cdd5abef7c90f731de1f87b299e1a69",
+      "initial_state_sha256": "f442e1f9efddae4d29aab10caa1910d92b767030cfc26cae141edccdc9685ed8",
+      "scaler_sha256": "69dc0aa674193c05fa7ccadfc014c19b427e04153e4c2232ecac4d44c91cc61c"
+    },
+    {
+      "cohort": "Ningbo",
+      "seed": 104729,
+      "mode": "clean_head",
+      "status": "COMPLETE",
+      "best_epoch": 10,
+      "last_epoch": 15,
+      "best_validation_twa_auprc": 0.6030242254483901,
+      "validation_twa_auroc": 0.8960097212223649,
+      "validation_twa_accuracy": 0.8655389908256881,
+      "validation_twa_balanced_accuracy": 0.7841677360793765,
+      "validation_twa_macro_f1": 0.7573575294690535,
+      "twa_threshold": 0.761768102645874,
+      "stop_reason": "early_stopping_patience_5",
+      "training_elapsed_seconds": 12.268557500035968,
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_note": "not instrumented in the saved per-run training artifacts",
+      "checkpoint_path": "outputs/ecgfounder_mitigation_v1/heads/ningbo/seed_104729/clean_head/best.pt",
+      "checkpoint_sha256": "181f73769112b89ed4b6394b41564ca7f0985a488d5e060c157e314ecfd8fd6d",
+      "initial_state_sha256": "eb82b21aaf1568264e02cdee75cb52d2661a4bf0cf5e1a816edaaee3976a6615",
+      "scaler_sha256": "0528e97bbece28b96b1905835daf40ea3ba3b78058a714642934d2c05027c12c"
+    },
+    {
+      "cohort": "Ningbo",
+      "seed": 104729,
+      "mode": "physics_head",
+      "status": "COMPLETE",
+      "best_epoch": 14,
+      "last_epoch": 19,
+      "best_validation_twa_auprc": 0.5930733775345143,
+      "validation_twa_auroc": 0.8878420816509645,
+      "validation_twa_accuracy": 0.8638188073394495,
+      "validation_twa_balanced_accuracy": 0.7783537825910044,
+      "validation_twa_macro_f1": 0.7532290752986446,
+      "twa_threshold": 0.7257789969444275,
+      "stop_reason": "early_stopping_patience_5",
+      "training_elapsed_seconds": 17.649961399962194,
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_note": "not instrumented in the saved per-run training artifacts",
+      "checkpoint_path": "outputs/ecgfounder_mitigation_v1/heads/ningbo/seed_104729/physics_head/best.pt",
+      "checkpoint_sha256": "0786b16f8137064ea1d726107a912cbaa5de6a484efb00093924d02329318a37",
+      "initial_state_sha256": "eb82b21aaf1568264e02cdee75cb52d2661a4bf0cf5e1a816edaaee3976a6615",
+      "scaler_sha256": "0528e97bbece28b96b1905835daf40ea3ba3b78058a714642934d2c05027c12c"
+    },
+    {
+      "cohort": "Ningbo",
+      "seed": 130363,
+      "mode": "clean_head",
+      "status": "COMPLETE",
+      "best_epoch": 11,
+      "last_epoch": 16,
+      "best_validation_twa_auprc": 0.5971620525561904,
+      "validation_twa_auroc": 0.8951929898692708,
+      "validation_twa_accuracy": 0.8649655963302753,
+      "validation_twa_balanced_accuracy": 0.7822297515832525,
+      "validation_twa_macro_f1": 0.7559854813524022,
+      "twa_threshold": 0.7743343710899353,
+      "stop_reason": "early_stopping_patience_5",
+      "training_elapsed_seconds": 13.403585899970494,
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_note": "not instrumented in the saved per-run training artifacts",
+      "checkpoint_path": "outputs/ecgfounder_mitigation_v1/heads/ningbo/seed_130363/clean_head/best.pt",
+      "checkpoint_sha256": "76328a5fcb6bbff6b4143931e05573d047a54b1748a04a1a970d316bdf03da6c",
+      "initial_state_sha256": "5395411c0afe396054449ee550357206e02bcc2a4624e208f4de0141e222cc7f",
+      "scaler_sha256": "0528e97bbece28b96b1905835daf40ea3ba3b78058a714642934d2c05027c12c"
+    },
+    {
+      "cohort": "Ningbo",
+      "seed": 130363,
+      "mode": "physics_head",
+      "status": "COMPLETE",
+      "best_epoch": 17,
+      "last_epoch": 22,
+      "best_validation_twa_auprc": 0.5920102704470952,
+      "validation_twa_auroc": 0.8896496499629618,
+      "validation_twa_accuracy": 0.8623853211009175,
+      "validation_twa_balanced_accuracy": 0.7735088213506944,
+      "validation_twa_macro_f1": 0.749760258657592,
+      "twa_threshold": 0.7409687042236328,
+      "stop_reason": "early_stopping_patience_5",
+      "training_elapsed_seconds": 20.992651600041427,
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_note": "not instrumented in the saved per-run training artifacts",
+      "checkpoint_path": "outputs/ecgfounder_mitigation_v1/heads/ningbo/seed_130363/physics_head/best.pt",
+      "checkpoint_sha256": "6f68ae8064782e7320093e1c300fc56e53016f44ca5d3a36f4ee4f4025330d41",
+      "initial_state_sha256": "5395411c0afe396054449ee550357206e02bcc2a4624e208f4de0141e222cc7f",
+      "scaler_sha256": "0528e97bbece28b96b1905835daf40ea3ba3b78058a714642934d2c05027c12c"
+    },
+    {
+      "cohort": "Ningbo",
+      "seed": 155921,
+      "mode": "clean_head",
+      "status": "COMPLETE",
+      "best_epoch": 12,
+      "last_epoch": 17,
+      "best_validation_twa_auprc": 0.6054159587288162,
+      "validation_twa_auroc": 0.8951056110259059,
+      "validation_twa_accuracy": 0.8652522935779816,
+      "validation_twa_balanced_accuracy": 0.7831987438313145,
+      "validation_twa_macro_f1": 0.7566720160350434,
+      "twa_threshold": 0.7561008930206299,
+      "stop_reason": "early_stopping_patience_5",
+      "training_elapsed_seconds": 14.307004600006621,
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_note": "not instrumented in the saved per-run training artifacts",
+      "checkpoint_path": "outputs/ecgfounder_mitigation_v1/heads/ningbo/seed_155921/clean_head/best.pt",
+      "checkpoint_sha256": "79a1292f1d07f407e427bf0030cfd01eb191cb9c5dff838324d4fa6e5ad0736d",
+      "initial_state_sha256": "f442e1f9efddae4d29aab10caa1910d92b767030cfc26cae141edccdc9685ed8",
+      "scaler_sha256": "0528e97bbece28b96b1905835daf40ea3ba3b78058a714642934d2c05027c12c"
+    },
+    {
+      "cohort": "Ningbo",
+      "seed": 155921,
+      "mode": "physics_head",
+      "status": "COMPLETE",
+      "best_epoch": 9,
+      "last_epoch": 14,
+      "best_validation_twa_auprc": 0.5890173962013896,
+      "validation_twa_auroc": 0.8912889813974356,
+      "validation_twa_accuracy": 0.8632454128440367,
+      "validation_twa_balanced_accuracy": 0.7764157980948805,
+      "validation_twa_macro_f1": 0.7518446732268638,
+      "twa_threshold": 0.7689705491065979,
+      "stop_reason": "early_stopping_patience_5",
+      "training_elapsed_seconds": 13.16360780003015,
+      "gpu_peak_memory_bytes": null,
+      "gpu_memory_note": "not instrumented in the saved per-run training artifacts",
+      "checkpoint_path": "outputs/ecgfounder_mitigation_v1/heads/ningbo/seed_155921/physics_head/best.pt",
+      "checkpoint_sha256": "00518bb42d632f17036e0396fa4175611385e834a6ae741f7a05393f086ede6c",
+      "initial_state_sha256": "f442e1f9efddae4d29aab10caa1910d92b767030cfc26cae141edccdc9685ed8",
+      "scaler_sha256": "0528e97bbece28b96b1905835daf40ea3ba3b78058a714642934d2c05027c12c"
+    }
+  ],
+  "files_sha256": {
+    "FROZEN_PROTOCOL.json": "025292bb312e8668a34def6cc5e59fa02c8ffd75672d1fc1ced195f48b5dc45c",
+    "CONTINUATION_AMENDMENT.json": "30cce552bd4a5901052f51e7ddb61fc368669c37ec115f31aa901aa42345c787",
+    "CONTINUATION_VALIDATION_INPUT_BINDINGS.json": "8fec42d3bff43b80593d3a064843d059a92faff92cd6763b85f89d13b5226471",
+    "continue_mitigation.py": "39ecdac719797f07e1ffdc5cf6ddb188b3901c197fa0c45435e06edaf108f85f",
+    "run_mitigation.py": "2bf5aa9f87197fefd52b8b84b0ee6c125bd02f941e3d3a3fabd6db2b170e55f3",
+    "TEST_METRICS_BY_SEED.csv": "c97e7af6739f2729ec3d4e39cb057030877c0c2e06fd340c17b53b4c826c25da",
+    "TEST_METRICS_MEAN_SD.csv": "d7c817f6e0a919835969097b83755e50589f91a1deb5af12705604c277483f38",
+    "TEST_METRIC_DELTAS_FROM_CLEAN.csv": "1408f16e51bee32cb0179a1dca2bf94e4ae3db63030af5671948d24cb9a21282",
+    "TWA_PAIRED_BOOTSTRAP.csv": "136a259091c217848254f2054a0760d845e01f6ae01a04bbab76e373258da238",
+    "CONTINUATION_EVENTS.jsonl": "9e8e71598a729830326dd60976bd638da888c61263cc80d9c16069f0d56e460c",
+    "CONTINUATION_RUNTIME.json": "58dade12319a472ffb11e721859060e5da973edc7a1a72d629d23aa33ff4ce94",
+    "RESULTS_REPORT_RU.md": "5d83586377a8a8338ada043a7cad730785b479db890f91b4b54e6a689f008c7d",
+    "audits/MASK_OPTIMIZATION_TRAIN_VALIDATION.json": "5dc6e89547ef59dc88da4de0229ae21f5c668ef42fd1e0dedbad835dea061a22",
+    "audits/SCALER_PREDICTION_PATH.json": "7d39529dd67d6e09a00d4c569f76c12bc49193a7f3568e1da3ef2109dbeeef2f"
+  },
+  "prediction_bundles": [
+    {
+      "cohort": "Chapman",
+      "condition": "clean",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/clean.npz",
+      "prediction_sha256": "09e512401ec9e572f212821da2eb38064679a324ba493a6dc891f64c64838126",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/clean.meta.json",
+      "metadata_sha256": "43cbd9b6059f059d6c99b4575e3ded869457decfe69a281724fd3b28eb89effb"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_120",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/cycle_slots_120.npz",
+      "prediction_sha256": "0037050f6a2419252f71de8688a3251a082436fb5961a838465a0d4e05638c3c",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/cycle_slots_120.meta.json",
+      "metadata_sha256": "f916e7b4872c76102051b4e5e9edc58f561e5835000bb686c80eaf1d3db73dd8"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_201",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/cycle_slots_201.npz",
+      "prediction_sha256": "7adbfe75a178ac53f8c9e8d4f561e1b081d4f8ad6857aeddfcd7f8a300784272",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/cycle_slots_201.meta.json",
+      "metadata_sha256": "3bb2ed7be9b0114840f50d80c8918937088850b45a52a40bdd51b0be16838ffc"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "LA_LL_reversal",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/LA_LL_reversal.npz",
+      "prediction_sha256": "3ebacdc26bbad350593e1b141d19260e9937ef874dbc6acaa47222807bf03fa7",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/LA_LL_reversal.meta.json",
+      "metadata_sha256": "c302eda1e36cdcb05ee0e74a3e56e961f87da68d7c89630a879758d06e735e15"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_3_5",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_1_2_3_5.npz",
+      "prediction_sha256": "ff831017815dff6b337ad6a8ac3680eacc52874179d35dff11f9b49df3607eb2",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_1_2_3_5.meta.json",
+      "metadata_sha256": "adff1582a7cc2f51e49930b5047a02a87807ae1223d12a0ec53fc316ea1b18b5"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_3_6",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_1_2_3_6.npz",
+      "prediction_sha256": "6a55885be1503f60abfaad152d84cd3e94c771337f8e4f26364470af3366da41",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_1_2_3_6.meta.json",
+      "metadata_sha256": "4bb25dfa03d65d26ab8ca160184e2a5c6f1bb9f50f9ecf09d680f32c9870d2a4"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_5_6",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_1_2_5_6.npz",
+      "prediction_sha256": "cb7c38c06d630b4820eeeb9c520f4f6a50fd3ef84eca515f5dc84b7301065048",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_1_2_5_6.meta.json",
+      "metadata_sha256": "15114e07fe1f100f6165f9bc194a3ff8003c67354e96226ba983e316beecfa11"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_6_10",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_1_2_6_10.npz",
+      "prediction_sha256": "527c760a632a99f23f75cb75b74e641451966adb4e9a86a08d1a955b96b8eb47",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_1_2_6_10.meta.json",
+      "metadata_sha256": "06c5dabe977cb99fe4c2d413fd7b3790cc611a07d6fbd5b330fd4a7673d90cff"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_7_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_1_2_7_9.npz",
+      "prediction_sha256": "e552e3210928ccc677ce709ee7881e678de9e599badc17d4bf3a73b35f888436",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_1_2_7_9.meta.json",
+      "metadata_sha256": "7c098e69f8132c79682d2dea948a202d0618e9546cac0e3c8793878531c9a3bf"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_3_6_8",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_1_3_6_8.npz",
+      "prediction_sha256": "498e280e6e169b4778731b3bf695a5bf95028df27912893e213352da6b29c808",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_1_3_6_8.meta.json",
+      "metadata_sha256": "5b738d9bfd049b645a05a8cf6dd2f5d1cbb756a6be1f72273845ead1bf1b989a"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_5_8_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_1_5_8_9.npz",
+      "prediction_sha256": "f7ce449e9be1a8e5c3b84692563668943826489a3ab94a77c78c190db015d658",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_1_5_8_9.meta.json",
+      "metadata_sha256": "a7d8511fef882c8625e3697d88c8f349260b253ab8179f072f5f3f56a94fde51"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_2_3_4_6",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_2_3_4_6.npz",
+      "prediction_sha256": "54733ae923199702ca49a5d6ca0f4303fa4cef046c4c0ae547f5d89c081a9865",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_2_3_4_6.meta.json",
+      "metadata_sha256": "a584cb666cead0b50c5b358c5b94071f16618824bab2d44622204c651dbfe16f"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_2_3_4_8",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_2_3_4_8.npz",
+      "prediction_sha256": "3068dc0962fb1c3e1ca6e471a69a429bfae16de4cd20702a7737e279aebfd020",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_2_3_4_8.meta.json",
+      "metadata_sha256": "ae288a8a245222ea0ad9fb48406320e52b422e095aabd8edf1aa929ee83eef01"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_2_7_8_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_2_7_8_9.npz",
+      "prediction_sha256": "16153d14a8ccd595e32be656cca29700e49c3ca2c98e54e1851033122cfbcb40",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_2_7_8_9.meta.json",
+      "metadata_sha256": "2c70aabb940359b25bf0fa782c8f94341b4b5bc1912c299409785b60710631bf"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_4_5_8_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_4_5_8_11.npz",
+      "prediction_sha256": "f1b55af54e2f99319543acd9fc77d35af21f75e2f2db972e3f1c5954a9bd8adf",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_4_5_8_11.meta.json",
+      "metadata_sha256": "ef16f16d5571960b4b7dcbe28e628cc2333b3e560f3450dfeeed1c0f47586b33"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_5_6_7_8",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_5_6_7_8.npz",
+      "prediction_sha256": "16cb9ee3c93cbdc00bb7dc70238dd9ca61fa0e54344741f64643d8db2f668d92",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_5_6_7_8.meta.json",
+      "metadata_sha256": "4aeed07d3dd037e90f979aaaafabe7a5407326957c48c9095b660a569b50c80f"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_6_8_9_10",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_6_8_9_10.npz",
+      "prediction_sha256": "f8ec4b33fe5b36d36d9572c276f73607b234ea49efcc1a33dce94bac77634be7",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_0_6_8_9_10.meta.json",
+      "metadata_sha256": "596884f0c25adea4a0932c4657d0061430feb5059ba86d8b4e51e4982a696fa8"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_1_2_3_7_10",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_1_2_3_7_10.npz",
+      "prediction_sha256": "3e59882d1a7af66599bbc483566f0af93508e408c913754ce1044e144bc79550",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_1_2_3_7_10.meta.json",
+      "metadata_sha256": "e2866985bbfed2601fcbafe681195eb093a95eeb62248c10d75581fdeaf8761f"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_1_2_4_5_8",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_1_2_4_5_8.npz",
+      "prediction_sha256": "2667cb8f510a14d80a2a9a615a965774730cc9ab5069014c6130cd5e42930f68",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_1_2_4_5_8.meta.json",
+      "metadata_sha256": "6bf8689ca0aae9d1e6582b547fc2584e26c5fb7aea9ff9ea2ec56c13bbc29db0"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_1_3_5_9_10",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_1_3_5_9_10.npz",
+      "prediction_sha256": "d5e00d54e40ee0f31c8c0f446205206bc3106daa3994433fec8dbd99a29897d0",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_1_3_5_9_10.meta.json",
+      "metadata_sha256": "870687f936f60b3649a8c1433530c7cf91b73f5af1461a4123a9a2900d78ae52"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_1_4_6_7_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_1_4_6_7_11.npz",
+      "prediction_sha256": "61e0497d787f3868e673bd1fccafa5be9c145d39e7b8455568f5dbbd8a483fc4",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_1_4_6_7_11.meta.json",
+      "metadata_sha256": "cf2afc80f54f363fe39616bdee2affbff7769038eafc626051b4e8fb13a9f9b1"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_1_5_7_8_10",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_1_5_7_8_10.npz",
+      "prediction_sha256": "1ade5fa7372ba2df8f23cafa0043383c4464ed2bec07c9de664902e229f4f4a9",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_1_5_7_8_10.meta.json",
+      "metadata_sha256": "24a76f69d889ead753be4aa02582f105b15f2b4ffad4189f7913a913a76e2c95"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_1_6_7_9_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_1_6_7_9_11.npz",
+      "prediction_sha256": "c1edf155a23270b4bc3742982a6ce22caebc68d633992e9da5f127b36d170baa",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_1_6_7_9_11.meta.json",
+      "metadata_sha256": "74ad5a0af65a9fa1e798f63cb5f1d6f6a1dd98f1825a0267cefadafbad4b4e2d"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_1_7_8_9_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_1_7_8_9_11.npz",
+      "prediction_sha256": "7e94ba546c5fc8c14a4049546aba2ddffcec0e964a5baa20a719657b353d86d3",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_1_7_8_9_11.meta.json",
+      "metadata_sha256": "b69cc0e833f467cdd92d9958448e08aa93dce86fe2c28534dc569486fe23f963"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_2_3_4_5_6",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_2_3_4_5_6.npz",
+      "prediction_sha256": "1664f1caeae96b8c6564c8656b098af21b5e5a2d2699ba74d899445b754de776",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_2_3_4_5_6.meta.json",
+      "metadata_sha256": "d896b587a75237c61643ea341242aa54aaab1392079da725b10f0aad948ca609"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_2_3_5_6_10",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_2_3_5_6_10.npz",
+      "prediction_sha256": "6d9a9bd7b16f3b614174fcb9e51da2ee0c62574b1c7be62cf3c87b251c55f615",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_2_3_5_6_10.meta.json",
+      "metadata_sha256": "9b773c0d4f9bbdbba2af568b41b22edb6ac661b62883cb8dae5c930fb5b97ccd"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_2_3_5_8_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_2_3_5_8_9.npz",
+      "prediction_sha256": "bef4dfc83079d4e595fcad619145110bb36f6aac73c053aed533a6e7bb8284b5",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_2_3_5_8_9.meta.json",
+      "metadata_sha256": "e2428b27533b9228399bbc8f8db1b2c67a500d2a7afd1b5d221bd2fb93805253"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_2_3_9_10_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_2_3_9_10_11.npz",
+      "prediction_sha256": "a30235de06b722dbbc6657b58e57a14aacfb29e05306b23dc555fd60cdc5516b",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_2_3_9_10_11.meta.json",
+      "metadata_sha256": "fa04f71a6090fb588463c2dbfb301e0a97892654ddbce9817c367210191a2646"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_2_5_7_8_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_2_5_7_8_9.npz",
+      "prediction_sha256": "df3e149a4d5b087d6fbde4c676e183564bb32b6f83bb1b51c9939547683d2f97",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_2_5_7_8_9.meta.json",
+      "metadata_sha256": "c1df6711a2130201a8d173abfa2ccf1f9e4dd77392cc67ed7370fcac0f5ee58e"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_2_7_8_9_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_2_7_8_9_11.npz",
+      "prediction_sha256": "981ccb355e8d64ee28a88a8119d2bd737005d642e1f16cd07c9011114da5a637",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_2_7_8_9_11.meta.json",
+      "metadata_sha256": "9e2067b430134d19fa94dbab7339150580fce9db5624bcc39144a6c993e671a7"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_3_4_5_10_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_3_4_5_10_11.npz",
+      "prediction_sha256": "5d42da87dd13b14e089e35c618359c27b3c6bd0686871ffeaf9a2b1c09752765",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_3_4_5_10_11.meta.json",
+      "metadata_sha256": "846fc2f3fd95fa90c626a4cb95a8c0db19dd96120cea3a6489dc2eb26e869300"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_3_4_5_6_8",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_3_4_5_6_8.npz",
+      "prediction_sha256": "fc01d0d93ee73ee81b62158ae0eb60f4b01f72b3a698ebc78ccf9df7bea1278a",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_3_4_5_6_8.meta.json",
+      "metadata_sha256": "a641bac94f0c6f719899be64e4bd230387b9edcf9af249cbd8fe451d9aef1787"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_3_4_5_7_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_3_4_5_7_9.npz",
+      "prediction_sha256": "26548bd553280ad180ebcc1fe08084ef23dbc55d867616eda5ac64cfca5ffa56",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_3_4_5_7_9.meta.json",
+      "metadata_sha256": "11a42d00b892c1afd3b1d18dbc98116f4f998fb7927a67403d03a02ea8d7ff22"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_3_6_7_8_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_3_6_7_8_9.npz",
+      "prediction_sha256": "7cc0399eb87d488562377a5e22bf0983e292e6a9b84492709edba558a0fb7ea8",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_3_6_7_8_9.meta.json",
+      "metadata_sha256": "248f18d1d7d142477638ceefe363b1e2e174aab417abe221bd547e6a349cafd8"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_4_6_7_8_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_4_6_7_8_9.npz",
+      "prediction_sha256": "4a9e249fd786b1bde34cb5f99afbf3b2bac798611ee6f781fa224ac49248c453",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_4_6_7_8_9.meta.json",
+      "metadata_sha256": "9151bef68d4b170130f2167a0c403d1478cbc67708938f8eb6fac6ac3c72e64c"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_5_8_9_10_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_5_8_9_10_11.npz",
+      "prediction_sha256": "7e959451fd0e43b01d4e04a1548870f6d58e56f087281d1bc6420f008903556f",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/mask5_5_8_9_10_11.meta.json",
+      "metadata_sha256": "4917129cbbcd365cf635576e662f6b57828fbfbbb1f8b4bba662cd685fed0bdc"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LA_reversal",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/RA_LA_reversal.npz",
+      "prediction_sha256": "22a029f0b47261c26ce8a754624cf1bbdf529a0231f0937a14315fae429cbb4b",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/RA_LA_reversal.meta.json",
+      "metadata_sha256": "e5405f8f81d09f53e325803c31c121b2e8e2711252f20ac4020a0f20637bf666"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LL_reversal",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/RA_LL_reversal.npz",
+      "prediction_sha256": "487cefd639541a74df9c2c0d7b26ac58722717c84888a0f5e840807227cfa6bf",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/chapman/RA_LL_reversal.meta.json",
+      "metadata_sha256": "61a58a43df88804d6f4b0cc00c4368dd657a42c25ac14ccd15d23be82029f45f"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "clean",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/clean.npz",
+      "prediction_sha256": "18fa7ea00d4b76550491a7ad4cb2215929b4e3a9958f92e8500b7ee1da6f7a84",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/clean.meta.json",
+      "metadata_sha256": "8a5b39e77ff32c99410f1de09ca58b2520824b66528037764313721d020fa684"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_120",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/cycle_slots_120.npz",
+      "prediction_sha256": "cf0a555a195cd57199e2a36b7034b1ef885653d684826cc5d10409eb0a1615cc",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/cycle_slots_120.meta.json",
+      "metadata_sha256": "a96cb5a5e5bb814ceec30f87ca04b22279bbf713b4efcf076039e0b9b9910afa"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_201",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/cycle_slots_201.npz",
+      "prediction_sha256": "e9e40a838c720fc90458c27a099075409cb57164ebad6a722a35a42a6cbb0b6b",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/cycle_slots_201.meta.json",
+      "metadata_sha256": "6fdf5f58181d35d106cf68e8abca58dbeb3a4fb4fb9e53cef0f40bca7b5d577f"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "LA_LL_reversal",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/LA_LL_reversal.npz",
+      "prediction_sha256": "903453b282ba32f9eb47e63697ba3615d8f57809a19c1ab95b4dc7b81b26f74e",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/LA_LL_reversal.meta.json",
+      "metadata_sha256": "d4b4f89cfb66b23d09d58e15ff3711f1cec87fa44c4488eb636b78be2d50738e"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_3_5",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_1_2_3_5.npz",
+      "prediction_sha256": "606edd9bbf48b06212fe73d1858285522d3a161ea0f420065de4900e96ce24d4",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_1_2_3_5.meta.json",
+      "metadata_sha256": "5df02948ea5422272804b845d952dc6732eec57e4650346e1c68174397b93f30"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_3_6",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_1_2_3_6.npz",
+      "prediction_sha256": "2b5d0f67aa590467dde2815a0e04952c0cbdc25a828d694771edb68495956410",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_1_2_3_6.meta.json",
+      "metadata_sha256": "b2b5e9fc797ddaeb5a2b6a0855456f7059a565a7318d61fe44e200550bc6904f"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_5_6",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_1_2_5_6.npz",
+      "prediction_sha256": "f749568b03b829acdeea17ab6b6a8c622b5fb1d36f0f1b22cc77167adf692d9d",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_1_2_5_6.meta.json",
+      "metadata_sha256": "9b36f3500c79a4a7b264fc01c7238f9c856b2285db0b467510948d925de0011e"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_6_10",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_1_2_6_10.npz",
+      "prediction_sha256": "0d38e020a2362323d111e84966a8eddef46be3d93590efeb9d1ce7bd8e93b737",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_1_2_6_10.meta.json",
+      "metadata_sha256": "26d8dd52ba1262148d5b7df276ecb830a867fade171995dfb50f9234496a74c9"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_7_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_1_2_7_9.npz",
+      "prediction_sha256": "49da420a1ad480a1c091d2578f7e35b18138defb1f0c6b3a75028a0e62a5c857",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_1_2_7_9.meta.json",
+      "metadata_sha256": "825cc88d0857cd472f346e275ae6ebf532569b542fa3f2a9dd460996b4ea2142"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_3_6_8",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_1_3_6_8.npz",
+      "prediction_sha256": "7f51eebb53786d456525e1ae30567672bc5705d1b60a45730ea8dbebef7a513c",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_1_3_6_8.meta.json",
+      "metadata_sha256": "f83e28fd06168927a05bd82f15f57984dee80f8cdb0c1e5fa8ad429d02c6de0e"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_5_8_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_1_5_8_9.npz",
+      "prediction_sha256": "582ff8f09ee24804b8db6e6e7e4d6d6388000648bb8a622368a0e47ea45fd0af",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_1_5_8_9.meta.json",
+      "metadata_sha256": "dbde60de064a273c24e8b7da6c2752a56fe6fcaf285a96723b008e50b7b6ddfc"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_2_3_4_6",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_2_3_4_6.npz",
+      "prediction_sha256": "62dd45eb9528f59d559b90c23c4c68d7f010ffcb743605159857af4012d8688c",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_2_3_4_6.meta.json",
+      "metadata_sha256": "5268ac8595e5d34129f1502a394e7e73fa50ac7019570ce498abd13049aed9a4"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_2_3_4_8",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_2_3_4_8.npz",
+      "prediction_sha256": "93fe31a128529f49aad6fbd8ce06aaa629e469b996508912daf41c9f852f1241",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_2_3_4_8.meta.json",
+      "metadata_sha256": "e0fa5232cc0282ebb4ec424613d4cc18c2d5855cf9e6cf1d6bb7d854caf33d42"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_2_7_8_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_2_7_8_9.npz",
+      "prediction_sha256": "8265e4ad001b65f5d46afaa3528324842efbebfa964b0856d3074209414bf4be",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_2_7_8_9.meta.json",
+      "metadata_sha256": "76fb30d990b10fd8068b3e82e16e114d11e69063c9412c8e3718b51ac7e07c86"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_4_5_8_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_4_5_8_11.npz",
+      "prediction_sha256": "f33bef7522043fa3f4f9c89f77c167e938ec2f79a6f57cb84684cedb85b02719",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_4_5_8_11.meta.json",
+      "metadata_sha256": "f818621555e7d0bf52f1cb0d73d9fb0482348e76cd637a958b0aca85ea99227c"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_5_6_7_8",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_5_6_7_8.npz",
+      "prediction_sha256": "9149241c35e9f389788145e73462772be86b56303688345abfa509b7c3f4cb70",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_5_6_7_8.meta.json",
+      "metadata_sha256": "5670fe20e395ca183664d8a2596e70692bab1a85c8818cc03c79ce93a47e3fb0"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_6_8_9_10",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_6_8_9_10.npz",
+      "prediction_sha256": "e5daf8389a5cf8e1a6a7666bfa7e92a71da462d1c0ac2b588569a030e5ec2ede",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_0_6_8_9_10.meta.json",
+      "metadata_sha256": "a425a2d0f8d5d2fe9db7b35e3d7d546b2cff31abe290d78d1a44e9a3ff7731c7"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_1_2_3_7_10",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_1_2_3_7_10.npz",
+      "prediction_sha256": "048123f51e5153b25d1a7120165c30d14a0ef3bbbcaa20ec74e3509140a7e4b7",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_1_2_3_7_10.meta.json",
+      "metadata_sha256": "9cc835713daae199a36afd6bb64cd4b95d5704e282540bafff099e50c0933e8a"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_1_2_4_5_8",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_1_2_4_5_8.npz",
+      "prediction_sha256": "9089910cca1037e6473b83ae7f154bb9a92df6f9fd166e86399da22488a757cd",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_1_2_4_5_8.meta.json",
+      "metadata_sha256": "135c220c8f4dce7ffad85695d4a1f5910d482eb005a748bdef8a263d928c16ef"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_1_3_5_9_10",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_1_3_5_9_10.npz",
+      "prediction_sha256": "1ea4fddc5733b7bf73182d43c57adb3a9489871c4ae8fb98ebed6e75aabe4fde",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_1_3_5_9_10.meta.json",
+      "metadata_sha256": "75f18fbf3a88afc4575974ffe788d9dca8cc775fc585bc247e5622b930faf6d3"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_1_4_6_7_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_1_4_6_7_11.npz",
+      "prediction_sha256": "112119406c84e67cf08ab7af51e24a29560a5c8fe180dde8027bcdcf4820fce8",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_1_4_6_7_11.meta.json",
+      "metadata_sha256": "79b9995d7cf6dabc1d670db7be020be4cba95a54585e6a1d93e8a6d571ff5973"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_1_5_7_8_10",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_1_5_7_8_10.npz",
+      "prediction_sha256": "22983937af73517b02be093d9b1a6b8254630d1cf26d892608cee7123fb09161",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_1_5_7_8_10.meta.json",
+      "metadata_sha256": "dd69608a94a07416b03885a1bc9c2ed7a16521b132ba2f1de134bfa56183aac7"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_1_6_7_9_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_1_6_7_9_11.npz",
+      "prediction_sha256": "7b21436934a06e9693f2ad581c78268de095f4d9f672c17d72bdb274ac229711",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_1_6_7_9_11.meta.json",
+      "metadata_sha256": "e4a910bfd8d7c4bdd42441bca749a212ccf371ab8d73981e3d6dd77ed5194852"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_1_7_8_9_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_1_7_8_9_11.npz",
+      "prediction_sha256": "e8c55536d69746c818e315d89dc756ad4e46146728ea8f231ab04ccb8abdf34b",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_1_7_8_9_11.meta.json",
+      "metadata_sha256": "c8d55d9a8f3b91d1817902ea82e73b34c6a0794d6a0705a204811d54ef9917ff"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_2_3_4_5_6",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_2_3_4_5_6.npz",
+      "prediction_sha256": "aa642d6aaf15ebc273299b135053d196a3f96eb82c346f8689db898967df30cf",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_2_3_4_5_6.meta.json",
+      "metadata_sha256": "167a8654b9f9293e7e1d2547e62b68502b8f1abd0a69ed5928c19bcb9a225be6"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_2_3_5_6_10",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_2_3_5_6_10.npz",
+      "prediction_sha256": "cfa8ccb574e151fc5c79d6c8ad3d2943affd9d3990c7c2dc37ee0209db098cb2",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_2_3_5_6_10.meta.json",
+      "metadata_sha256": "25005402aa5cb26615b8ce591ab4ad2018f9c6861777447b8f631e7ee5ac78c7"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_2_3_5_8_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_2_3_5_8_9.npz",
+      "prediction_sha256": "d6071f1c5d3d38c37209a5ff2e1ccbf0f6b36a1976598cd022c4da35c67272eb",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_2_3_5_8_9.meta.json",
+      "metadata_sha256": "3a29d8cead66b10db7109f5f823297cfe0ae697ca7a220b6a4e57d3f2f2d4c7d"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_2_3_9_10_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_2_3_9_10_11.npz",
+      "prediction_sha256": "a5bd80abc460803d176a98f4fac5078304f9f649c42c51218e34380101cc251b",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_2_3_9_10_11.meta.json",
+      "metadata_sha256": "67ea0bf504442a1b6241d261a0e4a33706d63fce02fad5149e63de047fc27949"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_2_5_7_8_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_2_5_7_8_9.npz",
+      "prediction_sha256": "d20c62f463f191aa3dbda04e681a11c5a5fabe6c125a818ddcaa5ee44806b467",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_2_5_7_8_9.meta.json",
+      "metadata_sha256": "4c694c6a8906ba8de1e3055d0aed18e00ffac0a24548c569cdda999a1337ad3f"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_2_7_8_9_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_2_7_8_9_11.npz",
+      "prediction_sha256": "23704579f55bf198f7cccc6157ce0f9f47235a04953ba460a8ddd97842bac96b",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_2_7_8_9_11.meta.json",
+      "metadata_sha256": "cac0ec079ef9674ab47be79410585dd1f072ad44adf0e25cba08cb22ae0adf2c"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_3_4_5_10_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_3_4_5_10_11.npz",
+      "prediction_sha256": "8955a9a34ad54babada36b00e49eed46b1e1a39f37f8f54762b146489a509d16",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_3_4_5_10_11.meta.json",
+      "metadata_sha256": "8a688b271b57e20cf0f77478bfc49f4dbd1a02217207f869c25cfe0c2b9a9772"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_3_4_5_6_8",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_3_4_5_6_8.npz",
+      "prediction_sha256": "aa2a57b40f2331fc2f1e37a60aba464826ffc0b1f53b9af4b97db8e1f1920a11",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_3_4_5_6_8.meta.json",
+      "metadata_sha256": "ca39815f2925da397693c018fc246aa8056cc2859015719d58a83f28c296913d"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_3_4_5_7_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_3_4_5_7_9.npz",
+      "prediction_sha256": "79137d683f8406986af9e1ad6464999152015f9b6284e13f1b95969e81760c57",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_3_4_5_7_9.meta.json",
+      "metadata_sha256": "84203079f5631787f9e6156f0018543340300b29572ce08f8eaac3833f5ae6cb"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_3_6_7_8_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_3_6_7_8_9.npz",
+      "prediction_sha256": "3446f054634af1f4bac7ebcc1fd04b2bdee095312aa9076285d7ba7e54dbf8d1",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_3_6_7_8_9.meta.json",
+      "metadata_sha256": "aa0af8168e73b9ecc163dea6a250fb13ab9c0987377a285a2565e6d28df8e0f2"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_4_6_7_8_9",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_4_6_7_8_9.npz",
+      "prediction_sha256": "48f2b1e8783403e84a2bea23176731ebd376cd24c79b214cca4e14a0d64e2905",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_4_6_7_8_9.meta.json",
+      "metadata_sha256": "188839f6eb6b911e00f582268f98141de9464939c74653b0d2f22124732fd53c"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_5_8_9_10_11",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_5_8_9_10_11.npz",
+      "prediction_sha256": "3a3157045588ca13619b81c93d60820847856b6f8c3f1f60d458fa9aa311d032",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/mask5_5_8_9_10_11.meta.json",
+      "metadata_sha256": "a0a5d9117abc3a55ba54060388ba24b67e48e3055aaec3601261c80ea1210507"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LA_reversal",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/RA_LA_reversal.npz",
+      "prediction_sha256": "826db0e7d10facf13bd008f30f5a075360da38cb96cd5d3aff5655708cc8a269",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/RA_LA_reversal.meta.json",
+      "metadata_sha256": "4672087abe167e40d3560c7f76079140278533aca7b950a52943e5e2cfe06c42"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LL_reversal",
+      "prediction_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/RA_LL_reversal.npz",
+      "prediction_sha256": "0b8c3c2ea24cc13c83dd6b87ae14467b012304a546a22fd5be8e5cee92615ca9",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/predictions/ningbo/RA_LL_reversal.meta.json",
+      "metadata_sha256": "7d874d022a264aadc3de8796edfc103e81d313d661ae540ad9b86e1ccf5b7c81"
+    }
+  ],
+  "test_feature_caches": [
+    {
+      "cohort": "Chapman",
+      "condition": "clean",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_clean.npy",
+      "feature_sha256": "ee3dd445f7ae61018b87bab225b71ab4ef7350d790c7e83164ba3b3da10d6817",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_clean.meta.json",
+      "metadata_sha256": "bd2f3d772f5ec3335f60447a02f433de46a708281ef2dce9bbfbec03564921cb"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_120",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_cycle_slots_120.npy",
+      "feature_sha256": "418806dcf7fe9f55a4b532bf34b8c6cd1ef3b10cecc058b2460ae242b5063ae0",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_cycle_slots_120.meta.json",
+      "metadata_sha256": "7b4d8a3f5efce622010b381af812bca7c8069d2d2baa9a129006a6db3d367054"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "cycle_slots_201",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_cycle_slots_201.npy",
+      "feature_sha256": "a44b42f8185a9208dff751975d3f7116243c7b010bcf21c7c5707dcad17a5434",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_cycle_slots_201.meta.json",
+      "metadata_sha256": "682ff6ebf5855be2cd2f20ee9b3cd45f66843f2e0ee54a6d1cde060120901bb3"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "LA_LL_reversal",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_LA_LL_reversal.npy",
+      "feature_sha256": "2663c724e1cf4c89503f179aad1fd872bfca7a6d2cface9d11b4a3ff9fafa57f",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_LA_LL_reversal.meta.json",
+      "metadata_sha256": "07776ebc3598561317f8739b2923a4d6b5fa7b8a225342c4b0279a51edfa76ed"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_3_5",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_1_2_3_5.npy",
+      "feature_sha256": "a31c1a1b4cb60ae4414c345ab3e5c117d7f82bd63ea08cb72a501a37cc34173d",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_1_2_3_5.meta.json",
+      "metadata_sha256": "458badc87d4f1516e2799ce9fa6b73b6693f4c61dac3666a284fed80764a9140"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_3_6",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_1_2_3_6.npy",
+      "feature_sha256": "09bf48096cb92ae97e6ad8c982de70f9b913bf3d6ce6cdd07c0382b86d296fed",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_1_2_3_6.meta.json",
+      "metadata_sha256": "16b75290d8f6149bfce6558c692ed165a1388c59a214f2e3a3a30eb3f4771dc1"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_5_6",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_1_2_5_6.npy",
+      "feature_sha256": "41b6668286505ab4719411892506d72a98933fb9130212ff24ef7215fa4f1d7f",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_1_2_5_6.meta.json",
+      "metadata_sha256": "729391c0d6718fcba6d85610a4d3543962c0543e3e8e7b920d7745d535b3bc2e"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_6_10",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_1_2_6_10.npy",
+      "feature_sha256": "7c9191bba6579d682e70b14d46d29aeb81396db5ff6b1af667555e9910999e78",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_1_2_6_10.meta.json",
+      "metadata_sha256": "7a34dc85467d90b4fd3fa5aaf43afde3bc7eef329a1e4150d0658e37473ba16c"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_2_7_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_1_2_7_9.npy",
+      "feature_sha256": "25929915f753b756f7239f167de84b3e3ca0ef4bd51ffc338bf56a870cb99bda",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_1_2_7_9.meta.json",
+      "metadata_sha256": "39332d92d9886a57a8296115947b442082a6d73f0265943e23aa953b946beaf8"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_3_6_8",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_1_3_6_8.npy",
+      "feature_sha256": "a3cffcec3e16d06d9d71d9d4e23906e6d23444e369e49843a945500d915a6b23",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_1_3_6_8.meta.json",
+      "metadata_sha256": "316e818093903c6265319069161c5a491490902a31127f73e4439d73b2b0ae54"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_1_5_8_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_1_5_8_9.npy",
+      "feature_sha256": "4a4a9cd2f72406ebf17d9436c7dc12abb828a4f57927b05e35cd4f3c9b273273",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_1_5_8_9.meta.json",
+      "metadata_sha256": "7dc026ccccb8647f48a0f00b66486990212a7399ac93587d873702555994a089"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_2_3_4_6",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_2_3_4_6.npy",
+      "feature_sha256": "b1dd6ea88810a703e48e52d4241d2be5f9eae5c0f379ef858e295f6d0903230f",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_2_3_4_6.meta.json",
+      "metadata_sha256": "79f22017de999e5100dfafc007f586e69ebea2713474fee7a4c2d44e4955df5b"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_2_3_4_8",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_2_3_4_8.npy",
+      "feature_sha256": "6f3d49bc3ba0d294344f964d5ed5824b7e727c4bceefc4c0b5a5da53194a77ec",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_2_3_4_8.meta.json",
+      "metadata_sha256": "78e318bd72683c9af557c6005f7a4f799c18636631bddda28812ec76eacbcefe"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_2_7_8_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_2_7_8_9.npy",
+      "feature_sha256": "5a9222050a2801522e9c4740506670055ab1d38b63b758b3542039e97847db20",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_2_7_8_9.meta.json",
+      "metadata_sha256": "3fd6c0be7a5fe6ef1b6f6654fef71933628be3faeb56dcb8a9b84eef08e27951"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_4_5_8_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_4_5_8_11.npy",
+      "feature_sha256": "27732f87f65dd1f931ec0740a6a37fc1fb0b579508c31ace64f4a3f750259c59",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_4_5_8_11.meta.json",
+      "metadata_sha256": "90bf63a9dbb24d179267b322c9443a522d719c4e5c3c2e413db751d647f6f9ea"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_5_6_7_8",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_5_6_7_8.npy",
+      "feature_sha256": "a36de29e70f5a472292dd60f209a4725ae3008849ce7ecbe86b80cef6e6fc66b",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_5_6_7_8.meta.json",
+      "metadata_sha256": "ec620fc107fff9163fa224af937cadd61212eb05e02434272955ddda4c84086c"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_0_6_8_9_10",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_6_8_9_10.npy",
+      "feature_sha256": "956dd8c0051db4772e6e7e44a1d728b7049ebcf25b472b37e415f5af06c50a62",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_0_6_8_9_10.meta.json",
+      "metadata_sha256": "fd1778550e2ffa2301f3f5ec8d7b5fb1b149680e8bc9d7a16847f150d926c5aa"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_1_2_3_7_10",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_1_2_3_7_10.npy",
+      "feature_sha256": "38ba3275a32babe6d7be2b714c57e6bcca5bbd94d852403d4e45a5165f59997d",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_1_2_3_7_10.meta.json",
+      "metadata_sha256": "00ed2655fdf2ce41bf18201ab6e878ebfcdc807da4d73da4e7cef72d97099a4a"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_1_2_4_5_8",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_1_2_4_5_8.npy",
+      "feature_sha256": "bf6bf4f0fb9cba5c9533329e266d82a6193783d44189e6d95254a71d384afebd",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_1_2_4_5_8.meta.json",
+      "metadata_sha256": "f990a598636c705d7e8720315c2f9c4dbda6c93b33cd1093bc5b413aa6a4f334"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_1_3_5_9_10",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_1_3_5_9_10.npy",
+      "feature_sha256": "182685d465b57672b157ebf6a14c29f6c1c1e593cd02216bf3bdcb917feb0366",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_1_3_5_9_10.meta.json",
+      "metadata_sha256": "18c2e80473fae298969b7aa13ea45640fcd459024441f486c8b20324fbd8b0de"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_1_4_6_7_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_1_4_6_7_11.npy",
+      "feature_sha256": "cfb60c19f42db58f38053a8f4cfbfc9cc293fd3222889fe3db5755726c6b9789",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_1_4_6_7_11.meta.json",
+      "metadata_sha256": "765f3fbeff3ba02a471195c227ac7869e3b6e369b034e0e3cfe156eefa347f1f"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_1_5_7_8_10",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_1_5_7_8_10.npy",
+      "feature_sha256": "afb9d9b52cd51bd99e206fbaa309687ba9121ebb8c8368759550b4da03697938",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_1_5_7_8_10.meta.json",
+      "metadata_sha256": "ee94c046439720e5e55469726b6e8800b5f2a9c5c01933f33ed5bcabc790eb9e"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_1_6_7_9_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_1_6_7_9_11.npy",
+      "feature_sha256": "bbcbfdcc46b1a35859fd33dbe2596ba4af1764db8d746738effc83f669041f11",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_1_6_7_9_11.meta.json",
+      "metadata_sha256": "a2e9731823d53f20a0762867788b1164dc5412f5d3c6b1f52db9f0a97f61aa38"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_1_7_8_9_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_1_7_8_9_11.npy",
+      "feature_sha256": "27f59c1e3b06ca2ed8748c942209dba2895ed82045c32eed2d69cc26ae28b393",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_1_7_8_9_11.meta.json",
+      "metadata_sha256": "7cccf29fa8068c3d2904bd32f0468ce9a6216f97975e56d6dbc761d96b518533"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_2_3_4_5_6",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_2_3_4_5_6.npy",
+      "feature_sha256": "7539a2aacde4692db236137620f6551870ba89bf1039013546e3746be9573bcb",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_2_3_4_5_6.meta.json",
+      "metadata_sha256": "0ae1822ea71ead82270b8eb8e28042dbc46518a196964781a1e9b34336038c74"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_2_3_5_6_10",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_2_3_5_6_10.npy",
+      "feature_sha256": "8c16d90905214db5ef07579bab506ac1a949e29cadfb7c67958f24102351256e",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_2_3_5_6_10.meta.json",
+      "metadata_sha256": "c49a17f18dbf53e2f43b96c3c5c4db11499f0e73fd3b97628db9629acbc179f4"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_2_3_5_8_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_2_3_5_8_9.npy",
+      "feature_sha256": "0e9e7bd9afb94eed1bfceb278bda6babecaeb31d7cee83a9723a24a6141ba8be",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_2_3_5_8_9.meta.json",
+      "metadata_sha256": "821f2c0a2db934e32a54a18c33b6705a48de9a5941e76024edbb8474dc2d83f0"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_2_3_9_10_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_2_3_9_10_11.npy",
+      "feature_sha256": "21cbcdf9c0fdbde98941a0f32dbbd903b24d1f6750df0cb5fd3903f03c050cde",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_2_3_9_10_11.meta.json",
+      "metadata_sha256": "34adf4c47c4222b87538871d92d6acce7a6b310909b734fc88cd5fca84df7fbb"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_2_5_7_8_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_2_5_7_8_9.npy",
+      "feature_sha256": "641fcf727e582859fc6c6b238e5dcf9ae91a5e7ee6ec7692ffa428ef1e98ff6a",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_2_5_7_8_9.meta.json",
+      "metadata_sha256": "9df766ac82ba0277874ab6d5e7422d0ea0da7ab054fb9f03ab7c52acac4a7368"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_2_7_8_9_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_2_7_8_9_11.npy",
+      "feature_sha256": "28ff7673146abbf9e044437275c1b50b5eefe0d9ee453679e669ea47f91f2c9e",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_2_7_8_9_11.meta.json",
+      "metadata_sha256": "68c99aaeda38f73612ceca70d352ff3d895948c48de6cf2a111d05b1044f4529"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_3_4_5_10_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_3_4_5_10_11.npy",
+      "feature_sha256": "d38696ac4ee623614b8999c1e673539a6e73ba525b82d421b1ff2ffd0fee604a",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_3_4_5_10_11.meta.json",
+      "metadata_sha256": "cc3f666325be4b8a06b86e58e4aa23109d8a289e4300fa67f5385152e4a1e10b"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_3_4_5_6_8",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_3_4_5_6_8.npy",
+      "feature_sha256": "93e13eb728e49a89116a9f444105da02b68dd01e147fe3179ec6de78f1d45ddb",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_3_4_5_6_8.meta.json",
+      "metadata_sha256": "a8c3c39490681ab66f1739471b84dbfe22d09cdb208a19870d80c3c25af16da4"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_3_4_5_7_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_3_4_5_7_9.npy",
+      "feature_sha256": "f7806f1193f6de3c315f41f7fd3efe877fc5aab2345ba700f004fedb46237387",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_3_4_5_7_9.meta.json",
+      "metadata_sha256": "ea968b024e0470b506a788faf1b095c2572896efec2661c20de40720d7f0a8aa"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_3_6_7_8_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_3_6_7_8_9.npy",
+      "feature_sha256": "2dc0723eaee267267aa2f17252e89d92ae27aaacec513138eb43cdd48742036a",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_3_6_7_8_9.meta.json",
+      "metadata_sha256": "7121d61fac66c3c2b3dca5149410af4400b5914ffbaee4cb997525089a7ff879"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_4_6_7_8_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_4_6_7_8_9.npy",
+      "feature_sha256": "5f095fc5bd295569861cae12b191f0d0d3ecb23f0caac6ca5be4cdc7343561db",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_4_6_7_8_9.meta.json",
+      "metadata_sha256": "2c6ee4ed29f2894a7fd522ba91374767708ece2e2259e2fd2e37bea6272f243f"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "mask5_5_8_9_10_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_5_8_9_10_11.npy",
+      "feature_sha256": "77d68cd782a831e50d263b28906f6c9d168a4c21808cd54034908c86d2ebf964",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_mask5_5_8_9_10_11.meta.json",
+      "metadata_sha256": "4bc2267e5cdd163bb4a4ca9c35e5d55da7d8b4b009cc79101365ef20260d9ab7"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LA_reversal",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_RA_LA_reversal.npy",
+      "feature_sha256": "e24832f2fd3fea22b9159b469af0915e08ffa5a4e4077f0a614d1b6d79b69ef0",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_RA_LA_reversal.meta.json",
+      "metadata_sha256": "17fefe90771cdb53aa0431934a62d5ae1a7f45bfd6e455fe161bffd86f7289fa"
+    },
+    {
+      "cohort": "Chapman",
+      "condition": "RA_LL_reversal",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_RA_LL_reversal.npy",
+      "feature_sha256": "1ae3fa7336c6d9b6e72516793c2c4e6dd83d95be09b230237d9432038cd461aa",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/chapman_test_RA_LL_reversal.meta.json",
+      "metadata_sha256": "123084e150f33cc26e54dae939572830b47bd04524b0aa28bf3476d19636117c"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "clean",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_clean.npy",
+      "feature_sha256": "06ff2195bfacbc02808adb5db62b075c249abc7c794eb0f499c8b6035e128b63",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_clean.meta.json",
+      "metadata_sha256": "8a3b40e5a38710bbd8c735e34d13a67e59a7dfe8a32ed0ae4b91012e91f3f94a"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_120",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_cycle_slots_120.npy",
+      "feature_sha256": "40befac1fe0fd49ee0780d163fbcec07f645d04e7e8267a1c9ffe68ec3699cba",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_cycle_slots_120.meta.json",
+      "metadata_sha256": "b78c2d0c2fdb3c0c9e1cb7f62770f271e00f0f52c11d970587ca6f0e9d6b88fa"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "cycle_slots_201",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_cycle_slots_201.npy",
+      "feature_sha256": "62434c00446aa7140582cd2522d1ac4243e7683797f93dee81d3f148e56e85a0",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_cycle_slots_201.meta.json",
+      "metadata_sha256": "c20a370fb972d55071ca949238c110f7a668147c2d675a809ce51b8f1bb6ca32"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "LA_LL_reversal",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_LA_LL_reversal.npy",
+      "feature_sha256": "7ba17833595c13218e6e38351570f599b7f6472b90dcbed7c212789172a9ea7f",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_LA_LL_reversal.meta.json",
+      "metadata_sha256": "786a2d186b206f43c7493c6ab3dbfa291df85bf2b8c19865f6bd1524d5050980"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_3_5",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_1_2_3_5.npy",
+      "feature_sha256": "71809c1f64e4487346ed956a2737fc173b005ffc16ed7d10da3fe1b95cedc0d4",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_1_2_3_5.meta.json",
+      "metadata_sha256": "e5e363805fc22e903731d88a793277fce8d34932a826864e7ada46f940bc0c07"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_3_6",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_1_2_3_6.npy",
+      "feature_sha256": "0f5a1f747b5edc1d1f73ef7f4d64a10c70eba0836f38f2a91bbbcd78ee198a36",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_1_2_3_6.meta.json",
+      "metadata_sha256": "46c2a09b91923da7a510dced80dded9284d87bcb806ffdb7fe36ab827b41fefd"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_5_6",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_1_2_5_6.npy",
+      "feature_sha256": "1f5e2d66232a64300784fd8172e78c8b9f222483bb285773c64053029d83dab0",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_1_2_5_6.meta.json",
+      "metadata_sha256": "78321fcdec9ddff626b8ea93c2301317bccffc1fc01107fc6f53899f7c48abce"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_6_10",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_1_2_6_10.npy",
+      "feature_sha256": "a5a8d4c8b0b44e0a2c3bf51f48305449eac8aa78c873f88f25c65fb4243cc076",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_1_2_6_10.meta.json",
+      "metadata_sha256": "74fc2f5df818d8f99bdd0fac0e659cad1b571070e99c5cc69e13119c52be0eee"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_2_7_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_1_2_7_9.npy",
+      "feature_sha256": "e1c11c8e3c2a7951e64e48d79f27cec430915b2532be0e758000283554d9e808",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_1_2_7_9.meta.json",
+      "metadata_sha256": "e40b8ae8a63c4ef9d3c3f9361cc9882899008016ffb68363a64c58d6b9c85d48"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_3_6_8",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_1_3_6_8.npy",
+      "feature_sha256": "bec055515e81882780b4ba6c57ac2114741b1b55a87881e0414d7455fc697ba0",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_1_3_6_8.meta.json",
+      "metadata_sha256": "094573149059bc5dc70969d0716c77f1a9360dd7f0dab81a8df18bedfcf54096"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_1_5_8_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_1_5_8_9.npy",
+      "feature_sha256": "007d5c27b5a45c6cae76a3771e355cc1621ddac2fb8727e78e24a4740ebf73d1",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_1_5_8_9.meta.json",
+      "metadata_sha256": "5ec367c100726094187b97a0fa6cc0d1dda28a67c2ab4db2484fc85a849f982e"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_2_3_4_6",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_2_3_4_6.npy",
+      "feature_sha256": "1899e5d33ae673c589497b5aebfd35eaffc1fb46a773271906971ee38be539d6",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_2_3_4_6.meta.json",
+      "metadata_sha256": "65aa0242ca28a4898eb4546ea25a57e561d1e1954ea7c45c338180195fb440d6"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_2_3_4_8",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_2_3_4_8.npy",
+      "feature_sha256": "2f5893474d1f71a2fda98c837990cdf03458094e01fbc0599963b812aaad17fd",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_2_3_4_8.meta.json",
+      "metadata_sha256": "bb5d87020011aaed581bcfb6d775cb77b12cc1a0ac417c22488d873942413284"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_2_7_8_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_2_7_8_9.npy",
+      "feature_sha256": "d23d61a2e0729a433ee59a61e3ec79a031867b6f94050f04ef3ca33536cf524d",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_2_7_8_9.meta.json",
+      "metadata_sha256": "cbba6a6abb2afb655dff4c8d9507fbff53c395f13c4d82eea8b4b1aacca6de34"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_4_5_8_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_4_5_8_11.npy",
+      "feature_sha256": "7558ee3f015b066005b169c389c7afa9f679e400f7c51495047544a6287a9d89",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_4_5_8_11.meta.json",
+      "metadata_sha256": "65c0b1a8f46f36ae6efe6aada1c4ac0e1c2565319cb1d40a1a0b006ffeecf8b1"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_5_6_7_8",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_5_6_7_8.npy",
+      "feature_sha256": "2fe4a5b67266b789fba29eba94669720599c7128e5f9ae7a9a9a0ef192bc9fa5",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_5_6_7_8.meta.json",
+      "metadata_sha256": "74edcb6e68cba6427aef8ee1f432d0f4726272e50c009c5cde560b31ef6d6a63"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_0_6_8_9_10",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_6_8_9_10.npy",
+      "feature_sha256": "152b1ee4835a73fd054935ef6bf0a48c0014eac2144cb374b11d5b78a761fceb",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_0_6_8_9_10.meta.json",
+      "metadata_sha256": "e107d780dc173a47a05103850e84a1cc1ba432c4e80061e7ef16f3fd757456cc"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_1_2_3_7_10",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_1_2_3_7_10.npy",
+      "feature_sha256": "3c320d3b4339c99c851411ae5011c129f1c4d29bcab10a670e38d84f83478a16",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_1_2_3_7_10.meta.json",
+      "metadata_sha256": "b84d52d2c06b88546604c59b4c3cff19106937fa886c3e8781b24a7b49469aae"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_1_2_4_5_8",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_1_2_4_5_8.npy",
+      "feature_sha256": "e70e114d8f8ef775b48a45327c7d13856506b8959cc00021c918cc3e7be4b865",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_1_2_4_5_8.meta.json",
+      "metadata_sha256": "67a3c6f81634cb9058c4b634a68beb1c97178728324e70a0f785ded0ac8b9831"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_1_3_5_9_10",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_1_3_5_9_10.npy",
+      "feature_sha256": "20e0ab93c23db0b1d3fe571ef8493e394b6c55a1d70bb94cefec8f529861bb9a",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_1_3_5_9_10.meta.json",
+      "metadata_sha256": "af621adccb6da2d9764f0d9454cf67020f2191a55ce25d758fac0e5379a20649"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_1_4_6_7_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_1_4_6_7_11.npy",
+      "feature_sha256": "a1c8a348da4b032c175458f8d08e9aead49600f5f8cbc1d869f3decff34e431f",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_1_4_6_7_11.meta.json",
+      "metadata_sha256": "a3c1125c34d5edfb91b19539bc439519f5ea5787d82e2e984782abdd334664cc"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_1_5_7_8_10",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_1_5_7_8_10.npy",
+      "feature_sha256": "a01a6b54860c912f2f33edd935753049e8b2459c9a5579aebdc44d049416b9bf",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_1_5_7_8_10.meta.json",
+      "metadata_sha256": "41e2c671d1aafda82d445ab37863b1d8d656d21c5e1fb8aacbdaebbc4c720449"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_1_6_7_9_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_1_6_7_9_11.npy",
+      "feature_sha256": "5e8480c34fa877080959a51baf3417d123c3d53a08756f08d74140452f0de6cb",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_1_6_7_9_11.meta.json",
+      "metadata_sha256": "f411daf810d4d38d94e8a2d9735ece1754ef88d9c028dbb8b684a0dbb1dcbf06"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_1_7_8_9_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_1_7_8_9_11.npy",
+      "feature_sha256": "398c3249d4ecc08aa8ec067892a4aee897d0352ea6b99b8b004b8be49ec2a692",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_1_7_8_9_11.meta.json",
+      "metadata_sha256": "dfacbdc967c761c328360bd9f89dd0991387f7689d4872b8418276bffc617085"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_2_3_4_5_6",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_2_3_4_5_6.npy",
+      "feature_sha256": "844bb4a020629855a4e631f969c257bf938ebf3e404aabc116a4eba6eec95c31",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_2_3_4_5_6.meta.json",
+      "metadata_sha256": "3264ecdaa434139ef831956e368f013743f613d45c70cc7f80272968a2211325"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_2_3_5_6_10",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_2_3_5_6_10.npy",
+      "feature_sha256": "1dbaeba61634be4bfb73bed11952ed21c24d4efce1d2d24e73a614754b51b92d",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_2_3_5_6_10.meta.json",
+      "metadata_sha256": "60dd7f2b349ceef312d7ab171fe8cea8091d6b266cacf7b2b23707316acfc9f6"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_2_3_5_8_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_2_3_5_8_9.npy",
+      "feature_sha256": "0a8c6bbf51f0b0be6b0d0ddc3d210170c303daec7c8623aba9876005f834e680",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_2_3_5_8_9.meta.json",
+      "metadata_sha256": "bc6b894f85535e1290316c5d84ecf51fd7d786c569aba71a88af635ef2cd84f5"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_2_3_9_10_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_2_3_9_10_11.npy",
+      "feature_sha256": "ec501c30f08c40ceeb92a9a4c3dc4c12089c1139e93378389e067a678ac31314",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_2_3_9_10_11.meta.json",
+      "metadata_sha256": "f70b4c3ac3a7dba61bd8a015c8ce339903e89f87788df69d47faec88e1ded0f7"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_2_5_7_8_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_2_5_7_8_9.npy",
+      "feature_sha256": "b825eacfb3e405b7fb68171d3497e0375d6a69bf527b08a42ae1b13d6fb9d4ee",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_2_5_7_8_9.meta.json",
+      "metadata_sha256": "c8dfbebf8d755b970708b3bd01b2486a01958c18663cfaf4678e6fbd24ad10ae"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_2_7_8_9_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_2_7_8_9_11.npy",
+      "feature_sha256": "2aa2f284c1ae9c0220fa5750a7e5319fc7eae7ba61cab133ef8c76021dc60df3",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_2_7_8_9_11.meta.json",
+      "metadata_sha256": "0db557ae92e3a666ba93a49769915fe63c90f1721d96f946ec6ad65c414da8aa"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_3_4_5_10_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_3_4_5_10_11.npy",
+      "feature_sha256": "c4c7e759e584c3f85c36d3696c1e774d6d4d3a24964e18342788d63f134e6e4f",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_3_4_5_10_11.meta.json",
+      "metadata_sha256": "7ed66beba63dc32615620c3fc41b2aba986a1b0a7734864cbcf772e1e91b0dec"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_3_4_5_6_8",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_3_4_5_6_8.npy",
+      "feature_sha256": "584265d75aff7e23f538e1922c8b11a34164325fff0b199ce442e5bd586c6be3",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_3_4_5_6_8.meta.json",
+      "metadata_sha256": "b3fe256c8803ba7bb42111b1d2352615e6c6663f123c08844c2b02e0979893f6"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_3_4_5_7_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_3_4_5_7_9.npy",
+      "feature_sha256": "c424d07e7a0a5e5bccb78aecbb778cea7c8ca94a523862fe48c6a78758113e84",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_3_4_5_7_9.meta.json",
+      "metadata_sha256": "7b2a277d7d395cc0438a60f55573ce194af9efb40383dce14126a0af0ad38419"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_3_6_7_8_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_3_6_7_8_9.npy",
+      "feature_sha256": "2244e51a4da5db8aae74c9dc26afb0f27d39f303eb3aa211f04021019fe3117d",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_3_6_7_8_9.meta.json",
+      "metadata_sha256": "ef949fea02722e9aae9107be028d42f960d7ec2c26afe75f53bb63484698877c"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_4_6_7_8_9",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_4_6_7_8_9.npy",
+      "feature_sha256": "558a82c33398c37bcdece8c5ea0a2838942536b46fecbc23e13b9943300c3de8",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_4_6_7_8_9.meta.json",
+      "metadata_sha256": "13d84f2a457e037eb516f3b36375b04d9bc09eccf5b90dfae57d0bce304c923d"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "mask5_5_8_9_10_11",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_5_8_9_10_11.npy",
+      "feature_sha256": "7d1a5ff880909d796cbade1b35283f28395d4c4d311780e976719a615009dcde",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_mask5_5_8_9_10_11.meta.json",
+      "metadata_sha256": "74390dfaa8d30bc0d536f73a14499e33c71f742cc5d698006fea0e1ce5ef10c2"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LA_reversal",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_RA_LA_reversal.npy",
+      "feature_sha256": "02b103596e01721a5d1d30d78ed1189faf4ae7a5bbbd6bf5511d99781901d289",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_RA_LA_reversal.meta.json",
+      "metadata_sha256": "1159f7360b1d88bec77afad6e3e763e56bd92a1c0ec9a664342893b67bf6276f"
+    },
+    {
+      "cohort": "Ningbo",
+      "condition": "RA_LL_reversal",
+      "feature_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_RA_LL_reversal.npy",
+      "feature_sha256": "f10bb786c550a3412cf1e7276d5ac33d4b819ca23f308972537e824b0b85dede",
+      "metadata_path": "outputs/ecgfounder_mitigation_v1/features/ningbo_test_RA_LL_reversal.meta.json",
+      "metadata_sha256": "096b428486d1b51a9c38363418551df51b3ffeef26b41acb00876a5cc7d44f75"
+    }
+  ],
+  "preserved_original_artifact_hashes": {
+    "outputs/ecgfounder_mitigation_v1/FROZEN_PROTOCOL.json": "025292bb312e8668a34def6cc5e59fa02c8ffd75672d1fc1ced195f48b5dc45c",
+    "outputs/ecgfounder_mitigation_v1/run_mitigation.py": "2bf5aa9f87197fefd52b8b84b0ee6c125bd02f941e3d3a3fabd6db2b170e55f3",
+    "outputs/ecgfounder_mitigation_v1/engineering_pilot.py": "c8a16426fd5b2c86f7573166700385ac4bfb35c23c3743ad6f3960f625dbb59c",
+    "outputs/ecgfounder_mitigation_v1/ENGINEERING_PILOT.json": "0f103d7094f879f6ed0ae418d304a199cac44d6d9ffba22102e0cda63fb93e05",
+    "outputs/ecgfounder_mitigation_v1/ENGINEERING_GATE_STOP_REPORT.md": "f00798eeb7cb0128691c30d439262d96b2819c281f8c05fe425ff34179269e75",
+    "outputs/ecgfounder_mitigation_v1/REVIEW_NOTES_20261018.md": "accafd503fd03c5e1faea095e18ff82eaa61f13cf2e380435cc7fcded6a67836",
+    "outputs/ecgfounder_mitigation_v1/INDEPENDENT_REVIEW_AUDIT_20261018.json": "08ae1c873fc853f06df44289b91f1307bb5742e62d407a6af633ab9340b98b4e",
+    "outputs/ecgfounder_mitigation_v1/CONTINUATION_VALIDATION_INPUT_BINDINGS.json": "8fec42d3bff43b80593d3a064843d059a92faff92cd6763b85f89d13b5226471"
+  }
+}

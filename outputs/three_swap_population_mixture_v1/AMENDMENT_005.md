@@ -1,0 +1,3 @@
+# Engineering amendment 005
+
+The analysis preflight attempted to read a convenience `file_names` array stored as a NumPy object array. It stopped before metric computation under `allow_pickle=False`. The frozen selected order is independently bound by the exact 10,000-element patient ID array and outcome labels; file names are carried separately by `selection_initial.csv`, whose SHA-256 is in every new inference prediction. The verifier now checks patient IDs, labels and the cohort source hash rather than deserializing object metadata. No numerical methods or inclusion/order criteria changed. Failed attempt is preserved in `FAILED_ATTEMPT_005.json`.

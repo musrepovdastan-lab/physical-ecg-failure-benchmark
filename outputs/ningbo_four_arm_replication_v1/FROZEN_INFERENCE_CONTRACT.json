@@ -1,0 +1,43 @@
+{
+  "batch_size": 128,
+  "checkpoint_gate_bindings": {
+    "combined/104729": {
+      "checkpoint_sha256": "b5a561a59c00e8d1ce32a3fc76f45a43bbc4f0a3264535b893bae84ce7a3f476",
+      "decision": "PASS",
+      "gate_sha256": "baba9e9e4aeb731fd9666373e80a49cc43549d9657d5c353de17e033bcf7e354"
+    },
+    "combined/130363": {
+      "checkpoint_sha256": "29aabc12fc44db58c1e282715cf604f1a576c4f39ba3504c881ca3a7660c4328",
+      "decision": "PASS",
+      "gate_sha256": "9c1fa3f18a713d9fffb53bfe5080b8696dde29b9685e66bbfe14de42d584024f"
+    },
+    "combined/155921": {
+      "checkpoint_sha256": "59c012325adb76fa3d7496242f7e9ad19fc2ea2a278caedc125d37e86431bcc7",
+      "decision": "PASS",
+      "gate_sha256": "4e798275ec2b88f42ebbc99efb8aed9f984a8e49f93735b3ed460c246d0104fa"
+    },
+    "masking/104729": {
+      "checkpoint_sha256": "c4b1d645bcbbc5fc5cab384d88ae5ac93e2ff8a2e388d92fdb097a2ad455e642",
+      "decision": "PASS",
+      "gate_sha256": "0b494843ab6e82f63bacb227bb9ae8fd414d1d74b4714b24b934cebabf4f3b79"
+    },
+    "masking/130363": {
+      "checkpoint_sha256": "f03848a0271b01ea36d5ef7ff45739b9595eac61c268339e40b8133a4cde5d95",
+      "decision": "PASS",
+      "gate_sha256": "65eecb83a077950ca9fec54c06f4d4b4ec9cee8854513400c1d740fb965a63d4"
+    },
+    "masking/155921": {
+      "checkpoint_sha256": "d956223ffd422df68d619622c4c4c6f6406d1dc6c77ceb32e7a8c08553e0ce75",
+      "decision": "PASS",
+      "gate_sha256": "bfdddb26475b219771679bde5fe4149f9ece5abc43fc679c29363e5ac979f82b"
+    }
+  },
+  "conditions": 796,
+  "inference_source_sha256": "b1988fc98e3fbafec070b2f9a8142acfa9243722cd66e8955200104cdfe1023c",
+  "mode": "model.eval + no_grad/inference_mode + CUDA float16 autocast",
+  "preprocessing": "corrected recovery v2 masks and src.ecg_physics reversals; train mean replacement before normalization",
+  "protocol_sha256": "4718893819c305c0c8efbbe2f9a1e5760d2f622f3f2038fce3685a894acb74ae",
+  "test_data_read_before_this_freeze": false,
+  "test_label_order_sha256": "86cbb64aebc00abeb74c2cb728b01ded16a366f3a8127ff5edde55050aefb9db",
+  "test_order_sha256": "3dbaa4e067346997c74ed81ea33be89a2404c5caddeedb43d86502b38023a5ba"
+}

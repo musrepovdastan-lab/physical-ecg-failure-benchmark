@@ -1,0 +1,205 @@
+{
+  "diagnosis": "none; 128-record batch, frozen input path, exact stored transforms",
+  "protocol_sha256": "6cc3534e6c7e3f01f535578f995308b29f2425cae0ae2aa8ead093ccbfa6df87",
+  "replay_rows": [
+    {
+      "arm": "ordinary_resnet",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "existing_control",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "ordinary_resnet",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "existing_control",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_p010",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_p010",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_p025",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_p025",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 104729,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "ordinary_resnet",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "existing_control",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "ordinary_resnet",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "existing_control",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_p010",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_p010",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_p025",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_p025",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 130363,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "ordinary_resnet",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "existing_control",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "ordinary_resnet",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "existing_control",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_p010",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_p010",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_p025",
+      "batch_size": 128,
+      "condition": "clean",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    },
+    {
+      "arm": "physics_p025",
+      "batch_size": 128,
+      "condition": "RA_LL_reversal",
+      "kind": "new_model_ningbo_replay",
+      "max_abs_probability_delta": 0.0,
+      "n": 256,
+      "seed": 155921,
+      "status": "PASS",
+      "tolerance": 0.0001
+    }
+  ],
+  "status": "PASS"
+}

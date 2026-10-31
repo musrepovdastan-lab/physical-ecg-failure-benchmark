@@ -1,0 +1,11 @@
+{
+  "cohort": "Ningbo and HEEDB I0006 independent-confirmation; previously accessed/exploratory",
+  "completed_utc": "2026-10-17T10:04:22.410341+00:00",
+  "diagnostic_training": false,
+  "huang_ningbo_scores": "included via frozen protocol amendment 001",
+  "latency_benchmark": false,
+  "new_downloads": false,
+  "primary_analysis": "PASS",
+  "reserved_test_evaluated": false,
+  "status": "COMPLETE"
+}

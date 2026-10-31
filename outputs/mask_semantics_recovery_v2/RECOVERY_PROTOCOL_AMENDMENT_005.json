@@ -1,0 +1,14 @@
+{
+  "amended_utc": "2026-10-16T20:24:31.937267+00:00",
+  "amendment_binding_sha256": "3d1e18f955b028174d3467e5d9497cbba516b376f19f28e96335ca1a19f0d8ef",
+  "amendment_version": "005",
+  "bootstrap_task_binding_preserved": true,
+  "change": "Save and consume mask AP matrices in resample \u00d7 mask order. Transpose the 18 already-computed task matrices without changing values; retain original-orientation backups and all bootstrap bindings.",
+  "point_metrics_and_mask_inference_preserved": true,
+  "prior_amendment_binding_sha256": "0c5b75c8bbd9cd1501f7f93f32d587f1cb58ea6dea30c8501b5058519b1cdbd8",
+  "prior_protocol_binding_sha256": "b3c050887f99b2979ef20122374552298185e5a8f8004a769650783c1b77b28a",
+  "prior_runner_source_sha256": "12ed4e4b0c3da2595acfcf1274cfca39a948eab8d8e9443a5614e0efc78b6209",
+  "reason": "All 18 bootstrap tasks completed, but final aggregation found the saved mask AP matrix was condition \u00d7 resample while the immutable consumer contract is resample \u00d7 condition. The per-mask values, exact-mask series, clean/RA-LL series, and binding hashes are valid.",
+  "runner_source_sha256": "467407691539469f8d6046ce1678a95c6cb7a7d2a802aa373533035e943821e6",
+  "scope": "Bootstrap matrix orientation only; no predictions, bootstrap samples, endpoint values, label, split, contrast, frozen threshold, mask semantics, model, training, or tolerance changed."
+}

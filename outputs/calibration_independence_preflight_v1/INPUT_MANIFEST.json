@@ -1,0 +1,340 @@
+{
+  "scope": "read-only historical metadata/provenance; no waveform/prediction files",
+  "files": [
+    {
+      "path": "outputs/calibration_independence_preflight_v1/build_preflight.py",
+      "bytes": 23378,
+      "sha256": "9188932cf9464e00e7ba1cc8056b6b654ab33d81999aa0b4cb645c818cce1904"
+    },
+    {
+      "path": "NEXT_RESEARCH_DECISIONS_20261019.md",
+      "bytes": 13796,
+      "sha256": "e759d1ff168b2c3247a37e94459811735ddb41a72a0054e5def3d8892f73c63e"
+    },
+    {
+      "path": "LUNA_PROMPT_CALIBRATION_PREFLIGHT_20261019.md",
+      "bytes": 13867,
+      "sha256": "fb740e2de06e9aacf947bbacbe7958c5a324355494500e1fddd5f20d60863d9e"
+    },
+    {
+      "path": "outputs/three_swap_population_mixture_recovery_v2/REVIEW_NOTES_20261019.md",
+      "bytes": 5361,
+      "sha256": "bca8b82bea868ca1dfec7c3f0877fc3a3633f4d202effe8a30280c094539979e"
+    },
+    {
+      "path": "outputs/three_swap_population_mixture_recovery_v2/FINAL_RECOVERY_REPORT_RU.md",
+      "bytes": 9389,
+      "sha256": "44db184b088bd14edfd87c58f5b39039a9e8b3344809ef6adf2a1a0b76eceb72"
+    },
+    {
+      "path": "outputs/mixed_fault_calibration_v1/FROZEN_ANALYSIS_PROTOCOL.json",
+      "bytes": 19463,
+      "sha256": "95b4f75148502b59bed1141fd05f364283d2b21511d09d95510759b7742ffa8f"
+    },
+    {
+      "path": "outputs/mixed_fault_calibration_v1/calibration_split_indices.npz",
+      "bytes": 8307,
+      "sha256": "6dd8733b6ac0102ce66600ea1dff9a205db4a73d11af1af4c521656a72a471ec"
+    },
+    {
+      "path": "outputs/mixed_fault_calibration_v1/SPLIT_PROVENANCE.json",
+      "bytes": 454,
+      "sha256": "6dc346942eafea5edb81014e2a030ab3f284e6ca4a4e38111aca8ae908285101"
+    },
+    {
+      "path": "outputs/mixed_fault_calibration_v1/CALIBRATION_AND_PROVENANCE.json",
+      "bytes": 22806,
+      "sha256": "0017e07e4ab7b83282819f144263ccb49162ce89f43062f6baba13f63a7418e7"
+    },
+    {
+      "path": "outputs/mixed_fault_calibration_v2/FROZEN_COMPLETION_PROTOCOL.json",
+      "bytes": 12807,
+      "sha256": "658b12c968bf8e270de1a68882a3d39564b6e63b6e526766bbcd4c84eab781fd"
+    },
+    {
+      "path": "outputs/mixed_fault_calibration_v2/CALIBRATION_AND_PROVENANCE.json",
+      "bytes": 35833,
+      "sha256": "80e8056cc97b903ed1b74930df1088acffe70a32bbe3f6155a254a4ccb444942"
+    },
+    {
+      "path": "outputs/mixed_fault_calibration_v2/HUANG_CALIBRATION_AND_PROVENANCE.json",
+      "bytes": 12159,
+      "sha256": "98a1282797abcdd1eab6307f94de675841789a77cd5d1063a717d4f2c20387be"
+    },
+    {
+      "path": "outputs/mixed_fault_calibration_v2/HUANG_VALIDATION_INFERENCE_AUDIT.json",
+      "bytes": 1924,
+      "sha256": "7480e7a75f1a73a93730db16516fd28cff2ce4a0a19aef248312f71470536357"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/CANONICAL_RECORDS.json",
+      "bytes": 15013117,
+      "sha256": "2a217b4e01f8570fcb5e6f25feead6f04d4d490c558084c7b9ddf02389495da5"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/SPLIT_MEMBERSHIP.json",
+      "bytes": 8970998,
+      "sha256": "c6d15238edb4334e7565be1049557c3ce4410ab784f2519b1c7f620b51396388"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/TRAIN_VALIDATION_MEMBERSHIP.json",
+      "bytes": 7185700,
+      "sha256": "ef5fa717f0c9f5289a92418855c52a02fa70224ba1761db5cc60a5315f9f4ccb"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/SPLIT_LEAKAGE_PROOF.json",
+      "bytes": 304,
+      "sha256": "07d2d7745beef3334338d62bddbc594b638d02dce8de8cdb9c07287df93e7783"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/DATA_INGESTION_AUDIT.json",
+      "bytes": 662,
+      "sha256": "3097278a1e652819492cf60603cffe304e3c5c530ad01d01cf122765f24dfc0a"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/EXCLUDED_CONFLICT_GROUPS.json",
+      "bytes": 3532,
+      "sha256": "63c79f46c27fae3861e5ff4b719f6b6cebd66d4f3bcf5aefad2ecce469770a0f"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/EXCLUDED_CONFLICT_GROUPS.csv",
+      "bytes": 703,
+      "sha256": "6f0e1e81aa454465157cbcf38f26150cecfe5535d9f6ea4aae2e056a45c307b6"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/MODEL_PROVENANCE.json",
+      "bytes": 1111,
+      "sha256": "f5be081c09a94e6af48f3fe23e113de85b5b97616854acf0b463e7b6fb70a986"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/FROZEN_NINGBO_FOUR_ARM_PROTOCOL.json",
+      "bytes": 11423,
+      "sha256": "a0bb0ee5f7aaa068ebcba227523e3efb5855aec94cbc8a9a319c8b943f70e92c"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/TRAINING_TIMINGS.json",
+      "bytes": 2360,
+      "sha256": "6a4baca42a6fbb59bc61ee1f86dfe05786befbdb5b5d8930829f5598b8a1d753"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/TRAINING_STATUS_BY_ARM_SEED.csv",
+      "bytes": 3751,
+      "sha256": "b3402d6b7d2c0b837b99e459c79f4104ebb7a64ef497d598558bc4f8cd382cde"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/CALIBRATION_AND_PROVENANCE.json",
+      "bytes": 48482,
+      "sha256": "6b9a540a89821ead2e6db95e578009042e5885361e6787f96b6eeef5bb8f9cce"
+    },
+    {
+      "path": "outputs/mitigation_m2_ningbo_v1/TRAINING_STATUS_BY_SEED.csv",
+      "bytes": 451,
+      "sha256": "85d38430d3ed6669682ba791d9c3b96c526516e57efac1b9a1e60c39ee156cd5"
+    },
+    {
+      "path": "configs/FROZEN_MITIGATION_M1_PROTOCOL_v1.json",
+      "bytes": 3275,
+      "sha256": "248976f691003daa45c5f188c53f7cf75891f19f8723223477fc41e1d65667ce"
+    },
+    {
+      "path": "configs/FROZEN_MITIGATION_M2_NINGBO_PROTOCOL_v1.json",
+      "bytes": 5439,
+      "sha256": "2d7b605af175ef6d5b59b223a9ea37bb3f7d675c2c1ac3e27fff23fcd43e96b8"
+    },
+    {
+      "path": "outputs/heedb_four_arm_extension_v1/FROZEN_EXTENSION_PROTOCOL.json",
+      "bytes": 13861,
+      "sha256": "0cc31881f9342b74ea7da8165220858aa95161de9e256fb068751eefd2a898aa"
+    },
+    {
+      "path": "outputs/heedb_four_arm_extension_v1/CALIBRATION_PROVENANCE.json",
+      "bytes": 32793,
+      "sha256": "ff56414b5d96724f0fa08130db84b0f9a95dbc6fdcb48d381a39b3164082ad9f"
+    },
+    {
+      "path": "data/heedb_restricted/I0006/independent_confirmation_v1/selection_initial.csv",
+      "bytes": 1717878,
+      "sha256": "7af9986691871d57df5699e270b3cf4442bf5a733536356155a87094bac09de4"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/seed_104729/history.json",
+      "bytes": 2199,
+      "sha256": "477a05570e9a8ae26883dd88e12f52e7d35e46d3587fe911422be8b1ae6457f7"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/seed_104729/baseline.json",
+      "bytes": 656,
+      "sha256": "d22e7757bd804daf180576f36526ba510c3dddbab4f56fd22c061913b5cc07d8"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/seed_104729/checkpoint.pt",
+      "bytes": 3879349,
+      "sha256": "4ccbef0f71197f4156ac34cd742d6ab9210e4e7a6829867a137bd7fceb5ccf40"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/seed_104729/preprocessing.npz",
+      "bytes": 483,
+      "sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/seed_104729/validation.npz",
+      "bytes": 24196,
+      "sha256": "63a2627320b1d7bfecd11f7cb7e264f8ddd6e7b41406d80f69d37bcc3b4f3fb9"
+    },
+    {
+      "path": "outputs/mitigation_m2_ningbo_v1/seed_104729/checkpoint.pt",
+      "bytes": 3882893,
+      "sha256": "5e164b3496077b49a063c75c0d712c66531c907f3ef45db62d087f4877fe8d09"
+    },
+    {
+      "path": "outputs/mitigation_m2_ningbo_v1/seed_104729/preprocessing.npz",
+      "bytes": 483,
+      "sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0"
+    },
+    {
+      "path": "outputs/mitigation_m2_ningbo_v1/seed_104729/validation.npz",
+      "bytes": 24056,
+      "sha256": "36e25a4796279dbf379525a721200536db3488cd4bc258ea1d715056371ca03c"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/combined/seed_104729/history.json",
+      "bytes": 3277,
+      "sha256": "39740d38d93ef55eeddd6f33a6cf493b56ce93a4484c336323d68d6a4410eca3"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/combined/seed_104729/checkpoint.pt",
+      "bytes": 3880781,
+      "sha256": "b5a561a59c00e8d1ce32a3fc76f45a43bbc4f0a3264535b893bae84ce7a3f476"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/combined/seed_104729/preprocessing.npz",
+      "bytes": 483,
+      "sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/combined/seed_104729/validation.npz",
+      "bytes": 24626,
+      "sha256": "2e6d97a321a20367c4bf4df83f9f58c088bcf8f4caa6f705048de9cc34a656e8"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/seed_130363/history.json",
+      "bytes": 1861,
+      "sha256": "7ed3570612c328cc32d2c3edffad091fafc09d48902d8d271847ea8f51b8aa80"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/seed_130363/baseline.json",
+      "bytes": 656,
+      "sha256": "291c0fed34b1e29e76f264a0362cf0da23e419a9cca1ff308c0fe5908de1615d"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/seed_130363/checkpoint.pt",
+      "bytes": 3879349,
+      "sha256": "1baf5865b01456704980878a6e9ed72bb23e587636303b6a419b63c58ee0c600"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/seed_130363/preprocessing.npz",
+      "bytes": 483,
+      "sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/seed_130363/validation.npz",
+      "bytes": 24777,
+      "sha256": "dd408f673574ab4a0bd925c88a4a08134a206799397fc80b25757e667160458c"
+    },
+    {
+      "path": "outputs/mitigation_m2_ningbo_v1/seed_130363/checkpoint.pt",
+      "bytes": 3882893,
+      "sha256": "ef347b6bd2d1cc6e4fd649d299543e78ed23efa044976ac3cf66436c0d695c8f"
+    },
+    {
+      "path": "outputs/mitigation_m2_ningbo_v1/seed_130363/preprocessing.npz",
+      "bytes": 483,
+      "sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0"
+    },
+    {
+      "path": "outputs/mitigation_m2_ningbo_v1/seed_130363/validation.npz",
+      "bytes": 24508,
+      "sha256": "ca0c2f953bb260ff4a4d25b75b281db1ac0756d15d884274f364ecd871d02d74"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/combined/seed_130363/history.json",
+      "bytes": 3103,
+      "sha256": "812cfe08f25ef135359f7eaae821e8dcc17b34cfe4098c4dc95da753882eee35"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/combined/seed_130363/checkpoint.pt",
+      "bytes": 3880781,
+      "sha256": "29aabc12fc44db58c1e282715cf604f1a576c4f39ba3504c881ca3a7660c4328"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/combined/seed_130363/preprocessing.npz",
+      "bytes": 483,
+      "sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/combined/seed_130363/validation.npz",
+      "bytes": 24434,
+      "sha256": "a807da68bfe5d602b6f64898292db71169ebc32ac021d52588cabcefce038877"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/seed_155921/history.json",
+      "bytes": 1271,
+      "sha256": "11adb46fe2c877e17a929d67c83f22fb533181f8bde4b9462ed7b29055a0af7a"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/seed_155921/baseline.json",
+      "bytes": 656,
+      "sha256": "6638a03a17569977ece9b55b9419d8c01823e012bcff9910220c4a7553cc8d37"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/seed_155921/checkpoint.pt",
+      "bytes": 3879349,
+      "sha256": "9a71453fe35d94ccdc9bb05925abb6b1bedb1496c1d8105f0ede606904b35949"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/seed_155921/preprocessing.npz",
+      "bytes": 483,
+      "sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0"
+    },
+    {
+      "path": "outputs/ningbo_confirmation_v2/seed_155921/validation.npz",
+      "bytes": 25042,
+      "sha256": "2e7c6c805633e99460e98aa9ce8c92a75e3441691fdc4a63ffe85431c2e3b680"
+    },
+    {
+      "path": "outputs/mitigation_m2_ningbo_v1/seed_155921/checkpoint.pt",
+      "bytes": 3882893,
+      "sha256": "fd16f1df621764fd1229ed84e615f016226c00800943c064c021c9136de26eb8"
+    },
+    {
+      "path": "outputs/mitigation_m2_ningbo_v1/seed_155921/preprocessing.npz",
+      "bytes": 483,
+      "sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0"
+    },
+    {
+      "path": "outputs/mitigation_m2_ningbo_v1/seed_155921/validation.npz",
+      "bytes": 25123,
+      "sha256": "ee0aea6549b86fceb6504a63e0b2709a64e729c1326aebaf79f6f83134cc417e"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/combined/seed_155921/history.json",
+      "bytes": 3460,
+      "sha256": "0e64eaef933245ef79d566857daa2724761dcb6b0512491e23297a87a0ebf6ac"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/combined/seed_155921/checkpoint.pt",
+      "bytes": 3880781,
+      "sha256": "59c012325adb76fa3d7496242f7e9ad19fc2ea2a278caedc125d37e86431bcc7"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/combined/seed_155921/preprocessing.npz",
+      "bytes": 483,
+      "sha256": "eca17681cdb6dd7c37bb0d28da6e11e0e5a27da2ebc9d6c9053600e57b9a4be0"
+    },
+    {
+      "path": "outputs/ningbo_four_arm_replication_v1/combined/seed_155921/validation.npz",
+      "bytes": 24284,
+      "sha256": "0f5bd727db477abe8ba19475d82fa312f2d47ede42734033d69390b9f686ec80"
+    }
+  ]
+}

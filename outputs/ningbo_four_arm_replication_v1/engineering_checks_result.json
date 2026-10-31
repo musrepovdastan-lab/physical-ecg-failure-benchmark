@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "all_792_masks_are_unique_five_channel_combinations": "PASS",
+    "augmentation_precedes_normalization": "PASS",
+    "best_checkpoint_restore_and_resume_arm_protocol_integrity": "PASS",
+    "deterministic_sampling_and_combined_recipe_frequency": {
+      "counts": {
+        "clean": 6013,
+        "mask": 3026,
+        "reversal": 2961
+      },
+      "decision": "PASS",
+      "reversal_counts": {
+        "LA_LL_reversal": 1039,
+        "RA_LA_reversal": 971,
+        "RA_LL_reversal": 951
+      }
+    },
+    "mask_exactly_selected_five_and_unselected_preserved": "PASS",
+    "mask_sampling_covers_all_792_combinations": {
+      "decision": "PASS",
+      "max_count": 62,
+      "min_count": 17,
+      "n": 60000
+    },
+    "model_train_each_epoch_and_eval_for_validation_inference": "PASS",
+    "reversals_match_project_physics_implementation": "PASS",
+    "train_mean_sentinel_normalizes_to_zero": "PASS",
+    "train_statistics_and_positive_weights_train_only_inputs": "PASS"
+  },
+  "decision": "PASS",
+  "test_accessed": false
+}

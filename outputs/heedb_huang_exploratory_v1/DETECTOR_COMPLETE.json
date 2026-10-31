@@ -1,0 +1,9 @@
+{
+  "checkpoint_prefix": "outputs\\published_detector_pipeline_v1\\official_source\\LDenseNet_loadable\\LDenseNet",
+  "conditions": 2,
+  "decision": "PASS",
+  "detector_probabilities_sha256": "874882f834ef4a50460bcd286b93a5f7827f21f71d0529fb3858a9e38031407d",
+  "elapsed_seconds": 185.219,
+  "patients": 10000,
+  "tensorflow_version": "2.10.1"
+}

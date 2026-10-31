@@ -1,0 +1,42 @@
+{
+  "actual": {
+    "baseline_mean_twa": {
+      "clean": 0.6531360643308987,
+      "matched_contrast": 0.24598073691197764,
+      "mean_masks": 0.5737968702839059,
+      "ra_ll": 0.3278161333719282
+    },
+    "physics_mean_twa": {
+      "clean": 0.6640573652521541,
+      "matched_contrast": -0.06928439407768627,
+      "mean_masks": 0.5679400759127345,
+      "ra_ll": 0.6372244699904209
+    },
+    "physics_ra_ll_improvement_by_seed": {
+      "104729": 0.3630664041288816,
+      "130363": 0.2883728957705406,
+      "155921": 0.2767857099560558
+    }
+  },
+  "expected": {
+    "baseline_mean_twa": {
+      "clean": 0.6531,
+      "matched_contrast": 0.246,
+      "mean_masks": 0.5738,
+      "ra_ll": 0.3278
+    },
+    "physics_mean_twa": {
+      "clean": 0.6641,
+      "matched_contrast": -0.0693,
+      "mean_masks": 0.5679,
+      "ra_ll": 0.6372
+    },
+    "physics_ra_ll_improvement_by_seed": {
+      "104729": 0.3631,
+      "130363": 0.2884,
+      "155921": 0.2768
+    }
+  },
+  "status": "PASS",
+  "tolerance_absolute": 0.006
+}

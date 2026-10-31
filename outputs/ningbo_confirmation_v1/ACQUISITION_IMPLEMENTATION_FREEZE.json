@@ -1,0 +1,17 @@
+{
+  "acquisition_code": "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\src\\ningbo_acquisition_v1.py",
+  "acquisition_code_sha256": "747f6970c803a688c75cdd6e570a59c0a0a84891d6ab04d2cff63722818d8589",
+  "checksum_exception_artifact": "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\outputs\\ningbo_confirmation_v1\\ACQUISITION_CHECKSUM_EXCEPTION_v1.json",
+  "checksum_exception_artifact_sha256": "9aafa9d811b3cdb6ac5cbed0db080e27eea919325b01b092c2e78be98603578e",
+  "created_utc": "2026-08-30T04:21:07.654272+00:00",
+  "expected_files": 69810,
+  "expected_records": 34905,
+  "frozen_protocol": "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\configs\\FROZEN_NINGBO_CONFIRMATION_PROTOCOL_v1.json",
+  "frozen_protocol_sha256": "B6EEB79C0CD214FE7F41FDC526AEC64DF2E9D982F59A45E7F21D0108B5A3698E",
+  "official_manifest_sha256": "f29c2609343c38734f3a3d62be4a9052ca56a9e560e7ad2efc2118563fca2473",
+  "release": "PhysioNet Challenge 2021 v1.0.3",
+  "source_index_mode": "verified_local_cache",
+  "source_mapping_sha256": "ae749eebe8fc6efaf42e5e559b3fe494fab93c015306f1dd8c0659a7dc1fdd5e",
+  "stage": "official_ningbo_acquisition_implementation_freeze",
+  "workers": 4
+}

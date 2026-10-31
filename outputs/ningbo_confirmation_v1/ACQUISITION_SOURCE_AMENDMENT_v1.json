@@ -1,0 +1,195 @@
+{
+  "created_utc": "2026-08-29T16:38:38.608720+00:00",
+  "filename_alias": {
+    "header_path": "training/ningbo/g13/S23074.hea",
+    "logical_record": "JS23074",
+    "reason": "official header basename differs and references JS23074.mat",
+    "waveform_path": "training/ningbo/g13/JS23074.mat"
+  },
+  "logical_records": 34905,
+  "official_manifest_sha256": "f29c2609343c38734f3a3d62be4a9052ca56a9e560e7ad2efc2118563fca2473",
+  "physical_files": 69810,
+  "records_group_relocations": [
+    {
+      "logical_record": "JS11646",
+      "physical_group": 2,
+      "records_group": 1
+    },
+    {
+      "logical_record": "JS12646",
+      "physical_group": 3,
+      "records_group": 2
+    },
+    {
+      "logical_record": "JS13646",
+      "physical_group": 4,
+      "records_group": 3
+    },
+    {
+      "logical_record": "JS14646",
+      "physical_group": 5,
+      "records_group": 4
+    },
+    {
+      "logical_record": "JS15646",
+      "physical_group": 6,
+      "records_group": 5
+    },
+    {
+      "logical_record": "JS16646",
+      "physical_group": 7,
+      "records_group": 6
+    },
+    {
+      "logical_record": "JS17646",
+      "physical_group": 8,
+      "records_group": 7
+    },
+    {
+      "logical_record": "JS18646",
+      "physical_group": 9,
+      "records_group": 8
+    },
+    {
+      "logical_record": "JS19646",
+      "physical_group": 10,
+      "records_group": 9
+    },
+    {
+      "logical_record": "JS20646",
+      "physical_group": 11,
+      "records_group": 10
+    },
+    {
+      "logical_record": "JS21646",
+      "physical_group": 12,
+      "records_group": 11
+    },
+    {
+      "logical_record": "JS22646",
+      "physical_group": 13,
+      "records_group": 12
+    },
+    {
+      "logical_record": "JS23646",
+      "physical_group": 14,
+      "records_group": 13
+    },
+    {
+      "logical_record": "JS24646",
+      "physical_group": 15,
+      "records_group": 14
+    },
+    {
+      "logical_record": "JS25646",
+      "physical_group": 16,
+      "records_group": 15
+    },
+    {
+      "logical_record": "JS26646",
+      "physical_group": 17,
+      "records_group": 16
+    },
+    {
+      "logical_record": "JS27646",
+      "physical_group": 18,
+      "records_group": 17
+    },
+    {
+      "logical_record": "JS28646",
+      "physical_group": 19,
+      "records_group": 18
+    },
+    {
+      "logical_record": "JS29646",
+      "physical_group": 20,
+      "records_group": 19
+    },
+    {
+      "logical_record": "JS30646",
+      "physical_group": 21,
+      "records_group": 20
+    },
+    {
+      "logical_record": "JS31646",
+      "physical_group": 22,
+      "records_group": 21
+    },
+    {
+      "logical_record": "JS32646",
+      "physical_group": 23,
+      "records_group": 22
+    },
+    {
+      "logical_record": "JS33646",
+      "physical_group": 24,
+      "records_group": 23
+    },
+    {
+      "logical_record": "JS34646",
+      "physical_group": 25,
+      "records_group": 24
+    },
+    {
+      "logical_record": "JS35646",
+      "physical_group": 26,
+      "records_group": 25
+    },
+    {
+      "logical_record": "JS36646",
+      "physical_group": 27,
+      "records_group": 26
+    },
+    {
+      "logical_record": "JS37646",
+      "physical_group": 28,
+      "records_group": 27
+    },
+    {
+      "logical_record": "JS38646",
+      "physical_group": 29,
+      "records_group": 28
+    },
+    {
+      "logical_record": "JS39646",
+      "physical_group": 30,
+      "records_group": 29
+    },
+    {
+      "logical_record": "JS40646",
+      "physical_group": 31,
+      "records_group": 30
+    },
+    {
+      "logical_record": "JS41646",
+      "physical_group": 32,
+      "records_group": 31
+    },
+    {
+      "logical_record": "JS42646",
+      "physical_group": 33,
+      "records_group": 32
+    },
+    {
+      "logical_record": "JS43646",
+      "physical_group": 34,
+      "records_group": 33
+    },
+    {
+      "logical_record": "JS44646",
+      "physical_group": 35,
+      "records_group": 34
+    }
+  ],
+  "scientific_definitions_unchanged": [
+    "endpoints",
+    "split seed and fractions",
+    "model",
+    "faults",
+    "metrics",
+    "bootstrap",
+    "decision gates"
+  ],
+  "scope": "source enumeration and physical filename resolution only",
+  "version": "ningbo_acquisition_source_amendment_v1"
+}

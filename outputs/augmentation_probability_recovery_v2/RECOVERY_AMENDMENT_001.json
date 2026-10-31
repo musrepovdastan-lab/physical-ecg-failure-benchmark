@@ -1,0 +1,16 @@
+{
+  "amendment": 1,
+  "created_date": "2026-10-18",
+  "status": "POST_DIAGNOSTIC_BEFORE_DEPENDENT_ANALYSIS",
+  "parent_protocol": "RECOVERY_PROTOCOL.json",
+  "reason": "The first fixed-sample test replay passed the same checkpoint and canonical records but inferred 16 isolated records as a new batch. Its maximum absolute probability difference was 0.00048828125, above the predeclared 1e-6 tolerance. A diagnostic replay of the original first 128-record batch yielded maximum absolute difference 0.0 (mean 0.0; zero unequal entries), while the isolated 16-record replay again yielded 0.00048828125. This identifies batch-shape-dependent CUDA FP16 numerical behavior rather than a state/input mismatch.",
+  "change": "Keep the same 16 predeclared record indices, conditions and 1e-6 tolerance. For each sampled index, replay its containing contiguous 128-record chunk (the original inference batch context), then compare only the predeclared sampled rows. For the final partial chunk use its original length. Do not increase tolerance.",
+  "evidence": {
+    "unit": "Chapman/physics_p010/seed_104729",
+    "state_dicts_bitwise_equal": true,
+    "test_order_matches_canonical_split": true,
+    "clean_full_128_batch_max_abs_difference": 0.0,
+    "clean_isolated_16_record_max_abs_difference": 0.00048828125
+  },
+  "limits": "This is an explicitly post-hoc technical amendment, recorded after the original test results and after the diagnostic. It does not revise scientific outcomes or probabilities; no full test inference or training is added. Dependent recovery analysis resumes only with same-context replay passing the unchanged tolerance."
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-18",
+  "manifest_files_checked": 358,
+  "canonical_validation_units_checked": 12,
+  "validation_AP_AUC_max_error": 0.0,
+  "threshold_metric_values_recomputed": 720,
+  "threshold_metric_max_error": 4.996003610813204e-16,
+  "mixture_values_recomputed": 2268,
+  "mixture_max_error": 5.551115123125783e-16,
+  "calibration_decision_checks": 18,
+  "fit_nll_max_error": 0.0,
+  "fit_gradient_max": 7.771583983894315e-09,
+  "raw_AUROC_Brier_full_points_checked": 300,
+  "real_bootstrap_draw_checks": 900,
+  "bootstrap_draw_max_error": 2.220446049250313e-16,
+  "new_interval_summary_values_checked": 320,
+  "interval_summary_max_error": 4.996003610813204e-16,
+  "preserved_AP_groups": 48,
+  "limits": [
+    "No independent GPU replay or checkpoint tensor comparison rerun; saved restoration audit reports 12 exact state matches and 24 exact same-batch test probability matches.",
+    "Full 792-mask threshold metrics were inspected through source and manifest, with independent numeric checks on five fixed conditions per model. Full panel inference/bootstrap not repeated."
+  ]
+}

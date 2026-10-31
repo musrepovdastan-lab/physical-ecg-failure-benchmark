@@ -1,0 +1,19 @@
+{
+  "arms": [
+    "baseline",
+    "physics_aware"
+  ],
+  "conditions": 26,
+  "evaluator_source_sha256": "fca478a2fd0c5ac5def5cdb3e3a3a05cae14546d0e3a82b67c76281cf7812e3d",
+  "labels_or_predictions_used_to_change_plan": false,
+  "patients": 10000,
+  "protocol_sha256": "c339031084061dddf683f263319fd80c9d87bcec47df781eeeef0a3ed3399838",
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "selection_sha256": "e382156a3765622e23159b6eaf7c0834de519717e1f1d5e430d17740bb8230a6",
+  "source_cache_sha256": "3754f1bc726ca6003f7354abe837b08883909c14390cfef77cd33c9445b8c984",
+  "started_utc": "2026-09-24T16:31:01.342294+00:00"
+}
