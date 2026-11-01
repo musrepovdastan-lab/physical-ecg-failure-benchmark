@@ -1,0 +1,24 @@
+{
+  "checkpoint": "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\outputs\\published_detector_pipeline_v1\\official_source\\LDenseNet_loadable\\LDenseNet",
+  "checkpoint_index_sha256": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1",
+  "class_names": [
+    "clean",
+    "RA_LA",
+    "RA_LL",
+    "LA_LL"
+  ],
+  "conditions": [
+    "clean",
+    "RA_LA_reversal",
+    "RA_LL_reversal",
+    "LA_LL_reversal"
+  ],
+  "legacy_RA_LL_max_abs_delta": 0.0,
+  "legacy_clean_max_abs_delta": 0.0,
+  "legacy_order_match": true,
+  "prediction_sha256": "dd7d80f8e91ca323b59c0067dd6e89baf0ddffd98202d3f5ab4012f49ae2fd1a",
+  "record_order_sha256": "c33cc9c7e6a11600ab82ea6bc6d0028b40bfb0b49a9b5ace3b6844030f39b85b",
+  "rows": 6981,
+  "status": "PASS",
+  "tolerance": 1e-05
+}

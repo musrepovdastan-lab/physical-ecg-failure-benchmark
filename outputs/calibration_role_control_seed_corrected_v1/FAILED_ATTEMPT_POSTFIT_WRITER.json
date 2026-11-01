@@ -1,0 +1,11 @@
+{
+  "status": "FAILED_INFRASTRUCTURE_AFTER_9_FITS",
+  "exception_type": "TypeError",
+  "exact_message": "atomic_npz() got multiple values for argument 'p'",
+  "stage": "first calibration_A prediction NPZ write in control.py run",
+  "training_gates_passed": 9,
+  "training_repeated": false,
+  "recovery": "postprocess.py reverified all nine best checkpoints and produced calibration_A/threshold_B scores using the frozen intended prediction path",
+  "valid_final_outputs": false,
+  "note": "Exact exception captured from the initial launcher traceback. The failed frozen runner remains unchanged."
+}

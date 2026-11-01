@@ -1,0 +1,47 @@
+{
+  "full_process": {
+    "cuda_device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+    "rng_parts": {
+      "numpy": "60600b77cc9493c8cc7393e523f9bd1ffb446c96778d83598fb5f638ce406757",
+      "python": "3db25adf717b57ba9c59b9825fab935fe4f8c2c10782dae93dd775c9ecd6f1cf",
+      "torch_cpu": "24e7f67fa1c8eb2ff7669089955cbb8e2038ed4fa679ab235e074d01ffdecefe",
+      "torch_cuda": [
+        "a6df7fb326a5ca5609b2928ccffb6d4260ffcf43d1160e59557e45f62dbbf8fa"
+      ]
+    },
+    "rng_sha256": "5fa4aaf91073f6d83273ad8ea55116d6873e4d11d1fec2e2bfcba8e636a6e00f",
+    "state_sha256": "46e98980e1ffc054dbc16a2fea2b8c31a44ed2e032783a8734726dfb37029140"
+  },
+  "interrupted_first_process": {
+    "cuda_device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+    "rng_parts": {
+      "numpy": "60600b77cc9493c8cc7393e523f9bd1ffb446c96778d83598fb5f638ce406757",
+      "python": "3db25adf717b57ba9c59b9825fab935fe4f8c2c10782dae93dd775c9ecd6f1cf",
+      "torch_cpu": "24e7f67fa1c8eb2ff7669089955cbb8e2038ed4fa679ab235e074d01ffdecefe",
+      "torch_cuda": [
+        "201b1f65ce7aba896bb539fb2f5b22eb732d3d31defd4e3a8949978a1ae157cf"
+      ]
+    },
+    "rng_sha256": "4c7d6f9cc1c8b10bb07fb04cc812baa3f4eba7fa4ac9b5a370934785a0b92674",
+    "state_sha256": "ad4e3d47def29fd2ae0bae26ff8904b4a4be1bd7556ccca2cc8fa9b98a527096"
+  },
+  "interrupted_then_resumed": {
+    "cuda_device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+    "rng_parts": {
+      "numpy": "60600b77cc9493c8cc7393e523f9bd1ffb446c96778d83598fb5f638ce406757",
+      "python": "3db25adf717b57ba9c59b9825fab935fe4f8c2c10782dae93dd775c9ecd6f1cf",
+      "torch_cpu": "24e7f67fa1c8eb2ff7669089955cbb8e2038ed4fa679ab235e074d01ffdecefe",
+      "torch_cuda": [
+        "a6df7fb326a5ca5609b2928ccffb6d4260ffcf43d1160e59557e45f62dbbf8fa"
+      ]
+    },
+    "rng_sha256": "5fa4aaf91073f6d83273ad8ea55116d6873e4d11d1fec2e2bfcba8e636a6e00f",
+    "state_sha256": "46e98980e1ffc054dbc16a2fea2b8c31a44ed2e032783a8734726dfb37029140"
+  },
+  "rng_componentwise_equal": true,
+  "same_final_model_state": true,
+  "same_final_rng_state": true,
+  "scope_note": "Engineering check only; not an additional fit, scientific result, or proof that all nine full training trajectories were independently replayed.",
+  "status": "PASS",
+  "test": "two-epoch fixed miniature trajectory, continuous versus checkpoint/resume in fresh process"
+}

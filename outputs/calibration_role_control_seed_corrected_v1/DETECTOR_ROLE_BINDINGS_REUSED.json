@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "artifacts": [
+    {
+      "role": "calibration_A",
+      "rows": 872,
+      "conditions": [
+        "clean",
+        "RA_LA_reversal",
+        "RA_LL_reversal",
+        "LA_LL_reversal"
+      ],
+      "classes": [
+        "clean",
+        "RA_LA",
+        "RA_LL",
+        "LA_LL"
+      ],
+      "sha256": "dcc753fad1c7d78de8b5f0762a5b22212bb6de2d74a3b01bc73fb8371f668203",
+      "record_ids_sha256": "c9de86fa2f39e7a7c7b71827dd5c9369aa081e8cde63e8500b5b2c9d679d407f",
+      "checkpoint": "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\outputs\\published_detector_pipeline_v1\\official_source\\LDenseNet_loadable\\LDenseNet",
+      "checkpoint_data_sha256": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1"
+    },
+    {
+      "role": "threshold_B",
+      "rows": 872,
+      "conditions": [
+        "clean",
+        "RA_LA_reversal",
+        "RA_LL_reversal",
+        "LA_LL_reversal"
+      ],
+      "classes": [
+        "clean",
+        "RA_LA",
+        "RA_LL",
+        "LA_LL"
+      ],
+      "sha256": "f40f53e61be3ce66d994f7dc18d33bd5d628c9009b198532327e4ebb894106d3",
+      "record_ids_sha256": "436f38f1d4aa5d8d94d7b558f43c6ea10a7164ccbc4b780f732f2d324fc3af00",
+      "checkpoint": "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\outputs\\published_detector_pipeline_v1\\official_source\\LDenseNet_loadable\\LDenseNet",
+      "checkpoint_data_sha256": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1"
+    }
+  ],
+  "same_source_input_order_verified": true
+}

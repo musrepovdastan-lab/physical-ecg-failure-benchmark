@@ -1,0 +1,26 @@
+{
+  "active_archive_sha256": "e0740973d93d275d1c003cb7660063f1300ecdb28c9413cca9c9cc783d0a9827",
+  "all_draws_finite": true,
+  "cohort_archives": {
+    "HEEDB": {
+      "keys": 350,
+      "path": "HEEDB_TWA_PAIRED_BOOTSTRAP_DRAWS.npz",
+      "sha256": "b9cdc26ccb388d70c49b15043829eea06d6bd81bdc73adc0750a6061c1e57a1b"
+    },
+    "Ningbo_test": {
+      "keys": 350,
+      "path": "Ningbo_test_TWA_PAIRED_BOOTSTRAP_DRAWS.npz",
+      "sha256": "4d8abb20e1105588b8c7ea14573116138483071861af6e71f5f00ba1711e0e3d"
+    }
+  },
+  "draw_shape": [
+    1000
+  ],
+  "duplicate_keys": 0,
+  "exact_value_mismatches": 0,
+  "expected_keys": 700,
+  "full_statistics_recomputed": false,
+  "rebuilt_keys": 700,
+  "status": "PASS",
+  "tested_combiner_sha256": "3dfced380b5ec6967a3329366a48f2b9c620381faa5fcfcf6b8abedade990846"
+}

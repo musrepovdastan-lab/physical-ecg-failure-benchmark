@@ -1,0 +1,35 @@
+{
+  "calibration_A_loaded": false,
+  "completed_utc": "2026-10-31T19:09:56.451499+00:00",
+  "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "mask_removed_indices": [
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
+  "membership_counts": {
+    "calibration_A": 872,
+    "model_selection": 1744,
+    "test": 6981,
+    "threshold_B": 872,
+    "train": 24430
+  },
+  "membership_file_sha256": "44eac1c840443c1df315ea692d7035adb04d99d44caa36d0ef63edd95fdd4515",
+  "physical_transform_shape": [
+    12,
+    1000
+  ],
+  "selection_predictions_finite": true,
+  "selection_predictions_shape": [
+    2,
+    3
+  ],
+  "selection_rows_in_smoke": 2,
+  "status": "PASS",
+  "test_loaded": false,
+  "threshold_B_loaded": false,
+  "train_gradient_finite": true,
+  "train_rows_in_smoke": 2
+}

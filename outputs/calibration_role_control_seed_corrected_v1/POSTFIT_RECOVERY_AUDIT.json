@@ -1,0 +1,10 @@
+{
+  "A_B_prediction_files": 36,
+  "calibration_pass_rows": 36,
+  "calibration_threshold_rows": 36,
+  "completed_fits_reused": 9,
+  "frozen_protocol_sha256": "d1edfd3e55af95cebd2c93d596e43809ba5670c2ee8e2ec43bc568b90a0a8e14",
+  "postfit_recovery_runner_sha256": "005e42fb1d61464f494edf0fbd43eaca46787c3d6e2df48b8c5fe63578431a0b",
+  "status": "PASS",
+  "training_repeated": false
+}

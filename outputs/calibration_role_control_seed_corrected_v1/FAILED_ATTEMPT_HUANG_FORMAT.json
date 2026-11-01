@@ -1,0 +1,10 @@
+{
+  "status": "FAILED_TEMPORARY_RECOVERY_NOT_USED",
+  "exception_type": "ValueError",
+  "exact_message": "invalid batch or predicted detector classes",
+  "stage": "temporary calibration-role Huang path",
+  "cause": "The shared adapter validates HEEDB arrays with shape (N,12,5000), while the Ningbo role arrays were (N,12,1000). A temporary generalized lead-swap continuation was then shown not to follow the frozen full-Huang preprocessing path.",
+  "resolution": "Quarantined all temporary A/B predictions and locks. Frozen postprocess.py regenerated the valid outputs from full 500-Hz inputs using diagnostic preprocessing.",
+  "training_repeated": false,
+  "temporary_outputs": "failed_attempts/postfit_recovery_direct_ningbo/"
+}

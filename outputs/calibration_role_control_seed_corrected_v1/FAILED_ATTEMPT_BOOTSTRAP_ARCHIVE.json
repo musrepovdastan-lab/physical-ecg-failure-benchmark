@@ -1,0 +1,10 @@
+{
+  "status": "FAILED_OUTPUT_PACKAGING_REPAIRED",
+  "exception_type": "key-schema verification failure",
+  "exact_message": "old/new paired bootstrap draw keys differ",
+  "stage": "independent old/new comparison after full-q bootstrap calculation",
+  "cause": "The frozen evaluator draw combiner prefixed the cohort a second time, although each per-cohort draw key already included it.",
+  "resolution": "Preserved the bad combined archive under failed_attempts/double_prefixed_draw_archive/. Rebuilt active PAIRED_BOOTSTRAP_DRAWS_ALL.npz from the two per-cohort archives; all 700 keys and 1,000-draw vectors now pass independent verification.",
+  "metric_values_changed": false,
+  "training_or_inference_repeated": false
+}

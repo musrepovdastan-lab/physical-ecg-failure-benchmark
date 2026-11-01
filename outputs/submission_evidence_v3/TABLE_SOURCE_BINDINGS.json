@@ -1,0 +1,14 @@
+{
+  "scope": "Aggregate table export only; no training, inference, calibration or bootstrap generation.",
+  "input_sha256": {
+    "outputs/calibration_role_control_seed_corrected_v1/MIXTURE_METRICS_MEAN_SD.csv": "797157e79958ac6ebc2e62785148a72810a2f8e69c91f704bac66d67fdc4deb8",
+    "outputs/calibration_role_control_seed_corrected_v1/MIXTURE_METRICS_BY_SEED.csv": "d7a331b117702be2c100fedeabf09f80bc65161fc037c1f02a7f015f6c328b41",
+    "outputs/calibration_role_control_seed_corrected_v1/TWA_PAIRED_CONTRASTS_POINT_AND_CI.csv": "b90877f0abfa6038b0fe05bc8296aa7454913eb57018e83fdfd268989cee1484",
+    "outputs/calibration_role_control_seed_corrected_v1/AP_LEADERSHIP_OLD_VS_CORRECTED.csv": "09c9090e0fff75cbe5e5323df3efbe84b0ee1a3d2d248406f5991b713ecbef5b"
+  },
+  "export_rows": {
+    "means": 112,
+    "by_seed": 336,
+    "contrasts": 700
+  }
+}

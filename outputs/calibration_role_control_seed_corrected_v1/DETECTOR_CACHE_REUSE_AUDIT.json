@@ -1,0 +1,103 @@
+{
+  "detector_inference_will_not_be_repeated": true,
+  "reused_detector_caches": [
+    {
+      "classes": [
+        "clean",
+        "RA_LA",
+        "RA_LL",
+        "LA_LL"
+      ],
+      "conditions": [
+        "clean",
+        "RA_LA_reversal",
+        "RA_LL_reversal",
+        "LA_LL_reversal"
+      ],
+      "detector_checkpoint": "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\outputs\\published_detector_pipeline_v1\\official_source\\LDenseNet_loadable\\LDenseNet",
+      "detector_checkpoint_data_sha256": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1",
+      "membership_sha256": "44eac1c840443c1df315ea692d7035adb04d99d44caa36d0ef63edd95fdd4515",
+      "record_order_sha256": "c9de86fa2f39e7a7c7b71827dd5c9369aa081e8cde63e8500b5b2c9d679d407f",
+      "reused_copy": "outputs/calibration_role_control_seed_corrected_v1/detector/calibration_A.npz",
+      "role": "calibration_A",
+      "rows": 872,
+      "sha256": "dcc753fad1c7d78de8b5f0762a5b22212bb6de2d74a3b01bc73fb8371f668203",
+      "source": "outputs/calibration_role_control_v1/detector/calibration_A.npz",
+      "status": "PASS"
+    },
+    {
+      "classes": [
+        "clean",
+        "RA_LA",
+        "RA_LL",
+        "LA_LL"
+      ],
+      "conditions": [
+        "clean",
+        "RA_LA_reversal",
+        "RA_LL_reversal",
+        "LA_LL_reversal"
+      ],
+      "detector_checkpoint": "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\outputs\\published_detector_pipeline_v1\\official_source\\LDenseNet_loadable\\LDenseNet",
+      "detector_checkpoint_data_sha256": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1",
+      "membership_sha256": "44eac1c840443c1df315ea692d7035adb04d99d44caa36d0ef63edd95fdd4515",
+      "record_order_sha256": "436f38f1d4aa5d8d94d7b558f43c6ea10a7164ccbc4b780f732f2d324fc3af00",
+      "reused_copy": "outputs/calibration_role_control_seed_corrected_v1/detector/threshold_B.npz",
+      "role": "threshold_B",
+      "rows": 872,
+      "sha256": "f40f53e61be3ce66d994f7dc18d33bd5d628c9009b198532327e4ebb894106d3",
+      "source": "outputs/calibration_role_control_v1/detector/threshold_B.npz",
+      "status": "PASS"
+    },
+    {
+      "classes": [
+        "clean",
+        "RA_LA",
+        "RA_LL",
+        "LA_LL"
+      ],
+      "conditions": [
+        "clean",
+        "RA_LA_reversal",
+        "RA_LL_reversal",
+        "LA_LL_reversal"
+      ],
+      "detector_checkpoint": "C:\\Users\\User\\Documents\\AI_research_tests\\03_new_biomedical_research\\projects\\03_physical_ecg_failure_benchmark\\outputs\\published_detector_pipeline_v1\\official_source\\LDenseNet_loadable\\LDenseNet",
+      "record_order_sha256": "c33cc9c7e6a11600ab82ea6bc6d0028b40bfb0b49a9b5ace3b6844030f39b85b",
+      "reused_copy": "outputs/calibration_role_control_seed_corrected_v1/detector/Ningbo_test.npz",
+      "role": "Ningbo_test",
+      "rows": 6981,
+      "sha256": "dd7d80f8e91ca323b59c0067dd6e89baf0ddffd98202d3f5ab4012f49ae2fd1a",
+      "source": "outputs/calibration_role_control_v1/detector/Ningbo_test.npz",
+      "status": "PASS"
+    },
+    {
+      "checkpoint_index_sha256": "45286e770ef023a5e9d568f8b44024237954afe5ab6b772f09659447a6d8b4a1",
+      "classes": [
+        "clean",
+        "RA_LA",
+        "RA_LL",
+        "LA_LL"
+      ],
+      "conditions_expected_after_bound_reordering": [
+        "clean",
+        "RA_LA_reversal",
+        "RA_LL_reversal",
+        "LA_LL_reversal"
+      ],
+      "conditions_in_cache_order": [
+        "clean",
+        "RA_LL_reversal",
+        "RA_LA_reversal",
+        "LA_LL_reversal"
+      ],
+      "prior_block_replay_status": "PASS",
+      "role": "HEEDB_detector",
+      "sha256": "8186e38275627ca0e4221d2c6ac432f0cdcf04e5e44a27f20479597a90ae515a",
+      "source": "outputs/three_swap_population_mixture_recovery_v2/huang_detector_probabilities.npz",
+      "source_order_sha256": "7af9986691871d57df5699e270b3cf4442bf5a733536356155a87094bac09de4",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

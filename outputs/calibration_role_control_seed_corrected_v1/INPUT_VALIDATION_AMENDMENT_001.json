@@ -1,0 +1,50 @@
+{
+  "amendment": "INPUT_VALIDATION_AMENDMENT_001",
+  "purpose": "Separate immutable scientific inputs from final documentation updated after the original freeze; do not alter/re-hash the frozen protocol.",
+  "frozen_protocol_sha256": "d1edfd3e55af95cebd2c93d596e43809ba5670c2ee8e2ec43bc568b90a0a8e14",
+  "frozen_protocol_sha256_text": "d1edfd3e55af95cebd2c93d596e43809ba5670c2ee8e2ec43bc568b90a0a8e14",
+  "historical_document_snapshots": {
+    "README.md": {
+      "snapshot_path": "frozen_input_snapshots/README.md",
+      "expected_frozen_sha256": "8f00a1cf87dc136f30c03dc2438ca9ba689e3f75b13b9d556c6cdad4a51ebfa6",
+      "snapshot_sha256": "8f00a1cf87dc136f30c03dc2438ca9ba689e3f75b13b9d556c6cdad4a51ebfa6",
+      "git_commit": "3d80a8ec62a41173c51a96838e989d7064c7cf43",
+      "git_blob_oid": "42d058102f10d4d3b0cdc515263007b3e4808897",
+      "source": "verified git HEAD blob"
+    },
+    "docs/RESULTS.md": {
+      "snapshot_path": "frozen_input_snapshots/docs/RESULTS.md",
+      "expected_frozen_sha256": "d5f6aad243a4a6c241b34808bbeb0057bf3af0f25b7bbf68d37c6256abe992d8",
+      "snapshot_sha256": "d5f6aad243a4a6c241b34808bbeb0057bf3af0f25b7bbf68d37c6256abe992d8",
+      "git_commit": "3d80a8ec62a41173c51a96838e989d7064c7cf43",
+      "git_blob_oid": "61915ea6ee9c66c705d0587e64bdbf72662bdb02",
+      "source": "verified git HEAD blob"
+    },
+    "docs/next_steps.md": {
+      "snapshot_path": "frozen_input_snapshots/docs/next_steps.md",
+      "expected_frozen_sha256": "44afaa883c982fc9c5e9979244374f7d87dc76f8b81854aeaf02b1f8f68f7cb7",
+      "snapshot_sha256": "44afaa883c982fc9c5e9979244374f7d87dc76f8b81854aeaf02b1f8f68f7cb7",
+      "git_commit": "3d80a8ec62a41173c51a96838e989d7064c7cf43",
+      "git_blob_oid": "1a3aa765c358fff019da992530a2ca84f3ee07f3",
+      "source": "verified git HEAD blob"
+    }
+  },
+  "current_documentation_sha256": {
+    "README.md": "f9da8e97535af4d64aa23de43ce4d75b9c1e19189093d4488cbf97587b8ac3a8",
+    "docs/RESULTS.md": "e0dd1578d5252d8a89d9ca9800e61304888c19b0fd7321d477a607825ca71acb",
+    "docs/next_steps.md": "3dbd2ba6e6c2c5edee9249f911e426ab30910dcc7e4d986c29716edf9f262cc0"
+  },
+  "scientific_input_count_strictly_checked": 65,
+  "strict_inputs": "Every input_file_sha256 entry except exactly the three listed mutable documentation paths is checked against the original frozen digest at runtime.",
+  "training_runner_checkpoint_binding": "f93928e7a80c6158a296cf4d8f3bf7e77e15aa41d41fbaa6af5f1a58a38d4f09",
+  "control_replay_sha256": "855beaba60a9e16c927a6fb73416f8900933e7b6185f0be05d40bcd3b47b075a",
+  "train_all_fresh_sha256": "4d7e19d122dc5b0c4dd46d652b04bf2caecb2591729036e0e257d86550554e40",
+  "preserved_original_frozen_protocol": true,
+  "historical_snapshots_verified_against_original_hashes": true,
+  "documentation_update_20261101": {
+    "amendment": "AMENDMENT_004.md",
+    "previous_binding_sha256": "674dab9456f29cfcbc9eebde61e033101d84939d3cad6403cc90562906f3eb31",
+    "previous_binding_snapshot": "documentation_before_publication_20261101/INPUT_VALIDATION_AMENDMENT_001.json",
+    "scope": "Current documentation only; original scientific hashes and historical snapshots remain unchanged."
+  }
+}

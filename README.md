@@ -5,7 +5,8 @@ channels and physically valid limb-electrode cable reversals. The project covers
 Chapman-Shaoxing, Ningbo and restricted HEEDB evaluations, mitigation experiments,
 chest-only and ECGFounder baselines, and a published detection/correction pipeline.
 
-Start with the [latest mentor report](outputs/mentor_update_20261020/REPORT_TEXT_FOR_REVIEW.txt)
+Start with the [updated manuscript](outputs/submission_evidence_v3/MANUSCRIPT_DRAFT.md),
+[corrected-series tables](outputs/submission_evidence_v3/SEED_CORRECTED_RESULTS.md)
 and [results guide](docs/RESULTS.md). This repository contains project-owned code,
 tests, frozen protocols and selected aggregate results.
 
@@ -30,7 +31,7 @@ analyses are retained; use the corrected results linked in [docs/RESULTS.md](doc
 
 Documentation: [methods](docs/methods.md),
 [Ningbo protocol notes](docs/ningbo_protocol_notes.md),
-[reproduction](docs/REPRODUCING.md) and [open decisions](docs/next_steps.md).
+[reproduction](docs/REPRODUCING.md) and [current status](docs/next_steps.md).
 
 ## Quick start: no datasets or GPU needed
 
@@ -63,7 +64,7 @@ Some orchestration and latency utilities were written for Windows/CUDA.
 
 ## Research status
 
-The latest synthesis is dated 20 October 2026. The evidence supports a bounded
+The latest synthesis is dated 1 November 2026. The evidence supports a bounded
 comparative evaluation: missing-channel robustness does not automatically predict
 robustness to simulated cable reversals. Mitigation trade-offs depend on cohort,
 endpoint, fault composition and operating point. Universal superiority and
@@ -71,9 +72,17 @@ clinical effectiveness have not been established.
 
 Earlier masking analyses were corrected in separate recovery studies. The
 Transformer M3 branch failed its full prespecified criterion. HEEDB evaluations
-use coded proxy targets. The calibration-role control has an initialization-seed
-caveat; its correction is the [planned technical follow-up](docs/next_steps.md).
-See the [results guide](docs/RESULTS.md) for the evidence and its limits.
+use coded proxy targets. The calibration-role initialization-order defect has
+been addressed in a separate corrected nine-fit series, and its predictions and
+700 bootstrap comparisons are complete. This is a sensitivity check on prior
+data; the old initial weights are unknown, so the result does not isolate a pure
+causal seed effect. At equal-three-swap q=0.1, augmentation-versus-ordinary AP
+gains persist, but p050/combined AP advantages over Huang are not supported by
+the paired intervals in either cohort. Manuscript version 3 distinguishes these
+results from historical model families; version 2 remains unchanged.
+See the [results guide](docs/RESULTS.md), the
+[corrected-series report](outputs/calibration_role_control_seed_corrected_v1/FINAL_REPORT_RU.md),
+and the [current status](docs/next_steps.md) for evidence and limitations.
 
 ## Publication scope
 

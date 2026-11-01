@@ -1,22 +1,39 @@
-# Next step: correct initialization reproducibility
+# Initialization-seed correction: reviewed and incorporated
 
-The identified technical follow-up is a corrected rerun of the calibration-role
-control. In the original runner, the seed was set after model construction, so
-it did not determine the initial weights.
+The confirmed initialization-order defect in the original calibration-role
+control has been addressed in the separate corrected series. In the original
+runner, model construction preceded seed setup, so the configured seed did not
+determine its initial weights. The corrected run sets Python, NumPy, Torch CPU
+and CUDA seeds before constructing the model.
 
-1. Create a separate corrected runner: set Python, NumPy, Torch and CUDA seeds
-   before constructing the model. Save the initial weights and RNG states.
-2. Verify that the same seed gives identical initial weights across methods and
-   repeated fresh processes, and that different seeds change the initialization.
-3. Repeat the same nine fits: ordinary, physics-aware p050 and combined training,
-   each with seeds 104729, 130363 and 155921. Keep the data roles, preprocessing,
-   recipes and checkpoint-selection rules fixed.
-4. Recompute predictions, calibration, thresholds and statistical comparisons
-   from the new checkpoints, then report whether the conclusions change.
+Completed package: [calibration_role_control_seed_corrected_v1](../outputs/calibration_role_control_seed_corrected_v1/).
+It contains the frozen protocol, corrected runner, all nine fits, initial-state
+and resume audits, A/B calibration and threshold locks, predictions for the
+existing Ningbo and HEEDB cohorts, 700 paired bootstrap groups, old/new
+comparisons, reports and a hash manifest. All stated computational audits pass.
 
-The original fits remain historical results. The corrected series will be a
-reproducibility/sensitivity check on previously examined data.
+The original fits remain unchanged historical results. The corrected series is
+a reproducibility and sensitivity check on previously examined data, not an
+independent external validation. Since the original initial weights are not
+known, the old/new difference cannot isolate the causal effect of the seed-order
+bug. Initialization matching was tested across methods and fresh processes;
+full independent repetitions of all nine trajectories were not performed.
 
-The nine original fits took 70.3 GPU minutes in total on the local RTX 5070 Laptop
-GPU. This is a reference for training cost; downstream evaluation takes additional
-time. The corrected runner and rerun have not yet been completed.
+The nine original fits took 70.3 GPU minutes. The corrected fits took 74.70 GPU
+minutes on the local RTX 5070 Laptop GPU. Corrected-series inference took about
+12.9 minutes across both cohorts; full metrics and statistics took about 5.5
+minutes. See the training report for per-run timings and measurement scope.
+
+The follow-up reproduction defects were corrected and independently checked:
+the supported input validation passes and the archive writer reproduces exactly
+700 canonical groups. All 300 curated local-manifest files matched their hashes;
+the nine checkpoints, 96 prediction files and 447 historical artifacts were
+verified. No new scientific calculations were needed for the packaging fixes.
+
+The reviewed results are incorporated in
+[manuscript version 3](../outputs/submission_evidence_v3/MANUSCRIPT_DRAFT.md),
+its [tables](../outputs/submission_evidence_v3/SEED_CORRECTED_RESULTS.md) and
+[claim ledger](../outputs/submission_evidence_v3/CLAIMS_AND_EVIDENCE.md).
+The remaining work is editorial: author/affiliation details, reference formatting
+and venue-specific preparation. The technical seed task is closed; no further
+training, new cohort or clinician-contact task is scheduled here.

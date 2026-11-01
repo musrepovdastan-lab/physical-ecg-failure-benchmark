@@ -1,0 +1,212 @@
+{
+  "checks": {
+    "different_seeds_produce_different_weights": true,
+    "preexisting_rng_state_does_not_change_weights": true,
+    "same_method_seed_same_weights_in_fresh_processes": true,
+    "same_seed_same_weights_across_all_methods": true
+  },
+  "n_fresh_processes": 18,
+  "note": "Initial state identity is verified separately from complete trajectory reproducibility.",
+  "rows": [
+    {
+      "ambient_state_tag": 111,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "705a6b3d82bf21251f61f92d620ef0c975b35ea0735d928522d136294c0c5429",
+      "method": "ordinary",
+      "rng_after_init_sha256": "6f0da9242a939c7919f5c043d285de0e95ec263650b6821d87dd5b0021646521",
+      "rng_before_init_sha256": "2abf020563a3db60ac9875dc0b455d03ac740280807785076cf93820cc45f6db",
+      "seed": 104729,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 987654321,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "705a6b3d82bf21251f61f92d620ef0c975b35ea0735d928522d136294c0c5429",
+      "method": "ordinary",
+      "rng_after_init_sha256": "6f0da9242a939c7919f5c043d285de0e95ec263650b6821d87dd5b0021646521",
+      "rng_before_init_sha256": "2abf020563a3db60ac9875dc0b455d03ac740280807785076cf93820cc45f6db",
+      "seed": 104729,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 111,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "705a6b3d82bf21251f61f92d620ef0c975b35ea0735d928522d136294c0c5429",
+      "method": "physics_aware_p050",
+      "rng_after_init_sha256": "6f0da9242a939c7919f5c043d285de0e95ec263650b6821d87dd5b0021646521",
+      "rng_before_init_sha256": "2abf020563a3db60ac9875dc0b455d03ac740280807785076cf93820cc45f6db",
+      "seed": 104729,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 987654321,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "705a6b3d82bf21251f61f92d620ef0c975b35ea0735d928522d136294c0c5429",
+      "method": "physics_aware_p050",
+      "rng_after_init_sha256": "6f0da9242a939c7919f5c043d285de0e95ec263650b6821d87dd5b0021646521",
+      "rng_before_init_sha256": "2abf020563a3db60ac9875dc0b455d03ac740280807785076cf93820cc45f6db",
+      "seed": 104729,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 111,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "705a6b3d82bf21251f61f92d620ef0c975b35ea0735d928522d136294c0c5429",
+      "method": "combined",
+      "rng_after_init_sha256": "6f0da9242a939c7919f5c043d285de0e95ec263650b6821d87dd5b0021646521",
+      "rng_before_init_sha256": "2abf020563a3db60ac9875dc0b455d03ac740280807785076cf93820cc45f6db",
+      "seed": 104729,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 987654321,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "705a6b3d82bf21251f61f92d620ef0c975b35ea0735d928522d136294c0c5429",
+      "method": "combined",
+      "rng_after_init_sha256": "6f0da9242a939c7919f5c043d285de0e95ec263650b6821d87dd5b0021646521",
+      "rng_before_init_sha256": "2abf020563a3db60ac9875dc0b455d03ac740280807785076cf93820cc45f6db",
+      "seed": 104729,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 111,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "70e7097dcafae812f49882ae1dcaddbc6039dfaeacbe7c93d3622e491d7975ce",
+      "method": "ordinary",
+      "rng_after_init_sha256": "d7e6ddb8121c4c0c1166842646e251b0f8fed2123cc868008392592916f318b2",
+      "rng_before_init_sha256": "688992bb60508e00e3898c1dd88fc8bc9b8d222dca351166cf1e2bfc4526acb3",
+      "seed": 130363,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 987654321,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "70e7097dcafae812f49882ae1dcaddbc6039dfaeacbe7c93d3622e491d7975ce",
+      "method": "ordinary",
+      "rng_after_init_sha256": "d7e6ddb8121c4c0c1166842646e251b0f8fed2123cc868008392592916f318b2",
+      "rng_before_init_sha256": "688992bb60508e00e3898c1dd88fc8bc9b8d222dca351166cf1e2bfc4526acb3",
+      "seed": 130363,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 111,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "70e7097dcafae812f49882ae1dcaddbc6039dfaeacbe7c93d3622e491d7975ce",
+      "method": "physics_aware_p050",
+      "rng_after_init_sha256": "d7e6ddb8121c4c0c1166842646e251b0f8fed2123cc868008392592916f318b2",
+      "rng_before_init_sha256": "688992bb60508e00e3898c1dd88fc8bc9b8d222dca351166cf1e2bfc4526acb3",
+      "seed": 130363,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 987654321,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "70e7097dcafae812f49882ae1dcaddbc6039dfaeacbe7c93d3622e491d7975ce",
+      "method": "physics_aware_p050",
+      "rng_after_init_sha256": "d7e6ddb8121c4c0c1166842646e251b0f8fed2123cc868008392592916f318b2",
+      "rng_before_init_sha256": "688992bb60508e00e3898c1dd88fc8bc9b8d222dca351166cf1e2bfc4526acb3",
+      "seed": 130363,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 111,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "70e7097dcafae812f49882ae1dcaddbc6039dfaeacbe7c93d3622e491d7975ce",
+      "method": "combined",
+      "rng_after_init_sha256": "d7e6ddb8121c4c0c1166842646e251b0f8fed2123cc868008392592916f318b2",
+      "rng_before_init_sha256": "688992bb60508e00e3898c1dd88fc8bc9b8d222dca351166cf1e2bfc4526acb3",
+      "seed": 130363,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 987654321,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "70e7097dcafae812f49882ae1dcaddbc6039dfaeacbe7c93d3622e491d7975ce",
+      "method": "combined",
+      "rng_after_init_sha256": "d7e6ddb8121c4c0c1166842646e251b0f8fed2123cc868008392592916f318b2",
+      "rng_before_init_sha256": "688992bb60508e00e3898c1dd88fc8bc9b8d222dca351166cf1e2bfc4526acb3",
+      "seed": 130363,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 111,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "2f6da4e634c829392aba74d2f766fdcdab3085d9159d6c9a294ad11c1c3bcb63",
+      "method": "ordinary",
+      "rng_after_init_sha256": "195ee5ca483d62441742032494338b7912a5337dc245107fe5636f359d41a15b",
+      "rng_before_init_sha256": "3df94457c983b5f5b4fbfe037d713e224be341d6e68bf38f5bf93463d32491ad",
+      "seed": 155921,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 987654321,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "2f6da4e634c829392aba74d2f766fdcdab3085d9159d6c9a294ad11c1c3bcb63",
+      "method": "ordinary",
+      "rng_after_init_sha256": "195ee5ca483d62441742032494338b7912a5337dc245107fe5636f359d41a15b",
+      "rng_before_init_sha256": "3df94457c983b5f5b4fbfe037d713e224be341d6e68bf38f5bf93463d32491ad",
+      "seed": 155921,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 111,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "2f6da4e634c829392aba74d2f766fdcdab3085d9159d6c9a294ad11c1c3bcb63",
+      "method": "physics_aware_p050",
+      "rng_after_init_sha256": "195ee5ca483d62441742032494338b7912a5337dc245107fe5636f359d41a15b",
+      "rng_before_init_sha256": "3df94457c983b5f5b4fbfe037d713e224be341d6e68bf38f5bf93463d32491ad",
+      "seed": 155921,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 987654321,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "2f6da4e634c829392aba74d2f766fdcdab3085d9159d6c9a294ad11c1c3bcb63",
+      "method": "physics_aware_p050",
+      "rng_after_init_sha256": "195ee5ca483d62441742032494338b7912a5337dc245107fe5636f359d41a15b",
+      "rng_before_init_sha256": "3df94457c983b5f5b4fbfe037d713e224be341d6e68bf38f5bf93463d32491ad",
+      "seed": 155921,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 111,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "2f6da4e634c829392aba74d2f766fdcdab3085d9159d6c9a294ad11c1c3bcb63",
+      "method": "combined",
+      "rng_after_init_sha256": "195ee5ca483d62441742032494338b7912a5337dc245107fe5636f359d41a15b",
+      "rng_before_init_sha256": "3df94457c983b5f5b4fbfe037d713e224be341d6e68bf38f5bf93463d32491ad",
+      "seed": 155921,
+      "torch_version": "2.11.0+cu128"
+    },
+    {
+      "ambient_state_tag": 987654321,
+      "cuda_version": "12.8",
+      "device": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "initial_state_sha256": "2f6da4e634c829392aba74d2f766fdcdab3085d9159d6c9a294ad11c1c3bcb63",
+      "method": "combined",
+      "rng_after_init_sha256": "195ee5ca483d62441742032494338b7912a5337dc245107fe5636f359d41a15b",
+      "rng_before_init_sha256": "3df94457c983b5f5b4fbfe037d713e224be341d6e68bf38f5bf93463d32491ad",
+      "seed": 155921,
+      "torch_version": "2.11.0+cu128"
+    }
+  ],
+  "runner_component": "the same seeded_model() called by train_one()",
+  "status": "PASS"
+}

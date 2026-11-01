@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "original_models": 9,
+  "corrected_models": 9,
+  "seed_level_metric_rows": 1008,
+  "prediction_files_verified": 96,
+  "seed_level_metrics": [
+    "AP_raw",
+    "AP_calibrated",
+    "Brier_raw",
+    "Brier_calibrated",
+    "sensitivity_raw",
+    "sensitivity_calibrated",
+    "FP_per_1000_raw",
+    "FP_per_1000_calibrated",
+    "AUROC_raw",
+    "ECE15_raw",
+    "ECE15_calibrated"
+  ],
+  "paired_contrast_groups": 700,
+  "draw_groups": 700,
+  "draws_per_group": 1000,
+  "q_values": [
+    0.0,
+    0.001,
+    0.005,
+    0.01,
+    0.05,
+    0.1,
+    1.0
+  ],
+  "scenarios": [
+    "RA_LL_only",
+    "equal_three_swap"
+  ],
+  "cohorts": [
+    "Ningbo_test",
+    "HEEDB"
+  ],
+  "q0_scenario_max_abs_delta": 0.0,
+  "sklearn_weighted_AP_max_abs_delta": 6.439293542825908e-15,
+  "historical_series": "calibration_role_control_v1; bootstrap intervals from calibration_role_control_completion_v2",
+  "interpretation_limit": "Old initial weights were not retained; old-new differences cannot isolate a pure initialization-seed effect."
+}

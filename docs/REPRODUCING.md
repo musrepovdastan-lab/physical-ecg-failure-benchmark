@@ -61,6 +61,30 @@ is documented in that study's reports. These dependencies are not bundled.
 identifiers, labels and predictions stay under `data/heedb_restricted/`. Aggregate
 outputs cannot reconstruct the restricted cohort.
 
+## Corrected initialization series and manuscript tables
+
+The corrected nine-fit series is documented in
+[supported commands](../outputs/calibration_role_control_seed_corrected_v1/SUPPORTED_REPRODUCTION.md).
+Its input-only check is for a prepared local research workspace: scientific
+inputs, checkpoints/caches and memberships omitted from the public clone remain
+necessary. It is not an end-to-end clean-clone reproduction command.
+
+The public aggregate tables can be checked without ECG datasets or model weights:
+
+```bash
+python outputs/submission_evidence_v3/verify_package.py
+```
+
+To re-export the manuscript tables from the included aggregate CSVs:
+
+```bash
+python outputs/submission_evidence_v3/build_tables.py
+```
+
+These commands use pandas/NumPy from the research requirements. They do not train,
+perform inference, fit calibration/thresholds or generate bootstrap samples.
+Historical manuscript v2 remains unchanged; v3 governs current role-control claims.
+
 ## Repository maintenance
 
 New code belongs in `src/` or its existing study directory. Generated outputs are

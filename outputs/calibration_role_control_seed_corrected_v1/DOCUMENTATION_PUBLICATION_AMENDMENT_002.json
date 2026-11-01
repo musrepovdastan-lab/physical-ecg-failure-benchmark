@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "purpose": "Explicit documentation publication update; no scientific computation",
+  "previous_validation_binding_sha256": "674dab9456f29cfcbc9eebde61e033101d84939d3cad6403cc90562906f3eb31",
+  "current_validation_binding_sha256": "148b3bc1e1b112ed6fac0d5f816a7e6fcc36a63060dea001dc7b5cd9b22b9d22",
+  "archived_files": {
+    "documentation_before_publication_20261101/docs/next_steps.md": "7b51087a5b833b08bdf8eb0f4886666f373dcbe18147419ac5bc17871f986141",
+    "documentation_before_publication_20261101/docs/RESULTS.md": "cbccf63972901f5c4bfb3358a85683deb93531c8c313b8d34efd0c28556d0ec4",
+    "documentation_before_publication_20261101/INPUT_VALIDATION_AMENDMENT_001.json": "674dab9456f29cfcbc9eebde61e033101d84939d3cad6403cc90562906f3eb31",
+    "documentation_before_publication_20261101/INPUT_VALIDATION_AMENDMENT_001_SHA256.txt": "2a063bb24861358bbca6ac1cc76a6268d45d97c0bc2e80ad6fa977b0e20e229f",
+    "documentation_before_publication_20261101/README.md": "8678e94f4607bf160bd523322c9a9becf8085dc5144096c6e9f631bc6a6c6ae3"
+  },
+  "current_documentation_sha256": {
+    "README.md": "f9da8e97535af4d64aa23de43ce4d75b9c1e19189093d4488cbf97587b8ac3a8",
+    "docs/RESULTS.md": "e0dd1578d5252d8a89d9ca9800e61304888c19b0fd7321d477a607825ca71acb",
+    "docs/next_steps.md": "3dbd2ba6e6c2c5edee9249f911e426ab30910dcc7e4d986c29716edf9f262cc0"
+  },
+  "original_frozen_protocol_sha256": "d1edfd3e55af95cebd2c93d596e43809ba5670c2ee8e2ec43bc568b90a0a8e14",
+  "original_training_runner_sha256": "f93928e7a80c6158a296cf4d8f3bf7e77e15aa41d41fbaa6af5f1a58a38d4f09",
+  "scientific_outputs_changed": false
+}
